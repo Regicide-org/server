@@ -1,0 +1,2063 @@
+---
+name: Towny
+language: Turkish
+author: ElgarL
+website: 'https://townyadvanced.github.io/'
+description: >
+  Language file for all game messages for this Locale.
+#A note on editing this file.
+#----------------------------
+#Do not alter this file if it is in the reference folder.
+#Before you edit this file, read about how Towny handles
+#language files:
+#https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#multi-language.
+#A note on text formatting (how Towny status_title_pvpinserts words.)
+#----------------------------------------------------
+#You MUST retain spacing in the texts.
+#If a text begins or ends with a space, it must remain that
+#way.
+#%s = data to be supplied by the plugin.
+#If you find that a line has multiple %s variables which would
+#be in a different order in your language, you can change them
+#to %1$s, %2$s, %4$s, %3$s to change their order. ie: %4$s
+#will always use the 4th variable, no matter where it is
+#placed on the line.
+#A note on text colouring and formatting.
+#----------------------------------------
+#Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+#Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+#DarkPurple = &9, LightGreen = &a, LightBlue = &b
+#Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+#This language file also supports using MiniMessage for colours
+#and formatting. Learn about MiniMessage formatting here:
+#https://docs.adventure.kyori.net/minimessage/format.html
+default_towny_prefix: '&6[Towny] &b'
+default_town_prefix: '&6[%s] &b'
+default_nation_prefix: '&6[%s] &6'
+unclaimed_plot_name: 'Sahipsiz'
+unclaimed_zone_name: 'VahЕџi DoДџa'
+############################################################
+#+------------------------------------------------------+ #
+#|help messages                                         | #
+#+------------------------------------------------------+ #
+############################################################
+help_0: 'Genel Towny YardД±mД±'
+help_1: 'Towny hakkД±nda daha fazla bilgi edinmek iГ§in aЕџaДџД±daki komutlarД± deneyin.'
+help_2: 'Kasaba Sohbeti'
+help_3: 'Ulus Sohbeti'
+help_4: 'Resident command help.'
+help_5: 'Town command help.'
+help_6: 'Nation command help.'
+help_7: 'Plot command help.'
+help_8: 'Towny command help.'
+help_9: 'Townyadmin command help.'
+towny_help_0: "General help for Towny"
+towny_help_1: "Displays a map of the nearby townblocks"
+towny_help_2: "Display the prices used with Economy"
+towny_help_3: "YГјksek skorlarД± gГ¶ster"
+towny_help_4: "Yeni gГјne kalan zamanД± gГ¶ster"
+towny_help_5: "Д°statistikleri GГ¶rГјntГјle"
+towny_help_6: "Towny'nin sГјrГјmГјnГј gГ¶ster"
+towny_top_help_0: "List top residents based on subcommand."
+towny_top_help_1: "List top land-owners based on subcommand."
+towny_top_help_2: "List wealthiest based on subcommand."
+town_help_1: 'KasabanД±zД±n durumu'
+town_help_2: '[Belediye BaЕџkanД±]'
+town_help_3: 'SeГ§ilen Еџehirlerin durumu'
+town_help_4: 'Konumunuzun kasaba durumuna kД±sayol.'
+town_help_5: 'Kasabalara Д±ЕџД±nlanД±r.'
+town_help_6: 'Belediye baЕџkanД± olarak sizinle yeni kasaba.'
+town_help_7: 'Hedef belediye baЕџkanД± olan yeni kasaba.'
+town_help_8: 'Belediye baЕџkanlarД± iГ§in komutlarД± listeleyin.'
+town_help_9: 'O gГјn bugГјn!'
+town_help_10: 'Kasabadaki tГјm Г§evrimiГ§i sakinleri listeleyin'
+town_help_13: "See a list of residents in the town."
+town_help_14: "See a list of ranks in the town."
+town_help_15: "See a list of outlaws in the town."
+town_help_16: "See a list of plotgroups in the town."
+town_help_17: "See a list of plot types in the town."
+town_help_18: "Say a message to the town members."
+town_help_19: "Set your town for sale, able to be bought by other players."
+town_help_20: "KasabanД± satД±lД±ЕџД±nД± iptal et."
+town_help_21: "Buy the given town, as long as it is for sale."
+town_help_22: "Deposit money into your town's bank."
+town_help_23: "Used to modify your resident's town ranks."
+town_help_24: "Used to delete your town."
+town_help_25: "Used to modify your town's outlaws."
+town_help_26: "List all towns, see /t list ? for help."
+town_help_27: "Leave the town you're a member of."
+town_help_28: "Withdraw money from your town's bank."
+town_help_29: "YardД±m iГ§in /t claim kullanД±n."
+town_help_30: "Used to unclaim land from your town."
+town_help_31: "Гњyeleri ekle ya da kaldД±r."
+town_help_32: "YardД±m iГ§in /t set ? kullanД±n."
+town_help_33: "YardД±m iГ§in /t buy ? kullanД±n."
+town_help_34: "YardД±m iГ§in /t toggle ? kullanД±n."
+town_help_35: "YardД±m iГ§in /t rank kullanД±n."
+town_list_help_0: "Belirtilen sayfayД± gГ¶r."
+town_list_help_1: "KasabalarД± Гјye sayД±sД±na gГ¶re listelenmiЕџ sayfada gГ¶ster."
+town_list_help_2: "AГ§Д±k kasabalarД± listelenmiЕџ sayfada gГ¶ster."
+town_list_help_3: "KasabalarД± banka bakiyelerine gГ¶re listelenmiЕџ sayfada gГ¶ster."
+town_list_help_4: "KasabalarД± alfabetik sД±raya gГ¶re listelenmiЕџ sayfada gГ¶ster."
+town_list_help_5: "List towns by claimed land, with the specified page."
+town_list_help_6: "List towns by number online, with the specified page."
+town_set_help_0: "Set your town's board."
+town_set_help_1: "Set your town's homeblock to where you're standing."
+town_set_help_2: "Sets the spawn point in your homeblock or an outpost spawnpoint when stood in an outpost."
+town_set_help_3: "See /town set perm ? for help."
+town_set_help_4: "Set your town's tax amount."
+town_set_help_5: "Set the special amounts for per-plot taxes."
+town_set_help_6: "Set the default prices for buying plots."
+town_set_help_7: "Set the cost to use /t spawn."
+town_set_help_8: "Set your town's name."
+town_set_help_9: "Set your town's tag."
+town_set_help_10: "Set the title or surname of your resident."
+town_set_help_11: "Set the max amount of money a percentage tax can take from a resident."
+town_jail_help_0: "List the town's jails."
+town_jail_help_1: "Jail a resident in the primary jail."
+town_jail_help_2: "Jail a resident in the primary jail, for the specified hours."
+town_jail_help_3: "Jail a resident in the primary jail, for the specified hours, in the specified jail."
+town_jail_help_4: "Jail a resident in the primary jail, for the specified hours, in the specified jail and cell."
+town_jail_help_5: "Jail a resident in the primary jail, for the specified hours, with the given bail amount."
+town_jail_help_6: "Jail a resident in the primary jail, for the specified hours, with the given bail amount, in the specified jail."
+town_jail_help_7: "Jail a resident in the primary jail, for the specified hours, with the given bail amount, in the specified jail and cell."
+town_jail_help_8: "Unjails the resident."
+town_purge_help: "Purges residents that have not logged in for the given amount of days."
+town_trust_help_0: "Adds a resident as Trusted in the town."
+town_trust_help_1: "Removes a resident as Trusted in the town."
+town_trust_help_2: "Lists the Trusted residents of a town."
+town_towntrust_help_0: "Adds a town as Trusted in the town."
+town_towntrust_help_1: "Removes a town as Trusted in the town."
+town_towntrust_help_2: "Lists the Trusted towns of a town."
+mayor_help_3: 'Talep alanД± Еџehire baДџlД± deДџil'
+mayor_help_4: 'EtrafД±nД±zda X yarД±Г§apД±na kadar hak iddia edin'
+mayor_help_5: 'Maksimum yarД±Г§ap iГ§in hak talebinde bulunun'
+mayor_help_6: 'Bu kasaba bloДџu sahiplenilmemiЕџ'
+mayor_help_7: 'EtrafД±nda hak iddia etmekten vazgeГ§meye Г§alД±Еџ.'
+mayor_help_8: 'TГјm kasaba bloklarД±nД± kaldД±rmaya Г§alД±ЕџД±n.'
+nation_help_1: 'UluslarД±n durumu'
+nation_help_2: '[Ulus]'
+nation_help_3: 'Hedef Гјlke durumu'
+nation_help_4: 'TГјm uluslarД± listeleyin'
+nation_help_5: 'Ulusunu terk et'
+nation_help_6: 'Yeni bir ulus yaratД±n'
+nation_help_7: 'Ulus lideri komutlarД±nД± listele'
+nation_help_8: 'Yeni bir ulus yaratД±n'
+nation_help_9: 'Ulustaki tГјm Г§evrimiГ§i sakinleri listeleyin'
+nation_help_11: "Lists the towns in the nation."
+nation_help_12: "Lists the allied nations of the nation."
+nation_help_13: "Lists the enemied nations of the nation."
+nation_help_14: "Used to join open nations."
+nation_help_15: "Deposits money into the nation bank."
+nation_help_16: "Used to delete your nation."
+nation_help_17: "Used to add or remove ranks from residents."
+nation_help_18: "See /n rank ? for help."
+nation_list_help_0: "View the specified page."
+nation_list_help_1: "List nations by resident-count, with the specified page."
+nation_list_help_2: "List nations by town-count, with the specified page."
+nation_list_help_3: "List nations which are open, with the specified page."
+nation_list_help_4: "List nations using bank balance, with the specified page."
+nation_list_help_5: "List nations in alphabetical order, with the specified page."
+nation_list_help_6: "List nations by claimed land, with the specified page."
+nation_list_help_7: "List nations by number online, with the specified page."
+nation_set_help_0: "Change the leader of the nation."
+nation_set_help_1: "Change the capital city of the nation."
+nation_set_help_2: "Set the amount of tax that towns will pay."
+nation_set_help_3: "Set the amount of tax that conquered towns will pay."
+nation_set_help_4: "Set the name of the nation."
+nation_set_help_5: "Set the title or surname of one of your residents."
+nation_set_help_6: "Set the nation tag."
+nation_set_help_7: "Set the nation board message."
+nation_set_help_8: "Set the nation spawn point."
+nation_set_help_9: "Set the cost to use /n spawn."
+nation_set_help_10: "Set the mapcolor used in Mapping plugins."
+nation_toggle_help_0: "Toggles peaceful status of the nation."
+nation_toggle_help_1: "Toggles public status, allowing non-residents to use /n spawn."
+nation_toggle_help_2: "Toggles open status, allowing towns to join without an invite."
+nation_toggle_help_3: "Toggles taxpercent, making towns pay a percentage instead of fixed rate."
+king_help_1: 'Ulus Lideri YardД±mД±'
+king_help_2: 'Д°ttifakД±nД±zД± kurun.'
+king_help_3: 'DГјЕџmanlarД±nД±zД± ayarlayД±n.'
+king_help_4: "Withdraw money from your nation bank."
+king_help_5: "Add or remove towns from your nation."
+king_help_6: "Use /n set ? for help."
+king_help_7: "Use /n toggle ? for help."
+king_help_8: "Used to absorb another nation into your nation."
+king_help_9: "Used to message everyone in your nation."
+res_1: 'Durumun'
+res_2: '[yerleЕџik]'
+res_3: 'Hedef oyuncunun durumu'
+res_4: 'TГјm aktif oyuncularД± listele'
+res_5: 'yardД±m iГ§in'
+res_6: 'Г‡evrimiГ§i maГ§'
+res_7: 'Tam ad'
+res_8: 'Just a humble farmer'
+res_9: "How much tax you will pay per day."
+res_10: "See /res jail ? for help."
+res_11: "See /res toggle ? for help."
+res_12: "See /res set ? for help."
+res_13: "Spawn to your town or bed."
+res_toggle_help_0: "Toggle your plots' pvp status."
+res_toggle_help_1: "Toggle your plots' fire status."
+res_toggle_help_2: "Toggle your plots' mobs status."
+res_toggle_help_3: "Toggle your plots' explosion status."
+res_toggle_help_4: "Toggle the ability to see plot borders."
+res_toggle_help_5: "Toggle the ability to see constant plot borders."
+res_toggle_help_6: "Toggle the ability to see town borders."
+res_toggle_help_7: "Toggle the ability to see plot notifications."
+res_toggle_help_8: "Toggle the ability to claim where you walk."
+res_toggle_help_9: "Toggle the ability to see the map when you change plots."
+res_toggle_help_10: "Remove all modes."
+res_toggle_help_11: "Spy on chat channels."
+res_toggle_help_12: "Toggle the ability to add plots to a plotgroup you have started."
+res_toggle_help_13: "Toggle the ability to see title messages when you change plots."
+res_toggle_help_14: "Toggle the ability to unclaim where you walk."
+res_toggle_help_15: "Toggle the ability to use the infotool to learn proper block/entity names."
+res_toggle_help_16: "Toggle the ability to deactivate your admin priviledges."
+res_jail_help_0: "Pays the bail cost to get out of jail."
+res_set_help_0: "Set your resident's About/Bio"
+res_set_help_1: "Set your resident's default plot permissions."
+res_set_help_2: "Set your resident's modes."
+mode_1: 'Her kasaba bloДџu arasД±ndaki haritayД± gГ¶ster'
+mode_2: 'YГјrГјrken iddia etmeye Г§alД±Еџ'
+mode_3: 'YГјrГјrken hak talebini reddetmeye Г§alД±Еџ'
+mode_4: 'Kasaba kanalД±na varsayД±lan sohbet'
+mode_5: 'Ulus kanalД±na varsayД±lan sohbet'
+mode_6: 'SavaЕџ bГ¶lgeleri yapmak iГ§in dГјЕџman sД±nД±rlarД±na %s yerleЕџtirebilir.'
+plot_perms: 'Г‡izim izinleri iГ§in %s yerine %s kullanД±n.'
+plot_perms_1: 'YerleЕџik araziler, dД±ЕџarД±dan gelen izinleri kullanmaz.'
+res_list: 'Sakinleri'
+res_sing: 'YerleЕџik'
+mayor_sing: 'Belediye BaЕџkanД±'
+admin_sing: 'YГ¶netici'
+town_sing: 'Kasaba'
+nation_sing: 'Ulus'
+nation_plu: 'Uluslar'
+king_sing: 'Lider'
+town_plu: 'Kasabalar'
+world_plu: 'DГјnyalar'
+world_sing: 'DГјnya'
+world_help_1: 'Mevcut dГјnyanД±n durumu'
+world_help_2: '[DГјnya]'
+world_help_3: 'DГјnyanД±n durumunu hedefleyin'
+world_help_4: 'TГјm dГјnyalarД± listeleyin'
+world_help_5: 'Bu parГ§ayД± yeniden oluЕџtur'
+world_help_6: 'See /tw toggle ? for help'
+world_help_7: 'See /tw set ? for help'
+world_set_help_0: "Set the world's wilderness name."
+world_toggle_help_0: "Toggle on/off if towns can claim land in this world."
+world_toggle_help_1: "Toggle on/off if Towny is enabled in this world."
+world_toggle_help_2: "Toggle on/off if wars can happen in this world."
+world_toggle_help_3: "Toggle on/off if pvp or forcepvp is enabled in this world."
+world_toggle_help_4: "Toggle on/off if friendlyfire is enabled in this world."
+world_toggle_help_5: "Toggle on/off if explosions are enabled or forced in this world."
+world_toggle_help_6: "Toggle on/off if fires are enabled or forced in this world."
+world_toggle_help_7: "Toggle on/off the various mobs spawning settings in this world."
+world_toggle_help_8: "Toggle on/off the revert-on-unclaim feature in this world."
+world_toggle_help_9: "Toggle on/off the explosions-are-reverted features in this world."
+world_toggle_help_10: "Toggle on/off the plot-clear-deletes-blocks command in this world."
+world_toggle_help_11: "Toggle on/off the plot-unclaiming-deletes-blocks feature in this world."
+townyadmin_help_1: 'Bu kasaba bloДџunun hak talebini kaldД±r'
+townyadmin_help_2: 'Г‡evrenizdeki hak talebinden vazgeГ§meye Г§alД±ЕџД±n.'
+admin_panel_1: "See /ta set ? for help"
+admin_panel_2: 'KasabayД± yeniden yГјkle'
+admin_panel_3: 'Yeni gГјn kodunu Г§alД±ЕџtД±rД±n'
+admin_panel_4: "Unclaim an space surrounding you"
+admin_panel_5: "See /ta plot ? for help"
+admin_panel_6: "Give a positive or negative amount of townblocks to a player or town"
+admin_panel_7: "See /ta toggle ? for help"
+admin_panel_8: "Commands for controlling these objects"
+admin_panel_9: "Teleport to the specified plot"
+admin_panel_10: "Check if the player has a permission node"
+admin_panel_11: "Reset your config"
+admin_panel_12: "Make a backup of your Towny data"
+admin_panel_13: "Dump your mysql db to flatfile"
+admin_panel_14: "Force save or load your database"
+admin_panel_15: "Run the newhour code"
+admin_panel_16: "Purge old residents"
+townyadmin_town_help_0: "Create a town with the given name and mayor."
+townyadmin_town_help_1: "Show the town status screen."
+townyadmin_town_help_2: "Add or remove residents from a town."
+townyadmin_town_help_3: "Rename a town."
+townyadmin_town_help_4: "Delete a town."
+townyadmin_town_help_5: "Spawn at a town."
+townyadmin_town_help_6: "Spawn at a town's outpost."
+townyadmin_town_help_7: "Use a town's rank command."
+townyadmin_town_help_8: "Use a town's set command."
+townyadmin_town_help_9: "Use a town's toggle command."
+townyadmin_town_help_10: "Alter a town's metadata."
+townyadmin_town_help_11: "Merge the 2nd town into the first town."
+townyadmin_town_help_12: "Merge the 2nd town into the first town, ignoring any rules."
+townyadmin_town_help_13: "Put money into the town bank."
+townyadmin_town_help_14: "Take money from the town bank."
+townyadmin_town_help_15: "Open the town's bankhistory book."
+townyadmin_town_help_16: "Alter a town's outlaws."
+townyadmin_town_help_17: "Make the town leave their nation."
+townyadmin_town_help_18: "Remove a town's conquered status."
+townyadmin_town_toggle_help_0: "Toggle the Town's PVP."
+townyadmin_town_toggle_help_1: "Toggle the Town's ForcePVP, preventing mayors from turning off pvp."
+townyadmin_town_toggle_help_2: "Toggle the Town's Public status, allowing non-residents to teleport there."
+townyadmin_town_toggle_help_3: "Toggle the Town's Explosion setting."
+townyadmin_town_toggle_help_4: "Toggle the Town's Fire setting."
+townyadmin_town_toggle_help_5: "Toggle the Town's Mob setting."
+townyadmin_town_toggle_help_6: "Toggle the Town's Taxpercent setting."
+townyadmin_town_toggle_help_7: "Toggle the Town's Open setting, allowing people to join the town without an invite."
+townyadmin_nation_help_0: "Create a nation with the given name and capital city."
+townyadmin_nation_help_1: "Show the nation status screen."
+townyadmin_nation_help_2: "Add towns from the nation."
+townyadmin_nation_help_3: "Remove towns from the nation."
+townyadmin_nation_help_4: "Rename a nation."
+townyadmin_nation_help_5: "Delete a town."
+townyadmin_nation_help_6: "Recheck the nation's towns to make sure they're close enough to the capital."
+townyadmin_nation_help_7: "Merge the 2nd nation into the first nation."
+townyadmin_nation_help_8: "Merge the 2nd nation into the first nation, ignoring any rules."
+townyadmin_nation_help_9: "Use a nation's toggle command."
+townyadmin_nation_help_10: "Use a nation's set command."
+townyadmin_nation_help_11: "Put money into the nation bank."
+townyadmin_nation_help_12: "Take money from the nation bank."
+townyadmin_nation_help_13: "Open the nation's bankhistory book."
+townyadmin_nation_help_14: "Place the town into the nation."
+townyadmin_nation_help_15: "Use the nation's rank command."
+townyadmin_nationrank_help_0: "Adds a nation rank to the resident."
+townyadmin_nationrank_help_1: "Removes a nation rank from the resident."
+townyadmin_database_help_0: "Force saves the database."
+townyadmin_database_help_1: "Force loads the database."
+townyadmin_database_help_2: "Removes all titles and surnames from every resident."
+ta_plot_help_0: "Claim a plot for a player."
+ta_plot_help_1: "View the metadata stored in the plot you are stood in."
+ta_plot_help_2: "Set plot metadata key and value."
+ta_plot_help_3: "Add or remove a metadata by key."
+ta_resident_help_0: "Rename a resident."
+ta_resident_help_1: "Add or remove a friend."
+ta_resident_help_2: "List or clear the friend list."
+ta_resident_help_3: "Delete a resident from the database."
+ta_toggle_help_0: "Turn on/off the ability to use the Wilderness in all worlds."
+ta_toggle_help_1: "Turn on/off the regeneration features in all worlds."
+ta_toggle_help_2: "Turn on/off devmode, shows extra logging messages to the player specified in the config."
+ta_toggle_help_3: "Turn on/off debug mode, showing extra messages in the log."
+ta_toggle_help_4: "Turn on/off the ability for towns or nations to remove money from their banks."
+ta_toggle_help_5: "Make a player an NPC or not."
+ta_set_help_0: "Set a towns mayor to the given player."
+ta_set_help_1: "Set a town with a new NPC mayor, they pay no upkeep."
+ta_set_help_2: "Set the capital of a nation."
+ta_set_help_3: "Set a nation's nationzone size."
+ta_set_help_4: "Set a resident's title."
+ta_set_help_5: "Set a resident's surname."
+ta_set_help_6: "Set a plot to a different town."
+ta_set_help_7: "Set a town's founder name."
+ta_set_help_8: "Use size 0 to remove nationzone override."
+ta_purge_help_0: "Purges residents who haven't logged in for longer than the given days, optionally set townless to remove only townless players, or specify a townname to only purge one town's residents."
+ta_townmeta_help_1: "View the metadata stored on the town you specify."
+ta_townmeta_help_2: "Set town metadata key and value."
+ta_townmeta_help_3: "Add or remove a metadata by key from the town."
+ta_residentmeta_help_1: "View the metadata stored on the resident you specify."
+ta_residentmeta_help_2: "Set resident metadata key and value."
+ta_residentmeta_help_3: "Add or remove a metadata by key from the resident."
+ta_nationmeta_help_1: "View the metadata stored on the nation you specify."
+ta_nationmeta_help_2: "Set nation metadata key and value."
+ta_nationmeta_help_3: "Add or remove a metadata by key from the nation."
+ta_reload_help_0: "Reloads database."
+ta_reload_help_1: "Reloads config."
+ta_reload_help_2: "Reloads language files."
+ta_reload_help_3: "Reloads Towny permissions."
+ta_reload_help_4: "Reloads all components of Towny."
+ta_depositall_help_0: "Deposit the given amount into all town and nation banks."
+plot_help_0: "Turns on the plot info HUD."
+plot_help_1: "Removes the owner of the plot."
+plot_help_2: "Deletes a list of blocks from the plot."
+plot_help_3: "See /plot set ? for help."
+plot_help_4: "See /plot toggle ? for help."
+plot_help_5: "See /plot group ? for help."
+plot_help_6: "Removes permission overrides for a player."
+plot_help_7: "Adds default permission overrides for a player."
+plot_help_8: "Opens the permission editor gui."
+plot_help_9: "Adds a resident as Trusted in the plot."
+plot_help_10: "Removes a resident as Trusted in the plot."
+plot_group_help_0: "Ex: /plot group new ExpensivePlots"
+plot_group_help_1: "Removes a plot from the specified group."
+plot_group_help_2: "Deletes a plotgroup completely."
+plot_group_help_3: "Renames the group you are standing in."
+plot_group_help_4: "Ex: /plot group set perm resident on."
+plot_group_help_5: "Ex: /plot group toggle [pvp|fire|mobs]"
+plot_group_help_6: "Ex: /plot group forsale 50"
+plot_group_help_7: "Ex: /plot group notforsale"
+plot_group_help_8: "Adds or removes a resident as trusted."
+plot_group_help_9: "Adds a resident as Trusted in the plotgroup."
+plot_group_help_10: "Removes a resident as Trusted in the plotgroup."
+plot_group_help_11: "Opens the plot perm GUI."
+plot_group_help_12: "Adds a player to the plot perm GUI."
+plot_group_help_13: "Removes a player to the plot perm GUI."
+plot_toggle_help_0: "Toggles pvp in the plot."
+plot_toggle_help_1: "Toggles explosions in the plot."
+plot_toggle_help_2: "Toggles fire in the plot."
+plot_toggle_help_3: "Toggles mobs in the plot."
+plot_group_toggle_help_0: "Toggles pvp in the plot group."
+plot_group_toggle_help_1: "Toggles explosions in the plot group."
+plot_group_toggle_help_2: "Toggles fire in the plot group."
+plot_group_toggle_help_3: "Toggles mobs in the plot group."
+plot_set_help_0: "Ex: Inn, Wilds, Farm, Embassy, etc."
+plot_set_help_1: "Sets a plot to an Outpost."
+plot_set_help_2: "Removes a plot type."
+plot_set_help_3: "Names a plot."
+plot_set_help_4: "Toggle all permissions."
+plot_set_help_5: "Sets the permissions of a level or type to on or off."
+plot_set_help_6: "Sets the permission of a level and type to on or off."
+plot_set_help_7: "Sets the permissions to the resident or town that owns the plots."
+plot_jailcell_help_0: "Adds a JailCell where you stand."
+plot_jailcell_help_1: "Removes a JailCell where you stand."
+msg_block_claim: 'Bu kasaba bloДџunu sahiplen'
+msg_block_claim_radius: 'Claim a radius of plots surrounding you.'
+msg_plot_nfs: 'SatД±lД±k arsayД± yД±kД±n'
+msg_plot_nfs_radius: 'Take down a radius of plots for sale'
+msg_nfs_abr: '&e'' fs '' ve '' nfs '', '' satД±Еџ Г¶ncesi '' ve '' satД±Еџ dД±ЕџД± '' kД±saltmalarД± olarak kabul edilir.'
+msg_plot_fs: 'Bu alanД± aГ§Д±k arttД±rmaya Г§Д±karД±n.'
+msg_plot_fs_radius: 'Put up a radius of plots for sale.'
+############################################################
+#+------------------------------------------------------+ #
+#|   Messages                                           | #
+#+------------------------------------------------------+ #
+############################################################
+msg_buy: '&b%s iГ§in %d %s satД±n aldД±.'
+msg_buy_resident_plot: '&b%s, %s iГ§in %s arsasД±nД± satД±n aldД±!'
+msg_couldnt_pay_taxes: '&b%s vergi Г¶deyemedi ve %s tarafД±ndan atД±ldД±.'
+msg_couldnt_pay_plot_taxes: '&b%s vergi Г¶deyemedi ve bir arsasД±nД± kaybetti.'
+msg_payed_town_tax: '&bГ–denen Еџehir vergisi '
+msg_payed_plot_cost: '&b%s iГ§indeki %s parseller iГ§in %s Г¶dendi'
+msg_payed_resident_tax: '&bГ–denen ikamet vergisi '
+msg_bankrupt_town: ' kasaba olarak kalmayД± gГ¶ze alamazdД±m.'
+msg_bankrupt_nation: ' bir ulus olarak kalmayД± gГ¶ze alamazdД±m.'
+msg_nation_not_peaceful: '&bUlus, barД±ЕџГ§Д±l devleti karЕџД±layamaz.'
+msg_nation_cant_peaceful: '&bNation couldn''t afford to become a peaceful nation. You must be able to pay % daily.'
+msg_peaceful_disabled: '&bUlus barД±ЕџД± kГјresel olarak devre dД±ЕџД± bД±rakД±ldД±.'
+msg_you_paid: '&bBarД±ЕџГ§Д±l bir statГј ayarlamak iГ§in %s altД±n Г¶dediniz.'
+msg_nation_set_peace: '&bUlusun devleti baЕџarД±yla deДџiЕџtirildi.'
+msg_nation_allow_peaceful: '&bBarД±ЕџГ§Д±l kalmak iГ§in millet izinleri artД±k: %s'
+msg_mobremoval_world: '&bMob larД±n ortaya Г§Д±kmasД±nД± engellemek: %s'
+msg_mobremoval_town: '&bKasaba MoblarД±nД±n ortaya Г§Д±kmasД±nД± engelleme izni: %s'
+msg_nation_peaceful: '&bUlusun Еџimdi barД±ЕџГ§Д±l'
+msg_tax_exempt: '&bKasaba personeli vergiden muaftД±r.'
+msg_del_nation: '&e%s &bulusu daДџД±ldД±!'
+msg_del_resident: '&e%s &btГјm Towny verilerini kaybetti!'
+msg_join_nation: '&b%s kasabasД± ulusa katД±ldД±!'
+msg_join_town: '&b%s Еџehire katД±ldД±!'
+msg_friend_add: '&b%s seni arkadaЕџ olarak ekledi.'
+msg_friend_remove: '&b%s seni arkadaЕџ olarak sildim.'
+msg_left_town: '&b%s kasabadan ayrД±ldД±'
+msg_you_left: '&bAyrД±ldД±n %s.'
+msg_not_mayor: '&bSen belediye baЕџkanД± deДџilsin.'
+msg_not_king: '&bUlus lideri deДџilsin.'
+msg_not_mayor_ass: '&bSen belediye baЕџkanД± veya asistan deДџilsin.'
+msg_not_king_ass: '&bUlus lideri veya bir asistan deДџilsin.'
+msg_own_nation_disallow: '&bBunu kendi ulusuna yapamazsД±n.'
+msg_no_perms_claim: '&bKasabanД±zД± geniЕџletme izniniz yok.'
+msg_outpost_disable: '&bOutpost''lar mevcut deДџil.'
+msg_kicked_by: '&e%s &btarafД±ndan kasabadan atД±ldД±n.'
+msg_kicked: '&b%s isimli yГ¶netici %s isimli kiЕџiyi kasabadan attД±.'
+msg_nation_kicked_by: '&bKasabanД±z %s tarafД±ndan ulustan atД±ldД±.'
+msg_town_left_nation: '&bKasabanД±z %s ulusunu terk etti.'
+msg_nation_town_left: '&b%s kasabasД± ulusunuzdan ayrД±ldД±.'
+msg_nation_kicked: '&b%s isimli kiЕџi, %s isimli kasabayД± ulustan attД±.'
+msg_raised_ass: '&b%s, %s''yi %s asistanД±na yГјkseltti.'
+msg_lowered_to_res_by: '&b%s tarafД±ndan normal ikamet eden statГјsГјne indirildiniz.'
+msg_lowered_to_res: '&b%s %s, normal ikamete indirildi.'
+msg_invalid_name: '&bBu isimlerin hiГ§biri geГ§erli deДџildi.'
+msg_invited_join_town: '&b%s isimli kiЕџi %s isimli kiЕџiyi kasabaya davet etti.'
+msg_invited_join_nation: '&b%s tarafД±ndan %s kasabasД± ulusa davet edildi.'
+msg_deny_invite: '&b%s davetinizi reddetti.'
+msg_invited: '&b%s grubuna katД±lmaya davet edildiniz.'
+msg_town_online: 'Kasaba da Г‡evrimiГ§i Olanlar'
+msg_nation_online: 'Ulus da Г‡evrimiГ§i Olanlar'
+msg_allied_nations: '&b%s Гјlkelerle mГјttefik %s.'
+msg_enemy_nations: '&b%s,%s Гјlkelerine karЕџД± bir nefret geliЕџtirdi.'
+msg_enemy_to_neutral: '&b%s statГјsГјnГј %s iГ§in barД±ЕџГ§Д±l olarak deДџiЕџtirdi.'
+msg_added_ally: '&b%s ulusunla mГјttefik.'
+msg_removed_ally: '&b%s, ulusunuzla ittifakД± iptal etti.'
+msg_added_enemy: '&b%s, ulusunuza karЕџД± bir nefret geliЕџtirdi.'
+msg_removed_enemy: '&b%s Гјlkenize karЕџД± barД±ЕџГ§Д±l hale geldi.'
+msg_unable_ally_enemy: '&cBizi dГјЕџman olarak gГ¶rdГјkleri iГ§in %s ile mГјttefik olamД±yor.'
+msg_deny_ally: '&b%s ittifak talebinizi reddetti.'
+msg_accept_ally: '&b%s Гјlkesi bir ittifak talebinizi kabul etti.'
+msg_ally_req_sent: '&bBir ittifak talebi %s ulusuna gГ¶nderildi.'
+msg_ally_request: '&b%s bir ittifak kurmak istiyor.'
+msg_unable_ally_offline: "&cHedef Гјlkenin belediye baЕџkanД± Г§evrim dД±ЕџД± olduДџu iГ§in ittifak talep edilemiyor."
+msg_unable_ally_npc: "&cHedef Гјlkenin belediye baЕџkanД± bir NPC olduДџu iГ§in ittifak talep edilemiyor."
+msg_claimed: '&2BaЕџarД±yla claim alД±ndД±'
+msg_unclaimed: '&2BaЕџarД±yla claim kaldД±rД±ldД±'
+msg_not_claimable: '&cBu dГјnya iddia edilemez.'
+msg_abandoned_area: '&bTerk edilmiЕџ alan%s'
+msg_admin_unclaim_area: '&cZorla bu alan silindi %s'
+msg_abandoned_area_1: '&bKasabanД±z bГ¶lgeyi terk etti'
+msg_no_money_purchase_plot: '&cBu arsayД± satД±n almak iГ§in yeterli paranД±z yok.'
+msg_town_no_money_purchase_plot: '&cKasabanД±n bu arsayД± geri alacak kadar parasД± yok..'
+msg_no_funds_new_town: '&c%s burada yeni bir kasaba kurmaya gГјcГјmГјz yetmez.'
+msg_no_funds_claim: '&cKasabanД±z,%s altД±n ile %s kasaba bloДџunu alamaz. Kasaba bankasД±na daha fazla para ekleyin.'
+msg_no_funds_to_buy: '&cKasabanД±z %s altД±n ile %s, %s satД±n alamaz. Kasaba bankasД±na daha fazla para ekleyin.'
+msg_annexed_area: '&2AlД±nan bГ¶lge %s'
+msg_max_plot_own: '&cEn fazla %s sayД±sД±ndan fazla arsaya sahip olamazsД±nД±z.'
+msg_max_outposts_own: '&c%s sayД±sД±ndan fazla karakola sahip olamazsД±nД±z.'
+msg_no_funds_new_nation: '&cKasabanД±n yeni bir ulus kurmaya gГјcГј yetmiyor.'
+msg_already_claimed: '&cBu alan zaten sahiplenildi, Еџu kiЕџi tarafД±ndan: %s'
+msg_already_claimed_1: '&cBu alan (%s) zaten birine ait.'
+msg_already_claimed_2: '&cBu alan zaten alД±ndД±.'
+msg_too_close: '&cBu bГ¶lge baЕџka bir Еџehire Г§ok yakД±n.'
+msg_too_far: '&cBu bГ¶lge diДџer kasabalardan Г§ok uzakta.'
+msg_not_claimed: '&bBu alan (%s) alД±namadД±.'
+msg_not_claimed_1: '&bBu alan Гјzerinde hak iddia edilmedi.'
+msg_not_own_area: '&cSeГ§ili alana sahip deДџilsiniz.'
+msg_not_own_place: '&bBu yer kimseye ait deДџil.'
+msg_area_not_own: '&cBu alan size ait deДџil.'
+msg_area_not_recog: '&cBu bГ¶lge Towny tarafД±ndan tanД±nmД±yor.'
+msg_specify_name: '&bKasaba adД±nД± belirtin'
+msg_specify_nation_name: '&bUlus adД±nД± belirtin'
+msg_peasant_right: '&bBir kГ¶ylГјnГјn liderlerini tahta zorlama hakkД± yoktur..'
+msg_cost_spawn: '&bKasabanД±n ortaya Г§Д±kД±ЕџД±na Д±ЕџД±nlanmak iГ§in %s Гјcretlendirildiniz.'
+msg_cost_spawn_refund: '&bKasaba ortaya Г§Д±kД±ЕџД±nД± kullanma Гјcreti size iade edildi.'
+msg_town_spawn_warmup: '&bIЕџД±nlanД±yorsunuz...'
+msg_town_rename_disabled: '&bKasaba Yeniden AdlandД±rma Devre DД±ЕџД±'
+msg_town_set_name: '&b%s kasabanД±n adД±nД± %s olarak deДџiЕџtirdi.'
+msg_nation_set_name: '&b%s, milleti uluslarД±nД±n ismini &e%s &bolarak yeniden adlandД±rdД±.'
+msg_changed_pvp: '&c%s PVP, %s olarak ayarlandД±.'
+msg_changed_public: '&cKasabanД±n genel durumu artД±k %s.'
+msg_changed_expl: '&c%s iГ§indeki patlamalar artД±k %s.'
+msg_changed_fire: '&c%s iГ§indeki yangД±n yayД±lmasД± artД±k %s.'
+msg_changed_mobs: '&c%s iГ§inde ortaya Г§Д±kan canavarlar artД±k %s.'
+msg_the_plot_group: 'Arsa Grubu'
+msg_changed_taxpercent: '&cYГјzdeye dayalД± vergiler artД±k %s.'
+msg_changed_open: '&cDavetsiz katД±lД±m artД±k %s.'
+msg_toggle_open_on_warning: 'UyarД±: Kasaba aГ§Д±ksa, kasaba izinleri kapatД±lmalД±dД±r. TГјr ''/town set perm off'' followed by ''/town set perm reset''.'
+msg_changed_world_setting: '&c%s iГ§in %s: %s.'
+msg_world_pvp: '&cBu dГјnya sadece PvP dir.'
+msg_world_mobs: '&cBu dГјnyada Canavar doДџma zorunluluДџu var.'
+msg_world_expl: '&cBu dГјnyada zorla Patlamalar var. Bu dГјnyada zorla Patlamalar var.'
+msg_world_fire: '&cBu dГјnyada ateЕџ yayД±ldД±.'
+msg_town_mobs: '&cBu kasabada canavarlar zorunlu olarak ortaya Г§Д±kД±yor.'
+msg_plot_pvp: '&cPVP Arena Arsa da deДџiЕџtirilemez.'
+msg_plot_regen_wrong_size: '&cRegen yalnД±zca varsayД±lan Г§izim boyutu (16) kullanД±ldД±ДџД±nda gerГ§ekleЕџtirilebilir.'
+msg_reloaded: '&2Towny nin ayarlarД± yeniden yГјklendi.'
+msg_undo_complete: '&2Geri alma tamamlandД±.'
+msg_give_total: '&b%s ikramiye verdi. (Toplam:%s)'
+mag_backup_success: '&2Yedekleme baЕџarД±lД±.'
+msg_xx_withdrew_xx: '&b%s %s altД±n %s bankasД±ndan Г§ekti.'
+msg_xx_deposited_xx: '&b%s %s altД±n,%s bankasД±na yatД±rdД±.'
+msg_insuf_funds: '&cO kadar altД±nД±n yok.'
+msg_err_withdraw_disabled: 'Bu bankadan para Г§ekme devre dД±ЕџД± bД±rakД±ldД±!'
+msg_err_deposit_capped: 'ParayД± kГјГ§Гјmsemek mГјmkГјn deДџil. Bu bankanД±n sД±nД±rД± %s.'
+msg_set_town_home: '&bKasabanД±n ana bloДџu %s olarak baЕџarД±yla deДџiЕџtirildi'
+msg_set_town_spawn: '&bKasabanД±n doДџma yeri baЕџarД±yla deДџiЕџtirildi.'
+msg_set_outpost_spawn: '&bKarakolun doДџma yeri baЕџarД±yla deДџiЕџtirildi.'
+msg_set_title: '&b%s isimli kiЕџiye "%s" unvanД± verildi.'
+msg_set_surname: '&b%s isimli kiЕџiye "%s" soyadД± verildi.'
+msg_clear_title_surname: '&b%s isimli kiЕџinin "%s" soyadД± temizlendi.'
+msg_clear_plot_material: '&bArsa, aЕџaДџД±daki blok tГјrlerinden temizlendi: %s.'
+msg_set_perms: '&bД°zinleri baЕџarД±yla deДџiЕџtirildi:'
+msg_set_claim: '&b%s nin hak talebinde bulunulabilirliДџi %s ile baЕџarД±yla deДџiЕџtirildi'
+msg_set_perms_reset: '&bTГјm %s alanlarД±ndaki izinler baЕџarД±yla sД±fД±rlandД±.'
+msg_usedefault: '&bBu dГјnya (%s) artД±k genel varsayД±lan ayarlarД± kullanД±yor.'
+msg_set_wild_perms: '&b%s in wild izinleri %s baЕџarД±yla deДџiЕџtirildi'
+msg_set_wild_ignore: '&b%s nin vahЕџi yok sayma bloklarД± %s olarak baЕџarД±yla deДџiЕџtirildi'
+msg_set_wild_name: '&b%s in vahЕџi adД± baЕџarД±yla %s olarak deДџiЕџtirildi'
+msg_set_wild_regen: '&b%s nin vahЕџi yenilenmesi Еџu Еџekilde baЕџarД±yla deДџiЕџtirildi ''%s'''
+msg_set_use_towny_on: '&bBu dГјnya artД±k kasaba kurallarД±nД± takip ediyor.'
+msg_set_use_towny_off: '&cBu dГјnya tГјm Еџehir etkileЕџimlerinden muaftД±r.'
+msg_error_must_be_int: '&bMiktar tam sayД± olmalД±dД±r.'
+msg_error_input_must_be_int: '&c%s bir tam sayД± olmalД±'
+msg_error_must_be_num: '&bMiktar bir sayД± olmalД±dД±r.'
+msg_error_input_must_be_num: '&c%s bir sayД± olmalД±'
+msg_must_specify_amnt: '&bMiktarД± belirtmelidir. Г–rneДџin %s 54'
+msg_town_set_tax: '&b%s, gГјnlГјk ikamet vergisini %s olarak ayarladД±'
+msg_town_set_plottax: '&b%s, parsellerin gГјnlГјk vergisini %s olarak belirledi'
+msg_town_set_plotprice: '&b%s, parsellerin fiyatД±nД± %s olarak belirledi'
+msg_town_set_alttax: '&b%s,%s parsellerinin gГјnlГјk vergisini %s olarak belirledi'
+msg_town_set_altprice: '&b%s,%s parsellerinin fiyatД±nД± %s olarak belirledi'
+msg_town_set_nation_tax: '&b%s, Гјlke vergisini %s olarak ayarladД±'
+msg_set_nation_tag: '&b%s ulus etiketini Еџu Еџekilde ayarladД± [%s]'
+msg_set_town_tag: '&b%s kasaba etiketini Еџu Еџekilde ayarladД± [%s]'
+msg_reset_nation_tag: '&b%s ulus etiketini sildi.'
+msg_reset_town_tag: '&b%s kasaba etiketini sildi.'
+msg_mayor_abandon: '&bHalkД±nД± terk mi edeceksin? Eminseniz "/town set mayor" ile baЕџka bir belediye baЕџkanД± seГ§in.'
+msg_new_day_tax: '&bYeni bir gГјn burada! Vergiler ve kira toplandД±'
+msg_new_day: '&bYeni bir gГјn burada Herkese GГјnaydД±n!'
+msg_new_king: '&b%s ArtД±k %s ulusunun lideri!'
+msg_err_new_king_notmayor: '&cYeni ulus lideri bir baЕџkan deДџil.'
+msg_err_king_not_in_nation: '&cYeni ulus lideri bu ulusa ait deДџil.'
+msg_err_fight_like_king: '&cBarД±Еџ bir seГ§enek deДџil! Bir lider gibi dГ¶vГјЕџ!'
+msg_no_access_nation_bank: '&cUlusun bankasД±na eriЕџiminiz yok.'
+msg_err_no_money: '&cBankada yeterli para yok.'
+msg_new_mayor: '&b%s Еџimdi belediye baЕџkanД±!'
+msg_new_nation: '&b%s isimli kiЕџi &e%s &badД±nda bir ulus kurdu'
+msg_new_town: '&b%s isimli kiЕџi &e%s &badД±nda bir kasaba kurdu h.o'
+msg_plot_for_sale: '&b%s arsayД± (%s) satД±Еџa sundu!'
+msg_plot_for_sale_amount: '&b%s, (%s) arsayД± %s fiyata satД±Еџa sundu!'
+msg_plot_set_type: '&bArsa tГјrГј %s olarak ayarlandД±'
+msg_cache_block_error: '&cTowny ye kayД±tlД± deДџilsiniz. Yeniden gГјnlГјДџe kaydetmeyi deneyin.'
+msg_cache_block_error_wild: '&cVahЕџi doДџada %s izin verilmez.'
+msg_cache_block_error_plot: '&cBu kasabada %s''Д±n %s giriЕџimine izin verilmiyor.'
+msg_cache_block_error_town_resident: '&cSakinlerin buraya %s girmesine izin verilmiyor.'
+msg_cache_block_error_town_allies: '&cMГјttefiklerin %s yapmasД±na izin verilmiyor.'
+msg_cache_block_error_town_outsider: '&cYabancД±larД±n %s giriЕџimine izin verilmez.'
+msg_err_cant_afford_tp_town: '&c%s ye Д±ЕџД±nlanmaya gГјcГјmГјz yetmez.'
+msg_err_not_public: '&cBu kasaba halka aГ§Д±k deДџil.'
+msg_err_not_open: '&c%s kasabasД±nД±n kapД±larД± herkese aГ§Д±k deДџil. Belediye baЕџkanД±ndan veya bir asistandan katД±lmasД±nД± isteyin.'
+msg_err_town_spawn_forbidden: '&cKasaba spawnД±na yolculuk yasak.'
+msg_err_town_spawn_nation_forbidden: '&cUlusunuzdaki diДџer kasabalara kasaba spawn seyahat etmek yasaktД±r.'
+msg_err_town_spawn_ally_forbidden: '&cKasaba, ulusunla mГјttefik olan kasabalara seyahat etmek yasak.'
+msg_err_public_spawn_forbidden: '&cDiДџer kasabalara halka aГ§Д±k olarak doДџmak yasaktД±r..'
+msg_err_public_spawn_enemy: '&cDГјЕџmanlar iГ§in halka aГ§Д±k doДџma yolculuДџu yasaktД±r.'
+msg_err_town_spawn_disallowed_from: '&c%s den kasaba doДџmasД±na izin verilmiyor.'
+msg_err_outpost_spawn: '&cBu kasaba iГ§in belirlenmiЕџ bir karakol spawn yeri yok.'
+msg_err_cant_afford_tp: '&bKasabanД±zД±n spawnД±na Д±ЕџД±nlanmayД± gГ¶ze alamazsД±nД±z.'
+msg_err_plot_nfs: '&cBu arsa satД±lД±k deДџil.'
+msg_err_not_part_town: '&cSeГ§ili bГ¶lge Еџehrinizin bir parГ§asД± deДџil.'
+msg_err_not_attached_edge: '&cSeГ§ili alan kenara eklenmemiЕџ.'
+msg_err_empty_area_selection: '&cAlmak istediДџiniz arazi diДџer arsalarД±nД±z ile Г§apraz! LГјtfen yan yana olan arazileri almaya Г§alД±ЕџД±n.'
+msg_err_not_enough_blocks: '&cBu araziyi almak iГ§in yeterli claim hakkД± yok (Claim hakkД± kazanmak iГ§in kasabanД±za yeni Гјyeler alabilirsiniz).'
+msg_err_cant_afford_blocks: '&cKasaba, %s maliyetiyle %s kasaba bloklarД±nД± talep edemez'
+msg_err_not_in_town_claim: '&cArsa talep etmek iГ§in bir Еџehire ait olmalД±sД±n.'
+msg_err_must_belong_town: '&cBir Еџehire ait olmalД±sД±n.'
+msg_err_dont_belong_town: '&cBir Еџehire ait deДџilsin.'
+msg_err_dont_belong_nation: '&bBir ulusa ait deДџilsin.'
+msg_err_not_same_nation: '&b%s ulusunuza ait deДџil.'
+msg_err_rect_auto: '&cOtomobili yalnД±zca Еџehirler ve sakinler kullanabilir.'
+msg_err_invalid_radius: '&cGeГ§ersiz yarД±Г§ap. Bir tam sayД± veya "otomatik" kullanД±n.'
+msg_err_not_configured: '&cBu dГјnya Towny tarafД±ndan yapД±landД±rД±lmadД±.'
+msg_err_updating_item_perms: '&cГ–Дџe kullanД±m izinleri Г¶nbelleДџi gГјncellenirken hata oluЕџtu.'
+msg_err_updating_switch_perms: '&cAnahtar izinleri Г¶nbelleДџi gГјncellenirken hata oluЕџtu.'
+msg_err_updating_destroy_perms: '&cД°zinleri yok etme Г¶nbelleДџini gГјncelleme hatasД±.'
+msg_err_updating_build_perms: '&cDerleme izinleri Г¶nbelleДџi gГјncellenirken hata oluЕџtu.'
+msg_err_admin_only: '&cBu komutu yalnД±zca bir yГ¶netici kullanabilir.'
+msg_err_admin_only_delete: '&cYalnД±zca yГ¶netici diДџer yerleЕџik verileri silebilir.'
+msg_err_admin_only_delete_town: '&cSadece bir yГ¶netici diДџer Еџehir verilerini silebilir.'
+msg_err_admin_only_delete_nation: '&cDiДџer ulus verilerini yalnД±zca bir yГ¶netici silebilir.'
+msg_err_online_or_npc: '&c%s Г‡evrimiГ§idir veya bir NPC dir.'
+msg_err_not_registered: '&cdata ya KayД±tlД± deДџilsin'
+msg_err_not_registered_1: '&c%s kayД±tlД± deДџil'
+msg_err_invalid_name: '&c%s geГ§ersiz bir isim.'
+msg_err_already_res: '&c%s zaten bir Еџehire ait.'
+msg_err_already_in_town: '&c%s zaten %s nin bir parГ§asД±.'
+msg_err_already_nation: '&cHedef kasaba zaten bir millete ait.'
+msg_err_invalid_property: '&cGeГ§ersiz "%s" Г¶zelliДџi.'
+msg_err_not_supported: '&cHenГјz desteklenmiyor.'
+msg_err_invalid_input: '&cGeГ§ersiz GiriЕџ. %s kullan'
+msg_err_negative: '&cGiriЕџ negatif olamaz.'
+msg_err_input_too_long: '&cGiriЕџ Г§ok uzun.'
+msg_err_invalid_choice: '&cGeГ§ersiz seГ§im'
+msg_err_invalid_sub: '&cGeГ§ersiz alt komut.'
+msg_err_command_disable: '&cBu komut iГ§in yeterli izne sahip deДџilsiniz.'
+msg_err_universe_limit: '&cEvren daha fazla kasaba tutamaz.'
+msg_err_too_many_npc: '&cГ‡ok fazla npc kayД±tlД±.'
+msg_err_negative_money: '&cNegatif paranД±z olamaz.'
+msg_err_not_percentage: '&cYГјzdeler 100 Гјn altД±nda olmalД±dД±r.'
+msg_err_no_economy: '&cEkonomi aГ§Д±lmadД±.'
+msg_err_not_block_type: '&cBu geГ§erli bir Г§izim tГјrГј deДџil!'
+msg_not_allowed_join: '&c%s nin bir Еџehire katД±lmasД±na izin verilmiyor.'
+msg_offline_no_join: '&c%s Г§evrimdД±ЕџД±, ancak izinleri kullanД±yor, bu yГјzden bir Еџehire katД±lamazsД±nД±z.'
+msg_err_cannot_perform_action: '&cBu eylem %s iГ§inde gerГ§ekleЕџtirilemez.'
+msg_npc_flag: '&bNPC bayraДџД± artД±k %s iГ§in %s.'
+msg_warning_delete: '&4*** UYARI, &e%s &4ALTIN EKSД°KLД°ДћД° NEDENД°YLE BД°R SONRAKД° YENД° GГњNDE SД°LД°NECEK ***'
+#these messages are only used if town/nation creation is set to admins only
+msg_admin_only_create_nation: '&cYalnД±zca yГ¶neticilerin Гјlke oluЕџturmasД±na izin verilir.'
+msg_admin_only_create_town: '&cYalnД±zca yГ¶neticilerin kasaba oluЕџturmasД±na izin verilir.'
+#Required residents to be part of a nation
+msg_err_not_enough_residents_new_nation: '&cKasabanД±zД±n bir ulus yaratmaya yetecek kadar Гјyesi yok.'
+msg_err_not_enough_residents_join_nation: '&b%s kasabasД±nda bir ulusa katД±lmaya yetecek kadar insan yok.'
+msg_not_enough_residents_no_longer_capital: '&bUlusun eski baЕџkentinde artД±k ulusun baЕџkenti olmaya yetecek kadar Гјye yok. Ulusun yeni baЕџkenti %s.'
+msg_town_not_enough_residents_left_nation: '&b%s kasabasД±nД±n artД±k bir ulusa Гјye olacak kadar sakini yok ve Гјlkeden Г§Д±karД±ldД±.'
+msg_nation_disbanded_town_not_enough_residents: '&b%s kasabasД±nД±n artД±k ulusu yГ¶netecek kadar sakini yok ve Гјlkeyi daДџД±lmaya zorladД±.'
+msg_not_enough_residents_refunded: '&bYeterli sayД±da ikametgahД±nД±z olmadД±ДџД± iГ§in Гјlkenizin daДџД±lmasД± iГ§in %s geri Г¶deme aldД±nД±z.'
+msg_not_enough_residents_capital: '&b%s kasabasД±nda ulusun baЕџkenti olmaya yetecek kadar sakin yok.'
+list_page: '&bSayfa %s/%s'
+list_err_not_enough_pages: '&cYalnД±zca %s sayfa mevcut'
+#Added in 0.30
+#Added in 0.31
+msg_err_tax_minimum_not_met: 'Ећehir verginizi %s nin altД±na ayarlayamazsД±nД±z.'
+msg_unknown_rank_available_ranks: 'Bilinmeyen sД±ra %s. Д°zin verilen sД±ralamalar %s.'
+msg_no_permission_to_give_rank: 'You do not have permission to grant this rank.Bilinmeyen sД±ra %s. Д°zin verilen sД±ralamalar %s'
+msg_you_have_been_given_rank: 'Size %s, %s rГјtbesi verildi.'
+msg_you_have_given_rank: '%s da %s rГјtbesini %s isimli kiЕџiye verdiniz.'
+msg_resident_not_your_town: 'O sakin bir kasabanД±n Гјyesi deДџil!'
+msg_resident_already_has_rank: '%s zaten bu %s rГјtbesine sahip.'
+msg_you_have_had_rank_taken: '%s, %s rГјtbesinden dГјЕџtГјnГјz.'
+msg_you_have_taken_rank_from: '%s nin %s rГјtbesini %s den kaldД±rdД±nД±z.'
+msg_resident_doesnt_have_rank: '%s, s rГјtbesine sahip deДџil.'
+msg_town_has_no_jails: 'Kasabada kurulu hapishane yok.'
+msg_no_permission_to_jail_your_residents: 'Kendi sakinlerinizi hapse atma izniniz yok.'
+msg_resident_not_part_of_any_town: 'O oyuncu herhangi bir kasabanД±n parГ§asД± deДџil.'
+msg_player_not_jailed_in_your_town: 'O oyuncu senin kasabanda hapse atД±lmadД±.'
+msg_cannot_spawn_while_jailed: 'HapsedilmiЕџken ortaya Г§Д±kamaz.'
+msg_cannot_abandon_town_while_jailed: 'HapsedildiДџinizde Еџehrinizi terk etmenize izin verilmez.'
+msg_player_escaped_jail_by_leaving_town: '%s gГ¶Г§ebe olarak hapisten kaГ§tД±.'
+msg_set_jail_spawn: 'Hapishane planД±nД±n ortaya Г§Д±kД±ЕџД± baЕџarД±yla ayarlandД±.'
+msg_killed_attempting_to_escape_jail: '&4%s hapishaneden kaГ§maya Г§alД±ЕџД±rken Г¶ldГјrГјldГј.'
+msg_err_jailed_players_no_teleport: '&4Hapsedilen oyuncular Д±ЕџД±nlanamaz!'
+msg_player_escaped_jail_into_wilderness: '&4%s,%s ile karЕџД±laЕџarak hapisten kaГ§tД±'
+msg_err_invalid_string_board_not_set: 'GeГ§ersiz dize, Town Board ayarlanmadД±.'
+msg_plot_name_removed: 'Arsa adД± kaldД±rД±ldД±.'
+msg_plot_name_set_to: 'Arsa adД± Еџu Еџekilde ayarlandД± [%s].'
+msg_plot_price_too_expensive: 'Arsa fiyatД± Г§ok pahalД±.'
+msg_you_robbed_player: '%s adlД± kiЕџiyi soydunuz %s.'
+msg_player_robbed_you: '%s seni %s Г§aldД±.'
+msg_you_lost_money: 'Г–ldГјДџГјn iГ§in %s kaybettin.'
+msg_player_couldnt_pay_player_town_bank_paying_instead: '%s in cГјzdanД± %s tatmin edemedi. %s Еџehir bankasД±ndan alД±ndД±.'
+msg_err_could_not_take_deathfunds: 'Г–lГјm fonu alamadД±.'
+msg_you_lost_money_dying: '%s kaybettiniz.'
+msg_your_town_lost_money_dying: 'KasabanД±z %s kaybetti.'
+msg_your_nation_lost_money_dying: 'Ulusunuz %s kaybetti.'
+msg_err_couldnt_take_deathfunds: 'Г–lГјm altД±nД± alamadД±.'
+msg_err_couldnt_take_town_deathfunds: 'Kasaba Г¶lГјm altД±nД± alamadД±.'
+msg_err_couldnt_take_nation_deathfunds: 'Ulus Г¶lГјm altД±nД± alamadД±.'
+msg_you_gained_money_for_killing: '%s AltД±n kazandД±nД±z.'
+msg_err_ender_pearls_disabled: '&4Ender Д°ncileri devre dД±ЕџД± bД±rakД±ldД±!'
+msg_err_no_sleep_in_enemy_inn: '&4DГјЕџmanД±n HanД±nda uyuyamazsД±n.'
+msg_err_cant_use_bed: '&4Bu yataДџД±n kapladД±ДџД± araziye sahip deДџilsiniz ve bu bir Han arsasД± deДџil.'
+msg_town_plots_revenue_disclaimer: '&aGГ¶sterilen gelir tahminidir ve arsa sahibinin Г¶deyip Г¶deyemeyeceДџi bir faktГ¶rdГјr.'
+msg_town_set_perm_syntax_error: 'Bu komut iГ§in geГ§ersiz kelime kombinasyonu. KullanД±mД± ''/town set perm ?'' For proper command syntax.'
+msg_plot_set_perm_syntax_error: 'Bu komut iГ§in geГ§ersiz kelime kombinasyonu. KullanД±mД± ''/plot set perm ?'' For proper command syntax.'
+#Added in 0.32
+msg_err_townadmintownrank_wrong_town: 'Гњye o kasabaya ait deДџil.'
+msg_err_resident_already_an_outlaw: 'Bu oyuncu, Еџehriniz tarafД±ndan zaten bir kanun kaГ§aДџД± olarak gГ¶rГјlГјyor.'
+msg_err_not_outlaw_in_your_town: 'Bir kasaba Гјyesini kanun kaГ§aДџД± olarak belirleyemezsiniz.'
+msg_you_have_been_declared_outlaw: '%s iГ§inde kanun kaГ§aДџД± ilan edildiniz. O kasabada Г¶lГј yakalanmayД±n.'
+msg_you_have_declared_an_outlaw: '%s,%s iГ§inde kanun kaГ§aДџД± ilan edildi.'
+msg_you_have_been_undeclared_outlaw: 'ArtД±k  %s de kanun kaГ§aДџД± deДџilsin.'
+msg_you_have_undeclared_an_outlaw: '%s artД±k %s iГ§inde bir kanun kaГ§aДџД± deДџil.'
+msg_err_player_not_an_outlaw: 'Bu oyuncu kanun kaГ§aДџД± olarak listelenmedi.'
+msg_err_outlaw_in_open_town: 'Seni haydut sayan aГ§Д±k bir kasabaya katД±lamazsД±n.'
+msg_you_are_an_outlaw_in_this_town: '&4Dikkatli ol %s seni kanun kaГ§aДџД± olarak gГ¶rГјyor, burada Г¶lmek hapis anlamД±na gelebilir.'
+msg_err_town_not_close_enough_to_nation: '%s nin ana bloДџu, baЕџkentinizin ana bloДџuna ulusunuza katД±lacak kadar yakД±n deДџil.'
+msg_nation_town_moved_their_homeblock_too_far: '%s nin ana bloДџu, ulusunuzun baЕџkentinin ana blokundan Г§ok uzaДџa taЕџД±ndД± ve ulusunuzdan kaldД±rД±ldД±.'
+#Added in 0.33
+msg_err_invalid_radius_number: '&cGeГ§ersiz yarД±Г§ap miktarД±. %s veya daha az kullanД±n.'
+#Added in 0.34
+msg_err_max_residents_per_town_reached: '&cMaksimum sakin sayД±sД±na (%s) zaten ulaЕџД±ldД±.'
+#Added in 0.35
+msg_err_resident_doesnt_meet_invite_cooldown: '&cOyuncu %s, bir Еџehire davet edilecek kadar uzun sГјredir sunucuda deДџil, lГјtfen bekleyin.'
+msg_cant_toggle_pvp_outsider_in_town: 'KasabanД±zda bir yabancД± var, pvp statГјnГјzГј deДџiЕџtiremezsiniz!'
+msg_err_unclaim_not_outpost: 'Hak talebinde bulunulamД±yor, bu arsa bir karakol deДџil!'
+outpost_plu: 'Karakollar'
+#Added in 0.36
+msg_err_not_enough_residents: 'Bu kasabada bunu yapacak kadar sakin yok.'
+#Added in 0.37
+msg_err_friendly_fire_disable: 'Dost ateЕџi devre dД±ЕџД± bД±rakД±ldД±!'
+#Added in 0.38
+msg_claim_error: '&cBaЕџka bir eklenti (%s) / (%s) kasaba bloДџu talebini durdurdu, iЕџlemi tamamlayamadД±.'
+#Added in 0.39
+msg_err_town_spawn_forbidden_war: '&cKasaba doДџma yolculuДџuna yalnД±zca savaЕџ sД±rasД±nda izin verilir.'
+msg_err_town_spawn_forbidden_peace: '&cSavaЕџ sД±rasД±nda kasaba da doДџma yolculuДџu yasak.'
+msg_err_town_spawn_nation_forbidden_war: '&cKasabanД±n Гјlkenizdeki diДџer kasabalara seyahat etmesine yalnД±zca savaЕџ sД±rasД±nda izin verilir.'
+msg_err_town_spawn_nation_forbidden_peace: '&cSavaЕџ sД±rasД±nda ulusunuzdaki diДџer Еџehirlere kasaba spawn seyahati yasaktД±r.'
+msg_err_town_spawn_ally_forbidden_war: '&cUlusunuzla mГјttefik olan Еџehirlere kasaba doДџma yolculuДџu yalnД±zca savaЕџ sД±rasД±nda izin verilir.'
+msg_err_town_spawn_ally_forbidden_false: '&cSavaЕџ sД±rasД±nda ulusunuzla mГјttefik olan kasabalara kasaba spawn seyahatleri yasaktД±r.'
+msg_err_public_spawn_forbidden_war: '&cDiДџer Еџehirlere halka aГ§Д±k seyahatlere yalnД±zca savaЕџ sД±rasД±nda izin verilir.'
+msg_err_public_spawn_forbidden_peace: '&cSavaЕџ sД±rasД±nda diДџer Еџehirlere halka aГ§Д±k seyahat etmek yasaktД±r.'
+#Added in 0.40
+mayor_help_9: 'Bir karakolun hak talebini reddetme giriЕџimi'
+#Added in 0.41 (Invite-Update)
+invite_plu: 'Davet etme'
+invite_sent_by: 'Davet GГ¶nderen'
+invite_help_1: 'Bir Еџehire katД±lma davetini kabul edin'
+invite_help_2: 'Bir Еџehire katД±lma davetini reddedin'
+invite_help_4: 'BГјtГјn kasabaya katД±lma davetlerini reddedin'
+invite_help_3: 'TГјm davetlerinizi listeleyin'
+town_invite_help_1: 'KasabanД±za bir oyuncu davet edin'
+town_invite_help_2: 'Bir oyuncuya gГ¶nderilen daveti iptal et'
+town_invite_help_3: 'GГ¶nderdiДџiniz tГјm davetleri listeler'
+town_invite_help_4: 'AldД±ДџД±nД±z tГјm davetleri listeler'
+town_invite_help_5: 'Bir ulusa katД±lma talebini kabul edin'
+town_invite_help_6: 'Bir ulusa katД±lma talebini reddedin'
+nation_invite_help_1: 'Bir Еџehri milletinize davet edin'
+nation_invite_help_2: 'Bir Еџehire gГ¶nderilen daveti iptal et'
+nation_invite_help_3: 'Kasabalara gГ¶nderilen tГјm davetleri listeleyin'
+nation_ally_help_1: 'Ulusunuza bir mГјttefik eklemeye Г§alД±ЕџД±n'
+nation_ally_help_2: 'Ulusunuzun bir mГјttefikini kaldД±rmaya Г§alД±ЕџД±n'
+nation_ally_help_3: 'GГ¶nderdiДџiniz tГјm mГјttefik istekleri listeler'
+nation_ally_help_4: 'AldД±ДџД±nД±z tГјm mГјttefik istekleri listeler'
+nation_ally_help_5: 'Bir ulusa mГјttefik olma talebini kabul edin'
+nation_ally_help_6: 'Bir ulusa mГјttefik olma isteДџini reddet'
+nation_ally_help_7: 'Bir mГјttefik talebini iptal edin'
+msg_player_denied_all_invites: "AlД±nan tГјm davetlerin reddedildi."
+msg_err_player_no_invites: '&cHiГ§ davetin yok!'
+msg_err_player_has_multiple_invites: '&cBirden fazla davetiniz var, lГјtfen belirtin!'
+msg_err_player_has_too_many_invites: '%s Г§ok fazla daveti varsa, tekrar davet etmeden Г¶nce onlardan bazД±larД±nД± reddetmelerini isteyin.'
+msg_err_player_already_invited: '&bZaten %s Еџehrinize katД±lmaya davet ettiniz!'
+msg_err_town_no_invites: '&bKasabanД±n hiГ§ daveti yok!'
+msg_err_town_specify_invite: '&cLГјtfen daveti belirtin!'
+msg_err_town_has_too_many_invites: '&bKasaba %s Г§ok fazla davete sahip, tekrar davet etmeden Г¶nce onlardan bazД±larД±nД± reddetmelerini isteyin.'
+msg_err_town_sent_too_many_invites: '&bKasaba Г§ok fazla davet gГ¶nderdi, tekrar denemeden Г¶nce bazД±larД±nД± iptal edin!'
+msg_err_town_already_invited: '&bZaten %s Гјlkenize katД±lmaya davet ettiniz!'
+msg_err_nation_specify_invite: '&cLГјtfen talebi belirtin!'
+msg_err_nation_no_requests: '&bUlusun herhangi bir mГјttefik talebi yok!'
+msg_err_nation_sent_too_many_invites: '&bUlus Г§ok fazla davetiye gГ¶nderdi, tekrar denemeden Г¶nce bazД±larД±nД± iptal edin!'
+msg_err_nation_sent_too_many_requests: '&bГњlke Г§ok fazla istek gГ¶nderdi, tekrar denemeden Г¶nce bazД±larД±nД± iptal edin!'
+msg_err_nation_has_too_many_requests: '&b%s Гјlkesinin Г§ok fazla isteДџi var, tekrar istemeden Г¶nce bazД±larД±nД± reddetmelerini isteyin.'
+player_received_invites: '&b%a/%m davet aldД±nД±z.'
+town_revoke_invite: '&bKasaba %s, onlara katД±lma davetinizi iptal etti.'
+town_revoke_invite_successful: '&bKasabanД±za katД±lma davetini baЕџarД±yla geri aldД±nД±z.'
+town_received_invites: '&bKasaba %a/%m davet aldД±.'
+town_sent_invites: '&bKasaba% a/%m davet gГ¶nderdi.'
+nation_revoke_invite: '&b%s Гјlkesi, onlara katД±lma davetinizi iptal etti.'
+nation_revoke_invite_successful: '&bUlusunuza katД±lma davetini baЕџarД±yla geri aldД±nД±z.'
+nation_revoke_ally: '&b%s ulusu mГјttefik isteДџini geri aldД±.'
+nation_revoke_ally_successful: '&bBir mГјttefik isteДџini baЕџarД±yla iptal ettiniz.'
+nation_received_requests: '&bГњlke %a/%m mГјttefik isteДџi aldД±.'
+nation_sent_invites: '&bГњlke% a/%m davet gГ¶nderdi.'
+nation_sent_ally_requests: '&bГњlke %a/%m mГјttefik isteДџi gГ¶nderdi.'
+no_confirmations_open: '&cOnaylayacak hiГ§bir Еџeyin yok!'
+successful_cancel: 'Д°Еџlem iptal edildi!'
+successful_deny: '&bDavet baЕџarД±yla reddedildi.'
+successful_deny_request: '&bAlly isteДџi baЕџarД±yla reddedildi.'
+msg_ally_removed_successfully: '&bAlly baЕџarД±yla kaldД±rД±ldД±.'
+town_deleted_by_admin: '&bKasaba &e%s &bbaЕџarД±yla silindi'
+nation_deleted_by_admin: '&e%s &bГјlkesi baЕџarД±yla silindi'
+are_you_sure_you_want_to_continue: 'Devam etmek istediДџine emin misin?'
+you_have_been_invited_to_join: 'KatД±lmaya davet edildiniz '
+you_have_been_requested_to_ally: 'MГјttefik olman istendi '
+this_message_will_expire: 'Bu, 20 saniye iГ§inde otomatik olarak sona erecek'
+player_sing: 'Oyuncu'
+nation_zone_this_area_under_protection_of: '%s nin bu kД±smД± Еџunun korumasД± altД±ndadД±r: %s'
+#Added in 0.42
+you_have_been_invited_to_join2: '%s grubuna davet edildiniz'
+you_have_been_requested_to_ally2: '%s ile ittifak kurmanД±z istendi'
+#Added in 0.43
+town_help_11: 'Yeni bir kasaba oluЕџturun. BoЕџluk deДџil "_" kullanД±n.'
+changed_plot_town: '&bArsa kasabasД±nД± baЕџarД±yla deДџiЕџtirdiniz: %s!'
+not_standing_in_plot: 'GeГ§erli bir komplonun iГ§inde durmuyorsunuz!'
+msg_err_homeblock_has_not_been_set: 'Ana Blok ayarlanmadД±, Г¶nce ''/town set homeblock'' kullanД±n.'
+msg_err_spawn_not_within_homeblock: 'Spawn homeBlock iГ§inde deДџil, Г¶nce ''/town set homeblock '' komutunu kullanД±n.'
+#Added in 0.44
+#TownyChat language strings
+tc_err_invalid_command: 'Hata: Bilinmeyen komut!'
+tc_settings_reloaded: '[TownyChat] Ayarlar yeniden yГјklendi!'
+tc_err_unrecognized_command_format: 'Hata: tanД±nmayan komut biГ§imi!'
+tc_channel_list_status: '(Durum)'
+tc_channel_list_in: 'Д°Г§inde'
+tc_channel_list_out: 'DД±ЕџarД±'
+tc_err_you_dont_have_perm_mute_list: 'Sesi kapatma listesini gГ¶rme izniniz yok'
+tc_err_you_dont_have_unmute_perm: 'Sesi aГ§ma izniniz yok'
+tc_err_no_channel_called_channel: 'AdlД± kanal yok &f%s'
+tc_err_no_muted_players_in_channel_players: '&f%s &biГ§inde sesi kapatД±lmД±Еџ oyuncu yok'
+tc_players_muted_in_channel: '[TownyChat] &f%n &2oyuncunun sesi &f%s &2: &f%s iГ§inde kapatД±ldД±'
+tc_err_no_online_players_with_name: '&f%s ismine sahip Г§evrimiГ§i oyuncu yok'
+tc_err_you_dont_have_mute_perms: 'Sessize alma izinlerine sahip deДџilsiniz'
+tc_err_you_cant_mute_admin: 'Bir Towny yГ¶neticisinin sesini kapatamazsД±nД±z.'
+tc_err_you_cant_mute_chat_mod: 'Bir sohbet moderatГ¶rГјnГјn sesini kapatamazsД±nД±z.'
+tc_player_already_muted_in_channel: '[TownyChat] Oyuncunun sesi zaten &f%s konumunda kapatД±ldД±'
+tc_player_is_now_muted_in_channel: '[TownyChat] &f%s &2 artД±k &f%s &2iГ§inde susturuldu'
+tc_player_is_not_muted_in_channel: '[TownyChat] Oyuncu &f%s iГ§erisinde susturulmamД±Еџ'
+tc_player_is_now_unmuted_in_channel: '[TownyChat] &f%s &2 artД±k &f%s &2iГ§inde aГ§Д±ldД±'
+tc_err_you_are_currently_muted_in_channel: '&bЕћu anda &f%s &biГ§inde sesinizin kapatД±lmД±Еџ haldesiniz&c!'
+tc_err_you_cannot_leave_channel: '&f%s kanalД±ndan ayrД±lamazsД±n'
+tc_you_already_left_channel: '[TownyChat] Zaten &f%s kanalД±ndan ayrД±ldД±n'
+tc_you_left_channel: '[TownyChat] AyrД±ldД±n &f%s'
+tc_you_are_now_talking_in_channel: '[TownyChat] ArtД±k &f%s kanalД±nda konuЕџuyorsun'
+tc_err_you_cannot_join_channel: '&f%s kanalД±na katД±lamazsД±n'
+tc_you_are_already_in_channel: '[TownyChat] Zaten &f%s kanalД±ndasД±n'
+tc_you_joined_channel: '[TownyChat] &f%s kanalД±na katД±ldД±n'
+tc_err_you_are_already_talking_in_default_channel_help: 'Zaten varsayД±lan kanalda konuЕџuyorsunuz. BaЕџka bir kanala geГ§mek iГ§in o kanalД±n komutunu kullanД±n.'
+tc_err_unable_to_talk_essentials_mute: 'KonuЕџamД±yorum ... Ећu anda sesiniz kapalД±!'
+tc_err_unable_to_talk_you_are_spamming: 'KonuЕџamД±yorum ... Spam yapД±yorsunuz!'
+msg_admin_set_plot_help_1: 'Kasabadayken.'
+msg_admin_set_plot_help_2: 'VahЕџi doДџada.'
+msg_err_not_enough_outposts_free_to_claim: 'Hak talebinde bulunmak iГ§in yeterli sayД±da karakol yok %s/%s'
+msg_err_over_outposts_limit: 'Karakoluna Д±ЕџД±nlanamazsД±n, limitini aЕџtД±n %s/%s'
+#Status Screen elements (/res, /town, /nation, /tw, /plot perm)
+#These are translated because we may (or may not) be handling longer words in a smart way.
+#If you are a translator feel free to skip over this section, as it may or may not appear very nice
+#in game. It would be best to see what the changes look like in game before you PR it to github.
+outlaws: 'Haydutlar:' #Used on /t outlawlist
+online: '&a(Aktif)'
+registered_last_online: '&2KayД±tlД±: &a%s &8| &2Son Г‡evrimiГ§i: &a%s' #Used in mayor hover text in /town status screen.
+status_perm: 'Yetki:' #Used on /plot perm, /res
+status_on: '&4AГ‡IK'
+status_off: '&aKAPALI'
+status_on_good: '&aAГ‡IK'
+status_off_bad: '&4KAPALI'
+status_forced: '&cZorla'
+status_adjustable: '&aAyarlanabilir'
+status_pvp: 'PVP:'
+explosions: 'Patlamalar:'
+firespread: 'AteЕџ YayД±lД±mД±:'
+mobspawns: 'YaratД±k DoДџmasД±:'
+owner_of_x_plots: '%s arsanД±n sahibi.'
+status_bank: 'Banka:'
+status_town: 'Kasaba:'
+status_no_town: 'Yok'
+status_town_ranks: 'Kasaba RГјtbeleri:'
+status_nation_ranks: 'Ulus RГјtbeleri:'
+jailed_in_town: ' Еџu kasabada: %s'
+status_friends: 'ArkadaЕџlar'
+rank_list_title: '%s RГјtbe Listesi'
+rank_list_mayor: 'BaЕџkan:'
+status_title_capital: '&b(BaЕџkent)'
+status_title_pvp: ' &4(PVP)'
+status_title_open: ' &b(AГ§Д±k)'
+status_town_board: 'Pano:'
+status_founded: 'KuruluЕџ:'
+status_founded_by: 'Kurucu:'
+status_town_size: 'Kasaba bГјyГјklГјДџГј:'
+status_town_size_bought: 'SatД±n alД±ndД±:'
+status_town_size_bonus: 'Bonus:'
+status_town_size_nationbonus: 'Ulus Bonusu:'
+status_town_outposts: 'Karakollar:'
+status_bank_town2: 'GГјnlГјk masraf:'
+status_bank_town3: 'Vergi:'
+status_town_nation: 'Ulus:'
+status_town_reslist_overlength: 've dahasД±...'
+status_nation_king: 'Lider:'
+status_nation_tax: 'Ulus Vergisi:'
+status_nation_conquered_tax: 'ConqueredTax:'
+status_nation_towns: 'Kasabalar'
+status_nation_allies: 'MГјttefikler'
+status_nation_enemies: 'DГјЕџmanlar'
+status_nation_enemied_by: 'Ulusunuzu dГјЕџman olarak gГ¶ren uluslar'
+status_world_claimable: '&aAlД±nabilir'
+status_world_noclaims: '&cAlД±namaz'
+status_world_forcepvp: 'ZorunluPVP:'
+status_world_fire: 'AteЕџ:'
+status_world_forcefire: 'Zorla AteЕџ:'
+status_world_forceexplosion: 'Zorla Patlama:'
+status_world_worldmobs: 'DГјnya YaratД±klarД±:'
+status_world_forcetownmobs: 'Zorla Kasaba YaratД±klarД±:'
+status_world_unclaimrevert: 'Geri alma iЕџlemini iptal et:'
+status_world_explrevert: 'Patlama Geri DГ¶nГјЕџГј:'
+status_world_ignoredblocks: 'GГ¶rmezden Gelinen Bloklar:'
+status_res_taxexempt: 'Yetkili, Еџehir vergilerini Г¶demekten muaftД±r.'
+status_res_tax: 'Ећehir vergisi:'
+status_res_plottax: 'Toplam arsa vergileri:'
+status_res_totaltax: 'Г–denmesi_gereken_toplam_vergi:'
+status_townblock_plottax: 'Plot Tax: '
+status_townblock_untaxed: 'Untaxed'
+#Added in 0.45
+msg_err_unable_to_use_bank_outside_nation_capital: 'Ulus bankanД±zД± baЕџkentin dД±ЕџД±nda kullanamazsД±nД±z.'
+msg_err_unable_to_use_bank_outside_your_town: 'Kasaba bankanД±zД± Еџehrinizin dД±ЕџД±nda kullanamazsД±nД±z.'
+msg_time_until_a_new_day: 'Yeni Bir GГјne Kalan SГјre: '
+msg_hours: 'saat'
+msg_minutes: 'dakika'
+msg_seconds: 'saniye'
+msg_err_invalid_string_nationboard_not_set: 'GeГ§ersiz dize, Nation Board ayarlanmadД±.'
+msg_plot_evict: 'Arsa baЕџarД±yla tahliye edildi.'
+msg_no_one_to_evict: 'Bu arsadan tahliye edilecek kimse yok.'
+#Added in 0.46
+nation_help_10: 'Ortaya Г§Д±kan uluslara Д±ЕџД±nlanma.'
+msg_nation_spawn_warmup: '&bIЕџД±nlanД±yorsunuz...'
+msg_set_nation_spawn: '&bUlusun doДџma yeri baЕџarД±yla deДџiЕџtirildi.'
+msg_err_cant_afford_tp_nation: '&c%s ye Д±ЕџД±nlanmaya gГјcГјmГјz yetmez.'
+msg_err_nationspawn_has_not_been_set: '&cUlus doДџma noktasД± belirlenmedi.'
+msg_err_spawn_not_within_nationtowns: '&cUlus, ulusun bir parГ§asД± olan bir kasabada doДџmalД±dД±r..'
+msg_err_spawn_not_within_capital: '&cUlusun doДџduДџu yer baЕџkentte olmalД±.'
+msg_err_nation_spawn_war: '&cSavaЕџ sД±rasД±nda ulusun ortaya Г§Д±kmasД± sevimli deДџil.'
+msg_err_nation_not_public: '&cBu millet halka aГ§Д±k deДџil.'
+msg_nation_toggle_public: '&aUlus ayarД± baЕџarД±yla deДџiЕџtirildi.'
+status_yes: '&aEVET'
+status_no: '&cHAYIR'
+msg_err_unable_to_use_bank_outside_bank_plot: 'Bu komutu bir banka veya ev arsasД± dД±ЕџД±nda kullanamazsД±nД±z.'
+msg_err_nation_spawn_forbidden: '&cUlus doДџma yolculuДџu yasaklandД±.'
+msg_err_nation_spawn_forbidden_war: '&cUlus doДџma yolculuДџuna yalnД±zca savaЕџ sД±rasД±nda izin verilir.'
+msg_err_nation_spawn_forbidden_peace: '&cSavaЕџ sД±rasД±nda ulus doДџma yolculuДџu yasaktД±r.'
+msg_err_nation_spawn_ally_forbidden: '&cUluslarД±n mГјttefik Гјlkelere seyahat etmesi yasaktД±r.'
+msg_err_nation_spawn_nation_forbidden_war: '&cUluslarД±n diДџer mГјttefik Гјlkelere seyahatine yalnД±zca savaЕџ sД±rasД±nda izin verilir.'
+msg_err_nation_spawn_nation_forbidden_peace: '&cSavaЕџ sД±rasД±nda ulusun diДџer mГјttefik Гјlkelere seyahat etmesi yasaktД±r.'
+msg_err_public_nation_spawn_forbidden: '&cDiДџer uluslara halka aГ§Д±k seyahat etmek yasaktД±r.'
+msg_err_public_nation_spawn_forbidden_war: '&cDiДџer uluslara halka aГ§Д±k seyahatlere yalnД±zca savaЕџ sД±rasД±nda izin verilir.'
+msg_err_public_nation_spawn_forbidden_peace: '&cSavaЕџ sД±rasД±nda diДџer uluslara halka aГ§Д±k seyahat etmek yasaktД±r.'
+msg_spawn_cost_set_to: '&b%s,/%s spawn kullanД±mД±nД±n fiyatД±nД± %s olarak ayarladД±'
+msg_err_cannot_set_spawn_cost_more_than: '&cDoДџma maliyetini Еџu deДџerden daha yГјksek ayarlayamazsД±nД±z: %s'
+msg_err_ally_isnt_public: '&cMГјttefikiniz, %s, halka aГ§Д±k spawnД± etkinleЕџtirmiyor. IЕџД±nlanma reddedildi.'
+msg_nation_changed_public: '&cThe Nation Д±n kamusal statГјsГј artД±k %s.'
+#Added in 0.47:
+status_plot_type: 'Arsa Tipi:'
+msg_no_self_jailing: 'Kendini hapse atamazsД±n.'
+online2: ' &a(Aktif)'
+build: 'Д°nЕџa etme'
+destroy: 'Yok etme'
+switch: 'DeДџiЕџtirme'
+item_use: 'EЕџya_KullanД±mД±'
+owner_status: 'Kurucu'
+towny_map_header: 'Towny HaritasД± '
+towny_map_unclaimed: 'Sahipsiz'
+towny_map_claimed: 'Talep edildi'
+towny_map_forsale: 'SatД±lД±k'
+towny_map_yourtown: 'Senin Еџehrin'
+towny_map_yourplot: 'Arsa'
+towny_map_ally: 'MГјttefik'
+towny_map_enemy: 'DГјЕџman'
+enabled: 'Etkin'
+disabled: 'Devre dД±ЕџД±'
+forced: 'Zorla'
+adjustable: 'Ayarlanabilir'
+#Added in 0.48:
+msg_no_funds_new_town2: '&c%s buraya yeni bir kasaba kuramazsД±n yeterli altД±nД±n yok, bu da fiyatД± %s.'
+msg_no_funds_new_nation2: '&cKasabanД±n yeni bir ulus kurmaya gГјcГј yetmez, bunun maliyeti %s.'
+msg_no_funds_claim2: '&cKasabanД±n bankasД±nda %s altД±n var, Bu claimi almak iГ§in %s altД±n gerekiyor. /t deposit %s komutunu kullanarak Еџehir bankasД±na %s altД±n ekleyin'
+msg_err_cant_afford_blocks2: '&cKasaba,%s maliyetiyle %s kasaba bloklarД±nД± talep edemez. /t deposit %s kullanarak Еџehir bankasД±na %s ekleyin'
+msg_err_not_enough_variables: '&cYeterli deДџiЕџken yok: '
+nation_rechecked_by_admin: '&bГњlkenin %s kasaba mesafeleri baЕџarД±yla yeniden kontrol edildi.'
+msg_err_nation_over_town_limit: '&cUlusunuz, Гјlke baЕџД±na izin verilen maksimum kasaba sayД±sД±na ulaЕџtД±: %s.'
+#Added in 0.49
+msg_process_claim: 'Arsa Hak Talebi Д°Еџleniyor...'
+msg_process_unclaim: 'Д°Еџleniyor Arsa Hak Talebi...'
+msg_total_townblocks: 'Toplam Kasaba BloklarД±: '
+#Added in 0.50
+friend_list: 'ArkadaЕџlar Listesi'
+#The following formatting lists apply to friends lists on the /res screen; townranks lists on the /town screen;
+#nationranks lists on the /nation screen; and probably more lists of residents.
+res_format_list_1: '&2' #First colour applied to Resident lists, ex: on /res, the friend list's Friends section.
+res_format_list_2: '&a' #Second colour applied to Resident lists, ex: on /res, the friend list's [1] section.
+res_format_list_3: '&f' #Third colour applied to Resident lists, ex: on /res, the friend list's list of friends' names section.
+townboard_message_colour_1: '&6'
+townboard_message_colour_2: '&e'
+nationboard_message_colour_1: '&6'
+nationboard_message_colour_2: '&e'
+not_registered: 'KayД±tlД± deДџil.'
+msg_error_missing_comparator: '&bNeye gГ¶re sД±ralanacaДџД±nД± belirtmelidir.'
+msg_error_invalid_comparator: '&bGeГ§ersiz karЕџД±laЕџtД±rД±cД±.'
+msg_error_multiple_comparators: '&bГ‡ok fazla karЕџД±laЕџtД±rД±cД±. YalnД±zca birini belirtin.'
+msg_error_comparator_failed: '&bKarЕџД±laЕџtД±rД±cД± baЕџarД±sД±z oldu. FarklД± bir tane dene.'
+number_of_residents: '(Sakin SayД±sД±)'
+number_of_towns: '(Д°lГ§e SayД±sД±)'
+town_name: 'Kasaba AdД±'
+nation_name: 'Ulus AdД±'
+refund_message: '&aKasaba bloДџu hakkД±nД±zdan vazgeГ§tiДџiniz iГ§in %s kadar Г¶deme aldД±nД±z(Д°ade edilen Kasaba bloДџu:%s).'
+msg_bankrupt_town_multiple: '&bAЕџaДџД±daki kasabalar bakД±m masraflarД±nД± karЕџД±layamadД±lar ve daДџД±ldД±lar: '
+msg_bankrupt_nation_multiple: '&bAЕџaДџД±daki Гјlkeler bakД±m masraflarД±nД± karЕџД±layamadД±lar ve daДџД±ldД±lar: '
+msg_couldnt_pay_tax: '&b%s vergi Г¶deyemedi ve atД±ldД± %s.'
+msg_couldnt_pay_nation_tax_multiple: '&bAЕџaДџД±daki Еџehirler ulus vergisini karЕџД±layamadД± ve ulusu terk etti: '
+msg_couldnt_pay_town_tax_multiple: '&bAЕџaДџД±daki sakinler Еџehir vergisini karЕџД±layamadД± ve sГјrgГјne gГ¶nderildi: '
+msg_couldnt_pay_plot_taxes_multiple: '&bAЕџaДџД±daki sakinler arsalarД±nД±n bir kД±smД± veya tamamД± iГ§in arsa vergisini karЕџД±layamadД±: '
+msg_bankrupt_town2: '&b%s bir kasaba olarak kalamazdД±.'
+msg_bankrupt_nation2: '&b%s ulus olarak kalamazdД±.'
+status_embassy_town: 'Ећu kasabalarda topraklarД± var'
+#Added in 0.51:
+msg_error_invalid_comparator_nation: '&bGeГ§ersiz karЕџД±laЕџtД±rД±cД±. %s deneyin.'
+msg_error_invalid_comparator_town: '&bGeГ§ersiz karЕџД±laЕџtД±rД±cД±. %s deneyin.'
+msg_err_merging_for_kings_only: '&bBirleЕџtirme yalnД±zca bir Ulus Lideri tarafД±ndan yapД±labilir.'
+msg_err_king_of_that_nation_is_not_online: '&b%s Ulusunun Lideri,%s Г§evrimiГ§i deДџil. BirleЕџtirme baЕџarД±sД±z oldu.'
+nation1_has_merged_with_nation2: '&6%s Гјlkesi, hГјkГјm sГјren milletiyle birleЕџmeyi kabul etti: %s.'
+msg_would_you_merge_your_nation_into_other_nation: '&6%s Гјlkenizi %s ulusuna dГ¶nГјЕџtГјrmeyi kabul eder misiniz? Bu, tГјm kasaba ve Гјlke bankalarД±nД±n parasД±nД± %s ye aktaracak.'
+no_open_towns: 'Listelenecek aГ§Д±k kasaba yok.'
+#Added in 0.52:
+msg_error_nation_has_no_allies: 'Ulusun listelenecek mГјttefiki yok.'
+msg_error_nation_has_no_enemies: 'Ulusun listelenecek dГјЕџmanД± yok.'
+msg_error_ta_plot_claim: 'Eksik oyuncu adД±, Г¶rneДџin:/ta plot claim OyuncuAdД± Burada hak talebinde bulun'
+msg_error_no_player_with_that_name: 'Д°simli oyuncu bulunamadД± %s'
+msg_admin_has_given_you_a_plot: 'Bir yГ¶netici sizin iГ§in bir arsa talep etti: %s'
+msg_town_forcemobs_setting_set_to: '%s kasabasД±nД±n mob ayarlarД± %s olarak zorunlu kД±lД±ndД±'
+msg_town_forcepvp_setting_set_to: '%s kasabasД±nД±n pvp ayarД± %s'
+msg_town_forcedisabledpvp_setting_set_to: '%s Еџehri, adhmindisabledpvp ayarlarД±nД± %s olarak zorladД±'
+msg_nation_changed_open: '&cUlusun statГјsГј artД±k aГ§k %s.'
+msg_err_already_in_a_nation: 'KasabanД±z zaten bir ulusun iГ§inde.'
+msg_err_nation_not_open: '&c%s Гјlkesinin kapД±larД± herkese aГ§Д±k deДџil. KralД±dan veya bir asistandan kasabanД±zД± davet etmesini isteyin.'
+msg_err_nation_homeblock_in_another_world: '&cKasabanД±zД±n ana bloДџu, ulus baЕџkentinin ana bloДџu ile aynД± dГјnyada deДџil.'
+status_bank_town_penalty_upkeep: 'Fazla vergi talep et:'
+#Added in 0.53:
+msg_error_cannot_town_spawn_youre_an_outlaw_in_town: '%s olarak doДџamazsД±nД±z, orada kanun kaГ§aДџД± olarak iЕџaretlendiniz.'
+#Added in 0.55:
+msg_you_cannot_use_that_command_while_jailed: '&4HapsedilmiЕџken bu komutu kullanamazsД±nД±z..'
+#Added in 0.56:
+msg_cache_block_error_town_nation: '&cUlusal Гјyelerin %s yapmasД±na izin verilmiyor.'
+#Added in 0.57:
+msg_err_already_res2: '&c%s zaten bir Еџehire ait.'
+msg_err_cannot_afford_plot_set_type_cost: '&cGrafiДџi %s tipi maliyetlendirmeye ayarlayamazsД±nД±z %s'
+msg_plot_set_cost: '&bGrafiДџi yazД±ya ayarlamak iГ§in %s Гјcretlendirildiniz: %s'
+msg_err_townspawn_has_not_been_set: '&cKasaba ortaya Г§Д±kmasД± ayarlanmadД±.'
+msg_err_player_too_far_from_town_spawn: '&c%s kasabaya davet almak iГ§in kasabanД±zД±n doДџmasД±ndan Г§ok uzakta. Maksimum mesafe:%s blok.'
+#Added in 0.58:
+msg_resident_bail_amount: 'YerleЕџik Kefalet masraflarД±: '
+msg_mayor_bail_amount: 'Belediye BaЕџkanД± Kefalet masraflarД±: '
+msg_king_bail_amount: 'Ulus Lideri Kefalet masraflarД±: '
+msg_has_paid_bail: '%s kefalet bedelini Г¶dedi ve serbest kaldД±.'
+msg_err_unable_to_pay_bail: 'Kefaleti karЕџД±layamД±yor.'
+msg_err_bail_not_enabled: 'Kefalet etkinleЕџtirilmedi.'
+msg_you_have_been_freed_from_jail: 'Hapisten salД±verildin.'
+msg_player_has_been_freed_from_jail_number: '%s,%s numaralД± hapishaneden kurtarД±ldД±.'
+msg_player_has_been_sent_to_jail_number: '%s,%s numaralД± hapishaneye gГ¶nderildi.'
+msg_player_is_not_online: '%s Г§evrimiГ§i deДџil.'
+msg_mysql_dump_success: 'MySQL veritabanД± dГ¶kГјmГј tamamlandД±.'
+msg_err_mysql_not_being_used: 'YapД±landД±rmanД±z mysql yi kaydetmek ve yГјklemek iГ§in ayarlanmamД±Еџ.'
+msg_save_success: 'VeritabanД± kaydedildi.'
+msg_load_success: 'VeritabanД± yГјklendi.'
+msg_err_cannot_afford_to_set_outpost: 'KasabanД±z, bu kasaba blokunu bir karakola yerleЕџtirmek iГ§in yeterli paraya sahip deДџil..'
+msg_too_close2: 'Bu bГ¶lge baЕџka bir kasabanД±n arsasД±na Г§ok yakД±n.'
+homeblock: 'ev bloДџu'
+townblock: 'kasaba bloДџu'
+outpost: 'karakol'
+msg_err_not_same_town: '&b%s senin kasabana ait deДџil.'
+#Added in 0.59:
+msg_modes_set: 'SeГ§ili Kanal: '
+msg_err_this_plot_doesnt_have_any_associated_metadata: 'Bu arsa, iliЕџkili herhangi bir meta veriye sahip deДџil.'
+msg_err_the_metadata_for_key_is_not_registered: '"%S" iГ§in meta veriler kayД±tlД± deДџil!'
+msg_key_x_was_successfully_updated_to_x: '%s anahtarД± baЕџarД±yla gГјncellendi %s.'
+msg_err_key_x_is_not_part_of_this_plot: '%s anahtarД± bu grafiДџin bir parГ§asД± deДџil, mГјmkГјnse lГјtfen ekleyin.'
+msg_err_key_x_already_exists: '%s anahtarД± zaten var!'
+msg_custom_data_was_successfully_added_to_townblock: 'Г–zel veriler baЕџarД±yla townblock a eklendi!'
+msg_data_successfully_deleted: 'Veriler baЕџarД±yla silindi!'
+msg_err_key_cannot_be_deleted: 'Anahtar mevcut olmadД±ДџД± iГ§in silinemez!'
+msg_err_this_town_doesnt_have_any_associated_metadata: 'Bu kasabanД±n iliЕџkili herhangi bir meta verisi yok.'
+msg_err_key_x_is_not_part_of_this_town: '%s anahtarД± bu kasabanД±n bir parГ§asД± deДџil, mГјmkГјnse lГјtfen ekleyin.'
+msg_custom_data_was_successfully_added_to_town: 'Г–zel veriler Еџehire baЕџarД±yla eklendi!'
+msg_err_this_resident_doesnt_have_any_associated_metadata: 'This resident doesn''t have any associated metadata.'
+msg_err_key_x_is_not_part_of_this_resident: 'Key %s is not part of this resident, if possible please add it.'
+msg_custom_data_was_successfully_added_to_resident: 'Custom data was successfully added to resident!'
+msg_err_this_nation_doesnt_have_any_associated_metadata: 'This nation doesn''t have any associated metadata.'
+msg_err_key_x_is_not_part_of_this_nation: 'Key %s is not part of this nation, if possible please add it.'
+msg_custom_data_was_successfully_added_to_nation: 'Custom data was successfully added to nation!'
+msg_error_too_many_pages: 'Г‡ok fazla sayfa.'
+msg_err_location_is_not_within_a_town: 'Konum bir kasaba iГ§inde deДџil.'
+msg_err_location_is_not_within_a_jail_plot: 'Konum bir Hapishane arsasД± iГ§inde deДџil.'
+msg_err_town_has_no_jail_spawns_set: 'Kasabada hapishane Г§Д±kma yeri yok.'
+msg_err_town_has_no_outpost_spawns_set: 'Kasabada belirlenmiЕџ bir karakol belirme yeri yok.'
+msg_err_location_is_not_within_an_outpost_plot: 'Konum, karakol arsasД± iГ§inde deДџil.'
+msg_err_town_has_not_set_a_spawn_location: 'Kasaba bir spawn yeri belirlemedi.'
+msg_err_town_has_no_claim_over_this_town_block: 'KasabanД±n bu kasaba bloДџu Гјzerinde hiГ§bir hakkД± yok.'
+msg_err_town_doesnt_belong_to_any_nation: 'Kasaba herhangi bir millete ait deДџil.'
+msg_err_mayor_doesnt_belong_to_town: 'Belediye baЕџkanД± kasabaya ait deДџil.'
+msg_err_tag_too_long: 'Г‡ok uzun etiketleyin.'
+msg_err_nation_has_not_set_a_spawn_location: 'Гњlke bir belirme konumu belirlemedi.'
+msg_err_resident_doesnt_belong_to_any_town: 'Sakin herhangi bir Еџehire ait deДџil'
+msg_err_could_not_set_default_modes_for: 'Д°Г§in varsayД±lan modlar ayarlanamadД±'
+#Added in 0.60
+msg_set_war_allowed_on: 'Bu dГјnyada savaЕџa izin verilecek.'
+msg_set_war_allowed_off: 'SavaЕџ bu dГјnyayД± etkilemeyecek.'
+#Added in 0.61
+#Added in 0.62
+msg_err_cannot_toggle_pvp_x_seconds_remaining: 'PVP yi deДџiЕџtiremezsiniz,%s saniye kaldД±.'
+msg_err_cannot_spawn_x_seconds_remaining: '%s saniye sonra tekrar Д±ЕџД±nlanabilirsiniz.'
+#Added in 0.63
+msg_plot_set_to_nfs: 'Arsa artД±k satД±lД±k deДџil.'
+msg_err_x_spawn_disallowed_from_x: '&c%s spawn''a %s dan izin verilmiyor.'
+msg_the_wilderness: "\nVahЕџi DoДџa"
+msg_enemy_areas: 'DГјЕџman alanlarД±'
+msg_neutral_towns: 'TarafsД±z kasabalar'
+#Added in 0.64
+msg_err_no_nation_with_that_name: '%s adД±nda bir Гјlke bulunamadД±'
+msg_err_cannot_unclaim_homeblock: 'Ana bloДџunuzu aГ§amazsД±nД±z, ana bloДџunuzu hareket ettirmek iГ§in ''/town set homeblock'' seГ§eneДџini kullanД±n.'
+#Added in 0.65
+msg_err_rename_cancelled: 'Yeniden adlandД±rma baЕџka bir eklenti tarafД±ndan iptal edildi.'
+#Added in 0.66
+#Added in 0.67
+msg_conquered: '[Fethedildi]'
+#Added in 0.68
+msg_plot_group_claim_confirmation: 'Bu arsa,%s arsa grubunun bir parГ§asД±dД±r, talebinizi onaylayarak hepsini satД±n alacaksД±nД±z.'
+msg_plot_group_unclaim_confirmation: 'Bu arsa,%s arsa grubunun bir parГ§asД± olup, bunlarД±n hepsine hak iddia etmeyeceДџinizi onaylarsД±nД±z.'
+msg_plot_group_toggle_confirmation: 'Bu arsa,%s arsa grubunun bir parГ§asД±dД±r ve hepsi Гјzerinde bir Г¶zelliДџi deДџiЕџtireceДџinizi onaylar..'
+msg_plot_group_set_perm_confirmation: 'Bu grafik,%s arsa grubunun bir parГ§asД±dД±r ve bunlarД±n hepsinde kalД±cД± Г§izgiyi ayarlayacaДџД±nД±zД± onaylarsД±nД±z..'
+msg_plot_evict_group: 'Bu gruplandД±rД±lmД±Еџ arsanД±n oyuncusunu baЕџarД±yla tahliye ettiniz, %s.'
+msg_err_plot_belongs_to_group_plot_fs: 'Arsa:%s bir gruba ait, kullan /plot group [group name] fs [amount]'
+msg_err_plot_belongs_to_group_set: 'Arsa bir gruba ait, kullan /plot group set'
+msg_plot_group_set_for_sale: '%s grubu satД±Еџa Г§Д±karД±ldД±!'
+msg_err_plot_already_belongs_to_a_group: 'Bu arsa zaten bir gruba ait:%s, lГјtfen baЕџka bir gruba eklemeden Г¶nce bu gruptan kasaba bloДџunu kaldД±rД±n.'
+msg_err_you_must_specify_a_group_name: 'Bir Г§izim grubu adД± belirtmelisiniz.'
+msg_plot_was_put_into_group_x: 'Arsa &9 (%s,%s) &2,%s grubuna yerleЕџtirildi'
+msg_err_plot_not_associated_with_a_group: 'Bu arsa bir grupla iliЕџkili deДџil.'
+msg_plot_was_removed_from_group_x: 'Arsa &9 (%s,%s) &2,%s grubundan kaldД±rД±ldД±'
+msg_plot_renamed_from_x_to_y: '%s arsa,%s olarak yeniden adlandД±rД±ldД±.'
+msg_err_plot_group_specify_price: 'LГјtfen fiyatД± belirtin, Г¶rn.: /plot group fs [price]'
+msg_player_put_group_up_for_sale_amount: '%s put group %s up for sale for %s!'
+msg_player_put_group_up_for_sale: '%s put group %s up for sale!'
+msg_err_could_not_set_group_type: 'Grup tГјrГј ayarlanamadД± - '
+msg_set_group_type_to_x: 'Г‡izim grubunun tГјrГј %s olarak deДџiЕџtirildi'
+msg_player_successfully_bought_group_x: '%s,%s arsa grubunu baЕџarД±yla satД±n aldД±'
+status_plot_group_name_and_size: 'Townblock Еџu grubun bir parГ§asД±: %s. Grupta toplam %s Townblock var.'
+msg_player_made_group_not_for_sale: '%s grubu satД±Еџ iГ§in deДџil %s yaptД±.'
+#Added in 0.69
+msg_err_cannot_set_group_to_jail: 'Г‡izim gruplarД± hapishane tГјrlerine ayarlanamaz.'
+#Added in 0.70
+msg_err_plot_group_name_required: 'Г‡izim grubu adД±nД± belirtmelisiniz yani, /plot group add {name}'
+msg_confirmation_spigot_click_accept: '%s Г¶Дџesini tД±klayД±n veya %s yazД±n'
+msg_confirmation_spigot_click_cancel: '%s Г¶Дџesini tД±klayД±n veya %s yazД±n'
+msg_you_cannot_kick_yourself: 'Kendini tekmeleyemezsin.'
+msg_you_cannot_kick_this_resident: '%s i atamazsД±nД±z, onlar belediye baЕџkanД± veya asistan.'
+#Added in 0.71
+msg_err_plot_belongs_to_group_plot_fs2: 'Arsa:%s bir gruba ait, kullanД±mД± /plot group fs [miktar]'
+msg_err_plot_belongs_to_group_plot_nfs: 'Arsa:%s bir gruba ait, kullanД±mД± /plot group nfs'
+#Added in 0.72
+msg_err_admin_controlled_pvp_prevents_you_from_changing_pvp: 'YГ¶netici tarafД±ndan kontrol edilen% s ayarД±, pvp yi %s olarak deДџiЕџtirmenizi engelliyor.'
+#Added in 0.73
+msg_err_you_aren't currently jailed: 'Ећu anda hapiste deДџilsin.'
+#Added in 0.74
+msg_err_you_are_not_allowed_to_create_the_other_side_of_this_portal: 'Bu konumda bu portalД±n diДџer tarafД±nД± yaratmanД±za izin verilmiyor.'
+#Added in 0.75
+msg_already_ally: 'Ulusun zaten %s ile mГјttefik.'
+#Added in 0.76
+msg_you: 'Sen'
+#Added in 0.77
+msg_click_spawn: '&aDoДџmak iГ§in tД±klayД±n: &e%s'
+msg_spawn_cost: '&aDoДџma Maliyeti = &e%s'
+#Added in 0.78
+msg_reload_error: 'Towny yi yeniden yГјklerken bir hata oluЕџtu.'
+msg_reloaded_config: '&2YapД±landД±rma baЕџarД±yla yeniden yГјklendi.'
+msg_reloaded_perms: '&2Д°zinler baЕџarД±yla yeniden yГјklendi.'
+msg_reloaded_db: '&2VeritabanД± baЕџarД±yla yeniden yГјklendi'
+msg_reloaded_lang: '&2Dil dosyasД± baЕџarД±yla yeniden yГјklendi'
+msg_reset_config: '&2YapД±landД±rma sД±fД±rlandД±'
+msg_err_teleport_cancelled: 'Hareket, Д±ЕџД±nlanmanД±zД± iptal etti.'
+#Added in 0.79
+msg_cache_block_error_plot_friends: 'ArkadaЕџlar'
+msg_cache_block_error_plot_allies: 'mГјttefikler'
+msg_cache_block_error_plot_outsiders: 'yabancД±'
+msg_cache_block_error_plot_town_members: 'kasaba Гјyeleri'
+msg_err_invalid_nation_map_color: '&cBilinmeyen harita rengi. Д°zin verilen renkler %s.'
+msg_nation_map_color_changed: '&bUlus haritasД±nД±n rengi deДџiЕџtirildi %s.'
+msg_err_unable_to_add_more_residents_without_nation: 'KasabanД±z, Г¶nce bir ulusa katД±lmadan veya oluЕџturmadan %s sakininden fazlasД±nД± davet edemez.'
+msg_the_following_towns_were_deleted_for_having_0_claims: '0 claim talebinde bulunan aЕџaДџД±daki Еџehirler silindi: %s'
+msg_spawn_warn: 'Spawnlanma maliyeti %s AltД±n. Kabul ediyormusun? Д°pucu: Bu onaylarД± atlamak iГ§in -ignore ekleyin.'
+msg_confirm_purchase: 'Bunun fiyatД±  %s AltД±n. Kabul ediyormusun?'
+msg_warn_the_following_towns_will_be_removed_from_your_nation: 'Yeni baЕџkente yeterince yakД±n olmayacaklarД± iГ§in Еџu kasabalar Гјlkenizden silinecek: %s. Devam etmek istiyor musunuz?'
+msg_ta_deposit_all_success: 'BaЕџarД±yla tГјm Гјlke ve kasaba bankalarД±na %s yatД±rД±ldД±.'
+bonus_townblocks: 'bonus kasaba bloklarД±'
+#Added in 0.80
+nomad_sing: 'GГ¶Г§ebe'
+msg_new_town_advice: '&aЕћehrinizi yarattД±ДџД±nД±z iГ§in tebrikler! KasabanД±z, Еџu anda %s deДџerinde olan gГјnlГјk bir vergi Г¶deyecek."/t deposit miktar" komutunu kullanarak Еџehrinize para yatД±rabilirsiniz. vergi Г¶deyecek paranД±z yoksa Еџehriniz silinecektir. Maliyetlerinizi /towny prices ile istediДџiniz zaman gГ¶rebilirsiniz. Sonraki gГјnlГјk vergi %s iГ§inde alД±ndД±.'
+#Added in 0.81
+msg_err_teleport_cancelled_damage: 'Hasar aldД±nД±z Д±ЕџД±nlanmanД±z iptal edildi.'
+#Added in 0.82
+invitation_prefix: "&8[&7Davetiye&8] &9"
+confirmation_prefix: "&8[&7Onayla&8] &9"
+this_message_will_expire2: '&9Bu iЕџlem, %s saniye iГ§inde otomatik olarak sona erecek!'
+msg_hover_next_page: 'Sonraki Sayfa'
+msg_hover_previous_page: 'Г–nceki sayfa'
+#Added in 0.83
+msg_max_tax_amount_only_for_percent: "Maksimum vergi tutarlarД± yalnД±zca vergi yГјzdesi olan Еџehirler iГ§in belirlenebilir."
+msg_town_set_tax_max_percent_amount: "%s, maksimum vergi yГјzdesi tutarД±nД± %s olarak ayarladД±."
+#Added in 0.84
+msg_err_plot_belongs_to_group_toggle: 'Arsa bir gruba ait, kullanД±mД± /plot group toggle'
+#Added in 0.85
+msg_set_perms_reset_single: '&bBu grafikteki izinler baЕџarД±yla sД±fД±rlandД±.'
+#Added in 0.86
+status_bank_bankrupt: '(Д°FLAS ETTД°)'
+msg_warning_bankrupt: '&4*** UYARI %s, ALTIN EKSД°KLД°ДћД° NEDENД°YLE BД°R SONRAKД° YENД° GГњNDE BANKRUPA GД°DECEK ***'
+msg_town_bankrupt_by_upkeep: '&b%s, bakД±m masraflarД±nД± karЕџД±layamadД± ve iflas etti.'
+msg_town_bankrupt_by_upkeep_multiple: '&bAЕџaДџД±daki kasabalar bakД±m masraflarД±nД± karЕџД±layamadД± ve iflas etti: '
+msg_town_bankrupt_by_nation_tax: '&b%s, %s vergisini Г¶deyemedi ve iflas etti.'
+msg_town_bankrupt_by_nation_tax_multiple: '&bAЕџaДџД±daki kasabalar ulus vergisini karЕџД±layamadД± ve iflas etti: '
+msg_town_debts_cleared: '%s tГјm borГ§larД±nД± kapattД± ve artД±k iflas etmiyor.'
+msg_err_bankrupt_town_cannot_claim: 'Д°flas etmiЕџ bir kasaba iГ§in arsa talep etmenize izin verilmez.'
+msg_err_bankrupt_town_cannot_build: 'Д°flas etmiЕџ bir kasabada inЕџaat yapmaya izin verilmiyor.'
+msg_err_bankrupt_town_cannot_toggle_open: 'Д°flas etmiЕџ bir kasabada davetleri aГ§maya izin verilmez.'
+msg_err_bankrupt_town_cannot_invite: 'OyuncularД± iflas etmiЕџ bir Еџehre davet etmeye izin verilmez.'
+msg_payed_nation_tax: '&bЕћehriniz %s AltД±n Гјlke vergisini Г¶dedi.'
+msg_your_town_couldnt_pay_the_nation_tax_of: '&bЕћehrin %s ulusunun vergisini karЕџД±layamadД± ve ulustan atД±ldД±.'
+msg_your_town_payed_upkeep: '&bKasabanД±z %s gГјnlГјk bakД±mД±nД± Г¶dedi.'
+msg_your_nation_payed_upkeep: '&bГњlken %s gГјnlГјk bakД±mД±nД± Г¶dedi.'
+msg_your_town_couldnt_pay_upkeep: '&bKasabanД±z %s gГјnlГјk bakД±m masraflarД±nД± Г¶deyemedi ve daДџД±ldД±.'
+msg_your_nation_couldnt_pay_upkeep: '&bUlusunuz %s gГјnlГјk bakД±m masraflarД±nД± Г¶deyemedi ve daДџД±ldД±.'
+#Added in 0.87
+msg_town_reached_debtcap_and_is_disbanded: '&b%s, bakД±m masraflarД±nД± Г¶deyemedi, borГ§ kapaДџД±na ulaЕџtД± ve daДџД±ldД±.'
+msg_town_reached_debtcap_and_is_disbanded_multiple: '&bAЕџaДџД±daki kasabalar bakД±m masraflarД±nД± Г¶deyemediler, borГ§larД±na ulaЕџtД±lar ve daДџД±ldД±lar: '
+msg_unable_to_deposit_x: 'O kasabanД±n bankasД±na %s AltД±n yatД±rД±lamД±yor.'
+msg_unable_to_withdraw_x: 'O kasabanД±n bankasД±ndan %s AltД±n Г§ekilemiyor.'
+status_debtcap: 'BorГ§ Гњst SД±nД±rД±:'
+status_world_explrevert_entity: 'VarlД±k PatlamasД± Geri DГ¶ndГјrme:'
+status_world_explrevert_block: 'PatlamayД± Geri AlmayД± Engelle:'
+#Added in 0.88
+msg_nation_already_peaceful: '&cUlus zaten barД±ЕџГ§Д±l.'
+msg_nation_already_not_peaceful: '&cUlus zaten barД±ЕџГ§Д±l deДџil.'
+#Added in 0.89
+status_world_friendlyfire: 'Dost ateЕџi:'
+status_world_wildernessmobs: 'VahЕџi DoДџa MoblarД±:'
+msg_outlaw_kick_cooldown: '&c%s Гјlkesinde kanun kaГ§aДџД± sayД±lД±rsД±nД±z. KasabayД± terk etmek iГ§in %s hakkД±nД±z kaldД±, aksi takdirde yeniden doДџma noktanД±za Д±ЕџД±nlanacaksД±nД±z.'
+msg_outlaw_kicked: '&4%s iГ§inde hoЕџ karЕџД±lanmД±yorsun. IЕџД±nlandД±n.'
+msg_outlaw_town_notify: '&cBir haydut, %s Еџehrinizin topraklarД±na girdi.'
+msg_your_town_payed_upkeep_with_debt: '&cKasabanД±z gГјnlГјk %s bakД±m masrafД±nД± borГ§la Г¶dedi.'
+msg_payed_nation_tax_with_debt: '&cKasabanД±z borГ§la birlikte %s Гјlke vergisini Г¶dedi.'
+#Added in 0.90
+status_plot_clear_deletion: 'PlotClearBlockDelete:'
+msg_err_plot_clear_disabled_in_this_world: 'Bu dГјnyada /plot clear komutu devre dД±ЕџД± bД±rakД±lmД±ЕџtД±r.'
+#Added in 0.91
+msg_universe_attribution: 'YapД±mcД±lar: '
+msg_universe_contributors: ' Ve sizin gibi katkД±da bulunanlar. '
+msg_universe_heart: '<3'
+townblock_plu: 'Town BloklarД±'
+#Added in 0.92
+#Town Ruins
+msg_newhour_success: 'newhour komutu baЕџarД±yla yГјrГјtГјldГј'
+town_help_12: 'KasabanД±zД± yД±kД±k bir devletten geri alД±n.'
+msg_warning_town_ruined_if_deleted: "UYARI!: KasabanД±zД± silerseniz, %d saat boyunca harap bir duruma girecektir. Bu sГјreden sonra tam silme gerГ§ekleЕџecektir. YД±kД±lmД±Еџ durumda, tГјm izinler etkinleЕџtirilir ve kasaba kederli olabilir."
+msg_warning_town_ruined_if_deleted2: "Kasaba, %d saat sonra ''/t reclaim'' komutunu kullanД±larak herhangi bir kasaba sakini tarafД±ndan geri alД±nabilir."
+msg_err_cannot_reclaim_town_unless_ruined: '&cKasabanД± geri alamazsД±n Г§ГјnkГј mahvolmadД±.'
+msg_err_cannot_reclaim_town_yet: '&cKasabanД±zД± %d saat daha geri alamazsД±nД±z.'
+msg_town_reclaimed: '&b%s, %s kasabasД±nД± geri aldД±.'
+msg_err_cannot_use_command_because_town_ruined: "&cKasabanД±z mahvolduДџu iГ§in bu komutu kullanamazsД±nД±z. Normal komut kullanД±mД±na devam etmek iГ§in ya ''/town reclaim'' komutunu kullanarak Еџehri geri alД±n veya ''/town allow '' komutunu kullanarak kasabayД± terk edin."
+msg_warning_your_town_is_ruined_for_x_more_hours: '&cKasabanД±z %d saat daha harap durumda. KasabayД± kurtarmak iГ§in belediye baЕџkanД± olmalД±sД±nД±z! EДџer belediye baЕџkanД± iseniz ''/town reclaim'' komutunu kullanД±n.'
+msg_time_remaining_before_full_removal: 'Tam silinmeden Г¶nce kalan zaman: %d saat.'
+msg_time_until_reclaim_available: 'AlД±nabilirlik sГјresi: %d saat.'
+msg_reclaim_available: 'Geri alma mevcut.'
+#Added in 0.93
+msg_changed_peaceful: '&cKasabanД±n tarafsД±zlД±ДџД± / barД±ЕџseverliДџi artД±k %s.'
+msg_err_town_unclaim_canceled: '&cHak talebi iptal edildi. Bu bГ¶lgeyi Еџu anda hak talebinde bulunamazsД±nД±z.'
+#Added in 0.94
+msg_comptype_residents: 'Гњye SayД±sД±'
+msg_comptype_townblocks: 'Д°ddia Edilen Kasaba BloklarД±nД±n SayД±sД±'
+msg_comptype_balance: 'Bankadaki AltД±n'
+msg_comptype_online: 'Г‡evrimiГ§i Oyuncular'
+msg_comptype_towns: 'Д°lГ§e SayД±sД±'
+msg_comptype_name: 'Alfabetik sД±ra'
+msg_comptype_open: 'Genel Durum'
+msg_status_npc: '&c%s gerГ§ek bir oyuncu deДџildir ve yalnД±zca Towny ile sД±nД±rlД±dД±r.'
+npc_created: 'Kuruldu:'
+msg_no_funds_claim_plot: '&c%s altД±n maliyetine sahip arsayД± talep edemezsiniz.'
+msg_no_funds_claim_plot_group: '&c%s alttД±n maliyetine sahip %s arazilerini talep edemezsiniz.'
+status_town_title_peaceful: '&b(BarД±ЕџГ§Д±l)'
+#Added in 0.95
+status_public: '&b(Halka aГ§Д±k)'
+msg_days: ' gГјn'
+msg_comptype_public: 'Kamu Durumu'
+towny_prices_title: 'Fiyat'
+towny_prices_town_nation: '&e[Yeni] &2Kasaba: &a%s &8| &2Ulus: &a%s'
+towny_prices_reclaim: '&e[Geri Alma] &2Kasaba: &a%s'
+towny_prices_upkeep: '&e[Vergi] &2Kasaba: &a%s &8| &2Ulus: &a%s'
+towny_prices_overclaimed_upkeep: '&e[AЕџД±rД± Talep Edilen Vergi] &2Kasaba: &a%s'
+towny_prices_claiming_townblock: '&e[Talep ediliyor] &2TownBlok: &a%s'
+towny_prices_claiming_townblock_increase: ' &8| &2Kasaba BloДџu baЕџД±na artД±Еџ: &a+%s'
+towny_prices_claiming_outposts: '&e[Claiming] &2Karakollar: &a%s'
+towny_prices_upkeep_based_on: '&7Kasaba vergisi, &a%s'
+towny_prices_upkeep_num_plots: 'arsa sayД±sД±.'
+towny_prices_upkeep_town_level: 'kasaba seviyesi (sakinlerin sayД±sД±.)'
+towny_prices_overclaimed_based_on: '&8Fazla talep edilen vergi, &a%s %s deДџerine baДџlД±dД±r'
+towny_prices_overclaimed_num_plots: 'aЕџД±rД± talep edilen parsellerin sayД±sД± *'
+towny_prices_overclaimed_flat_cost: 'sabit bir maliyet'
+towny_prices_townname: '&cKasaba: &b%s'
+towny_prices_price_plot: '&c    [Fiyat] &2Arsa: &a%s &8| &2Karakol: &a%s'
+towny_prices_price_shop: '&c            &2Market: &a%s &8| &2ElГ§ilik: &a%s'
+towny_prices_taxes_plot: '&c    [Vergiler]    &2YerleЕџik: &a%s &8| &2Arsa: &a%s'
+towny_prices_taxes_shop: '&c            &2Market: &a%s &8| &2ElГ§ilik: &a%s'
+towny_prices_town_neutral_tax: '&c            &2BarД±Еџ durumu: &a%s'
+towny_prices_plots: '&c    [Arsa AyarlarД±]'
+towny_prices_type_single: '            &2%s: &a%s'
+towny_prices_type_double: '            &2%s: &a%s &8| &2%s: &a%s'
+towny_prices_nationname: '&cUlus: &6%s'
+towny_prices_nation_tax: '&c    [Vergiler] &2Kasaba: &a%s &8| &2BarД±Еџ: &a%s'
+#Added in 0.96
+msg_town_destroyed_by_nation_tax: '&bFethedilen Еџehir %s Гјlke vergisini Г¶deyemedi ve dГјЕџtГј.'
+msg_town_destroyed_by_nation_tax_multiple: '&bAЕџaДџД±daki fethedilen Еџehirler ulus vergisini karЕџД±layamadД± ve dГјЕџtГј: '
+msg_your_town_was_exempt_from_the_nation_tax: '&bKasabanД±z ulus vergisinden muaftД±.'
+#Added in 0.97
+status_perm_line_format: '&a%s=&7' #The Build = ---- Destroy = ---- seen in the status screen.
+msg_comptype_ruined: 'YД±kД±k Durumu'
+msg_comptype_bankrupt: 'Д°flas Durumu'
+msg_ruined: '&c(YД±kД±k)'
+msg_bankrupt: '&c(Д°flas)'
+#Added in 0.98
+msg_del_town2: '&b%s kasabasД± silindi!'
+msg_ruin_town: '&b%s kasabasД± harabeye dГ¶ndГј!'
+gui_title_select_plot_type: 'Arsa Tipi SeГ§'
+gui_title_no_restrictions: 'Bu arsa tГјrГј iГ§in herhangi bir kД±sД±tlama yoktur.'
+gui_title_towny_allowedblocks: '%s Д°zin Verilen Blok Listesi'
+gui_title_towny_wildsblocks: 'Towny VahЕџi DoДџa BloklarД± Listesi'
+gui_title_towny_itemuse: 'Towny ItemUse Listesi'
+gui_title_towny_switch: 'Towny Switch Listesi'
+gui_title_towny_plotclear: 'Towny Plot Clear Delete Listesi'
+#Added in 0.99 - FlatFile L10N
+#NOTICE
+#While these strings can be translated, we caution you to keep them in English.
+flatfile_dbg_cannot_set_capital_try_next: 'Nation %s could not set capital to %s, selecting a new capital...'
+flatfile_dbg_deleting_duplicate: 'Deleting: %s which is a duplicate of %s'
+flatfile_dbg_folders_found: 'Folders found %s'
+flatfile_dbg_group_file_missing_town_delete: 'Group file missing Town, deleting %s'
+flatfile_dbg_loading_group_list: 'Loading Group list...'
+flatfile_dbg_loading_nation: 'Loading Nation: %s'
+flatfile_dbg_loading_nation_list: 'Loading Nation list...'
+flatfile_dbg_loading_resident: 'Loading Resident: %s'
+flatfile_dbg_loading_resident_list: 'Loading Resident list...'
+flatfile_dbg_loading_server_world_list: 'Loading Server World List...'
+flatfile_dbg_loading_town: 'Loading Town: %s'
+flatfile_dbg_loading_town_list: 'Loading Town list...'
+flatfile_dbg_loading_townblock_list: 'Loading TownBlock list...'
+flatfile_dbg_loading_world: 'Loading World: %s'
+flatfile_dbg_loading_world_list: 'Loading World List...'
+flatfile_dbg_mismatched_townblock_size: '%s townblocks were found with a town_block_size that does not match your config, they were not loaded into memory.'
+flatfile_dbg_missing_file_delete_group_entry: 'Missing file: %s deleting entry in group.txt'
+flatfile_dbg_missing_file_delete_groups_entry: 'Missing file: %s deleting entry in groups.txt'
+flatfile_dbg_removing_nation_not_found: 'Removing %s because they are not found in the nations.txt'
+flatfile_dbg_removing_resident_not_found: 'Removing %s because they are not found in the residents.txt'
+flatfile_dbg_removing_town_not_found: 'Removing %s because they are not found in the towns.txt.'
+flatfile_dbg_town_fetch_outlaw: 'Town Fetching Outlaw: %s'
+flatfile_dbg_undefined_capital_select_new: 'Nation %s did not have a capital defined, selecting a new capital...'
+flatfile_dbg_world_loaded_townblocks: 'World: %s loaded %s TownBlocks.'
+flatfile_err_cannot_create_defaults: 'Could not create flatfile default files and folders.'
+flatfile_err_could_not_add_to_town: 'Could not add to town!'
+flatfile_err_exception_reading_file: 'Loading Error: Exception while reading file %s'
+flatfile_err_exception_reading_group_file_at_line: 'Loading Error: Exception while reading Group file %s at line: %s'
+flatfile_err_exception_reading_townblock_file_at_line: 'Loading Error: Exception while reading TownBlock file %s at line: %s.'
+flatfile_err_exception_reading_world_file_at_line: 'Loading Error: Exception while reading world file %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_file_error_reading_world_file_at_line: 'Loading Error: File error while reading %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_homeblock_load_invalid_location: '[Warning] %s - HomeBlock tried to load invalid Location.'
+flatfile_err_homeblock_load_invalid_townblock: '[Warning] %s - HomeBlock tried to load invalid TownBlock.'
+flatfile_err_homeblock_load_invalid_world: '[Warning] %s - HomeBlock tried to load invalid World.'
+flatfile_err_invalid_townblock_resident: 'Invalid resident for TownBlock %s. Skipped setting resident for TownBlock...'
+flatfile_err_loading_group_list_at_line: 'Error loading Group List at %s, in towny/data/groups.txt'
+flatfile_err_loading_world_list_at_line: 'Error loading World list at %s, in towny/data/worlds.txt'
+flatfile_err_nation_could_not_load_capital_disband: 'The nation %s could not load a capital city and is being disbanded.'
+flatfile_err_reading_nation_file_at_line: 'Loading Error: Exception while reading nation file %s at line %s, in towny/data/nations/%s.txt'
+flatfile_err_reading_outlaw_of_town_duplicate: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s is duplicated! Skipping adding duplicate...'
+flatfile_err_reading_outlaw_of_town_not_exist: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s does not exist! Removing from list...'
+flatfile_err_reading_resident_at_line: 'Loading Error: Exception while reading resident file %s at line: %s, in towny/data/residents/%s.txt'
+flatfile_err_reading_town_file_at_line: 'Loading Error: Exception while reading town file %s at line: %s, in towny/data/towns/%s.txt'
+flatfile_err_resident_tried_load_invalid_town: 'Loading Error: %s tried to load the town %s which is invalid. Removing town from the resident.'
+flatfile_err_town_homeblock_not_exist: '[Warning] %s does not have a HomeBlock.'
+flatfile_err_townblock_file_contains_unregistered_town_delete: 'TownBlock file contains unregistered Town: %s, deleting %s'
+flatfile_err_townblock_file_missing_town_delete: 'TownBlock file missing Town, deleting %s'
+flatfile_err_townblock_file_unknown_err: 'TownBlock file contains unknown error, deleting %s.'
+msg_ta_removed_all_titles_and_surnames_removed: 'TГјm sakinlerin unvanlarД± ve soyadlarД± kaldД±rД±ldД±.'
+msg_err_homeblock_already_set_here: 'Bu konum zaten Еџehrinizin ana bloДџu.'
+#Added in 0.100
+msg_town_merge_err_mayor_only: '&cBirleЕџtirme yalnД±zca bir belediye baЕџkanД± tarafД±ndan yapД±labilir.'
+msg_town_merge_err_not_close: '&c%s kasabasД±, Еџehrinizden Г§ok uzakta. OnlarД±n ana bloДџu, ana blokunuzdan en az %d kasaba bloДџu olmalД±dД±r.'
+msg_town_merge_request_sent: '&b%s belediye baЕџkanД±na birleЕџtirme isteДџi gГ¶nderildi.'
+msg_town_merge_request_received: '&b%s belediye baЕџkanД±, %s, Еџehrinizle birleЕџmek istedi. Bu, tГјm kasaba bloklarД±nД±, sakinleri ve kasaba bankasД± parasД±nД± %s''ye aktaracak.'
+msg_town_merge_request_denied: '&cBirleЕџtirme isteДџi reddedildi.'
+msg_town_merge_other_offline: '&c%s belediye baЕџkanД±, %s Еџu anda Г§evrimdД±ЕџД±. BirleЕџtirme baЕџarД±sД±z oldu.'
+msg_town_merge_err_too_many_residents: '&cBirleЕџtirme baЕџarД±sД±z oldu: Yeni yerleЕџik kiЕџi miktarД± (%d) sД±nД±rД±nД± aЕџД±yor'
+msg_town_merge_err_too_many_townblocks: '&cBirleЕџtirme baЕџarД±sД±z oldu: Yeni kasaba boyutu (%d) sД±nД±rД±nД± aЕџД±yor'
+msg_town_merge_err_too_many_outposts: '&cBirleЕџtirme baЕџarД±sД±z oldu: Yeni karakol miktarД± (%d) sД±nД±rД±nД± aЕџД±yor'
+msg_town_merge_err_not_enough_money: '&cBirleЕџtirme baЕџarД±sД±z oldu: Yeterli para yok. (%s/%s)'
+msg_town_merge_err_too_many_purchased_townblocks: '&cBirleЕџtirme baЕџarД±sД±z oldu: Г‡ok fazla satД±n alД±nmД±Еџ kasaba bloДџu (%d)'
+msg_town_merge_warning: '&cUyarД±: Kabul edilirse, %s ile birleЕџtirmenin maliyeti %s AltД±n olacaktД±r.'
+msg_town_merge_debt_warning: '&cUyarД±:%s Еџu anda borГ§lu, kabul edilirse borcunu Г¶demeniz gerekecek.'
+msg_town_merge_cost_breakdown: '&bMaliyet dГ¶kГјmГј: Temel maliyet: %s, Kasaba arazi maliyeti: %s, Д°flas maliyeti: %s, Bonus arazi maliyeti: %s'
+msg_town_merge_failed: '&cBirleЕџtirme baЕџarД±sД±z oldu.'
+msg_town_merge_cancelled: '&cBirleЕџtirme iptal edildi.'
+msg_town_merge_success: '&b%s tarafД±ndan sahip olunan %s kasabasД±, %s kasabasД±na baЕџarД±yla birleЕџtirildi.'
+#Reasons for withdrawing/depositing for the bankhistory book.
+msg_town_merge_cost_withdraw: 'Kasaba BirleЕџtirme Maliyetleri'
+msg_town_merge_transaction_reason: 'Kasaba BirleЕџtirme'
+towny_prices_town_merge: '&e[BirleЕџtirme] &2Temel Maliyeti: &a%s &8| &2BaЕџД±na Konu: &a%s'
+#Added in 0.101
+msg_err_nation_not_allied_with: '&cUlusunuz %s ulusu ile mГјttefik deДџil.'
+msg_err_nation_not_enemies_with: '&cUlusunuz %s ulusu ile dГјЕџman deДџil.'
+msg_err_nation_already_enemies_with: '&cUlusunuz %s ulusu ile zaten dГјЕџman.'
+msg_err_ally_already_requested: '&c%s ulusu ile ittifak yapmayД± zaten istediniz.'
+msg_err_nation_not_allied_with_2: '&c%s ulusu, %s ulusu ile mГјttefik deДџil.'
+msg_err_nation_not_enemies_with_2: '&c%s ulusu, %s ulusu ile dГјЕџman deДџil.'
+msg_err_nation_already_allied_with_2: '&c%s ulusu, %s ulusu ile zaten mГјttefik.'
+msg_err_nation_already_enemies_with_2: '&c%s ulusu, %s ulusu ile zaten dГјЕџman.'
+msg_ta_allies_enemies_updated: '&bMГјttefikler/DГјЕџmanlar iГ§in %s gГјncellendi.'
+#Added in 0.102
+towny_map_detailed_information: '&2AyrД±ntД±lД± arsa bilgilerini gГ¶rmek iГ§in tД±klayД±n.'
+msg_err_nation_capital_too_many_residents: '&cMevcut baЕџkentte %s ile deДџiЕџtirilemeyecek kadar Г§ok insan var.'
+msg_deleting_nation_will_result_in_losing_residents: '&cUyarД±: Гњlkenizi silmek, Еџehrinizin %d nГјfus sД±nД±rД±nД± aЕџtД±ДџД± anlamД±na gelir ve bu da %d sakininin Г§Д±karД±lmasД±yla sonuГ§lanД±r.'
+#Added in 0.103
+msg_command_blocked_inside_towns: '&cBu komutu kasaba iГ§inde kullanamazsД±nД±z..'
+msg_command_limited: 'Bu komutu sadece kendi arsalarД±nД±zda kullanabilirsiniz..'
+#Added in 0.104
+#Don't add a space to the end please
+msg_plot_perm_claimed_at: 'Ећurada alД±ndД±:'
+#Added in 0.105
+msg_wilderness_use_x_in_all_worlds: 'VahЕџi doДџa kullanД±mД± tГјm dГјnyalarda %s oldu.'
+msg_regenerations_use_x_in_all_worlds: 'Yenilenmeler tГјm dГјnyalarda %s oldu.'
+#Added in 0.106
+msg_command_outsider_blocked: '%s''de yaЕџamadД±ДџД±nД±z iГ§in bu komutu Г§alД±ЕџtД±ramazsД±nД±z.'
+#Added in 0.107
+msg_jailed_for_x_hours: ' %s saat iГ§in:'
+msg_err_this_jail_has_no_cells: 'Bu hapishanede hГјcre yok.'
+msg_err_no_cell_found_at_this_location: 'Bu konumda hiГ§bir hapishane hГјcresi bulunamadД±.'
+msg_jail_cell_set: 'Hapishane hГјcresi seti.'
+msg_jail_cell_removed: 'Hapishane hГјcresi kaldД±rД±ldД±.'
+msg_err_resident_is_already_jailed: '%s zaten hapse atД±ldД±'
+msg_err_the_town_does_not_have_that_many_jails: 'Kasabada bu kadar Г§ok hapishane yok.'
+msg_err_that_jail_plot_does_not_have_that_many_cells: 'Bu hapishane planД±nda o kadar Г§ok hГјcre yok.'
+msg_primary_jail_set_for_town: 'KasabanД±zД±n birincil hapishanesi kuruldu.'
+msg_x_has_been_freed_from_x: '%s isimli kiЕџi, %s hapishanesinden serbest bД±rakД±ldД±'
+msg_you_have_been_jailed: 'Hapse atД±ldД±n.'
+msg_run_to_the_wilderness_or_wait_for_a_jailbreak: 'VahЕџi doДџaya koЕџun veya jailbreak''i bekleyin.'
+msg_err_player_is_not_jailed: 'Bu oyuncu hapse atД±lmaz.'
+msg_you_have_paid_bail: 'Kefalet Г¶dedin.'
+msg_you_have_been_freed_via_jailbreak: 'ArtД±k Г¶zgГјrsГјn!'
+msg_you_have_served_your_sentence_and_are_free: 'Hapis cezanД± Г§ektin artД±k Г¶zgГјrsГјn.'
+msg_x_has_served_their_sentence_and_is_free: '%s hapis cezasД±nД± Г§ekti. O artД±k Г¶zgГјr!'
+msg_you've_been_jailed_for_x_hours: '%s saattir hapistesiniz.'
+msg_you_are_being_sent_to_jail: 'Hapse gГ¶nderiliyorsun...'
+msg_err_you_cannot_remove_the_last_cell: 'BaЕџka bir hГјcre eklenene kadar bu hapishanedeki son hapishane hГјcresini kaldД±ramazsД±nД±z'
+msg_do_not_log_out_while_waiting_to_be_teleported: 'Hapse Д±ЕџД±nlanmadan Г¶nce Г§Д±kД±Еџ yapmayД±n, bu Г¶lГјmcГјl olur.'
+jail_plu: 'Hapishaneler'
+jail_sing: 'Hapis'
+msg_resident_has_not_played_long_enough_to_be_jailed: '%s hapse atД±lacak kadar uzun oynamadД±, %s daha bekleyin'
+#Added in 0.108
+msg_town_not_peaceful: '&bTown barД±ЕџГ§Д±l bir devleti karЕџД±layamazdД±.'
+msg_town_already_peaceful: '&bЕћehir zaten barД±ЕџГ§Д±l.'
+msg_town_already_not_peaceful: '&bKasaba zaten barД±ЕџГ§Д±l deДџil.'
+msg_town_cant_peaceful: '&bTown couldn''t afford to become a peaceful town. You need to be able to pay %s per day.'
+msg_town_paid_for_neutral_status: '&bKasabanД±z, barД±ЕџГ§Д±l statГјnГјzГј korumak iГ§in %s altД±n Г¶dedi.'
+msg_nation_paid_for_neutral_status: '&bUlusunuz, barД±ЕџГ§Д±l statГјnГјzГј korumak iГ§in %s altД±n Г¶dedi.'
+your_town_has_been_invited_to_join_nation: 'KasabanД±z ulusa katД±lmaya davet edildi: %s'
+#Added in 0.109
+msg_err_no_one_to_purge: '&bTemizlenecek etkin olmayan Гјye yok.'
+msg_purging_will_remove_the_following_residents: '&bLГјtfen aЕџaДџД±daki sakinleri temizlemek istediДџinizi onaylayД±n: %s'
+msg_purge_complete_x_removed: '&bTemizleme tamamlandД±, %s sakin kaldД±rД±ldД±.'
+msg_err_days_must_be_greater_than_0: 'GГјnler sД±fД±rdan bГјyГјk olmalД±dД±r.'
+msg_err_outlawed_players_no_teleport: '&4Ећu anda bulunduДџunuz Еџehirde yasa dД±ЕџД±sД±nД±z, Д±ЕџД±nlanmanД±z mГјmkГјn deДџil!'
+msg_err_you_cannot_use_command_while_in_outlaw_town: '&4YasadД±ЕџД± olduДџunuz bir kasabadayken bu komutu kullanamazsД±nД±z.'
+#Added in 0.110
+msg_safe_mode: "[Hata] GГјvenli modda kilitlendi!"
+msg_safe_mode_base: '[Hata] Towny, bir hata nedeniyle GГјvenli Modda kilitlendi! '
+msg_safe_mode_player: 'Bir yГ¶neticiye sunucunun konsolunu kontrol etmesini sГ¶yleyin'
+msg_safe_mode_admin: 'Daha fazla bilgi iГ§in sunucunun konsolunu kontrol edin.'
+msg_err_you_can_only_claim_outposts_in_your_homeblocks_world: 'Sadece ana bloДџunuzun dГјnyasД±ndaki ileri karakollarД± talep edebilirsiniz.'
+msg_err_not_close_enough_to_your_town_nearest_plot: 'Karakol talep edemiyorsunuz, en yakД±n claim talebinizden %s Еџehir bloДџu kadar uzaktasД±nД±z. Д°zin verilen maksimum mesafe: %s Еџehir bloДџu.'
+msg_err_you_have_moved_your_homeblock_too_recently_wait_x: 'Ana bloДџunuzu Г§ok yakД±n zamanda taЕџД±dД±nД±z! %s saniye daha bekleyin.'
+msg_err_you_cannot_move_your_homeblock_this_far_limit_is_x_you_are_x: 'Ana bloДџunuzu bu kadar Г§ok blokla hareket ettiremezsiniz, sД±nД±r %s, bu alan %s blok Г¶tede.'
+msg_err_usingtowny_disabled: 'Bu dГјnya tГјm Towny etkileЕџimlerinden muaftД±r. Г–nce /townyworld geГ§iЕџini kullanaraktowny''yi kullanД±n.'
+#Added in 0.111
+msg_plot_group_already_exists_did_you_want_to_transfer: 'Bu Еџehir bloДџu zaten %s arsa grubunun bir parГ§asД±. %s arsa grubuna aktarmak istediДџinizden emin misiniz?'
+msg_townblock_transferred_from_x_to_x_group: 'Townblock, %s''den %s arsa grubuna aktarД±ldД±.'
+msg_plotgroup_deleted: '%s arsa grubu silindi.'
+msg_plotgroup_empty_deleted: '%s arsa grubu hiГ§bir Еџehir bloДџuna sahip deДџildi ve silindi.'
+plotgroup_plu: 'Arsa GruplarД±'
+msg_err_this_town_has_no_plot_groups: 'Belirtilen kasabada arsa grubu yok.'
+msg_err_this_plot_is_already_part_of_the_plot_group_x: 'Bu Еџehir bloДџu zaten arsa grubunun bir parГ§asД±: %s'
+map_hover_plot_group: 'Arsa Grubu: '
+map_hover_plot_group_size: ' Boyut: '
+map_hover_plots: '%s arsalar'
+#Added in 0.112
+msg_checking_for_updates: 'GГјncellemeleri kontrol etme...'
+msg_no_new_updates: 'Yeni gГјncelleme bulunamadД±.'
+msg_new_update_available: '&bYeni gГјncelleme mevcut: %s | Mevcut versiyon: %s'
+msg_download_here: 'Buradan indir: %s'
+msg_click_to_download: '&bД°ndirmek iГ§in buraya tД±klayД±n.'
+msg_latest_version: '&2Towny versiyon: &a%s &2| En son sГјrГјm: &a%s'
+msg_up_to_date: '&aGГјndemdesin.'
+msg_click_purchase: 'SatД±n almak iГ§in tД±klayД±n'
+msg_you_must_join_this_town_to_claim_this_plot: 'Bu arsayД± almak iГ§in bu kasabaya katД±lmalД±sД±nД±z: %s kasabasД±na katД±lmak ve claim talebi iddia etmeye devam etmek ister misiniz?'
+#Added in 0.113
+status_trustedlist: 'GГјvenilir'
+msg_click_to_edit: '&6DГјzenlemek iГ§in tД±kla.'
+permission_gui_header: 'Towny Д°zni GUI'
+msg_last_edited: '&7&oEn son %s ile %s deДџiЕџtirilmiЕџtir.'
+msg_trusted_added: '&b%s, bu %s''ye gГјvenilir olarak eklendi.' #Last %s is either town or townblock
+msg_already_trusted: '&b%s, bu %s iГ§in zaten gГјvenilir.'
+msg_trusted_added_2: '&b%s, size %s konusunda gГјvendi: %s.' #Last %s is the town name or worldcoord.
+msg_not_trusted: '&b%s, bu %s iГ§in gГјvenilir deДџil.'
+msg_trusted_removed: '&b%s, bu %s iГ§inde gГјvenilir olarak kaldД±rД±ldД±.'
+msg_trusted_removed_2: '&b%s, sizi bir %s: %s iГ§inde gГјvenilir olarak Г§Д±kardД±.'
+msg_overrides_removed: '&b%s iГ§in izin geГ§ersiz kД±lmalarД± kaldД±rД±ldД±.'
+msg_overrides_added: '&b%s iГ§in varsayД±lan izin geГ§ersiz kД±lmalarД± eklendi.'
+msg_no_overrides_set: '&b%s, bu %s iГ§in ayarlanmД±Еџ herhangi bir geГ§ersiz kД±lmaya sahip deДџil.'
+msg_overrides_already_set: '&b%s zaten bu %s iГ§in ayarlanmД±Еџ geГ§ersiz kД±lmalara sahip.'
+msg_cache_block_err: '&cBurada %s yapmanД±za izin verilmiyor.'
+msg_err_plot_belongs_to_group: '&cArsa bir gruba ait, %s kullanД±n.'
+plotgroup_sing: 'Arsa Grubu'
+msg_err_ally_limit_reached: 'Milletiniz mГјttefik sД±nД±rД±na ulaЕџtД±, kabul edemiyor.'
+#Added in 0.114
+msg_err_group_not_found: '%s grubu bulunamadД±.'
+msg_err_expected_command_format: 'YanlД±Еџ sГ¶zdizimi, bekleniyor: %s'
+msg_err_group_already_has_node: '%s grubu zaten %s yetkisine sahip.'
+msg_err_group_doesnt_have_node: '%s grubu %s yetkisine sahip deДџil.'
+msg_successfully_added_node_to_group: '%s, %s dizinine baЕџarД±yla eklendi.'
+msg_successfully_removed_node_from_group: '%s, %s iГ§inden baЕџarД±yla kaldД±rД±ldД±.'
+msg_err_there_is_already_a_town_or_nationrank_called_x: '%s adД±nda bir %s zaten var.'
+msg_err_there_is_no_town_or_nationrank_called_x: '%s adД±nda %s yok.'
+msg_successfully_add_rank_to_the_town_or_nation_rank: '%s, %s dizinine baЕџarД±yla eklendi.'
+msg_successfully_removed_rank_from_the_town_or_nation_rank: '%s, %s dizininden baЕџarД±yla kaldД±rД±ldД±.'
+msg_err_group_has_no_nodes: '%s grubuna atanmД±Еџ izin yok.'
+msg_title_group_permissions: '%s Yetkileri'
+help_ta_perms_listgroups: 'Grup Listesi.'
+help_ta_perms_group: 'Gruptaki izinleri gГ¶ster'
+help_ta_perms_groupaddpermnode: 'Bir gruba bir yetki ekleyin.'
+help_ta_perms_groupremovepermnode: 'Gruptan bir yetkiyi kaldД±rД±n.'
+help_ta_perms_townrankadd: 'Townyperms dosyasД±na bir townrank ekler.'
+help_ta_perms_townrankremove: 'Townyperms dosyasД±ndan bir townrank kaldД±rД±r.'
+help_ta_perms_nationrankadd: 'Townyperms dosyasД±na bir ulus sД±ralamasД± ekler..'
+help_ta_perms_nationrankremove: 'Townyperms dosyasД±ndan bir ulus sД±ralamasД±nД± kaldД±rД±r.'
+msg_err_that_resident_doesnt_belong_to_that_nation: 'O mukim o millete ait deДџil.'
+#Added in 0.115
+msg_comptype_founded: 'KuruluЕџ Tarihi'
+msg_err_must_be_greater_than_or_equal_to: 'Tutar %s altД±ndan bГјyГјk veya ona eЕџit olmalД±dД±r'
+err_invalid_yaml: 'YГјkleme hatasД±: %s dosyasД± yГјklenemedi (yaml ayrД±ЕџtД±rД±cД±dan geГ§iyor mu?).'
+#Added in 0.116
+msg_town_map_color_changed: '&bЕћehir haritasД± rengi %s olarak deДџiЕџtirildi.'
+#Added in 0.117
+msg_err_this_townblock_doesnt_match_the_groups_type: 'Bu claim bloДџu,  %s tГјrden olmadД±ДџД± iГ§in gruba eklenemez.'
+#Added in 0.118
+status_title_nopvp: '&a(PvP_kapalД±)'
+#Added in 0.119
+msg_err_resident_cannot_be_jailed_because_they_are_outlawed_there: 'YasadД±ЕџД± olduklarД± bir yerde vatandaЕџД±nД±zД± hapse atamazsД±nД±z.'
+msg_err_resident_cannot_be_jailed_because_they_are_enemied_there: 'DГјЕџman sayД±ldД±ДџД± bir yerde olduДџu iГ§in vatandaЕџД±nД±zД± hapse atamazsД±nД±z.'
+#Added in 0.120
+msg_resident_prompt: 'Sohbette oyuncunun adД±nД± girin veya Г§Д±kmak iГ§in Q tuЕџuna basД±n. Bu iЕџlem, 30 saniye iГ§inde otomatik olarak zaman aЕџД±mД±na uДџrayacaktД±r.'
+msg_prompt_cancel: 'Д°Еџtem iptal edildi veya zaman aЕџД±mД±na uДџradД±.'
+#Added in 0.121
+status_title_primary_colour: '&6' #Used to colour the majority of the title bar.
+status_title_secondary_colour: '&e' #Used to colour the words in the title bar.
+status_format_list_1: '&2' #First colour applied to status screen lists, ex: on /res, the friend list's Friends section.
+status_format_list_2: '&a' #Second colour applied to status screen lists, ex: on /res, the friend list's [1] section.
+status_format_list_3: '&f' #Third colour applied to status screen lists, ex: on /res, the friend list's list of friends' names section.
+status_format_key_value_key: '&2' #Colour applied to a status screen element which is just a line of text, or the key in a key/value element.
+status_format_key_value_value: '&a' #Colour applied to the value in a status screen element which has two parts, ex: Registered: SomeDate. (SomeDate is the value.)
+status_format_bracket_element: '&b' #Colour applied to a status element within a bracket, ex: [Bonus: #].
+status_format_hover_key: '&a' #Colour applied to a status screen element which is a hover-able key, ex: [Rank List]
+status_format_hover_bracket_colour: '&7' #Colour applied to the brackets of a hover-able status screen element.
+status_format_key_important: '&c' #Colour applied to an important status screen value, ex: (BANKRUPT), Ruined town reclaim lines, taxes/upkeep costs.
+status_splitter: ' &7| ' #Used in status screens where a splitter is used between values.
+status_home_element: ' &7[Ana Arsa: %s]'
+status_about: "About:"
+status_registered: 'KayД±t:'
+status_lastonline: 'En son gГ¶rГјlme:'
+status_fractions: '%s/%s'
+status_rank_list: 'RГјtbe Listesi'
+status_hover_click_for_more: 'Daha fazla bilgi iГ§in tД±klayД±n.'
+status_jailed: 'Hapis_Durumu:'
+status_bad_yes: '&cEVET'
+status_good_no: '&aHAYIR'
+status_resident_tax_title: '%s Vergisi'
+help_menu_command: '<blue>'
+help_menu_subcommand: '<aqua>'
+help_menu_explanation: '<gray>'
+help_menu_requirement: '<red>'
+#Added in 0.122
+msg_warn_the_following_towns_will_be_removed_from_the_merged_nation: "Гњlke baЕџkentinize yeterince yakД±n olmayacaklarД± iГ§in, birleЕџtirme tamamlandД±ДџД±nda Еџu kasabalar kaldД±rД±lacak: %s.\n"
+#Added in 0.123
+msg_err_invalid_townyworld: "'%s' geГ§erli bir towny dГјnyasД± deДџil."
+msg_err_enter_world_name_first: 'LГјtfen Г¶nce dГјnyanД±n adД±nД± girin.'
+msg_wilderness_use_set_to: '&bVahЕџi doДџa kullanД±mД± %s iГ§inde %s olarak ayarlandД±.'
+#Added in 0.124
+msg_err_invalid_response: 'GeГ§ersiz cevap! Г‡Д±kmak iГ§in Q tuЕџuna basД±n veya Г¶nceki soruya geri dГ¶nГјn.'
+msg_setup_full_guide_link: '&bTam kurulum kД±lavuzunun baДџlantД±sД± iГ§in burayД± tД±klayД±n.'
+msg_setup_wildernessuse: 'VahЕџi doДџada kullanД±mД± etkinleЕџtirmek ister misiniz? Bu, oyuncularД±n vahЕџi doДџada blok kД±rmasД±na/inЕџa etmesine izin verecektir.'
+msg_setup_revertunclaim: 'Claim talebinde bulunmama durumunda geri dГ¶ndГјrmeyi kullanmak ister misiniz? Bu, sahiplenilmediklerinde kasaba bloklarД±nД±n yavaЕџ yavaЕџ yenilenmesini saДџlayacaktД±r.'
+msg_setup_town_block_ratio: 'Kasaba blok oranД±nД±zД± neye ayarlamak istersiniz? VarsayД±lan, ikamet eden kiЕџi baЕџД±na 8 Еџehir bloДџudur. Daha yГјksek miktarlar, kasabalarД±n sahip olduklarД± her sakin iГ§in daha fazla talep etmesine izin verecektir. Bunu 0 sayД±sД±na ayarlamak, town_levels deДџerlerini kullanmasД±nД± saДџlayacaktД±r.'
+msg_setup_town_cost: 'Yeni bir kasaba yaratmanД±n maliyeti ne kadar olmalД±? VarsayД±lan: 250'
+msg_setup_nation_cost: 'Sizce yeni bir ulus oluЕџturmanД±n bedeli ne olmalД±? VarsayД±lan 1000.'
+msg_setup_townblock_cost: 'Bir Еџehir bloДџunu talep etmenin maliyeti ne kadar olmalД±dД±r? VarsayД±lan deДџer 25. Townblock, bir Chunk ile aynД± boyuttadД±r (varsayД±lan ayarlar).'
+msg_setup_success: 'YapД±landД±rma deДџerleri baЕџarД±yla yeni deДџerlerinizle deДџiЕџtirildi.'
+#Added in 0.125
+#Player has recently died and respawned and is invulnerable.
+msg_err_player_cannot_be_harmed: '%s yakД±n zamanda ortaya Г§Д±ktД± ve zarar veremez.'
+#Player was invulnerable after respawning and has lost their invulnerability.
+msg_you_have_lost_your_respawn_protection: 'Yeniden doДџma korumanД± kaybettin.'
+#Message shown to a player when they are denied the ability to pick up items because they are under respawn protection.
+msg_err_cannot_pickup_respawn_protection: 'Respawn korumasД± aktif iken eЕџya alamazsД±nД±z.'
+#Added in 0.126
+#Used in the nation screen:
+status_capital: 'BaЕџkent:'
+#Used in the resident screen's town hover, to denote when a player joined a town.
+status_joined_town: 'KatД±ldД±ДџД± Еџehir:'
+#Used in the town screen's nation hover, to denote when a town joined a nation.
+status_joined_nation: 'KatД±lan ulus:'
+#Shown in status screen elements where a value is not known.
+status_unknown: 'bilinmeyen'
+#Feedback given for the /ta set nationzoneoverride [townname] [size] command.
+msg_nationzone_override_set_to: '%s, ulusal bГ¶lge geГ§ersiz kД±lma ayarД±nД± %s olarak ayarladД±.'
+#Feedback given for the /ta set nationzoneoverride [townname] 0 command.
+msg_nationzone_override_removed: '%s, ulusal bГ¶lge geГ§ersiz kД±lma ayarД±nД± %s olarak ayarladД±.'
+#Added in 0.127
+#Used in status screen:
+status_nation_zone_size: 'Ulus BГ¶lge Boyutu:'
+#Shown when a player adds people to their friends list.
+msg_res_friend_added_to_list: 'ArkadaЕџ listenize %s isimli oyuncu eklendi.'
+#Shown when a player removes people from their friends list.
+msg_res_friend_removed_from_list: '%s, arkadaЕџ listenizden kaldД±rД±ldД±.'
+#Generic resident freed from jail message.
+msg_resident_unjailed: '%s hapisten Г§Д±karД±ldД±.'
+#Shown when an admin uses /ta toggle devmode.
+msg_admin_toggle_devmode: 'GeliЕџtirici Modu: %s'
+#Shown when an admin uses /ta toggle debug.
+msg_admin_toggle_debugmode: 'Debug Modu: %s'
+#Shown when an admin uses /ta toggle townwithdraw
+msg_admin_toggle_townwithdraw: 'Kasabadan Para Г‡ekme: %s'
+#Shown when an admin uses /ta toggle nationwithdraw
+msg_admin_toggle_nationwithdraw: 'Ulus Para Г‡ekme: %s'
+#Shown when claiming a town block for the town.
+msg_process_town_claim: 'KasabanД±n Claim Talebi Д°Еџleniyor...'
+#Shown when unclaiming a town block for the town.
+msg_process_town_unclaim: 'KasabanД±n UnClaim Talebi Д°Еџleniyor...'
+#Shown when there is nothing to unclaim.
+msg_err_nothing_to_unclaim: 'Reddedilecek bir Еџey yok!'
+#Given as feedback when /ta checkperm is used.
+msg_perm_true: 'Д°zin DoДџru.'
+#Given as feedback when /ta checkperm is used.
+msg_err_perm_false: 'Д°zin YanlД±Еџ.'
+#Shown at the bottom of the /towny map
+#First variable is townname or None, 2nd variable is plot owner's name or None.
+status_towny_map_town_line: '&2Kasaba: &a%s &7| &2Sahibi: &a%s'
+#Shown on /towny version
+msg_towny_version: '&2Towny SГјrГјmГј: &a%s'
+#Shown to admins and ops when a player has been blocked from logging into the server.
+msg_admin_blocked_login: '&c%s &2IP adresini kullanan bir oyuncu, sunucunuzun ekonomisine zarar verebilecek bir hesap adД± olan &c%s &2ile oturum aГ§maya Г§alД±ЕџtД±, ancak Towny tarafД±ndan engellendi. Bu IP adresini yasaklamanД±zД± Г¶neriyoruz!'
+#Shown during resident purge
+msg_scanning_for_old_residents: 'Eski sakinler taranД±yor...'
+#Shown during resident purge
+msg_deleting_resident: 'Гњye siliniyor: %s.'
+#Shown during resident purge
+msg_purge_complete: 'Гњye temizleme tamamlandД±: %s silindi.'
+#Message to the Town, shown when a town is given bonus blocks.
+msg_you_have_been_given_bonus_blocks: 'Size %s bonus Еџehir bloДџu verildi.'
+#Message shown when a town cannot purchase any more bonus blocks.
+msg_err_you_cannot_purchase_any_more_bonus_blocks: 'KasabanД±z daha fazla bonus blok satД±n alamaz. Maksimum miktara ulaЕџД±ldД±.'
+#Added in 0.128
+#Message shown to a capital city which is being denied the ability to toggle peaceful on.
+msg_err_capital_cannot_be_peaceful: 'BaЕџkentler barД±ЕџГ§Д±l statГјyГј deДџiЕџtiremez.'
+#Message shown as feedback for /t toggle nationzone command.
+msg_changed_nationzone: 'KasabayД± Г§evreleyen Ulus BГ¶lgesi artД±k %s'
+#Error message shown when a town tries to toggle their nationzone which doesn't exist.
+msg_err_your_town_has_no_nationzone_to_toggle: 'KasabanД±zda deДџiЕџtirilecek bir Ulus BГ¶lgesi yok!'
+#Added in 0.129
+#Shown in /towny prices, describing what controls nation upkeep.
+towny_prices_nation_upkeep_based_on: '&7Ulus bakД±mД± &a%s&7''''ye dayalД±dД±r.'
+#Shown in /towny prices, describing what controls nation upkeep when it is per town.
+towny_prices_upkeep_num_towns: 'kasaba sayД±sД±.'
+#Shown in /towny prices, describing that controls nation upkeep when it is per resident.
+towny_prices_upkeep_nation_level: 'ulus dГјzeyi (sayД± sakinleri.)'
+#Added in 0.130
+#Jail causes
+msg_jailed_mayor: 'Belediye baЕџkanД± tarafД±ndan hapse atД±ldД±.'
+#Jail causes
+msg_jailed_outlaw: 'Bir kanun kaГ§aДџД± olarak Г¶ldГјrГјldГј.'
+#Jail causes
+msg_jailed_war: 'SavaЕџ TutsaДџД±.'
+#Jail handbook messages
+msg_jailed_handbook_1: '%s nedeniyle hapse atД±lmД±ЕџsД±nД±z gibi gГ¶rГјnГјyor'
+#Jail handbook messages
+msg_jailed_handbook_2: 'Bu Г§ok kГ¶tГј ha. Peki bu konuda ne yapabilirsin? Д°Еџte cezanД± Г§ekerken sana yardД±mcД± olacak bazД± ipuГ§larД±.'
+#Jail handbook messages
+msg_jailed_handbook_3: '%s saattir hapistesiniz. CezanД± Г§ekerek Г¶zgГјr olacaksД±n.'
+#Jail handbook messages
+msg_jailed_handbook_4_can: '/town leave komutunu kullanarak Еџehrinizden ayrД±lД±p, hapisten kaГ§abilirsiniz.'
+#Jail handbook messages
+msg_jailed_handbook_4_cant: 'Hapisteyken hapishaneden kaГ§mak iГ§in kasabanД± terk edemeyeceksin.'
+#Jail handbook messages
+msg_jailed_handbook_bail_1: 'Kefaletinizi ''''/res jail paybail'''' komutunu kullanarak Г¶deyerek hapisten kurtulabilirsiniz.'
+#Jail handbook messages
+msg_jailed_handbook_bail_2: 'Kefalet bedeli %s AltД±na mГўl olacak.'
+#Jail handbook messages
+msg_jailed_handbook_5: 'Direnmek ve kaГ§mak iГ§in Г§abalamak zorunda kalД±rsanД±z, vahЕџi doДџaya ulaЕџД±rsanД±z, Г¶zgГјrlГјДџГјnГјzГј de kazanД±rsД±nД±z.'
+#Jail handbook messages
+msg_jailed_handbook_6: 'Ama vahЕџi doДџaya ulaЕџmadan Г¶lme, yoksa hemen hapse geri dГ¶nersin.'
+#Jail handbook messages
+msg_jailed_teleport: 'Neyse ki, ender incilerin ve koro meyvesinin kaГ§manД±za yardД±mcД± olmasД± iГ§in kullanД±lmasД±na izin veriliyor, Еџimdi sadece bazД±larД±nД± ele geГ§irmeniz gerekiyor.'
+#Jail handbook messages
+msg_jailed_war_prisoner: "Bir savaЕџ tutsaДџД± olarak, yurttaЕџlarД±nД±z hapishane planД±nД±n CanД±nД± 0''a indirebilirse veya hapse attД±ДџД±nД±z kasaba savaЕџtan Г§Д±karД±lД±rsa serbest bД±rakД±lД±rsД±nД±z.\n"
+#Jail handbook title
+msg_jailed_title: 'Hapse atД±ldД±nД±z :('
+#Jail handbook author
+msg_jailed_author: 'Towny Jailco.'
+#Added in 0.130
+#Message shown when there are no allies to list in /town allylist.
+msg_error_town_has_no_allies: 'KasabanД±n listelenecek mГјttefiki yok.'
+#Message shown when there are no enemies to list in /town enemylist.
+msg_error_town_has_no_enemies: 'KasabanД±n listelenecek dГјЕџmanД± yok.'
+#Added in 0.132
+#Message shown in the lines of the baltop books
+msg_baltop_book_format: '%s. %s | %s'
+#Added in 0.133
+#Message shown when a confirmation times out.
+msg_confirmation_timed_out: 'Onay Zaman aЕџД±mД±na uДџradД±.'
+#Added in 0.134
+tc_player_channel_sound_muted: 'Kanaldan susturuldu'
+tc_player_channel_sound_unmuted: 'Kanal susturulmasД± kalktД±'
+#Added in 0.135
+msg_cant_toggle_pvp_outsider_in_plot: 'ArsanД±zda bir yabancД± var, pvp durumunuzu deДџiЕџtiremezsiniz!'
+#Added in 0.136
+msg_view_on_web: '&7Webde gГ¶rГјntГјlemek iГ§in tД±kla.'
+#Added in 0.137
+#Shown globally when a town merges with another town.
+town1_has_merged_with_town2: '&6%s KasabasД±, %s KasabasД± ile birleЕџmeyi kabul etti.'
+#Shown in the town and nation status screens to inform about neutrality costs.
+status_neutrality_cost: 'TarafsД±zlД±k Гњcreti:'
+#Added in 0.138
+#Line 1 of the givebonus warning.
+msg_ptw_warning_1: 'Bu Еџehir bloklarД± iГ§in gerГ§ek hayatta herhangi bir para Г¶dediyseniz lГјtfen anlayД±n: OynadД±ДџД±nД±z sunucu Minecraft EULA ve Towny lisansД±nД± ihlal ediyor.'
+#Line 2 of the givebonus warning.
+msg_ptw_warning_2: 'Towny ekibi, Еџehir bloklarД±nД±n gerГ§ek parayla satД±n alД±nabilmesini asla amaГ§lamadД±.'
+#Line 3 of the givebonus warning.
+msg_ptw_warning_3: 'GerГ§ek para Г¶dediyseniz, Towny TakД±mД±nД±n isteklerine saygД± duyan bir Towny sunucusunda oynamayД± dГјЕџГјnmelisiniz.'
+#Message shown when a town invites a player to join, and that town has a nation.
+you_have_been_invited_to_join3: '%s KasabasД±na davet edildiniz!&9 (Kasaba Ulusu: %s&9)'
+#Added in 0.139
+#Message shown when a town cannot afford to unclaim their land because the refund price is negative and charges them money.
+msg_err_your_town_cannot_afford_unclaim: 'KasabanД±zД±n bu araziden vazgeГ§mek iГ§in yeterli parasД± bulunmamakta. Bankaya %s kadar altД±n atmalД±sД±nД±z.'
+#Message shown when a town pays to unclaim their land because the refund is a negative amount.
+msg_your_town_paid_x_to_unclaim: 'KasabanД±z bir arsayД± bГјnyesinden Г§Д±karmak iГ§in %s altД±n Г¶dedi.'
+#Confirmation message shown when a player will unclaim land that costs money.
+confirmation_unclaiming_costs: 'Arsa hakkД±ndan vazgeГ§mek size %s altД±na mГўl olucaktД±r. Devam etmek istiyormusunuz?'
+#Added in 0.140
+#Message shown on first join, making players aware they can change how Towny messages appear using their Client's language setting.
+msg_your_locale: 'Towny, mesajlarД±nД± Г§evirmek iГ§in oyuncu bilgisayarД±nД±n yerel ayarД±nД± (%s) kullanД±r. Г‡evirilerde eksik dizeler olabileceДџini unutmayД±n.'
+#Message shown when a player tries to rename their town too quickly.
+msg_you_must_wait_x_seconds_before_renaming_your_town: 'KasabanД± yeniden adlandД±rmak iГ§in %s saniye beklemelisin.'
+#Added in 1.141
+msg_newday_already_scheduled_soon: 'Yeni bir gГјnlГјk gГ¶revin yakД±nda gerГ§ekleЕџmesi planlandД±.'
+#Added in 0.142
+#Message shown when a player is toggling neutrality too fast.
+msg_err_cannot_toggle_neutral_x_seconds_remaining: 'SavaЕџ durumunu deДџiЕџtiremezsiniz, %s saniye kaldД±.'
+#Added in 0.143
+#Message shown when a console sender uses a command meant for in game.
+msg_err_command_not_for_console_use: 'Konsol tarafД±ndan bu komut kullanД±lamaz.'
+#Added in 0.144
+#Message shown when an admin uses /ta town NAME toggle unlimitedclaims.
+msg_town_unlimitedclaims_setting_set_to: '%s kasabasД±nД±n sД±nД±rsД±z claim talebi ayarД± %s olarak ayarlandД±.'
+#Message shown when an admin uses up their claims and is asked if they want to turn on unlimited claiming.
+did_you_want_to_toggle_unlimited_claims: 'Claim talebinde bulunmak iГ§in yeterli claim hakkД±nД±z yok, %s kasabasД± iГ§in sД±nД±rsД±z claim hakkД± talebinde bulunmak istediniz mi?'
+#Added in 0.145
+#Message shown when a conquered town tries to leave their nation.
+msg_err_your_conquered_town_cannot_leave_the_nation_yet: 'Ulusunu terk edemezsin, kasaban fethedilmiЕџ.'
+msg_err_console_only: 'Bu komut sadece konsol tarafД±ndan kullanД±labilir.'
+msg_err_player_only: 'Bu komut sadece bir oyuncu tarafД±ndan kullanД±labilir.'
+#Added in 0.146
+#Message shown when a resident toggles bordertitles with /res toggle bordertitles
+msg_border_titles_toggled: 'SД±nД±rlarД± aЕџmak %s olduДџunda baЕџlД±k mesajlarД± gГ¶sterilir.'
+#Added in 0.147
+#Message shown confirming that an admin wants to reset their Towny config
+this_will_reset_your_config: 'Bu komut kullandД±ДџД±nД±zda config.yml sД±fД±rlanacaktД±r ve default hale gelecektir. Devam etmek istiyor musunuz?'
+#Message shown when an admin is setting a new king or capital and would override the config by doing so
+msg_warn_overriding_server_config: 'Bu komutu kullanarak hali hazД±rda bulunan kasaba Гјye sД±nД±rД±nД± deДџiЕџtireceksiniz. Devam etmek istiyor musunuz?'
+#Added in 0.148
+#Message shown when invalid outpost spawns are removed using the /ta commands.
+msg_removed_x_invalid_outpost_spawns: '%d geГ§ersiz karakol spawnД± kaldД±rД±ldД±.'
+#Added in 0.149
+#Message shown when a player logs in and their town is bankrupt.
+msg_your_town_is_bankrupt: 'Kasaba bankanД±z iflans etmiЕџ durumda, bankanД±za /town deposit {amount} komutunu yazarak para ekleyin.'
+#Added in 0.150
+#Message shown when a player cannot do something because they have a town.
+msg_err_you_cannot_use_this_command_because_you_are_already_a_member_of_a_town: 'Zaten bir kasabanД±n Гјyesi olduДџunuz iГ§in bu komutu kullanamazsД±nД±z. Devam etmek istiyorsanД±z ''/t leave'' kullanmanД±z gerekecek.'
+#Message shown when a player tries to spawn while in an town they are outlawed in, when outlaw TPing is a disallowed zone.
+msg_a_town_you_are_outlawed_in: 'bu kasaba Haydut ilan edildiДџin bir kasaba.'
+#Message shown when TownyRTP could not find any towns to teleport to.
+msg_err_could_not_find_any_towns_to_rtp: 'Rtp iГ§in herhangi bir aГ§Д±k, halka aГ§Д±k kasaba ile birlikle (karЕџД±layabileceДџiniz,) satД±lД±k arsalar bulunamadД±.'
+#Message showing payment for RTP.
+msg_cost_spawn_rtp: '&bSatД±lД±k rastgele bir kasaba arsasД±na Д±ЕџД±nlanmak iГ§in %s Kadar Гјcret Г–dediniz.'
+#Message shown to a player when they use the town rtp command.
+msg_you_are_about_to_be_teleported_to_a_plot: 'KatД±lmanД±zД± saДџlayacak, %s cinsinden satД±lД±k bir arsaya Д±ЕџД±nlanmak Гјzeresiniz. GeldiДџinizde arsanД±zД± talep etmek iГ§in ''/plot claim''i kullanД±n.'
+#Shown in TownyRTP when a player joins a town and is prompted to be TPd to some land to buy.
+townyrtp.the_town_has_plots_to_buy_would_you_like_to_tp: "%s kasabasД± satД±n alabileceДџiniz arsalar iГ§eriyor, satД±n alabileceДџin bir arsaya Д±ЕџД±nlanmak ister misin?"
+#Shown when you arrive at your destination after opting in to be teleported to a plot to buy.
+townyrtp.you_have_arrived: "SatД±n alabileceДџiniz bir arsaya Д±ЕџД±nlandД±nД±z. ArsayД± almak iГ§in \"/plot claim\" komutunu kullanabilirsiniz."
+#Used in the town's status screen to display plots
+status_plot_string: 'Arsalar'
+#Displays a plot type and the amount of townblocks of that type in the town
+status_plot_hover: '%s:'
+#Usage:
+msg_usage: 'KullanД±m: %s'
+#Shown in teh bank history books when there are no pages to display
+msg_err_no_pages_to_display: 'GГ¶rГјntГјlenecek Sayfa yok!'
+#Added in 0.151
+#Message shown to players trying to spawn to a non-allied/non-member nation when public spawning is not allowed at all.
+msg_err_nation_unaffiliated: 'O Ulus sana baДџlД± deДџil.'
+#Message shown to players trying to spawn to a non-nation/non-member town when public spawning is not allowed at all.
+msg_err_town_unaffiliated: 'O Kasaba sana baДџlД± deДџil.'
+#Added in 0.152
+#Message shown when a player tries to add a jail cell location where one already exists.
+msg_err_this_location_already_has_a_jailcell: 'Bu alanД±n zaten bir hapishane hГјcresi var.'
+#Title line of the /plot perm hud.
+msg_perm_hud_title: 'Arsa Yetkileri'
+#Seen in /plot perm hud:
+msg_perm_hud_build: 'YapД±: '
+#Seen in /plot perm hud:
+msg_perm_hud_destroy: 'Sil: '
+#Seen in /plot perm hud:
+msg_perm_hud_switch: 'DeДџiЕџtir: '
+#Seen in /plot perm hud:
+msg_perm_hud_item_use: 'EЕџya: '
+#Seen in /plot perm hud:
+msg_perm_hud_plot_type: 'TГјr: '
+#Seen in /plot perm hud:
+msg_perm_hud_pvp: 'PVP: '
+#Seen in /plot perm hud:
+msg_perm_hud_explosions: 'Patlamalar: '
+#Seen in /plot perm hud:
+msg_perm_hud_firespread: 'AteЕџ YayД±lmasД±: '
+#Seen in /plot perm hud:
+msg_perm_hud_mobspawns: 'YaratД±k DoДџmasД±: '
+#Seen in /plot perm hud:
+msg_perm_hud_key: 'Anahtar'
+#Seen in /plot perm hud:
+msg_perm_hud_friend: 'arkadaЕџ'
+#Seen in /plot perm hud:
+msg_perm_hud_town: 'kasaba'
+#Seen in /plot perm hud:
+msg_perm_hud_ally: 'mГјttefik'
+#Seen in /plot perm hud:
+msg_perm_hud_resident: 'sakin'
+#Seen in /plot perm hud:
+msg_perm_hud_nation: 'ulus'
+#Seen in /plot perm hud:
+msg_perm_hud_outsider: 'yabancД±'
+#Seen in /plot perm hud:
+msg_perm_hud_plot_name: 'Arsa: '
+#Added in 0.153
+#Message shown confirming /ta town NAME settownlevel # command.
+msg_town_level_overridden_with: '%s kasabasД±nД±n seviyesi %s olarak ayarlandД±.'
+#Message shown when unsetting a manual town level.
+msg_town_level_unset: '%s kasabasД±nД±n el ile ayarlanmД±Еџ seviyesi sД±fД±rlandД±. Ећu anki seviyesi %s.'
+#Message show when a town is unable to have purchased townblocks, when /ta town NAME giveboughtblocks is used.
+msg_err_town_not_allowed_purchased_blocks: '%s kasabasД± configde yapД±lan ayara gГ¶re townblock satД±n alamaz.'
+#Message shown when unsetting all purchased townblocks from a town.
+msg_purchased_blocks_unset: '%s kasabasД±nД±n satД±n alД±nan townblocklarД± kaldД±rД±ldД±.'
+#Message shown when /ta town name giveboughtblocks # is used.
+msg_purchased_blocks_changed: '%s kasabasД±na %s townblock verildi, Еџu an %s townblocklarД± mevcut.'
+#Added in 0.154
+msg_comptype_upkeep: 'BakД±m'
+#Added in 0.155
+#Message shown when toggling town upkeep admin setting
+msg_town_upkeep_setting_set_to: '%s kasabasД±nД±n bakД±m ayarД± %s olarak ayarlandД±.'
+#Shown when a player tries to set a plot type but their town has reached the limit, first number is the limit and the string is the type name.
+msg_town_plot_type_limit_reached: 'Kasaban %d olan %s limitine ulaЕџtД±.'
+#Added in 0.156
+msg_spawn_cost_free: 'Гњcretsiz'
+#Message shown when someone tries to set a plot's type to one already set.
+msg_plot_already_of_type: 'Bu arsa Г§oktan %s tipinde.'
+msg_town_board_reset: '&bKasaba tahtasД± temizlendi.'
+msg_town_has_no_jailslots: 'Kasaba hapishanesi dolu.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x_for_x_bail: '%s, %s hapishanesine %s. hГјcreye %s saatliДџine ve %s ila %s kefaletiyle gГ¶nderildi.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x: '%s, %s tarafД±ndan %s saat boyunca %s hГјcre numarasД±na %s iГ§in gГ¶nderildi.'
+msg_you_have_been_jailed_your_bail_is_x: 'Hapse dГјЕџtГјn, kefaret bedelin %s.'
+msg_err_higher_than_max_allowed_bail_x: 'BelirlenmiЕџ kefaletin maksimum deДџerden fazla. (%s)'
+msg_err_higher_than_max_allowed_hours_x: 'BelirlenmiЕџ saatin maksimum deДџerden fazla. (%s)'
+msg_not_enough_money_in_bank_to_jail_x_fee_is_x: 'Ећehir kasasД±nda %s oyuncusunu hapsetmek iГ§in yeterli deДџil, Гјcret %s.'
+msg_you_were_released_as_town_ran_out_of_slots: 'GardiyanlarД±n alan kazanmak iГ§in seni serbest bД±raktД±.'
+msg_x_has_been_released_as_jail_slots_ran_out: '%s, baЕџka bir tutsaДџa yer aГ§masД± iГ§in serbest bД±rakД±ldД±.'
+msg_you_were_released_as_town_ran_out_of_upkeep_funds: 'GardiyanlarД±n seni tutuklu bД±rakmaya mali gГјcГј yetmediДџi iГ§in serbest bД±rakД±ldД±n.'
+msg_x_has_been_released_ran_out_of_upkeep_funds: '%s, Ећehir kasasД±ndaki kaynak eksikliДџinden Г¶tГјrГј serbest bД±rakД±ldД±.'
+msg_x_has_been_withdrawn_for_upkeep_of_prisoner_x: 'Ећehir kasasД±ndan %s Г§ekildi, %s tutsaДџД±nД±n bakД±m masrafД± iГ§in Г¶denecek.'
+msg_x_has_been_withdrawn_for_jailing_of_prisoner_x: 'Ећehir kasasД±ndan %s Г§ekildi, %s tutsaДџД±nД±n hapsedilmesi iГ§in Г¶denecek.'
+#Message shown in the confirmation for /ta resetbanks {amount}.
+confirmation_are_you_sure_you_want_to_reset_all_banks: 'TГјm kasaba ve ulus bankalarД±nД± %s''e eЕџitlemek istediДџinizden emin misiniz?'
+#Message shown when a nation cannot add a town because of the max-residents-limit.
+msg_err_cannot_add_nation_over_resident_limit: '&cUlusun maksimum izin verilen ulus baЕџД±na vatandaЕџ sayД±sД±na ulaЕџtД±, %s ve %s eklenilemiyor.'
+#Message shown to a town when they cannot join a nation because of the max-residents-limit.
+msg_err_cannot_join_nation_over_resident_limit: '&cBu ulusa katД±lamazsД±nД±z, Г§ГјnkГј bu ulus baЕџД±na ikamet eden kiЕџi sД±nД±rД± olan %s''yi aЕџacaktД±r.'
+#Message shown to a town because the nation has hit their max-towns-limit.
+msg_err_cannot_join_nation_over_town_limit: '&cBu ulusa katД±lamazsД±n, izin verilen maksimum kasaba sayД±sД±na ulaЕџtД±: %s.'
+#Message shown confirming /tw set usedefaults
+confirmation_are_you_sure_you_want_to_reset_this_worlds_settings: 'DГјnya ayarlarД±nД±, konfigГјrasyondaki normal ayarlara sД±fД±rlamak istediДџinize emin misiniz?'
+#Part of the /town plots output.
+msg_town_plots_title: ' Kasaba Arazileri'
+#Part of the /town plots output.
+msg_town_plots_town_size: '<dark_green>Kasaba BГјyГјklГјДџГј: <green>%s/%s'
+#Part of the /town plots output.
+msg_town_plots_town_bought: ' <aqua>[AlД±Еџ: %s/%s]'
+#Part of the /town plots output.
+msg_town_plots_town_bonus: ' <aqua>[Bonus: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_nationbonus: ' <aqua>[UlusBonusu: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_owned_land: '<dark_green>Kasaba TarafД±ndan AlД±nmД±Еџ Alan: <green>%s'
+#Part of the /town plots output.
+msg_town_plots_type_header: '<dark_green>TГјr: <green>Oyuncu-Sahipli <gray>/ <aqua>SatД±Еџta <gray>/ <yellow>Toplam'
+#Part of the /town plots output.
+msg_town_plots_type_header_revenue: ' <gray>/ <dark_green>GГјnlГјk Gelir'
+#Part of the /town plots output.
+msg_town_plots_type_line: '<dark_green>%s: <green>%s <gray>/ <aqua>%s <gray>/ <yellow>%s'
+#Part of the /town plots output.
+msg_town_plots_type_line_revenue: ' <gray>/ <dark_green>%s'
+#Message giving confirmation warning for trusttown
+confirmation_msg_trusttown_consequences: 'BГјtГјn bir kasabaya tam arsa izinleri vermek Гјzeresiniz. Bu, kasabanД±n belediye baЕџkanД±nД±n, sakinleri ekleyerek kasabanД±zda kimin inЕџaat ve yД±kma izni alacaДџД±na karar verebileceДџi anlamД±na gelir. Bu kasaba aГ§Д±ksa, o zaman herkes katД±labilir ve kasabanД±za tam eriЕџim saДџlayabilir. Bu kasabanД±n tГјm sakinlerine (gelecekteki sakinler dahil) gГјvenmek istediДџinizden emin misiniz?'
+#Message shown when a player uses a command that is blocked because their location has an active war.
+msg_command_war_blocked: 'Kasaban savaЕџtayken bu komutu kullanamazsД±n.'
+#Message shown when a player tries to unclaim land but cannot because an outsider is there (and the config doesn't allow this.)
+msg_cant_unclaim_outsider_in_town: 'Bu mahallede bir yabancД± var, bu mahalleyi sahiplenemezsiniz!'
+#Message shown when a player is making a town too soon after deleting one.
+msg_err_cannot_create_new_town_x_seconds_remaining: 'Yeni bir kasaba oluЕџturamazsД±nД±z, bekleme sГјresinde %s saniye kaldД±.'
+#Message shown when a player is claiming land too soon after unclaiming it.
+msg_err_cannot_claim_townblock_x_seconds_remaining: 'Bu Еџehir bloДџunu talep edemezsiniz: %s, bekleme sГјresinde kalan %s saniye.'
+#Messages shown when an admin uses /ta set founder {townname} {foundername}
+msg_founder_set: '%s kasabasД±nД±n kurucusu %s olarak ayarlandД±.'
+#Message shown when toggling town allowed to war admin setting
+msg_town_allowedtowar_setting_set_to: '%s kasabasД±nД±n savaЕџ ayarД± %s olarak ayarlandД±.'
+#Message shown to confirm that a player wants to unclaim all of their land, besides the homeblock, seen with /t unclaim all.
+confirmation_did_you_want_to_unclaim_all: 'Arazinizin tГјmГјnГј geri almak istediДџinizden emin misiniz? (Homeblock''unuz talep edilmeyecektir.)'
+#Message shown after a player unclaims all their land.
+msg_you_have_unclaimed_everything_but_your_homeblock: "Ev bloДџunuz dД±ЕџД±nda her Еџeyi sahiplenmediniz. Ana arazi'nizi iptal etmek iГ§in Г¶nce '/t set homeblock' seГ§eneДџini kullanarak yeni bir Ana arazi ayarlamanД±z gerekir."
+msg_warn_are_you_sure_you_want_to_transfer_nation_ownership: "<red>Ulus liderliДџini %s e devretmek istediДџinizden emin misiniz? Bu iЕџlem geri alД±nmaz!"
+msg_warn_town_already_capital: "<red>%s kasabasД± zaten baЕџkent."
+msg_min_adjacent_blocks: 'En az %s bitiЕџik Еџehir bloДџuna sahip olmanД±z gerekmektedir. Sadece %s var.'
+#Shown when a player with /plot evict permissions uses /plot claim on an owned but not for sale plot, please preserve comma space at the start when translating.
+msg_plot_claim_consider_evict_instead: ', belki de bunun yerine /plot evict instead?'
+#Shown to a player when Towny does not know of them.
+msg_you_are_unknown: "Towny seni tanД±mД±yor."
+#Generic Resident/Town/Nation/Thing is not known to Towny.
+msg_townyobject_unknown: "%s, Towny tarafД±ndan bilinmiyor."
+#Shown when a resident is unknown to Towny.
+msg_err_resident_unknown: "%s tanД±nan bir yerleЕџik deДџil."
+#Shown when a town is unknown to Towny.
+msg_err_town_unknown: "%s tanД±nan bir kasaba deДџil."
+#Shown when a nation is unknown to Towny.
+msg_err_nation_unknown: "%s tanД±nan bir ulus deДџil."
+#Shown when a resident doesn't belong to a town.
+msg_err_townyobject_x_has_no_town: "%s herhangi bir kasabaya ait deДџil."
+#Shown when a town doesn't belong to a nation.
+msg_err_townyobject_x_has_no_nation: "%s herhangi bir ulusa ait deДџil."
+#Shown to admins when they use /plot claimedat on a plot which has no registration date.
+msg_err_townblock_has_no_claimedat_data: "Bu kasaba bloДџunun ne zaman talep edildiДџine dair hiГ§bir veri yok."
+#Shown when someone cannot afford something, to tell them what it costs.
+msg_err_you_need_x_to_pay: "%s Г¶demen gerekiyor."
+#Shown when someone tries to deposit/withdraw 0 amounts.
+msg_err_amount_must_be_greater_than_zero: "Tutar sД±fД±rdan bГјyГјk olmalД±dД±r."
+#Message shown when taking over claims is disabled on a server.
+msg_err_taking_over_claims_is_not_enabled: "Taleplerin devralД±nmasД± bu sunucuda etkin deДџil."
+#Messages shown when taking over a claim is not allowed because the town is not overclaimed.
+msg_err_this_townblock_cannot_be_taken_over: "Bu Kasaba BloДџu devralД±namaz, ait olduДџu kasaba Гјzerinde hak iddia edilemez."
+#Message shown when taking over a claim would also set the homeblock because the town has no claims.
+msg_err_you_cannot_make_this_your_homeblock: "Bu iddiada bulunamazsД±nД±z Г§ГјnkГј bu, bu Kasaba BloДџu'nu ev bloДџunuz yapar ki buna izin verilmez."
+#Message shown when taking over a claim is stopped by another plugin.
+msg_err_another_plugin_cancelled_takeover: "BaЕџka bir eklenti, bu topraklarД± ele geГ§irmenizi durdurdu."
+#Confirmation shown when taking over a claim.
+confirmation_you_are_about_to_take_over_a_claim: "%s'ye ait bir talebi Еџu maliyet karЕџД±lД±ДџД±nda devralmak Гјzeresiniz: %s. Devam etmek istedin mi?"
+#Warning message shown when a town is beginning to claim close to their limit, and the takeoverclaim feature is active.
+msg_warning_you_are_almost_out_of_townblocks: "UyarД±: Hak talebinde bulunmak iГ§in mevcut Еџehir bloklarД±nД±zД± neredeyse tГјkettiniz. Bir sakini kaybederseniz, Еџehrinizin diДџer kasabalar tarafД±ndan Г§alД±nan Еџehir bloklarД±na sahip olma riskiyle karЕџД± karЕџД±ya kalacaksД±nД±z."
+#Warning message shown on login when a town is overclaimed and at risk of falling victim to the takeoverclaim feature.
+msg_warning_your_town_is_overclaimed: "UyarД±: KasabanД±z fazla talep edildi. Sahip olduДџunuz Г§ok fazla kasaba bloДџunuz olsa da, diДџer kasabalarД±n Еџehrinizdeki arazileri ele geГ§irmesi mГјmkГјn olacak, bazД± arazileri geri almayД± dГјЕџГјnГјn."
+#Chunk Notification slug, shown when entering a plot that can be stolen.
+chunk_notification_takeover_available: " <red>[Devralma Talebi Mevcut]"
+#Message shown when a takeover claim would cut a town into two sections.
+msg_err_you_cannot_over_claim_would_cut_into_two: "Bu arsayД± ele geГ§iremezsin, Г§ГјnkГј bunu yapmak kasabayД± iki bГ¶lГјme ayД±rД±r. FarklД± bir yГ¶nden fazla talepte bulunmanД±z gerekecek."
+#Message shown when an admin tries to toggle conquered off of a town that is not conquered.
+msg_err_that_town_is_not_conquered: "%s zaten fethedilmedi."
+#Message shown when a town has its conquered status removed by an admin.
+msg_conquered_status_removed: "%s fethedilme durumunu kaldД±rdД±."
+msg_setup_command_folia: "/ta install komutu Еџu anda konuЕџma API'sinin Г§alД±ЕџmamasД± nedeniyle Folia'da Г§alД±ЕџmД±yor, bunun yerine aЕџaДџД±daki kurulum kД±lavuzuna bakД±n."
+msg_perm_gui_folia: "Bu dГјДџme Еџu anda konuЕџma API'sinin Г§alД±ЕџmamasД± nedeniyle Folia'da Г§alД±ЕџmД±yor, bunun yerine /plot perm add <name> komutunu kullanД±n."
+msg_folia_scoreboard: "Changing scoreboards is currently not supported on Folia."
+#Message shown when a player cannot unclaim land because at least one plot wouldn't have enough adjacent claims.
+msg_err_cannot_unclaim_not_enough_adjacent_claims: "%s,%s adresindeki kasaba bloДџu yeterli sayД±da bitiЕџik hak talebine sahip olmayacaДџД±ndan (%s gereklidir.)"
+#Message shown when a nation collects taxes from its towns.
+msg_tax_collected_from_towns: "<aqua>Your nation collected %s in tax from its towns."
+#Message shown when a nation pays taxes to its towns.
+msg_tax_paid_to_towns: "<aqua>Your nation paid %s in tax to its towns."
+#Message shown when a town collects taxes from its residents.
+msg_tax_collected_from_residents: "<aqua>Your town collected %s in tax from its residents."
+#Message shown when a town pays taxes to its residents.
+msg_tax_paid_to_residents: "<aqua>Your town paid %s in tax to its residents."
+#Message shown when a town collects taxes from its plottaxes.
+msg_tax_collected_from_plots: "<aqua>Your town collected %s in tax from its plots' taxes."
+#Message shown when a town pays taxes to its plottaxes.
+msg_tax_paid_to_residents_for_plots: "<aqua>Your town paid %s in tax to the land owners via plot taxes."
+#Message shown when a nation collects taxes from its towns that are conquered.
+msg_tax_collected_from_conquered_towns: "<aqua>Your nation collected %s in extra tax from its conquered towns."
+msg_your_town_was_exempt_from_the_nation_conquered_tax: "<aqua>Your town was exempt from the nation's conquered tax."
+msg_nation_set_conquered_tax__amount_set: "%s has set the conquered tax amount to %s."
+msg_err_cannot_set_nation_conquere_tax_amount_higher_than: "You cannot set the conquered tax above %s."
+msg_err_your_town_is_not_old_enough_to_overclaim: "Your town is not old enough to overclaim, you must wait another %s."
+msg_err_your_cannot_overclaim_for_another: "You cannot overclaim again for another %s."
+#Generic error message for when a world isn't loaded
+msg_err_world_not_loaded: "<red>World is not loaded."
+#Message shown when a mayor toggles a plots taxed status.
+msg_changed_plot_taxed: '&cThis plot has had its taxed status set to %s.'
+status_forsale: "&a(For Sale: %s)"
+msg_town_forsale: "%s has been set for sale at %s."
+msg_town_notforsale: "%s is no longer for sale."
+msg_town_sell_confirmation: "This will put your town up for sale for %s. Are you sure you want to continue?"
+msg_town_buytown_already_mayor: "You are already mayor of %s."
+msg_town_buytown_confirmation: "Buying %s will cost %s and remove you from any town you may currently be a part of. Are you sure you want to continue?"
+msg_town_buytown_not_forsale: "Specified town is not for sale."
+msg_town_buytown_ruined: "Ruined towns cannot be bought."
+msg_resident_about_reset: "&bResident about reset."
+msg_err_invalid_string_about_not_set: "Invalid string, resident about not set."
+msg_set_about: "%s's about was set to %s."
+msg_clear_about: "%s's about was cleared."
+#Message shown when toggling town visibleontoplists setting
+msg_town_visibleontoplist_setting_set_to: 'The town %s has had their visible-on-top-lists setting set to %s.'
+#Message shown when an admin overrides a town founding date via townyadmin.
+townyadmin_town_set_help_0: "Sets the founding date of a town."
+townyadmin_nation_set_help_0: "Sets the founding date of a nation."
+msg_town_registered_set: "Founding date of town: '%s' set to: '%s'."
+msg_nation_registered_set: "Founding date of nation: '%s' set to: '%s'."
+msg_err_time_cannot_be_in_the_future: "Specified time cannot be in the future."
+#The format used for the /t say and /n say commands.
+town_say_format: "%s says: %s"
+msg_err_floodfill_not_in_wild: "You cannot use floodfill while standing in a claimed area."
+msg_err_floodfill_out_of_bounds: "Claim shape must be fully closed off in order to floodfill."
+msg_err_floodfill_cannot_contain_towns: "Flood fill selection must not contain other towns."
+#Message shown when a resident is an NPC and is not allowed to do something.
+msg_err_resident_is_npc: "You cannot do this to an NPC resident."
+#Message shown when a resident doesn't own any land and the /res plotlist command is used.
+msg_err_resident_doesnt_own_any_land: "The resident does not own any land personally."
+msg_unnamed: "Unnamed"

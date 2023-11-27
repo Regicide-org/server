@@ -1,0 +1,2063 @@
+---
+name: Towny
+language: Chinese
+author: ElgarL
+website: 'https://townyadvanced.github.io/'
+description: >
+  Language file for all game messages for this Locale.
+#A note on editing this file.
+#----------------------------
+#Do not alter this file if it is in the reference folder.
+#Before you edit this file, read about how Towny handles
+#language files:
+#https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#multi-language.
+#A note on text formatting (how Towny status_title_pvpinserts words.)
+#----------------------------------------------------
+#You MUST retain spacing in the texts.
+#If a text begins or ends with a space, it must remain that
+#way.
+#%s = data to be supplied by the plugin.
+#If you find that a line has multiple %s variables which would
+#be in a different order in your language, you can change them
+#to %1$s, %2$s, %4$s, %3$s to change their order. ie: %4$s
+#will always use the 4th variable, no matter where it is
+#placed on the line.
+#A note on text colouring and formatting.
+#----------------------------------------
+#Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+#Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+#DarkPurple = &9, LightGreen = &a, LightBlue = &b
+#Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+#This language file also supports using MiniMessage for colours
+#and formatting. Learn about MiniMessage formatting here:
+#https://docs.adventure.kyori.net/minimessage/format.html
+default_towny_prefix: '&6[Towny] &b'
+default_town_prefix: '&6[%s] &b'
+default_nation_prefix: '&6[%s] &6'
+unclaimed_plot_name: 'ж— дё»д№‹ењ°'
+unclaimed_zone_name: 'иЌ’йѓЉй‡Ћењ°'
+############################################################
+#+------------------------------------------------------+ #
+#|help messages                                         | #
+#+------------------------------------------------------+ #
+############################################################
+help_0: 'TownyжЏ’д»¶её®еЉ©'
+help_1: 'е°ќиЇ•дЅїз”Ёдё‹йќўзљ„е‘Ѕд»¤жќҐе­¦д№ жЂЋд№€дЅїз”ЁTownyжЏ’д»¶еђ§пјЃ'
+help_2: 'еџЋй•‡иЃЉе¤©'
+help_3: 'е›Ѕе®¶иЃЉе¤©'
+help_4: 'е…ідєЋе±…ж°‘е‘Ѕд»¤зљ„её®еЉ©гЂ‚'
+help_5: 'е…ідєЋеџЋй•‡е‘Ѕд»¤зљ„её®еЉ©гЂ‚'
+help_6: 'е…ідєЋе›Ѕе®¶е‘Ѕд»¤зљ„её®еЉ©гЂ‚'
+help_7: 'е…ідєЋењ°зљ®е‘Ѕд»¤зљ„её®еЉ©гЂ‚'
+help_8: 'е…ідєЋTownyеђ„дёЄе‘Ѕд»¤зљ„её®еЉ©гЂ‚'
+help_9: 'е…ідєЋз®Ўзђ†е‘�е‘Ѕд»¤зљ„её®еЉ©гЂ‚'
+towny_help_0: "Townyзљ„еџєжњ¬её®еЉ©"
+towny_help_1: "Displays a map of the nearby townblocks"
+towny_help_2: "Display the prices used with Economy"
+towny_help_3: "Display highscores"
+towny_help_4: "Display time until a new day"
+towny_help_5: "ж�ѕз¤єз»џи®ЎдїЎжЃЇ"
+towny_help_6: "ж�ѕз¤єTownyзљ„з‰€жњ¬"
+towny_top_help_0: "List top residents based on subcommand."
+towny_top_help_1: "List top land-owners based on subcommand."
+towny_top_help_2: "List wealthiest based on subcommand."
+town_help_1: 'дЅ зљ„еџЋй•‡зљ„зЉ¶жЂЃ'
+town_help_2: '[еџЋдё»]'
+town_help_3: 'и°ѓж•ґдЅ зљ„еџЋй•‡зљ„зЉ¶жЂЃ'
+town_help_4: 'дЅ ж‰ЂењЁењ°зљ„е°Џй•‡зЉ¶жЂЃзљ„жЌ·еѕ„.'
+town_help_5: 'дј йЂЃеЋ»еџЋй•‡е‡єз”џз‚№'
+town_help_6: 'ж–°е»єдёЂдёЄеџЋй•‡пјЊеџЋдё»ж�ЇдЅ гЂ‚'
+town_help_7: 'ж–°е»єдёЂдёЄеџЋй•‡пјЊе№¶дё”йЂ‰е®љдёЂдёЄзЋ©е®¶дЅњдёєеџЋдё»гЂ‚'
+town_help_8: 'е€—е‡єеџЋдё»еЏЇд»ҐдЅїз”Ёзљ„е‘Ѕд»¤'
+town_help_9: 'е°±ењЁд»Ље¤©пјЃ'
+town_help_10: 'жџҐзњ‹еџЋй•‡е†…ењЁзєїзљ„зЋ©е®¶'
+town_help_13: "See a list of residents in the town."
+town_help_14: "See a list of ranks in the town."
+town_help_15: "See a list of outlaws in the town."
+town_help_16: "See a list of plotgroups in the town."
+town_help_17: "See a list of plot types in the town."
+town_help_18: "Say a message to the town members."
+town_help_19: "Set your town for sale, able to be bought by other players."
+town_help_20: "Set your town not for sale."
+town_help_21: "иґ­д№°з»™е®љзљ„еџЋй•‡пј€еЏЄи¦Ѓе®ѓж�Їе‡єе”®зљ„пј‰гЂ‚"
+town_help_22: "еђ‘ж‚Ёзљ„еџЋй•‡й“¶иЎЊе­�й’±гЂ‚"
+town_help_23: "з”ЁжќҐдї®ж”№ж‚ЁеџЋй•‡е±…ж°‘зљ„е¤ґиЎ”гЂ‚"
+town_help_24: "з”ЁжќҐе€ й™¤ж‚Ёзљ„еџЋй•‡гЂ‚"
+town_help_25: "з”ЁжќҐдї®ж”№ж‚ЁеџЋй•‡ж‰Ђж”ѕйЂђзљ„зЋ©е®¶гЂ‚"
+town_help_26: "е€—е‡єж‰Ђжњ‰зљ„еџЋй•‡пјЊжџҐзњ‹/t list ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+town_help_27: "з¦»ејЂдЅ ж‰Ђе±ћзљ„еџЋй•‡гЂ‚"
+town_help_28: "д»Ћж‚Ёзљ„еџЋй•‡й“¶иЎЊеЏ–й’±гЂ‚"
+town_help_29: "дЅїз”ЁжЊ‡д»¤/t claim ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+town_help_30: "з”ЁжќҐеЏ–ж¶€еЈ°ж�ЋдЅ еџЋй•‡зљ„ењџењ°гЂ‚"
+town_help_31: "ж·»еЉ ж€–иЂ…з§»й™¤е±…ж°‘гЂ‚"
+town_help_32: "дЅїз”ЁжЊ‡д»¤/t set ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+town_help_33: "дЅїз”ЁжЊ‡д»¤/t buy ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+town_help_34: "дЅїз”ЁжЊ‡д»¤/t toggle ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+town_help_35: "дЅїз”ЁжЊ‡д»¤/t rank ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+town_list_help_0: "жџҐзњ‹жЊ‡е®љзљ„йЎµйќўгЂ‚"
+town_list_help_1: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§е±…ж°‘зљ„ж•°й‡Џе€—е‡єеџЋй•‡гЂ‚"
+town_list_help_2: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊе€—е‡єејЂж”ѕзљ„еџЋй•‡гЂ‚"
+town_list_help_3: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§й“¶иЎЊе­�ж¬ѕж•°е€—е‡єеџЋй•‡гЂ‚"
+town_list_help_4: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§е­—жЇЌйЎєеєЏе€—е‡єеџЋй•‡гЂ‚"
+town_list_help_5: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§е·ІеЈ°ж�Ћзљ„ењџењ°ж•°й‡Џе€—е‡єеџЋй•‡гЂ‚"
+town_list_help_6: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§ењЁзєїзЋ©е®¶ж•°й‡Џе€—е‡єеџЋй•‡гЂ‚"
+town_set_help_0: "и®ѕзЅ®дЅ еџЋй•‡зљ„е…¬е‘ЉгЂ‚"
+town_set_help_1: "е°†еџЋй•‡зљ„HomeеЊєеќ—и®ѕзЅ®е€°дЅ ж‰Ђз«™з«‹зљ„ењ°ж–№гЂ‚"
+town_set_help_2: "ењЁHomeеЊєеќ—дё­и®ѕзЅ®дј йЂЃз‚№пјЊж€–иЂ…дЅ з«™ењЁе‰Ќе“Ёй‡ЊпјЊи®ѕзЅ®е‰Ќе“Ёзљ„дј йЂЃз‚№гЂ‚"
+town_set_help_3: "жџҐзњ‹/town set perm ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+town_set_help_4: "и®ѕзЅ®дЅ еџЋй•‡зљ„зЁЋйўќгЂ‚"
+town_set_help_5: "Set the special amounts for per-plot taxes."
+town_set_help_6: "и®ѕзЅ®иґ­д№°ењ°зљ®зљ„й»�и®¤д»·ж јгЂ‚"
+town_set_help_7: "и®ѕзЅ®дЅїз”Ё/t spawnзљ„иґ№з”ЁгЂ‚"
+town_set_help_8: "и®ѕзЅ®дЅ еџЋй•‡зљ„еђЌз§°гЂ‚"
+town_set_help_9: "и®ѕзЅ®дЅ еџЋй•‡зљ„з®Ђз§°гЂ‚"
+town_set_help_10: "и®ѕзЅ®дёЂдёЄе±…ж°‘зљ„е¤ґиЎ”ж€–еђЋзјЂгЂ‚"
+town_set_help_11: "Set the max amount of money a percentage tax can take from a resident."
+town_jail_help_0: "е€—е‡єеџЋй•‡зљ„з›‘з‹±гЂ‚"
+town_jail_help_1: "е°†дёЂдёЄе±…ж°‘е…іењЁе€ќзє§з›‘з‹±гЂ‚"
+town_jail_help_2: "е°†дёЂдёЄе±…ж°‘д»ҐжЊ‡е®љзљ„ж—¶й—ґе…іењЁе€ќзє§з›‘з‹±гЂ‚"
+town_jail_help_3: "е°†дёЂдёЄе±…ж°‘д»ҐжЊ‡е®љзљ„ж—¶й—ґе…іењЁжЊ‡е®љзљ„е€ќзє§з›‘з‹±гЂ‚"
+town_jail_help_4: "Jail a resident in the primary jail, for the specified hours, in the specified jail and cell."
+town_jail_help_5: "Jail a resident in the primary jail, for the specified hours, with the given bail amount."
+town_jail_help_6: "Jail a resident in the primary jail, for the specified hours, with the given bail amount, in the specified jail."
+town_jail_help_7: "Jail a resident in the primary jail, for the specified hours, with the given bail amount, in the specified jail and cell."
+town_jail_help_8: "й‡Љж”ѕиї™дёЄе±…ж°‘гЂ‚"
+town_purge_help: "Purges residents that have not logged in for the given amount of days."
+town_trust_help_0: "ењЁиї™дёЄеџЋй•‡дё­пјЊеўћеЉ дёЂдёЄеЏ—дїЎд»»зљ„зЋ©е®¶гЂ‚"
+town_trust_help_1: "ењЁиї™дёЄеџЋй•‡дё­пјЊз§»й™¤дёЂдёЄеЏ—дїЎд»»зљ„зЋ©е®¶гЂ‚"
+town_trust_help_2: "е€—е‡єдёЂдёЄеџЋй•‡дё­еЏ—дїЎд»»зљ„зЋ©е®¶гЂ‚"
+town_towntrust_help_0: "ењЁиї™дёЄеџЋй•‡дё­пјЊеўћеЉ дёЂдёЄеЏ—дїЎд»»зљ„еџЋй•‡гЂ‚"
+town_towntrust_help_1: "ењЁиї™дёЄеџЋй•‡дё­пјЊз§»й™¤дёЂдёЄеЏ—дїЎд»»зљ„еџЋй•‡гЂ‚"
+town_towntrust_help_2: "е€—е‡єдёЂдёЄеџЋй•‡ж‰ЂдїЎд»»зљ„еџЋй•‡гЂ‚"
+mayor_help_3: 'дЅ ж‰ЂйЂ‰ж‹©зљ„еЊєеџџдёЌй™„е±ћдєЋеџЋй•‡'
+mayor_help_4: 'еЈ°ж�ЋдЅ й™„иї‘еЌЉеѕ„дёєXзљ„еЊєеќ—'
+mayor_help_5: 'еЈ°ж�ЋжњЂе¤§еЌЉеѕ„е†…зљ„ж‰Ђжњ‰еЊєеќ—'
+mayor_help_6: 'ж”ѕејѓеЈ°ж�Ћиї™дёЄеџЋй•‡еЊєеќ—'
+mayor_help_7: 'е°ќиЇ•ж”ѕејѓеЈ°ж�ЋдЅ й™„иї‘зљ„ењџењ°'
+mayor_help_8: 'е°ќиЇ•ж”ѕејѓдЅ й™„иї‘зљ„еџЋй•‡еЊєеќ—.'
+nation_help_1: 'дЅ зљ„е›Ѕе®¶зљ„зЉ¶жЂЃ'
+nation_help_2: '[е›Ѕе®¶]'
+nation_help_3: 'з›®ж ‡е›Ѕе®¶зЉ¶жЂЃпјљ'
+nation_help_4: 'е€—е‡єж‰Ђжњ‰е›Ѕе®¶'
+nation_help_5: 'з¦»ејЂзҐ–е›Ѕзљ„жЂЂжЉ±'
+nation_help_6: 'е»єе›Ѕ'
+nation_help_7: 'е€—е‡єе›Ѕе®¶йў†еЇјиЂ…жЊ‡д»¤'
+nation_help_8: 'е»єе›Ѕ'
+nation_help_9: 'е€—е‡єењЁзєїзљ„е›Ѕж°‘'
+nation_help_11: "е€—е‡єе›Ѕе®¶дё­зљ„еџЋй•‡гЂ‚"
+nation_help_12: "е€—е‡єе›Ѕе®¶зљ„з›џе›ЅгЂ‚"
+nation_help_13: "е€—е‡єе›Ѕе®¶зљ„ж•Ње›ЅгЂ‚"
+nation_help_14: "з”ЁжќҐеЉ е…ҐејЂж”ѕзљ„е›Ѕе®¶гЂ‚"
+nation_help_15: "еђ‘е›Ѕе®¶й“¶иЎЊдё­е­�й’±гЂ‚"
+nation_help_16: "з”ЁжќҐе€ й™¤ж‚Ёзљ„е›Ѕе®¶гЂ‚"
+nation_help_17: "з”ЁжќҐз»™дёЂдёЄе±…ж°‘ж·»еЉ ж€–з§»й™¤е¤ґиЎ”гЂ‚"
+nation_help_18: "жџҐзњ‹/n rank ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+nation_list_help_0: "жџҐзњ‹жЊ‡е®љзљ„йЎµйќўгЂ‚"
+nation_list_help_1: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§е±…ж°‘зљ„ж•°й‡Џе€—е‡єе›Ѕе®¶гЂ‚"
+nation_list_help_2: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§еџЋй•‡ж•°й‡Џе€—е‡єе›Ѕе®¶гЂ‚"
+nation_list_help_3: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊе€—е‡єејЂж”ѕзљ„е›Ѕе®¶гЂ‚"
+nation_list_help_4: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§й“¶иЎЊе­�ж¬ѕж•°е€—е‡єе›Ѕе®¶гЂ‚"
+nation_list_help_5: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§е­—жЇЌйЎєеєЏе€—е‡єе›Ѕе®¶гЂ‚"
+nation_list_help_6: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§е·ІеЈ°ж�Ћзљ„ењџењ°ж•°й‡Џе€—е‡єе›Ѕе®¶гЂ‚"
+nation_list_help_7: "ењЁжЊ‡е®љзљ„йЎµйќўпјЊжЊ‰з…§ењЁзєїзЋ©е®¶ж•°й‡Џе€—е‡єе›Ѕе®¶гЂ‚"
+nation_set_help_0: "ж”№еЏ�е›Ѕе®¶зљ„йў†еЇјдєєгЂ‚"
+nation_set_help_1: "ж”№еЏ�е›Ѕе®¶зљ„й¦–йѓЅгЂ‚"
+nation_set_help_2: "и®ѕзЅ®еџЋй•‡еє”зјґзєізљ„зЁЋйўќгЂ‚"
+nation_set_help_3: "и®ѕзЅ®иў«еѕЃжњЌзљ„еџЋй•‡еє”зјґзєізљ„зЁЋйўќгЂ‚"
+nation_set_help_4: "и®ѕзЅ®е›Ѕе®¶еђЌз§°гЂ‚"
+nation_set_help_5: "и®ѕзЅ®дёЂдЅЌе±…ж°‘зљ„е¤ґиЎ”ж€–еђЋзјЂгЂ‚"
+nation_set_help_6: "и®ѕзЅ®е›Ѕе®¶з®Ђз§°гЂ‚"
+nation_set_help_7: "и®ѕзЅ®е›Ѕе®¶е…¬е‘Љж ЏдїЎжЃЇгЂ‚"
+nation_set_help_8: "и®ѕзЅ®е›Ѕе®¶дј йЂЃз‚№гЂ‚"
+nation_set_help_9: "и®ѕзЅ®дЅїз”Ё/n spawnзљ„иґ№з”ЁгЂ‚"
+nation_set_help_10: "Set the mapcolor used in Mapping plugins."
+nation_toggle_help_0: "Toggles peaceful status of the nation."
+nation_toggle_help_1: "е€‡жЌўе›Ѕе®¶вЂње…¬ејЂвЂќзљ„зЉ¶жЂЃпјЊе…Ѓи®ёдёЌж�Їе±…ж°‘зљ„зЋ©е®¶дЅїз”Ё/n spawnгЂ‚"
+nation_toggle_help_2: "е€‡жЌўе›Ѕе®¶вЂњејЂж”ѕвЂќзљ„зЉ¶жЂЃпјЊе…Ѓи®ёжІЎжњ‰иў«й‚ЂиЇ·зљ„еџЋеё‚еЉ е…ҐгЂ‚"
+nation_toggle_help_3: "Toggles taxpercent, making towns pay a percentage instead of fixed rate."
+king_help_1: 'е›Ѕе®¶йў†еЇјиЂ…её®еЉ©'
+king_help_2: 'и®ѕзЅ®дЅ зљ„з›џе›Ѕ.'
+king_help_3: 'и®ѕзЅ®дЅ зљ„ж•Ње›Ѕ.'
+king_help_4: "д»Ћж‚Ёзљ„е›Ѕе®¶й“¶иЎЊеЏ–й’±гЂ‚"
+king_help_5: "Add or remove towns from your nation."
+king_help_6: "дЅїз”ЁжЊ‡д»¤/n set ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+king_help_7: "дЅїз”ЁжЊ‡д»¤/n toggle ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+king_help_8: "Used to absorb another nation into your nation."
+king_help_9: "Used to message everyone in your nation."
+res_1: 'дЅ зљ„дїЎжЃЇ'
+res_2: '[зЋ©е®¶еђЌ]'
+res_3: 'з›®ж ‡зЋ©е®¶дїЎжЃЇ'
+res_4: 'е€—е‡єж‰Ђжњ‰жґ»и·ѓзЋ©е®¶'
+res_5: 'жќҐжџҐзњ‹её®еЉ©'
+res_6: 'й‚ЂиЇ·дёЂдёЄзЋ©е®¶еЉ е…ҐдЅ зљ„еџЋй•‡/иёўе‡єдЅ зљ„еџЋй•‡е†…зљ„дёЂеђЌзЋ©е®¶'
+res_7: 'з”іиЇ·ж·»еЉ дёЂдёЄз¦»зєїзЋ©е®¶дёєеҐЅеЏ‹'
+res_8: 'еЏЄж�ЇдёЂдёЄеЌ‘еѕ®зљ„е†њж°‘'
+res_9: "How much tax you will pay per day."
+res_10: "жџҐзњ‹/res jail ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+res_11: "жџҐзњ‹/res toggle ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+res_12: "жџҐзњ‹/res set ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+res_13: "дј йЂЃе€°ж‚Ёзљ„еџЋй•‡ж€–ж‚Ёзљ„еєЉгЂ‚"
+res_toggle_help_0: "е€‡жЌўж‚ЁеЊєеќ—зљ„PvPзЉ¶жЂЃгЂ‚"
+res_toggle_help_1: "е€‡жЌўж‚ЁеЊєеќ—зљ„зЃ«з„°и”“е»¶зЉ¶жЂЃгЂ‚"
+res_toggle_help_2: "е€‡жЌўж‚ЁеЊєеќ—зљ„з”џз‰©з”џж€ђзЉ¶жЂЃгЂ‚"
+res_toggle_help_3: "Toggle your plots' explosion status."
+res_toggle_help_4: "Toggle the ability to see plot borders."
+res_toggle_help_5: "Toggle the ability to see constant plot borders."
+res_toggle_help_6: "Toggle the ability to see town borders."
+res_toggle_help_7: "Toggle the ability to see plot notifications."
+res_toggle_help_8: "Toggle the ability to claim where you walk."
+res_toggle_help_9: "Toggle the ability to see the map when you change plots."
+res_toggle_help_10: "Remove all modes."
+res_toggle_help_11: "Spy on chat channels."
+res_toggle_help_12: "Toggle the ability to add plots to a plotgroup you have started."
+res_toggle_help_13: "Toggle the ability to see title messages when you change plots."
+res_toggle_help_14: "Toggle the ability to unclaim where you walk."
+res_toggle_help_15: "Toggle the ability to use the infotool to learn proper block/entity names."
+res_toggle_help_16: "Toggle the ability to deactivate your admin priviledges."
+res_jail_help_0: "Pays the bail cost to get out of jail."
+res_set_help_0: "Set your resident's About/Bio"
+res_set_help_1: "Set your resident's default plot permissions."
+res_set_help_2: "Set your resident's modes."
+mode_1: 'ж�ѕз¤єеџЋй•‡еЊєеќ—ењ°е›ѕ'
+mode_2: 'ењЁдЅ з§»еЉЁе€°жЇЏдёЄеЊєеќ—ж—¶и‡ЄеЉЁеЈ°ж�Ћењџењ°'
+mode_3: 'ењЁдЅ з§»еЉЁе€°жЇЏдёЄеЊєеќ—ж—¶и‡ЄеЉЁж”ѕејѓеЈ°ж�Ћењџењ°'
+mode_4: 'й»�и®¤иї›е…ҐеџЋй•‡иЃЉе¤©йў‘йЃ“'
+mode_5: 'й»�и®¤иї›е…Ґе›Ѕе®¶иЃЉе¤©йў‘йЃ“'
+mode_6: 'еЏЇд»ҐењЁж•Ње›Ѕиѕ№з•Њз”Ё %s жќҐе€¶йЂ ж€�еЊє.'
+plot_perms: 'з”Ё %s иЂЊдёЌж�Ї %s жќҐи®ѕзЅ®жќѓй™ђ.'
+plot_perms_1: 'й»�и®¤е¤–жќҐиЂ…жІЎжњ‰е±…ж°‘зљ„ењџењ°жќѓй™ђ.'
+res_list: 'е±…ж°‘'
+res_sing: 'е±…ж°‘'
+mayor_sing: 'еџЋдё»'
+admin_sing: 'з®Ўзђ†е‘�'
+town_sing: 'еџЋй•‡'
+nation_sing: 'е›Ѕе®¶'
+nation_plu: 'е›Ѕе®¶'
+king_sing: 'йў†еЇјиЂ…'
+town_plu: 'еџЋй•‡'
+world_plu: 'дё–з•Њ'
+world_sing: 'дё–з•Њ'
+world_help_1: 'еЅ“е‰Ќдё–з•ЊзЉ¶жЂЃ'
+world_help_2: '[дё–з•Њ]'
+world_help_3: 'з›®ж ‡дё–з•ЊзЉ¶жЂЃ'
+world_help_4: 'е€—е‡єж‰Ђжњ‰дё–з•Њ'
+world_help_5: 'й‡Ќж–°з”џж€ђиї™дёЄеЊєеќ—'
+world_help_6: 'жџҐзњ‹/tw toggle ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚'
+world_help_7: 'жџҐзњ‹/tw set ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚'
+world_set_help_0: "Set the world's wilderness name."
+world_toggle_help_0: "Toggle on/off if towns can claim land in this world."
+world_toggle_help_1: "Toggle on/off if Towny is enabled in this world."
+world_toggle_help_2: "Toggle on/off if wars can happen in this world."
+world_toggle_help_3: "Toggle on/off if pvp or forcepvp is enabled in this world."
+world_toggle_help_4: "Toggle on/off if friendlyfire is enabled in this world."
+world_toggle_help_5: "Toggle on/off if explosions are enabled or forced in this world."
+world_toggle_help_6: "Toggle on/off if fires are enabled or forced in this world."
+world_toggle_help_7: "Toggle on/off the various mobs spawning settings in this world."
+world_toggle_help_8: "Toggle on/off the revert-on-unclaim feature in this world."
+world_toggle_help_9: "Toggle on/off the explosions-are-reverted features in this world."
+world_toggle_help_10: "Toggle on/off the plot-clear-deletes-blocks command in this world."
+world_toggle_help_11: "Toggle on/off the plot-unclaiming-deletes-blocks feature in this world."
+townyadmin_help_1: 'ж”ѕејѓеЈ°ж�Ћиї™дёЄеџЋй•‡еЊєеќ—'
+townyadmin_help_2: 'ж”ѕејѓеЈ°ж�ЋдЅ й™„иї‘зљ„еџЋй•‡еЊєеќ—.'
+admin_panel_1: "жџҐзњ‹/ta set ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+admin_panel_2: 'й‡ЌиЅЅеџЋй•‡'
+admin_panel_3: 'ж‰§иЎЊж–°дёЂе¤©жЊ‡д»¤'
+admin_panel_4: "Unclaim an space surrounding you"
+admin_panel_5: "жџҐзњ‹/ta plot ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+admin_panel_6: "Give a positive or negative amount of townblocks to a player or town"
+admin_panel_7: "жџҐзњ‹/ta toggle ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+admin_panel_8: "Commands for controlling these objects"
+admin_panel_9: "Teleport to the specified plot"
+admin_panel_10: "Check if the player has a permission node"
+admin_panel_11: "Reset your config"
+admin_panel_12: "Make a backup of your Towny data"
+admin_panel_13: "Dump your mysql db to flatfile"
+admin_panel_14: "Force save or load your database"
+admin_panel_15: "Run the newhour code"
+admin_panel_16: "Purge old residents"
+townyadmin_town_help_0: "Create a town with the given name and mayor."
+townyadmin_town_help_1: "Show the town status screen."
+townyadmin_town_help_2: "Add or remove residents from a town."
+townyadmin_town_help_3: "Rename a town."
+townyadmin_town_help_4: "Delete a town."
+townyadmin_town_help_5: "Spawn at a town."
+townyadmin_town_help_6: "Spawn at a town's outpost."
+townyadmin_town_help_7: "Use a town's rank command."
+townyadmin_town_help_8: "Use a town's set command."
+townyadmin_town_help_9: "Use a town's toggle command."
+townyadmin_town_help_10: "Alter a town's metadata."
+townyadmin_town_help_11: "Merge the 2nd town into the first town."
+townyadmin_town_help_12: "Merge the 2nd town into the first town, ignoring any rules."
+townyadmin_town_help_13: "Put money into the town bank."
+townyadmin_town_help_14: "Take money from the town bank."
+townyadmin_town_help_15: "Open the town's bankhistory book."
+townyadmin_town_help_16: "Alter a town's outlaws."
+townyadmin_town_help_17: "Make the town leave their nation."
+townyadmin_town_help_18: "Remove a town's conquered status."
+townyadmin_town_toggle_help_0: "Toggle the Town's PVP."
+townyadmin_town_toggle_help_1: "Toggle the Town's ForcePVP, preventing mayors from turning off pvp."
+townyadmin_town_toggle_help_2: "Toggle the Town's Public status, allowing non-residents to teleport there."
+townyadmin_town_toggle_help_3: "Toggle the Town's Explosion setting."
+townyadmin_town_toggle_help_4: "Toggle the Town's Fire setting."
+townyadmin_town_toggle_help_5: "Toggle the Town's Mob setting."
+townyadmin_town_toggle_help_6: "Toggle the Town's Taxpercent setting."
+townyadmin_town_toggle_help_7: "Toggle the Town's Open setting, allowing people to join the town without an invite."
+townyadmin_nation_help_0: "Create a nation with the given name and capital city."
+townyadmin_nation_help_1: "Show the nation status screen."
+townyadmin_nation_help_2: "Add towns from the nation."
+townyadmin_nation_help_3: "Remove towns from the nation."
+townyadmin_nation_help_4: "Rename a nation."
+townyadmin_nation_help_5: "Delete a town."
+townyadmin_nation_help_6: "Recheck the nation's towns to make sure they're close enough to the capital."
+townyadmin_nation_help_7: "Merge the 2nd nation into the first nation."
+townyadmin_nation_help_8: "Merge the 2nd nation into the first nation, ignoring any rules."
+townyadmin_nation_help_9: "Use a nation's toggle command."
+townyadmin_nation_help_10: "Use a nation's set command."
+townyadmin_nation_help_11: "Put money into the nation bank."
+townyadmin_nation_help_12: "Take money from the nation bank."
+townyadmin_nation_help_13: "Open the nation's bankhistory book."
+townyadmin_nation_help_14: "Place the town into the nation."
+townyadmin_nation_help_15: "Use the nation's rank command."
+townyadmin_nationrank_help_0: "Adds a nation rank to the resident."
+townyadmin_nationrank_help_1: "Removes a nation rank from the resident."
+townyadmin_database_help_0: "Force saves the database."
+townyadmin_database_help_1: "Force loads the database."
+townyadmin_database_help_2: "Removes all titles and surnames from every resident."
+ta_plot_help_0: "Claim a plot for a player."
+ta_plot_help_1: "View the metadata stored in the plot you are stood in."
+ta_plot_help_2: "Set plot metadata key and value."
+ta_plot_help_3: "Add or remove a metadata by key."
+ta_resident_help_0: "Rename a resident."
+ta_resident_help_1: "Add or remove a friend."
+ta_resident_help_2: "List or clear the friend list."
+ta_resident_help_3: "Delete a resident from the database."
+ta_toggle_help_0: "Turn on/off the ability to use the Wilderness in all worlds."
+ta_toggle_help_1: "Turn on/off the regeneration features in all worlds."
+ta_toggle_help_2: "Turn on/off devmode, shows extra logging messages to the player specified in the config."
+ta_toggle_help_3: "Turn on/off debug mode, showing extra messages in the log."
+ta_toggle_help_4: "Turn on/off the ability for towns or nations to remove money from their banks."
+ta_toggle_help_5: "Make a player an NPC or not."
+ta_set_help_0: "Set a towns mayor to the given player."
+ta_set_help_1: "Set a town with a new NPC mayor, they pay no upkeep."
+ta_set_help_2: "Set the capital of a nation."
+ta_set_help_3: "Set a nation's nationzone size."
+ta_set_help_4: "Set a resident's title."
+ta_set_help_5: "Set a resident's surname."
+ta_set_help_6: "Set a plot to a different town."
+ta_set_help_7: "Set a town's founder name."
+ta_set_help_8: "Use size 0 to remove nationzone override."
+ta_purge_help_0: "Purges residents who haven't logged in for longer than the given days, optionally set townless to remove only townless players, or specify a townname to only purge one town's residents."
+ta_townmeta_help_1: "View the metadata stored on the town you specify."
+ta_townmeta_help_2: "Set town metadata key and value."
+ta_townmeta_help_3: "Add or remove a metadata by key from the town."
+ta_residentmeta_help_1: "View the metadata stored on the resident you specify."
+ta_residentmeta_help_2: "Set resident metadata key and value."
+ta_residentmeta_help_3: "Add or remove a metadata by key from the resident."
+ta_nationmeta_help_1: "View the metadata stored on the nation you specify."
+ta_nationmeta_help_2: "Set nation metadata key and value."
+ta_nationmeta_help_3: "Add or remove a metadata by key from the nation."
+ta_reload_help_0: "Reloads database."
+ta_reload_help_1: "Reloads config."
+ta_reload_help_2: "Reloads language files."
+ta_reload_help_3: "Reloads Towny permissions."
+ta_reload_help_4: "Reloads all components of Towny."
+ta_depositall_help_0: "Deposit the given amount into all town and nation banks."
+plot_help_0: "Turns on the plot info HUD."
+plot_help_1: "Removes the owner of the plot."
+plot_help_2: "Deletes a list of blocks from the plot."
+plot_help_3: "жџҐзњ‹/plot set ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+plot_help_4: "жџҐзњ‹/plot toggle ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+plot_help_5: "жџҐзњ‹/plot group ?д»ҐиЋ·еѕ—её®еЉ©гЂ‚"
+plot_help_6: "Removes permission overrides for a player."
+plot_help_7: "Adds default permission overrides for a player."
+plot_help_8: "Opens the permission editor gui."
+plot_help_9: "Adds a resident as Trusted in the plot."
+plot_help_10: "Removes a resident as Trusted in the plot."
+plot_group_help_0: "дѕ‹е¦‚пјљ/plot group new ExpensivePlots"
+plot_group_help_1: "Removes a plot from the specified group."
+plot_group_help_2: "Deletes a plotgroup completely."
+plot_group_help_3: "Renames the group you are standing in."
+plot_group_help_4: "дѕ‹е¦‚пјљ/plot group set perm resident on"
+plot_group_help_5: "дѕ‹е¦‚пјљ/plot group toggle [pvp|fire|mobs]"
+plot_group_help_6: "дѕ‹е¦‚пјљ/plot group forsale 50"
+plot_group_help_7: "дѕ‹е¦‚пјљ/plot group notforsale"
+plot_group_help_8: "Adds or removes a resident as trusted."
+plot_group_help_9: "Adds a resident as Trusted in the plotgroup."
+plot_group_help_10: "Removes a resident as Trusted in the plotgroup."
+plot_group_help_11: "Opens the plot perm GUI."
+plot_group_help_12: "Adds a player to the plot perm GUI."
+plot_group_help_13: "Removes a player to the plot perm GUI."
+plot_toggle_help_0: "Toggles pvp in the plot."
+plot_toggle_help_1: "Toggles explosions in the plot."
+plot_toggle_help_2: "Toggles fire in the plot."
+plot_toggle_help_3: "Toggles mobs in the plot."
+plot_group_toggle_help_0: "Toggles pvp in the plot group."
+plot_group_toggle_help_1: "Toggles explosions in the plot group."
+plot_group_toggle_help_2: "Toggles fire in the plot group."
+plot_group_toggle_help_3: "Toggles mobs in the plot group."
+plot_set_help_0: "дѕ‹е¦‚пјљInn, Wilds, Farm, Embassyз­‰гЂ‚"
+plot_set_help_1: "Sets a plot to an Outpost."
+plot_set_help_2: "Removes a plot type."
+plot_set_help_3: "Names a plot."
+plot_set_help_4: "Toggle all permissions."
+plot_set_help_5: "Sets the permissions of a level or type to on or off."
+plot_set_help_6: "Sets the permission of a level and type to on or off."
+plot_set_help_7: "Sets the permissions to the resident or town that owns the plots."
+plot_jailcell_help_0: "Adds a JailCell where you stand."
+plot_jailcell_help_1: "Removes a JailCell where you stand."
+msg_block_claim: 'еЈ°ж�Ћиї™дёЄеџЋй•‡еЊєеќ—'
+msg_block_claim_radius: 'Claim a radius of plots surrounding you.'
+msg_plot_nfs: 'е…ій—­иї™еќ—ењџењ°зљ„е‡єе”®зЉ¶жЂЃ'
+msg_plot_nfs_radius: 'Take down a radius of plots for sale'
+msg_nfs_abr: '&efs е’Њ nfs е€†е€«ж�Ї forsale(е‡єе”®) е’Њ notforsale(дёЌдѕ›е‡єе”®)зљ„зј©е†™.'
+msg_plot_fs: 'е‡єе”®иї™еќ—ењџењ°.'
+msg_plot_fs_radius: 'Put up a radius of plots for sale.'
+############################################################
+#+------------------------------------------------------+ #
+#|   Messages                                           | #
+#+------------------------------------------------------+ #
+############################################################
+msg_buy: '&bз”Ё %s иґ­д№°дє† %d %s .'
+msg_buy_resident_plot: '&b%s иЉ±иґ№дє† %s иґ­д№°дє† %s зљ„ењџењ°!'
+msg_couldnt_pay_taxes: '&b%s е› дёєдє¤дёЌиµ·зЁЋиЂЊиў«иёўе‡єдє† %s.'
+msg_couldnt_pay_plot_taxes: '&b%s дє¤дёЌиµ·зЁЋиЂЊе¤±еЋ»дє†д»–зљ„ењџењ°ж‰Ђжњ‰жќѓ.'
+msg_payed_town_tax: '&bзјґзєіеџЋй•‡зЁЋ: '
+msg_payed_plot_cost: '&bзјґзєі %s дЅњдёє %s ењЁ %s зљ„ењџењ°зЁЋ'
+msg_payed_resident_tax: '&bзјґзєідёЄдєєж‰Ђеѕ—зЁЋ: '
+msg_bankrupt_town: ' й“¶иЎЊиµ„й‡‘дёЌи¶ід»Ґз»ґжЊЃеџЋй•‡зљ„ж—ҐеёёејЂй”Ђ.'
+msg_bankrupt_nation: ' й“¶иЎЊиµ„й‡‘дёЌи¶ід»Ґз»ґжЊЃе›Ѕе®¶зљ„ж—ҐеёёејЂй”Ђ.'
+msg_nation_not_peaceful: '&bе›Ѕе®¶зљ„е’Ње№іе·Іиў«ж‰“з ґ.'
+msg_nation_cant_peaceful: '&bNation couldn''t afford to become a peaceful nation. You must be able to pay % daily.'
+msg_peaceful_disabled: '&bж‰Ђжњ‰е›Ѕе®¶зљ„е’Ње№ійѓЅе·Іиў«ж‰“з ґ.'
+msg_you_paid: '&bдЅ иЉ±иґ№дє† %s жќҐдїќжЊЃж€�ж—¶дё­з«‹.'
+msg_nation_set_peace: '&bж€ђеЉџж”№еЏ�е›Ѕе®¶зЉ¶жЂЃ.'
+msg_nation_allow_peaceful: '&bе›Ѕе®¶зљ„е’Ње№ізЋ°ењЁ: %s'
+msg_mobremoval_world: '&bй�»ж­ўдё–з•ЊжЂЄз‰©з”џж€ђ: %s'
+msg_mobremoval_town: '&bй�»ж­ўеџЋй•‡жЂЄз‰©з”џж€ђ: %s'
+msg_nation_peaceful: '&bдЅ зљ„е›Ѕе®¶зЋ°ењЁ'
+msg_tax_exempt: '&bеџЋй•‡е·ҐдЅњдєєе‘�е…ЌзЁЋ.'
+msg_del_nation: '&bе›Ѕе®¶ %s е·Іе€†еґ©з¦»жћђ!'
+msg_del_resident: '&b%s зљ„еџЋй•‡ж•°жЌ®е·Іиў«е€ й™¤!'
+msg_join_nation: '&bеџЋй•‡ %s еЉ е…Ґдє†е›Ѕе®¶!'
+msg_join_town: '&b%s еЉ е…Ґдє†еџЋй•‡!'
+msg_friend_add: '&b%s жЉЉдЅ и§†дёєдє†жњ‹еЏ‹.'
+msg_friend_remove: '&b%s дёЌе†ЌжЉЉдЅ и§†дёєжњ‹еЏ‹.'
+msg_left_town: '&b%s з¦»ејЂдє†еџЋй•‡'
+msg_you_left: '&bдЅ з¦»ејЂдє† %s.'
+msg_not_mayor: '&bдЅ дёЌж�ЇеџЋдё».'
+msg_not_king: '&bдЅ дёЌж�Їе›Ѕе®¶йў†еЇјиЂ…гЂ‚'
+msg_not_mayor_ass: '&bдЅ дёЌж�ЇеџЋдё»ж€–еЉ©ж‰‹.'
+msg_not_king_ass: '&bдЅ дёЌж�Їе›Ѕе®¶зљ„йў†еЇјиЂ…ж€–еЉ©ж‰‹гЂ‚'
+msg_own_nation_disallow: '&bдЅ дёЌиѓЅењЁи‡Єе·±зљ„е›Ѕе®¶иї™д№€еЃљ.'
+msg_no_perms_claim: '&bдЅ жІЎжњ‰жќѓй™ђжќҐж‰©е¤§дЅ зљ„еџЋй•‡.'
+msg_outpost_disable: '&bе‰Ќе“ЁзЋ°ењЁдёЌеЏЇз”Ё.'
+msg_kicked_by: '&bдЅ иў«иёўе‡єдє† %s.'
+msg_kicked: '&b%s жЉЉ %s иёўе‡єдє†еџЋй•‡.'
+msg_nation_kicked_by: '&bдЅ зљ„еџЋй•‡иў« %s иёўе‡єдє†е›Ѕе®¶.'
+msg_town_left_nation: '&bдЅ зљ„еџЋй•‡и„±з¦»дє† %s.'
+msg_nation_town_left: '&bеџЋй•‡ %s з¦»ејЂдє†дЅ зљ„е›Ѕе®¶.'
+msg_nation_kicked: '&b%s жЉЉ %s д»Ћиї™дёЄе›Ѕе®¶иёўе‡є.'
+msg_raised_ass: '&b%s жЉЉ %s жЏђеЌ‡дёє %s еЉ©ж‰‹.'
+msg_lowered_to_res_by: '&bдЅ иў« %s й™ЌиЃЊдє†.'
+msg_lowered_to_res: '&b%2$sиў«%1$sз‚’дє†й±їй±јпјЊдЅїеѕ—%2$sж€ђдёєдє†ж™®йЂље±…ж°‘гЂ‚'
+msg_invalid_name: '&bж— ж•€еђЌз§°.'
+msg_invited_join_town: '&b%s й‚ЂиЇ· %s еЉ е…ҐеџЋй•‡.'
+msg_invited_join_nation: '&b%s й‚ЂиЇ· %s еЉ е…Ґе›Ѕе®¶.'
+msg_deny_invite: '&b%s ж‹’з»ќдє†дЅ зљ„й‚ЂиЇ·.'
+msg_invited: '&bдЅ иў«й‚ЂиЇ·еЉ е…Ґ %s.'
+msg_town_online: 'еџЋй•‡ењЁзєїзЋ©е®¶'
+msg_nation_online: 'е›Ѕе®¶ењЁзєїзЋ©е®¶'
+msg_allied_nations: '&b%s еЉ з›џдє† %s.'
+msg_enemy_nations: '&b%s е°† %s и§†дёєж•Ње›Ѕ .'
+msg_enemy_to_neutral: '&b%s жЉЉ %s и°ѓж•ґдёєе’Ње№ізЉ¶жЂЃ.'
+msg_added_ally: '&b%s еЉ з›џдє†дЅ зљ„е›Ѕе®¶.'
+msg_removed_ally: '&b%s дёЌе†Ќе°†дЅ зљ„е›Ѕе®¶и§†дёєз›џе›Ѕ.'
+msg_added_enemy: '&b%s жЉЉдЅ зљ„е›Ѕе®¶и§†дёєж•Ње›Ѕ.'
+msg_removed_enemy: '&b%s дёЌе†ЌжЉЉдЅ зљ„е›Ѕе®¶и§†дёєж•Ње›Ѕ.'
+msg_unable_ally_enemy: '&cж— жі•е°† %s и§†дёєз›џе›Ѕ,е› дёєд»–д»¬е·Із»Џе°†дЅ и§†дёєж•Ње›Ѕ.'
+msg_deny_ally: '&b%s ж‹’з»ќдє†дЅ зљ„еЉ з›џ.'
+msg_accept_ally: '&bе›Ѕе®¶%sжЋҐеЏ—дє†дЅ зљ„й‚ЂиЇ·пјЊдЅ д»¬ж€ђдёєдє†з›џе›ЅгЂ‚'
+msg_ally_req_sent: '&bж€ђдёєз›џе›Ѕзљ„й‚ЂиЇ·е·ІеЏ‘йЂЃз»™%sгЂ‚'
+msg_ally_request: '&b%sжѓіи¦ЃдёЋдЅ е›Ѕз»“з›џгЂ‚'
+msg_unable_ally_offline: "&cж— жі•й‚ЂиЇ·иЇҐе›Ѕе®¶е› дёєе›ЅзЋ‹дёЌењЁзєї."
+msg_unable_ally_npc: "&cж— жі•й‚ЂиЇ·иЇҐе›Ѕе®¶е› дёєе›ЅзЋ‹ж�ЇNPC."
+msg_claimed: '&2ж€ђеЉџеЈ°ж�Ћ'
+msg_unclaimed: '&2ж€ђеЉџж”ѕејѓеЈ°ж�Ћ'
+msg_not_claimable: '&cиї™дёЄдё–з•ЊдёЌиѓЅеЈ°ж�ЋеџЋй•‡еЊєеќ—.'
+msg_abandoned_area: '&bж”ѕејѓеЊєеџџ %s'
+msg_admin_unclaim_area: '&cејєе€¶ж”ѕејѓеЊєеџџ  %s'
+msg_abandoned_area_1: '&bдЅ зљ„еџЋй•‡ж”ѕејѓдє†иї™з‰‡еЊєеџџ'
+msg_no_money_purchase_plot: '&cдЅ жІЎжњ‰и¶іе¤џзљ„й’±жќҐиґ­д№°иї™еќ—ењџењ°.'
+msg_town_no_money_purchase_plot: '&cеџЋй•‡жІЎжњ‰и¶іе¤џзљ„й’±жќҐд№°е›ћиї™еќ—ењџењ°.'
+msg_no_funds_new_town: '&c%s жІЎжњ‰и¶іе¤џзљ„е»єеџЋиµ„й‡‘.'
+msg_no_funds_claim: '&cеџЋй•‡зЋ°ењЁжІЎжњ‰и¶іе¤џзљ„иµ„й‡‘жќҐеЈ°ж�Ћ%sдёЄеџЋй•‡еЊєеќ—пјЊе› дёєиї™йњЂи¦Ѓ %sгЂ‚дЅ жЌђдє›й’±е€°еџЋй•‡й“¶иЎЊеђ§гЂ‚'
+msg_no_funds_to_buy: '&cеџЋй•‡зЋ°ењЁжІЎжњ‰и¶іе¤џзљ„иµ„й‡‘жќҐиґ­д№° %s %sпјЊе› дёєиї™йњЂи¦ЃиЉ±иґ№  %sгЂ‚дЅ жЌђдє›й’±е€°еџЋй•‡й“¶иЎЊеђ§гЂ‚'
+msg_annexed_area: '&2иў«еђће№¶зљ„еЊєеџџ %s'
+msg_max_plot_own: '&cдЅ дёЌиѓЅж‹Ґжњ‰е¤љдєЋ %s еќ—зљ„ењџењ°.'
+msg_max_outposts_own: '&cдЅ дёЌиѓЅеЈ°ж�Ће¤љдЅ™ %s дёЄзљ„е‰Ќе“Ё.'
+msg_no_funds_new_nation: '&cеџЋй•‡жІЎжњ‰и¶іе¤џзљ„иµ„й‡‘жќҐе»єе›Ѕ.'
+msg_already_claimed: '&cиї™з‰‡еЊєеџџе·Іиў«%sеЈ°ж�Ћ'
+msg_already_claimed_1: '&cиї™еќ—еЊєеџџ (%s)е·Із»Џйљ¶е±ћдєЋжџђдєє.'
+msg_already_claimed_2: '&cиї™еќ—еЊєеџџе·Іиў«еЈ°ж�Ћ.'
+msg_too_close: '&cиї™дёЄеЊєеќ—з¦»е…¶д»–еџЋй•‡е¤Єиї‘дє†.'
+msg_too_far: '&cиї™з‰‡еЊєеџџз¦»е…¶д»–еџЋй•‡е¤Єиїњдє†.'
+msg_not_claimed: '&bиї™з‰‡еЊєеџџ (%s) иї�жњЄиў«еЈ°ж�Ћ.'
+msg_not_claimed_1: '&bиї™з‰‡еЊєеџџиї�жњЄиў«еЈ°ж�Ћ.'
+msg_not_own_area: '&cдЅ йЂ‰ж‹©зљ„еЊєеџџдёЌе±ћдєЋдЅ .'
+msg_not_own_place: '&bиї™еќ—ењ°ж–№дёЌе±ћдєЋд»»дЅ•дєє.'
+msg_area_not_own: '&cиї™з‰‡еЊєеџџдёЌе±ћдєЋдЅ .'
+msg_area_not_recog: '&cиї™з‰‡еЊєеџџдёЌеЅ’еџЋй•‡ж‰Ђз®Ў.'
+msg_specify_name: '&bиЇ·жЊ‡е®љеџЋй•‡еђЌ'
+msg_specify_nation_name: '&bиЇ·жЊ‡е®ље›Ѕе®¶еђЌ'
+msg_peasant_right: '&bиґ±ж°‘жІЎжњ‰жќѓе€©ејєиї«д»–зљ„йў†еЇјиЂ…и®©е‡єе®ќеє§.'
+msg_cost_spawn: '&bдЅ иЉ±иґ№дє† %s жќҐдј йЂЃе€°еџЋй•‡дј йЂЃз‚№.'
+msg_cost_spawn_refund: '&bдЅ иЋ·еѕ—дє†иў«йЂЂе›ћзљ„еџЋй•‡дј йЂЃиґ№з”Ё.'
+msg_town_spawn_warmup: '&bз­‰еѕ…дј йЂЃ...'
+msg_town_rename_disabled: '&bе·Іе…ій—­еџЋй•‡й‡Ќе‘ЅеђЌ'
+msg_town_set_name: '&b%s й‡Ќе‘Ѕй•‡еђЌдёє %s.'
+msg_nation_set_name: '&b%s й‡Ќе‘Ѕе›ЅеђЌдёє %s.'
+msg_changed_pvp: '&c%s PVPзЉ¶жЂЃеЏ�ж›ґдёє %s.'
+msg_changed_public: '&cеџЋй•‡зљ„е…¬ејЂзЉ¶жЂЃеЏ�ж›ґдёє %s.'
+msg_changed_expl: '&c%s дё­зљ„е…Ѓи®ёз€†з‚ёеЏ�ж›ґдёє %s.'
+msg_changed_fire: '&c%s дё­зљ„зЃ«еЉїи”“е»¶еЏ�ж›ґдёє %s.'
+msg_changed_mobs: '&c%s дё­зљ„жЂЄз‰©з”џж€ђеЏ�ж›ґдёє %s.'
+msg_the_plot_group: 'ењ°зљ®з»„'
+msg_changed_taxpercent: '&cжЊ‰жЇ”дѕ‹ж”¶зЁЋжЁЎејЏеЏ�ж›ґдёє %s.'
+msg_changed_open: '&cеџЋй•‡й‚ЂиЇ·еЉ е…ҐеЏ�ж›ґдёє %s.'
+msg_toggle_open_on_warning: 'и­¦е‘Љ: е¦‚жћњеџЋй•‡и®ѕдёєејЂж”ѕй‚Јд№€еџЋй•‡жќѓй™ђжњЂеҐЅе…ій—­. иѕ“е…Ґ /town set perm off е…ій—­,  /town set perm resetй‡ЌзЅ®.'
+msg_changed_world_setting: '&c%s зљ„ %s зЉ¶жЂЃеЏ�ж›ґдёє: %s.'
+msg_world_pvp: '&cиї™дёЄдё–з•Њејєе€¶ејЂеђЇPVP.'
+msg_world_mobs: '&cиї™дёЄдё–з•Њејєе€¶ејЂеђЇжЂЄз‰©з”џж€ђ.'
+msg_world_expl: '&cиї™дёЄдё–з•Њејєе€¶ејЂеђЇз€†з‚ё.'
+msg_world_fire: '&cиї™дёЄдё–з•Њејєе€¶ејЂеђЇзЃ«еЉїи”“е»¶.'
+msg_town_mobs: '&cиї™дёЄдё–з•Њејєе€¶жЂЄз‰©з”џж€ђ.'
+msg_plot_pvp: '&cдёЌиѓЅењЁдёЂдёЄз«ћжЉЂењєдё­ејЂеђЇж€–е…ій—­PVP.'
+msg_plot_regen_wrong_size: '&cе›ћжєЇеЏЄж”ЇжЊЃй»�и®¤зљ„еЊєеќ—е¤§е°Џ(16).'
+msg_reloaded: '&2еџЋй•‡и®ѕзЅ®е·Ій‡ЌиЅЅ.'
+msg_undo_complete: '&2ж€ђеЉџж’¤й”Ђж“ЌдЅњ.'
+msg_give_total: '&bз»™дє€ %s еҐ–еЉ±еЊєеќ—дёЉй™ђ. (жЂ»е…±: %s)'
+mag_backup_success: '&2е®Њж€ђе¤‡д»Ѕ.'
+msg_xx_withdrew_xx: '&b%s д»ЋеџЋй•‡й“¶иЎЊеЏ–е‡єдє† %s.'
+msg_xx_deposited_xx: '&b%s жЌђиµ дє† %s е…ѓе€° %s й“¶иЎЊе†….'
+msg_insuf_funds: '&cдЅ жІЎжњ‰иї™д№€е¤љй’±.'
+msg_err_withdraw_disabled: 'еЏ–ж¬ѕеЉџиѓЅе·Іе…ій—­!'
+msg_err_deposit_capped: 'ж— жі•жЌђж¬ѕ. й“¶иЎЊиµ„й‡‘дёЉй™ђдёє %s.'
+msg_set_town_home: '&bж€ђеЉџжЉЉеџЋй•‡д№‹е®¶зљ„дЅЌзЅ®еЏ�дёє %s'
+msg_set_town_spawn: '&bеџЋй•‡дј йЂЃз‚№е·Іж€ђеЉџж›ґж”№.'
+msg_set_outpost_spawn: '&bж€ђеЉџж”№еЏ�е‰Ќе“Ёдј йЂЃз‚№.'
+msg_set_title: '&b%s иЋ·еѕ—дє† %s &bзљ„е¤ґиЎ”.'
+msg_set_surname: '&b%s иЋ·еѕ—дє† %s&bзљ„еђЋзјЂ.'
+msg_clear_title_surname: '&b%2$sзљ„%1$sиў«жё…й™¤дє†.'
+msg_clear_plot_material: '&bиї™еќ—ењ°зљ®е·Із»Џиў«жё…й™¤дє†%sзљ„еЊєеќ—з±»ећ‹'
+msg_set_perms: '&bж€ђеЉџе°†жќѓй™ђи®ѕзЅ®дёє:'
+msg_set_claim: '&bж€ђеЉџж”№еЏ� %s зљ„еЏЇеЈ°ж�ЋзЉ¶жЂЃдёє %s'
+msg_set_perms_reset: '&bж€ђеЉџй‡ЌзЅ® %s зљ„ж‰Ђжњ‰ењџењ°зљ„жќѓй™ђ.'
+msg_usedefault: '&bдё–з•Њ (%s) зЋ°ењЁе°†дЅїз”Ёй»�и®¤е…Ёе±Ђи®ѕзЅ®.'
+msg_set_wild_perms: '&bж€ђеЉџењ°ж”№еЏ�дє† %s зљ„й‡Ће¤–жќѓй™ђ %s'
+msg_set_wild_ignore: '&bж€ђеЉџењ°е°† %s зљ„й‡Ће¤–еїЅз•Ґж–№еќ—и®ѕзЅ®дёє %s'
+msg_set_wild_name: '&bж€ђеЉџењ°е°† %s зљ„й‡Ће¤–е‘ЅеђЌдёє %s'
+msg_set_wild_regen: '&bж€ђеЉџењ°е°† %s зљ„й‡Ће¤–е¤ЌеЋџдёє %s'
+msg_set_use_towny_on: '&bиї™дёЄдё–з•Њиў«Townyзєіе…Ґз®Ўиѕ–иЊѓе›ґ.'
+msg_set_use_towny_off: '&cиї™дёЄдё–з•ЊдёЌе†Ќиў«Townyз®Ўиѕ–.'
+msg_error_must_be_int: '&bж•°й‡Џеї…йЎ»ж�ЇдёЂдёЄж•ґж•°.'
+msg_error_input_must_be_int: '&c%sеї…йЎ»ж�ЇдёЂдёЄж•ґж•°'
+msg_error_must_be_num: '&bж•°й‡Џеї…йЎ»ж�ЇдёЂдёЄж•°е­—.'
+msg_error_input_must_be_num: '&c%sеї…йЎ»ж�ЇдёЂдёЄж•°е­—'
+msg_must_specify_amnt: '&bдЅ йњЂи¦Ѓз»™е®љдёЂдёЄж•°й‡Џ. жЇ”е¦‚: %s 54'
+msg_town_set_tax: '&b%s е°†е±…ж°‘зљ„жЇЏж—ҐзЁЋж¬ѕи®ѕзЅ®дёє %s'
+msg_town_set_plottax: '&b%s е°†еЊєеќ—зљ„жЇЏж—ҐзЁЋж¬ѕи®ѕзЅ®дёє %s'
+msg_town_set_plotprice: '&b%s е°†еЊєеќ—зљ„д»·ж ји®ѕзЅ®дёє %s'
+msg_town_set_alttax: '&b%s е°† %s еЊєеќ—зљ„жЇЏж—ҐзЁЋж¬ѕи®ѕзЅ®дёє %s'
+msg_town_set_altprice: '&b%s е°† %s еЊєеќ—зљ„д»·ж ји®ѕзЅ®дёє %s'
+msg_town_set_nation_tax: '&b%s е°†е›Ѕе®¶зЁЋзЋ‡и®ѕзЅ®дёє %s'
+msg_set_nation_tag: '&b%s е°†е›Ѕе®¶з®Ђз§°и®ѕзЅ®дёє [%s]'
+msg_set_town_tag: '&b%s е°†еџЋй•‡з®Ђз§°и®ѕзЅ®дёє [%s]'
+msg_reset_nation_tag: '&b%s жё…й™¤дє†е›Ѕе®¶з®Ђз§°.'
+msg_reset_town_tag: '&b%s жё…й™¤дє†еџЋй•‡з®Ђз§°.'
+msg_mayor_abandon: '&bдЅ зњџзљ„и¦Ѓи€ЌејѓдЅ зљ„дєєж°‘еђ—? е¦‚жћњдЅ зњџзљ„жѓіиї™д№€еЃљ,з”Ё /town set mayor жќҐе°†еџЋдё»д№‹дЅЌи®©з»™е…¶д»–дєєеђ§.'
+msg_new_day_tax: '&bзѕЋеҐЅзљ„дёЂе¤©еЏ€ејЂе§‹дє†! зЁЋж¬ѕз§џй‡‘ж”¶зјґе®ЊжЇ•'
+msg_new_day: '&bзѕЋеҐЅзљ„дёЂе¤©еЏ€ејЂе§‹дє†!'
+msg_new_king: '&b%sзЋ°ењЁж�Ї%sзљ„е›Ѕе®¶йў†еЇјиЂ…пјЃ'
+msg_err_new_king_notmayor: '&cж–°зљ„е›Ѕе®¶йў†еЇјиЂ…дёЌж�Їеё‚й•їгЂ‚'
+msg_err_king_not_in_nation: '&cж–°зљ„е›Ѕе®¶йў†еЇјиЂ…дёЌе±ћдєЋиї™дёЄе›Ѕе®¶гЂ‚'
+msg_err_fight_like_king: '&cе’Ње№іпјџдёЌпјЊе’Ње№ідёЌж�ЇйЂ‰ж‹©пјЃеѓЏдёЄзњџж­Јзљ„йў†еЇјиЂ…дёЂж ·ж€�ж–—пјЃпјЃ'
+msg_no_access_nation_bank: '&cдЅ жІЎжњ‰дЅїз”Ёе›Ѕе®¶й“¶иЎЊзљ„жќѓй™ђ.'
+msg_err_no_money: '&cй“¶иЎЊй‡ЊжІЎжњ‰и¶іе¤џзљ„й’±.'
+msg_new_mayor: '&b%s ж€ђдёєдє†ж–°дёЂе±Љзљ„еџЋдё»!'
+msg_new_nation: '&b%s е»єз«‹дє†дёЂдёЄеђЌдёє %s зљ„е›Ѕе®¶'
+msg_new_town: '&b%s е»єз«‹дє†дёЂдёЄеђЌдёє %s зљ„еџЋй•‡'
+msg_plot_for_sale: '&b%s е°† (%s) еЊєеќ—жЊ‚е‡єе‡єе”®!'
+msg_plot_for_sale_amount: '&b%sе°†дЅЌдєЋпј€%sпј‰зљ„ењџењ°д»Ґ%sзљ„д»·ж је‡єе”®пјЃ'
+msg_plot_set_type: '&bи®ѕзЅ®ењџењ°з±»ећ‹дёє %s'
+msg_cache_block_error: '&cеџЋй•‡жІЎжњ‰дЅ зљ„дїЎжЃЇ. иЇ·е°ќиЇ•й‡Ќж–°з™»еЅ•.'
+msg_cache_block_error_wild: '&cдЅ дёЌиѓЅењЁиЌ’й‡Ћдё­ %s .'
+msg_cache_block_error_plot: '&cењ°дё»дёЌе…Ѓи®ё%s%sгЂ‚'
+msg_cache_block_error_town_resident: '&cе±…ж°‘дёЌиѓЅењЁиї™й‡Њ%sгЂ‚'
+msg_cache_block_error_town_allies: '&cз›џеЏ‹дёЌиѓЅ%sгЂ‚'
+msg_cache_block_error_town_outsider: '&cе¤–жќҐиЂ…дёЌиѓЅ %s.'
+msg_err_cant_afford_tp_town: '&cдЅ жІЎжњ‰й’±дј йЂЃе€° %s.'
+msg_err_not_public: '&cй‚ЈдёЄеџЋй•‡дёЌеЇ№е¤–ејЂж”ѕ.'
+msg_err_not_open: '&cеџЋй•‡ %s дёЌеЇ№жЇЏдёЄдєєйѓЅејЂж”ѕе®ѓзљ„е¤§й—Ё. е¦‚жћњдЅ жѓіи¦ЃеЉ е…Ґиї™дёЄеџЋй•‡,иЇ·иЇўй—®еџЋдё»еЏЉе…¶еЉ©ж‰‹.'
+msg_err_town_spawn_forbidden: '&cз¦Ѓж­ўеџЋй•‡дј йЂЃ.'
+msg_err_town_spawn_nation_forbidden: '&cдЅ зљ„е›Ѕе®¶з¦Ѓж­ўдЅ дј йЂЃе€°е…¶д»–еџЋй•‡.'
+msg_err_town_spawn_ally_forbidden: '&cдЅ зљ„е›Ѕе®¶з¦Ѓж­ўдЅ дј йЂЃе€°е…¶д»–еђЊз›џзљ„еџЋй•‡.'
+msg_err_public_spawn_forbidden: '&cз¦Ѓж­ўдј йЂЃе€°е…¶д»–еџЋй•‡.'
+msg_err_public_spawn_enemy: '&cж•Њдєєж— жі•дј йЂЃе€°е…¬ејЂеџЋй•‡.'
+msg_err_town_spawn_disallowed_from: '&cеџЋй•‡дј йЂЃз‚№зЋ°ењЁеЇ№ %s ејЂж”ѕ.'
+msg_err_outpost_spawn: '&cиї™дёЄеџЋй•‡жІЎжњ‰и®ѕзЅ®е‰Ќе“Ёдј йЂЃз‚№.'
+msg_err_cant_afford_tp: '&bж— жі•ж”Їд»�дј йЂЃе€°дЅ зљ„еџЋй•‡дј йЂЃз‚№зљ„иґ№з”Ё.'
+msg_err_plot_nfs: '&cиї™еќ—ењџењ°дёЌдѕ›е‡єе”®.'
+msg_err_not_part_town: '&cе·ІйЂ‰еЊєеџџдёЌе±ћдєЋдЅ зљ„еџЋй•‡.'
+msg_err_not_attached_edge: '&cйЂ‰ж‹©зљ„еЊєеџџдёЌдёЋдЅ зљ„еџЋй•‡жЋҐеЈ¤.'
+msg_err_empty_area_selection: '&cйЂ‰е®љеЊєеџџеЊ…еђ«ж— ж•€еЊєеќ—.'
+msg_err_not_enough_blocks: '&cжІЎжњ‰и¶іе¤џзљ„еЏЇз”ЁеџЋй•‡еќ—жќҐеЈ°ж�Ћиї™з‰‡еЊєеџџ.'
+msg_err_cant_afford_blocks: '&cеџЋй•‡ж”Їд»�дёЌиµ·еЈ°ж�Ћ %s еџЋй•‡еЊєеќ—зљ„й’±: %s'
+msg_err_not_in_town_claim: '&дЅ еї…йЎ»еЉ е…ҐеџЋй•‡ж‰ЌиѓЅеЈ°ж�Ћиї™еќ—ењџењ°.'
+msg_err_must_belong_town: '&cдЅ еї…йЎ»ж�ЇдёЂдёЄеџЋй•‡е±…ж°‘.'
+msg_err_dont_belong_town: '&cдЅ дёЌе±ћдєЋдёЂдёЄеџЋй•‡.'
+msg_err_dont_belong_nation: '&bдЅ дёЌе±ћдєЋдёЂдёЄе›Ѕе®¶зљ„и‡Јж°‘.'
+msg_err_not_same_nation: '&b%sдёЌе±ћдєЋдЅ зљ„е›Ѕе®¶.'
+msg_err_rect_auto: '&cеЏЄжњ‰еџЋй•‡еЏЉе…¶е±…ж°‘ж‰ЌиѓЅдЅїз”Ё auto.'
+msg_err_invalid_radius: '&cж— ж•€еЌЉеѕ„. иѕ“е…Ґж•ґж•°ж€– auto.'
+msg_err_not_configured: '&cиї™дёЄдё–з•Њиї�жњЄиў«еџЋй•‡дё»е®°.'
+msg_err_updating_item_perms: '&cж›ґж–°з‰©е“ЃдЅїз”Ёжќѓй™ђзј“е­�ж—¶е‡єй”™.'
+msg_err_updating_switch_perms: '&cж›ґж–°дє¤дє’жќѓй™ђзј“е­�ж—¶е‡єй”™.'
+msg_err_updating_destroy_perms: '&cж›ґж–°з ґеќЏжќѓй™ђзј“е­�ж—¶е‡єй”™.'
+msg_err_updating_build_perms: '&cж›ґж–°е»єз­‘жќѓй™ђзј“е­�ж—¶е‡єй”™.'
+msg_err_admin_only: '&cеЏЄжњ‰з®Ўзђ†е‘�ж‰ЌеЏЇд»ҐдЅїз”Ёиї™дёЄжЊ‡д»¤.'
+msg_err_admin_only_delete: '&cеЏЄжњ‰з®Ўзђ†е‘�ж‰ЌеЏЇд»Ґе€ й™¤е…¶д»–е±…ж°‘зљ„ж•°жЌ®.'
+msg_err_admin_only_delete_town: '&cеЏЄжњ‰з®Ўзђ†е‘�ж‰ЌеЏЇд»Ґе€ й™¤е…¶д»–еџЋй•‡зљ„ж•°жЌ®.'
+msg_err_admin_only_delete_nation: '&cеЏЄжњ‰з®Ўзђ†е‘�ж‰ЌеЏЇд»Ґе€ й™¤е…¶д»–е›Ѕе®¶зљ„ж•°жЌ®.'
+msg_err_online_or_npc: '&c%s е·ІењЁзєїж€–ж�ЇдёЄ NPC.'
+msg_err_not_registered: '&cдЅ иї�жІЎжњ‰жіЁе†Њ'
+msg_err_not_registered_1: '&c%s жњЄиў«жіЁе†Њ'
+msg_err_invalid_name: '&c%s дёЌж�ЇдёЂдёЄжњ‰ж•€зљ„еђЌз§°.'
+msg_err_already_res: '&c%s е·Із»Џе±ћдєЋдёЂдёЄеџЋй•‡дє†.'
+msg_err_already_in_town: '&c%s е·Із»Џж�Ї %s зљ„дёЂе‘�дє†.'
+msg_err_already_nation: '&cз›®ж ‡еџЋй•‡е·Із»Џжњ‰дёЂдёЄе›Ѕе®¶дє†.'
+msg_err_invalid_property: '&cж— ж•€зљ„ %s е±ћжЂ§.'
+msg_err_not_supported: '&cжљ‚дёЌж”ЇжЊЃ.'
+msg_err_invalid_input: '&cж— ж•€зљ„ж•°еЂј. дЅїз”Ё %s'
+msg_err_negative: '&cиѕ“е…Ґж•°еЂјдёЌиѓЅдёєиґџ.'
+msg_err_input_too_long: '&cдЅ иѕ“е…Ґзљ„е†…е®№е¤Єй•їдє†.'
+msg_err_invalid_choice: '&cж— ж•€зљ„йЂ‰ж‹©'
+msg_err_invalid_sub: '&cж— ж•€зљ„е­ђе‘Ѕд»¤.'
+msg_err_command_disable: '&cдЅ жІЎжњ‰и¶іе¤џзљ„жќѓй™ђдЅїз”Ёиї™дёЄжЊ‡д»¤.'
+msg_err_universe_limit: '&cиї™дёЄдё–з•ЊдёЌиѓЅе†Ќжњ‰ж›ґе¤љзљ„еџЋй•‡дє†.'
+msg_err_too_many_npc: '&cе·ІжіЁе†Њзљ„NPCе¤Єе¤љдє†.'
+msg_err_negative_money: '&cдЅ дёЌиѓЅж‹Ґжњ‰иґџж•°зљ„й’±.'
+msg_err_not_percentage: '&cзЁЋзЋ‡еї…йЎ»е°ЏдєЋ100.'
+msg_err_no_economy: '&cж— з»ЏжµЋжЏ’д»¶ж”ЇжЊЃ.'
+msg_err_not_block_type: '&cиї™дёЌж�ЇдёЂдёЄжњ‰ж•€зљ„ењџењ°з±»ећ‹!'
+msg_not_allowed_join: '&c%s дёЌе…Ѓи®ёеЉ е…ҐеџЋй•‡.'
+msg_offline_no_join: '&c%s дёЌењЁзєїж‰Ђд»Ґж— жі•еЉ е…ҐеџЋй•‡.'
+msg_err_cannot_perform_action: '&cдЅ ж— жі•ењЁ %s ж‰§иЎЊиї™дёЄж“ЌдЅњ.'
+msg_npc_flag: '&bNPC flag зЋ°ењЁ %s for %s.'
+msg_warning_delete: '&4*** и­¦е‘Љ,з”±дєЋиµ„й‡‘дёЌи¶і, %s иї™дёЄеџЋй•‡е°†ењЁж�Ће¤©еЂ’й—­! ***'
+#these messages are only used if town/nation creation is set to admins only
+msg_admin_only_create_nation: '&cеЏЄжњ‰з®Ўзђ†е‘�иѓЅе¤џе€›е»єе›Ѕе®¶!'
+msg_admin_only_create_town: '&cеЏЄжњ‰з®Ўзђ†е‘�иѓЅе¤џе€›е»єеџЋй•‡!'
+#Required residents to be part of a nation
+msg_err_not_enough_residents_new_nation: '&cдЅ зљ„еџЋй•‡е±…ж°‘ж•°дёЌи¶ід»Ґе»єе›Ѕ.'
+msg_err_not_enough_residents_join_nation: '&bеџЋй•‡ %s жІЎжњ‰и¶іе¤џзљ„е±…ж°‘ж•°ж‰Ђд»Ґж— жі•еЉ е…Ґе›Ѕе®¶.'
+msg_not_enough_residents_no_longer_capital: '&bе›Ѕе®¶ж—§йѓЅе±…ж°‘ж•°дёЌи¶іж‰Ђд»ҐдёЌе†Ќж�Їй¦–йѓЅ.ж–°зљ„й¦–йѓЅе°†ењЁ %s.'
+msg_town_not_enough_residents_left_nation: '&bе› дёєеџЋй•‡ %s дёЌе†Ќжњ‰жњ‰и¶іе¤џзљ„е±…ж°‘жќҐж€ђдёєе›Ѕе®¶зљ„дёЂе‘�пјЊж‰Ђд»Ґе®ѓиў«иµ¶е‡єдє†е›Ѕе®¶гЂ‚'
+msg_nation_disbanded_town_not_enough_residents: '&bеџЋй•‡ %s жІЎжњ‰и¶іе¤џзљ„е±…ж°‘ж•°жќҐеЅўж€ђе›Ѕе®¶д»Ґи‡ідєЋе›Ѕе®¶зЃ­дєЎ.'
+msg_not_enough_residents_refunded: '&bдЅ зљ„е›Ѕе®¶з”±дєЋе±…ж°‘ж•°дёЌи¶іиЂЊзЃ­дєЎдє†,е› ж­¤дЅ иЋ·еѕ—дє† $%s .'
+msg_not_enough_residents_capital: '&bеџЋй•‡ %s жІЎжњ‰и¶іе¤џзљ„е±…ж°‘жќҐдЅњдёєй¦–йѓЅ.'
+list_page: '&bеЅ“е‰ЌйЎµж•° %s ,жЂ»йЎµж•° %s'
+list_err_not_enough_pages: '&cеЏЄжњ‰ %s йЎµеЏЇз”Ё'
+#Added in 0.30
+#Added in 0.31
+msg_err_tax_minimum_not_met: 'дЅ и®ѕзЅ®зљ„еџЋй•‡зЁЋдёЌиѓЅдЅЋдєЋ %s.'
+msg_unknown_rank_available_ranks: 'жњЄзџҐе¤ґиЎ” %s. еЏЇз”Ёзљ„е¤ґиЎ”жњ‰ %s.'
+msg_no_permission_to_give_rank: 'дЅ жІЎжњ‰и¶іе¤џзљ„жќѓй™ђжќҐжЋ€дє€иї™дёЄе¤ґиЎ”.'
+msg_you_have_been_given_rank: 'дЅ иў«жЋ€дє€дє† %s зљ„е¤ґиЎ”.'
+msg_you_have_given_rank: 'дЅ жЋ€дє€дє† %s е¤ґиЎ” %s з»™ %s.'
+msg_resident_not_your_town: 'й‚ЈдёЄе±…ж°‘дёЌж�ЇдЅ зљ„еџЋй•‡зљ„дєє!'
+msg_resident_already_has_rank: '%s е·Із»Џж‹Ґжњ‰ %s иї™дёЄе¤ґиЎ”дє†.'
+msg_you_have_had_rank_taken: 'дЅ е¤±еЋ»дє† %s е¤ґиЎ”.'
+msg_you_have_taken_rank_from: 'дЅ з§»й™¤дє† %s е¤ґиЎ” %s д»Ћ %s.'
+msg_resident_doesnt_have_rank: '%s жІЎжњ‰ %s иї™дёЄе¤ґиЎ”.'
+msg_town_has_no_jails: 'еџЋй•‡жІЎжњ‰и®ѕзЅ®д»»дЅ•з›‘з‹±.'
+msg_no_permission_to_jail_your_residents: 'дЅ жІЎжњ‰жќѓй™ђз›‘з¦Ѓе±…ж°‘.'
+msg_resident_not_part_of_any_town: 'й‚ЈдёЄзЋ©е®¶дёЌе±ћдєЋд»»дЅ•еџЋй•‡.'
+msg_player_not_jailed_in_your_town: 'й‚ЈдёЄзЋ©е®¶жІЎжњ‰иў«дЅ зљ„еџЋй•‡з›‘з¦Ѓ.'
+msg_cannot_spawn_while_jailed: 'дЅ ж— жі•ењЁиў«з›‘з¦Ѓж—¶дј йЂЃ.'
+msg_cannot_abandon_town_while_jailed: 'дЅ ж— жі•ењЁиў«з›‘з¦Ѓж—¶з¦»ејЂеџЋй•‡.'
+msg_player_escaped_jail_by_leaving_town: '%s и¶Љз‹±дє†.'
+msg_set_jail_spawn: 'ж€ђеЉџи®ѕзЅ®з›‘з‹±дј йЂЃз‚№.'
+msg_killed_attempting_to_escape_jail: '&4%s ењЁе°ќиЇ•и¶Љз‹±ж—¶иў«жќЂ.'
+msg_err_jailed_players_no_teleport: '&4з›‘з¦Ѓдё­зљ„зЋ©е®¶ж— жі•дј йЂЃ!'
+msg_player_escaped_jail_into_wilderness: '&4%s ж€ђеЉџењ°и¶Љз‹±,е€°дє† %s'
+msg_err_invalid_string_board_not_set: 'ж— ж•€зљ„е­—з¬¦дёІ, и®ѕзЅ®еџЋй•‡е…¬е‘Љжќїе¤±иґҐ.'
+msg_plot_name_removed: 'е€ й™¤ењџењ°еђЌ.'
+msg_plot_name_set_to: 'ењџењ°еђЌи®ѕзЅ®дёє [%s].'
+msg_plot_price_too_expensive: 'ењџењ°д»·ж је¤Єиґµдє†.'
+msg_you_robbed_player: 'дЅ жЉўдє† %s ,д»Ћ %s.'
+msg_player_robbed_you: '%s жЉўдє†дЅ  %s.'
+msg_you_lost_money: 'дЅ ж­»дєЎжЋ‰иђЅдє† %s е…ѓ.'
+msg_player_couldnt_pay_player_town_bank_paying_instead: '%s зљ„й’±еЊ…ж— жі•ж»Ўи¶і %s. %s е°†д»ЋеџЋй•‡й“¶иЎЊе†…ж”¶еЏ–.'
+msg_err_could_not_take_deathfunds: 'ж— жі•ж”¶еЏ–ж­»дєЎиґ№з”Ё.'
+msg_you_lost_money_dying: 'дЅ е¤±еЋ»дє† %s.'
+msg_your_town_lost_money_dying: 'дЅ зљ„еџЋй•‡е¤±еЋ»дє† %s.'
+msg_your_nation_lost_money_dying: 'дЅ зљ„е›Ѕе®¶е¤±еЋ»дє† %s.'
+msg_err_couldnt_take_deathfunds: 'дЅ ж”Їд»�дёЌиµ·ж­»дєЎиґ№з”Ё.'
+msg_err_couldnt_take_town_deathfunds: 'дЅ ж”Їд»�дёЌиµ·еџЋй•‡ж­»дєЎиґ№з”Ё.'
+msg_err_couldnt_take_nation_deathfunds: 'дЅ ж”Їд»�дёЌиµ·е›Ѕе®¶ж­»дєЎиґ№з”Ё.'
+msg_you_gained_money_for_killing: 'дЅ иЋ·еѕ—дє† %s е…ѓ,е› дёєдЅ жќЂж­»дє† %s.'
+msg_err_ender_pearls_disabled: '&4ж— жі•дЅїз”Ёжњ«еЅ±зЏЌзЏ !'
+msg_err_no_sleep_in_enemy_inn: '&4дЅ дёЌиѓЅењЁж•Ње›Ѕзљ„ж—…й¦†е†…дј‘жЃЇ.'
+msg_err_cant_use_bed: '&4иї™еј еєЉж‰ЂењЁзљ„ењџењ°дёЌе±ћдєЋдЅ пјЊе№¶дё”иї™еќ—ењџењ°дёЌж�Їж—…й¦†'
+msg_town_plots_revenue_disclaimer: '&aж�ѕз¤єзљ„ж”¶е…Ґж�Їйў„и®Ўзљ„пјЊе№¶дё”ењ°зљ®зљ„ж‰Ђжњ‰иЂ…ж�Їеђ¦еЏЇд»Ґж”Їд»�ж�ЇдёЂдёЄе› зґ '
+msg_town_set_perm_syntax_error: 'ж­¤е‘Ѕд»¤ж— ж•€зљ„еЌ•иЇЌз»„еђ€. жџҐзњ‹ ''/town set perm ?'' з”ЁдєЋж­ЈзЎ®зљ„е‘Ѕд»¤иЇ­жі•.'
+msg_plot_set_perm_syntax_error: 'ж­¤е‘Ѕд»¤ж— ж•€зљ„еЌ•иЇЌз»„еђ€. жџҐзњ‹ ''/plot set perm ?'' з”ЁдєЋж­ЈзЎ®зљ„е‘Ѕд»¤иЇ­жі•.'
+#Added in 0.32
+msg_err_townadmintownrank_wrong_town: 'й‚ЈдёЄе±…ж°‘дёЌе±ћдєЋиї™дёЄеџЋй•‡.'
+msg_err_resident_already_an_outlaw: 'й‚ЈдёЄзЋ©е®¶е·Із»Џиў«дЅ зљ„еџЋй•‡ж”ѕйЂђдє†.'
+msg_err_not_outlaw_in_your_town: 'дЅ ж— жі•ж”ѕйЂђдЅ зљ„еџЋй•‡е±…ж°‘.'
+msg_you_have_been_declared_outlaw: 'дЅ иў« %s и§†дёєдє†ж”ѕйЂђиЂ…. дёЌи¦Ѓж­»ењЁй‚ЈдёЄеџЋй•‡е†….'
+msg_you_have_declared_an_outlaw: '%s иў«еџЋй•‡ %s ж”ѕйЂђдє†.'
+msg_you_have_been_undeclared_outlaw: 'дЅ дёЌе†Ќиў« %s ж”ѕйЂђ.'
+msg_you_have_undeclared_an_outlaw: '%s дёЌе†Ќиў« %s ж”ѕйЂђ.'
+msg_err_player_not_an_outlaw: 'й‚ЈдёЄзЋ©е®¶дёЌе†Ќиў«и§†дёєиў«ж”ѕйЂђиЂ….'
+msg_err_outlaw_in_open_town: 'дЅ ж— жі•еЉ е…ҐдёЂдёЄе·Із»Џе°†дЅ ж”ѕйЂђзљ„е…¬ејЂеџЋй•‡.'
+msg_you_are_an_outlaw_in_this_town: '&4е°Џеїѓ, %s ж”ѕйЂђдє†дЅ ,ж­»ењЁиї™дЅ е°†дјљиў«з›‘з¦Ѓ.'
+msg_err_town_not_close_enough_to_nation: '%ss зљ„еџЋй•‡дё­еїѓз¦»дЅ зљ„й¦–йѓЅдё­еїѓе¤Єиїњдє†ж‰Ђд»ҐдёЌиѓЅеЉ е…ҐдЅ зљ„е›Ѕе®¶.'
+msg_nation_town_moved_their_homeblock_too_far: 'з”±дєЋ%ss зљ„еџЋй•‡дё­еїѓз¦»дЅ зљ„й¦–йѓЅдё­еїѓе¤Єиїњдє†ж‰Ђд»Ґе·ІдёЌе†Ќе±ћдєЋиї™дёЄе›Ѕе®¶.'
+#Added in 0.33
+msg_err_invalid_radius_number: '&cж— ж•€еЌЉеѕ„. жњЂе¤§еЌЉеѕ„дёє %s .'
+#Added in 0.34
+msg_err_max_residents_per_town_reached: '&cе·Іиѕѕе€°жњЂе¤§е±…ж°‘ж•°й‡ЏдёЉй™ђ:(%s) .'
+#Added in 0.35
+msg_err_resident_doesnt_meet_invite_cooldown: '&cзЋ©е®¶%sењЁжњЌеЉЎе™ЁдёЉзљ„ж—¶й—ґиї�дёЌе¤џй•їпјЊе› ж­¤ж— жі•иў«й‚ЂиЇ·пјЊиЇ·зЁЌз­‰гЂ‚'
+msg_cant_toggle_pvp_outsider_in_town: 'жњ‰дёЂдЅЌе¤–жќҐиЂ…ењЁдЅ зљ„еџЋй•‡,дЅ дёЌиѓЅж”№еЏ�дЅ зљ„PVPзЉ¶жЂЃ!'
+msg_err_unclaim_not_outpost: 'ж— жі•ж”ѕејѓеЈ°ж�Ћ, иї™еќ—ењџењ°дёЌж�Їе‰Ќе“Ё!'
+outpost_plu: 'еџЋй•‡е‰Ќе“Ё'
+#Added in 0.36
+msg_err_not_enough_residents: 'еџЋй•‡е±…ж°‘ж•°дёЌи¶і,дЅ дёЌиѓЅиї™д№€еЃљ.'
+#Added in 0.37
+msg_err_friendly_fire_disable: 'еҐЅеЏ‹зљ„зЃ«еЉїи”“е»¶е·Іиў«з¦Ѓз”Ё!'
+#Added in 0.38
+msg_claim_error: '&cеЏ¦дёЂдёЄжЏ’д»¶й�»ж­ўдє† (%s)/(%s) еџЋй•‡еЊєеќ—еЈ°ж�Ћ, ж— жі•е®Њж€ђж“ЌдЅњ.'
+#Added in 0.39
+msg_err_town_spawn_forbidden_war: '&cеЏЄиѓЅењЁж€�дє‰жњџй—ґдј йЂЃе€°еџЋй•‡дј йЂЃз‚№.'
+msg_err_town_spawn_forbidden_peace: '&cж€�дє‰жњџй—ґз¦Ѓж­ўдј йЂЃе€°еџЋй•‡дј йЂЃз‚№.'
+msg_err_town_spawn_nation_forbidden_war: '&cж€�дє‰жњџй—ґдЅ еЏЄиѓЅдј йЂЃе€°е›Ѕе†…е…¶д»–еџЋй•‡зљ„дј йЂЃз‚№.'
+msg_err_town_spawn_nation_forbidden_peace: '&cж€�дє‰жњџй—ґз¦Ѓж­ўдј йЂЃе€°е›Ѕе†…е…¶д»–еџЋй•‡зљ„дј йЂЃз‚№.'
+msg_err_town_spawn_ally_forbidden_war: '&cеЏЄжњ‰ењЁж€�дє‰жњџй—ґж‰ЌиѓЅдј йЂЃе€°з›џе›Ѕзљ„еџЋй•‡зљ„дј йЂЃз‚№.'
+msg_err_town_spawn_ally_forbidden_false: '&cењЁж€�дє‰жњџй—ґз¦Ѓж­ўдј йЂЃе€°з›џе›Ѕзљ„еџЋй•‡зљ„дј йЂЃз‚№.'
+msg_err_public_spawn_forbidden_war: '&cеЏЄжњ‰ењЁж€�дє‰жњџй—ґж‰ЌиѓЅдј йЂЃе€°е…¶д»–еџЋй•‡зљ„дј йЂЃз‚№.'
+msg_err_public_spawn_forbidden_peace: '&cж€�дє‰жњџй—ґз¦Ѓж­ўдј йЂЃе€°е…¶д»–еџЋй•‡зљ„дј йЂЃз‚№.'
+#Added in 0.40
+mayor_help_9: 'иЇ•е›ѕж”ѕејѓе‰Ќе“Ё'
+#Added in 0.41 (Invite-Update)
+invite_plu: 'й‚ЂиЇ·'
+invite_sent_by: 'й‚ЂиЇ·жќҐи‡Єпјљ'
+invite_help_1: 'жЋҐеЏ—й‚ЂиЇ·е№¶еЉ е…ҐеџЋй•‡'
+invite_help_2: 'ж‹’з»ќеЉ е…ҐеџЋй•‡зљ„й‚ЂиЇ·'
+invite_help_4: 'ж‹’з»ќж‰Ђжњ‰еЉ е…ҐеџЋй•‡зљ„й‚ЂиЇ·'
+invite_help_3: 'е€—е‡єдЅ зљ„ж‰Ђжњ‰й‚ЂиЇ·'
+town_invite_help_1: 'й‚ЂиЇ·зЋ©е®¶е€°еЉ е…Ґе€°дЅ зљ„еџЋй•‡'
+town_invite_help_2: 'ж’¤ж¶€еЏ‘йЂЃз»™зЋ©е®¶зљ„й‚ЂиЇ·'
+town_invite_help_3: 'е€—е‡єдЅ еЏ‘йЂЃзљ„ж‰Ђжњ‰й‚ЂиЇ·'
+town_invite_help_4: 'е€—е‡єдЅ ж”¶е€°зљ„ж‰Ђжњ‰й‚ЂиЇ·'
+town_invite_help_5: 'жЋҐеЏ—еЉ е…Ґе›Ѕе®¶зљ„й‚ЂиЇ·'
+town_invite_help_6: 'ж‹’з»ќеЉ е…ҐжќҐи‡Єе›Ѕе®¶зљ„й‚ЂиЇ·'
+nation_invite_help_1: 'й‚ЂиЇ·дёЂдёЄеџЋй•‡еЉ е…ҐдЅ зљ„е›Ѕе®¶'
+nation_invite_help_2: 'ж’¤ж¶€еЏ‘йЂЃз»™еџЋй•‡зљ„й‚ЂиЇ·'
+nation_invite_help_3: 'е€—е‡єеЏ‘йЂЃз»™еџЋй•‡зљ„ж‰Ђжњ‰й‚ЂиЇ·'
+nation_ally_help_1: 'дёєдЅ зљ„е›Ѕе®¶ж·»еЉ дёЂдёЄз›џеЏ‹'
+nation_ally_help_2: 'е€ й™¤дЅ д»¬е›Ѕе®¶зљ„з›џе›Ѕ'
+nation_ally_help_3: 'е€—е‡єдЅ еЏ‘йЂЃзљ„ж‰Ђжњ‰з›џе›ЅиЇ·ж±‚'
+nation_ally_help_4: 'е€—е‡єдЅ ж”¶е€°зљ„ж‰Ђжњ‰з›џе›ЅиЇ·ж±‚'
+nation_ally_help_5: 'жЋҐеЏ—дёЋз›џе›Ѕз»“з›џзљ„иЇ·ж±‚'
+nation_ally_help_6: 'ж‹’з»ќж€ђдёєз›џе›Ѕзљ„иЇ·ж±‚'
+nation_ally_help_7: 'ж’¤й”Ђз»“з›џиЇ·ж±‚'
+msg_player_denied_all_invites: "е·Іж‹’з»ќж‚Ёж”¶е€°зљ„ж‰Ђжњ‰й‚ЂиЇ·"
+msg_err_player_no_invites: '&cдЅ жІЎжњ‰д»»дЅ•й‚ЂиЇ·!'
+msg_err_player_has_multiple_invites: '&cдЅ жњ‰е¤љдёЄй‚ЂиЇ·, иЇ·жіЁж�Ћ!'
+msg_err_player_has_too_many_invites: '%s жњ‰е¤Єе¤љй‚ЂиЇ·, иЇ·д»–ж‹’з»ќдёЂдє›й‚ЂиЇ·пјЊз„¶еђЋе†Ќиї›иЎЊй‚ЂиЇ·.'
+msg_err_player_already_invited: '&bдЅ е·Із»Џй‚ЂиЇ·иї‡ %s еЉ е…ҐдЅ зљ„еџЋй•‡дє†!'
+msg_err_town_no_invites: '&bеџЋй•‡дёЉжІЎжњ‰й‚ЂиЇ·!'
+msg_err_town_specify_invite: '&cиЇ·жЊ‡е®љй‚ЂиЇ·!'
+msg_err_town_has_too_many_invites: '&bеџЋй•‡ %s жњ‰е¤Єе¤љй‚ЂиЇ·, йњЂи¦Ѓд»–д»¬ж‹’з»ќдёЂдє›иЇ·ж±‚, з„¶еђЋе†Ќиї›иЎЊй‚ЂиЇ·.'
+msg_err_town_sent_too_many_invites: '&bеџЋй•‡е·Із»ЏеЏ‘е‡єе¤Єе¤љй‚ЂиЇ·, е†Ќж¬Ўе°ќиЇ•д№‹е‰Ќж’¤й”Ђдє†дёЂдє›й‚ЂиЇ·!'
+msg_err_town_already_invited: '&bдЅ е·Із»Џй‚ЂиЇ·иї‡ %s еЉ е…ҐдЅ зљ„е›Ѕе®¶дє†!'
+msg_err_nation_specify_invite: '&cиЇ·иЇґж�ЋиЇ·ж±‚!'
+msg_err_nation_no_requests: '&bе›Ѕе®¶жІЎжњ‰д»»дЅ•з›џе›ЅиЇ·ж±‚!'
+msg_err_nation_sent_too_many_invites: '&bе›Ѕе®¶жґѕе‡єдє†е¤Єе¤љзљ„й‚ЂиЇ·пјЊиЇ·ж’¤й”ЂдёЂдє›еђЋй‡ЌиЇ•!'
+msg_err_nation_sent_too_many_requests: '&bе›Ѕе®¶е·Із»ЏеЏ‘е‡єдє†е¤Єе¤љзљ„и¦Ѓж±‚пјЊиЇ·ж’¤й”ЂдёЂдє›е†Ќе°ќиЇ•!'
+msg_err_nation_has_too_many_requests: '&bе›Ѕе®¶ %s жњ‰е¤Єе¤љзљ„й‚ЂиЇ·, йњЂи¦Ѓд»–д»¬ж‹’з»ќдёЂдє›иЇ·ж±‚, з„¶еђЋе†Ќиї›иЎЊй‚ЂиЇ·.'
+player_received_invites: '&bдЅ е·Із»Џж”¶е€° %a/%m й‚ЂиЇ·.'
+town_revoke_invite: '&bеџЋй•‡ %s, ж’¤й”Ђдє†дЅ зљ„й‚ЂиЇ·еЉ е…Ґ.'
+town_revoke_invite_successful: '&bдЅ е·Іж€ђеЉџж’¤й”Ђй‚ЂиЇ·дЅ еЉ е…Ґзљ„еџЋй•‡'
+town_received_invites: '&bеџЋй•‡е·Іж”¶е€° %a/%m й‚ЂиЇ·.'
+town_sent_invites: '&bеџЋй•‡е·ІеЏ‘йЂЃ %a/%m й‚ЂиЇ·.'
+nation_revoke_invite: '&bе›Ѕе®¶ %s, ж’¤й”Ђдє†ж‚Ёзљ„й‚ЂиЇ·д»ҐеЉ е…Ґ.'
+nation_revoke_invite_successful: '&bдЅ е·Іж€ђеЉџж’¤й”Ђй‚ЂиЇ·дЅ еЉ е…Ґзљ„е›Ѕе®¶.'
+nation_revoke_ally: '&bе›Ѕе®¶ %s, ж’¤й”Ђд»–д»¬зљ„з›џе›ЅиЇ·ж±‚.'
+nation_revoke_ally_successful: '&bж‚Ёе·Із»Џж€ђеЉџж’¤й”Ђдє†з»“з›џиЇ·ж±‚.'
+nation_received_requests: '&bе›Ѕе®¶е·Із»Џж”¶е€°дє† %a/%m з»“з›џиЇ·ж±‚.'
+nation_sent_invites: '&bе›Ѕе®¶е·ІеЏ‘е‡є %a/%m й‚ЂиЇ·.'
+nation_sent_ally_requests: '&bе›Ѕе®¶е·Із»Џжґѕе‡є %a/%m з»“з›џиЇ·ж±‚.'
+no_confirmations_open: '&cдЅ зЋ°ењЁжІЎжњ‰д»Ђд№€йњЂи¦ЃзЎ®и®¤пјЃ'
+successful_cancel: '&cж“ЌдЅње·ІеЏ–ж¶€пјЃ'
+successful_deny: '&bй‚ЂиЇ·е·Іиў«ж‹’з»ќ.'
+successful_deny_request: '&bе·Іж‹’з»ќз»“з›џиЇ·ж±‚.'
+msg_ally_removed_successfully: '&bе·Іж€ђеЉџе€ й™¤иЃ”з›џ.'
+town_deleted_by_admin: '&bе·Іж€ђеЉџе€ й™¤еџЋй•‡ %s '
+nation_deleted_by_admin: '&е·Іж€ђеЉџзЃ­е›Ѕ %s '
+are_you_sure_you_want_to_continue: 'дЅ зЎ®е®љдЅ и¦Ѓз»§з»­ж“ЌдЅњеђ—?'
+you_have_been_invited_to_join: 'дЅ иў«й‚ЂиЇ·еЉ е…Ґ '
+you_have_been_requested_to_ally: 'дЅ иў«и¦Ѓж±‚з»“з›џ '
+this_message_will_expire: 'иї™е°†ењЁ 20 з§’е†…и‡ЄеЉЁиї‡жњџ'
+player_sing: 'зЋ©е®¶'
+nation_zone_this_area_under_protection_of: 'иї™йѓЁе€† %s е·ІеЏ—дїќжЉ¤ %s'
+#Added in 0.42
+you_have_been_invited_to_join2: 'дЅ иў«й‚ЂиЇ·еЉ е…Ґ %s'
+you_have_been_requested_to_ally2: 'дЅ иў«и¦Ѓж±‚е’Њ %s з»“з›џ'
+#Added in 0.43
+town_help_11: 'е»єз«‹дёЂдёЄж–°зљ„еџЋй•‡. иЇ·дЅїз”Ё ''_'' иЂЊдёЌж�Їз©єж ј.'
+changed_plot_town: '&bдЅ е·Із»Џж€ђеЉџењ°ж”№еЏ�дє†еџЋй•‡ %s зљ„ењџењ°!'
+not_standing_in_plot: 'дЅ жІЎжњ‰з«™ењЁдёЂдёЄжњ‰ж•€зљ„ењ°зљ®е†…!'
+msg_err_homeblock_has_not_been_set: 'е°љжњЄи®ѕзЅ®еџЋй•‡д№‹е®¶, дЅїз”Ё ''/town set homeblock'' и®ѕзЅ®.'
+msg_err_spawn_not_within_homeblock: 'дј йЂЃз‚№дёЌењЁ homeBlock, дЅїз”Ё ''/town set homeblock'' и®ѕзЅ®.'
+#Added in 0.44
+#TownyChat language strings
+tc_err_invalid_command: 'й”™иЇЇ: ж— ж•€зљ„е‘Ѕд»¤!'
+tc_settings_reloaded: '[еџЋй•‡иЃЉе¤©] е·Ій‡Ќе€¶иЃЉе¤©й…ЌзЅ®!'
+tc_err_unrecognized_command_format: 'й”™иЇЇ: ж— жі•иЇ†е€«зљ„е‘Ѕд»¤ж јејЏ!'
+tc_channel_list_status: '(зЉ¶жЂЃ)'
+tc_channel_list_in: 'еЉ е…Ґ'
+tc_channel_list_out: 'йЂЂе‡є'
+tc_err_you_dont_have_perm_mute_list: 'ж‚ЁжІЎжњ‰жќѓй™ђжџҐзњ‹з¦ЃиЁЂе€—иЎЁ'
+tc_err_you_dont_have_unmute_perm: 'ж‚ЁжІЎжњ‰и§Јй™¤з¦ЃиЁЂзљ„жќѓй™ђ'
+tc_err_no_channel_called_channel: 'жІЎжњ‰еђЌдёє&f%sзљ„йў‘йЃ“'
+tc_err_no_muted_players_in_channel_players: 'и§Јй™¤з¦ЃиЁЂзЋ©е®¶ &f%s'
+tc_players_muted_in_channel: '[еџЋй•‡иЃЉе¤©] &f%n &2зЋ©е®¶иў«з¦ЃиЁЂдє† &f%s&2: &f%s'
+tc_err_no_online_players_with_name: 'жІЎжњ‰ењЁзєїзЋ©е®¶зљ„еђЌе­—ж�Ї&f%s'
+tc_err_you_dont_have_mute_perms: 'ж‚ЁжІЎжњ‰з¦ЃиЁЂжќѓй™ђ'
+tc_err_you_cant_mute_admin: 'дЅ дёЌиѓЅз¦ЃиЁЂдёЂдёЄеџЋй•‡з®Ўзђ†е‘�.'
+tc_err_you_cant_mute_chat_mod: 'дЅ дёЌиѓЅз¦ЃиЁЂиЃЉе¤©з®Ўзђ†иЂ….'
+tc_player_already_muted_in_channel: '[еџЋй•‡иЃЉе¤©] зЋ©е®¶ењЁ &f%s йў‘йЃ“е†…иў«з¦ЃиЁЂ'
+tc_player_is_now_muted_in_channel: '[еџЋй•‡иЃЉе¤©] &f%s &2з¦ЃиЁЂдє† &f%s'
+tc_player_is_not_muted_in_channel: '[еџЋй•‡иЃЉе¤©] зЋ©е®¶жІЎжњ‰ењЁ&f%sиў«з¦ЃиЁЂ'
+tc_player_is_now_unmuted_in_channel: '[еџЋй•‡иЃЉе¤©] &f%s &2з›®е‰ЌдёЌењЁ &f%s'
+tc_err_you_are_currently_muted_in_channel: 'дЅ з›®е‰Ќе¤„дєЋз¦ЃиЁЂзЉ¶жЂЃ &f%s&c!'
+tc_err_you_cannot_leave_channel: 'дЅ дёЌиѓЅз¦»ејЂ &f%s'
+tc_you_already_left_channel: '[еџЋй•‡иЃЉе¤©] дЅ е·Із»Џз¦»ејЂдє† &f%s'
+tc_you_left_channel: '[еџЋй•‡иЃЉе¤©] дЅ з¦»ејЂдє† &f%s'
+tc_you_are_now_talking_in_channel: '[еџЋй•‡иЃЉе¤©] дЅ ж­ЈењЁиЇґиЇќ &f%s'
+tc_err_you_cannot_join_channel: 'дЅ дёЌиѓЅеЉ е…Ґ &f%s'
+tc_you_are_already_in_channel: '[еџЋй•‡иЃЉе¤©] дЅ е·Із»ЏењЁ &f%s'
+tc_you_joined_channel: '[еџЋй•‡иЃЉе¤©] дЅ еЉ е…Ґдє† &f%s'
+tc_err_you_are_already_talking_in_default_channel_help: 'дЅ е·Із»ЏењЁй»�и®¤йў‘йЃ“иЃЉе¤© дЅїз”ЁиЇҐйў‘йЃ“зљ„е‘Ѕд»¤е€‡жЌўе€°еЏ¦дёЂдёЄйў‘йЃ“.'
+tc_err_unable_to_talk_essentials_mute: 'дЅ дёЌиѓЅиЇґиЇќ...е› дёєдЅ иў«з¦ЃиЁЂдє†пјЃ'
+tc_err_unable_to_talk_you_are_spamming: 'дЅЏеЏЈ...дЅ е€·е±Џдє†!'
+msg_admin_set_plot_help_1: 'ењЁеџЋй•‡е†….'
+msg_admin_set_plot_help_2: 'ењЁиЌ’йѓЉй‡Ће¤–.'
+msg_err_not_enough_outposts_free_to_claim: 'жІЎжњ‰и¶іе¤џзљ„е‰Ќе“ЁеЏЇз”ЁдєЋеЈ°ж�Ћ %s/%s'
+msg_err_over_outposts_limit: 'дЅ ж— жі•дј йЂЃе€°еџЋй•‡е‰Ќе“Ё, е·Із»Џи¶…иї‡дЅ зљ„й™ђе€¶ %s/%s'
+#Status Screen elements (/res, /town, /nation, /tw, /plot perm)
+#These are translated because we may (or may not) be handling longer words in a smart way.
+#If you are a translator feel free to skip over this section, as it may or may not appear very nice
+#in game. It would be best to see what the changes look like in game before you PR it to github.
+outlaws: 'иў«ж”ѕйЂђиЂ…пјљ' #Used on /t outlawlist
+online: '&a(ењЁзєї)'
+registered_last_online: '&2жіЁе†Њж—¶й—ґ: &a%s &8| &2жњЂеђЋењЁзєї: &a%s' #Used in mayor hover text in /town status screen.
+status_perm: 'жќѓй™ђпјљ' #Used on /plot perm, /res
+status_on: '&4ејЂ'
+status_off: '&aе…і'
+status_on_good: '&aејЂ'
+status_off_bad: '&4е…і'
+status_forced: '&cејєе€¶'
+status_adjustable: '&aеЏЇи°ѓж•ґ'
+status_pvp: 'PvPпјљ'
+explosions: 'з€†з‚ёпјљ'
+firespread: 'зЃ«з„°и”“е»¶пјљ'
+mobspawns: 'з”џз‰©з”џж€ђпјљ'
+owner_of_x_plots: '%sз‰‡ењ°зљ®зљ„ж‹Ґжњ‰иЂ…гЂ‚'
+status_bank: 'й“¶иЎЊпјљ'
+status_town: 'еџЋй•‡пјљ'
+status_no_town: 'ж— '
+status_town_ranks: 'еџЋй•‡е¤ґиЎ”пјљ'
+status_nation_ranks: 'е›Ѕе®¶е¤ґиЎ”пјљ'
+jailed_in_town: ' дєЋеџЋй•‡%sдё­'
+status_friends: 'еҐЅеЏ‹'
+rank_list_title: '%sзљ„е¤ґиЎ”е€—иЎЁ'
+rank_list_mayor: 'еџЋдё»пјљ'
+status_title_capital: '&b(й¦–йѓЅ)'
+status_title_pvp: ' &4(PvP)'
+status_title_open: ' &b(ејЂж”ѕ)'
+status_town_board: 'е…¬е‘Љж Џпјљ'
+status_founded: 'ж€ђз«‹дєЋпјљ'
+status_founded_by: 'е»єз«‹иЂ…пјљ'
+status_town_size: 'еџЋй•‡е¤§е°Џпјљ'
+status_town_size_bought: 'иґ­д№°й‡Џпјљ'
+status_town_size_bonus: 'еЉ ж€ђпјљ'
+status_town_size_nationbonus: 'е›Ѕе®¶еЉ ж€ђпјљ'
+status_town_outposts: 'е‰Ќе“Ёпјљ'
+status_bank_town2: 'ж—Ґз®Ўзђ†иґ№з”Ёпјљ'
+status_bank_town3: 'зЁЋиґ№пјљ'
+status_town_nation: 'е›Ѕе®¶пјљ'
+status_town_reslist_overlength: 'е’Њж›ґе¤љ...'
+status_nation_king: 'йў†еЇјиЂ…пјљ'
+status_nation_tax: 'е›ЅзЁЋпјљ'
+status_nation_conquered_tax: 'еѕЃжњЌзЁЋпјљ'
+status_nation_towns: 'еџЋй•‡'
+status_nation_allies: 'з›џеЏ‹'
+status_nation_enemies: 'ж•Њдєє'
+status_nation_enemied_by: 'е’Њж­¤е›Ѕж•ЊеЇ№зљ„е›Ѕе®¶'
+status_world_claimable: '&aеЏЇе®Јз§°'
+status_world_noclaims: '&aдёЌеЏЇе®Јз§°'
+status_world_forcepvp: 'ејєе€¶PVPпјљ'
+status_world_fire: 'зЃ«з„°и”“е»¶пјљ'
+status_world_forcefire: 'ејєе€¶зЃ«з„°и”“е»¶пјљ'
+status_world_forceexplosion: 'ејєе€¶еђЇз”Ёз€†з‚ёпјљ'
+status_world_worldmobs: 'дё–з•Њз”џз‰©з”џж€ђпјљ'
+status_world_forcetownmobs: 'еџЋй•‡ејєе€¶з”џж€ђз”џз‰©пјљ'
+status_world_unclaimrevert: 'еєџеўџй‡Ќж–°е®Јз§°пјљ'
+status_world_explrevert: 'з€†з‚ёе›ћжєЇпјљ'
+status_world_ignoredblocks: 'еїЅз•Ґзљ„ж–№еќ—пјљ'
+status_res_taxexempt: 'з®Ўзђ†иЂ…е…Ќдє¤её‚ж”їзЁЋгЂ‚'
+status_res_tax: 'её‚ж”їзЁЋпјљ'
+status_res_plottax: 'жЂ»и®Ўењ°зЁЋпјљ'
+status_res_totaltax: 'йњЂи¦ЃзјґзєізЁЋиґ№пјљ'
+status_townblock_plottax: 'Plot Tax: '
+status_townblock_untaxed: 'Untaxed'
+#Added in 0.45
+msg_err_unable_to_use_bank_outside_nation_capital: 'дЅ дёЌиѓЅењЁе›ЅйѓЅе¤–дЅїз”Ёе›Ѕе®¶й“¶иЎЊ.'
+msg_err_unable_to_use_bank_outside_your_town: 'дЅ дёЌиѓЅењЁеџЋй•‡е¤–дЅїз”ЁеџЋй•‡й“¶иЎЊ.'
+msg_time_until_a_new_day: 'е€°ж–°зљ„дёЂе¤©иї�е‰©: '
+msg_hours: ' ж—¶'
+msg_minutes: ' е€†'
+msg_seconds: ' з§’'
+msg_err_invalid_string_nationboard_not_set: 'е­—з¬¦ж— ж•€, е›Ѕе®¶е…¬е‘Љж Џи®ѕзЅ®е¤±иґҐ.'
+msg_plot_evict: 'е·Ідѕќжі•ж”¶е›ћењџењ°.'
+msg_no_one_to_evict: 'жІЎжњ‰дєєж”ѕејѓиї™з‰‡ењџењ°.'
+#Added in 0.46
+nation_help_10: 'дј йЂЃе€°е›Ѕе®¶дј йЂЃз‚№.'
+msg_nation_spawn_warmup: '&bз­‰еѕ…дј йЂЃ...'
+msg_set_nation_spawn: '&bе·Ій‡Ќж–°и®ѕзЅ®е›Ѕе®¶дј йЂЃз‚№.'
+msg_err_cant_afford_tp_nation: '&cж— жі•дј йЂЃе€° %s.'
+msg_err_nationspawn_has_not_been_set: '&cе›Ѕе®¶дј йЂЃз‚№е°љжњЄи®ѕзЅ®.'
+msg_err_spawn_not_within_nationtowns: '&cе›Ѕе®¶дј йЂЃз‚№еї…йЎ»и®ѕзЅ®ењЁжњ¬е›Ѕзљ„дёЂдёЄеџЋй•‡е†….'
+msg_err_spawn_not_within_capital: '&cе›Ѕе®¶дј йЂЃз‚№еї…йЎ»и®ѕзЅ®ењЁе›ЅйѓЅ.'
+msg_err_nation_spawn_war: '&cж€�дє‰жњџй—ґдёЌе…Ѓи®ёењЁе›Ѕе®¶й¦–йѓЅй—ґдј йЂЃгЂ‚'
+msg_err_nation_not_public: '&cиї™дёЄе›Ѕе®¶дёЌж�Їе…¬ејЂзљ„.'
+msg_nation_toggle_public: '&aж€ђеЉџејЂж”ѕе›Ѕе®¶.'
+status_yes: '&aж�Ї'
+status_no: '&cеђ¦'
+msg_err_unable_to_use_bank_outside_bank_plot: 'дЅ дёЌиѓЅењЁеџЋй•‡д№‹е®¶ж€–й“¶иЎЊе¤–дЅїз”Ёж­¤е‘Ѕд»¤.'
+msg_err_nation_spawn_forbidden: '&cе›Ѕе®¶дј йЂЃе·Іе…ій—­.'
+msg_err_nation_spawn_forbidden_war: '&cе›Ѕе®¶дј йЂЃз‚№еЏЄењЁж€�дє‰ж—¶жњџејЂж”ѕ.'
+msg_err_nation_spawn_forbidden_peace: '&cж€�дє‰жњџй—ґз¦Ѓж­ўе›Ѕе®¶дј йЂЃ.'
+msg_err_nation_spawn_ally_forbidden: '&cе›Ѕе®¶з¦Ѓж­ўеђ‘з›џе›Ѕдј йЂЃжёёиЎЊ.'
+msg_err_nation_spawn_nation_forbidden_war: '&cж€�дє‰жњџй—ґ,еЏЄе…Ѓи®ёдј йЂЃе€°е…¶д»–з›џе›Ѕ.'
+msg_err_nation_spawn_nation_forbidden_peace: '&cж€�дє‰жњџй—ґз¦Ѓж­ўдј йЂЃе€°е…¶д»–з›џе›Ѕ.'
+msg_err_public_nation_spawn_forbidden: '&cе…¬ејЂдј йЂЃе€°е…¶д»–е›Ѕе®¶ж�Їз¦Ѓж­ўзљ„гЂ‚'
+msg_err_public_nation_spawn_forbidden_war: '&cеЏЄжњ‰ењЁж€�дє‰жњџй—ґж‰ЌиѓЅз¦Ѓж­ўдј йЂЃе€°ејЂж”ѕзљ„е›Ѕе®¶.'
+msg_err_public_nation_spawn_forbidden_peace: '&cењЁж€�дє‰жњџй—ґз¦Ѓж­ўдј йЂЃе€°ејЂж”ѕзљ„е›Ѕе®¶.'
+msg_spawn_cost_set_to: '&b%s е°†дЅїз”Ё /%s spawn зљ„д»·ж ји®ѕзЅ®дёє %s.'
+msg_err_cannot_set_spawn_cost_more_than: '&cдЅ дёЌиѓЅе°†з”џдє§ж€ђжњ¬й«�дєЋ %s'
+msg_err_ally_isnt_public: '&cдЅ зљ„з›џе›Ѕ, %s, жІЎжњ‰еђЇз”Ёе…¬е…±дј йЂЃз‚№. дј йЂЃе·Іиў«еЏ–ж¶€.'
+msg_nation_changed_public: '&cе›Ѕе®¶е…¬ејЂзЉ¶жЂЃеЏ�ж›ґдёє %s.'
+#Added in 0.47:
+status_plot_type: 'ењ°зљ®з±»ећ‹пјљ'
+msg_no_self_jailing: 'дЅ дёЌиѓЅз›‘з¦Ѓи‡Єе·±.'
+online2: ' &a(ењЁзєї)'
+build: 'е»єз­‘'
+destroy: 'з ґеќЏ'
+switch: 'дє¤дє’'
+item_use: 'дЅїз”Ё'
+owner_status: 'ењ°дё»'
+towny_map_header: 'еџЋй•‡ењ°е›ѕ '
+towny_map_unclaimed: 'жњЄеЈ°ж�Ћ'
+towny_map_claimed: 'е·ІеЈ°ж�Ћ'
+towny_map_forsale: 'еѕ…е”®д»·'
+towny_map_yourtown: 'дЅ зљ„еџЋй•‡'
+towny_map_yourplot: 'дЅ зљ„ењ°зљ®'
+towny_map_ally: 'з›џе›Ѕ'
+towny_map_enemy: 'ж•Њдєє'
+enabled: 'еђЇз”Ё'
+disabled: 'з¦Ѓз”Ё'
+forced: 'ејєе€¶'
+adjustable: 'еЏЇи°ѓж•ґ'
+#Added in 0.48:
+msg_no_funds_new_town2: '&c%sдёЌиѓЅењЁиї™й‡Ње»єз«‹дёЂдёЄж–°еџЋй•‡пјЊе› дёєиї™йњЂи¦ЃиЉ±иґ№%sгЂ‚'
+msg_no_funds_new_nation2: '&cиї™дёЄеџЋй•‡зљ„е›Ѕеє“дёЌи¶іе¤џејєе¤§е€°и¶ід»Ґе»єз«‹дёЂдёЄж–°зљ„е›Ѕе®¶, е»єе›ЅйњЂи¦ЃиЉ±иґ№ %s.'
+msg_no_funds_claim2: '&cеџЋй•‡йњЂи¦ЃиЉ±иґ№%2$sжќҐеЈ°ж�Ћиї™%1$sдёЄеџЋй•‡еЊєеќ—пјЊе› ж­¤дЅ йњЂи¦ЃдЅїз”Ё/t deposit %4$sжќҐеђ‘дЅ зљ„еџЋй•‡й“¶иЎЊдё­е­�ж¬ѕ%3$sпјЊж‰ЌиѓЅз»§з»­еЈ°ж�Ћиї™дє›еџЋй•‡еЊєеќ—гЂ‚'
+msg_err_cant_afford_blocks2: '&cеџЋй•‡йњЂи¦ЃиЉ±иґ№%2$sжќҐеЈ°ж�Ћиї™%1$sдёЄеџЋй•‡еЊєеќ—пјЊе› ж­¤дЅ йњЂи¦ЃдЅїз”Ё/t deposit %4$sжќҐеђ‘дЅ зљ„еџЋй•‡й“¶иЎЊдё­е­�ж¬ѕ%3$sпјЊж‰ЌиѓЅз»§з»­еЈ°ж�Ћиї™дє›еџЋй•‡еЊєеќ—гЂ‚'
+msg_err_not_enough_variables: '&cеЏ�й‡ЏдёЌи¶і: '
+nation_rechecked_by_admin: '&bж€ђеЉџй‡Ќж–°жЈЂжµ‹е›Ѕе®¶ %s зљ„еџЋй•‡и·ќз¦».'
+msg_err_nation_over_town_limit: '&cдЅ зљ„е›Ѕе®¶е†…зљ„еџЋй•‡е·Іж»ЎпјЊдёЉй™ђдёє: %s.'
+#Added in 0.49
+msg_process_claim: 'еЈ°ж�Ћењџењ°дё­...'
+msg_process_unclaim: 'ж”ѕејѓеЈ°ж�Ћењџењ°дё­...'
+msg_total_townblocks: 'е…±жњ‰еџЋй•‡еЊєеќ—: '
+#Added in 0.50
+friend_list: 'жњ‹еЏ‹е€—иЎЁ'
+#The following formatting lists apply to friends lists on the /res screen; townranks lists on the /town screen;
+#nationranks lists on the /nation screen; and probably more lists of residents.
+res_format_list_1: '&2' #First colour applied to Resident lists, ex: on /res, the friend list's Friends section.
+res_format_list_2: '&a' #Second colour applied to Resident lists, ex: on /res, the friend list's [1] section.
+res_format_list_3: '&f' #Third colour applied to Resident lists, ex: on /res, the friend list's list of friends' names section.
+townboard_message_colour_1: '&6'
+townboard_message_colour_2: '&e'
+nationboard_message_colour_1: '&6'
+nationboard_message_colour_2: '&e'
+not_registered: 'жњЄжіЁе†Њ.'
+msg_error_missing_comparator: '&bеї…йЎ»жЊ‡е®љжЋ’еєЏдѕќжЌ®.'
+msg_error_invalid_comparator: '&bж— ж•€зљ„жЇ”иѕѓе™Ё.'
+msg_error_multiple_comparators: '&bжЇ”иѕѓе™Ёиї‡е¤љ.иЇ·жЊ‡е®љдёЂдёЄ.'
+msg_error_comparator_failed: '&bжЇ”иѕѓе¤±иґҐгЂ‚иЇ·е°ќиЇ•жЌўдёЂдёЄ.'
+number_of_residents: '(е±…ж°‘ж•°)'
+number_of_towns: '(еџЋй•‡ж•°)'
+town_name: 'еџЋй•‡еђЌ'
+nation_name: 'е›Ѕе®¶еђЌ'
+refund_message: '&aж”ѕејѓеЈ°ж�Ћ %2$s еџЋй•‡еЊєеќ—пјЊиЋ·еѕ— %1$s зљ„йЂЂж¬ѕгЂ‚'
+msg_bankrupt_town_multiple: '&bд»Ґдё‹еџЋй•‡е› ж”Їд»�дёЌиµ·жЇЏж—Ґз»ґжЉ¤иґ№з”ЁиЂЊеЂ’й—­: '
+msg_bankrupt_nation_multiple: '&bд»Ґдё‹е›Ѕе®¶е› ж”Їд»�дёЌиµ·жЇЏж—Ґз»ґжЉ¤иґ№з”ЁиЂЊз ґзЃ­: '
+msg_couldnt_pay_tax: '&b%s е› ж”Їд»�дёЌиµ·зЁЋж”¶иЂЊиў«иёўе‡єдє† %s.'
+msg_couldnt_pay_nation_tax_multiple: '&bд»Ґдё‹еџЋй•‡е› ж”Їд»�дёЌиµ·е›ЅзЁЋиЂЊз¦»ејЂдє†е›Ѕе®¶зљ„жЂЂжЉ±: '
+msg_couldnt_pay_town_tax_multiple: '&bд»Ґдё‹е±…ж°‘е› ж”Їд»�дёЌиµ·еџЋй•‡зЁЋиЂЊиў«жµЃж”ѕ: '
+msg_couldnt_pay_plot_taxes_multiple: '&bд»Ґдё‹е±…ж°‘е› ж”Їд»�дёЌиµ·ењџењ°зЁЋиЂЊе¤±еЋ»дє†ењџењ°ж‰Ђжњ‰жќѓ: '
+msg_bankrupt_town2: '&b%s еџЋй•‡е› иµ„й‡‘дёЌи¶іиЂЊеЂ’й—­.'
+msg_bankrupt_nation2: '&b%s е› е›Ѕеє“е·Із©єиЂЊзЃ­дєЎ.'
+status_embassy_town: 'й©»жњ‰е¤§дЅїй¦†дєЋ'
+#Added in 0.51:
+msg_error_invalid_comparator_nation: '&bдЅ дёЌиѓЅжЇ”иѕѓиї™дёЄпјЃдЅ еЏЇд»Ґе°ќиЇ•иї™дє›пјљ%sгЂ‚'
+msg_error_invalid_comparator_town: '&bдЅ дёЌиѓЅжЇ”иѕѓиї™дёЄпјЃдЅ еЏЇд»Ґе°ќиЇ•иї™дє›пјљ%sгЂ‚'
+msg_err_merging_for_kings_only: '&bеЏЄжњ‰е›Ѕе®¶йў†еЇјиЂ…иѓЅеђ€е№¶гЂ‚'
+msg_err_king_of_that_nation_is_not_online: '&bе›Ѕе®¶%sзљ„йў†еЇјиЂ…%sз›®е‰ЌдёЌењЁзєїпјЊеђ€е№¶е¤±иґҐгЂ‚'
+nation1_has_merged_with_nation2: '&6е›Ѕе®¶ %s tеђЊж„ЏдёЋ %s еђ€е№¶.'
+msg_would_you_merge_your_nation_into_other_nation: '&6дЅ жѓіи¦Ѓе°†дЅ зљ„е›Ѕе®¶ %s е№¶е…Ґ %s еђ—? иї™дјље°†еџЋй•‡е’Ње›Ѕе®¶й“¶иЎЊе†…зљ„й’±е­�е…Ґ %s.'
+no_open_towns: 'жІЎжњ‰ејЂж”ѕзљ„еџЋй•‡гЂ‚'
+#Added in 0.52:
+msg_error_nation_has_no_allies: 'жІЎжњ‰еЏЇд»Ґж€ђдёєз›џе›Ѕзљ„е›Ѕе®¶.'
+msg_error_nation_has_no_enemies: 'жІЎжњ‰еЏЇд»Ґж€ђдёєж•Ње›Ѕзљ„е›Ѕе®¶.'
+msg_error_ta_plot_claim: 'зјєе°‘зЋ©е®¶еђЌ, з¤єдѕ‹: /ta plot claim зЋ©е®¶еђЌ'
+msg_error_no_player_with_that_name: 'ж‰ѕдёЌе€° %s иї™еђЌзЋ©е®¶'
+msg_admin_has_given_you_a_plot: 'з®Ўзђ†е‘�дёєдЅ еЈ°ж�Ћдє†дёЂеќ—ењџењ°: %s'
+msg_town_forcemobs_setting_set_to: 'еџЋй•‡%sе°†ејєе€¶з”џз‰©з”џж€ђи®ѕдёєдє†%s'
+msg_town_forcepvp_setting_set_to: 'еџЋй•‡ %s зљ„ејєе€¶PVPи®ѕзЅ®дёє %s'
+msg_town_forcedisabledpvp_setting_set_to: 'еџЋй•‡ %s зљ„ејєе€¶з®Ўзђ†е‘�з¦Ѓз”ЁPVPи®ѕзЅ®дёє %s'
+msg_nation_changed_open: '&cе›Ѕе®¶зљ„е…¬ејЂзЉ¶жЂЃдёє %s.'
+msg_err_already_in_a_nation: 'дЅ зљ„еџЋй•‡е·Із»ЏеЉ е…Ґдє†дёЂдёЄе›Ѕе®¶.'
+msg_err_nation_not_open: '&cе›Ѕе®¶%sдёЌж�ЇеЇ№ж‰Ђжњ‰дєєејЂж”ѕзљ„пјЊиЇ·иЇўй—®иї™дёЄе›Ѕе®¶зљ„йў†еЇјиЂ…ж€–еЉ©ж‰‹д»ҐеЉ е…ҐгЂ‚'
+msg_err_nation_homeblock_in_another_world: '&cдЅ зљ„еџЋй•‡д№‹е®¶дёЋе›ЅйѓЅдёЌењЁеђЊдёЂдёЄдё–з•Њ.'
+status_bank_town_penalty_upkeep: 'иї‡еє¦ењ€ењ°иґ№з”Ёпјљ'
+#Added in 0.53:
+msg_error_cannot_town_spawn_youre_an_outlaw_in_town: 'дЅ ж— жі•дј йЂЃе€° %s, дЅ иў«иЇҐеџЋй•‡и§†дёєдє†ж”ѕйЂђиЂ….'
+#Added in 0.55:
+msg_you_cannot_use_that_command_while_jailed: '&4дЅ дёЌиѓЅењЁз›‘з¦Ѓж—¶дЅїз”Ёиї™дёЄжЊ‡д»¤.'
+#Added in 0.56:
+msg_cache_block_error_town_nation: '&cе›Ѕе®¶ж€ђе‘�дёЌиѓЅ%sгЂ‚'
+#Added in 0.57:
+msg_err_already_res2: '&c%s е·Із»Џе±ћдєЋдёЂдёЄеџЋй•‡дє†.'
+msg_err_cannot_afford_plot_set_type_cost: '&cдЅ ж”Їд»�дёЌиµ·е°†ењџењ°и®ѕзЅ®дёє %s з±»ећ‹зљ„д»·ж јпјљ %s'
+msg_plot_set_cost: '&bдЅ ж”Їд»�дє† %s жќҐе°†ењџењ°з±»ећ‹и®ѕзЅ®дёє: %s'
+msg_err_townspawn_has_not_been_set: '&cжњЄи®ѕзЅ®еџЋй•‡дј йЂЃз‚№.'
+msg_err_player_too_far_from_town_spawn: '&c%s з¦»дЅ зљ„еџЋй•‡е¤Єиїњдє†пјЊж”¶дёЌе€°й‚ЂиЇ·гЂ‚ жњЂе¤§и·ќз¦»: %s ж јж–№еќ—.'
+#Added in 0.58:
+msg_resident_bail_amount: 'е±…ж°‘дїќй‡Љй‡‘: '
+msg_mayor_bail_amount: 'еџЋдё»дїќй‡Љй‡‘: '
+msg_king_bail_amount: 'е›Ѕе®¶йў†еЇјдїќй‡Љй‡‘пјљ '
+msg_has_paid_bail: '%sзјґзєідє†дїќй‡Љй‡‘е№¶иў«й‡Љж”ѕдє†гЂ‚'
+msg_err_unable_to_pay_bail: 'ж— жі•ж”Їд»�дїќй‡Љй‡‘.'
+msg_err_bail_not_enabled: 'дїќй‡Љй‡‘еЉџиѓЅжњЄејЂеђЇ.'
+msg_you_have_been_freed_from_jail: 'дЅ иў«й‡Љж”ѕдє†.'
+msg_player_has_been_freed_from_jail_number: '%s иў« %s й‡Љж”ѕдє†.'
+msg_player_has_been_sent_to_jail_number: '%s иў« %s з›‘з¦Ѓдє†.'
+msg_player_is_not_online: '%s дёЌењЁзєї.'
+msg_mysql_dump_success: 'MySQL ж•°жЌ®еє“иЅ¬е‚Ёе®Њж€ђ.'
+msg_err_mysql_not_being_used: 'дЅ зљ„й…ЌзЅ®жІЎжњ‰и®ѕзЅ®дёє дїќе­� & еЉ иЅЅ mysql.'
+msg_save_success: 'е·Ідїќе­�ж•°жЌ®еє“.'
+msg_load_success: 'е·ІеЉ иЅЅж•°жЌ®еє“.'
+msg_err_cannot_afford_to_set_outpost: 'дЅ зљ„еџЋй•‡жІЎжњ‰и¶іе¤џзљ„иµ„й‡‘жќҐе»єз«‹е‰Ќе“Ё.'
+msg_too_close2: 'иї™з‰‡еЊєеџџз¦»  %s е¤Єиї‘дє†.'
+homeblock: 'еџЋй•‡д№‹е®¶'
+townblock: 'еџЋй•‡еЊєеќ—'
+outpost: 'е‰Ќе“Ё'
+msg_err_not_same_town: '&b%s дёЌж�ЇдЅ зљ„еџЋй•‡зљ„дёЂе‘�.'
+#Added in 0.59:
+msg_modes_set: 'жЁЎејЏи®ѕзЅ®дёє: '
+msg_err_this_plot_doesnt_have_any_associated_metadata: 'иї™еќ—ењџењ°жІЎжњ‰з›ёе…ізљ„е…ѓж•°жЌ®.'
+msg_err_the_metadata_for_key_is_not_registered: ' ''%s'' зљ„е…ѓж•°жЌ®жњЄжіЁе†Њ!'
+msg_key_x_was_successfully_updated_to_x: 'Key %s ж€ђеЉџж›ґж–°дёє %s.'
+msg_err_key_x_is_not_part_of_this_plot: 'Key %s дёЌж�Їиї™еќ—ењџењ°зљ„дёЂйѓЁе€†.'
+msg_err_key_x_already_exists: 'Key %s е·Іе­�ењЁ!'
+msg_custom_data_was_successfully_added_to_townblock: 'ж€ђеЉџж·»еЉ и‡Єе®љд№‰ж•°жЌ®е€°еџЋй•‡еЊєеќ—е†…!'
+msg_data_successfully_deleted: 'ж€ђеЉџе€ й™¤ж•°жЌ®!'
+msg_err_key_cannot_be_deleted: 'ж— жі•е€ й™¤дёЌе­�ењЁзљ„Key!'
+msg_err_this_town_doesnt_have_any_associated_metadata: 'иї™дёЄеџЋй•‡жІЎжњ‰з›ёе…ізљ„е…ѓж•°жЌ®.'
+msg_err_key_x_is_not_part_of_this_town: 'Key %s дёЌж�Їиї™дёЄеџЋй•‡зљ„дёЂйѓЁе€†.'
+msg_custom_data_was_successfully_added_to_town: 'ж€ђеЉџж·»еЉ и‡Єе®љд№‰ж•°жЌ®е€°еџЋй•‡е†…!'
+msg_err_this_resident_doesnt_have_any_associated_metadata: 'This resident doesn''t have any associated metadata.'
+msg_err_key_x_is_not_part_of_this_resident: 'Key %s is not part of this resident, if possible please add it.'
+msg_custom_data_was_successfully_added_to_resident: 'Custom data was successfully added to resident!'
+msg_err_this_nation_doesnt_have_any_associated_metadata: 'This nation doesn''t have any associated metadata.'
+msg_err_key_x_is_not_part_of_this_nation: 'Key %s is not part of this nation, if possible please add it.'
+msg_custom_data_was_successfully_added_to_nation: 'Custom data was successfully added to nation!'
+msg_error_too_many_pages: 'йЎµж•°иї‡е¤љ.'
+msg_err_location_is_not_within_a_town: 'иЇҐењ°з‚№дёЌењЁеџЋй•‡е†….'
+msg_err_location_is_not_within_a_jail_plot: 'иЇҐењ°з‚№дёЌењЁз›‘з‹±е†….'
+msg_err_town_has_no_jail_spawns_set: 'иЇҐеџЋй•‡жІЎжњ‰и®ѕзЅ®з›‘з‹±дј йЂЃз‚№.'
+msg_err_town_has_no_outpost_spawns_set: 'иЇҐеџЋй•‡жІЎжњ‰и®ѕзЅ®е‰Ќе“Ёдј йЂЃз‚№.'
+msg_err_location_is_not_within_an_outpost_plot: 'дЅЌзЅ®дёЌењЁе‰Ќе“ЁеЊєеќ—е†….'
+msg_err_town_has_not_set_a_spawn_location: 'иЇҐеџЋй•‡жІЎжњ‰и®ѕзЅ®дј йЂЃз‚№.'
+msg_err_town_has_no_claim_over_this_town_block: 'иЇҐеџЋй•‡жІЎжњ‰еЈ°ж�Ћиї™еќ—еџЋй•‡еЊєеќ—.'
+msg_err_town_doesnt_belong_to_any_nation: 'иЇҐеџЋй•‡дёЌе±ћдєЋд»»дЅ•е›Ѕе®¶.'
+msg_err_mayor_doesnt_belong_to_town: 'еџЋдё»дёЌж�ЇеџЋй•‡зљ„дёЂе‘�.'
+msg_err_tag_too_long: 'ж ‡з­ѕиї‡й•ї.'
+msg_err_nation_has_not_set_a_spawn_location: 'е›Ѕе®¶жІЎжњ‰и®ѕзЅ®дј йЂЃз‚№.'
+msg_err_resident_doesnt_belong_to_any_town: 'иЇҐе±…ж°‘дёЌе±ћдєЋд»»дЅ•еџЋй•‡'
+msg_err_could_not_set_default_modes_for: 'ж— жі•и®ѕзЅ®й»�и®¤жЁЎејЏпјљ '
+#Added in 0.60
+msg_set_war_allowed_on: 'иї™дёЄдё–з•Ње†…е°†еЏЇд»ҐеЏ‘еЉЁж€�дє‰гЂ‚'
+msg_set_war_allowed_off: 'иї™дёЄдё–з•ЊдёЌеЏ—ж€�дє‰зљ„дѕµж‰°.'
+#Added in 0.61
+#Added in 0.62
+msg_err_cannot_toggle_pvp_x_seconds_remaining: 'дЅ ењЁ %s з§’е†…ж— жі•ж— жі•е€‡жЌўPVPзЉ¶жЂЃ.'
+msg_err_cannot_spawn_x_seconds_remaining: 'дЅ ењЁ %s з§’е†…ж— жі•е†Ќиї›иЎЊдј йЂЃ.'
+#Added in 0.63
+msg_plot_set_to_nfs: 'иЇҐењџењ°дёЌе†Ќе‡єе”®.'
+msg_err_x_spawn_disallowed_from_x: '&c%s зљ„дј йЂЃз‚№з¦Ѓж­ў %s.'
+msg_the_wilderness: 'иЌ’й‡Ћ'
+msg_enemy_areas: 'ж•ЊеЇ№еЊєеџџ'
+msg_neutral_towns: 'дё­з«‹еџЋй•‡'
+#Added in 0.64
+msg_err_no_nation_with_that_name: 'ж‰ѕдёЌе€°еђЌдёє %s зљ„еџЋй•‡'
+msg_err_cannot_unclaim_homeblock: 'дЅ ж— жі•ж”ѕејѓеЈ°ж�ЋеџЋй•‡д№‹е®¶, иЇ·дЅїз”Ё ''/town set homeblock'' жќҐжђ¬е®¶.'
+#Added in 0.65
+msg_err_rename_cancelled: 'й‡Ќе‘ЅеђЌиў«е…¶д»–жЏ’д»¶еЏ–ж¶€дє†.'
+#Added in 0.66
+#Added in 0.67
+msg_conquered: '[Conquered]'
+#Added in 0.68
+msg_plot_group_claim_confirmation: 'иї™еќ—ењџењ°ж�Ї %s з»„е†…зљ„дёЂйѓЁе€†пјЊе¦‚жћњдЅ еЈ°ж�Ћиї™еќ—ењџењ°пјЊдЅ е°†иґ­д№°дёЂж•ґз»„ењџењ°.'
+msg_plot_group_unclaim_confirmation: 'иї™еќ—ењџењ°ж�Ї %s з»„е†…зљ„дёЂйѓЁе€†пјЊе¦‚жћњдЅ ж”ѕејѓеЈ°ж�Ћиї™еќ—ењџењ°пјЊдЅ е°†е¤±еЋ»дёЂж•ґз»„ењџењ°.'
+msg_plot_group_toggle_confirmation: 'иї™еќ—ењџењ°ж�Ї %s з»„е†…зљ„дёЂйѓЁе€†пјЊдЅ е°†дї®ж”№иї™дёЂж•ґз»„ењџењ°зљ„е±ћжЂ§.'
+msg_plot_group_set_perm_confirmation: 'иї™еќ—ењџењ°ж�Ї %s з»„е†…зљ„дёЂйѓЁе€†пјЊдЅ е°†и®ѕзЅ®иї™дёЂж•ґз»„ењџењ°зљ„жќѓй™ђ.'
+msg_plot_evict_group: 'дЅ е·Іж€ђеЉџй©±йЂђ %s иї™з»„ењџењ°е†…зљ„зЋ©е®¶.'
+msg_err_plot_belongs_to_group_plot_fs: 'ењџењ°: %sе±ћдєЋдёЂдёЄењџењ°з»„, иЇ·дЅїз”Ё /plot group [з»„еђЌ] fs [ењџењ°д»·ж ј]'
+msg_err_plot_belongs_to_group_set: 'иї™з‰‡е±ћдєЋдёЂдёЄењџењ°з»„пјЊиЇ·дЅїз”Ё/plot group set'
+msg_plot_group_set_for_sale: 'ењџењ°з»„ %s е‡єе”®дё­!'
+msg_err_plot_already_belongs_to_a_group: 'иї™з‰‡ењџењ°е·Іе±ћдєЋдёЂдёЄењџењ°з»„: %s, иЇ·е…€з§»й™¤з»„е†…зљ„еџЋй•‡еЊєеќ—е†Ќиї›иЎЊж“ЌдЅњ.'
+msg_err_you_must_specify_a_group_name: 'дЅ еї…йЎ»жЊ‡е®љдёЂдёЄењџењ°з»„еђЌ.'
+msg_plot_was_put_into_group_x: 'ењџењ° &9(%s,%s) &2иў«ж”ѕе…Ґдє†ењџењ°з»„ %s е†…'
+msg_err_plot_not_associated_with_a_group: 'иї™з‰‡ењџењ°дёЌе±ћдєЋд»»дЅ•дёЂдёЄењџењ°з»„.'
+msg_plot_was_removed_from_group_x: 'ењџењ° &9(%s,%s) &2иў«з§»е‡єдє† %s ењџењ°з»„'
+msg_plot_renamed_from_x_to_y: 'ењџењ° %s е·Ій‡Ќе‘ЅеђЌдёє %s.'
+msg_err_plot_group_specify_price: 'иЇ·и®ѕзЅ®д»·ж ј, жЊ‡д»¤з¤єдѕ‹: /plot group fs [д»·ж ј]'
+msg_player_put_group_up_for_sale_amount: '%s put group %s up for sale for %s!'
+msg_player_put_group_up_for_sale: '%s put group %s up for sale!'
+msg_err_could_not_set_group_type: 'ж— жі•и®ѕзЅ®ењџењ°з»„з±»ећ‹ - '
+msg_set_group_type_to_x: 'е·Іе°†ењџењ°з»„з±»ећ‹ж›ґж”№дёє %s'
+msg_player_successfully_bought_group_x: '%s ж€ђеЉџиґ­д№°дє†ењџењ°з»„ %s'
+status_plot_group_name_and_size: 'иї™дёЄеџЋй•‡еЊєеќ—ж�Їењ°зљ®з»„%sзљ„дёЂйѓЁе€†пјЊиї™дёЄењ°зљ®з»„е…±еЊ…еђ«%sдёЄеџЋй•‡еЊєеќ—гЂ‚'
+msg_player_made_group_not_for_sale: '%s еЃњж­ўе‡єе”® %s .'
+#Added in 0.69
+msg_err_cannot_set_group_to_jail: 'ењџењ°з»„ж— жі•и®ѕзЅ®дёєз›‘з‹±.'
+#Added in 0.70
+msg_err_plot_group_name_required: 'дЅ еї…йЎ»и®ѕзЅ®ењџењ°з»„еђЌ, жЊ‡д»¤дёє/plot group add {еђЌз§°}'
+msg_confirmation_spigot_click_accept: 'з‚№е‡»%sж€–иѕ“е…Ґ%s'
+msg_confirmation_spigot_click_cancel: 'з‚№е‡»%sж€–иѕ“е…Ґ%s'
+msg_you_cannot_kick_yourself: 'дЅ дёЌиѓЅиёўе‡єи‡Єе·±.'
+msg_you_cannot_kick_this_resident: 'дЅ дёЌиѓЅиёўе‡є %s, д»–ж�ЇеџЋдё»ж€–еЉ©ж‰‹.'
+#Added in 0.71
+msg_err_plot_belongs_to_group_plot_fs2: 'ењџењ°: %sе±ћдєЋењџењ°з»„, иЇ·дЅїз”Ё /plot group fs [д»·ж ј] и®ѕзЅ®ењџењ°д»·ж ј'
+msg_err_plot_belongs_to_group_plot_nfs: 'ењџењ°: %sе±ћдєЋењџењ°з»„, иЇ·дЅїз”Ё /plot group nfs еЃње”®'
+#Added in 0.72
+msg_err_admin_controlled_pvp_prevents_you_from_changing_pvp: 'з®Ўзђ†е‘�жЋ§е€¶зљ„%sи®ѕзЅ®й�»ж­ўдЅ е°†pvpзЉ¶жЂЃж”№дёє%s.'
+#Added in 0.73
+msg_err_you_aren't currently jailed: 'дЅ е·Іиў«з›‘з¦Ѓ.'
+#Added in 0.74
+msg_err_you_are_not_allowed_to_create_the_other_side_of_this_portal: 'дЅ дёЌиѓЅењЁиї™й‡Ње€›е»єдј йЂЃй—Ёзљ„еЏ¦дёЂз«Ї.'
+#Added in 0.75
+msg_already_ally: 'дЅ зљ„е›Ѕе®¶е·ІдёЋ%sз»“з›џ.'
+#Added in 0.76
+msg_you: 'дЅ '
+#Added in 0.77
+msg_click_spawn: '&aз‚№е‡»дј йЂЃе€°:&e%s'
+msg_spawn_cost: '&aдј йЂЃд»·ж ј=&e%s'
+#Added in 0.78
+msg_reload_error: 'й‡ЌиЅЅTownyж—¶е‡єй”™.'
+msg_reloaded_config: '&2ж€ђеЉџй‡ЌиЅЅй…ЌзЅ®.'
+msg_reloaded_perms: '&2ж€ђеЉџй‡ЌиЅЅжќѓй™ђ.'
+msg_reloaded_db: '&2ж€ђеЉџй‡ЌиЅЅж•°жЌ®еє“'
+msg_reloaded_lang: '&2ж€ђеЉџй‡ЌиЅЅиЇ­иЁЂж–‡д»¶'
+msg_reset_config: '&2ж€ђеЉџй‡ЌзЅ®й…ЌзЅ®'
+msg_err_teleport_cancelled: 'дј йЂЃж—¶з§»еЉЁеЇји‡ґеЏ–ж¶€дј йЂЃ.'
+#Added in 0.79
+msg_cache_block_error_plot_friends: 'жњ‹еЏ‹'
+msg_cache_block_error_plot_allies: 'з›џеЏ‹'
+msg_cache_block_error_plot_outsiders: 'е¤–жќҐиЂ…'
+msg_cache_block_error_plot_town_members: 'еџЋй•‡е±…ж°‘'
+msg_err_invalid_nation_map_color: '&cжњЄзџҐзљ„ењ°е›ѕйўњи‰І. еЏЇз”Ёйўњи‰Іжњ‰%s.'
+msg_nation_map_color_changed: '&bе›Ѕе®¶ењ°е›ѕйўњи‰Іе·Іж›ґж”№дёє%s.'
+msg_err_unable_to_add_more_residents_without_nation: 'ењЁз¬¬дёЂж¬ЎеЉ е…Ґе…¶д»–е›Ѕе®¶ж€–е»єе›Ѕе‰ЌпјЊдЅ зљ„еџЋй•‡ж— жі•й‚ЂиЇ·е¤љдєЋ%sдЅЌе±…ж°‘гЂ‚'
+msg_the_following_towns_were_deleted_for_having_0_claims: 'еџЋй•‡%sе·Іиў«е€ й™¤пјЊе› дёєиї™дє›еџЋй•‡жІЎжњ‰еЈ°ж�Ћд»»дЅ•ењџењ°гЂ‚'
+msg_spawn_warn: 'дј йЂЃд»·ж јдёє%s. дЅ зЎ®и®¤з»§з»­дј йЂЃ? жЏђз¤є: еЉ дёЉ -ignore и·іиї‡зЎ®и®¤дј йЂЃ.'
+msg_confirm_purchase: 'иї™ж ·еЃље°†ж¶€иЂ—%s. дЅ зЎ®и®¤?'
+msg_warn_the_following_towns_will_be_removed_from_your_nation: 'е› дёєз¦»ж–°зљ„й¦–йѓЅдёЌе¤џиї‘пјЊж‰Ђд»ҐеџЋй•‡ %s е°†д»Ћж‚Ёзљ„е›Ѕе®¶дё­з§»й™¤гЂ‚ж‚ЁзЎ®е®љи¦Ѓз»§з»­еђ—?'
+msg_ta_deposit_all_success: 'ж€ђеЉџеЌ·иЅґ%sе€°ж‰Ђжњ‰е›Ѕе®¶е’ЊеџЋй•‡зљ„й“¶иЎЊе†….'
+bonus_townblocks: 'еҐ–еЉ±еџЋй•‡еЊєеќ—'
+#Added in 0.80
+nomad_sing: 'жµЃжµЄиЂ…'
+msg_new_town_advice: 'е»єеџЋй…ЌзЅ®! дЅ зљ„еџЋй•‡йњЂи¦Ѓж¶€иЂ—%sзљ„жЇЏж—Ґз»ґжЉ¤иґ№з”Ё.дЅ еЏЇд»Ґиѕ“е…Ґ ''/t deposit #''е°†дЅ зљ„й’±жЌђе€°еџЋй•‡й“¶иЎЊе†…. й“¶иЎЊе†…жІЎй’±дё”ж”Їд»�дёЌиµ·жЇЏж—Ґз»ґжЉ¤иґ№з”Ёзљ„еџЋй•‡е°†дјљиў«е€ й™¤.дЅ йљЏж—¶еЏЇд»Ґиѕ“е…Ґ/towny prices жџҐзњ‹иґ№з”Ё. дё‹дёЂж¬Ўз»ґжЉ¤иґ№з”Ёдёє%s.'
+#Added in 0.81
+msg_err_teleport_cancelled_damage: 'дј¤е®іеЏ–ж¶€дє†дЅ зљ„дј йЂЃ.'
+#Added in 0.82
+invitation_prefix: "&8[&7й‚ЂиЇ·&8] &9"
+confirmation_prefix: "&8[&7зЎ®и®¤&8] &9"
+this_message_will_expire2: '&9иї™е°†дјљењЁ%sз§’еђЋиї‡жњџгЂ‚'
+msg_hover_next_page: 'дё‹дёЂйЎµ'
+msg_hover_previous_page: 'дёЉдёЂйЎµ'
+#Added in 0.83
+msg_max_tax_amount_only_for_percent: "еЏЄиѓЅењЁеѕЃж”¶зЁЋзЋ‡зљ„еџЋй•‡е†…и®ѕзЅ®жњЂе¤§зЁЋзЋ‡."
+msg_town_set_tax_max_percent_amount: "%sе°†зЁЋзЋ‡дёЉй™ђи®ѕзЅ®дёє%s."
+#Added in 0.84
+msg_err_plot_belongs_to_group_toggle: 'иї™з‰‡ењџењ°е±ћдєЋдёЂдёЄз»„пјЊиЇ·дЅїз”Ё/plot group toggle'
+#Added in 0.85
+msg_set_perms_reset_single: '&bж€ђеЉџењ°й‡ЌзЅ®дє†иї™з‰‡ењџењ°зљ„жќѓй™ђи®ѕзЅ®гЂ‚'
+#Added in 0.86
+status_bank_bankrupt: 'пј€з ґдє§пј‰'
+msg_warning_bankrupt: '&4*** и­¦е‘ЉпјЊз”±дєЋ%sзљ„иµ„й‡‘дёЌи¶іпјЊе…¶е°†ењЁдё‹дёЂе¤©з ґдє§пјЃ ***'
+msg_town_bankrupt_by_upkeep: '&bеџЋй•‡%sе› дёєдёЌиѓЅз»ґжЊЃж—ҐеёёејЂж”ЇиЂЊз ґдє§дє†гЂ‚'
+msg_town_bankrupt_by_upkeep_multiple: '&bд»Ґдё‹еџЋй•‡е› ж— еЉ›з»ґжЊЃејЂж”ЇиЂЊз ґдє§пјљ '
+msg_town_bankrupt_by_nation_tax: '&bеџЋй•‡%sе› ж— еЉ›д»�жё…%sзЁЋиЂЊз ґдє§дє†гЂ‚'
+msg_town_bankrupt_by_nation_tax_multiple: '&bд»Ґдё‹еџЋй•‡е› ж— еЉ›дёЉзјґе›ЅзЁЋиЂЊз ґдє§пјљ '
+msg_town_debts_cleared: 'еџЋй•‡%sд»�жё…дє†ж‰Ђжњ‰еЂєеЉЎпјЊдёЌе†Ќе¤„дєЋз ґдє§зЉ¶жЂЃгЂ‚'
+msg_err_bankrupt_town_cannot_claim: 'е·Із ґдє§зљ„еџЋй•‡дёЌиѓЅењ€ењ°гЂ‚'
+msg_err_bankrupt_town_cannot_build: 'е·Із ґдє§зљ„еџЋй•‡дёЌиѓЅиї›иЎЊе»єз­‘гЂ‚'
+msg_err_bankrupt_town_cannot_toggle_open: 'е·Із ґдє§зљ„еџЋй•‡дёЌиѓЅејЂж”ѕгЂ‚'
+msg_err_bankrupt_town_cannot_invite: 'е·Із ґдє§зљ„еџЋй•‡дёЌиѓЅй‚ЂиЇ·зЋ©е®¶еЉ е…ҐгЂ‚'
+msg_payed_nation_tax: '&bдЅ зљ„еџЋй•‡дёЉзјґдє†%sзљ„е›ЅзЁЋгЂ‚'
+msg_your_town_couldnt_pay_the_nation_tax_of: '&bдЅ зљ„еџЋй•‡е› ж— еЉ›з»™е›Ѕе®¶дёЉзјґ%sзЁЋиЂЊиў«иёўе‡єе›Ѕе®¶гЂ‚'
+msg_your_town_payed_upkeep: 'дЅ зљ„еџЋй•‡ж”Їд»�дє†%sзљ„ж—ҐеёёејЂж”ЇгЂ‚'
+msg_your_nation_payed_upkeep: 'дЅ зљ„е›Ѕе®¶ж”Їд»�дє†%sзљ„ж—ҐеёёејЂж”ЇгЂ‚'
+msg_your_town_couldnt_pay_upkeep: 'дЅ зљ„еџЋй•‡ж— еЉ›з»ґжЉ¤%sзљ„ж—ҐеёёејЂж”ЇиЂЊиў«и§Јж•Јдє†гЂ‚'
+msg_your_nation_couldnt_pay_upkeep: 'дЅ зљ„е›Ѕе®¶ж— еЉ›з»ґжЉ¤%sзљ„ж—ҐеёёејЂж”ЇиЂЊиў«и§Јж•Јдє†гЂ‚'
+#Added in 0.87
+msg_town_reached_debtcap_and_is_disbanded: '&bеџЋй•‡%sе› ж— еЉ›з»ґжЉ¤ејЂж”Їе№¶иѕѕе€°дє†иґџеЂєдёЉй™ђиЂЊи§Јж•ЈгЂ‚'
+msg_town_reached_debtcap_and_is_disbanded_multiple: '&bд»Ґдё‹еџЋй•‡е› ж— еЉ›з»ґжЉ¤ејЂж”Їе№¶иѕѕе€°дє†иґџеЂєдёЉй™ђиЂЊи§Јж•Јпјљ '
+msg_unable_to_deposit_x: 'ж— жі•е°†%sе­�е…ҐеџЋй•‡й“¶иЎЊгЂ‚'
+msg_unable_to_withdraw_x: 'ж— жі•д»ЋеџЋй•‡й“¶иЎЊдё­еЏ–е‡є%sгЂ‚'
+status_debtcap: 'иґџеЂєдёЉй™ђпјљ'
+status_world_explrevert_entity: 'з”џз‰©з€†з‚ёе›ћжєЇпјљ'
+status_world_explrevert_block: 'ж–№еќ—з€†з‚ёе›ћжєЇпјљ'
+#Added in 0.88
+msg_nation_already_peaceful: '&cе›Ѕе®¶е·Іе¤„дєЋе’Ње№ізЉ¶жЂЃгЂ‚'
+msg_nation_already_not_peaceful: '&cе›Ѕе®¶е·ІдёЌе†Ќе’Ње№ідє†гЂ‚'
+#Added in 0.89
+status_world_friendlyfire: 'еЏ‹дј¤пјљ'
+status_world_wildernessmobs: 'иЌ’ењ°з”џж€ђз”џз‰©пјљ'
+msg_outlaw_kick_cooldown: '&cдЅ ењЁеџЋй•‡%sдё­иў«е€—дёєиў«ж”ѕйЂђиЂ…гЂ‚дЅ иї�жњ‰%sжќҐз¦»ејЂеџЋй•‡пјЊеђ¦е€™е°†дј йЂЃе›ће‡єз”џз‚№гЂ‚'
+msg_outlaw_kicked: '&4дЅ дёЌиў«еџЋй•‡%sж‰Ђж¬ўиїЋпјЊе› ж­¤дЅ иў«дј йЂЃиµ°дє†гЂ‚'
+msg_outlaw_town_notify: '&cиў«ж”ѕйЂђиЂ…%sиї›е…Ґдє†дЅ зљ„еџЋй•‡гЂ‚'
+msg_your_town_payed_upkeep_with_debt: '&cдЅ зљ„еџЋй•‡иїћеё¦еЂєеЉЎж”Їд»�дє†%sзљ„ж—ҐеёёејЂж”ЇгЂ‚'
+msg_payed_nation_tax_with_debt: '&cдЅ зљ„еџЋй•‡иїћеё¦еЂєеЉЎдёЉзјґдє†%sзљ„е›ЅзЁЋгЂ‚'
+#Added in 0.90
+status_plot_clear_deletion: 'е·Іжё…й™¤ењ°зљ®пјљ'
+msg_err_plot_clear_disabled_in_this_world: '/plot clearжЊ‡д»¤ењЁж­¤дё–з•Ње·Із¦Ѓз”ЁгЂ‚'
+#Added in 0.91
+msg_universe_attribution: 'дЅњиЂ…пјљ '
+msg_universe_contributors: ' д»ҐеЏЉеѓЏдЅ иї™ж ·зљ„иґЎзЊ®иЂ…гЂ‚ '
+msg_universe_heart: '<3'
+townblock_plu: 'еџЋй•‡еЊєеќ—'
+#Added in 0.92
+#Town Ruins
+msg_newhour_success: 'дё‹дёЂе°Џж—¶е‘Ѕд»¤ж‰§иЎЊж€ђеЉџ'
+town_help_12: 'й‡Ќж–°еЈ°ж�ЋдЅ зљ„еџЋй•‡жќҐд»ЋеЂ’й—­д№‹дё­жЊЅе›ће®ѓгЂ‚'
+msg_warning_town_ruined_if_deleted: "и­¦е‘ЉпјЃпјЃпјЃе¦‚жћњдЅ е€ й™¤дЅ зљ„еџЋй•‡пјЊе®ѓе°†иї›е…ҐжЊЃз»­%dе°Џж—¶зљ„еЂ’й—­зЉ¶жЂЃгЂ‚ д№‹еђЋпјЊе®ѓе°†иў«е®Ње…Ёе€ й™¤гЂ‚ењЁеЂ’й—­зљ„зЉ¶жЂЃдё‹пјЊж‰Ђжњ‰дїќжЉ¤йѓЅе°†е¤±ж•€пјЊеџЋй•‡д№џе°†иѓЅиў«е…¶д»–дєєз ґеќЏгЂ‚"
+msg_warning_town_ruined_if_deleted2: "%dе°Џж—¶еђЋеџЋй•‡дё­зљ„д»»дЅ•е±…ж°‘йѓЅеЏЇд»ҐдЅїз”Ё/t reclaimжќҐй‡Ќж–°еЈ°ж�Ћж­¤еџЋй•‡гЂ‚"
+msg_err_cannot_reclaim_town_unless_ruined: '&cдЅ дёЌиѓЅй‡Ќж–°еЈ°ж�ЋдЅ зљ„еџЋй•‡пјЊе› дёєе…¶е№¶жњЄеЂ’й—­гЂ‚'
+msg_err_cannot_reclaim_town_yet: '&c%dе°Џж—¶еђЋж‰ЌеЏЇд»Ґй‡Ќж–°еЈ°ж�ЋдЅ зљ„еџЋй•‡гЂ‚'
+msg_town_reclaimed: '&b%sй‡Ќж–°еЈ°ж�Ћдє†еџЋй•‡%sгЂ‚'
+msg_err_cannot_use_command_because_town_ruined: "&cдЅ дёЌиѓЅдЅїз”Ёж­¤е‘Ѕд»¤пјЊе› дёєдЅ зљ„еџЋй•‡е·Із»ЏеЂ’й—­гЂ‚и¦Ѓз»§з»­дЅїз”ЁпјЊиЇ·дЅїз”Ё/t reclaimй‡Ќж–°еЈ°ж�ЋеџЋй•‡пјЊж€–дЅїз”Ё/t leaveз¦»ејЂж­¤еџЋй•‡гЂ‚"
+msg_warning_your_town_is_ruined_for_x_more_hours: '&cдЅ зљ„еџЋй•‡е·ІеЂ’й—­%dе°Џж—¶д»ҐдёЉпјЊдЅїз”Ё/town reclaimжќҐж•‘е›ћеџЋй•‡е№¶ж€ђдёєеџЋдё»гЂ‚'
+msg_time_remaining_before_full_removal: 'и·ќз¦»е®Ње…Ёе€ й™¤пјљ%dе°Џж—¶гЂ‚'
+msg_time_until_reclaim_available: 'и·ќз¦»еЏЇж”¶е¤Ќж—¶й—ґпјљ%dе°Џж—¶гЂ‚'
+msg_reclaim_available: 'еЏЇж”¶е¤ЌгЂ‚'
+#Added in 0.93
+msg_changed_peaceful: '&cеџЋй•‡дё­з«‹/е’Ње№ізљ„зЉ¶жЂЃзЋ°ењЁж�Ї%sгЂ‚'
+msg_err_town_unclaim_canceled: '&cж”ѕејѓењ€ењ°е·ІеЏ–ж¶€пјЊдЅ дёЌиѓЅењЁиї™дёЄж—¶еЂ™ж”ѕејѓиї™з‰‡еЊєеџџгЂ‚'
+#Added in 0.94
+msg_comptype_residents: 'е±…ж°‘ж•°'
+msg_comptype_townblocks: 'еџЋй•‡еЊєеќ—е·Іењ€ж•°й‡Џ'
+msg_comptype_balance: 'й“¶иЎЊдЅ™йўќ'
+msg_comptype_online: 'ењЁзєїзЋ©е®¶'
+msg_comptype_towns: 'еџЋй•‡ж•°й‡Џ'
+msg_comptype_name: 'жЊ‰е­—жЇЌйЎєеєЏ'
+msg_comptype_open: 'ејЂж”ѕзЉ¶жЂЃ'
+msg_status_npc: '&c%sдёЌж�ЇдёЂдёЄзњџж­Јзљ„зЋ©е®¶пјЊе®ѓж�ЇTownyе†…зЅ®зљ„гЂ‚'
+npc_created: 'е€›е»єдєЋпјљ'
+msg_no_funds_claim_plot: '&cдЅ жІЎжњ‰и¶іе¤џзљ„иµ„й‡‘жќҐењ€иї™еќ—д»·ж јдёє%sзљ„ењ°гЂ‚'
+msg_no_funds_claim_plot_group: '&cдЅ жІЎжњ‰и¶іе¤џзљ„иµ„й‡‘жќҐењ€иї™%sеќ—жЂ»д»·дёє%sзљ„ењ°гЂ‚'
+status_town_title_peaceful: '&b(е’Ње№і)'
+#Added in 0.95
+status_public: '&b(е…¬ејЂ)'
+msg_days: ' е¤©'
+msg_comptype_public: 'е…¬ејЂзЉ¶жЂЃ'
+towny_prices_title: 'д»·ж ј'
+towny_prices_town_nation: '&e[е»єз«‹ж–°зљ„] &2еџЋй•‡пјљ&a%s &8| &2е›Ѕе®¶пјљ&a%s'
+towny_prices_reclaim: '&e[ж”¶е¤Ќ] &2еџЋй•‡пјљ&a%s'
+towny_prices_upkeep: '&e[з»ґжЉ¤] &2еџЋй•‡пјљ&a%s &8| &2е›Ѕе®¶пјљ&a%s'
+towny_prices_overclaimed_upkeep: '&e[иї‡еє¦ењ€ењ°з»ґжЉ¤] &2еџЋй•‡пјљ&a%s'
+towny_prices_claiming_townblock: '&e[ж‰©еј ] &2еџЋй•‡еЊєеќ—пјљ&a%s'
+towny_prices_claiming_townblock_increase: ' &8| &2жЇЏеџЋй•‡еЊєеќ—еўћеЉ пјљ&a+%s'
+towny_prices_claiming_outposts: '&e[ж‰©еј ] &2е‰Ќе“Ёпјљ&a%s'
+towny_prices_upkeep_based_on: '&7еџЋй•‡зљ„ж—ҐеёёејЂж”ЇеџєдєЋ&a%s'
+towny_prices_upkeep_num_plots: 'ењ°зљ®ж•°й‡ЏгЂ‚'
+towny_prices_upkeep_town_level: 'еџЋй•‡з­‰зє§пј€е±…ж°‘дєєж•°пј‰гЂ‚'
+towny_prices_overclaimed_based_on: '&7иї‡еє¦ењ€ењ°зљ„з»ґжЉ¤ејЂж”ЇеџєдєЋ&a%s%s'
+towny_prices_overclaimed_num_plots: 'и¶…е‡єзљ„ењ€ењ°ж•°й‡Џ*'
+towny_prices_overclaimed_flat_cost: 'е›єе®љиґ№з”Ё'
+towny_prices_townname: '&cеџЋй•‡пјљ&b%s'
+towny_prices_price_plot: '&c    [Price] &2еќ—ењ°зљ®пјљ&a%s &8| &2еє§е‰Ќе“Ёпјљ&a%s'
+towny_prices_price_shop: '&c            &2е•†еє—пјљ&a%s &8| &2е¤§дЅїй¦†пјљ&a%s'
+towny_prices_taxes_plot: '&c    [Taxes]    &2дЅЌе±…ж°‘пјљ&a%s &8| &2еќ—ењ°зљ®пјљ&a%s'
+towny_prices_taxes_shop: '&c            &2е•†еє—пјљ&a%s &8| &2е¤§дЅїй¦†пјљ&a%s'
+towny_prices_town_neutral_tax: '&c            &2е’Ње№іпјљ&a%s'
+towny_prices_plots: '&c    [и®ѕзЅ®ењ°зљ®]'
+towny_prices_type_single: '            &2%s: &a%s'
+towny_prices_type_double: '            &2%s: &a%s &8| &2%s: &a%s'
+towny_prices_nationname: '&cе›Ѕе®¶пјљ&6%s'
+towny_prices_nation_tax: '&c    [Taxes] &2еџЋй•‡пјљ&a%s &8| &2е’Ње№іпјљ&a%s'
+#Added in 0.96
+msg_town_destroyed_by_nation_tax: '&bиў«еЌ йў†зљ„еџЋй•‡%sе› ж— еЉ›дёЉзјґе›ЅзЁЋиЂЊеЂ’й—­гЂ‚'
+msg_town_destroyed_by_nation_tax_multiple: '&bд»Ґдё‹иў«еЌ йў†еџЋй•‡е› ж— еЉ›дёЉзјґе›ЅзЁЋиЂЊеЂ’й—­пјљ '
+msg_your_town_was_exempt_from_the_nation_tax: '&bдЅ зљ„еџЋй•‡иў«е…Ќй™¤дє†е›ЅзЁЋгЂ‚'
+#Added in 0.97
+status_perm_line_format: '&a%s=&7' #The Build = ---- Destroy = ---- seen in the status screen.
+msg_comptype_ruined: 'еЂ’й—­зЉ¶жЂЃ'
+msg_comptype_bankrupt: 'з ґдє§зЉ¶жЂЃ'
+msg_ruined: '&cпј€е·ІеЂ’й—­пј‰'
+msg_bankrupt: '&cпј€е·Із ґдє§пј‰'
+#Added in 0.98
+msg_del_town2: '&bеџЋй•‡%sе·Іе€ й™¤пјЃ'
+msg_ruin_town: '&bеџЋй•‡%sжІ¦дёєеєџеўџпјЃ'
+gui_title_select_plot_type: 'йЂ‰ж‹©ењ°зљ®з±»ећ‹'
+gui_title_no_restrictions: 'ж­¤ењ°зљ®з±»ећ‹жІЎжњ‰й™ђе€¶гЂ‚'
+gui_title_towny_allowedblocks: '%s е…Ѓи®ёж–№еќ—е€—иЎЁ'
+gui_title_towny_wildsblocks: 'еџЋй•‡иЌ’ењ°еЊєеќ—е€—иЎЁ'
+gui_title_towny_itemuse: 'еџЋй•‡з‰©е“ЃдЅїз”Ёжќѓй™ђе€—иЎЁ'
+gui_title_towny_switch: 'Townyдє¤дє’жќѓй™ђе€—иЎЁ'
+gui_title_towny_plotclear: 'Townyењџењ°жё…й™¤е€—иЎЁ'
+#Added in 0.99 - FlatFile L10N
+#NOTICE
+#While these strings can be translated, we caution you to keep them in English.
+flatfile_dbg_cannot_set_capital_try_next: 'Nation %s could not set capital to %s, selecting a new capital...'
+flatfile_dbg_deleting_duplicate: 'Deleting: %s which is a duplicate of %s'
+flatfile_dbg_folders_found: 'Folders found %s'
+flatfile_dbg_group_file_missing_town_delete: 'Group file missing Town, deleting %s'
+flatfile_dbg_loading_group_list: 'Loading Group list...'
+flatfile_dbg_loading_nation: 'Loading Nation: %s'
+flatfile_dbg_loading_nation_list: 'Loading Nation list...'
+flatfile_dbg_loading_resident: 'Loading Resident: %s'
+flatfile_dbg_loading_resident_list: 'Loading Resident list...'
+flatfile_dbg_loading_server_world_list: 'Loading Server World List...'
+flatfile_dbg_loading_town: 'Loading Town: %s'
+flatfile_dbg_loading_town_list: 'Loading Town list...'
+flatfile_dbg_loading_townblock_list: 'Loading TownBlock list...'
+flatfile_dbg_loading_world: 'Loading World: %s'
+flatfile_dbg_loading_world_list: 'Loading World List...'
+flatfile_dbg_mismatched_townblock_size: '%s townblocks were found with a town_block_size that does not match your config, they were not loaded into memory.'
+flatfile_dbg_missing_file_delete_group_entry: 'Missing file: %s deleting entry in group.txt'
+flatfile_dbg_missing_file_delete_groups_entry: 'Missing file: %s deleting entry in groups.txt'
+flatfile_dbg_removing_nation_not_found: 'Removing %s because they are not found in the nations.txt'
+flatfile_dbg_removing_resident_not_found: 'Removing %s because they are not found in the residents.txt'
+flatfile_dbg_removing_town_not_found: 'Removing %s because they are not found in the towns.txt.'
+flatfile_dbg_town_fetch_outlaw: 'Town Fetching Outlaw: %s'
+flatfile_dbg_undefined_capital_select_new: 'Nation %s did not have a capital defined, selecting a new capital...'
+flatfile_dbg_world_loaded_townblocks: 'World: %s loaded %s TownBlocks.'
+flatfile_err_cannot_create_defaults: 'Could not create flatfile default files and folders.'
+flatfile_err_could_not_add_to_town: 'Could not add to town!'
+flatfile_err_exception_reading_file: 'Loading Error: Exception while reading file %s'
+flatfile_err_exception_reading_group_file_at_line: 'Loading Error: Exception while reading Group file %s at line: %s'
+flatfile_err_exception_reading_townblock_file_at_line: 'Loading Error: Exception while reading TownBlock file %s at line: %s.'
+flatfile_err_exception_reading_world_file_at_line: 'Loading Error: Exception while reading world file %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_file_error_reading_world_file_at_line: 'Loading Error: File error while reading %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_homeblock_load_invalid_location: '[Warning] %s - HomeBlock tried to load invalid Location.'
+flatfile_err_homeblock_load_invalid_townblock: '[Warning] %s - HomeBlock tried to load invalid TownBlock.'
+flatfile_err_homeblock_load_invalid_world: '[Warning] %s - HomeBlock tried to load invalid World.'
+flatfile_err_invalid_townblock_resident: 'Invalid resident for TownBlock %s. Skipped setting resident for TownBlock...'
+flatfile_err_loading_group_list_at_line: 'Error loading Group List at %s, in towny/data/groups.txt'
+flatfile_err_loading_world_list_at_line: 'Error loading World list at %s, in towny/data/worlds.txt'
+flatfile_err_nation_could_not_load_capital_disband: 'The nation %s could not load a capital city and is being disbanded.'
+flatfile_err_reading_nation_file_at_line: 'Loading Error: Exception while reading nation file %s at line %s, in towny/data/nations/%s.txt'
+flatfile_err_reading_outlaw_of_town_duplicate: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s is duplicated! Skipping adding duplicate...'
+flatfile_err_reading_outlaw_of_town_not_exist: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s does not exist! Removing from list...'
+flatfile_err_reading_resident_at_line: 'Loading Error: Exception while reading resident file %s at line: %s, in towny/data/residents/%s.txt'
+flatfile_err_reading_town_file_at_line: 'Loading Error: Exception while reading town file %s at line: %s, in towny/data/towns/%s.txt'
+flatfile_err_resident_tried_load_invalid_town: 'Loading Error: %s tried to load the town %s which is invalid. Removing town from the resident.'
+flatfile_err_town_homeblock_not_exist: '[Warning] %s does not have a HomeBlock.'
+flatfile_err_townblock_file_contains_unregistered_town_delete: 'TownBlock file contains unregistered Town: %s, deleting %s'
+flatfile_err_townblock_file_missing_town_delete: 'TownBlock file missing Town, deleting %s'
+flatfile_err_townblock_file_unknown_err: 'TownBlock file contains unknown error, deleting %s.'
+msg_ta_removed_all_titles_and_surnames_removed: 'ж‰Ђжњ‰е±…ж°‘зљ„е¤ґиЎ”дёЋз§°и°“е·Іиў«з§»й™¤гЂ‚'
+msg_err_homeblock_already_set_here: 'иї™дёЄдЅЌзЅ®е·Із»ЏењЁдЅ зљ„еџЋй•‡дё­еїѓеЊєеќ—е†…дє†гЂ‚'
+#Added in 0.100
+msg_town_merge_err_mayor_only: '&cеЏЄжњ‰еџЋдё»ж‰ЌиѓЅиї›иЎЊеђ€е№¶ж“ЌдЅњгЂ‚'
+msg_town_merge_err_not_close: '&cеџЋй•‡%sзљ„дё­еїѓеЊєеќ—з¦»дЅ зљ„еџЋй•‡дё­еїѓеЊєеќ—е¤Єиїњдє†пјЊйњЂи¦ЃењЁ%dдёЄеџЋй•‡еЊєеќ—д»Ґе†…гЂ‚'
+msg_town_merge_request_sent: '&bеђ€е№¶иЇ·ж±‚е·ІеЏ‘йЂЃз»™еџЋй•‡%sзљ„еџЋдё»гЂ‚'
+msg_town_merge_request_received: '&bеџЋй•‡%sзљ„еџЋдё»%sиЇ·ж±‚дёЋдЅ зљ„еџЋй•‡еђ€е№¶гЂ‚иї™е°†иЅ¬з§»ж‰Ђжњ‰еџЋй•‡еЊєеќ—гЂЃе±…ж°‘е’ЊеџЋй•‡й“¶иЎЊе‚Ёи“„и‡і%sгЂ‚'
+msg_town_merge_request_denied: '&cеђ€е№¶иЇ·ж±‚иў«ж‹’з»ќгЂ‚'
+msg_town_merge_other_offline: '&cеџЋй•‡%sзљ„еџЋдё»%sз›®е‰ЌдёЌењЁзєїпјЊеђ€е№¶е¤±иґҐгЂ‚'
+msg_town_merge_err_too_many_residents: '&cеђ€е№¶е¤±иґҐпјљеђ€е№¶еђЋе±…ж°‘ж•°й‡Џи¶…иї‡й™ђе€¶ (%d)'
+msg_town_merge_err_too_many_townblocks: '&cеђ€е№¶е¤±иґҐпјљеђ€е№¶еђЋзљ„еџЋй•‡е¤§е°Џи¶…иї‡й™ђе€¶(%d)'
+msg_town_merge_err_too_many_outposts: '&cеђ€е№¶е¤±иґҐпјљеђ€е№¶еђЋе‰Ќе“Ёж•°й‡Џи¶…иї‡й™ђе€¶ (%d)'
+msg_town_merge_err_not_enough_money: '&cеђ€е№¶е¤±иґҐпјљй‡‘йўќдёЌи¶ігЂ‚(%s/%s)'
+msg_town_merge_err_too_many_purchased_townblocks: '&cеђ€е№¶е¤±иґҐпјљеџЋй•‡еЊєеќ—е¤Єе¤љ(%d)'
+msg_town_merge_warning: '&cи­¦е‘Љпјље¦‚жћњжЋҐеЏ—дёЋеџЋй•‡%sеђ€е№¶е°†иЉ±иґ№%sгЂ‚'
+msg_town_merge_debt_warning: '&cи­¦е‘ЉпјљеџЋй•‡%sз›®е‰Ќж­ЈиґџеЂєпјЊењЁжЋҐеЏ—еђЋеЂєеЉЎд№џе°†дјљз»§ж‰їгЂ‚'
+msg_town_merge_cost_breakdown: '&bиґ№з”Ёж�Ћз»†пјљеџєзЎЂиґ№з”Ёпјљ%sпјЊеџЋй•‡еЊєеќ—иґ№з”Ёпјљ%sпјЊз ґдє§иЉ±иґ№пјљ%sпјЊеЉ ж€ђеЊєеќ—иґ№з”Ёпјљ%s'
+msg_town_merge_failed: '&cеђ€е№¶е¤±иґҐгЂ‚'
+msg_town_merge_cancelled: '&cеђ€е№¶е·ІеЏ–ж¶€гЂ‚'
+msg_town_merge_success: '&bеџЋй•‡%sпј€з”±%sж‹Ґжњ‰пј‰е·Іж€ђеЉџењ°дёЋеџЋй•‡%sеђ€е№¶гЂ‚'
+#Reasons for withdrawing/depositing for the bankhistory book.
+msg_town_merge_cost_withdraw: 'еџЋй•‡еђ€е№¶й‡‘йўќ'
+msg_town_merge_transaction_reason: 'еџЋй•‡еђ€е№¶'
+towny_prices_town_merge: '&e[Merging] &2еџєзЎЂд»·ж јпјљ&a%s &8| &2жЇЏеќ—ењџењ°д»·ж јпјљ&a%s&2'
+#Added in 0.101
+msg_err_nation_not_allied_with: '&cдЅ зљ„е›Ѕе®¶жњЄдёЋ%sз»“з›џгЂ‚'
+msg_err_nation_not_enemies_with: '&cдЅ зљ„е›Ѕе®¶дёЌж�Ї%sзљ„ж•ЊдєєгЂ‚'
+msg_err_nation_already_enemies_with: '&cдЅ зљ„е›Ѕе®¶е·ІдёЋ%sж�Їж•ЊдєєгЂ‚'
+msg_err_ally_already_requested: '&cдЅ е·Із»Џеђ‘%sеЏ‘е‡єиї‡дє†з»“з›џй‚ЂиЇ·гЂ‚'
+msg_err_nation_not_allied_with_2: '&c%sжњЄдёЋ%sз»“з›џгЂ‚'
+msg_err_nation_not_enemies_with_2: '&c%sе’Њ%sдёЌж�Їж•ЊдєєгЂ‚'
+msg_err_nation_already_allied_with_2: '&c%sе·Із»ЏдёЋ%sз»“з›џдє†гЂ‚'
+msg_err_nation_already_enemies_with_2: '&c%sе·ІдёЋ%sж�Їж•ЊдєєгЂ‚'
+msg_ta_allies_enemies_updated: '&bз›џеЏ‹/ж•Њдєєж›ґж–°дёє%sгЂ‚'
+#Added in 0.102
+towny_map_detailed_information: '&2з‚№е‡»жџҐзњ‹ењџењ°иЇ¦з»†дїЎжЃЇгЂ‚'
+msg_err_nation_capital_too_many_residents: '&cеЅ“е‰Ќй¦–йѓЅе±…ж°‘иї‡е¤љпјЊж— жі•иїЃи‡і%sгЂ‚'
+msg_deleting_nation_will_result_in_losing_residents: '&cи­¦е‘Љпјље€ й™¤дЅ зљ„е›Ѕе®¶е°†дјљеЇји‡ґдЅ зљ„еџЋй•‡и¶…иї‡е±…ж°‘дёЉй™ђ%dпјЊеЇји‡ґз§»й™¤%dеђЌе±…ж°‘гЂ‚'
+#Added in 0.103
+msg_command_blocked_inside_towns: '&cдЅ дёЌиѓЅењЁеџЋй•‡дё­дЅїз”Ёж­¤е‘Ѕд»¤гЂ‚'
+msg_command_limited: 'дЅ еЏЄиѓЅењЁи‡Єе·±зљ„ењџењ°дё­дЅїз”Ёж­¤е‘Ѕд»¤гЂ‚'
+#Added in 0.104
+#Don't add a space to the end please
+msg_plot_perm_claimed_at: 'еЈ°ж�ЋдєЋпјљ'
+#Added in 0.105
+msg_wilderness_use_x_in_all_worlds: 'ж‰Ђжњ‰дё–з•Њзљ„й‡Ћењ°е»єи®ѕе·Іи°ѓи‡і%sгЂ‚'
+msg_regenerations_use_x_in_all_worlds: 'ж‰Ђжњ‰дё–з•Њзљ„й‡Ћењ°е›ћжєЇе·Іи°ѓи‡іпјљ%sгЂ‚'
+#Added in 0.106
+msg_command_outsider_blocked: 'дЅ дёЌиѓЅдЅїз”Ёж­¤е‘Ѕд»¤пјЊе› дёєдЅ дёЌж�Ї%sдё­зљ„дёЂе‘�гЂ‚'
+#Added in 0.107
+msg_jailed_for_x_hours: ' %sдёЄе°Џж—¶гЂ‚'
+msg_err_this_jail_has_no_cells: 'иї™еє§з›‘з‹±жІЎжњ‰з‰ўж€їгЂ‚'
+msg_err_no_cell_found_at_this_location: 'ж­¤е¤„жІЎжњ‰ж‰ѕе€°з‰ўж€їгЂ‚'
+msg_jail_cell_set: 'з‰ўж€їе·Іи®ѕе®љгЂ‚'
+msg_jail_cell_removed: 'е·Із§»й™¤з‰ўж€їгЂ‚'
+msg_err_resident_is_already_jailed: '%sе·Із»Џиў«з›‘з¦Ѓдє†'
+msg_err_the_town_does_not_have_that_many_jails: 'еџЋй•‡жІЎжњ‰и¶іе¤џзљ„з‰ўж€їгЂ‚'
+msg_err_that_jail_plot_does_not_have_that_many_cells: 'иї™з‰‡з›‘з‹±ењџењ°жІЎжњ‰й‚Јд№€е¤љзљ„з‰ўж€їгЂ‚'
+msg_primary_jail_set_for_town: 'дЅ зљ„еџЋй•‡зљ„е€ќе§‹з›‘з‹±е·Іи®ѕзЅ®гЂ‚'
+msg_x_has_been_freed_from_x: '%sиў«%sзљ„з›‘з‹±й‡Љж”ѕдє†'
+msg_you_have_been_jailed: 'дЅ иў«е›љз¦Ѓдє†гЂ‚'
+msg_run_to_the_wilderness_or_wait_for_a_jailbreak: 'йЂѓи‡ій‡Ћењ°ж€–з­‰еѕ…еЉ«з‹±гЂ‚'
+msg_err_player_is_not_jailed: 'ж­¤зЋ©е®¶жњЄиў«з›‘з¦ЃгЂ‚'
+msg_you_have_paid_bail: 'дЅ е·Іж”Їд»�дїќй‡Љй‡‘гЂ‚'
+msg_you_have_been_freed_via_jailbreak: 'з›‘з‹±еЏ‘з”џдє†еЉ«з‹±дє‹д»¶пјЊдЅ и‡Єз”±дє†пјЃ'
+msg_you_have_served_your_sentence_and_are_free: 'дЅ е·ІжњЌе®Ње€‘е№¶иў«й‡Љж”ѕгЂ‚'
+msg_x_has_served_their_sentence_and_is_free: '%sе·ІжњЌе®Ње€‘е№¶иў«й‡Љж”ѕгЂ‚'
+msg_you've_been_jailed_for_x_hours: 'дЅ е·Іиў«з›‘з¦Ѓдє†%sе°Џж—¶гЂ‚'
+msg_you_are_being_sent_to_jail: 'дЅ е°†иў«йЂЃе…Ґз›‘з‹±гЂ‚'
+msg_err_you_cannot_remove_the_last_cell: 'ењЁж·»еЉ еЏ¦дёЂдёЄз‰ўж€їд№‹е‰ЌпјЊж‚ЁдёЌиѓЅз§»й™¤ж­¤з›‘з‹±дё­зљ„жњЂеђЋдёЂдёЄз‰ўж€їгЂ‚'
+msg_do_not_log_out_while_waiting_to_be_teleported: 'дј йЂЃи‡із›‘з‹±е‰ЌиЇ·дёЌи¦Ѓз™»е‡єпјЊиї™ж ·еЃљж�Їи‡ґе‘Ѕзљ„гЂ‚'
+jail_plu: 'з›‘з‹±'
+jail_sing: 'з›‘з‹±'
+msg_resident_has_not_played_long_enough_to_be_jailed: '%sжёёзЋ©зљ„ж—¶й—ґе¤Єзџ­пјЊж— жі•иў«з›‘з¦ЃпјЊиЇ·е†Ќз­‰еѕ…%s'
+#Added in 0.108
+msg_town_not_peaceful: '&bеџЋй•‡зљ„е’Ње№іе·Іиў«ж‰“з ґгЂ‚'
+msg_town_already_peaceful: '&bеџЋй•‡е·Іе¤„дєЋе’Ње№ізЉ¶жЂЃгЂ‚'
+msg_town_already_not_peaceful: '&bеџЋй•‡е·ІдёЌе†Ќе’Ње№ігЂ‚'
+msg_town_cant_peaceful: '&bTown couldn''t afford to become a peaceful town. You need to be able to pay %s per day.'
+msg_town_paid_for_neutral_status: '&bдЅ зљ„еџЋй•‡ж”Їд»�дє†%sд»ҐдїќжЊЃдё­з«‹гЂ‚'
+msg_nation_paid_for_neutral_status: '&bдЅ зљ„е›Ѕе®¶ж”Їд»�дє†%sд»ҐдїќжЊЃдё­з«‹гЂ‚'
+your_town_has_been_invited_to_join_nation: 'дЅ зљ„еџЋй•‡иў«й‚ЂиЇ·еЉ е…Ґе›Ѕе®¶пјљ%s'
+#Added in 0.109
+msg_err_no_one_to_purge: '&bжІЎжњ‰дёЌжґ»и·ѓж€ђе‘�еЏЇжё…зђ†гЂ‚'
+msg_purging_will_remove_the_following_residents: '&bиЇ·зЎ®е®љдЅ и¦Ѓжё…зђ†д»Ґдё‹е±…ж°‘пјљ%s'
+msg_purge_complete_x_removed: '&bжё…зђ†е®ЊжЇ•пјЊе·Із§»й™¤%sеђЌе±…ж°‘гЂ‚'
+msg_err_days_must_be_greater_than_0: 'е¤©ж•°еї…йЎ»е¤§дєЋ0гЂ‚'
+msg_err_outlawed_players_no_teleport: '&4дЅ иў«дЅ ж‰ЂењЁзљ„еџЋй•‡е€—дёєиў«ж”ѕйЂђиЂ…дє†пјЃдЅ зЋ°ењЁдёЌиѓЅдј йЂЃдє†гЂ‚'
+msg_err_you_cannot_use_command_while_in_outlaw_town: '&4дЅ дёЌиѓЅењЁжЉЉдЅ е€—дёєиў«ж”ѕйЂђиЂ…зљ„еџЋй•‡й‡ЊдЅїз”Ёж­¤е‘Ѕд»¤гЂ‚'
+#Added in 0.110
+msg_safe_mode: "[Error] е·Ій”Ѓе®ље®‰е…ЁжЁЎејЏпјЃ"
+msg_safe_mode_base: '[Error] Townyе› дє§з”џдє†дёЂдёЄй”™иЇЇиЂЊиў«й”Ѓе®љдєЋе®‰е…ЁжЁЎејЏдё‹пјЃ'
+msg_safe_mode_player: 'е‘ЉиЇ‰з®Ўзђ†е‘�еЋ»жЈЂжџҐжњЌеЉЎе™ЁеђЋеЏ°гЂ‚'
+msg_safe_mode_admin: 'жџҐзњ‹жњЌеЉЎе™ЁеђЋеЏ°д»ҐиЋ·еЏ–иЇ¦з»†дїЎжЃЇгЂ‚'
+msg_err_you_can_only_claim_outposts_in_your_homeblocks_world: 'дЅ еЏЄиѓЅењЁдё­еїѓеЊєеќ—ж‰ЂењЁзљ„дё–з•Њй‡ЊеЈ°ж�Ће‰Ќе“ЁгЂ‚'
+msg_err_not_close_enough_to_your_town_nearest_plot: 'ж— жі•еЈ°ж�Ће‰Ќе“ЁпјљдЅ з¦»дЅ зљ„еџЋй•‡жњЂиї‘и·ќз¦»е¤Єиїњдє†пј€%sдёЄеџЋй•‡еЊєеќ—пј‰пјЊжњЂе¤§и·ќз¦»%sдёЄеџЋй•‡еЊєеќ—гЂ‚'
+msg_err_you_have_moved_your_homeblock_too_recently_wait_x: 'дЅ з§»еЉЁдё­еїѓеЊєеќ—е¤Єйў‘з№Ѓдє†пјЃиЇ·е†Ќз­‰еѕ…%sгЂ‚'
+msg_err_you_cannot_move_your_homeblock_this_far_limit_is_x_you_are_x: 'дЅ дё­еїѓеЊєеќ—з§»еЉЁеѕ—е¤Єиїњдє†пјЊжњЂе¤§и·ќз¦»%sдёЄеџЋй•‡еЊєеќ—пјЊиї™й‡Њз¦»еЋџдё­еїѓеЊєеќ—%sдёЄеџЋй•‡еЊєеќ—гЂ‚'
+msg_err_usingtowny_disabled: 'ж­¤дё–з•Ње·Із¦Ѓз”ЁTownyпјЊдЅїз”Ё/townyworldжќҐејЂеђЇTownyзљ„дЅїз”ЁгЂ‚'
+#Added in 0.111
+msg_plot_group_already_exists_did_you_want_to_transfer: 'иї™дёЄеџЋй•‡еЊєеќ—е·Із»Џж�Ї%sењ°зљ®з»„зљ„дёЂйѓЁе€†дє†пјЊдЅ зЎ®е®љи¦ЃжЉЉе®ѓиЅ¬з§»е€°%sењ°зљ®з»„дё­еђ—пјџ'
+msg_townblock_transferred_from_x_to_x_group: 'еџЋй•‡еЊєеќ—е·Ід»Ћењџењ°з»„%sиЅ¬з§»и‡і%sдё­гЂ‚'
+msg_plotgroup_deleted: 'ењ°зљ®з»„%sе·Іе€ й™¤гЂ‚'
+msg_plotgroup_empty_deleted: 'ењ°зљ®з»„%sжњЄеЊ…еђ«д»»дЅ•еџЋй•‡еЊєеќ—пјЊе·Іи‡ЄеЉЁе€ й™¤гЂ‚'
+plotgroup_plu: 'ењ°зљ®з»„'
+msg_err_this_town_has_no_plot_groups: 'жЊ‡е®љеџЋй•‡жІЎжњ‰ењ°зљ®з»„гЂ‚'
+msg_err_this_plot_is_already_part_of_the_plot_group_x: 'иї™дёЄеџЋй•‡еЊєеќ—е·Із»Џж�Їењ°зљ®з»„%sзљ„дёЂйѓЁе€†дє†гЂ‚'
+map_hover_plot_group: 'ењ°зљ®з»„пјљ '
+map_hover_plot_group_size: ' е¤§е°Џпјљ '
+map_hover_plots: '%sеќ—ењ°зљ®'
+#Added in 0.112
+msg_checking_for_updates: 'жЈЂжџҐж›ґж–°дё­......'
+msg_no_new_updates: 'е·Із»ЏдёєжњЂж–°з‰€жњ¬гЂ‚'
+msg_new_update_available: '&bж–°з‰€жњ¬еЏЇз”Ёпјљ%s | з›®е‰Ќз‰€жњ¬пјљ%s'
+msg_download_here: 'ењЁиї™й‡Њдё‹иЅЅпјљ%s'
+msg_click_to_download: '&bз‚№ж­¤дё‹иЅЅгЂ‚'
+msg_latest_version: '&2Townyз‰€жњ¬пјљ&a%s &2| жњЂж–°з‰€жњ¬пјљ&a%s'
+msg_up_to_date: '&aеЅ“е‰Ќе·Іж�ЇжњЂж–°з‰€жњ¬гЂ‚'
+msg_click_purchase: 'з‚№е‡»иґ­д№°'
+msg_you_must_join_this_town_to_claim_this_plot: 'и¦Ѓиґ­д№°ж­¤ењџењ°пјЊдЅ еї…йЎ»еЉ е…ҐеџЋй•‡%sгЂ‚дЅ жѓіи¦ЃеЉ е…Ґе№¶з»§з»­еђ—пјџ'
+#Added in 0.113
+status_trustedlist: 'е·ІдїЎд»»'
+msg_click_to_edit: '&bз‚№е‡»зј–иѕ‘гЂ‚'
+permission_gui_header: 'Townyжќѓй™ђйќўжќї'
+msg_last_edited: '&7&oдёЉдёЂж¬Ўж›ґж”№дєЋ%sпјЊз”±%sж›ґж”№гЂ‚'
+msg_trusted_added: '&bе·ІењЁж­¤%2$sдё­дїЎд»»%1$sгЂ‚' #Last %s is either town or townblock
+msg_already_trusted: '&b%sе·Іиў«дїЎд»»дєЋж­¤%sгЂ‚'
+msg_trusted_added_2: '&b%sе°†дЅ е€—е…Ґдє†%s%sзљ„дїЎд»»е€—иЎЁдё­гЂ‚' #Last %s is the town name or worldcoord.
+msg_not_trusted: '&b%sжњЄеЏ—ж­¤%sзљ„дїЎд»»гЂ‚'
+msg_trusted_removed: '&b%sдёЌе†ЌеЏ—ж­¤%sзљ„дїЎд»»гЂ‚'
+msg_trusted_removed_2: '&b%sеЏ–ж¶€дє†дЅ ењЁ%s%sзљ„дїЎд»»гЂ‚'
+msg_overrides_removed: '&bеЏ–ж¶€дє†и¦†з›–ењЁ%sдёЉзљ„жќѓй™ђгЂ‚'
+msg_overrides_added: '&bж·»еЉ дє†и¦†з›–ењЁ%sдёЉзљ„й»�и®¤жќѓй™ђгЂ‚'
+msg_no_overrides_set: '&b%sе№¶жњЄењЁ%sдёЉиў«и¦†з›–иї‡и®ѕзЅ®гЂ‚'
+msg_overrides_already_set: '&b%sе·ІењЁ%sдёЉжњ‰и¦†з›–и®ѕзЅ®гЂ‚'
+msg_cache_block_err: '&cдЅ жІЎжњ‰жќѓй™ђењЁиї™й‡Њ%sгЂ‚'
+msg_err_plot_belongs_to_group: '&cиї™з‰‡ењџењ°е±ћдєЋдёЂдёЄењџењ°з»„пјЊиЇ·дЅїз”Ё%sгЂ‚'
+plotgroup_sing: 'ењџењ°з»„'
+msg_err_ally_limit_reached: 'дЅ зљ„з›џеЏ‹е¤Єе¤љдє†пјЊе› ж­¤дЅ ж— жі•жЋҐеЏ—ж–°зљ„й‚ЂиЇ·гЂ‚'
+#Added in 0.114
+msg_err_group_not_found: 'з»„%sжњЄж‰ѕе€°гЂ‚'
+msg_err_expected_command_format: 'иЇ­жі•й”™иЇЇпјЊйў„жњџдј е…Ґ%s'
+msg_err_group_already_has_node: 'з»„%sе·Із»Џжњ‰%sзљ„жќѓй™ђиЉ‚з‚№дє†гЂ‚'
+msg_err_group_doesnt_have_node: 'з»„%sжІЎжњ‰%sзљ„жќѓй™ђиЉ‚з‚№гЂ‚'
+msg_successfully_added_node_to_group: 'ж€ђеЉџе°†%sж·»еЉ иї›%sдё­гЂ‚'
+msg_successfully_removed_node_from_group: 'ж€ђеЉџд»Ћ%sдё­з§»й™¤%sгЂ‚'
+msg_err_there_is_already_a_town_or_nationrank_called_x: 'е·Із»Џжњ‰дёЂдёЄеђЌдёє%sзљ„%sдє†гЂ‚'
+msg_err_there_is_no_town_or_nationrank_called_x: 'жІЎжњ‰дёЂдёЄ%sзљ„еђЌе­—дёє%sгЂ‚'
+msg_successfully_add_rank_to_the_town_or_nation_rank: 'ж€ђеЉџе°†%sж·»еЉ иї›%sдё­гЂ‚'
+msg_successfully_removed_rank_from_the_town_or_nation_rank: 'ж€ђеЉџе°†%sд»Ћ%sдё­з§»й™¤гЂ‚'
+msg_err_group_has_no_nodes: 'з»„%sжІЎжњ‰жќѓй™ђиЉ‚з‚№гЂ‚'
+msg_title_group_permissions: '%sдёЄжќѓй™ђ'
+help_ta_perms_listgroups: 'е€—е‡єеђ„з»„гЂ‚'
+help_ta_perms_group: 'ж�ѕз¤єз»„дё­зљ„жќѓй™ђиЉ‚з‚№'
+help_ta_perms_groupaddpermnode: 'еђ‘з»„дё­еЉ е…Ґдє†дёЂдёЄжќѓй™ђиЉ‚з‚№гЂ‚'
+help_ta_perms_groupremovepermnode: 'д»Ћз»„дё­е€ й™¤дє†дёЂдёЄжќѓй™ђиЉ‚з‚№гЂ‚'
+help_ta_perms_townrankadd: 'еђ‘Townyжќѓй™ђй…ЌзЅ®еЉ е…Ґдє†дёЂдёЄж–°зљ„еџЋй•‡е¤ґиЎ”гЂ‚'
+help_ta_perms_townrankremove: 'д»ЋTownyжќѓй™ђй…ЌзЅ®дё­з§»й™¤дє†дёЂдёЄеџЋй•‡е¤ґиЎ”гЂ‚'
+help_ta_perms_nationrankadd: 'еђ‘Townyжќѓй™ђй…ЌзЅ®еЉ е…Ґдє†дёЂдёЄж–°зљ„е›Ѕе®¶е¤ґиЎ”гЂ‚'
+help_ta_perms_nationrankremove: 'д»ЋTownyжќѓй™ђй…ЌзЅ®дё­з§»й™¤дє†дёЂдёЄе›Ѕе®¶е¤ґиЎ”гЂ‚'
+msg_err_that_resident_doesnt_belong_to_that_nation: 'ж­¤е±…ж°‘дёЌе±ћдєЋй‚ЈдёЄе›Ѕе®¶гЂ‚'
+#Added in 0.115
+msg_comptype_founded: 'е€›е»єж—Ґжњџ'
+msg_err_must_be_greater_than_or_equal_to: 'еї…йЎ»е¤§дєЋз­‰дєЋ%s'
+err_invalid_yaml: 'еЉ иЅЅй”™иЇЇпјљеЉ иЅЅж–‡д»¶%sе¤±иґҐпјЊиЇ·жЈЂжџҐе…¶ymalиЇ­жі•ж�Їеђ¦ж­ЈзЎ®гЂ‚'
+#Added in 0.116
+msg_town_map_color_changed: '&bеџЋй•‡ењЁењ°е›ѕдёЉзљ„йўњи‰Іе·Іж›ґж”№дёє%sгЂ‚'
+#Added in 0.117
+msg_err_this_townblock_doesnt_match_the_groups_type: 'ж— жі•ж·»еЉ еџЋй•‡еЊєеќ—и‡із»„е†…пјЊе› дёєе®ѓдёЌж�Їз±»ећ‹пјљ%s'
+#Added in 0.118
+status_title_nopvp: '&aпј€ж— PVPпј‰'
+#Added in 0.119
+msg_err_resident_cannot_be_jailed_because_they_are_outlawed_there: 'дЅ дёЌиѓЅз›‘з¦ЃдЅ зљ„е±…ж°‘пјЊе› дёєе…¶з›®е‰Ќе¤„дєЋдёЂдёЄиў«е®Јеёѓдёєиў«ж”ѕйЂђиЂ…зљ„ењ°ж–№гЂ‚'
+msg_err_resident_cannot_be_jailed_because_they_are_enemied_there: 'дЅ дёЌиѓЅз›‘з¦ЃдЅ зљ„е±…ж°‘пјЊе› дёєе…¶з›®е‰Ќе¤„дєЋдёЂдёЄиў«зњ‹дЅњж•Њдєєзљ„ењ°ж–№гЂ‚'
+#Added in 0.120
+msg_resident_prompt: 'ењЁиЃЉе¤©ж Џй‡Њиѕ“е…ҐзЋ©е®¶еђЌпјЊж€–иѕ“е…ҐqйЂЂе‡єгЂ‚30з§’е†…дёЌиѕ“е…Ґе°†и‡ЄеЉЁеЏ–ж¶€гЂ‚'
+msg_prompt_cancel: 'иЇ·ж±‚е·ІеЏ–ж¶€ж€–и¶…ж—¶гЂ‚'
+#Added in 0.121
+status_title_primary_colour: '&6' #Used to colour the majority of the title bar.
+status_title_secondary_colour: '&e' #Used to colour the words in the title bar.
+status_format_list_1: '&2' #First colour applied to status screen lists, ex: on /res, the friend list's Friends section.
+status_format_list_2: '&a' #Second colour applied to status screen lists, ex: on /res, the friend list's [1] section.
+status_format_list_3: '&f' #Third colour applied to status screen lists, ex: on /res, the friend list's list of friends' names section.
+status_format_key_value_key: '&2' #Colour applied to a status screen element which is just a line of text, or the key in a key/value element.
+status_format_key_value_value: '&a' #Colour applied to the value in a status screen element which has two parts, ex: Registered: SomeDate. (SomeDate is the value.)
+status_format_bracket_element: '&b' #Colour applied to a status element within a bracket, ex: [Bonus: #].
+status_format_hover_key: '&a' #Colour applied to a status screen element which is a hover-able key, ex: [Rank List]
+status_format_hover_bracket_colour: '&7' #Colour applied to the brackets of a hover-able status screen element.
+status_format_key_important: '&c' #Colour applied to an important status screen value, ex: (BANKRUPT), Ruined town reclaim lines, taxes/upkeep costs.
+status_splitter: ' &7| ' #Used in status screens where a splitter is used between values.
+status_home_element: ' &7[дё­еїѓеЊєеќ—пјљ%s]'
+status_about: "About:"
+status_registered: 'жіЁе†ЊдєЋпјљ'
+status_lastonline: 'жњЂеђЋењЁзєїж—¶й—ґпјљ'
+status_fractions: '%s/%s'
+status_rank_list: 'е¤ґиЎ”е€—иЎЁ'
+status_hover_click_for_more: 'з‚№е‡»жџҐзњ‹ж›ґе¤љдїЎжЃЇгЂ‚'
+status_jailed: 'з›‘з¦ЃдєЋпјљ'
+status_bad_yes: '&cж�Ї'
+status_good_no: '&aеђ¦'
+status_resident_tax_title: '%sзљ„зЁЋ'
+help_menu_command: '<blue>'
+help_menu_subcommand: '<aqua>'
+help_menu_explanation: '<gray>'
+help_menu_requirement: '<red>'
+#Added in 0.122
+msg_warn_the_following_towns_will_be_removed_from_the_merged_nation: 'еџЋй•‡ %s дјље› е›Ѕе®¶еђ€е№¶еђЋз¦»й¦–йѓЅе¤ЄиїњиЂЊи„±з¦»е›Ѕе®¶гЂ‚'
+#Added in 0.123
+msg_err_invalid_townyworld: "\"%s\"дёЌж�ЇдёЂдёЄжњ‰ж•€зљ„дё–з•ЊгЂ‚"
+msg_err_enter_world_name_first: 'иЇ·е…€иѕ“е…Ґдё–з•ЊеђЌгЂ‚'
+msg_wilderness_use_set_to: 'ењЁ%2$sдё­зљ„й‡Ћењ°дЅїз”Ёе·Іи®ѕзЅ®дёє%1$sгЂ‚'
+#Added in 0.124
+msg_err_invalid_response: 'ж— ж•€зљ„е›ћеє”пјЃиѕ“е…ҐqйЂЂе‡єж€–иї”е›ће€°дёЉдёЂдёЄй—®йў�гЂ‚'
+msg_setup_full_guide_link: '&bе®Њж•ґзљ„е®‰иЈ…жЊ‡еЌ—иЇ·з‚№е‡»ж­¤е¤„гЂ‚'
+msg_setup_wildernessuse: 'ж‚Ёжѓіи¦Ѓе…Ѓи®ёй‡Ћењ°е»єи®ѕеђ—пјџиї™е°†е…Ѓи®ёзЋ©е®¶ењЁй‡Ћењ°дё­ж”ѕзЅ®ж€–з ґеќЏж–№еќ—гЂ‚'
+msg_setup_revertunclaim: 'дЅ жѓіи®©жњЄеЈ°ж�Ћзљ„еЊєеџџе›ћжєЇеђ—пјџиї™е°†дЅїжњЄеЈ°ж�Ћзљ„еџЋй•‡еЊєеќ—зј“ж…ўжЃўе¤Ќдёєе€ќе§‹зЉ¶жЂЃгЂ‚'
+msg_setup_town_block_ratio: 'дЅ жѓіе°†дЅ зљ„еџЋй•‡еЊєеќ—жЇ”зЋ‡и®ѕзЅ®дёєе¤ље°‘пјџй»�и®¤жЇЏдёЄе±…ж°‘8дёЄеџЋй•‡еЊєеќ—гЂ‚иѕѓй«�зљ„ж•°е­—е°†дЅїеџЋй•‡иѓЅе¤џдёєе…¶жЇЏдёЄе±…ж°‘иЋ·еѕ—ж›ґе¤љзљ„еџЋй•‡еЊєеќ—дёЉй™ђгЂ‚е°†е…¶и®ѕзЅ®дёє0е°†дЅїз”ЁеџЋй•‡з­‰зє§жќҐдЅњдёєж­¤ж•°еЂјгЂ‚'
+msg_setup_town_cost: 'дЅ жѓіи¦Ѓе°†е€›е»єдёЂдёЄеџЋй•‡зљ„д»·ж ји®ѕзЅ®дёєе¤ље°‘пјџй»�и®¤дёє250гЂ‚'
+msg_setup_nation_cost: 'дЅ жѓіи¦Ѓе°†е€›е»єдёЂдёЄе›Ѕе®¶зљ„д»·ж ји®ѕзЅ®дёєе¤ље°‘пјџй»�и®¤дёє1000гЂ‚'
+msg_setup_townblock_cost: 'дЅ жѓіи¦Ѓе°†еџЋй•‡ж‰©еј дёЂдёЄеџЋй•‡еЊєеќ—пј€й»�и®¤дёєдёЂдёЄеЊєеќ—пј‰зљ„д»·ж ји®ѕзЅ®дёєе¤ље°‘пјџй»�и®¤дёє25гЂ‚'
+msg_setup_success: 'й…ЌзЅ®дї®ж”№ж€ђеЉџгЂ‚'
+#Added in 0.125
+#Player has recently died and respawned and is invulnerable.
+msg_err_player_cannot_be_harmed: '%sе¤„дєЋй‡Ќз”џдїќжЉ¤дё­пјЊж— жі•дј¤е®ігЂ‚'
+#Player was invulnerable after respawning and has lost their invulnerability.
+msg_you_have_lost_your_respawn_protection: 'дЅ е¤±еЋ»дє†дЅ зљ„й‡Ќз”џдїќжЉ¤гЂ‚'
+#Message shown to a player when they are denied the ability to pick up items because they are under respawn protection.
+msg_err_cannot_pickup_respawn_protection: 'дЅ ењЁеЏ—е€°й‡Ќз”џдїќжЉ¤ж—¶дёЌиѓЅж‹ѕиµ·з‰©е“ЃгЂ‚'
+#Added in 0.126
+#Used in the nation screen:
+status_capital: 'й¦–йѓЅпјљ'
+#Used in the resident screen's town hover, to denote when a player joined a town.
+status_joined_town: 'еЉ е…ҐеџЋй•‡ж—¶й—ґпјљ'
+#Used in the town screen's nation hover, to denote when a town joined a nation.
+status_joined_nation: 'еЉ е…Ґе›Ѕе®¶ж—¶й—ґпјљ'
+#Shown in status screen elements where a value is not known.
+status_unknown: 'жњЄзџҐ'
+#Feedback given for the /ta set nationzoneoverride [townname] [size] command.
+msg_nationzone_override_set_to: '%sзљ„е›Ѕеџџиў«и®ѕзЅ®ж€ђдє†%sгЂ‚'
+#Feedback given for the /ta set nationzoneoverride [townname] 0 command.
+msg_nationzone_override_removed: '%sзљ„е›Ѕеџџиў«еЏ–ж¶€дє†гЂ‚'
+#Added in 0.127
+#Used in status screen:
+status_nation_zone_size: 'е›Ѕеџџе¤§е°Џпјљ'
+#Shown when a player adds people to their friends list.
+msg_res_friend_added_to_list: 'е·Іе°†%sеЉ дёєдЅ зљ„еҐЅеЏ‹гЂ‚'
+#Shown when a player removes people from their friends list.
+msg_res_friend_removed_from_list: '%sдёЌе†Ќж�ЇдЅ зљ„еҐЅеЏ‹дє†гЂ‚'
+#Generic resident freed from jail message.
+msg_resident_unjailed: '%sиў«и§Јй™¤з›‘з¦ЃгЂ‚'
+#Shown when an admin uses /ta toggle devmode.
+msg_admin_toggle_devmode: 'ејЂеЏ‘иЂ…жЁЎејЏпјљ%s'
+#Shown when an admin uses /ta toggle debug.
+msg_admin_toggle_debugmode: 'и°ѓиЇ•жЁЎејЏпјљ%s'
+#Shown when an admin uses /ta toggle townwithdraw
+msg_admin_toggle_townwithdraw: 'еџЋй•‡й“¶иЎЊжЏђж¬ѕпјљ%s'
+#Shown when an admin uses /ta toggle nationwithdraw
+msg_admin_toggle_nationwithdraw: 'е›Ѕе®¶й“¶иЎЊжЏђж¬ѕпјљ%s'
+#Shown when claiming a town block for the town.
+msg_process_town_claim: 'еџЋй•‡ењ€ењ°дё­......'
+#Shown when unclaiming a town block for the town.
+msg_process_town_unclaim: 'еџЋй•‡еЏ–ж¶€ењ€ењ°дё­......'
+#Shown when there is nothing to unclaim.
+msg_err_nothing_to_unclaim: 'жІЎжњ‰еЏЇд»ҐеЏ–ж¶€ењ€ењ°зљ„ењ°ж–№гЂ‚'
+#Given as feedback when /ta checkperm is used.
+msg_perm_true: 'жќѓй™ђдёєзњџгЂ‚'
+#Given as feedback when /ta checkperm is used.
+msg_err_perm_false: 'жќѓй™ђдёєеЃ‡гЂ‚'
+#Shown at the bottom of the /towny map
+#First variable is townname or None, 2nd variable is plot owner's name or None.
+status_towny_map_town_line: '&2еџЋй•‡пјљ&a%s &7| &2ењ°дё»пјљ&a%s'
+#Shown on /towny version
+msg_towny_version: '&2Townyз‰€жњ¬пјљ&a%s'
+#Shown to admins and ops when a player has been blocked from logging into the server.
+msg_admin_blocked_login: '&2жњ‰зЋ©е®¶иЇ•е›ѕд»ЋIPпјљ&c%s&2дЅїз”ЁзЋ©е®¶еђЌ%sз™»еЅ•пјЊиї™еЏЇиѓЅдјљз ґеќЏжњЌеЉЎе™Ёзљ„з»ЏжµЋзі»з»џгЂ‚ ж­¤ж¬Ўз™»еЅ•е·Іиў«Townyй�»ж­ўгЂ‚е»єи®®е°Ѓз¦Ѓж­¤IPпјЃ'
+#Shown during resident purge
+msg_scanning_for_old_residents: 'еЇ»ж‰ѕж—§е±…ж°‘дё­......'
+#Shown during resident purge
+msg_deleting_resident: 'ж­ЈењЁе€ й™¤е±…ж°‘%sгЂ‚'
+#Shown during resident purge
+msg_purge_complete: 'жё…зђ†е®Њж€ђпјЊе…±е€ й™¤дє†%sдёЄе±…ж°‘гЂ‚'
+#Message to the Town, shown when a town is given bonus blocks.
+msg_you_have_been_given_bonus_blocks: 'дЅ иў«з»™дє€дє†%sдёЄйўќе¤–зљ„еџЋй•‡еЊєеќ—дёЉй™ђгЂ‚'
+#Message shown when a town cannot purchase any more bonus blocks.
+msg_err_you_cannot_purchase_any_more_bonus_blocks: 'дЅ еџЋй•‡зљ„йўќе¤–еџЋй•‡еЊєеќ—дёЉй™ђе·Іиѕѕе€°жњЂе¤§еЂјпјЊдёЌиѓЅе†Ќиґ­д№°дє†гЂ‚'
+#Added in 0.128
+#Message shown to a capital city which is being denied the ability to toggle peaceful on.
+msg_err_capital_cannot_be_peaceful: 'й¦–йѓЅдёЌиѓЅи°ѓдёєе’Ње№ізЉ¶жЂЃгЂ‚'
+#Message shown as feedback for /t toggle nationzone command.
+msg_changed_nationzone: 'еџЋй•‡зљ„е›ЅеџџзЋ°ењЁж�Ї%s'
+#Error message shown when a town tries to toggle their nationzone which doesn't exist.
+msg_err_your_town_has_no_nationzone_to_toggle: 'дЅ зљ„еџЋй•‡жІЎжњ‰е›ЅеџџеЏЇд»Ґи®ѕзЅ®пјЃ'
+#Added in 0.129
+#Shown in /towny prices, describing what controls nation upkeep.
+towny_prices_nation_upkeep_based_on: '&7е›Ѕе®¶з»ґжЊЃиґ№з”ЁеџєдєЋ&a%s'
+#Shown in /towny prices, describing what controls nation upkeep when it is per town.
+towny_prices_upkeep_num_towns: 'еџЋй•‡ж•°й‡ЏгЂ‚'
+#Shown in /towny prices, describing that controls nation upkeep when it is per resident.
+towny_prices_upkeep_nation_level: 'е›Ѕе®¶з­‰зє§пј€е±…ж°‘ж•°й‡Џпј‰гЂ‚'
+#Added in 0.130
+#Jail causes
+msg_jailed_mayor: 'иў«её‚й•їз›‘з¦ЃгЂ‚'
+#Jail causes
+msg_jailed_outlaw: 'дЅњдёєиў«ж”ѕйЂђиЂ…жќЂж­»гЂ‚'
+#Jail causes
+msg_jailed_war: 'дЅњдёєж€�дї�з›‘з¦ЃгЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_1: 'зњ‹иµ·жќҐдЅ е› дёє%sиЂЊиў«з›‘з¦Ѓдє†гЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_2: 'е•ЉвЂ¦вЂ¦е¤Єзіџзі•дє†пјЊе®ћењЁе¤Єзіџзі•дє†гЂ‚дЅ†ж�ЇдЅ еЏ€дёЌиѓЅе№Ідє›д»Ђд№€вЂ¦вЂ¦дёЌиї‡пјЊиї™й‡Њжњ‰дёЂдє›иў«з›‘з¦Ѓж—¶зљ„е°ЏиґґеЈ«пјЊе®ѓд»¬ж€–и®ёеЏЇд»Ґеё®дЅ гЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_3: 'дЅ е·Із»Џиў«з›‘з¦Ѓ%sе°Џж—¶дє†пјЊжњЌе€‘еђЋдЅ е°†еѕ—е€°и‡Єз”±гЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_4_can: 'дЅ еЏЇд»ҐйЂљиї‡дЅїз”ЁвЂњ/town leaveвЂќз¦»ејЂеџЋй•‡жќҐйЂѓз¦»з›‘з‹±гЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_4_cant: 'з›‘з¦Ѓжњџй—ґдЅ дёЌиѓЅйЂљиї‡з¦»ејЂеџЋй•‡жќҐйЂѓз¦»еџЋй•‡гЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_bail_1: 'дЅ еЏЇд»ҐдЅїз”ЁвЂњ/res jail paybailвЂќзјґзєідїќй‡Љй‡‘жќҐз¦»ејЂз›‘з‹±гЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_bail_2: 'дїќй‡Љиґ№з”Ёдёє%sгЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_5: 'е¦‚жћњдЅ еќљжЊЃйЂѓз¦»е€°дє†еџЋй•‡е¤–зљ„й‡Ћењ°пјЊдЅ е°†иЋ·еѕ—и‡Єз”±гЂ‚'
+#Jail handbook messages
+msg_jailed_handbook_6: 'дЅ†ж�ЇењЁе€°иѕѕй‡Ћењ°д№‹е‰ЌдёЌи¦Ѓж­»дєЎпјЊеђ¦е€™дЅ е°†иў«йЂЃе›ћз›‘з‹±гЂ‚'
+#Jail handbook messages
+msg_jailed_teleport: 'дЅ†е№ёиїђзљ„ж�ЇвЂ¦вЂ¦е¦‚жћњдЅ ж‰‹дё­жњ‰дёЂдє›жњ«еЅ±зЏЌзЏ е’Њзґ«йў‚жћњпјЊдЅ еЏЇд»ҐењЁз›‘з‹±й‡ЊдЅїз”Ёе®ѓд»¬жќҐеё®еЉ©дЅ и¶Љз‹±гЂ‚'
+#Jail handbook messages
+msg_jailed_war_prisoner: 'дЅњдёєж€�дї�пјЊе¦‚жћњдЅ зљ„е›Ѕе®¶ж”»й™·дє†з›‘з‹±пј€HPй™Ќдёє0пј‰ж€–еџЋй•‡йЂЂе‡єдє†ж€�дє‰пјЊдЅ е°†иЋ·еѕ—и‡Єз”±гЂ‚'
+#Jail handbook title
+msg_jailed_title: 'ж‰Ђд»ҐвЂ¦вЂ¦дЅ е°±иї™ж ·иў«з›‘з¦Ѓдє†:('
+#Jail handbook author
+msg_jailed_author: 'Towny JailcoгЂ‚'
+#Added in 0.130
+#Message shown when there are no allies to list in /town allylist.
+msg_error_town_has_no_allies: 'ж­¤еџЋй•‡жІЎжњ‰еђЊз›џгЂ‚'
+#Message shown when there are no enemies to list in /town enemylist.
+msg_error_town_has_no_enemies: 'ж­¤еџЋй•‡жІЎжњ‰ж•ЊдєєгЂ‚'
+#Added in 0.132
+#Message shown in the lines of the baltop books
+msg_baltop_book_format: '%s. %s | %s'
+#Added in 0.133
+#Message shown when a confirmation times out.
+msg_confirmation_timed_out: 'иЇ·ж±‚зЎ®и®¤е·Іи¶…ж—¶гЂ‚'
+#Added in 0.134
+tc_player_channel_sound_muted: 'йў‘йЃ“е·Ійќ™йџі'
+tc_player_channel_sound_unmuted: 'йў‘йЃ“е·Іи§Јй™¤йќ™йџі'
+#Added in 0.135
+msg_cant_toggle_pvp_outsider_in_plot: 'жњ‰е¤–жќҐиЂ…ењЁдЅ зљ„йў†ењ°дёЉпјЊдЅ дёЌиѓЅе€‡жЌўPVPзЉ¶жЂЃпјЃ'
+#Added in 0.136
+msg_view_on_web: '&7з‚№е‡»д»ҐиЅ¬еђ‘зЅ‘йЎµжџҐзњ‹гЂ‚'
+#Added in 0.137
+#Shown globally when a town merges with another town.
+town1_has_merged_with_town2: '&6еџЋй•‡%sеђЊж„ЏдёЋдё»еџЋй•‡%sеђ€е№¶гЂ‚'
+#Shown in the town and nation status screens to inform about neutrality costs.
+status_neutrality_cost: 'дё­з«‹ж€ђжњ¬пјљ'
+#Added in 0.138
+#Line 1 of the givebonus warning.
+msg_ptw_warning_1: 'е¦‚жћњж‚Ёе·Із»Џдёєиї™дє›еџЋй•‡еЊєеќ—ж”Їд»�дє†д»»дЅ•е®ћй™…з”џжґ»иґ№з”ЁпјЊиЇ·дє†и§Јпјљж‚Ёж­ЈењЁзЋ©зљ„жњЌеЉЎе™ЁиїќеЏЌдє† Minecraft EULA е’Њ Towny и®ёеЏЇеЌЏи®®гЂ‚'
+#Line 2 of the givebonus warning.
+msg_ptw_warning_2: 'Townyе›ўй�џд»ЋжњЄж‰“з®—з”Ёзњџй’±иґ­д№°еџЋй•‡еЊєеќ—гЂ‚'
+#Line 3 of the givebonus warning.
+msg_ptw_warning_3: 'е¦‚жћњж‚ЁзЎ®е®ћж”Їд»�дє†зњџж­Јзљ„й’±пјЊж‚Ёеє”иЇҐиЂѓи™‘ењЁдёЂдёЄе°Љй‡ЌTownyе›ўй�џж„їжњ›зљ„TownyжњЌеЉЎе™ЁдёЉзЋ©жёёж€ЏгЂ‚'
+#Message shown when a town invites a player to join, and that town has a nation.
+you_have_been_invited_to_join3: 'ж‚Ёе·Іиў«й‚ЂиЇ·еЉ е…Ґ %s&9 (е›Ѕе®¶: %s&9)'
+#Added in 0.139
+#Message shown when a town cannot afford to unclaim their land because the refund price is negative and charges them money.
+msg_err_your_town_cannot_afford_unclaim: 'дЅ зљ„еџЋй•‡жІЎжњ‰й’±жќҐеЏ–ж¶€иї™еќ—ењџењ°гЂ‚иї™йњЂи¦Ѓ%sзљ„иµ„й‡‘гЂ‚'
+#Message shown when a town pays to unclaim their land because the refund is a negative amount.
+msg_your_town_paid_x_to_unclaim: 'дЅ зљ„еџЋй•‡е·Іж”Їд»� %s жќҐеЏ–ж¶€еЇ№ењџењ°зљ„ж‰Ђжњ‰жќѓгЂ‚'
+#Confirmation message shown when a player will unclaim land that costs money.
+confirmation_unclaiming_costs: 'еЏ–ж¶€иї™з‰‡ењџењ°е°†ж¶€иЂ— %sпјЊдЅ жѓіи¦Ѓз»§з»­еђ—пјџ'
+#Added in 0.140
+#Message shown on first join, making players aware they can change how Towny messages appear using their Client's language setting.
+msg_your_locale: 'Townyж №жЌ®дЅ жњ¬ењ°зљ„иЇ­иЁЂи®ѕзЅ®пј€%sпј‰жќҐзї»иЇ‘ж–‡е­—гЂ‚жіЁж„ЏдёЂдє›зї»иЇ‘еЏЇиѓЅдјљзјєе°‘еЇ№еє”ж–‡жњ¬гЂ‚'
+#Message shown when a player tries to rename their town too quickly.
+msg_you_must_wait_x_seconds_before_renaming_your_town: 'дЅ еї…йЎ»е†Ќз­‰еѕ…%sз§’ж‰ЌиѓЅй‡Ќе‘ЅеђЌдЅ зљ„еџЋй•‡гЂ‚'
+#Added in 1.141
+msg_newday_already_scheduled_soon: 'дёЂдёЄж–°зљ„дёЂе¤©зљ„д»»еЉЎе·Із»Џиў«е®‰жЋ’ењЁд№‹еђЋж‰§иЎЊгЂ‚'
+#Added in 0.142
+#Message shown when a player is toggling neutrality too fast.
+msg_err_cannot_toggle_neutral_x_seconds_remaining: 'дЅ еї…йЎ»з­‰еѕ…%sз§’еђЋж‰ЌеЏЇд»Ґе†Ќж¬Ўи°ѓж•ґдё­з«‹жЂ§гЂ‚'
+#Added in 0.143
+#Message shown when a console sender uses a command meant for in game.
+msg_err_command_not_for_console_use: 'ж­¤жЊ‡д»¤дёЌиѓЅењЁжЋ§е€¶еЏ°дё­дЅїз”ЁгЂ‚'
+#Added in 0.144
+#Message shown when an admin uses /ta town NAME toggle unlimitedclaims.
+msg_town_unlimitedclaims_setting_set_to: 'еџЋй•‡%sе·І%sж— й™ђе€¶ењ€ењ°гЂ‚'
+#Message shown when an admin uses up their claims and is asked if they want to turn on unlimited claiming.
+did_you_want_to_toggle_unlimited_claims: 'дЅ жІЎжњ‰и¶іе¤џзљ„ењ€ењ°йўќеє¦пјЊдЅ жѓіи¦Ѓж‰“ејЂеџЋй•‡%sзљ„ж— й™ђе€¶ењ€ењ°еђ—пјџ'
+#Added in 0.145
+#Message shown when a conquered town tries to leave their nation.
+msg_err_your_conquered_town_cannot_leave_the_nation_yet: 'дЅ дёЌиѓЅз¦»ејЂдЅ зљ„е›Ѕе®¶пјЊдЅ зљ„еџЋй•‡е·Іиў«еЌ йў†'
+msg_err_console_only: 'ж­¤жЊ‡д»¤еЏЄиѓЅењЁжЋ§е€¶еЏ°дЅїз”ЁгЂ‚'
+msg_err_player_only: 'ж­¤жЊ‡д»¤еЏЄиѓЅзЋ©е®¶дЅїз”ЁгЂ‚'
+#Added in 0.146
+#Message shown when a resident toggles bordertitles with /res toggle bordertitles
+msg_border_titles_toggled: 'и·Ёи¶Љиѕ№з•Њж—¶ж ‡йў�дїЎжЃЇж�ѕз¤єзљ„ж�Ї %s'
+#Added in 0.147
+#Message shown confirming that an admin wants to reset their Towny config
+this_will_reset_your_config: 'иї™жќЎжЊ‡д»¤дјље°†дЅ зљ„ config.yml жЃўе¤Ќж€ђе€ќе§‹зЉ¶жЂЃпјЊдЅ зЎ®е®љи¦Ѓиї™д№€еЃљеђ—пјџ'
+#Message shown when an admin is setting a new king or capital and would override the config by doing so
+msg_warn_overriding_server_config: 'иї™ж ·еЃљдјљи¦†з›–жњЌеЉЎе™Ёзљ„еџЋй•‡е±…ж°‘дёЉй™ђй…ЌзЅ®пјЊдЅ зЎ®е®љи¦Ѓз»§з»­еђ—пјџ'
+#Added in 0.148
+#Message shown when invalid outpost spawns are removed using the /ta commands.
+msg_removed_x_invalid_outpost_spawns: 'е€ й™¤дє†%dдёЄж— ж•€зљ„е‰Ќе“Ёе‡єз”џз‚№гЂ‚'
+#Added in 0.149
+#Message shown when a player logs in and their town is bankrupt.
+msg_your_town_is_bankrupt: 'дЅ зљ„еџЋй•‡з ґдє§дє†пјЊдЅїз”Ё /town deposit {amount} е­�е…Ґиµ„й‡‘гЂ‚'
+#Added in 0.150
+#Message shown when a player cannot do something because they have a town.
+msg_err_you_cannot_use_this_command_because_you_are_already_a_member_of_a_town: 'ж‚ЁдёЌиѓЅдЅїз”Ёиї™дёЄе‘Ѕд»¤пјЊе› дёєж‚Ёе·Із»Џж�ЇдёЂдёЄеџЋй•‡зљ„ж€ђе‘�гЂ‚ е¦‚жћњж‚Ёжѓіи¦Ѓз»§з»­пјЊж‚Ёеї…йЎ»е…€дЅїз”Ёе‘Ѕд»¤вЂњ/t leaveвЂќгЂ‚'
+#Message shown when a player tries to spawn while in an town they are outlawed in, when outlaw TPing is a disallowed zone.
+msg_a_town_you_are_outlawed_in: 'дЅ ењЁиї™дёЄеџЋй•‡ж�Їж”ѕйЂђиЂ…гЂ‚'
+#Message shown when TownyRTP could not find any towns to teleport to.
+msg_err_could_not_find_any_towns_to_rtp: 'ж‰ѕдёЌе€°д»»дЅ•ж‹Ґжњ‰еЏЇе‡єе”®ењ°еќ—зљ„ејЂж”ѕгЂЃе…¬ејЂеџЋй•‡жќҐйљЏжњєдј йЂЃгЂ‚'
+#Message showing payment for RTP.
+msg_cost_spawn_rtp: '&bYou иў«ж”¶еЏ–дє†дј йЂЃе€°йљЏжњєзљ„й”Ђе”®еџЋй•‡ењ°зљ®зљ„иґ№з”Ё %sгЂ‚'
+#Message shown to a player when they use the town rtp command.
+msg_you_are_about_to_be_teleported_to_a_plot: 'ж‚ЁеЌіе°†иў«дј йЂЃе€°дёЂеќ—ењЁ %s дё­иў«з¦Ѓж­ўй”Ђе”®зљ„ењ°зљ®пјЊиї™е°†и®©ж‚ЁеЉ е…ҐгЂ‚ еЅ“ж‚Ёе€°иѕѕж—¶пјЊдЅїз”ЁвЂњ/plot claimвЂќжќҐеЈ°з§°ж‚Ёзљ„ењ°зљ®гЂ‚'
+#Shown in TownyRTP when a player joins a town and is prompted to be TPd to some land to buy.
+townyrtp.the_town_has_plots_to_buy_would_you_like_to_tp: "%sй•‡жњ‰дЅ еЏЇд»Ґиґ­д№°зљ„ењ°зљ®пјЊдЅ жѓіи¦Ѓдј йЂЃе€°дЅ зЋ°ењЁеЏЇд»Ґиґ­д№°зљ„ењ°зљ®еђ—пјџ"
+#Shown when you arrive at your destination after opting in to be teleported to a plot to buy.
+townyrtp.you_have_arrived: "дЅ е·Із»Џдј йЂЃе€°дёЂдёЄдЅ еЏЇд»Ґиґ­д№°зљ„ењ°зљ®гЂ‚е¦‚жћњи¦Ѓиґ­д№°пјЊиЇ·дЅїз”ЁвЂњ/plot claimвЂќгЂ‚"
+#Used in the town's status screen to display plots
+status_plot_string: 'ењ°еќ—'
+#Displays a plot type and the amount of townblocks of that type in the town
+status_plot_hover: '%s:'
+#Usage:
+msg_usage: 'з”Ёжі•: %s'
+#Shown in teh bank history books when there are no pages to display
+msg_err_no_pages_to_display: 'ж— еЏЇж�ѕз¤єзљ„йЎµйќўгЂ‚'
+#Added in 0.151
+#Message shown to players trying to spawn to a non-allied/non-member nation when public spawning is not allowed at all.
+msg_err_nation_unaffiliated: 'иї™дёЄе›Ѕе®¶жњЄдёЋдЅ зљ„ж‰ЂењЁе›Ѕз»“з›џгЂ‚'
+#Message shown to players trying to spawn to a non-nation/non-member town when public spawning is not allowed at all.
+msg_err_town_unaffiliated: 'иї™дёЄеџЋй•‡дёЌйљ¶е±ћдєЋдЅ гЂ‚'
+#Added in 0.152
+#Message shown when a player tries to add a jail cell location where one already exists.
+msg_err_this_location_already_has_a_jailcell: 'иї™дёЄдЅЌзЅ®е·Із»Џжњ‰дёЂдёЄз›‘з‹±дє†гЂ‚'
+#Title line of the /plot perm hud.
+msg_perm_hud_title: 'ењџењ°жќѓй™ђ'
+#Seen in /plot perm hud:
+msg_perm_hud_build: 'е»єйЂ : '
+#Seen in /plot perm hud:
+msg_perm_hud_destroy: 'з ґеќЏ: '
+#Seen in /plot perm hud:
+msg_perm_hud_switch: 'дє¤дє’: '
+#Seen in /plot perm hud:
+msg_perm_hud_item_use: 'дЅїз”Ёз‰©е“Ѓ: '
+#Seen in /plot perm hud:
+msg_perm_hud_plot_type: 'з±»ећ‹: '
+#Seen in /plot perm hud:
+msg_perm_hud_pvp: 'PVP: '
+#Seen in /plot perm hud:
+msg_perm_hud_explosions: 'з€†з‚ё: '
+#Seen in /plot perm hud:
+msg_perm_hud_firespread: 'зЃ«з„°и”“е»¶: '
+#Seen in /plot perm hud:
+msg_perm_hud_mobspawns: 'з”џз‰©з”џж€ђ: '
+#Seen in /plot perm hud:
+msg_perm_hud_key: 'еЂј'
+#Seen in /plot perm hud:
+msg_perm_hud_friend: 'еҐЅеЏ‹'
+#Seen in /plot perm hud:
+msg_perm_hud_town: 'еџЋй•‡'
+#Seen in /plot perm hud:
+msg_perm_hud_ally: 'з›џеЏ‹'
+#Seen in /plot perm hud:
+msg_perm_hud_resident: 'е±…ж°‘'
+#Seen in /plot perm hud:
+msg_perm_hud_nation: 'е›Ѕе®¶'
+#Seen in /plot perm hud:
+msg_perm_hud_outsider: 'е¤–дєє'
+#Seen in /plot perm hud:
+msg_perm_hud_plot_name: 'ењ°зљ®: '
+#Added in 0.153
+#Message shown confirming /ta town NAME settownlevel # command.
+msg_town_level_overridden_with: 'еџЋй•‡ %s е·Іе°†е…¶еџЋй•‡зє§е€«и®ѕзЅ®дёє %sгЂ‚'
+#Message shown when unsetting a manual town level.
+msg_town_level_unset: 'еџЋй•‡ %s еЏ–ж¶€дє†е…¶ж‰‹еЉЁи®ѕе®љзљ„еџЋй•‡зє§е€«гЂ‚еЅ“е‰ЌеџЋй•‡зє§е€«дёє %sгЂ‚'
+#Message show when a town is unable to have purchased townblocks, when /ta town NAME giveboughtblocks is used.
+msg_err_town_not_allowed_purchased_blocks: 'ж №жЌ®й…ЌзЅ®и§„е€™пјЊеџЋй•‡ %s ж— жі•иґ­д№°еџЋй•‡еЊєеќ—гЂ‚'
+#Message shown when unsetting all purchased townblocks from a town.
+msg_purchased_blocks_unset: 'еџЋй•‡ %s е·Іе°†д»–д»¬иґ­д№°зљ„еџЋй•‡еЊєеќ—з§»й™¤гЂ‚'
+#Message shown when /ta town name giveboughtblocks # is used.
+msg_purchased_blocks_changed: 'еџЋй•‡ %s иЋ·еѕ—дє† %s дёЄиґ­д№°зљ„еџЋй•‡еЊєеќ—пјЊд»–д»¬з›®е‰Ќжњ‰ %s дёЄиґ­д№°зљ„еџЋй•‡еЊєеќ—гЂ‚'
+#Added in 0.154
+msg_comptype_upkeep: 'з»ґжЉ¤иґ№'
+#Added in 0.155
+#Message shown when toggling town upkeep admin setting
+msg_town_upkeep_setting_set_to: 'еџЋй•‡ %s е·Іе°†е…¶з»ґжЉ¤иґ№и®ѕзЅ®дёє %sгЂ‚'
+#Shown when a player tries to set a plot type but their town has reached the limit, first number is the limit and the string is the type name.
+msg_town_plot_type_limit_reached: 'ж‚Ёзљ„еџЋй•‡зљ„%d%sењ°зљ®е·Іе€°иѕѕдёЉй™ђгЂ‚'
+#Added in 0.156
+msg_spawn_cost_free: 'е…Ќиґ№'
+#Message shown when someone tries to set a plot's type to one already set.
+msg_plot_already_of_type: 'ж­¤ењ°зљ®е·Із»Џж�Ї%sз±»ећ‹гЂ‚'
+msg_town_board_reset: '&bеџЋй•‡йќўжќїе·Іиў«й‡ЌзЅ®гЂ‚'
+msg_town_has_no_jailslots: 'еџЋй•‡з›‘з‹±е·Із»Џж»Ўе‘�гЂ‚'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x_for_x_bail: '%1$sиў«%6$sйЂЃиї›%2$sзљ„%3$sеЏ·з‰ўж€ї%4$sе°Џж—¶пјЊдїќй‡Љйўќдёє%5$sгЂ‚'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x: '%1$sиў«%5$sйЂЃиї›%2$sзљ„%3$sеЏ·з‰ўж€ї%4$sе°Џж—¶гЂ‚'
+msg_you_have_been_jailed_your_bail_is_x: 'дЅ е·Іиў«з›‘з¦ЃпјЊдЅ зљ„дїќй‡Љй‡‘ж�Ї%sгЂ‚'
+msg_err_higher_than_max_allowed_bail_x: 'ж‚Ёи®ѕе®љзљ„дїќй‡Љй‡‘й«�дєЋдёЉй™ђпјЊдёЉй™ђдёє %sгЂ‚'
+msg_err_higher_than_max_allowed_hours_x: 'ж‚Ёи®ѕе®љзљ„е°Џж—¶ж•°й«�дєЋдёЉй™ђпјЊдёЉй™ђдёє %sгЂ‚'
+msg_not_enough_money_in_bank_to_jail_x_fee_is_x: 'еџЋй•‡й“¶иЎЊжІЎжњ‰и¶іе¤џзљ„й’±жќҐз›‘з¦Ѓ %sпјЊиґ№з”Ёж�Ї %sгЂ‚'
+msg_you_were_released_as_town_ran_out_of_slots: 'з›‘з¦ЃдЅ зљ„дєєй‡Љж”ѕдє†дЅ жќҐи…ѕе‡єз©єй—ґгЂ‚'
+msg_x_has_been_released_as_jail_slots_ran_out: '%s е·Іиў«й‡Љж”ѕд»ҐдѕїдёєеЏ¦дёЂдёЄе›љзЉЇи…ѕе‡єз©єй—ґгЂ‚'
+msg_you_were_released_as_town_ran_out_of_upkeep_funds: 'дЅ е·Із»Џиў«й‡Љж”ѕпјЊе› дёєдЅ зљ„з›‘з¦ЃиЂ…дёЌе†ЌиѓЅе¤џж”Їд»�еѕ—иµ·е…іжЉјдЅ зљ„иґ№з”ЁгЂ‚'
+msg_x_has_been_released_ran_out_of_upkeep_funds: '%s е› дёєеџЋй•‡й“¶иЎЊзјєд№Џиµ„й‡‘иЂЊиў«й‡Љж”ѕгЂ‚'
+msg_x_has_been_withdrawn_for_upkeep_of_prisoner_x: 'еџЋй•‡й“¶иЎЊж”Їе‡єдє† %s д»Ґж”Їд»�е›љзЉЇ%sзљ„з»ґжЉ¤иґ№гЂ‚'
+msg_x_has_been_withdrawn_for_jailing_of_prisoner_x: 'еџЋй•‡й“¶иЎЊж”Їе‡єдє† %s д»Ґж”Їд»�з›‘з¦Ѓ%sзљ„иЉ±иґ№гЂ‚'
+#Message shown in the confirmation for /ta resetbanks {amount}.
+confirmation_are_you_sure_you_want_to_reset_all_banks: 'ж‚ЁзЎ®е®љи¦Ѓе°†ж‰Ђжњ‰еџЋй•‡е’Ње›Ѕе®¶зљ„й“¶иЎЊй‡ЌзЅ®дёє %s еђ—пјџ'
+#Message shown when a nation cannot add a town because of the max-residents-limit.
+msg_err_cannot_add_nation_over_resident_limit: '&cдЅ зљ„е›Ѕе®¶е†…зљ„е±…ж°‘е·Іж»ЎпјЊдёЉй™ђдёє: %sпјЊе› ж­¤ж— жі•ж·»еЉ %sгЂ‚'
+#Message shown to a town when they cannot join a nation because of the max-residents-limit.
+msg_err_cannot_join_nation_over_resident_limit: '&cдЅ дёЌиѓЅеЉ е…Ґиї™дёЄе›Ѕе®¶пјЊе› дёєиї™ж ·е°†дЅїе®ѓи¶…иї‡е›Ѕе®¶е±…ж°‘дєєж•°й™ђе€¶ %sгЂ‚'
+#Message shown to a town because the nation has hit their max-towns-limit.
+msg_err_cannot_join_nation_over_town_limit: '&cдЅ дёЌиѓЅеЉ е…Ґиї™дёЄе›Ѕе®¶пјЊе› дёєе®ѓе·Із»Џиѕѕе€°дє†жЇЏдёЄе›Ѕе®¶е…Ѓи®ёзљ„жњЂе¤§еџЋй•‡ж•°з›®пјљ %sгЂ‚'
+#Message shown confirming /tw set usedefaults
+confirmation_are_you_sure_you_want_to_reset_this_worlds_settings: 'ж‚ЁзЎ®е®љдЅ жѓіе°†иї™дёЄдё–з•Њзљ„ж‰Ђжњ‰и®ѕзЅ®й‡ЌзЅ®дёєй…ЌзЅ®ж–‡д»¶дё­ж‰Ђи®ѕе®љзљ„й‚Јж ·еђ—пјџ'
+#Part of the /town plots output.
+msg_town_plots_title: ' еџЋй•‡ењ°зљ®'
+#Part of the /town plots output.
+msg_town_plots_town_size: '<dark_green>еџЋй•‡е¤§е°Џпјљ<green>%s/%s'
+#Part of the /town plots output.
+msg_town_plots_town_bought: ' <aqua>[е·Іиґ­д№°пјљ%s/%s]'
+#Part of the /town plots output.
+msg_town_plots_town_bonus: ' <aqua>[еЉ ж€ђпјљ%s]'
+#Part of the /town plots output.
+msg_town_plots_town_nationbonus: ' <aqua>[е›Ѕе®¶еЉ ж€ђпјљ%s]'
+#Part of the /town plots output.
+msg_town_plots_town_owned_land: '<dark_green>еџЋй•‡ж‰Ђжњ‰ењџењ°пјљ<green>%s'
+#Part of the /town plots output.
+msg_town_plots_type_header: '<dark_green>з±»ећ‹пјљ<green>зЋ©е®¶ж‹Ґжњ‰ <gray>/<aqua>е‡єе”® <gray>/ <yellow>е…±и®Ў'
+#Part of the /town plots output.
+msg_town_plots_type_header_revenue: ' <gray>/ <dark_green>жЇЏж—Ґж”¶е…Ґ'
+#Part of the /town plots output.
+msg_town_plots_type_line: '<dark_green>%sпјљ<green>%s <gray>/ <aqua>%s <gray>/ <yellow>%s'
+#Part of the /town plots output.
+msg_town_plots_type_line_revenue: ' <gray>/ <dark_green>%s'
+#Message giving confirmation warning for trusttown
+confirmation_msg_trusttown_consequences: 'ж‚ЁеЌіе°†з»™дє€ж•ґдёЄеџЋй•‡е…ЁйѓЁзљ„йў†ењ°жќѓй™ђгЂ‚иї™ж„Џе‘ізќЂиЇҐй•‡зљ„её‚й•їе°†иѓЅе¤џйЂљиї‡ж·»еЉ е±…ж°‘е†іе®љи°ЃеЏЇд»ҐењЁдЅ зљ„еџЋй•‡е»єйЂ е’Њз ґеќЏгЂ‚е¦‚жћњиї™дёЄеџЋй•‡ејЂж”ѕпјЊд»»дЅ•дєєйѓЅеЏЇд»ҐеЉ е…Ґе№¶иЋ·еѕ—дЅ зљ„еџЋй•‡зљ„е…ЁйѓЁжќѓй™ђгЂ‚ ж‚ЁзЎ®е®љи¦ЃдїЎд»»жќҐи‡Єиї™дёЄеџЋй•‡ж‰Ђжњ‰зљ„пј€еЊ…ж‹¬жњЄжќҐзљ„пј‰е±…ж°‘еђ—пјџ'
+#Message shown when a player uses a command that is blocked because their location has an active war.
+msg_command_war_blocked: 'дЅ дёЌиѓЅдЅїз”Ёж­¤е‘Ѕд»¤пјЊе› дёєдЅ зљ„еџЋй•‡е¤„дєЋж€�дє‰зЉ¶жЂЃгЂ‚'
+#Message shown when a player tries to unclaim land but cannot because an outsider is there (and the config doesn't allow this.)
+msg_cant_unclaim_outsider_in_town: 'иї™дёЄеџЋй•‡еЊєеќ—жњ‰дёЂдёЄе¤–жќҐиЂ…пјЊе› ж­¤дЅ дёЌиѓЅе€ й™¤иї™дёЄеЊєеќ—пјЃ'
+#Message shown when a player is making a town too soon after deleting one.
+msg_err_cannot_create_new_town_x_seconds_remaining: 'дЅ дёЌиѓЅе€›е»єж–°зљ„еџЋй•‡пјЊе†·еЌґж—¶й—ґиї�е‰©дё‹ %s з§’гЂ‚'
+#Message shown when a player is claiming land too soon after unclaiming it.
+msg_err_cannot_claim_townblock_x_seconds_remaining: 'дЅ дёЌиѓЅе®Јз§°иї™дёЄеџЋй•‡еЊєеќ—: %sпјЊе†·еЌґж—¶й—ґ %s з§’гЂ‚'
+#Messages shown when an admin uses /ta set founder {townname} {foundername}
+msg_founder_set: 'еџЋй•‡ %s е·Іе°†е»єз«‹иЂ…и®ѕзЅ®дёє %sгЂ‚'
+#Message shown when toggling town allowed to war admin setting
+msg_town_allowedtowar_setting_set_to: 'еџЋй•‡ %s е·Іе°†е…Ѓи®ёж€�дє‰и®ѕзЅ®дёє %sгЂ‚'
+#Message shown to confirm that a player wants to unclaim all of their land, besides the homeblock, seen with /t unclaim all.
+confirmation_did_you_want_to_unclaim_all: 'дЅ зЎ®е®љдЅ жѓіи¦Ѓе€ й™¤дЅ зљ„ж‰Ђжњ‰ењџењ°еђ—пјџ(дЅ зљ„дё­еїѓеЊєеќ—е°†дёЌдјљиў«е€ й™¤гЂ‚)'
+#Message shown after a player unclaims all their land.
+msg_you_have_unclaimed_everything_but_your_homeblock: "дЅ е·Із»Џе€ й™¤дє†й™¤дё­еїѓеЊєеќ—е¤–зљ„ж‰Ђжњ‰йў†ењ°гЂ‚и¦Ѓе€ й™¤дЅ зљ„дё­еїѓеЊєеќ—пјЊдЅ еї…йЎ»е…€дЅїз”Ё '/t set homeblock' и®ѕзЅ®дёЂдёЄж–°зљ„дё­еїѓеЊєеќ—гЂ‚"
+msg_warn_are_you_sure_you_want_to_transfer_nation_ownership: "<red>ж‚ЁзЎ®е®љи¦Ѓе°†е›Ѕе®¶ж‰Ђжњ‰жќѓиЅ¬з§»з»™%sеђ—пјџж­¤ж“ЌдЅњж�ЇдёЌеЏЇйЂ†зљ„пјЃ"
+msg_warn_town_already_capital: "<red>еџЋй•‡ %s е·Із»Џж�Їе›Ѕе®¶й¦–йѓЅгЂ‚"
+msg_min_adjacent_blocks: 'ж‚Ёеї…йЎ»и‡іе°‘жњ‰ %s дёЄй‚»жЋҐзљ„еџЋй•‡еЊєеќ—гЂ‚иї™й‡ЊеЏЄжњ‰ %s дёЄгЂ‚'
+#Shown when a player with /plot evict permissions uses /plot claim on an owned but not for sale plot, please preserve comma space at the start when translating.
+msg_plot_claim_consider_evict_instead: 'пјЊж€–и®ёдЅ ж­ЈењЁж‰ѕвЂњ/plot evictвЂќпјџ'
+#Shown to a player when Towny does not know of them.
+msg_you_are_unknown: "дЅ е№¶дёЌиў«Townyж‰ЂзџҐгЂ‚"
+#Generic Resident/Town/Nation/Thing is not known to Towny.
+msg_townyobject_unknown: "%sе№¶дёЌиў«Townyж‰ЂзџҐгЂ‚"
+#Shown when a resident is unknown to Towny.
+msg_err_resident_unknown: "%sдёЌж�ЇеЏЇд»Ґиў«иЇ†е€«зљ„е±…ж°‘гЂ‚"
+#Shown when a town is unknown to Towny.
+msg_err_town_unknown: "%sдёЌж�ЇеЏЇд»Ґиў«иЇ†е€«зљ„еџЋй•‡гЂ‚"
+#Shown when a nation is unknown to Towny.
+msg_err_nation_unknown: "%sдёЌж�ЇеЏЇд»Ґиў«иЇ†е€«зљ„е›Ѕе®¶гЂ‚"
+#Shown when a resident doesn't belong to a town.
+msg_err_townyobject_x_has_no_town: "%s дёЌе±ћдєЋд»»дЅ•дёЂдёЄеџЋй•‡."
+#Shown when a town doesn't belong to a nation.
+msg_err_townyobject_x_has_no_nation: "%s дёЌе±ћдєЋд»»дЅ•дёЂдёЄе›Ѕе®¶."
+#Shown to admins when they use /plot claimedat on a plot which has no registration date.
+msg_err_townblock_has_no_claimedat_data: "жІЎжњ‰е…ідєЋиї™дёЄеџЋй•‡еЊєеќ—еЈ°з§°ж—¶й—ґзљ„ж•°жЌ®гЂ‚"
+#Shown when someone cannot afford something, to tell them what it costs.
+msg_err_you_need_x_to_pay: "ж‚ЁйњЂи¦Ѓ %s ж‰ЌиѓЅж”Їд»�гЂ‚"
+#Shown when someone tries to deposit/withdraw 0 amounts.
+msg_err_amount_must_be_greater_than_zero: "ж•°й‡Џеї…йЎ»е¤§дєЋ0гЂ‚"
+#Message shown when taking over claims is disabled on a server.
+msg_err_taking_over_claims_is_not_enabled: "иї™дёЄжњЌеЉЎе™ЁжІЎжњ‰ејЂеђЇиї‡еє¦еЈ°ж�ЋгЂ‚"
+#Messages shown when taking over a claim is not allowed because the town is not overclaimed.
+msg_err_this_townblock_cannot_be_taken_over: "иї™дёЄеџЋй•‡еЊєеќ—дёЌиѓЅиў«жЋҐз®ЎпјЊе®ѓж‰Ђе±ћзљ„еџЋй•‡жІЎжњ‰иї‡еє¦еЈ°ж�ЋгЂ‚"
+#Message shown when taking over a claim would also set the homeblock because the town has no claims.
+msg_err_you_cannot_make_this_your_homeblock: "дЅ дёЌиѓЅеЈ°ж�Ћиї™й‡ЊпјЊиї™дјљдЅїеѕ—иї™дёЄеџЋй•‡еЊєеќ—ж€ђдёєHomeblockпјЊдЅ†иї™ж�ЇдёЌе…Ѓи®ёзљ„гЂ‚"
+#Message shown when taking over a claim is stopped by another plugin.
+msg_err_another_plugin_cancelled_takeover: "еЏ¦е¤–зљ„жЏ’д»¶й�»ж­ўдє†дЅ жЋҐз®Ўиї™еќ—ењџењ°гЂ‚"
+#Confirmation shown when taking over a claim.
+confirmation_you_are_about_to_take_over_a_claim: "ж‚Ёе°†и¦ЃжЋҐз®Ўе±ћдєЋ %s зљ„еЊєеќ—пјЊиґ№з”Ёдёєпјљ %sгЂ‚ж‚Ёжѓіи¦Ѓз»§з»­еђ—пјџ"
+#Warning message shown when a town is beginning to claim close to their limit, and the takeoverclaim feature is active.
+msg_warning_you_are_almost_out_of_townblocks: "и­¦е‘Љ: ж‚Ёе·Із»Џеї«и¦Ѓз”Ёе®Њж‚ЁеЏЇз”Ёзљ„еџЋй•‡еЊєеќ—дёЉй™ђдє†гЂ‚ е¦‚жћњдЅ е¤±еЋ»дє†дёЂдёЄе±…ж°‘пјЊдЅ зљ„еџЋй•‡еЊєеќ—е°±жњ‰еЏЇиѓЅиў«е…¶д»–еџЋй•‡еЃ·иµ°гЂ‚"
+#Warning message shown on login when a town is overclaimed and at risk of falling victim to the takeoverclaim feature.
+msg_warning_your_town_is_overclaimed: "и­¦е‘Љ: ж‚Ёзљ„еџЋй•‡еЊєеќ—ж•°й‡Џи¶…е‡єдёЉй™ђгЂ‚еЅ“дЅ жњ‰е¤Єе¤љзљ„еџЋй•‡еЊєеќ—ж—¶пјЊе…¶д»–еџЋй•‡еЏЇд»ҐжЋҐз®ЎдЅ зљ„еџЋй•‡зљ„ењ°еќ—пјЊиЂѓи™‘е€ й™¤дёЂдє›йў†ењ°гЂ‚"
+#Chunk Notification slug, shown when entering a plot that can be stolen.
+chunk_notification_takeover_available: " <red>[иї‡еє¦ењ€ењ°еЏЇз”Ё]"
+#Message shown when a takeover claim would cut a town into two sections.
+msg_err_you_cannot_over_claim_would_cut_into_two: "дЅ дёЌиѓЅжЋҐз®Ўиї™дёЄеЊєеќ—пјЊе› дёєиї™дјљжЉЉеџЋй•‡е€†ж€ђдё¤йѓЁе€†гЂ‚дЅ еї…йЎ»д»Ће…¶д»–зљ„зљ„ж–№еђ‘иї›иЎЊиї‡еє¦еЈ°ж�ЋгЂ‚"
+#Message shown when an admin tries to toggle conquered off of a town that is not conquered.
+msg_err_that_town_is_not_conquered: "%s е·Із»ЏдёЌењЁе¤„дєЋиў«еѕЃжњЌзЉ¶жЂЃгЂ‚"
+#Message shown when a town has its conquered status removed by an admin.
+msg_conquered_status_removed: "%s зљ„иў«еѕЃжњЌзЉ¶жЂЃе·Іиў«еЏ–ж¶€гЂ‚"
+msg_setup_command_folia: "з”±дєЋеЇ№иЇќAPIдёЌе·ҐдЅњпјЊвЂњ/ta installвЂќе‘Ѕд»¤еЅ“е‰ЌењЁFoliaдёЉдёЌиµ·дЅњз”ЁпјЊе› ж­¤иЇ·еЏ‚й�…дё‹йќўзљ„е®‰иЈ…жЊ‡еЌ—гЂ‚"
+msg_perm_gui_folia: "з”±дєЋдє¤дє’APIжІЎжњ‰е·ҐдЅњпјЊдЅїиї™дёЄжЊ‰й’®еЅ“е‰ЌењЁFoliaдёЉдёЌе·ҐдЅњгЂ‚иЇ·дЅїз”Ё /plot perm add <name> жЊ‡д»¤жќҐд»Јж›їе®ѓгЂ‚"
+msg_folia_scoreboard: "з›®е‰ЌдёЌж”ЇжЊЃењЁFoliaзљ„жњЌеЉЎз«ЇдёЉж›ґж”№и®Ўе€†жќїгЂ‚"
+#Message shown when a player cannot unclaim land because at least one plot wouldn't have enough adjacent claims.
+msg_err_cannot_unclaim_not_enough_adjacent_claims: "ж‚ЁдёЌиѓЅеЏ–ж¶€еЈ°ж�Ћиї™дёЄеџЋй•‡еЊєеќ—пјЊе› дёєе®ѓдЅЌдєЋ %sпјЊ%s зљ„й•‡еќ—жІЎжњ‰и¶іе¤џзљ„з›ёй‚»зљ„еЊєеќ—пј€еї…йЎ»жњ‰%sгЂ‚пј‰"
+#Message shown when a nation collects taxes from its towns.
+msg_tax_collected_from_towns: "<aqua>дЅ зљ„е›Ѕе®¶д»Ћи‡Єе·±зљ„еђ„дёЄеџЋй•‡дё­еѕЃж”¶дє†%sзљ„зЁЋгЂ‚"
+#Message shown when a nation pays taxes to its towns.
+msg_tax_paid_to_towns: "<aqua>Your nation paid %s in tax to its towns."
+#Message shown when a town collects taxes from its residents.
+msg_tax_collected_from_residents: "<aqua>дЅ зљ„еџЋй•‡д»Ћи‡Єе·±зљ„еђ„дёЄе±…ж°‘й‚Јй‡ЊеѕЃж”¶дє†%sзљ„зЁЋгЂ‚"
+#Message shown when a town pays taxes to its residents.
+msg_tax_paid_to_residents: "<aqua>Your town paid %s in tax to its residents."
+#Message shown when a town collects taxes from its plottaxes.
+msg_tax_collected_from_plots: "<aqua>дЅ зљ„еџЋй•‡д»Ћеђ„дёЄењџењ°зЁЋдё­ж”¶еЏ–дє†%sзљ„зЁЋгЂ‚"
+#Message shown when a town pays taxes to its plottaxes.
+msg_tax_paid_to_residents_for_plots: "<aqua>Your town paid %s in tax to the land owners via plot taxes."
+#Message shown when a nation collects taxes from its towns that are conquered.
+msg_tax_collected_from_conquered_towns: "<aqua>дЅ зљ„е›Ѕе®¶д»Ћиў«еѕЃжњЌзљ„еђ„дёЄеџЋй•‡дё­еѕЃж”¶дє†%sзљ„зЁЋгЂ‚"
+msg_your_town_was_exempt_from_the_nation_conquered_tax: "<aqua>дЅ зљ„еџЋй•‡иў«е…Ќй™¤дє†е›Ѕе®¶ж‰ЂеѕЃж”¶зљ„зЁЋгЂ‚"
+msg_nation_set_conquered_tax__amount_set: "%sжЉЉеѕЃжњЌзљ„зЁЋйўќи®ѕзЅ®дёє%sгЂ‚"
+msg_err_cannot_set_nation_conquere_tax_amount_higher_than: "дЅ дёЌиѓЅе°†еѕЃжњЌзЁЋйўќи®ѕзЅ®е€°%sд»ҐдёЉгЂ‚"
+msg_err_your_town_is_not_old_enough_to_overclaim: "дЅ зљ„еџЋй•‡е­�ењЁж—¶й—ґе¤Єзџ­пјЊдёЌи¶ід»Ґиї›иЎЊиї‡еє¦еЈ°ж�ЋгЂ‚дЅ еї…йЎ»е†Ќз­‰%sгЂ‚"
+msg_err_your_cannot_overclaim_for_another: "дЅ дёЌеЏЇд»ҐењЁ%sзљ„ж—¶й—ґе†…е†Ќж¬Ўиї›иЎЊи¶…йўќеЈ°ж�ЋгЂ‚"
+#Generic error message for when a world isn't loaded
+msg_err_world_not_loaded: "<red>дё–з•ЊжњЄеЉ иЅЅгЂ‚"
+#Message shown when a mayor toggles a plots taxed status.
+msg_changed_plot_taxed: '&cThis plot has had its taxed status set to %s.'
+status_forsale: "&a(For Sale: %s)"
+msg_town_forsale: "%s has been set for sale at %s."
+msg_town_notforsale: "%s is no longer for sale."
+msg_town_sell_confirmation: "This will put your town up for sale for %s. Are you sure you want to continue?"
+msg_town_buytown_already_mayor: "You are already mayor of %s."
+msg_town_buytown_confirmation: "Buying %s will cost %s and remove you from any town you may currently be a part of. Are you sure you want to continue?"
+msg_town_buytown_not_forsale: "Specified town is not for sale."
+msg_town_buytown_ruined: "Ruined towns cannot be bought."
+msg_resident_about_reset: "&bResident about reset."
+msg_err_invalid_string_about_not_set: "Invalid string, resident about not set."
+msg_set_about: "%s's about was set to %s."
+msg_clear_about: "%s's about was cleared."
+#Message shown when toggling town visibleontoplists setting
+msg_town_visibleontoplist_setting_set_to: 'The town %s has had their visible-on-top-lists setting set to %s.'
+#Message shown when an admin overrides a town founding date via townyadmin.
+townyadmin_town_set_help_0: "Sets the founding date of a town."
+townyadmin_nation_set_help_0: "Sets the founding date of a nation."
+msg_town_registered_set: "Founding date of town: '%s' set to: '%s'."
+msg_nation_registered_set: "Founding date of nation: '%s' set to: '%s'."
+msg_err_time_cannot_be_in_the_future: "Specified time cannot be in the future."
+#The format used for the /t say and /n say commands.
+town_say_format: "%s says: %s"
+msg_err_floodfill_not_in_wild: "You cannot use floodfill while standing in a claimed area."
+msg_err_floodfill_out_of_bounds: "Claim shape must be fully closed off in order to floodfill."
+msg_err_floodfill_cannot_contain_towns: "Flood fill selection must not contain other towns."
+#Message shown when a resident is an NPC and is not allowed to do something.
+msg_err_resident_is_npc: "You cannot do this to an NPC resident."
+#Message shown when a resident doesn't own any land and the /res plotlist command is used.
+msg_err_resident_doesnt_own_any_land: "The resident does not own any land personally."
+msg_unnamed: "Unnamed"

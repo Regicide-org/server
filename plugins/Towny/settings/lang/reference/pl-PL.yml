@@ -1,0 +1,2063 @@
+---
+name: Towny
+language: polish
+author: ElgarL
+website: 'https://townyadvanced.github.io/'
+description: >
+  Language file for all game messages for this Locale.
+#A note on editing this file.
+#----------------------------
+#Do not alter this file if it is in the reference folder.
+#Before you edit this file, read about how Towny handles
+#language files:
+#https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#multi-language.
+#A note on text formatting (how Towny status_title_pvpinserts words.)
+#----------------------------------------------------
+#You MUST retain spacing in the texts.
+#If a text begins or ends with a space, it must remain that
+#way.
+#%s = data to be supplied by the plugin.
+#If you find that a line has multiple %s variables which would
+#be in a different order in your language, you can change them
+#to %1$s, %2$s, %4$s, %3$s to change their order. ie: %4$s
+#will always use the 4th variable, no matter where it is
+#placed on the line.
+#A note on text colouring and formatting.
+#----------------------------------------
+#Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+#Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+#DarkPurple = &9, LightGreen = &a, LightBlue = &b
+#Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+#This language file also supports using MiniMessage for colours
+#and formatting. Learn about MiniMessage formatting here:
+#https://docs.adventure.kyori.net/minimessage/format.html
+default_towny_prefix: '&6[Towny] &b'
+default_town_prefix: '&6[%s] &b'
+default_nation_prefix: '&6[%s] &6'
+unclaimed_plot_name: 'BezpaЕ„ska'
+unclaimed_zone_name: 'Dzicz'
+############################################################
+#+------------------------------------------------------+ #
+#|help messages                                         | #
+#+------------------------------------------------------+ #
+############################################################
+help_0: 'OgГіlna Pomoc Towny'
+help_1: 'WyprГіbuj te polecenia, aby dowiedzieД‡ siД™ wiД™cej o Towny.'
+help_2: 'Chat Miasta'
+help_3: 'Chat Nacji'
+help_4: 'Polecenie pomocy dla MieszkaЕ„ca.'
+help_5: 'Polecenie pomocy do Miast.'
+help_6: 'Polecenie pomocy do Nacji.'
+help_7: 'Polecenie pomocy do DziaЕ‚ek.'
+help_8: 'Polecenie pomocy do Towny.'
+help_9: 'Polecenie pomocy do Townyadmin.'
+towny_help_0: "Holistyczna pomoc do Towny"
+towny_help_1: "WyЕ›wietla mapД™ pobliskich BlokГіw Miasta"
+towny_help_2: "Pokazuje koszty w Ekonomii"
+towny_help_3: "WyЕ›wietla listД™ z rekordami"
+towny_help_4: "WyЕ›wietla czas do nowego dnia"
+towny_help_5: "WyЕ›wietla statystyki"
+towny_help_6: "WyЕ›wietla wersjД™ Towny"
+towny_top_help_0: "Lista najliczebniejszych w podanym zakresie."
+towny_top_help_1: "Lista geograficznie najwiД™kszych w podanym zakresie."
+towny_top_help_2: "Lista najbogatszych w podanym zakresie."
+town_help_1: 'Status twojego miasta'
+town_help_2: '[burmistrz]'
+town_help_3: 'Status wskazanego miasta'
+town_help_4: 'Informacje o mieЕ›cie, na ktГіrego terenie stoisz'
+town_help_5: 'Teleportacja na spawn miasta.'
+town_help_6: 'Nowe miasto z tobД… jako Burmistrz.'
+town_help_7: 'Nowe miasto z wybranym Burmistrzem.'
+town_help_8: 'Lista poleceЕ„ dla BurmistrzГіw.'
+town_help_9: 'NadszedЕ‚ ten dzieЕ„!'
+town_help_10: 'Lista aktywnych mieszkaЕ„cГіw w mieЕ›cie'
+town_help_13: "Zobacz listД™ wszystkich mieszkaЕ„cГіw miasta."
+town_help_14: "Zobacz listД™ rang w mieЕ›cie."
+town_help_15: "Zobacz listД™ wygnaЕ„cГіw miasta."
+town_help_16: "Zobacz listД™ grup dziaЕ‚ek w mieЕ›cie."
+town_help_17: "Zobacz listД™ rodzajГіw dziaЕ‚ek w mieЕ›cie."
+town_help_18: "Przekazuje wiadomoЕ›Д‡ mieszkaЕ„com miasta."
+town_help_19: "Wystaw swoje miasto na sprzedaЕј, umoЕјliwiajД…c innym graczom jego zakup."
+town_help_20: "Ustaw swoje miasto jako nie na sprzedaЕј."
+town_help_21: "Kupuje podane miasto, o ile jest na sprzedaЕј."
+town_help_22: "Przelewa pieniД…dze do banku Twojego miasta."
+town_help_23: "SЕ‚uЕјy do edytowania rang miasta twoich mieszkaЕ„cГіw."
+town_help_24: "Usuwa twoje miasto."
+town_help_25: "SЕ‚uЕјy do edytowania listy wygnaЕ„cГіw twojego miasta."
+town_help_26: "Lista wszystkich miast, zobacz \"/t list ?\", aby dowiedzieД‡ siД™ wiД™cej."
+town_help_27: "Opuszczenie miasta, do ktГіrego naleЕјysz."
+town_help_28: "WypЕ‚aca pieniД…dze z banku twojego miasta."
+town_help_29: "UЕјyj \"/t claim ?\", by uzyskaД‡ pomoc."
+town_help_30: "SЕ‚uЕјy do porzucania ziemi twojego miasta."
+town_help_31: "Dodaje lub usuwa mieszkaЕ„cГіw."
+town_help_32: "UЕјyj \"/t set ?\", by uzyskaД‡ pomoc."
+town_help_33: "UЕјyj \"/t buy ?\", by uzyskaД‡ pomoc."
+town_help_34: "UЕјyj \"/t toggle ?\", by uzyskaД‡ pomoc."
+town_help_35: "UЕјyj \"/t rank ?\", by uzyskaД‡ pomoc."
+town_list_help_0: "WyЕ›wietla podanД… stronД™."
+town_list_help_1: "Lista miast sortowana wedЕ‚ug liczby mieszkaЕ„cГіw, otwarta na podanej stronie."
+town_list_help_2: "Lista otwartych miast, otwarta na podanej stronie."
+town_list_help_3: "Lista miast sortowana wedЕ‚ug stanu konta bankowego, otwarta na podanej stronie."
+town_list_help_4: "Lista miast sortowana wedЕ‚ug kolejnoЕ›ci alfabetycznej, otwarta na podanej stronie."
+town_list_help_5: "Lista miast sortowana wedЕ‚ug iloЕ›ci pozyskanej ziemi, otwarta na podanej stronie."
+town_list_help_6: "Lista miast sortowana wedЕ‚ug liczby mieszkaЕ„cГіw online, otwarta na podanej stronie."
+town_set_help_0: "Ustawia OgЕ‚oszenie twojego miasta."
+town_set_help_1: "Ustawia Blok Macierzysty twojego miasta w miejscu, w ktГіrym stoisz."
+town_set_help_2: "Ustawia miejsce spawnu miasta na terenie Bloku Macierzystego lub miejsce spawnu PlacГіwki, jeЕјeli stoisz na terenie PlacГіwki."
+town_set_help_3: "UЕјyj \"/town set perm ?\", by uzyskaД‡ pomoc."
+town_set_help_4: "Ustawia wysokoЕ›Д‡ podatku na twoje miasto."
+town_set_help_5: "Ustawia osobnД… wysokoЕ›Д‡ podatku za dziaЕ‚kД™ konkretnego rodzaju."
+town_set_help_6: "Ustawia domyЕ›lne ceny zakupu dziaЕ‚ek."
+town_set_help_7: "Ustawia cenД™ za uЕјycie /t spawn."
+town_set_help_8: "Ustawia nazwД™ twojego miasta."
+town_set_help_9: "Ustawia tag twojego miasta."
+town_set_help_10: "Ustawia tytuЕ‚ lub nazwisko twojego mieszkaЕ„ca."
+town_set_help_11: "Ustawia maksymalnД… iloЕ›Д‡ pieniД™dzy, jakД… podatek procentowy moЕјe pobraД‡ od mieszkaЕ„ca."
+town_jail_help_0: "Lista wiД™zieЕ„ w mieЕ›cie."
+town_jail_help_1: "Zamyka gracza w gЕ‚Гіwnym wiД™zieniu."
+town_jail_help_2: "Zamyka gracza w gЕ‚Гіwnym wiД™zieniu, na podanД… iloЕ›Д‡ godzin."
+town_jail_help_3: "Zamyka gracza w gЕ‚Гіwnym wiД™zieniu, na podanД… iloЕ›Д‡ godzin. MoЕјliwe jest wybranie wiД™zienia, do ktГіrego gracz ma trafiД‡."
+town_jail_help_4: "Zamyka gracza w gЕ‚Гіwnym wiД™zieniu, w podanej celi, na podanД… iloЕ›Д‡ godzin. MoЕјliwe jest wybranie wiД™zienia, do ktГіrego gracz ma trafiД‡."
+town_jail_help_5: "Zamyka gracza w gЕ‚Гіwnym wiД™zieniu, na podanД… iloЕ›Д‡ godzin, z kaucjД… w wysokoЕ›ci przez ciebie podanД…."
+town_jail_help_6: "Zamyka gracza w gЕ‚Гіwnym wiД™zieniu, na podanД… iloЕ›Д‡ godzin, z kaucjД… w wysokoЕ›ci przez ciebie podanД…. MoЕјliwe jest wybranie wiД™zienia, do ktГіrego gracz ma trafiД‡."
+town_jail_help_7: "Zamyka gracza w gЕ‚Гіwnym wiД™zieniu, w podanej celi, na podanД… iloЕ›Д‡ godzin, z kaucjД… w wysokoЕ›ci przez ciebie podanД…. MoЕјliwe jest wybranie wiД™zienia, do ktГіrego gracz ma trafiД‡."
+town_jail_help_8: "Wypuszcza gracza z wiД™zienia."
+town_purge_help: "Usuwa z miasta mieszkaЕ„cГіw nie aktywnych od podanej liczby dni."
+town_trust_help_0: "Dodaje mieszkaЕ„ca do grona zaufanych w mieЕ›cie."
+town_trust_help_1: "Usuwa mieszkaЕ„ca z grona zaufanych w mieЕ›cie."
+town_trust_help_2: "Lista zaufanch mieszkaЕ„cГіw w mieЕ›cie."
+town_towntrust_help_0: "Dodaje miasto do grona zaufanych twojego miata."
+town_towntrust_help_1: "Usuwa miasto z grona zaufanych twojego miasta."
+town_towntrust_help_2: "Lista zaufanych miast podanego miasta."
+mayor_help_3: 'Pozyskaj teren nieprzylegajacy do miasta'
+mayor_help_4: 'Pozyskaj dookoЕ‚a w promieniu X'
+mayor_help_5: 'Pozyskuje wszystko w maksymalnym promieniu'
+mayor_help_6: 'Porzuca ten Blok Miasta'
+mayor_help_7: 'PrГіbuje porzuciД‡ teren dookoЕ‚a.'
+mayor_help_8: 'Porzuca wszystkie Bloki Miata.'
+nation_help_1: 'Status twojej nacji'
+nation_help_2: '[nacja]'
+nation_help_3: 'Status wskazanej nacji'
+nation_help_4: 'Lista wszystkich nacji'
+nation_help_5: 'Opuszczenie nacji'
+nation_help_6: 'Utworzenie nowej nacji'
+nation_help_7: 'Lista poleceЕ„ Lidera Nacji'
+nation_help_8: 'Utworzenie nowej nacji'
+nation_help_9: 'Lista aktywnych mieszkaЕ„cГіw nacji'
+nation_help_11: "Lista miast w nacji."
+nation_help_12: "Lista sojuszniczych nacji wybranej nacji."
+nation_help_13: "Lista wrogich nacji wybranej nacji."
+nation_help_14: "DoЕ‚Д…czenie do otwartej nacji."
+nation_help_15: "Przelewa pieniД…dze do banku nacji."
+nation_help_16: "Usuwa twojД… nacjД™."
+nation_help_17: "Dodaje lub usuwa rangi mieszkaЕ„com."
+nation_help_18: "UЕјyj \"/n rank ?\", by uzyskaД‡ pomoc."
+nation_list_help_0: "WyЕ›wietla podanД… stronД™."
+nation_list_help_1: "Lista nacji sortowana wedЕ‚ug liczby mieszkaЕ„cГіw, otwarta na podanej stronie."
+nation_list_help_2: "Lista nacji sortowana wedЕ‚ug liczb miast, otwarta na podanej stronie."
+nation_list_help_3: "Lista otwartych nacji, otwarta na podanej stronie."
+nation_list_help_4: "Lista nacji sortowana wedЕ‚ug stanu konta bankowego, otwarta na podanej stronie."
+nation_list_help_5: "Lista nacji sortowana wedЕ‚ug kolejnoЕ›ci alfabetycznej, otwarta na podanej stronie."
+nation_list_help_6: "Lista nacji sortowana wedЕ‚ug iloЕ›ci pozyskanej ziemi, otwarta na podanej stronie."
+nation_list_help_7: "Lista nacji sortowana wedЕ‚ug liczby mieszkaЕ„cГіw online, otwarta na podanej stronie."
+nation_set_help_0: "Zmienia Lidera nacji."
+nation_set_help_1: "Zmienia miasto-stolicД™ nacji."
+nation_set_help_2: "Ustawia wysokoЕ›Д‡ podatku pЕ‚aconego przez miasta."
+nation_set_help_3: "Ustawia wysokoЕ›Д‡ trybutu pЕ‚aconego przez podbite miasta."
+nation_set_help_4: "Ustawia nazwД™ nacji."
+nation_set_help_5: "Ustawia tytuЕ‚y lub nazwiska twoich mieszkaЕ„cГіw."
+nation_set_help_6: "Ustawia tag nacji."
+nation_set_help_7: "Ustawia treЕ›Д‡ OgЕ‚oszenia nacji."
+nation_set_help_8: "Ustawia miejsce spawnu nacji."
+nation_set_help_9: "Ustawia cenД™ za uЕјycie /n spawn."
+nation_set_help_10: "Ustawia kolor nacji na mapie uЕјywany przez pluginy do map."
+nation_toggle_help_0: "PrzeЕ‚Д…cza stan pokojowy nacji."
+nation_toggle_help_1: "PrzeЕ‚Д…cza status publiczny, pozwalajД…c graczom spoza nacji uЕјyД‡ /n spawn."
+nation_toggle_help_2: "PrzeЕ‚Д…cza status otwarty, pozwalajД…c miastom doЕ‚Д…czyД‡ bez zaproszenia."
+nation_toggle_help_3: "PrzeЕ‚Д…cza obowiД…zywanie podatku procentowego. Miasta bД™dД… pЕ‚aciЕ‚y procent od posiadanych pieniД™dzy, zamiast staЕ‚ej stawki."
+king_help_1: 'Pomoc Lidera Nacji'
+king_help_2: 'Wyznacz swoich sojusznikГіw.'
+king_help_3: 'Wyznacz swoich wrogГіw.'
+king_help_4: "WypЕ‚aca pieniД…dze z banku twojej nacji."
+king_help_5: "Dodaje lub usuwa miasta z twojej nacji."
+king_help_6: "UЕјyj \"/n set ?\", by uzyskaД‡ pomoc."
+king_help_7: "UЕјyj \"/n toggle ?\", by uzyskaД‡ pomoc."
+king_help_8: "ЕЃД…czy jednД… nacjД™ z drugД…."
+king_help_9: "UЕјywane do wysyЕ‚ania wiadomoЕ›ci do wszystkich mieszkaЕ„cГіw nacji."
+res_1: 'TwГіj Status'
+res_2: '[mieszkaniec]'
+res_3: 'Status wskazanego gracza'
+res_4: 'Lista wszystkich aktywnych graczy'
+res_5: 'po pomoc'
+res_6: 'Aktywna osoba'
+res_7: 'DokЕ‚adna nazwa'
+res_8: 'Prosty chЕ‚op ze wsi'
+res_9: "Sprawdza, ile podatkГіw dziennie pЕ‚acisz."
+res_10: "UЕјyj \"/res jail ?\", by uzyskaД‡ pomoc."
+res_11: "UЕјyj \"/res toggle ?\", by uzyskaД‡ pomoc."
+res_12: "UЕјyj \"/res set ?\", by uzyskaД‡ pomoc."
+res_13: "Teleportacja na spawn twojego miasta lub do twojego Е‚ГіЕјka."
+res_toggle_help_0: "PrzeЕ‚Д…cza PVP na twoich dziaЕ‚kach."
+res_toggle_help_1: "PrzeЕ‚Д…cza Podpalanie na twoich dziaЕ‚kach."
+res_toggle_help_2: "PrzeЕ‚Д…cza moby na twoich dziaЕ‚kach."
+res_toggle_help_3: "PrzeЕ‚Д…cza eksplozje na twoich dziaЕ‚kach."
+res_toggle_help_4: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ widzenia granic dziaЕ‚ek."
+res_toggle_help_5: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ ciД…gЕ‚ego widzenia granic dziaЕ‚ek."
+res_toggle_help_6: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ widzenia granic miasta."
+res_toggle_help_7: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ widzenia powiadomieЕ„ o dziaЕ‚ce, na ktГіrД… wkraczasz."
+res_toggle_help_8: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ pozyskiwania terenГіw, po ktГіrych chodzisz."
+res_toggle_help_9: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ widzenia mapy podczas wchodzenia na dziaЕ‚ki."
+res_toggle_help_10: "WyЕ‚Д…cza wszystkie tryby."
+res_toggle_help_11: "Szpiegowanie na kanaЕ‚ach czatu."
+res_toggle_help_12: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ dodawania dziaЕ‚ek do grupy, ktГіrД… utworzyЕ‚eЕ›."
+res_toggle_help_13: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ widzenia tytuЕ‚Гіw podczas wchodzenia na dziaЕ‚ki."
+res_toggle_help_14: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ porzucania terenГіw po ktГіrych chodzisz."
+res_toggle_help_15: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ uЕјywania infotool'a, pomagajД…cego dowiedzieД‡ siД™ o wЕ‚aЕ›ciwoЕ›ciach bloku lub istoty."
+res_toggle_help_16: "PrzeЕ‚Д…cza zdolnoЕ›Д‡ deaktywowania przywilejГіw administratora."
+res_jail_help_0: "WpЕ‚ata kaucji umoЕјliwiajД…cej na wyjЕ›cie z wiД™zienia."
+res_set_help_0: "Ustawia twoje Bio mieszkaЕ„ca"
+res_set_help_1: "Przywraca domyЕ›lne uprawnienia mieszkaЕ„ca na dziaЕ‚ce."
+res_set_help_2: "Ustawia twoje tryby mieszkaЕ„ca."
+mode_1: 'PokaЕј mapД™ co kaЕјdy Blok Miasta'
+mode_2: 'Pozyskiwanie terenu na ktГіrym chodzisz'
+mode_3: 'PrГіba porzucenia terenu podczas chodzenia'
+mode_4: 'DomyЕ›lne pisanie na kanale miasta'
+mode_5: 'DomyЕ›lne pisanie na kanale nacji'
+mode_6: 'MoЕјe postawiД‡ %s we wrogim terytorium, aby oznaczyД‡ strefy wojenne.'
+plot_perms: 'UЕјyj %s zamiast %s do ustawiania uprawnieЕ„ dziaЕ‚ki.'
+plot_perms_1: 'DziaЕ‚ki mieszkaЕ„cГіw nie korzystajД… z uprawnieЕ„ Obcych.'
+res_list: 'MieszkaЕ„cy'
+res_sing: 'Mieszkaniec'
+mayor_sing: 'Burmistrz'
+admin_sing: 'Administrator'
+town_sing: 'Miasto'
+nation_sing: 'Nacja'
+nation_plu: 'Nacje'
+king_sing: 'Lider'
+town_plu: 'Miasta'
+world_plu: 'Ељwiaty'
+world_sing: 'Ељwiat'
+world_help_1: 'Status tego Е›wiata'
+world_help_2: '[Е›wiat]'
+world_help_3: 'Status wskazanego Е›wiata'
+world_help_4: 'Lista wszystkich Е›wiatГіw'
+world_help_5: 'Regeneruj ten chunk'
+world_help_6: 'UЕјyj "/tw toggle ?", by uzyskaД‡ pomoc'
+world_help_7: 'UЕјyj "/tw set ?", by uzyskaД‡ pomoc'
+world_set_help_0: "Ustawia nazwД™ Dziczy dla Е›wiata."
+world_toggle_help_0: "PrzeЕ‚Д…czenie zdolnoЕ›Д‡i miast do pozyskiwania ziemi na tym Е›wiecie."
+world_toggle_help_1: "PrzeЕ‚Д…cza uЕјywanie Towny na tym Е›wiecie."
+world_toggle_help_2: "PrzeЕ‚Д…czenie moЕјliwoЕ›ci odbywanie siД™ wojny na tym Е›wiecie."
+world_toggle_help_3: "WЕ‚Д…cza/WyЕ‚Д…cza PVP lub jego narzucenie na tym Е›wiecie."
+world_toggle_help_4: "PrzeЕ‚Д…czenie Friendly Fire, jeЕ›li Friendly Fire jest wЕ‚Д…czone na tym Е›wiecie."
+world_toggle_help_5: "WЕ‚Д…cza/WyЕ‚Д…cza eksplozje lub ich narzucenie na tym Е›wiecie."
+world_toggle_help_6: "PrzeЕ‚Д…czenie moЕјliwoЕ›ci Podpalania na tym Е›wiecie lub jej narzucenie."
+world_toggle_help_7: "WЕ‚Д…cza/WyЕ‚Д…cza rГіЕјne ustawienia odpowiedzialne za spawn mobГіw na tym Е›wiecie."
+world_toggle_help_8: "WЕ‚Д…cza/WyЕ‚Д…cza przywracanie do stanu naturalnego po porzuceniu na tym Е›wiecie."
+world_toggle_help_9: "WЕ‚Д…cza/WyЕ‚Д…cza naprawianie zniszczeЕ„ po eksplozji na tym Е›wiecie."
+world_toggle_help_10: "WЕ‚Д…cza/WyЕ‚Д…cza usuwanie blokГіw po wyczyszczeniu dziaЕ‚ki na tym Е›wiecie."
+world_toggle_help_11: "WЕ‚Д…cza/WyЕ‚Д…cza usuwanie blokГіw po porzuceniu dziaЕ‚ki na tym Е›wiecie."
+townyadmin_help_1: 'Porzuca ten Blok Miasta'
+townyadmin_help_2: 'PrГіba porzucenia ziemii w twoim otoczeniu.'
+admin_panel_1: "UЕјyj \"/ta set ?\", by uzyskaД‡ pomoc"
+admin_panel_2: 'przeЕ‚adowanie Towny'
+admin_panel_3: 'Wykonaj kod nowego dnia'
+admin_panel_4: "Porzuca tereny wokГіЕ‚ ciebie"
+admin_panel_5: "UЕјyj \"/ta plot ?\", by uzyskaД‡ pomoc"
+admin_panel_6: "Przyznaje graczowi lub miastu dodatniД… lub ujemnД… liczbД™ BlokГіw Miasta"
+admin_panel_7: "UЕјyj \"/ta toggle ?\", by uzyskaД‡ pomoc"
+admin_panel_8: "Polecenia umoЕјliwiajД…ce kontrolД™ tych podmiotГіw"
+admin_panel_9: "Teleportacja na podanД… dziaЕ‚kД™"
+admin_panel_10: "Sprawdza, czy gracza posiada node'a permisji"
+admin_panel_11: "Resetuje config"
+admin_panel_12: "Tworzy kopiД™ zapasowych danych Towny"
+admin_panel_13: "Zrzut bazy danych mysql do flatfile"
+admin_panel_14: "Wymuszonie zapisu lub zaЕ‚adowania bazy danych"
+admin_panel_15: "Wykonuje kod nowej godziny"
+admin_panel_16: "Usuwa nieaktywnych graczy"
+townyadmin_town_help_0: "Tworzy miasto o podanej nazwie i z podanym Burmistrzem."
+townyadmin_town_help_1: "Pokazuje status miasta."
+townyadmin_town_help_2: "Dodaje lub usuwa mieszkaЕ„cГіw z miasta."
+townyadmin_town_help_3: "Zmienia nazwД™ miasta."
+townyadmin_town_help_4: "Usuwa maisto."
+townyadmin_town_help_5: "Teleportuje do miasta."
+townyadmin_town_help_6: "Teleportuje do PlacГіwki miasta."
+townyadmin_town_help_7: "UЕјywa polecenia rank w imieniu podanego miasta."
+townyadmin_town_help_8: "UЕјywa polecenia set w imieniu podanego miasta."
+townyadmin_town_help_9: "UЕјywa polecenia toggle w imieniu podanego miasta."
+townyadmin_town_help_10: "Zmienia metadane miasta."
+townyadmin_town_help_11: "Scala drugie miasto w pierwsze."
+townyadmin_town_help_12: "Scala drugie miasto w pierwsze, ignorujД…c jakiekolwiek reguЕ‚y."
+townyadmin_town_help_13: "Dodaje pieniД…dze do banku miasta."
+townyadmin_town_help_14: "WypЕ‚aca pieniД…dze z banku miasta."
+townyadmin_town_help_15: "Otwiera ksiД…ЕјkД™ z historiД… banku miasta."
+townyadmin_town_help_16: "Modyfikuje listД™ wygnaЕ„cГіw miasta."
+townyadmin_town_help_17: "Usuwa miasto z nacji."
+townyadmin_town_help_18: "Usuwa status podbicia miastu."
+townyadmin_town_toggle_help_0: "PrzeЕ‚Д…cza PVP w mieЕ›cie."
+townyadmin_town_toggle_help_1: "PrzeЕ‚Д…cza NarzuconePVP w mieЕ›cie, uniemoЕјlwiajД…c burmistrzowi przeЕ‚Д…czanie PVP."
+townyadmin_town_toggle_help_2: "PrzeЕ‚Д…cza status publiczny miasta, pozwalajД…c graczom spoza miasta na teleportacjД™."
+townyadmin_town_toggle_help_3: "PrzeЕ‚Д…cza eksplozje w mieЕ›cie."
+townyadmin_town_toggle_help_4: "PrzeЕ‚Д…cza ustawienie Podpalanie w mieЕ›cie."
+townyadmin_town_toggle_help_5: "PrzeЕ‚Д…cza moby w mieЕ›cie."
+townyadmin_town_toggle_help_6: "PrzeЕ‚Д…cza obowiД…zywanie podatku procentowego w mieЕ›cie."
+townyadmin_town_toggle_help_7: "PrzeЕ‚Д…cza status otwartego miasta, pozwalajД…c graczom spoza miasta na doЕ‚Д…czanie bez zaproszenia."
+townyadmin_nation_help_0: "Tworzy nacjД™ o podanej nazwie i z podanД… stolicД…."
+townyadmin_nation_help_1: "Pokazuje status nacji."
+townyadmin_nation_help_2: "Dodaje miasta do nacji."
+townyadmin_nation_help_3: "Usuwa miasta z nacji."
+townyadmin_nation_help_4: "Zmienia nazwД™ nacji."
+townyadmin_nation_help_5: "Usuwa miasto."
+townyadmin_nation_help_6: "Sprawdza odlegЕ‚oЕ›ci pomiД™dzy miastami nacji, by upewniД‡ siД™, Ејe sД… wystarczajД…co blisko stolicy."
+townyadmin_nation_help_7: "Scala drugД… nacjД™ do pierwszej."
+townyadmin_nation_help_8: "Scala drugi narГіd w pierwszy narГіd, ignorujД…c jakiekolwiek reguЕ‚y."
+townyadmin_nation_help_9: "UЕјywa polecenia toggle w imieniu podanej nacji."
+townyadmin_nation_help_10: "UЕјywa polecenia set w imieniu podanej nacji."
+townyadmin_nation_help_11: "Dodaje pieniД…dze na konto bankowe nacji."
+townyadmin_nation_help_12: "Zabiera pieniД…dze z banku nacji."
+townyadmin_nation_help_13: "Otwiera ksiД…ЕјkД™ z historiД… banku nacji."
+townyadmin_nation_help_14: "Przypisuje miastu nacjД™, do ktГіrej naleЕјy."
+townyadmin_nation_help_15: "UЕјywa polecenia rank w imieniu podanej nacji."
+townyadmin_nationrank_help_0: "Dodaje rangi nacji mieszkaЕ„cowi."
+townyadmin_nationrank_help_1: "Usuwa mieszkaЕ„cowi rangД™ nacyjnД…."
+townyadmin_database_help_0: "Wymusza zapis bazy danych."
+townyadmin_database_help_1: "Wymusza zaЕ‚adowanie bazy danych."
+townyadmin_database_help_2: "Usuwa wszystkie tytuЕ‚y i nazwiska z kaЕјdego mieszkaЕ„ca."
+ta_plot_help_0: "Pozyskuje dziaЕ‚kД™ dla gracza."
+ta_plot_help_1: "Pokazuje metadane dziaЕ‚ki, na ktГіrej stoisz."
+ta_plot_help_2: "Ustawia klucz i wartoЕ›Д‡ metadanych dziaЕ‚ki."
+ta_plot_help_3: "Dodaj lub usuЕ„ metadane na podstawie klucza."
+ta_resident_help_0: "Zmienia nazwД™ mieszkaЕ„ca."
+ta_resident_help_1: "Dodaje lub usuwa znajomego."
+ta_resident_help_2: "WyЕ›wietla listД™ znajomych lub jД… czyЕ›ci."
+ta_resident_help_3: "Usuwa gracza z bazy danch."
+ta_toggle_help_0: "WЕ‚Д…cza/WyЕ‚Д…cza zdolnoЕ›Д‡ naruszania Dziczy we wszystkich Е›wiatach."
+ta_toggle_help_1: "WЕ‚Д…cza/WyЕ‚Д…cza regeneracjД™ terenu we wszystkich Е›wiatach."
+ta_toggle_help_2: "WЕ‚Д…cza/WyЕ‚Д…cza devmode, pokazuje dodatkowe informacje graczowi podanemu w config'u."
+ta_toggle_help_3: "WЕ‚Д…cza/WyЕ‚Д…cza devmode, pokazuje dodatkowe informacje w logach."
+ta_toggle_help_4: "WЕ‚Д…cza/WyЕ‚Д…cza zdolnoЕ›Д‡ miast i nacji do wypЕ‚acania pieniД™dzy ze swoich bankГіw."
+ta_toggle_help_5: "Ustawia gracza jako NPC lub czyЕ›ci oznaczenie NPC graczowi."
+ta_set_help_0: "Ustanawia podanego gracza Burmistrzem podanego miasta."
+ta_set_help_1: "Tworzy miasto z nowym NPC'em jako Burmistrzem. Takie miasto nie pЕ‚aci czynszu."
+ta_set_help_2: "Ustawia stolicД™ nacji."
+ta_set_help_3: "Ustawia rozmiar Strefy Nacji."
+ta_set_help_4: "Ustawia tytuЕ‚ mieszkaЕ„ca."
+ta_set_help_5: "Ustawia nazwisko mieszkaЕ„ca."
+ta_set_help_6: "Przypisuje dziaЕ‚kД™ innemu miastu."
+ta_set_help_7: "Ustaw nazwД™ zaЕ‚oЕјyciela miasta."
+ta_set_help_8: "UЕјyj 0 dla rozmiaru, aby usunД…Д‡ nadpisane Strefy Nacji."
+ta_purge_help_0: "Usuwa mieszkaЕ„cГіw, ktГіrzy nie logowali siД™ ponad podanД… liczbД™ dni, opcjonalnie z parametrem \"townless\" wyЕ‚Д…cza graczy naleЕјД…cych do miast, a z nazwД… miasta w parametrze, usuwa jedynie dane nieaktywnych mieszkaЕ„cГіw konkretnego miasta."
+ta_townmeta_help_1: "View the metadata stored on the town you specify."
+ta_townmeta_help_2: "Ustaw klucz i wartoЕ›Д‡ metadanych miasta."
+ta_townmeta_help_3: "Add or remove a metadata by key from the town."
+ta_residentmeta_help_1: "View the metadata stored on the resident you specify."
+ta_residentmeta_help_2: "Set resident metadata key and value."
+ta_residentmeta_help_3: "Add or remove a metadata by key from the resident."
+ta_nationmeta_help_1: "View the metadata stored on the nation you specify."
+ta_nationmeta_help_2: "Set nation metadata key and value."
+ta_nationmeta_help_3: "Add or remove a metadata by key from the nation."
+ta_reload_help_0: "PrzeЕ‚adowuje bazД™ danych."
+ta_reload_help_1: "PrzeЕ‚adowuje config."
+ta_reload_help_2: "PrzeЕ‚adowuje pliki jД™zykowe."
+ta_reload_help_3: "PrzeЕ‚adowuje permisje Towny."
+ta_reload_help_4: "PrzeЕ‚adowuje wszystkie komponenty Towny."
+ta_depositall_help_0: "WpЕ‚aca podanД… kwotД™ do bankГіw wszystkich miast i nacji."
+plot_help_0: "WЕ‚Д…cza HUD z informacjami o dziaЕ‚ce."
+plot_help_1: "Wysiedla dziaЕ‚kД™."
+plot_help_2: "Usuwa bloki z listy z dziaЕ‚ki."
+plot_help_3: "UЕјyj \"/plot set ?\", by uzyskaД‡ pomoc."
+plot_help_4: "UЕјyj \"/plot toggle ?\", by uzyskaД‡ pomoc."
+plot_help_5: "UЕјyj \"/plot group ?\", by uzyskaД‡ pomoc."
+plot_help_6: "Usuwa nadpisywanie uprawnieЕ„ z gracza."
+plot_help_7: "Dodaje nadpisywanie uprawnieЕ„ graczowi."
+plot_help_8: "Otwiera okienko edytora uprawnieЕ„."
+plot_help_9: "Dodaje gracza do grona zaufanych na dziaЕ‚ce."
+plot_help_10: "Usuwa mieszkaЕ„ca z grona zaufanych dziaЕ‚ki."
+plot_group_help_0: "Np.: \"/plot group new EkskluzywneDziaЕ‚ki\""
+plot_group_help_1: "Usuwa dziaЕ‚kД™ z wybranej grupy dziaЕ‚ek."
+plot_group_help_2: "CaЕ‚kowicie usuwa grupД™ dziaЕ‚ek."
+plot_group_help_3: "Zmienia nazwД™ grupy dziaЕ‚ek, na ktГіrej stoisz."
+plot_group_help_4: "Np.: \"/plot group set perm resident on\"."
+plot_group_help_5: "Np.: \"/plot group toggle [pvp/fire/mobs]\""
+plot_group_help_6: "Np.: /plot group forsale 50"
+plot_group_help_7: "Np.: /plot group notforsale"
+plot_group_help_8: "Dodaje lub usuwa gracza do grona zaufanych."
+plot_group_help_9: "Dodaje gracza do grona zaufanych w grupie dziaЕ‚ek."
+plot_group_help_10: "Usuwa gracza z grona zaufanych w grupie dziaЕ‚ek."
+plot_group_help_11: "Otwiera okienko zarzД…dzania uprawnieniami dziaЕ‚ki."
+plot_group_help_12: "Dodaje gracza do okienka zarzД…dzania uprawnieniami dziaЕ‚ki."
+plot_group_help_13: "Usuwa gracza z okienka zarzД…dzania uprawnieniami dziaЕ‚ki."
+plot_toggle_help_0: "PrzeЕ‚Д…cza PVP na dziaЕ‚ce."
+plot_toggle_help_1: "PrzeЕ‚Д…cza eksplozje na dziaЕ‚ce."
+plot_toggle_help_2: "PrzeЕ‚Д…cza Podpalanie na dziaЕ‚ce."
+plot_toggle_help_3: "PrzeЕ‚Д…cza moby na dziaЕ‚ce."
+plot_group_toggle_help_0: "PrzeЕ‚Д…cza PVP w grupie dziaЕ‚ek."
+plot_group_toggle_help_1: "PrzeЕ‚Д…cza eksplozje w grupie dziaЕ‚ek."
+plot_group_toggle_help_2: "PrzeЕ‚Д…cza Podpalanie w grupie dziaЕ‚ek."
+plot_group_toggle_help_3: "PrzeЕ‚Д…cza moby w grupie dziaЕ‚ek."
+plot_set_help_0: "Np.: Gospoda, Dzicz, Plener, Ambasada itd."
+plot_set_help_1: "Ustawia dziaЕ‚kД™ na PlacГіwkД™."
+plot_set_help_2: "Przywraca domyЕ›lny rodzaj dziaЕ‚ki."
+plot_set_help_3: "Ustawia nazwД™ dziaЕ‚ki."
+plot_set_help_4: "PrzeЕ‚Д…cza wszystkie uprawnienia."
+plot_set_help_5: "Ustawia uprawnienia dla klasy lub rodzaju interakcji na wЕ‚Д…czone lub wyЕ‚Д…czone."
+plot_set_help_6: "Ustawia uprawnienie dla klasy lub rodzaju interakcji na wЕ‚Д…czone lub wyЕ‚Д…czone."
+plot_set_help_7: "Przywraca uprawnienia dziaЕ‚ki do uprawnieЕ„ mieszkaЕ„ca lub miasta, do ktГіrego naleЕјy dziaЕ‚ka."
+plot_jailcell_help_0: "Dodaje CelД™ WiД™ziennД… w miejscu, w ktГіrym stoisz."
+plot_jailcell_help_1: "Usuwa CelД™ WiД™ziennД… na ktГіrej stoisz."
+msg_block_claim: 'Pozyskaj ten Blok Miasta'
+msg_block_claim_radius: 'Pozyskuje promieЕ„ dziaЕ‚ek wokГіЕ‚ ciebie.'
+msg_plot_nfs: 'Anuluj sprzedaЕј dziaЕ‚ki'
+msg_plot_nfs_radius: 'Usuwa ze sprzedaЕјy podany promieЕ„ dziaЕ‚ek'
+msg_nfs_abr: '&e"fs" i "nfs" sД… skrГіtami dla "forsale" i "notforsale".'
+msg_plot_fs: 'Wystaw tД™ dziaЕ‚kД™ na sprzedaЕј.'
+msg_plot_fs_radius: 'Wystawia podany promieЕ„ dziaЕ‚ek na sprzedaЕј.'
+############################################################
+#+------------------------------------------------------+ #
+#|   Messages                                           | #
+#+------------------------------------------------------+ #
+############################################################
+msg_buy: '&bKupiono %s (%d szt.) za %s.'
+msg_buy_resident_plot: '&b%s kupiЕ‚ dziaЕ‚kД™ od %s za %s!'
+msg_couldnt_pay_taxes: '&bMieszkaniec %s nie mГіgЕ‚ zapЕ‚aciД‡ podatkГіw i zostaЕ‚ wyrzucony z %s.'
+msg_couldnt_pay_plot_taxes: '&b%s nie mГіgЕ‚ zapЕ‚aciД‡ podatkГіw i zostaЕ‚ wysiedlony ze swojej dziaЕ‚ki.'
+msg_payed_town_tax: '&bZapЕ‚acono podatki miejskie: '
+msg_payed_plot_cost: '&bZapЕ‚acono %s za %s dziaЕ‚ek w %s'
+msg_payed_resident_tax: '&bZapЕ‚acono podatek mieszkaЕ„ca w wysokoЕ›ci '
+msg_bankrupt_town: ' nie byЕ‚o staД‡ na dalsze bycie miastem.'
+msg_bankrupt_nation: ' nie staД‡ na opЕ‚acenie podatkГіw, aby pozostaД‡ nacjД….'
+msg_nation_not_peaceful: '&bNacji nie byЕ‚o staД‡ na stan pokojowy.'
+msg_nation_cant_peaceful: '&bNation couldn''t afford to become a peaceful nation. You must be able to pay % daily.'
+msg_peaceful_disabled: '&bPokojowoЕ›Д‡ nacji jest odgГіrnie zabroniona.'
+msg_you_paid: '&bZapЕ‚aciЕ‚eЕ› %s, aby zmieniД‡ status neutralnoЕ›ci.'
+msg_nation_set_peace: '&bZmieniono stosunek nacji.'
+msg_nation_allow_peaceful: '&bUprawnienia nacji do bycia pokojowymi sД… teraz %s'
+msg_mobremoval_world: '&bBlokowanie spawnu mobГіw na Е›wiecie: %s'
+msg_mobremoval_town: '&bPozwalaj na wyЕ‚Д…czanie spawnu mobГіw w mieЕ›cie: %s'
+msg_nation_peaceful: '&bTwoja nacja jest teraz'
+msg_tax_exempt: '&bRzД…dzД…cy w mieЕ›cie sД… zwolnieni z podatkГіw.'
+msg_del_nation: '&bNacja %s zostaЕ‚a rozwiД…zana!'
+msg_del_resident: '&b%s zostaЕ‚ wyczyszczony z pamiД™ci Towny!'
+msg_join_nation: '&bMiasto %s doЕ‚Д…czyЕ‚o do nacji!'
+msg_join_town: '&b%s doЕ‚Д…czyЕ‚ do miasta!'
+msg_friend_add: '&b%s dodaЕ‚ ciД™ do znajomych.'
+msg_friend_remove: '&b%s usunД…Е‚ ciД™ z listy znajomych.'
+msg_left_town: '&bMieszkaniec %s opuЕ›ciЕ‚ miasto'
+msg_you_left: '&bOpuЕ›ciЕ‚eЕ› miasto %s.'
+msg_not_mayor: '&bNie jesteЕ› Burmistrzem.'
+msg_not_king: '&bNie jesteЕ› Liderem Nacji.'
+msg_not_mayor_ass: '&bNie jesteЕ› Burmistrzem, ani Asystentem.'
+msg_not_king_ass: '&bNie jesteЕ› Liderem Nacji, ani Asystentem.'
+msg_own_nation_disallow: '&bNie moЕјesz tego zrobiД‡ wЕ‚asnej nacji.'
+msg_no_perms_claim: '&bNie masz uprawnieЕ„ pozwalajД…cych na powiД™kszanie miasta.'
+msg_outpost_disable: '&bPlacГіwki sД… niedostД™pne.'
+msg_kicked_by: '&bZostaЕ‚eЕ› wyrzucony z miasta przez %s.'
+msg_kicked: '&b%s wyrzuciЕ‚ %s z miasta.'
+msg_nation_kicked_by: '&bTwoje miasto zostaЕ‚o wyrzucone z nacji przez %s.'
+msg_town_left_nation: '&bTwoje miasto opuЕ›ciЕ‚o nacjД™ %s.'
+msg_nation_town_left: '&bMiasto %s opuЕ›ciЕ‚o twojД… nacjД™.'
+msg_nation_kicked: '&b%s wyrzuciЕ‚ miasto %s z nacji.'
+msg_raised_ass: '&b%s awansowaЕ‚ %s na Asystenta%s.'
+msg_lowered_to_res_by: '&bZostaЕ‚eЕ› zdegradowany do zwykЕ‚ego mieszkaЕ„ca przez %s.'
+msg_lowered_to_res: '&b%s zdegradowaЕ‚ %s do rangi zwykЕ‚ego mieszkaЕ„ca.'
+msg_invalid_name: '&bЕ»adna z tych nazw nie jest poprawna.'
+msg_invited_join_town: '&b%s zaprosiЕ‚ %s do miasta.'
+msg_invited_join_nation: '&b%s zaprosiЕ‚ %s do nacji.'
+msg_deny_invite: '&b%s odrzuciЕ‚ twoje zaproszenie.'
+msg_invited: '&bZostaЕ‚eЕ› zaproszony do doЕ‚Д…czenia do %s.'
+msg_town_online: 'Online w MieЕ›cie'
+msg_nation_online: 'Online w Nacji'
+msg_allied_nations: '&bNacja %s sprzymierzyЕ‚a siД™ z %s.'
+msg_enemy_nations: '&bNacja %s staЕ‚a siД™ wrogiem wobec nacji %s.'
+msg_enemy_to_neutral: '&bWrГіg %s zmieniЕ‚ status neutralnoЕ›ci na %s.'
+msg_added_ally: '&bNacja %s zawarЕ‚a sojusz z twojД… nacjД….'
+msg_removed_ally: '&bNacja %s zerwaЕ‚a sojusz z twojД… nacjД….'
+msg_added_enemy: '&bNacja %s uznaЕ‚a twojД… nacjД™ za wroga!'
+msg_removed_enemy: '&bNacja %s staЕ‚a siД™ neutralna w stosunku do twojej nacji.'
+msg_unable_ally_enemy: '&cNie moЕјna zawrzeД‡ sojuszu z nacjД… %s, bo uwaЕјa was ona za wroga.'
+msg_deny_ally: '&b%s odrzuciЕ‚ twojД… propozycjД™ sojuszu!'
+msg_accept_ally: '&bNacja zaakceptowaЕ‚a twojД… propozycjД™ sojuszu!'
+msg_ally_req_sent: '&bPropozycja sojuszu zostaЕ‚a wysЕ‚ana do nacji %s.'
+msg_ally_request: '&bNacja %s wysЕ‚aЕ‚a propozycjД™ utworzenia sojuszu.'
+msg_unable_ally_offline: "&cWysЕ‚anie propozycji sojuszu jest niemoЕјliwe. Lider podanej nacji jest offline."
+msg_unable_ally_npc: "&cWysЕ‚anie proЕ›by o sojusz jest niemoЕјliwe - Burmistrz nacji jest NPC'em."
+msg_claimed: '&2Pozyskanie udane'
+msg_unclaimed: '&2Porzucenie udane'
+msg_not_claimable: '&cW tym Е›wiecie nie moЕјna pozyskiwaД‡ ziemii.'
+msg_abandoned_area: '&bPorzucono teren %s'
+msg_admin_unclaim_area: '&cWymuszono porzucenie terenu %s'
+msg_abandoned_area_1: '&bTwoje miasto porzuciЕ‚o ten teren'
+msg_no_money_purchase_plot: '&cNie staД‡ ciД™ na zakup tej dziaЕ‚ki.'
+msg_town_no_money_purchase_plot: '&cMiasto nie ma wystarczajД…cej iloЕ›ci pieniД™dzy, aby wykupiД‡ tД™ dziaЕ‚kД™.'
+msg_no_funds_new_town: '&c%s nie staД‡ na zaЕ‚oЕјenie miasta.'
+msg_no_funds_claim: '&cMiasta nie staД‡ na kupno %s BlokГіw Miasta kosztujД…cych %s. Przelej wiД™cej pieniД™dzy do banku miasta.'
+msg_no_funds_to_buy: '&cMiasta nie staД‡ na zakup %2$s (%1$s szt.) za %3$s. Przelej wiД™cej pieniД™dzy do banku.'
+msg_annexed_area: '&2Pozyskano teren %s'
+msg_max_plot_own: '&cNie moЕјesz mieД‡ wiД™cej niЕј %s dziaЕ‚ek.'
+msg_max_outposts_own: '&cNie moЕјesz posiadaД‡ wiД™cej niЕј %s PlacГіwek.'
+msg_no_funds_new_nation: '&cMiasta nie staД‡ na utworzenie nacji.'
+msg_already_claimed: '&cTen teren zostaЕ‚ juЕј pozyskany przez: %s'
+msg_already_claimed_1: '&cTeren (%s) juЕј do kogoЕ› naleЕјy.'
+msg_already_claimed_2: '&cTen teren juЕј zostaЕ‚ pozyskany.'
+msg_too_close: '&cTen teren jest za blisko innego miasta.'
+msg_too_far: '&cTen teren jest za daleko od innych miast.'
+msg_not_claimed: '&bTen teren (%s) nie zostaЕ‚ pozyskany.'
+msg_not_claimed_1: '&bTen teren nie zostaЕ‚ pozyskany.'
+msg_not_own_area: '&cNie posiadasz tego terenu.'
+msg_not_own_place: '&bTo miejsce nie naleЕјy do nikogo.'
+msg_area_not_own: '&cTen teren nie naleЕјy do ciebie.'
+msg_area_not_recog: '&cTen teren nie jest rozpoznawany przez Towny.'
+msg_specify_name: '&bWpisz nazwД™ miasta'
+msg_specify_nation_name: '&bOkreЕ›l nazwД™ nacji'
+msg_peasant_right: '&bChЕ‚op nie ma prawa, aby ustalaД‡ swoich przywГіdcГіw.'
+msg_cost_spawn: '&bZostaЕ‚eЕ› obciД…Ејony %s za teleportacjД™ na spawn miasta.'
+msg_cost_spawn_refund: '&bTwoja opЕ‚ata za spawn do miasta zostaЕ‚a zwrГіcona.'
+msg_town_spawn_warmup: '&bCzekaj na teleportacjД™...'
+msg_town_rename_disabled: '&bZmiana nazwy jest wyЕ‚Д…czona.'
+msg_town_set_name: '&b%s zmieniЕ‚ nazwД™ swojego miasta na %s.'
+msg_nation_set_name: '&b%s zmieniЕ‚ nazwД™ nacji na %s.'
+msg_changed_pvp: '&cPVP w %s jest teraz %s.'
+msg_changed_public: '&cPubliczny status miasta jest teraz %s.'
+msg_changed_expl: '&cEksplozje w %s sД… teraz %s.'
+msg_changed_fire: '&cPodpalanie w %s jest teraz %s.'
+msg_changed_mobs: '&cSpawnowanie siД™ potworГіw w %s jest teraz %s.'
+msg_the_plot_group: 'Grupa DziaЕ‚ek'
+msg_changed_taxpercent: '&cObowiД…zywanie podatkГіw procentowych jest teraz %s.'
+msg_changed_open: '&cDoЕ‚Д…czanie bez zaproszeЕ„ jest teraz %s.'
+msg_toggle_open_on_warning: 'OstrzeЕјenie: Rekomendowane jest, by uprawnienia w mieЕ›cie byЕ‚y wyЕ‚Д…czone, jeЕ›li miasto jest otwarte. UЕјyj polecenia "/town set perm off", nastД™pnie "/town set perm reset".'
+msg_changed_world_setting: '&c%s dla %s jest: %s'
+msg_world_pvp: '&cTen Е›wiat ma permanentnie wЕ‚Д…czone PVP.'
+msg_world_mobs: '&cTen Е›wiat ma odgГіrnie narzucony spawn mobГіw.'
+msg_world_expl: '&cTen Е›wiat ma odgГіrnie narzucone ustawienie eksplozji.'
+msg_world_fire: '&cTen Е›wiat ma odgГіrnie narzucone Podpalanie.'
+msg_town_mobs: '&cTo miasto ma odgГіrnie narzucony Spawn MobГіw.'
+msg_plot_pvp: '&cPVP nie moЕјe byД‡ zmienione na dziaЕ‚ce rodzaju Arena.'
+msg_plot_regen_wrong_size: '&cRegeneracjД™ moЕјna wykonaД‡ tylko, gdy szerokoЕ›ci dziaЕ‚ki wynoszД… 16 blokГіw.'
+msg_reloaded: '&2Ustawienia Twony zostaЕ‚y przeЕ‚adowane.'
+msg_undo_complete: '&2CofniД™cie wykonane.'
+msg_give_total: '&bPrzyznaЕ‚eЕ› %s bonusu. (Suma: %s)'
+mag_backup_success: '&2UkoЕ„czono kopiД™ zapasowД….'
+msg_xx_withdrew_xx: '&b%s wypЕ‚aciЕ‚ %s z konta %s.'
+msg_xx_deposited_xx: '&b%s wpЕ‚aciЕ‚ %s na konto "%s".'
+msg_insuf_funds: '&cNie masz tylu pieniД™dzy.'
+msg_err_withdraw_disabled: 'WypЕ‚acanie pieniД™dzy z tego konta bankowego jest wyЕ‚Д…czone!'
+msg_err_deposit_capped: 'Nie moЕјna przelaД‡ pieniД™dzy. Bank ma limit wynoszД…cy %s.'
+msg_set_town_home: '&bZmieniono Blok Macierzysty na %s'
+msg_set_town_spawn: '&bZmieniono spawn miasta.'
+msg_set_outpost_spawn: '&bZmieniono spawn PlacГіwki.'
+msg_set_title: '&b%s otrzymaЕ‚ tytuЕ‚ ''%s&b''.'
+msg_set_surname: '&bMieszkaniec %s otrzymaЕ‚ nazwisko "%s&b".'
+msg_clear_title_surname: '&bWyczyszczono %s gracza %s.'
+msg_clear_plot_material: '&bZ dziaЕ‚ki zostaЕ‚y usuniД™te nastД™pujД…ce rodzaje blokГіw: %s.'
+msg_set_perms: '&bZmieniono uprawnienia na:'
+msg_set_claim: '&bZmieniono zdolnoЕ›Д‡ pozyskiwania przez %s na %s'
+msg_set_perms_reset: '&bZresetowano uprawnienia dla wszystkich %s dziaЕ‚ek.'
+msg_usedefault: '&bЕљwiat %s uЕјywa teraz domyЕ›lnych ustawieЕ„.'
+msg_set_wild_perms: '&bZmieniono uprawnienia do dziczy w Е›wiecie %s na %s'
+msg_set_wild_ignore: '&bZmieniono ignorowane bloki Dziczy %s na %s'
+msg_set_wild_name: '&bZmieniono nazwД™ dziczy w Е›wiecie %s na %s'
+msg_set_wild_regen: '&bZmieniono regeneracje w dziczy w Е›wiecie %s na "%s"'
+msg_set_use_towny_on: '&bTen Е›wiat uЕјywa teraz Towny.'
+msg_set_use_towny_off: '&cNa tym Е›wiecie zablokowane sД… wszystkie funkcje Towny.'
+msg_error_must_be_int: '&bWartoЕ›Д‡ musi byД‡ liczbД… caЕ‚kowitД….'
+msg_error_input_must_be_int: '&c%s musi byД‡ liczbД… caЕ‚kowitД…'
+msg_error_must_be_num: '&bWartoЕ›Д‡ musi byД‡ liczbД….'
+msg_error_input_must_be_num: '&c%s musi byД‡ liczbД…'
+msg_must_specify_amnt: '&bMusisz podaД‡ liczbД™. Np. %s 54'
+msg_town_set_tax: '&b%s ustawiЕ‚ podatek dzienny dla mieszkaЕ„cГіw na %s'
+msg_town_set_plottax: '&b%s ustawiЕ‚ podatek dzienny za dziaЕ‚ki na %s'
+msg_town_set_plotprice: '&b%s ustawiЕ‚ cenД™ za dziaЕ‚ki na %s'
+msg_town_set_alttax: '&b%s ustawiЕ‚ podatek dzienny dziaЕ‚ek rodzaju %s na %s'
+msg_town_set_altprice: '&b%s ustawiЕ‚ cenД™ dziaЕ‚ek rodzaju %s na %s'
+msg_town_set_nation_tax: '&bMiasto %s ustawiЕ‚o podatek nacji na %s'
+msg_set_nation_tag: '&b%s ustawiЕ‚ tag nacji na [%s]'
+msg_set_town_tag: '&b%s ustawiЕ‚ tag miasta na [%s]'
+msg_reset_nation_tag: '&b%s wyczyЕ›ciЕ‚ tag nacji.'
+msg_reset_town_tag: '&b%s wyczyЕ›ciЕ‚ tag miasta.'
+msg_mayor_abandon: '&bChcesz porzuciД‡ swoich ludzi? Wybierz nowego Burmistrza poleceniem "/town set mayor" jeЕ›li jesteЕ› tego pewien.'
+msg_new_day_tax: '&bNastaЕ‚ nowy dzieЕ„! Podatki i czynsz zostaЕ‚y pobrane'
+msg_new_day: '&bNastaЕ‚ nowy dzieЕ„!'
+msg_new_king: '&b%s jest od teraz Liderem nacji %s!'
+msg_err_new_king_notmayor: '&cNowy Lider Nacji nie jest Burmistrzem.'
+msg_err_king_not_in_nation: '&cNowy Lider nacji nie jest mieszkaЕ„cem tej nacji.'
+msg_err_fight_like_king: '&cPokГіj nie jest moЕјliwy! Walcz jak na Lidera przystaЕ‚o!'
+msg_no_access_nation_bank: '&cNie masz dostД™pu do banku nacji.'
+msg_err_no_money: '&cNie ma wystarczajД…co pieniД™dzy w banku.'
+msg_new_mayor: '&b%s jest teraz Burmistrzem!'
+msg_new_nation: '&b%s utworzyЕ‚ nacjД™ o nazwie %s'
+msg_new_town: '&b%s utworzyЕ‚ miasto o nazwie %s'
+msg_plot_for_sale: '&b%s wystawiЕ‚ dziaЕ‚kД™ (%s) na sprzedaЕј!'
+msg_plot_for_sale_amount: '&b%s wystawiЕ‚ dziaЕ‚kД™ (%s) na sprzedaЕј za %s!'
+msg_plot_set_type: '&bRodzaj dziaЕ‚ki zostaЕ‚ zmieniony na %s'
+msg_cache_block_error: '&cNie jesteЕ› zarejestrowany w Towny. SprГіbuj doЕ‚Д…czyД‡ do gry jeszcze raz.'
+msg_cache_block_error_wild: '&cNie masz uprawnienia %s w dziczy.'
+msg_cache_block_error_plot: '&cWЕ‚aЕ›ciciel nie pozwala grupie %s wykonywaД‡ czynnoЕ›Д‡ %s w tym miejscu.'
+msg_cache_block_error_town_resident: '&cMieszkaЕ„cy nie majД… tutaj uprawnienia do czynnoЕ›ci %s.'
+msg_cache_block_error_town_allies: '&cSojusznicy nie majД… tutaj uprawnienia %s.'
+msg_cache_block_error_town_outsider: '&cObcy nie majД… uprawnienia %s.'
+msg_err_cant_afford_tp_town: '&cNie staД‡ ciД™ na teleportacjД™ do %s.'
+msg_err_not_public: '&cTo miasto nie jest publiczne.'
+msg_err_not_open: '&cMiasto %s nie ma otwartych drzwi dla kaЕјdego, zgЕ‚oЕ› siД™ do Burmistrza lub Asystenta.'
+msg_err_town_spawn_forbidden: '&cTeleport na spawn miasta jest niedozwolony.'
+msg_err_town_spawn_nation_forbidden: '&cTeleportacja na spawn miasta naleЕјД…cego do twojej nacji jest zabroniona.'
+msg_err_town_spawn_ally_forbidden: '&cTeleportacja na spawn sojusznikГіw twojej nacji jest zabroniona.'
+msg_err_public_spawn_forbidden: '&cPubliczny spawn w innych miastach jest zabroniony.'
+msg_err_public_spawn_enemy: '&cPubliczny spawn jest zabroniony dla wrogГіw.'
+msg_err_town_spawn_disallowed_from: '&cSpawn w mieЕ›cie nie jest moЕјliwy bД™dД…c w %s.'
+msg_err_outpost_spawn: '&cNie ma miejsc spawnu w PlacГіwkach tego miasta.'
+msg_err_cant_afford_tp: '&bNie staД‡ ciД™ na teleportacjД™ na spawn miasta.'
+msg_err_plot_nfs: '&cTa dziaЕ‚ka nie jest na sprzedaЕј.'
+msg_err_not_part_town: '&cTen teren nie jest czД™Е›ciД… twojego miasta.'
+msg_err_not_attached_edge: '&cTen teren nie przylega do miasta.'
+msg_err_empty_area_selection: '&cTen teren nie jest dziaЕ‚kД….'
+msg_err_not_enough_blocks: '&cTwoje miasto nie posiada wystarczajД…cej iloЕ›ci wolnych BlokГіw Miasta, aby pozyskaД‡ ten teren.'
+msg_err_cant_afford_blocks: '&cMiasta nie staД‡ na pozyskanie %s BlokГіw Miasta kosztujД…cych %s'
+msg_err_not_in_town_claim: '&cMusisz naleЕјeД‡ do miasta, aby mГіc pozyskiwaД‡ dziaЕ‚ki.'
+msg_err_must_belong_town: '&cMusisz naleЕјeД‡ do miasta.'
+msg_err_dont_belong_town: '&cNie naleЕјysz do Ејadnego miasta.'
+msg_err_dont_belong_nation: '&bNie naleЕјysz do nacji.'
+msg_err_not_same_nation: '&b%s nie naleЕјy do twojej nacji.'
+msg_err_rect_auto: '&cTylko miasta i mieszkaЕ„cy mogД… z tego skorzystaД‡.'
+msg_err_invalid_radius: '&cNieprawidЕ‚owy promieЕ„. UЕјyj liczby caЕ‚kowitej lub trybu "auto".'
+msg_err_not_configured: '&cTen Е›wiat nie zostaЕ‚ skonfigurowany w Towny.'
+msg_err_updating_item_perms: '&cBЕ‚Д…d podczas aktualizacji cache''u permisji "item use".'
+msg_err_updating_switch_perms: '&cBЕ‚Д…d podczas aktualizacji cache''u uprawnienia "switch".'
+msg_err_updating_destroy_perms: '&cBЕ‚Д…d podczas aktualizacji cache''u permisji "destroy".'
+msg_err_updating_build_perms: '&cBЕ‚Д…d podczas aktualizacji cache''u permisji "build".'
+msg_err_admin_only: '&cTylko admin moЕјe uЕјyД‡ tego polecenia.'
+msg_err_admin_only_delete: '&cTylko administrator moЕјe usunД…Д‡ dane mieszkaЕ„ca.'
+msg_err_admin_only_delete_town: '&cTylko administrator moЕјe usunД…Д‡ cudze miasto.'
+msg_err_admin_only_delete_nation: '&cTylko administrator moЕјe usunД…Д‡ cudzД… nacjД™.'
+msg_err_online_or_npc: '&c%s jest online albo jest NPC.'
+msg_err_not_registered: '&cNie jesteЕ› zarejestrowany.'
+msg_err_not_registered_1: '&c%s nie jest rozpoznawane'
+msg_err_invalid_name: '&c%s jest niepoprawnД… nazwД….'
+msg_err_already_res: '&c%s juЕј naleЕјy do miasta.'
+msg_err_already_in_town: '&c%s jest juЕј czeЕ›ciД… %s.'
+msg_err_already_nation: '&cTo miasto juЕј naleЕјy do nacji.'
+msg_err_invalid_property: '&cNieprawidЕ‚owe polecenie podrzД™dne "%s".'
+msg_err_not_supported: '&cNie jest to jeszcze wspierane.'
+msg_err_invalid_input: '&cNieprawidЕ‚owe dane. UЕјyj %s'
+msg_err_negative: '&cWartoЕ›Д‡ nie moЕјe byД‡ ujemna.'
+msg_err_input_too_long: '&cWprowadzone dane sД… za dЕ‚ugie.'
+msg_err_invalid_choice: '&cNieprawidЕ‚owy wybГіr'
+msg_err_invalid_sub: '&cNieprawidЕ‚owe polecenie podrzД™dne.'
+msg_err_command_disable: '&cNie masz wymaganych uprawnieЕ„, aby uЕјyД‡ tego polecenia.'
+msg_err_universe_limit: '&cЕљwiat nie moЕјe mieД‡ wiД™cej miast.'
+msg_err_too_many_npc: '&cZbyt wiele zarejestrowanych NPC.'
+msg_err_negative_money: '&cNie moЕјesz mieД‡ ujemnego stanu konta.'
+msg_err_not_percentage: '&cProcent musi byД‡ mniej niЕј 100.'
+msg_err_no_economy: '&cEkonomia nie zostaЕ‚a wЕ‚Д…czona.'
+msg_err_not_block_type: '&cNiewЕ‚aЕ›ciwy rodzaj dziaЕ‚ki!'
+msg_not_allowed_join: '&c%s nie jest uprawniony do doЕ‚Д…czenia siД™ do miasta.'
+msg_offline_no_join: '&c%s jest offline, lecz posiada uprawnienia, nie moЕјe jednak doЕ‚Д…czyД‡ do miasta.'
+msg_err_cannot_perform_action: '&cNie moЕјna wykonaД‡ tej czynnoЕ›ci w %s.'
+msg_npc_flag: '&bFlaga NPC jest teraz %s dla %s.'
+msg_warning_delete: '&4*** UWAGA, %s ZOSTANIE USUNIД�TE NASTД�PNEGO DNIA ZE WZGLД�DU NA BRAK FUNDUSZY ***'
+#these messages are only used if town/nation creation is set to admins only
+msg_admin_only_create_nation: '&cTylko administratorzy mogД… tworzyД‡ nacje.'
+msg_admin_only_create_town: '&cTylko administratorzy mogД… tworzyД‡ miasta.'
+#Required residents to be part of a nation
+msg_err_not_enough_residents_new_nation: '&cTwoje miasto nie ma wystarczajД…cej liczby mieszkaЕ„cГіw, aby utworzyД‡ nacjД™.'
+msg_err_not_enough_residents_join_nation: '&bMiasto %s nie ma wystarczajД…cej liczby mieszkaЕ„cГіw, aby doЕ‚Д…czyД‡ do nacji.'
+msg_not_enough_residents_no_longer_capital: '&bStara stolica nacji miaЕ‚a zbyt maЕ‚o mieszkaЕ„cГіw. NowД… stolicД… staje siД™ %s.'
+msg_town_not_enough_residents_left_nation: '&bMiasto %s juЕј nie ma wystarczajД…cej liczby mieszkaЕ„cГіw, aby naleЕјeД‡ do swojej nacji, wiД™c zostaЕ‚o z niej wyrzucone.'
+msg_nation_disbanded_town_not_enough_residents: '&bMiasto %s nie ma juЕј wystarczajД…cej liczby mieszkaЕ„cГіw, aby tworzyД‡ nacjД™, przez co nacja musiaЕ‚a zostaД‡ rozwiД…zana.'
+msg_not_enough_residents_refunded: '&bZwrГіcono ci kwotД™ $%s za rozwiД…zanie twojej nacji z powodu zbyt maЕ‚ej iloЕ›ci mieszkaЕ„cГіw.'
+msg_not_enough_residents_capital: '&bMiasto %s nie ma wystarczajД…cej liczby mieszkaЕ„cГіw, aby byД‡ stolicД… nacji.'
+list_page: '&bStrona %s z %s'
+list_err_not_enough_pages: '&cDostД™pnych jest tylko %s stron'
+#Added in 0.30
+#Added in 0.31
+msg_err_tax_minimum_not_met: 'Nie moЕјesz ustawiД‡ podatku niЕјszego niЕј %s.'
+msg_unknown_rank_available_ranks: 'Nie istnieje ranga %s. IstniejД…ce rangi to %s.'
+msg_no_permission_to_give_rank: 'Nie masz uprawnieЕ„, aby przyznaД‡ tД™ rangД™.'
+msg_you_have_been_given_rank: 'Przyznano ci rangД™ regionu %s o nazwie %s.'
+msg_you_have_given_rank: 'PrzyznaЕ‚eЕ› rangД™ %2$s regionu %1$s mieszkaЕ„cowi %3$s.'
+msg_resident_not_your_town: 'Ten gracz nie naleЕјy do miasta!'
+msg_resident_already_has_rank: '%s juЕј ma tД™ rangД™ w regionie %s.'
+msg_you_have_had_rank_taken: 'ZostaЕ‚eЕ› zdegradowany z %s w %s.'
+msg_you_have_taken_rank_from: 'UsunД…Е‚eЕ› rangД™ %2$s regionu %1$s mieszkaЕ„cowi %3$s.'
+msg_resident_doesnt_have_rank: '%s nie posiada tej rangi w regionie %s.'
+msg_town_has_no_jails: 'Miasto nie ma ustawionego wiД™zienia.'
+msg_no_permission_to_jail_your_residents: 'Nie masz uprawnieЕ„ do wiД™zienia swoich mieszkaЕ„cГіw.'
+msg_resident_not_part_of_any_town: 'Ten gracz nie naleЕјy do Ејadnego miasta.'
+msg_player_not_jailed_in_your_town: 'Ten gracz nie jest wiД™ziony w twoim mieЕ›cie.'
+msg_cannot_spawn_while_jailed: 'Nie moЕјesz siД™ teleportowaД‡,, kiedy jesteЕ› uwiД™ziony.'
+msg_cannot_abandon_town_while_jailed: 'Opuszczenie miasta jest niemoЕјliwe, kiedy jesteЕ› w wiД™zieniu.'
+msg_player_escaped_jail_by_leaving_town: '%s uciekЕ‚ z wiД™zienia opuszczajac miasto.'
+msg_set_jail_spawn: 'Ustawiono spawn wiД™zienia.'
+msg_killed_attempting_to_escape_jail: '&4%s zostaЕ‚ zabity prГіbujД…c uciec z wiД™zienia.'
+msg_err_jailed_players_no_teleport: '&4WiД™Еєniowie nie mogД… byД‡ teleportowani!'
+msg_player_escaped_jail_into_wilderness: '&4%s wyszedЕ‚ z wiД™ziД™nia uciekajД…c na %s'
+msg_err_invalid_string_board_not_set: 'Niepoprawna treЕ›Д‡. Nie ustawiono OgЕ‚oszenia Miasta.'
+msg_plot_name_removed: 'Nazwa dziaЕ‚ki zostaЕ‚a usuniД™ta.'
+msg_plot_name_set_to: 'Ustawiono nazwД™ dziaЕ‚ki na: [%s].'
+msg_plot_price_too_expensive: 'Cena dziaЕ‚ki jest zbyt duЕјa.'
+msg_you_robbed_player: 'OkradЕ‚eЕ› %s z %s.'
+msg_player_robbed_you: '%s okradЕ‚ ciД™ z %s.'
+msg_you_lost_money: 'StraciЕ‚eЕ› %s za Е›mierД‡.'
+msg_player_couldnt_pay_player_town_bank_paying_instead: 'PieniД…dze, ktГіre posiadaЕ‚ mieszkaniec %s nie byЕ‚y wystarczajД…ce dla %s. Zabrano %s z banku miasta.'
+msg_err_could_not_take_deathfunds: 'Nie moЕјna pobraД‡ opЕ‚aty za smierД‡.'
+msg_you_lost_money_dying: 'StraciЕ‚eЕ› %s.'
+msg_your_town_lost_money_dying: 'Twoje miasto straciЕ‚o %s.'
+msg_your_nation_lost_money_dying: 'Twoja nacja straciЕ‚a %s.'
+msg_err_couldnt_take_deathfunds: 'Nie moЕјna pobraД‡ opЕ‚aty za smierД‡.'
+msg_err_couldnt_take_town_deathfunds: 'Nie moЕјna pobraД‡ opЕ‚aty za Е›mierД‡ z banku miasta.'
+msg_err_couldnt_take_nation_deathfunds: 'Nie moЕјna byЕ‚o pobraД‡ pieniД™dzy za Е›mierД‡ z banku nacji.'
+msg_you_gained_money_for_killing: 'ZyskaЕ‚eЕ› %s za zabicie %s.'
+msg_err_ender_pearls_disabled: '&4PerЕ‚y Kresu sД… wyЕ‚Д…czone!'
+msg_err_no_sleep_in_enemy_inn: '&4Nie moЕјesz spaД‡ w GoЕ›ciЕ„cu wroga.'
+msg_err_cant_use_bed: '&4Nie jesteЕ› wЕ‚aЕ›cicielem ziemi, na ktГіrej stoi to Е‚ГіЕјko oraz nie jest to dziaЕ‚ka rodzaju GoЕ›ciniec.'
+msg_town_plots_revenue_disclaimer: '&aPokazany przychГіd jest szacowany i zaleЕјy od tego, czy wЕ‚aЕ›ciciele dziaЕ‚ek bД™dД… mogli zapЕ‚aciД‡ podatek.'
+msg_town_set_perm_syntax_error: 'NieprawidЕ‚owa kombinacja sЕ‚Гіw dla tego polecenia. UЕјyj "/town set perm ?", aby poznaД‡ prawidЕ‚owД… skЕ‚adniД™ polecenia.'
+msg_plot_set_perm_syntax_error: 'NieprawidЕ‚owa kombinacja sЕ‚Гіw dla tego polecenia. UЕјyj "/plot set perm ?", aby poznaД‡ prawidЕ‚owД… skЕ‚adniД™ polecenia.'
+#Added in 0.32
+msg_err_townadmintownrank_wrong_town: 'Ten mieszkaniec nie naleЕјy do tego miasta.'
+msg_err_resident_already_an_outlaw: 'Ten gracz juЕј zostaЕ‚ wygnany z twojego miasta.'
+msg_err_not_outlaw_in_your_town: 'Nie moЕјesz uznaД‡ mieszkaЕ„ca twojego miasta jako wygnaЕ„ca.'
+msg_you_have_been_declared_outlaw: 'ZostaЕ‚eЕ› uznany za wygnaЕ„ca w %s. Nie daj siД™ zabiД‡ w tym mieЕ›cie.'
+msg_you_have_declared_an_outlaw: '%s zostaЕ‚ uznany za wygnaЕ„ca w %s.'
+msg_you_have_been_undeclared_outlaw: 'JuЕј nie jesteЕ› wygnaЕ„cem w %s.'
+msg_you_have_undeclared_an_outlaw: '%s nie jest juЕј wygnaЕ„cem w %s.'
+msg_err_player_not_an_outlaw: 'Ten gracz nie byЕ‚ uznany jako wygnaniec.'
+msg_err_outlaw_in_open_town: 'Nie moЕјesz doЕ‚Д…czyД‡ do otwartego miasta, ktГіre uznaЕ‚o ciД™ za wygnaЕ„ca.'
+msg_you_are_an_outlaw_in_this_town: '&4BД…dЕє ostroЕјny. Miasto %s wygnaЕ‚o ciД™, Е›mierД‡ tutaj moЕјe oznaczaД‡ wiД™zienie.'
+msg_err_town_not_close_enough_to_nation: 'Blok Macierzysty %s jest za daleko od Bloku Macierzystego stolicy nacji, wiД™c miasto nie moЕјe doЕ‚Д…czyД‡ do twojej nacji.'
+msg_nation_town_moved_their_homeblock_too_far: 'Blok Macierzysty miasta %s zostaЕ‚ przesuniД™ty zbyt daleko od stolicy twojej nacji, wiД™c miasto zostaЕ‚o usuniД™te z nacji.'
+#Added in 0.33
+msg_err_invalid_radius_number: '&cNieprawidЕ‚owa wartoЕ›Д‡ promienia. UЕјyj %s lub mniejszej.'
+#Added in 0.34
+msg_err_max_residents_per_town_reached: '&cMaksymalna liczba mieszkaЕ„cГіw (%s) zostaЕ‚a osiД…gniД™ta.'
+#Added in 0.35
+msg_err_resident_doesnt_meet_invite_cooldown: '&cGracz %s nie byЕ‚ akywny od dЕ‚uЕјszego czasu. Nie moЕјesz go zaprosiД‡.'
+msg_cant_toggle_pvp_outsider_in_town: 'Na terenie twojego miasta jest obcy, nie moЕјesz zmieniД‡ PVP!'
+msg_err_unclaim_not_outpost: 'Nie moЕјna porzuciД‡, ta dziaЕ‚ka nie jest PlacГіwkД…!'
+outpost_plu: 'PlacГіwki'
+#Added in 0.36
+msg_err_not_enough_residents: 'Do miasta naleЕјy zbyt maЕ‚o mieszkaЕ„cГіw, aby to zrobiД‡.'
+#Added in 0.37
+msg_err_friendly_fire_disable: 'Friendly fire jest wyЕ‚Д…czony!'
+#Added in 0.38
+msg_claim_error: '&cInny plugin uniemoЕјliwiЕ‚ pozyskanie (%s)/(%s) BlokГіw Miasta, nie udaЕ‚o siД™ dokoЕ„czyД‡ tej operacji.'
+#Added in 0.39
+msg_err_town_spawn_forbidden_war: '&cSpawn miasta jest wЕ‚Д…czony tylko podczas wojny.'
+msg_err_town_spawn_forbidden_peace: '&cSpawn w mieЕ›cie jest wyЕ‚Д…czony podczas wojny.'
+msg_err_town_spawn_nation_forbidden_war: '&cTeleportacja na spawn miast z twojej nacji jest dozwolona tylko podczas wojny.'
+msg_err_town_spawn_nation_forbidden_peace: '&cTeleportacja na spawn miasta z twojej nacji jest zabroniona podczas wojny.'
+msg_err_town_spawn_ally_forbidden_war: '&cTeleportacja na spawn miast sojuszniczych twojej nacji jest dozwolona tylko podczas wojny.'
+msg_err_town_spawn_ally_forbidden_false: '&cTeleportacja na spawn miast sprzymierzonych z twojД… nacjД… jest zakazana podczas wojny.'
+msg_err_public_spawn_forbidden_war: '&cTeleportacja na spawn innych, publicznych miast jest dozwolona tylko podczas wojny.'
+msg_err_public_spawn_forbidden_peace: '&cSpawn w publicznych miastach jest wyЕ‚Д…czony podczas wojny.'
+#Added in 0.40
+mayor_help_9: 'PrГіba porzucenia PlacГіwki'
+#Added in 0.41 (Invite-Update)
+invite_plu: 'Zaproszenia'
+invite_sent_by: 'Zaproszenie wysЕ‚ane przez'
+invite_help_1: 'Akceptuj zaproszenie do doЕ‚Д…czenia do miasta'
+invite_help_2: 'Zrezygnuj z doЕ‚Д…czenia do miasta'
+invite_help_4: 'OdrzuД‡ wszystkie zaproszenia do doЕ‚Д…czenia do miasta'
+invite_help_3: 'Lista wszystkich twoich zaproszeЕ„'
+town_invite_help_1: 'Zaprasza osobД™ do twojego miasta'
+town_invite_help_2: 'Anuluj zaproszenie wysЕ‚ane do gracza'
+town_invite_help_3: 'Lista wysЕ‚anych przez ciebie zaproszeЕ„'
+town_invite_help_4: 'Lista wszystkich zaproszeЕ„, ktГіre otrzymaЕ‚eЕ›'
+town_invite_help_5: 'Zaakceptuj proЕ›bД™ o doЕ‚Д…czenie do nacji'
+town_invite_help_6: 'OdrzuД‡ proЕ›bД™ doЕ‚Д…czenia do nacji'
+nation_invite_help_1: 'ZaproЕ› miasto do swojej nacji'
+nation_invite_help_2: 'Anuluj zaproszenie, ktore wysЕ‚aЕ‚eЕ› do miasta'
+nation_invite_help_3: 'Lista wszystkich zaproszeЕ„ wysЕ‚anych do miast'
+nation_ally_help_1: 'WysyЕ‚a propoyzcjД™ sojuszu z twojД… nacjД… do wybranej innej.'
+nation_ally_help_2: 'PrГіba usuniД™cia sojusznika twojej nacji'
+nation_ally_help_3: 'Lista wszystkich propozycji sojuszu, jakie wysЕ‚aЕ‚eЕ›'
+nation_ally_help_4: 'Lista wszystkich propozycji sojuszu, ktГіre otrzymaЕ‚eЕ›'
+nation_ally_help_5: 'Akceptuj propozycjД™ sojuszu z nacjД…'
+nation_ally_help_6: 'OdrzuД‡ proЕ›bД™ zawarcia sojuszu z nacjД…'
+nation_ally_help_7: 'OdwoЕ‚aj wysЕ‚ane zaproszenie do sojuszu'
+msg_player_denied_all_invites: "Wszystkie otrzymane zaproszenia zostaЕ‚y odrzucone."
+msg_err_player_no_invites: '&cNie masz Ејadnych zaproszeЕ„!'
+msg_err_player_has_multiple_invites: '&cMasz wiele zaproszeЕ„, sprecyzuj!'
+msg_err_player_has_too_many_invites: '%s ma zbyt duЕјo zaproszeЕ„. PoproЕ› o odrzucenie paru.'
+msg_err_player_already_invited: '&bJuЕј zaprosiЕ‚eЕ› %s do doЕ‚Д…czenie do miasta!'
+msg_err_town_no_invites: '&bMiasto nie ma Ејadnych zaproszeЕ„!'
+msg_err_town_specify_invite: '&cSprecyzuj kogo chcesz zaprosiД‡!'
+msg_err_town_has_too_many_invites: '&bMiasto %s ma zbyt duЕјo zaproszeЕ„. PoproЕ› o odrzucenie paru.'
+msg_err_town_sent_too_many_invites: '&bMiasto wysЕ‚aЕ‚o zbyt duЕјo zaproszeЕ„. Anuluj niepotrzebne, aby wysЕ‚aД‡ nastД™pne!'
+msg_err_town_already_invited: '&bJuЕј zaprosiЕ‚eЕ› %s do doЕ‚Д…czenia do twojej nacji!'
+msg_err_nation_specify_invite: '&cProszД™ sprecyzowaД‡ proЕ›bД™!'
+msg_err_nation_no_requests: '&bNacja nie ma Ејadnych propozycji sojuszu!'
+msg_err_nation_sent_too_many_invites: '&bNacja wysЕ‚aЕ‚a zbyt duЕјo zaproszeЕ„, odrzuД‡ parД™ przed wysЕ‚aniem nastД™pnego!'
+msg_err_nation_sent_too_many_requests: '&bNacja wysЕ‚aЕ‚a zbyt duЕјo zaproszeЕ„, anuluj parД™ przed wysЕ‚aniem nastД™pnego!'
+msg_err_nation_has_too_many_requests: '&bNacja %s ma zbyt duЕјo zaproszeЕ„. PoproЕ› jД… o odrzucenie paru.'
+player_received_invites: '&bOtrzymaЕ‚eЕ› %a/%m zaproszeЕ„.'
+town_revoke_invite: '&bMiasto %s odrzuciЕ‚o twojД… proЕ›bД™ o doЕ‚Д…czenie.'
+town_revoke_invite_successful: '&bUniewaЕјniЕ‚eЕ› zaproszenie do doЕ‚Д…czenia do twojego miasta.'
+town_received_invites: '&bMiasto otrzymaЕ‚o %a/%m zaproszeЕ„.'
+town_sent_invites: '&bMiasto wysЕ‚aЕ‚o %a/%m zaproszeЕ„.'
+nation_revoke_invite: '&bNacja %s odrzuciЕ‚a Twoje propozycjД™ doЕ‚Д…czenie do nich.'
+nation_revoke_invite_successful: '&bAnulowaЕ‚eЕ› zaproszenie do twojej nacji.'
+nation_revoke_ally: '&bNacja %s anulowaЕ‚a swojД… propozycjД™ sojuszu.'
+nation_revoke_ally_successful: '&bAnulowaЕ‚eЕ› proЕ›bД™ o sojusz.'
+nation_received_requests: '&bNacja otrzymaЕ‚a %a/%m propozycji sojuszu.'
+nation_sent_invites: '&bNacja wysЕ‚aЕ‚a %a/%m zaproszeЕ„.'
+nation_sent_ally_requests: '&bNacja wysЕ‚aЕ‚a %a/%m propozycji sojuszu.'
+no_confirmations_open: '&cNie masz nic do zatwierdzenia!'
+successful_cancel: '&cAkcja anulowana!'
+successful_deny: '&bZaproszenie zostaЕ‚o odrzucone.'
+successful_deny_request: '&bProЕ›ba o sojusz zostaЕ‚a odrzucona.'
+msg_ally_removed_successfully: '&bSojusz zostaЕ‚ rozwiД…zany.'
+town_deleted_by_admin: '&bMiasto %s zostaЕ‚o usuniД™te'
+nation_deleted_by_admin: '&bNacja %s zostaЕ‚a usuniД™ta'
+are_you_sure_you_want_to_continue: 'Na pewno chcesz kontynuowaД‡?'
+you_have_been_invited_to_join: 'JesteЕ› zaproszony do doЕ‚Д…czenia '
+you_have_been_requested_to_ally: 'ZostaЕ‚eЕџ poproszony, aby wejЕ›Д‡ w sojusz '
+this_message_will_expire: 'WygaЕ›nie samo za 20 sekund.'
+player_sing: 'Gracz'
+nation_zone_this_area_under_protection_of: 'Ta czД™Е›Д‡ %s jest pod ochronД… %s'
+#Added in 0.42
+you_have_been_invited_to_join2: 'DostaЕ‚eЕ› zaproszenie do doЕ‚Д…czenia do %s'
+you_have_been_requested_to_ally2: 'DostaЕ‚eЕ› propozycjД™ sojuszu z %s'
+#Added in 0.43
+town_help_11: 'UtwГіrz nowe misto. UЕјyj "_" w miejscu spacji.'
+changed_plot_town: '&bZmieniЕ‚eЕ› miasto posiadajД…ce tД™ dziaЕ‚kД™ na %s!'
+not_standing_in_plot: 'Nie stoisz na dziaЕ‚ce!'
+msg_err_homeblock_has_not_been_set: 'Blok Macierzysty nie zostaЕ‚ ustawiony, najpierw wpisz polecenie "/town set homeblock".'
+msg_err_spawn_not_within_homeblock: 'Spawn nie jest na terenie Bloku Macierzystego, wpisz najpierw "/town set homeblock".'
+#Added in 0.44
+#TownyChat language strings
+tc_err_invalid_command: 'BЕ‚Д™dne polecenie!'
+tc_settings_reloaded: '[TownyChat] Ustawienia przeЕ‚adowane!'
+tc_err_unrecognized_command_format: 'Error: Nierozpoznano formatu polecenia!'
+tc_channel_list_status: '(Status)'
+tc_channel_list_in: 'W'
+tc_channel_list_out: 'Poza'
+tc_err_you_dont_have_perm_mute_list: 'Nie masz uprawnieЕ„, aby zobaczyД‡ listД™ wyciszonych'
+tc_err_you_dont_have_unmute_perm: 'Nie masz uprawnieЕ„ do odciszania'
+tc_err_no_channel_called_channel: 'Nie istnieje kanaЕ‚ o nazwie &f%s'
+tc_err_no_muted_players_in_channel_players: 'Nie ma wyciszonych graczy na &f%s'
+tc_players_muted_in_channel: '[TownyChat] &f%n &2gracze wyciszeni na &f%s&2: &f%s'
+tc_err_no_online_players_with_name: 'Nie ma aktywnego gracza o nazwie &f%s'
+tc_err_you_dont_have_mute_perms: 'Nie masz uprawnieЕ„ do wyciszania'
+tc_err_you_cant_mute_admin: 'Nie moЕјesz wyciszyД‡ administratora Towny.'
+tc_err_you_cant_mute_chat_mod: 'Nie moЕјesz wyciszyД‡ moderatora chatu.'
+tc_player_already_muted_in_channel: '&a[TownyChat] Gracz juЕј jest wyciszony na kanale &f%s'
+tc_player_is_now_muted_in_channel: '[TownyChat] &f%s &2jest teraz wyciszony na kanale &f%s'
+tc_player_is_not_muted_in_channel: '[TownyChat] Gracz nie jest wyciszony na kanale &f%s'
+tc_player_is_now_unmuted_in_channel: '[TownyChat] &f%s &2jest teraz odciszony na kanale &f%s'
+tc_err_you_are_currently_muted_in_channel: 'JesteЕ› wyciszony na &f%s&c!'
+tc_err_you_cannot_leave_channel: 'Nie moЕјesz opuЕ›ciД‡ &f%s'
+tc_you_already_left_channel: '[TownyChat] JuЕј opuЕ›ciЕ‚eЕ› &f%s'
+tc_you_left_channel: '[TownyChat] OpuЕ›ciЕ‚eЕ› &f%s'
+tc_you_are_now_talking_in_channel: '[TownyChat] Rozmawiasz teraz na kanale &f%s'
+tc_err_you_cannot_join_channel: 'Nie moЕјesz doЕ‚Д…czyД‡ do &f%s'
+tc_you_are_already_in_channel: '[TownyChat] Rozmawiasz juЕј na kanale &f%s'
+tc_you_joined_channel: '[TownyChat] DoЕ‚Д…czyЕ‚eЕ› do &f%s'
+tc_err_you_are_already_talking_in_default_channel_help: 'JuЕј rozmawiasz na domyЕ›lnym kanale. Aby zmieniД‡ kanaЕ‚, uЕјyj komendy tego kanaЕ‚u.'
+tc_err_unable_to_talk_essentials_mute: 'Nie moЕјesz siД™ komunikowaД‡, bo zostaЕ‚eЕ› wyciszony!'
+tc_err_unable_to_talk_you_are_spamming: 'Nie musisz powtarzac caly czas tego samego!'
+msg_admin_set_plot_help_1: 'kiedy znajdujesz siД™ w mieЕ›cie.'
+msg_admin_set_plot_help_2: 'BД™dД…c w dziczy.'
+msg_err_not_enough_outposts_free_to_claim: 'NiewystarczajД…ca iloЕ›Д‡ wolnych PlacГіwek do pozyskania %s/%s'
+msg_err_over_outposts_limit: 'Nie moЕјesz teleportowaД‡ siД™ do swojej PlacГіwki. PrzekroczyЕ‚eЕ› limit: %s/%s'
+#Status Screen elements (/res, /town, /nation, /tw, /plot perm)
+#These are translated because we may (or may not) be handling longer words in a smart way.
+#If you are a translator feel free to skip over this section, as it may or may not appear very nice
+#in game. It would be best to see what the changes look like in game before you PR it to github.
+outlaws: 'WygnaЕ„cy:' #Used on /t outlawlist
+online: '&a(Online)'
+registered_last_online: '&2Zarejestrowany: &a%s &8| &2Ostatno Aktywny: &a%s' #Used in mayor hover text in /town status screen.
+status_perm: 'Uprawnienia:' #Used on /plot perm, /res
+status_on: '&4TAK'
+status_off: '&aNIE'
+status_on_good: '&aTAK'
+status_off_bad: '&4NIE'
+status_forced: '&cOdgГіrnie Narzucone'
+status_adjustable: '&aModyfikowalne'
+status_pvp: 'PVP:'
+explosions: 'Wybuchy:'
+firespread: 'Podapalanie:'
+mobspawns: 'Spawn MobГіw:'
+owner_of_x_plots: 'WЕ‚aЕ›ciciel %s dziaЕ‚ek.'
+status_bank: 'Bank:'
+status_town: 'Miasto:'
+status_no_town: 'Brak'
+status_town_ranks: 'Rangi Miasta:'
+status_nation_ranks: 'Rangi Nacji:'
+jailed_in_town: ' w mieЕ›cie: %s'
+status_friends: 'Znajomi'
+rank_list_title: 'Lista rang w %s'
+rank_list_mayor: 'Burmistrz:'
+status_title_capital: '&b(Stolica)'
+status_title_pvp: ' &4(PVP)'
+status_title_open: ' &b(Otwarte)'
+status_town_board: 'OgЕ‚oszenie:'
+status_founded: 'ZaЕ‚oЕјono:'
+status_founded_by: 'ZaЕ‚oЕјone przez:'
+status_town_size: 'Rozmiar miasta:'
+status_town_size_bought: 'Kupiono:'
+status_town_size_bonus: 'Bonus:'
+status_town_size_nationbonus: 'BonusNacji:'
+status_town_outposts: 'PlacГіwki:'
+status_bank_town2: 'Codzienny czynsz:'
+status_bank_town3: 'Podatek:'
+status_town_nation: 'Nacja:'
+status_town_reslist_overlength: 'i inni...'
+status_nation_king: 'Lider:'
+status_nation_tax: 'PodatekNacji:'
+status_nation_conquered_tax: 'Trybut:'
+status_nation_towns: 'Miasta'
+status_nation_allies: 'Sojusznicy'
+status_nation_enemies: 'Wrogowie'
+status_nation_enemied_by: 'Nacje, ktГіre uwaЕјajД… twojД… nacjД™ za wroga'
+status_world_claimable: '&aPozyskiwalny'
+status_world_noclaims: '&cNiepozyskiwalnaZiemia'
+status_world_forcepvp: 'NarzuconePVP:'
+status_world_fire: 'Podpalanie:'
+status_world_forcefire: 'Narzucone Podpalanie:'
+status_world_forceexplosion: 'Narzucone Eksplozje:'
+status_world_worldmobs: 'Potwory Na Ељwiecie:'
+status_world_forcetownmobs: 'Narzucone Potwory w Miastach:'
+status_world_unclaimrevert: 'Cofanie Po Porzuceniu:'
+status_world_explrevert: 'Naprawianie ZniszczeЕ„ Po Eksplozji:'
+status_world_ignoredblocks: 'Ignorowane Bloki:'
+status_res_taxexempt: 'RzД…dzД…cy sД… zwolnieni z pЕ‚acenia podatkГіw na miasto.'
+status_res_tax: 'Podatek Miejski:'
+status_res_plottax: 'Suma PodatkГіw Od DziaЕ‚ki:'
+status_res_totaltax: 'Suma PodatkГіw do zapЕ‚aty:'
+status_townblock_plottax: 'Podatek od DziaЕ‚ek: '
+status_townblock_untaxed: 'Nieopodatkowany'
+#Added in 0.45
+msg_err_unable_to_use_bank_outside_nation_capital: 'Nie moЕјesz dokonywaД‡ operacji na koncie bankowym nacji, kiedy nie przebywasz w stolicy nacji.'
+msg_err_unable_to_use_bank_outside_your_town: 'Nie moЕјesz operowaД‡ kontem bankowym miasta, kiedy nie przebywasz w mieЕ›cie.'
+msg_time_until_a_new_day: 'Czas do Nowego Dnia: '
+msg_hours: ' godz'
+msg_minutes: ' minut'
+msg_seconds: ' sekund'
+msg_err_invalid_string_nationboard_not_set: 'Niepoprawna treЕ›Д‡. OgЕ‚oszenie Nacji nie zostaЕ‚o ustawione.'
+msg_plot_evict: 'DziaЕ‚ka zostaЕ‚a wysiedlona.'
+msg_no_one_to_evict: 'Nie ma nikogo do wysiedlenia z tej dziaЕ‚ki.'
+#Added in 0.46
+nation_help_10: 'Teleportuj siД™ na spawn nacji.'
+msg_nation_spawn_warmup: '&bCzekaj na teleportacjД™...'
+msg_set_nation_spawn: '&bZmieniono spawn nacji.'
+msg_err_cant_afford_tp_nation: '&cNie staД‡ ciД™ na teleportacjД™ do %s.'
+msg_err_nationspawn_has_not_been_set: '&cSpawn nacji nie zostaЕ‚ ustawiony.'
+msg_err_spawn_not_within_nationtowns: '&cSpawn nacji musi byД‡ w mieЕ›cie, ktГіre do niej naleЕјy.'
+msg_err_spawn_not_within_capital: '&cSpawn nacji musi byД‡ w stolicy'
+msg_err_nation_spawn_war: 'Spawn do nacji nie jest dostД™pny podczas wojny.'
+msg_err_nation_not_public: '&cNacja nie jest publiczna.'
+msg_nation_toggle_public: '&aZmieniono publiczny status nacji.'
+status_yes: '&aTAK'
+status_no: '&cNIE'
+msg_err_unable_to_use_bank_outside_bank_plot: 'Nie moЕјesz uЕјyД‡ tego polecenia poza bankiem i Blokiem Macierzystym.'
+msg_err_nation_spawn_forbidden: '&cSpawn do nacji jest zabroniony.'
+msg_err_nation_spawn_forbidden_war: '&cTeleportacja na spawn nacji jest dozwolona tylko podczas wojny.'
+msg_err_nation_spawn_forbidden_peace: '&cSpawn w nacji jest niedozwolony podczas wojny.'
+msg_err_nation_spawn_ally_forbidden: '&cSpawn u nacji sojuszniczej jest wyЕ‚Д…czony.'
+msg_err_nation_spawn_nation_forbidden_war: '&cTeleportacja na spawn nacji sojuszniczej jest dozwolona tylko podczas wojny.'
+msg_err_nation_spawn_nation_forbidden_peace: '&cTeleportacja na spawn nacji sojuszniczej jest zabroniona podczas wojny.'
+msg_err_public_nation_spawn_forbidden: '&cPubliczny spawn innych nacji jest wyЕ‚Д…czony.'
+msg_err_public_nation_spawn_forbidden_war: '&cTeleportacja na spawn innych, publicznych nacji jest dozwolona tylko podczas wojny.'
+msg_err_public_nation_spawn_forbidden_peace: '&cTeleportacja na publiczny spawn innych nacji jest zabroniona podczas wojny.'
+msg_spawn_cost_set_to: '&b%s ustawiЕ‚ cenД™ za uЕјywanie polecenia /%s spawn na %s'
+msg_err_cannot_set_spawn_cost_more_than: '&cNie moЕјesz ustawiД‡ ceny spawnu wyЕјszej niЕј %s'
+msg_err_ally_isnt_public: '&cTwГіj sojusznik, %s, nie wЕ‚Д…czyЕ‚ publicznego spawna. Teleportacja anulowana.'
+msg_nation_changed_public: '&cStatus Publiczny nacji jest teraz %s.'
+#Added in 0.47:
+status_plot_type: 'Rodzaj DziaЕ‚ki:'
+msg_no_self_jailing: 'Nie moЕјesz uwiД™ziД‡ samego siebie.'
+online2: ' &a(Online)'
+build: 'Budowanie'
+destroy: 'Niszczenie'
+switch: 'PrzeЕ‚Д…czanie'
+item_use: 'UЕјywanie_PrzedmiotГіw'
+owner_status: 'WЕ‚aЕ›ciciel'
+towny_map_header: 'Mapa Towny '
+towny_map_unclaimed: 'Niepozyskane'
+towny_map_claimed: 'Pozyskane'
+towny_map_forsale: 'SprzedaЕј'
+towny_map_yourtown: 'Twoje miasto'
+towny_map_yourplot: 'Twoja DziaЕ‚ka'
+towny_map_ally: 'Sojusz'
+towny_map_enemy: 'WrГіg'
+enabled: 'Aktywne'
+disabled: 'Nieaktywne'
+forced: 'OdgГіrnie Narzucone'
+adjustable: 'Modyfikowalne'
+#Added in 0.48:
+msg_no_funds_new_town2: '&c%s nie jest(eЕ›) w stanie zaЕ‚oЕјyД‡ nowego miasta. Kosztuje to %s.'
+msg_no_funds_new_nation2: '&cMiasta nie staД‡ na zaЕ‚oЕјenie nowej nacji. Kosztuje to %s.'
+msg_no_funds_claim2: '&cMiasta nie staД‡ na pozyskanie %s BlokГіw Miasta kosztujД…cych %s. Przelej %s do banku miasta poleceniem "/t deposit %s"'
+msg_err_cant_afford_blocks2: '&cMiasta nie staД‡ na pozyskanie %s BlokГіw Miasta kosztujД…cych %s. Przelej %s do banku miasta poleceniem "/t deposit %s"'
+msg_err_not_enough_variables: '&cBrak wystarczajД…cej iloЕ›ci zmniennych: '
+nation_rechecked_by_admin: '&bOdlegЕ‚oЕ›ci pomiД™dzy miastami naleЕјД…cymi do nacji %s zostaЕ‚y ponownie sprawdzone.'
+msg_err_nation_over_town_limit: '&cTwoja nacja osiД…gnД™Е‚a maksymalnД… liczbД™ miast w nacji: %s.'
+#Added in 0.49
+msg_process_claim: 'Pozyskiwanie DziaЕ‚ki...'
+msg_process_unclaim: 'Porzucenie DziaЕ‚ki...'
+msg_total_townblocks: 'Wszystkich BlokГіw Miasta: '
+#Added in 0.50
+friend_list: 'Lista Znajomych'
+#The following formatting lists apply to friends lists on the /res screen; townranks lists on the /town screen;
+#nationranks lists on the /nation screen; and probably more lists of residents.
+res_format_list_1: '&2' #First colour applied to Resident lists, ex: on /res, the friend list's Friends section.
+res_format_list_2: '&a' #Second colour applied to Resident lists, ex: on /res, the friend list's [1] section.
+res_format_list_3: '&f' #Third colour applied to Resident lists, ex: on /res, the friend list's list of friends' names section.
+townboard_message_colour_1: '&6'
+townboard_message_colour_2: '&e'
+nationboard_message_colour_1: '&6'
+nationboard_message_colour_2: '&e'
+not_registered: 'Nie zarejestrowano.'
+msg_error_missing_comparator: '&bMusisz okreЕ›liД‡, wedЕ‚ug czego chcesz posortowaД‡.'
+msg_error_invalid_comparator: '&bNieprawidЕ‚owy typ sortowania.'
+msg_error_multiple_comparators: '&bZa duЕјo typГіw sortowania. OkreЕ›l tylko jeden.'
+msg_error_comparator_failed: '&bNie moЕјna byЕ‚o uЕјyД‡ tego typu sortowania. Wyprobuj inny.'
+number_of_residents: '(Liczba mieszkaЕ„cГіw)'
+number_of_towns: '(Liczba miast)'
+town_name: 'Nazwa Miasta'
+nation_name: 'Nazwa nacji'
+refund_message: '&aZwrГіcono %s za porzucenie %s BlokГіw Miasta.'
+msg_bankrupt_town_multiple: '&bNastД™pujД…cych miast nie byЕ‚o staД‡ na czynsz i zostaЕ‚y rozwiД…zane: '
+msg_bankrupt_nation_multiple: '&bNastД™pujД…cych nacji nie byЕ‚o staД‡ na czynsz i zostaЕ‚y rozwiД…zane: '
+msg_couldnt_pay_tax: '&bMieszkaniec %s nie mГіgЕ‚ zapЕ‚aciД‡ podatkГіw i zostaЕ‚ wyrzucony z %s.'
+msg_couldnt_pay_nation_tax_multiple: '&bNastД™pujacych miast nie byЕ‚o staД‡ na podatek na nacjД™ i jД… opuЕ›ciЕ‚y: '
+msg_couldnt_pay_town_tax_multiple: '&bNastД™pujacych mieszkaЕ„cГіw nie byЕ‚o staД‡ na podatek miejski i zostali wysiedleni: '
+msg_couldnt_pay_plot_taxes_multiple: '&bNastД™pujД…cych mieszkaЕ„cГіw nie byЕ‚o staД‡ na podatek od czД™Е›ci lub od wszystkich dziaЕ‚ek: '
+msg_bankrupt_town2: '&bNastД™pujД…ce miasta nie byЕ‚y w stanie zapЕ‚aciД‡ podatkГіw, aby przetrwaД‡: %s.'
+msg_bankrupt_nation2: '&bNacjД™ %s nie byЕ‚o staД‡ na utrzymanie miana nacji.'
+status_embassy_town: 'Ambasady w'
+#Added in 0.51:
+msg_error_invalid_comparator_nation: '&bNieprawidЕ‚owy typ sortowania. SprГіbuj %s.'
+msg_error_invalid_comparator_town: '&bNieprawidЕ‚owy typ sortowania. SprГіbuj %s.'
+msg_err_merging_for_kings_only: '&bScalenie moЕјe zostaД‡ przeprowadzone jedynie przez Lidera Nacji.'
+msg_err_king_of_that_nation_is_not_online: '&bLider Nacji %s, %s nie jest online. Scalenie nieudane.'
+nation1_has_merged_with_nation2: '&6Nacja %s wyraziЕ‚a zgodД™ na scalenie siД™ w nacjД™ %s.'
+msg_would_you_merge_your_nation_into_other_nation: '&6Czy zgadzasz siД™ wЕ‚Д…czyД‡ swojД… nacjД™ %s w %s? Spowoduje to przeniesienie pieniД™dzy oraz miast z nacji do nacji %s.'
+no_open_towns: 'Brak otwartych miast.'
+#Added in 0.52:
+msg_error_nation_has_no_allies: 'Nacja nie ma sojusznikГіw.'
+msg_error_nation_has_no_enemies: 'Nacja nie ma wrogГіw.'
+msg_error_ta_plot_claim: 'ZabrakЕ‚o nazwy gracza. UЕјyj /ta plot claim NazwaGracza'
+msg_error_no_player_with_that_name: 'Nie znaleziono gracza o nazwie %s'
+msg_admin_has_given_you_a_plot: 'Administrator przydzieliЕ‚ Ci dziaЕ‚kД™: %s'
+msg_town_forcemobs_setting_set_to: 'Miastu %s narzucono ustawienie mobГіw na %s'
+msg_town_forcepvp_setting_set_to: 'Miastu %s narzucono ustawienie PVP na %s'
+msg_town_forcedisabledpvp_setting_set_to: 'Miastu %s narzucono ustawienie admindisabledpvp na %s'
+msg_nation_changed_open: '&cStatus Otwarty Nacji jest teraz %s.'
+msg_err_already_in_a_nation: 'Twoje miasto juЕј naleЕјy do nacji.'
+msg_err_nation_not_open: '&cNacja %s nie otwiera swoich drzwi kaЕјdemu. PoproЕ› Lidera Nacji lub Asystenta, aby doЕ‚Д…czyД‡.'
+msg_err_nation_homeblock_in_another_world: '&cBlok Macierzysty twojego miasta nie jest na tym samym Е›wiecie, co Blok Macierzysty stolicy.'
+status_bank_town_penalty_upkeep: 'Czynsz przy nadmiarowych Blokach Miasta:'
+#Added in 0.53:
+msg_error_cannot_town_spawn_youre_an_outlaw_in_town: 'Nie moЕјesz teleportowaД‡ siД™ do miasta %s, jesteЕ› stamtД…d wygnany.'
+#Added in 0.55:
+msg_you_cannot_use_that_command_while_jailed: '&4Nie moЕјesz uЕјyД‡ tego polecenia, kiedy jesteЕ› uwiД™ziony.'
+#Added in 0.56:
+msg_cache_block_error_town_nation: '&cMieszkaЕ„cy nacji nie sД… uprawnieni do czynnoЕ›ci %s.'
+#Added in 0.57:
+msg_err_already_res2: '&c%s juЕј naleЕјy do miasta.'
+msg_err_cannot_afford_plot_set_type_cost: '&cNie staД‡ ciД™ na ustawienie rodzaju dziaЕ‚ki na %s kosztujД…cego %s'
+msg_plot_set_cost: '&bZostaЕ‚eЕ› obciД…Ејony %s za ustawienie rodzaju dziaЕ‚ki na %s'
+msg_err_townspawn_has_not_been_set: '&cSpawn miasta nie zostaЕ‚ ustawiony.'
+msg_err_player_too_far_from_town_spawn: '&c%s znajduje siД™ zbyt daleko od spawnu twojego miasta, aby otrzymaД‡ zaproszenie. Maksymalna odlegloЕ›Д‡ to %s blokГіw.'
+#Added in 0.58:
+msg_resident_bail_amount: 'WysokoЕ›Д‡ Kaucji MieszkaЕ„ca: '
+msg_mayor_bail_amount: 'WysokoЕ›Д‡ kaucji Burmistrza: '
+msg_king_bail_amount: 'Kaucja za Lidera Nacji: '
+msg_has_paid_bail: '%s zapЕ‚aciЕ‚ kaucje i jest wolny.'
+msg_err_unable_to_pay_bail: 'Nie staД‡ ciД™ na kaucjД™.'
+msg_err_bail_not_enabled: 'System kaucji nie jest wЕ‚Д…czony.'
+msg_you_have_been_freed_from_jail: 'ZostaЕ‚eЕ› zwolniony z wiД™zienia.'
+msg_player_has_been_freed_from_jail_number: '%s zostaЕ‚ zwolniony z wiД™zienia numer %s.'
+msg_player_has_been_sent_to_jail_number: '%s zostaЕ‚ wysЕ‚any do wiД™zienia numer %s.'
+msg_player_is_not_online: '%s nie jest online.'
+msg_mysql_dump_success: 'Zrzut do bazy danych MySQL zostaЕ‚ ukoЕ„czony.'
+msg_err_mysql_not_being_used: 'TwГіj config nie jest ustawiony, aby zapisywaД‡ i Е‚adowaД‡ mysql.'
+msg_save_success: 'Dane zapisane.'
+msg_load_success: 'Dane wczytane.'
+msg_err_cannot_afford_to_set_outpost: 'Twoje miasto nie ma wystarczajacej iloЕ›ci pieniД™dzy, aby ustawiД‡ ten Blok Miasta na PlacГіwkД™.'
+msg_too_close2: 'Te miejsce jest zbyt blisko miasta %s.'
+homeblock: 'blok macierzysty'
+townblock: 'blok miasta'
+outpost: 'placГіwka'
+msg_err_not_same_town: '&b%s nie naleЕјy do twojego miasta.'
+#Added in 0.59:
+msg_modes_set: 'Ustawione tryby: '
+msg_err_this_plot_doesnt_have_any_associated_metadata: 'Ta dziaЕ‚ka nie ma Ејadnych metadanych.'
+msg_err_the_metadata_for_key_is_not_registered: 'Nie znaleziono metadanych dla ''%s''!'
+msg_key_x_was_successfully_updated_to_x: 'Klucz %s zostaЕ‚ zaktualizowany do %s.'
+msg_err_key_x_is_not_part_of_this_plot: 'Klucz %s nie jest czД™Е›ciД… tej dziaЕ‚ki, jeЕ›li jest to moЕјliwe proszД™ dodaД‡ go.'
+msg_err_key_x_already_exists: 'Klucz %s juЕј istnieje!'
+msg_custom_data_was_successfully_added_to_townblock: 'Niestandardowe dane zostaЕ‚y dodane do Bloku Miasta!'
+msg_data_successfully_deleted: 'UsuniД™to z powodzeniem!'
+msg_err_key_cannot_be_deleted: 'Klucz nie moЕјe byД‡ usuniД™ty, poniewaЕј nie istnieje!'
+msg_err_this_town_doesnt_have_any_associated_metadata: 'To miasto nie ma Ејadnych metadanych.'
+msg_err_key_x_is_not_part_of_this_town: 'Klucz %s nie jest czД™Е›ciД… tego miasta, jeЕ›li jest to moЕјliwe proszД™ dodaД‡ go.'
+msg_custom_data_was_successfully_added_to_town: 'Niestandardowe dane zostaЕ‚y dodane do miasta!'
+msg_err_this_resident_doesnt_have_any_associated_metadata: 'This resident doesn''t have any associated metadata.'
+msg_err_key_x_is_not_part_of_this_resident: 'Key %s is not part of this resident, if possible please add it.'
+msg_custom_data_was_successfully_added_to_resident: 'Custom data was successfully added to resident!'
+msg_err_this_nation_doesnt_have_any_associated_metadata: 'This nation doesn''t have any associated metadata.'
+msg_err_key_x_is_not_part_of_this_nation: 'Key %s is not part of this nation, if possible please add it.'
+msg_custom_data_was_successfully_added_to_nation: 'Custom data was successfully added to nation!'
+msg_error_too_many_pages: 'Za duЕјo stron.'
+msg_err_location_is_not_within_a_town: 'To miejsce nie znajduje siД™ w mieЕ›cie.'
+msg_err_location_is_not_within_a_jail_plot: 'To miejsce nie jest na dziaЕ‚ce rodzaju Jail.'
+msg_err_town_has_no_jail_spawns_set: 'Miasto nie ustaiЕ‚o punktГіw spawnu dla wiД™zienia.'
+msg_err_town_has_no_outpost_spawns_set: 'Miasto nie ma ustawionych spawnГіw do PlacГіwek.'
+msg_err_location_is_not_within_an_outpost_plot: 'Miejsce nie jest na terenie PlacГіwki.'
+msg_err_town_has_not_set_a_spawn_location: 'Miasto nie ustawiЕ‚o miejsca spawnu.'
+msg_err_town_has_no_claim_over_this_town_block: 'Twoje miasto nie pozyskaЕ‚o tego Bloku Miasta.'
+msg_err_town_doesnt_belong_to_any_nation: 'Miasto nie naleЕјy do Ејadnej nacji.'
+msg_err_mayor_doesnt_belong_to_town: 'Burmistrz nie naleЕјy do miasta.'
+msg_err_tag_too_long: 'Tag jest za dЕ‚ugi.'
+msg_err_nation_has_not_set_a_spawn_location: 'Nacja nie ustawiЕ‚a miejsca spawnu.'
+msg_err_resident_doesnt_belong_to_any_town: 'Mieszkaniec nie naleЕјy do Ејadnego miasta'
+msg_err_could_not_set_default_modes_for: 'Nie moЕјna ustawiД‡ domyЕ›lnych trybГіw dla '
+#Added in 0.60
+msg_set_war_allowed_on: 'Wojna moЕјe odbyД‡ siД™ na tym Е›wiecie.'
+msg_set_war_allowed_off: 'Wojna nie wpЕ‚ynie na ten Е›wiat.'
+#Added in 0.61
+#Added in 0.62
+msg_err_cannot_toggle_pvp_x_seconds_remaining: 'Nie moЕјesz przeЕ‚Д…czyД‡ PVP. Poczekaj %s sekund.'
+msg_err_cannot_spawn_x_seconds_remaining: 'Nie moЕјesz uЕјyД‡ teleportacji przez kolejne %s sekund.'
+#Added in 0.63
+msg_plot_set_to_nfs: 'DziaЕ‚ka nie jest juЕј na sprzedaЕј.'
+msg_err_x_spawn_disallowed_from_x: '&cSpawn do %s nie jest moЕјliwy bД™dД…c w %s.'
+msg_the_wilderness: 'Dzicz'
+msg_enemy_areas: 'Strefy wrogГіw'
+msg_neutral_towns: 'Neutralne miasta'
+#Added in 0.64
+msg_err_no_nation_with_that_name: 'Nie znaleziono nacji %s.'
+msg_err_cannot_unclaim_homeblock: 'Nie moЕјesz porzuciД‡ Bloku Macierzystego, uЕјyj "/town set homeblock", aby przenieЕ›Д‡ Blok Macierzysty.'
+#Added in 0.65
+msg_err_rename_cancelled: 'Zmiana nazwy zostaЕ‚a przerwana przez inny plugin.'
+#Added in 0.66
+#Added in 0.67
+msg_conquered: '[Podbite]'
+#Added in 0.68
+msg_plot_group_claim_confirmation: 'Ta dziaЕ‚ka jest czД™Е›ciД… grupy %s dziaЕ‚ek. KontynuujД…c przejД™cie terenu, kupisz wszystkie do niej naleЕјД…ce.'
+msg_plot_group_unclaim_confirmation: 'Ta dziaЕ‚ka jest czД™Е›ciД… grupy %s dziaЕ‚ek. KontynuujД…c, porzucisz wszystkie do niej naleЕјД…ce.'
+msg_plot_group_toggle_confirmation: 'Ta dziaЕ‚ka jest czД™Е›ciД… grupy %s dziaЕ‚ek. Potwierdzajac, zmieniasz wЕ‚aЕ›ciwoЕ›ci ich wszystkich.'
+msg_plot_group_set_perm_confirmation: 'Ta dziaЕ‚ka jest czД™Е›ciД… grupy %s dziaЕ‚ek. Potwierdzajac, ustawisz uprawnienia ich wszystkich.'
+msg_plot_evict_group: 'WysiedliЕ‚eЕ› gracza z grupy dziaЕ‚ek %s.'
+msg_err_plot_belongs_to_group_plot_fs: 'DziaЕ‚ka: %s naleЕјy do grupy, uЕјyj "/plot group [nazwa grupy] forsale [koszt]"'
+msg_err_plot_belongs_to_group_set: 'DziaЕ‚ka naleЕјy do grupy, uЕјyj "/plot group set"'
+msg_plot_group_set_for_sale: 'Grupa %s zostaЕ‚a wystawiona na sprzedaЕј!'
+msg_err_plot_already_belongs_to_a_group: 'Ten teren juЕј naleЕјy do grupy: %s. UsuЕ„ Blok Miasta z grupy zanim dodasz go do innej grupy.'
+msg_err_you_must_specify_a_group_name: 'Musisz okreЕ›liД‡ nazwД™ grupy.'
+msg_plot_was_put_into_group_x: 'DziaЕ‚ka &9(%s,%s) &2zostaЕ‚a wЕ‚Д…czona do grupy %s'
+msg_err_plot_not_associated_with_a_group: 'Ta dziaЕ‚ka nie naleЕјy do Ејadnej grupy.'
+msg_plot_was_removed_from_group_x: 'DziaЕ‚ka &9(%s,%s) &2zostaЕ‚a usuniД™ta z grupy %s'
+msg_plot_renamed_from_x_to_y: 'Nazwa dziaЕ‚ki zmieniЕ‚a siД™ z %s na %s.'
+msg_err_plot_group_specify_price: 'Podaj cenД™ dziaЕ‚ki, np.: /plot group forsale [kwota]'
+msg_player_put_group_up_for_sale_amount: '%s wystawiЕ‚ grupД™ dziaЕ‚ek %s na sprzedaЕј za %s!'
+msg_player_put_group_up_for_sale: '%s wystawiЕ‚ grupД™ dziaЕ‚ek %s na sprzedaЕј!'
+msg_err_could_not_set_group_type: 'Nie moЕјna ustawiД‡ rodzaju grupy - '
+msg_set_group_type_to_x: 'Zmieniono rodzaj grupy dziaЕ‚ki na %s'
+msg_player_successfully_bought_group_x: '%s kupiЕ‚ grupД™ dziaЕ‚ek %s'
+status_plot_group_name_and_size: 'Blok Miasta jest czД™Е›ciД… grupy: %s. SkЕ‚ada siД™ ona z %s BlokГіw Miasta.'
+msg_player_made_group_not_for_sale: '%s uczyniЕ‚ grupД™ %s nie na sprzedaЕј.'
+#Added in 0.69
+msg_err_cannot_set_group_to_jail: 'Grupy dziaЕ‚ek nie mogД… byД‡ wiД™zieniami.'
+#Added in 0.70
+msg_err_plot_group_name_required: 'Musisz podaД‡ nazwД™ grupy. Np.: /plot group add {nazwa}'
+msg_confirmation_spigot_click_accept: 'Kliknij %s lub napisz %s'
+msg_confirmation_spigot_click_cancel: 'Kliknij %s lub napisz %s'
+msg_you_cannot_kick_yourself: 'Nie moЕјesz wyrzuciД‡ siebie.'
+msg_you_cannot_kick_this_resident: 'Nie moЕјesz wyrzuciД‡ %s, bo jest on Burmistrzem lub Asystentem.'
+#Added in 0.71
+msg_err_plot_belongs_to_group_plot_fs2: 'DziaЕ‚ka: %s naleЕјy do grupy, uЕјyj /plot group fs [amount]'
+msg_err_plot_belongs_to_group_plot_nfs: 'DziaЕ‚ka: %s naleЕјy do grupy dziaЕ‚ek, uЕјyj "/plot group nfs"'
+#Added in 0.72
+msg_err_admin_controlled_pvp_prevents_you_from_changing_pvp: 'Ustawienie %s ustawione przez administratora nie zezwala na przeЕ‚Д…czanie PVP na %s.'
+#Added in 0.73
+msg_err_you_aren't currently jailed: 'Nie jesteЕ› aktualnie wiД™ziony.'
+#Added in 0.74
+msg_err_you_are_not_allowed_to_create_the_other_side_of_this_portal: 'W tym miejscu nie moЕјna stworzyД‡ drugiej strony portalu.'
+#Added in 0.75
+msg_already_ally: 'Twoja nacja jest juЕј sprzymierzona z %s.'
+#Added in 0.76
+msg_you: 'ciД™'
+#Added in 0.77
+msg_click_spawn: '&aKliknij, aby pojawiД‡ siД™ w: &e%s'
+msg_spawn_cost: '&aKoszt Spawnu = &e%s'
+#Added in 0.78
+msg_reload_error: 'WystД…piЕ‚ bЕ‚Д…d podczas przeЕ‚adowywania Towny.'
+msg_reloaded_config: '&2Config zostaЕ‚ przeЕ‚adowany.'
+msg_reloaded_perms: '&2Permisje zostaЕ‚y przeЕ‚adowane.'
+msg_reloaded_db: '&2Baza danych zostaЕ‚a przeЕ‚adowana'
+msg_reloaded_lang: '&2Plik tЕ‚umaczenia zostaЕ‚ przeЕ‚adowany'
+msg_reset_config: '&2Zresetowano config'
+msg_err_teleport_cancelled: 'Poruszenie siД™ anulowaЕ‚o twojД… teleportacjД™.'
+#Added in 0.79
+msg_cache_block_error_plot_friends: 'znajomi'
+msg_cache_block_error_plot_allies: 'sojusznicy'
+msg_cache_block_error_plot_outsiders: 'obcy'
+msg_cache_block_error_plot_town_members: 'czЕ‚onkowie miasta'
+msg_err_invalid_nation_map_color: '&cNieprawidЕ‚owy kolor mapy. Dozwolone kolory to %s.'
+msg_nation_map_color_changed: '&bKolor nacji na mapie zostaЕ‚ zmieniony na %s.'
+msg_err_unable_to_add_more_residents_without_nation: 'Miasto nie moЕјe zaprosiД‡ wiД™cej niЕј %s mieszkaЕ„cГіw bez doЕ‚Д…czenia do nacji lub utworzenia nowej.'
+msg_the_following_towns_were_deleted_for_having_0_claims: 'NastД™pujД…ce miasta zostaЕ‚y usuniД™te za posiadanie 0 BlokГіw Miasta: %s'
+msg_spawn_warn: 'Spawn kosztuje %s. KontynuowaД‡? WskazГіwka: Dodaj frazД™ "-ignore", aby pominД…Д‡ takie potwierdzenia w przyszЕ‚oЕ›ci.'
+msg_confirm_purchase: 'Koszt tej akcji wynosi %s. KontynuowaД‡?'
+msg_warn_the_following_towns_will_be_removed_from_your_nation: 'NastД™pujД…ce miasta zostanД… usuniД™te z twojej nacji, poniewaЕј nie bД™dД… wystarczajД…co blisko nowej stolicy: %s. Czy chcesz kontynuowaД‡?'
+msg_ta_deposit_all_success: 'WpЕ‚acono %s do bankГіw wszystkich nacji i miast.'
+bonus_townblocks: 'bonusowe Bloki Miasta'
+#Added in 0.80
+nomad_sing: 'Nomada'
+msg_new_town_advice: 'Gratulujemy utworzenia wЕ‚asnego miasta! Miasto bД™dzie pЕ‚aciД‡В codzienny czynsz wynoszД…cy aktualnie %s. MoЕјesz przelaД‡ Е›rodki do Banku Miasta uЕјywajД…c polecenia "/t deposit <kwota>". NieposiadajД…c pieniД™dzy na czynsz, twoje miasto zostanie usuniД™te. Swoje koszty sprawdzisz poleceniem "/towny prices". NastД™pny czynsz zostanie pobrany za %s.'
+#Added in 0.81
+msg_err_teleport_cancelled_damage: 'Odniesienie obraЕјeЕ„ anulowaЕ‚o twojД… teleportacjД™.'
+#Added in 0.82
+invitation_prefix: "&8[&7Zaproszenie&8] &9"
+confirmation_prefix: "&8[&7Potwierdzenie&8] &9"
+this_message_will_expire2: '&9WygaЕ›nie automatycznie za %s sekund'
+msg_hover_next_page: 'Nastepna strona'
+msg_hover_previous_page: 'Poprzednia strona'
+#Added in 0.83
+msg_max_tax_amount_only_for_percent: "Limit podatku moЕјna ustawiД‡ jedynie miastom uЕјywajacych podatkГіw procentowych."
+msg_town_set_tax_max_percent_amount: "%s ustawiЕ‚ maksymalny procent podatku na %s."
+#Added in 0.84
+msg_err_plot_belongs_to_group_toggle: 'DziaЕ‚ka naleЕјy do grupy, uЕјyj "/plot group toggle"'
+#Added in 0.85
+msg_set_perms_reset_single: '&bZresetowano uprawnienia tej dziaЕ‚ki.'
+#Added in 0.86
+status_bank_bankrupt: '(BANKRUCTWO)'
+msg_warning_bankrupt: '&4*** UWAGA, %s JUTRO ZBANKRUTUJE PRZEZ BRAKU FUNDUSZY W BANKU ***'
+msg_town_bankrupt_by_upkeep: '&bMiasta %s nie byЕ‚o staД‡ na czynsz i zbankrutowaЕ‚o.'
+msg_town_bankrupt_by_upkeep_multiple: '&bNastepujД…cych miast nie byЕ‚o staД‡ na zapЕ‚acenie swojego czynszu i zbankrutowaЕ‚y: '
+msg_town_bankrupt_by_nation_tax: '&bMiasta %s nie byЕ‚o staД‡ na zapЕ‚acenie podatku %s i zbankrutowaЕ‚o.'
+msg_town_bankrupt_by_nation_tax_multiple: '&bNastД™pujД…cych miast nie byЕ‚o staД‡ na zapЕ‚acenie podatku na nacjД™ i zbankrutowaЕ‚y: '
+msg_town_debts_cleared: 'Miasto %s spЕ‚aciЕ‚o caЕ‚y swГіj dЕ‚ug i straciЕ‚o swГіj status bankructwa.'
+msg_err_bankrupt_town_cannot_claim: 'Nie moЕјna pozyskiwaД‡ dziaЕ‚ek dla bankrutujД…cego miasta.'
+msg_err_bankrupt_town_cannot_build: 'Nie moЕјesz budowaД‡ w bankrutuajcym mieЕ›cie.'
+msg_err_bankrupt_town_cannot_toggle_open: 'Nie moЕјesz otwieraД‡ bankrutujД…cego miasta.'
+msg_err_bankrupt_town_cannot_invite: 'Nie moЕјesz zapraszaД‡ graczy do bankrutujД…cego miasta.'
+msg_payed_nation_tax: '&bTwoje miasto zapЕ‚aciЕ‚o podatek nacji w wysokoЕ›ci %s.'
+msg_your_town_couldnt_pay_the_nation_tax_of: '&bTwojego miasta nie byЕ‚o staД‡ na podatek na nacjД™ w wysokoЕ›ci %s i zostaЕ‚o z niej wyrzucone.'
+msg_your_town_payed_upkeep: '&bTwoje miasto zapЕ‚aciЕ‚o Czynsz w wysokoЕ›ci %s.'
+msg_your_nation_payed_upkeep: '&bTwoja nacja zapЕ‚aciЕ‚a dzienny podatek w wysokoЕ›ci %s.'
+msg_your_town_couldnt_pay_upkeep: '&bTwojego miasta nie byЕ‚o staД‡ na zapЕ‚acanie czynszu wynoszД…cego %s, wiД™c zostaЕ‚o rozwiД…zane.'
+msg_your_nation_couldnt_pay_upkeep: '&bTwojД… nacjД™ nie staД‡ na zapЕ‚acanie czynszu wynoszД…cego %s, wiД™c zostaЕ‚a rozwiД…zana.'
+#Added in 0.87
+msg_town_reached_debtcap_and_is_disbanded: '&bMiasto %s nie byЕ‚o w stanie pЕ‚aciД‡ czynszu i osiД…gnД™Е‚o limit zadЕ‚uЕјenia. Miasto zostaЕ‚o rozwiД…zane.'
+msg_town_reached_debtcap_and_is_disbanded_multiple: '&bNastД™pujД…cych miast nie byЕ‚o staД‡ na czynsz i osiД…gnД™Е‚y limit zadЕ‚uЕјenia. RozwiД…zane zostajД…: '
+msg_unable_to_deposit_x: 'Nie moЕјesz umieЕ›ciД‡ %s w banku miasta.'
+msg_unable_to_withdraw_x: 'Nie moЕјesz wypЕ‚aciД‡ %s z banku miasta.'
+status_debtcap: 'Limit ZadЕ‚uЕјenia:'
+status_world_explrevert_entity: 'Cofanie WybuchГіw MobГіw:'
+status_world_explrevert_block: 'Naprawianie ZniszczeЕ„ po Eksplozji BlokГіw:'
+#Added in 0.88
+msg_nation_already_peaceful: '&cNacja juЕј jest pokojowa.'
+msg_nation_already_not_peaceful: '&cNacja juЕј jest niepokojowa.'
+#Added in 0.89
+status_world_friendlyfire: 'FriendlyFire:'
+status_world_wildernessmobs: 'Potwory w Dziczy:'
+msg_outlaw_kick_cooldown: '&cMiasto %s uznaje ciД™ za wygaЕ„ca. Masz %s na opuszczenie tego terytorium. W przeciwnym razie zostaniesz przeteleportowany do swojego punktu spawnu.'
+msg_outlaw_kicked: '&4Nie jesteЕ› mile widziany w %s. Przeteleportowano ciД™ poza miasto.'
+msg_outlaw_town_notify: '&cWygnaniec %s wkroczyЕ‚ na terytorium twojego miasta.'
+msg_your_town_payed_upkeep_with_debt: '&cTwoje miasto zapЕ‚aciЕ‚o czynsz w wysokoЕ›ci %s powiД™kszajД…c swГіj dЕ‚ug.'
+msg_payed_nation_tax_with_debt: '&cTwoje miasto zapЕ‚aciЕ‚o podatek na nacjД™ %s powiД™kszajД…c swГіj dЕ‚ug.'
+#Added in 0.90
+status_plot_clear_deletion: 'Usuwanie BlokГіw Przy Porzucaniu DziaЕ‚ki:'
+msg_err_plot_clear_disabled_in_this_world: 'Polecenie /plot clear jest wyЕ‚Д…czone na tym Е›wiecie.'
+#Added in 0.91
+msg_universe_attribution: 'Autorzy: '
+msg_universe_contributors: ' I wspГіЕ‚twГіrcy tacy jak ty. '
+msg_universe_heart: '<3'
+townblock_plu: 'Bloki Miasta'
+#Added in 0.92
+#Town Ruins
+msg_newhour_success: 'Polecenie "newhour" zostaЕ‚o wykonane'
+town_help_12: 'Odzyskaj swoje miasto ze stanu zrujnowania.'
+msg_warning_town_ruined_if_deleted: "OSTRZEЕ»ENIE!!!: JeЕ›li usuniesz miasto, wejdzie ono w stan ruiny na %d godzin. Po upЕ‚ywie tego czasu nastД…pi caЕ‚kowite usuniД™cie. W fazie ruiny wszystkie uprawnienia sД… wЕ‚Д…czone, wiД™c twoje miasto moЕјe byД‡ rabowane."
+msg_warning_town_ruined_if_deleted2: "Miasto moЕјe zostaД‡ odzyskane przez kaЕјdego jego mieszkaЕ„ca uЕјywajД…c \"/t reclaim\" za %d godzin."
+msg_err_cannot_reclaim_town_unless_ruined: '&cNie moЕјesz odzyskaД‡ miasta, poniewaЕј nie jest w stanie ruiny.'
+msg_err_cannot_reclaim_town_yet: '&cNie moЕјesz odzyskaД‡ miasta przez kolejne %d godzin.'
+msg_town_reclaimed: '&b%s odzyskaЕ‚ miasto %s.'
+msg_err_cannot_use_command_because_town_ruined: "&cNie moЕјesz uЕјyД‡ tego polecenia, poniewaЕј twoje miasto jest zrujnowane. Aby wznowiД‡ normalne uЕјycie poleceЕ„, odzyskaj miasto uЕјywajД…c ''/town reclaim'' lub opuЕ›Д‡ miasto uЕјywajД…c ''/town leave''."
+msg_warning_your_town_is_ruined_for_x_more_hours: '&cTwoje miasto bД™dzie w ruinie przez kolejne %d godz. UЕјyj "/town reclaim", aby uratowaД‡ miasto i staД‡ siД™ Burmistrzem.'
+msg_time_remaining_before_full_removal: 'Czas przed caЕ‚kowitym usuniД™ciem: %d godzin.'
+msg_time_until_reclaim_available: 'Odzyskanie tego miasta bД™dzie moЕјliwe za %d godzin.'
+msg_reclaim_available: 'Odzysk jest moЕјliwy.'
+#Added in 0.93
+msg_changed_peaceful: '&cNeutralnoЕ›Д‡ miasta jest teraz %s.'
+msg_err_town_unclaim_canceled: '&cPorzucenie anulowane. Nie moЕјesz w tej chwili porzuciД‡ tego Bloku Miasta.'
+#Added in 0.94
+msg_comptype_residents: 'Liczba MieszkaЕ„cГіw'
+msg_comptype_townblocks: 'Liczba Pozyskanych BlokГіw Miasta'
+msg_comptype_balance: 'Stan Konta'
+msg_comptype_online: 'Gracze Online'
+msg_comptype_towns: 'Liczba miast'
+msg_comptype_name: 'KolejnoЕ›Д‡ alfabetyczna'
+msg_comptype_open: 'Status Otwarty'
+msg_status_npc: '&c%s nie jest prawdziwym graczem i jest ograniczony do aktywnoЕ›ci Towny.'
+npc_created: 'Utworzono:'
+msg_no_funds_claim_plot: '&cNie moЕјesz sobie pozwoliД‡ na zakup dziaЕ‚ki kosztujД…cej %s.'
+msg_no_funds_claim_plot_group: '&cNie staД‡ ciД™ na pozyskanie %s dziaЕ‚ek, kosztujД…cych %s.'
+status_town_title_peaceful: '&b(Pokojowe)'
+#Added in 0.95
+status_public: '&b(Publiczne)'
+msg_days: ' dni'
+msg_comptype_public: 'Publiczny Status'
+towny_prices_title: 'Ceny'
+towny_prices_town_nation: '&e[Utworzenie] &2Miasto: &a%s &8| &2Nacja: &a%s'
+towny_prices_reclaim: '&e[Odzyskanie] &2Miasto: &a%s'
+towny_prices_upkeep: '&e[Czynsz] &2Miasto: &a%s &8| &2Nacja: &a%s'
+towny_prices_overclaimed_upkeep: '&e[Czynsz przy Nadmiarowych Blokach Miasta] &2Miasto: &a%s'
+towny_prices_claiming_townblock: '&e[Pozyskiwanie] &2Blok Miasta: &a%s'
+towny_prices_claiming_townblock_increase: ' &8| &2PodwyЕјka za Blok Miasta: &a+%s'
+towny_prices_claiming_outposts: '&e[Pozyskiwanie] &2PlacГіwki: &a%s'
+towny_prices_upkeep_based_on: '&7Czynsz miasta zaleЕјny jest od czynnika &a%s'
+towny_prices_upkeep_num_plots: 'liczba dziaЕ‚ek.'
+towny_prices_upkeep_town_level: 'poziom miasta (liczba mieszkaЕ„cГіw)'
+towny_prices_overclaimed_based_on: '&8Czynsz przy Nadmiarowych Blokach Miasta zaleЕјny jest od &a %s %s'
+towny_prices_overclaimed_num_plots: 'liczba nadmiarowych dziaЕ‚ek *'
+towny_prices_overclaimed_flat_cost: 'staЕ‚y koszt'
+towny_prices_townname: '&cMiasto: &b%s'
+towny_prices_price_plot: '&c    [Ceny] &2DziaЕ‚ka: &a%s &8| &2PlacГіwka: &a%s'
+towny_prices_price_shop: '&c            &2Sklep: &a%s &8| &2Ambasada: &a%s'
+towny_prices_taxes_plot: '&c    [Podatki]    &2Mieszkaniec: &a%s &8| &2DziaЕ‚ka: &a%s'
+towny_prices_taxes_shop: '&c            &2Sklep: &a%s &8| &2Ambasada: &a%s'
+towny_prices_town_neutral_tax: '&c            &2PokojowoЕ›Д‡: &a%s'
+towny_prices_plots: '&c    [Rodzaje DziaЕ‚ek]'
+towny_prices_type_single: '            &2%s: &a%s'
+towny_prices_type_double: '            &2%s: &a%s &8| &2%s: &a%s'
+towny_prices_nationname: '&cNacja: &6%s'
+towny_prices_nation_tax: '&c    [Podatki] &2Miasto: &a%s &8| &2PokГіj: &a%s'
+#Added in 0.96
+msg_town_destroyed_by_nation_tax: '&bPodbitego miasta %s nie byЕ‚o staД‡ na podatek nacji i upadЕ‚o.'
+msg_town_destroyed_by_nation_tax_multiple: '&bNastД™pujД…cych podbitych miast nie byЕ‚o staД‡ na podatek na nacjД™ i upadЕ‚y: '
+msg_your_town_was_exempt_from_the_nation_tax: '&bTwoje miasto zostaЕ‚o zwolnione z podatku dla nacji.'
+#Added in 0.97
+status_perm_line_format: '&a%s=&7' #The Build = ---- Destroy = ---- seen in the status screen.
+msg_comptype_ruined: 'Status Ruiny'
+msg_comptype_bankrupt: 'Stan Bankructwa'
+msg_ruined: '&c(Zrujnowane)'
+msg_bankrupt: '&c(UpadЕ‚oЕ›Д‡)'
+#Added in 0.98
+msg_del_town2: '&bMiasto %s zostaЕ‚o usuniД™te!'
+msg_ruin_town: '&bMiasto %s wpadЕ‚o w ruinД™!'
+gui_title_select_plot_type: 'Wybierz RodzajDziaЕ‚ki'
+gui_title_no_restrictions: 'Brak ograniczeЕ„ dla tego rodzaju dziaЕ‚ki.'
+gui_title_towny_allowedblocks: 'Lista Dozwolonych BlokГіw w %s'
+gui_title_towny_wildsblocks: 'Lista BlokГіw Dziczy Towny'
+gui_title_towny_itemuse: 'PrzykЕ‚ady uprawnienia ItemUse'
+gui_title_towny_switch: 'PrzykЕ‚ady PrzeЕ‚Д…czania'
+gui_title_towny_plotclear: 'Lista blokГіw usuwanych razem z dziaЕ‚kД…'
+#Added in 0.99 - FlatFile L10N
+#NOTICE
+#While these strings can be translated, we caution you to keep them in English.
+flatfile_dbg_cannot_set_capital_try_next: 'Nation %s could not set capital to %s, selecting a new capital...'
+flatfile_dbg_deleting_duplicate: 'Deleting: %s which is a duplicate of %s'
+flatfile_dbg_folders_found: 'Folders found %s'
+flatfile_dbg_group_file_missing_town_delete: 'Group file missing Town, deleting %s'
+flatfile_dbg_loading_group_list: 'Loading Group list...'
+flatfile_dbg_loading_nation: 'Loading Nation: %s'
+flatfile_dbg_loading_nation_list: 'Loading Nation list...'
+flatfile_dbg_loading_resident: 'Loading Resident: %s'
+flatfile_dbg_loading_resident_list: 'Loading Resident list...'
+flatfile_dbg_loading_server_world_list: 'Loading Server World List...'
+flatfile_dbg_loading_town: 'Loading Town: %s'
+flatfile_dbg_loading_town_list: 'Loading Town list...'
+flatfile_dbg_loading_townblock_list: 'Loading TownBlock list...'
+flatfile_dbg_loading_world: 'Loading World: %s'
+flatfile_dbg_loading_world_list: 'Loading World List...'
+flatfile_dbg_mismatched_townblock_size: '%s townblocks were found with a town_block_size that does not match your config, they were not loaded into memory.'
+flatfile_dbg_missing_file_delete_group_entry: 'Missing file: %s deleting entry in group.txt'
+flatfile_dbg_missing_file_delete_groups_entry: 'Missing file: %s deleting entry in groups.txt'
+flatfile_dbg_removing_nation_not_found: 'Removing %s because they are not found in the nations.txt'
+flatfile_dbg_removing_resident_not_found: 'Removing %s because they are not found in the residents.txt'
+flatfile_dbg_removing_town_not_found: 'Removing %s because they are not found in the towns.txt.'
+flatfile_dbg_town_fetch_outlaw: 'Town Fetching Outlaw: %s'
+flatfile_dbg_undefined_capital_select_new: 'Nation %s did not have a capital defined, selecting a new capital...'
+flatfile_dbg_world_loaded_townblocks: 'World: %s loaded %s TownBlocks.'
+flatfile_err_cannot_create_defaults: 'Could not create flatfile default files and folders.'
+flatfile_err_could_not_add_to_town: 'Could not add to town!'
+flatfile_err_exception_reading_file: 'Loading Error: Exception while reading file %s'
+flatfile_err_exception_reading_group_file_at_line: 'Loading Error: Exception while reading Group file %s at line: %s'
+flatfile_err_exception_reading_townblock_file_at_line: 'Loading Error: Exception while reading TownBlock file %s at line: %s.'
+flatfile_err_exception_reading_world_file_at_line: 'Loading Error: Exception while reading world file %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_file_error_reading_world_file_at_line: 'Loading Error: File error while reading %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_homeblock_load_invalid_location: '[Warning] %s - HomeBlock tried to load invalid Location.'
+flatfile_err_homeblock_load_invalid_townblock: '[Warning] %s - HomeBlock tried to load invalid TownBlock.'
+flatfile_err_homeblock_load_invalid_world: '[Warning] %s - HomeBlock tried to load invalid World.'
+flatfile_err_invalid_townblock_resident: 'Invalid resident for TownBlock %s. Skipped setting resident for TownBlock...'
+flatfile_err_loading_group_list_at_line: 'Error loading Group List at %s, in towny/data/groups.txt'
+flatfile_err_loading_world_list_at_line: 'Error loading World list at %s, in towny/data/worlds.txt'
+flatfile_err_nation_could_not_load_capital_disband: 'The nation %s could not load a capital city and is being disbanded.'
+flatfile_err_reading_nation_file_at_line: 'Loading Error: Exception while reading nation file %s at line %s, in towny/data/nations/%s.txt'
+flatfile_err_reading_outlaw_of_town_duplicate: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s is duplicated! Skipping adding duplicate...'
+flatfile_err_reading_outlaw_of_town_not_exist: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s does not exist! Removing from list...'
+flatfile_err_reading_resident_at_line: 'Loading Error: Exception while reading resident file %s at line: %s, in towny/data/residents/%s.txt'
+flatfile_err_reading_town_file_at_line: 'Loading Error: Exception while reading town file %s at line: %s, in towny/data/towns/%s.txt'
+flatfile_err_resident_tried_load_invalid_town: 'Loading Error: %s tried to load the town %s which is invalid. Removing town from the resident.'
+flatfile_err_town_homeblock_not_exist: '[Warning] %s does not have a HomeBlock.'
+flatfile_err_townblock_file_contains_unregistered_town_delete: 'TownBlock file contains unregistered Town: %s, deleting %s'
+flatfile_err_townblock_file_missing_town_delete: 'TownBlock file missing Town, deleting %s'
+flatfile_err_townblock_file_unknown_err: 'TownBlock file contains unknown error, deleting %s.'
+msg_ta_removed_all_titles_and_surnames_removed: 'Wszyscy mieszkaЕ„cy zostali pozbawieni swoich tytuЕ‚Гіw i nazwisk.'
+msg_err_homeblock_already_set_here: 'Ta dziaЕ‚ka juЕј jest Blokiem Macierzystym twojego miasta.'
+#Added in 0.100
+msg_town_merge_err_mayor_only: '&bScalenia moЕјe dokonaД‡ tylko Burmistrz.'
+msg_town_merge_err_not_close: '&cMiasto %s jest zbyt oddalone od twojego miasta. Ich Blok Macierzysty musi byД‡ oddalony o maksymalnie %d BlokГіw Miasta od Bloku Macierzystego twojego miasta.'
+msg_town_merge_request_sent: '&bPropozycja scalenia zostaЕ‚a wysЕ‚ana do Burmistrza miasta %s.'
+msg_town_merge_request_received: '&bBurmistrz miasta %s, %s poprosiЕ‚ o scalenie siД™ z twoim miastem. Ta czynnoЕ›Д‡ przeniesie wszystkie Bloki Miasta, mieszkaЕ„cГіw, oraz Е›rodki w Banku Miasta do %s.'
+msg_town_merge_request_denied: '&cЕ»Д…danie scalenia miast zostaЕ‚o odrzucone.'
+msg_town_merge_other_offline: '&cBurmistrz miasta %s, %s, jest obecnie offline. Scalenie nieudane.'
+msg_town_merge_err_too_many_residents: '&cScalenie nieudane: liczba mieszkaЕ„cГіw przekraczaЕ‚aby limit (%d)'
+msg_town_merge_err_too_many_townblocks: '&cScalenie nieudane: Nowy rozmiar miasta przekracza limit (%d)'
+msg_town_merge_err_too_many_outposts: '&cScalenie nieudane: IloЕ›Д‡ PlacГіwek przekraczaЕ‚aby limit (%d)'
+msg_town_merge_err_not_enough_money: '&cScalenie nieudane: Zbyt maЕ‚oi pieniД™dzy. (%s/%s)'
+msg_town_merge_err_too_many_purchased_townblocks: '&cScalenie nieudane: Zbyt wiele zakupionych BlokГіw Miasta (%d)'
+msg_town_merge_warning: '&cUwaga: JeЕ›li proЕ›ba zostanie zaakceptowana, scalenie siД™ z %s bД™dzie kosztowaД‡ %s.'
+msg_town_merge_debt_warning: '&cOstrzeЕјenie: Miasto %s jest zadЕ‚uЕјone, bД™dziesz zatem musiaЕ‚ spЕ‚aciД‡ jego dЕ‚ug, jeЕ›li siД™ zgodzisz na scalenie.'
+msg_town_merge_cost_breakdown: '&bRozpiska kosztГіw: Koszt bazowy: %s, koszt Bloku Miasta: %s, koszt Bankructwa: %s, koszt Bonusowych BlokГіw Miasta: %s'
+msg_town_merge_failed: '&cScalanie nie powiodЕ‚o siД™.'
+msg_town_merge_cancelled: '&cScalenie anulowane.'
+msg_town_merge_success: '&bMiasto %s, naleЕјД…ce do %s, scaliЕ‚o siД™ w miasto %s.'
+#Reasons for withdrawing/depositing for the bankhistory book.
+msg_town_merge_cost_withdraw: 'Koszty Scalenia Miast'
+msg_town_merge_transaction_reason: 'Scalenie Miasta'
+towny_prices_town_merge: '&e[Scalenie] Koszt Bazowy: &a%s &8| &2Za DziaЕ‚kД™: &a%s'
+#Added in 0.101
+msg_err_nation_not_allied_with: '&cTwoja nacja nie jest sojusznikiem nacji %s.'
+msg_err_nation_not_enemies_with: '&cTwoja nacja nie jest wrogiem nacji %s.'
+msg_err_nation_already_enemies_with: '&cTwoja nacja juЕј jest wrogiem dla %s.'
+msg_err_ally_already_requested: '&cJuЕј wysЕ‚aЕ‚eЕ› propozycjД™ sojuszu do %s.'
+msg_err_nation_not_allied_with_2: '&c%s nie jest sojusznikiem nacji %s.'
+msg_err_nation_not_enemies_with_2: '&cNacja %s nie jest wrogiem wobec %s.'
+msg_err_nation_already_allied_with_2: '&cNacja %s juЕј jest sojusznikiem dla %s.'
+msg_err_nation_already_enemies_with_2: '&c%s juЕј jest wrogiem nacji %s.'
+msg_ta_allies_enemies_updated: '&bSojusznicy/Wrogowie nacji %s zostali zaktualizowani.'
+#Added in 0.102
+towny_map_detailed_information: '&2Kliknij, aby zobaczyД‡ szczegГіЕ‚owe informacje o dziaЕ‚ce.'
+msg_err_nation_capital_too_many_residents: '&cBieЕјД…ca stolica ma zbyt wielu mieszkaЕ„cГіw, aby mogЕ‚a byД‡ zastД…piona przez %s.'
+msg_deleting_nation_will_result_in_losing_residents: '&cUwaga: RozwiД…zanie nacji obniЕјy maksymalnД… liczbД™ mieszkaЕ„cГіw w twoim mieЕ›cie do %d, przez co %d mieszkaЕ„cГіw miasta bД™dzie musiaЕ‚o go opuЕ›ciД‡.'
+#Added in 0.103
+msg_command_blocked_inside_towns: '&cNie moЕјesz uЕјywaД‡ tego polecenia wewnД…trz miast.'
+msg_command_limited: 'UЕјyД‡ tego polecenia moЕјesz jedynie bД™dД…c na naleЕјД…cych do ciebie dziaЕ‚kach.'
+#Added in 0.104
+#Don't add a space to the end please
+msg_plot_perm_claimed_at: 'Pozyskano:'
+#Added in 0.105
+msg_wilderness_use_x_in_all_worlds: 'NaruszalnoЕ›Д‡ dziczy we wszystkich Е›wiatach ma teraz stan %s.'
+msg_regenerations_use_x_in_all_worlds: 'Regeneracja na wszystkich Е›wiatach jest teraz %s.'
+#Added in 0.106
+msg_command_outsider_blocked: 'Nie moЕјsz uЕјyД‡ tego polecenia, bo nie mieszkasz w %s.'
+#Added in 0.107
+msg_jailed_for_x_hours: ' na %s godzin.'
+msg_err_this_jail_has_no_cells: 'W tym wiД™zieniu nie ma cel.'
+msg_err_no_cell_found_at_this_location: 'Nie znaleziono wiД™zienia w tym miejscu.'
+msg_jail_cell_set: 'Dodano celД™ wiД™ziennД….'
+msg_jail_cell_removed: 'UsuniД™to celД™ wiД™ziennД….'
+msg_err_resident_is_already_jailed: '%s jest juЕј wiД™ziony'
+msg_err_the_town_does_not_have_that_many_jails: 'Miasto nie ma aЕј tylu wiД™zieЕ„.'
+msg_err_that_jail_plot_does_not_have_that_many_cells: 'Ta dziaЕ‚ka wiД™zienna nie ma aЕј tylu cel.'
+msg_primary_jail_set_for_town: 'Podstawowe wiД™zienie twojego miasta zostaЕ‚o ustawione.'
+msg_x_has_been_freed_from_x: '%s zostaЕ‚ wypuszczony z wiД™zienia %s'
+msg_you_have_been_jailed: 'ZostaЕ‚eЕ› uwiД™ziony.'
+msg_run_to_the_wilderness_or_wait_for_a_jailbreak: 'Ucieknij do dziczy lub poczekaj na otwarcie wiД™zienia.'
+msg_err_player_is_not_jailed: 'Ten gracz nie jest wiД™ziony.'
+msg_you_have_paid_bail: 'WpЕ‚aciЕ‚eЕ› kaucjД™.'
+msg_you_have_been_freed_via_jailbreak: 'WiД™zienie zostaЕ‚o otwarte, jesteЕ› wolny!'
+msg_you_have_served_your_sentence_and_are_free: 'OdbyЕ‚eЕ› swojД… karД™ wiД™zienia i jesteЕ› teraz wolny!'
+msg_x_has_served_their_sentence_and_is_free: '%s odbyЕ‚ karД™ wiД™zienia i jest juЕј wolny.'
+msg_you've_been_jailed_for_x_hours: 'ZostaЕ‚eЕ› uwiД™ziony na %s godzin.'
+msg_you_are_being_sent_to_jail: 'ZostaЕ‚eЕ› zesЕ‚any do wiД™zienia.'
+msg_err_you_cannot_remove_the_last_cell: 'Nie moЕјesz usunД…Д‡ ostatniej celi w tym wiД™zieniu, dopГіki nie zostanie dodana inna komГіrka'
+msg_do_not_log_out_while_waiting_to_be_teleported: 'Nie opuszczaj gry przed teleportacjД… do wiД™zienia, bo skoЕ„czy siД™ to Е›mierciД….'
+jail_plu: 'WiД™zienia'
+jail_sing: 'WiД™zienie'
+msg_resident_has_not_played_long_enough_to_be_jailed: '%s nie graЕ‚ wystarczajД…co dЕ‚ugo, aby mГіc byД‡ wiД™zionym, poczekaj %s'
+#Added in 0.108
+msg_town_not_peaceful: '&bMiasta nie byЕ‚o staД‡ na stan pokojowy.'
+msg_town_already_peaceful: '&bMiasto juЕј jest pokojowe.'
+msg_town_already_not_peaceful: '&bMiasto juЕј teraz nie jest pokojowe.'
+msg_town_cant_peaceful: '&bTown couldn''t afford to become a peaceful town. You need to be able to pay %s per day.'
+msg_town_paid_for_neutral_status: '&bTwoje miasto zapЕ‚aciЕ‚o %s, aby zachowaД‡ swГіj pokojowy status.'
+msg_nation_paid_for_neutral_status: '&bTwoja nacja zapЕ‚aciЕ‚a %s na utrzymanie statusu pokojowego.'
+your_town_has_been_invited_to_join_nation: 'Twoje miasto zostaЕ‚o zaproszone do doЕ‚Д…czenia do nacji: %s'
+#Added in 0.109
+msg_err_no_one_to_purge: '&bNie ma nieaktywnych czЕ‚onkГіw do wyrzucenia.'
+msg_purging_will_remove_the_following_residents: '&bPotwierdЕє, Ејe chcesz wyrzuciД‡ nastД™pujД…cych mieszkaЕ„cГіw: %s'
+msg_purge_complete_x_removed: '&bOczyszczenie zakoЕ„czone, wyrzucono %s mieszkaЕ„cГіw.'
+msg_err_days_must_be_greater_than_0: 'Liczba dni musi byД‡ wiД™ksza niЕј zero.'
+msg_err_outlawed_players_no_teleport: '&4JesteЕ› wygnaЕ„cem w tym mieЕ›cie, nie moЕјesz siД™ z niego teleportowaД‡!'
+msg_err_you_cannot_use_command_while_in_outlaw_town: '&4Nie moЕјesz uЕјyД‡ tego polecenia bД™dД…c w mieЕ›cie, ktГіre uznaje ciД™ za wygnaЕ„ca.'
+#Added in 0.110
+msg_safe_mode: "[Error] Zablokowano w trybie awaryjnym!"
+msg_safe_mode_base: '[Error] Towny jest zablokowany w trybie Safe Mode z powodu bЕ‚Д™du! '
+msg_safe_mode_player: 'ZgЕ‚oЕ› administratorowi, aby sprawdziЕ‚ konsolД™ serwera.'
+msg_safe_mode_admin: 'SprawdЕє konsolД™ serwera, aby uzyskaД‡ wiД™cej informacji.'
+msg_err_you_can_only_claim_outposts_in_your_homeblocks_world: 'MoЕјesz stawiaД‡ PlacГіwki jedynie w Е›wiecie, w ktГіrym znajduje siД™ twГіj Blok Macierzysty.'
+msg_err_not_close_enough_to_your_town_nearest_plot: 'Nie moЕјna postawiД‡ PlacГіwki. JesteЕ› oddalony o %s BlokГіw Miasta od najbliЕјszej ziemi twojego miasta. Maksymalny dystans to %s BlokГіw Miasta.'
+msg_err_you_have_moved_your_homeblock_too_recently_wait_x: 'ChwilД™ temu przesunД…Е‚eЕ› swГіj Blok Macierzysty! Poczekaj %s.'
+msg_err_you_cannot_move_your_homeblock_this_far_limit_is_x_you_are_x: 'Nie moЕјesz przesunД…Д‡ Bloku Macierzystego na tak duЕјД… odlegЕ‚oЕ›Д‡. Limit wynosi %s BlokГіw Miasta. PrzekroczyЕ‚eЕ› go o %s Bloki Miasta.'
+msg_err_usingtowny_disabled: 'Ten Е›wiat ma wyЕ‚Д…czone wszelkie interakcje Towny. UЕјyj najpierw "/townyworld toggle usingtowny".'
+#Added in 0.111
+msg_plot_group_already_exists_did_you_want_to_transfer: 'Ten Blok Miasta jest juЕј czД™Е›ciД… grupy dziaЕ‚ek %s. Czy na pewno chcesz przenieЕ›Д‡ go do grupy %s?'
+msg_townblock_transferred_from_x_to_x_group: 'Blok Miasta naleЕјД…cy do grupy %s zostaЕ‚ przeniesiony do grupy %s.'
+msg_plotgroup_deleted: 'Grupa dziaЕ‚ek %s zostaЕ‚a usuniД™ta.'
+msg_plotgroup_empty_deleted: 'Grupa dziaЕ‚ek %s nie miaЕ‚a Ејadnych BlokГіw Miasta i zostaЕ‚a usuniД™ta.'
+plotgroup_plu: 'Grupy DziaЕ‚ek'
+msg_err_this_town_has_no_plot_groups: 'To miasto nie ma grup dziaЕ‚ek.'
+msg_err_this_plot_is_already_part_of_the_plot_group_x: 'Ta dziaЕ‚ka juЕј naleЕјy do grupy dziaЕ‚ek %s'
+map_hover_plot_group: 'Grupa DziaЕ‚ek: '
+map_hover_plot_group_size: ' Rozmiar: '
+map_hover_plots: '%s dziaЕ‚ek'
+#Added in 0.112
+msg_checking_for_updates: 'Sprawdzanie aktualizacji...'
+msg_no_new_updates: 'Nie znaleziono nowych aktualizacji.'
+msg_new_update_available: '&bDostД™pna nowa aktualizacja: %s | BieЕјД…ca wersja: %s'
+msg_download_here: 'Pobierz jД… tutaj: %s'
+msg_click_to_download: '&bKliknij tutaj, aby jД… pobraД‡.'
+msg_latest_version: '&2Wersja Towny: &a%s &2| Najnowsza wersja: &a%s'
+msg_up_to_date: '&aJesteЕ› na bieЕјД…co.'
+msg_click_purchase: 'Kliknij, aby kupiД‡'
+msg_you_must_join_this_town_to_claim_this_plot: 'Musisz doЕ‚Д…czyД‡ do miasta %s, aby zakupiД‡ tД™ dziaЕ‚kД™. Czy chcesz doЕ‚Д…czyД‡ do miasta, i dokoЕ„czyД‡ zakup?'
+#Added in 0.113
+status_trustedlist: 'Zaufani'
+msg_click_to_edit: '&6Kliknij, aby edytowaД‡.'
+permission_gui_header: 'Okienko Zarzadzania Uprawnieniami Towny'
+msg_last_edited: '&7&oOstatniej zmiany dokonano %s przez %s.'
+msg_trusted_added: '&bDodano %s do grona zaufanych w regionie %s.' #Last %s is either town or townblock
+msg_already_trusted: '&b%s juЕј naleЕјy do grona zaufanych w regionie %s.'
+msg_trusted_added_2: '&b%s dodaЕ‚ ciД™ do grona zaufanych w regionie %s %s.' #Last %s is the town name or worldcoord.
+msg_not_trusted: '&b%s nie naleЕјy do grona zaufanych w regionie %s.'
+msg_trusted_removed: '&bUsuniД™to %s z grona zaufanych w regionie %s.'
+msg_trusted_removed_2: '&b%s usunД…Е‚ ciД™ z grona zaufanych regionu %s %s.'
+msg_overrides_removed: '&bUsuniД™to nadpisywanie uprawnieЕ„ dla %s.'
+msg_overrides_added: '&bPrzyznano nadpisane uprawnienia graczowi %s.'
+msg_no_overrides_set: '&b%s nie posiada nadpisanych uprawnieЕ„ w tym regionie %s.'
+msg_overrides_already_set: '&b%s juЕј posiada nadpisane uprawnienia w regionie %s.'
+msg_cache_block_err: '&cNie moЕјesz w tym miejscu wykonywaД‡ czynnoЕ›ci %s.'
+msg_err_plot_belongs_to_group: '&cDziaЕ‚ka naleЕјy do grupy, uЕјyj %s.'
+plotgroup_sing: 'Grupa DziaЕ‚ek'
+msg_err_ally_limit_reached: 'Twoja nacja osiД…gnД™Е‚a limit sojusznikГіw, nie moЕјesz zaakceptowaД‡ propozycji.'
+#Added in 0.114
+msg_err_group_not_found: 'Grupa %s nie zostaЕ‚a znaleziona.'
+msg_err_expected_command_format: 'Niepoprawna skЕ‚adnia, oczekiwano: %s'
+msg_err_group_already_has_node: 'Grupa %s juЕј ma node''a %s.'
+msg_err_group_doesnt_have_node: 'Grupa %s nie ma node''a %s.'
+msg_successfully_added_node_to_group: 'Dodano %s do %s.'
+msg_successfully_removed_node_from_group: 'UsuniД™to %s z %s.'
+msg_err_there_is_already_a_town_or_nationrank_called_x: 'Istnieje juЕј %s o nazwie %s.'
+msg_err_there_is_no_town_or_nationrank_called_x: 'Brak %s o nazwie %s.'
+msg_successfully_add_rank_to_the_town_or_nation_rank: 'Dodano %s do %s.'
+msg_successfully_removed_rank_from_the_town_or_nation_rank: 'UsuniД™to %s z %s.'
+msg_err_group_has_no_nodes: 'Grupa %s nie ma przypisanych node''Гіw.'
+msg_title_group_permissions: 'Uprawnienia %s'
+help_ta_perms_listgroups: 'Lista grup.'
+help_ta_perms_group: 'PokaЕј node''y uprawnieЕ„ w grupie'
+help_ta_perms_groupaddpermnode: 'Dodaj node do grupy.'
+help_ta_perms_groupremovepermnode: 'UsuЕ„ node''a z grupy.'
+help_ta_perms_townrankadd: 'Dodaje rangД™ miejskД… do pliku konfiguracyjnego townyperms.'
+help_ta_perms_townrankremove: 'Usuwa rangД™ miejskД… z pliku konfiguracyjnego townyperms.'
+help_ta_perms_nationrankadd: 'Dodaje rangД™ nacyjnД… do pliku konfiguracyjnego townyperms.'
+help_ta_perms_nationrankremove: 'Usuwa rangД™ nacyjnД… z pliku konfiguracyjnego townyperms.'
+msg_err_that_resident_doesnt_belong_to_that_nation: 'Mieszkaniec nie naleЕјy do tej nacji.'
+#Added in 0.115
+msg_comptype_founded: 'Data zaЕ‚oЕјenia'
+msg_err_must_be_greater_than_or_equal_to: 'Liczba musi byД‡ wiД™ksza lub rГіwna %s'
+err_invalid_yaml: 'BЕ‚Д…d Е‚adowania: Nie udaЕ‚o siД™ zaЕ‚adowaД‡ pliku %s (sprawdЕє, czy yaml parser go rozpoznaje).'
+#Added in 0.116
+msg_town_map_color_changed: '&bKolor miasta na mapie zostaЕ‚ zmieniony na %s.'
+#Added in 0.117
+msg_err_this_townblock_doesnt_match_the_groups_type: 'Ten Blok Miasta nie moЕјe zostaД‡ dodany do grupy, poniewaЕј nie jest typu %s'
+#Added in 0.118
+status_title_nopvp: '&a(Brak PVP)'
+#Added in 0.119
+msg_err_resident_cannot_be_jailed_because_they_are_outlawed_there: 'Nie moЕјesz wiД™ziД‡ swojego mieszkaЕ„ca, poniewaЕј jest on w miejscu, w ktГіrym nie obowiД…zuje go prawo.'
+msg_err_resident_cannot_be_jailed_because_they_are_enemied_there: 'Nie moЕјesz wiД™ziД‡ swojego mieszkaЕ„ca, poniewaЕј znajduje siД™ w miejscu, w ktГіrym jest uwaЕјany za wroga.'
+#Added in 0.120
+msg_resident_prompt: 'WprowadЕє nazwД™ gracza na czacie lub wpisz "q", aby wyjЕ›Д‡. WygaЕ›nie automatycznie za 30 sekund.'
+msg_prompt_cancel: 'Anulowano lub przekroczono limitu czasu.'
+#Added in 0.121
+status_title_primary_colour: '&6' #Used to colour the majority of the title bar.
+status_title_secondary_colour: '&e' #Used to colour the words in the title bar.
+status_format_list_1: '&2' #First colour applied to status screen lists, ex: on /res, the friend list's Friends section.
+status_format_list_2: '&a' #Second colour applied to status screen lists, ex: on /res, the friend list's [1] section.
+status_format_list_3: '&f' #Third colour applied to status screen lists, ex: on /res, the friend list's list of friends' names section.
+status_format_key_value_key: '&2' #Colour applied to a status screen element which is just a line of text, or the key in a key/value element.
+status_format_key_value_value: '&a' #Colour applied to the value in a status screen element which has two parts, ex: Registered: SomeDate. (SomeDate is the value.)
+status_format_bracket_element: '&b' #Colour applied to a status element within a bracket, ex: [Bonus: #].
+status_format_hover_key: '&a' #Colour applied to a status screen element which is a hover-able key, ex: [Rank List]
+status_format_hover_bracket_colour: '&7' #Colour applied to the brackets of a hover-able status screen element.
+status_format_key_important: '&c' #Colour applied to an important status screen value, ex: (BANKRUPT), Ruined town reclaim lines, taxes/upkeep costs.
+status_splitter: ' &7| ' #Used in status screens where a splitter is used between values.
+status_home_element: ' &7[Blok Macierzysty: %s]'
+status_about: "Bio:"
+status_registered: 'Zarejestrowano:'
+status_lastonline: 'Ostatnia aktywnoЕ›Д‡:'
+status_fractions: '%s/%s'
+status_rank_list: 'Lista Rang'
+status_hover_click_for_more: 'Kliknij po wiД™cej informacji.'
+status_jailed: 'UwiД™ziony:'
+status_bad_yes: '&cTAK'
+status_good_no: '&aNIE'
+status_resident_tax_title: 'Podatek mieszkaЕ„ca %s'
+help_menu_command: '<blue>'
+help_menu_subcommand: '<aqua>'
+help_menu_explanation: '<gray>'
+help_menu_requirement: '<red>'
+#Added in 0.122
+msg_warn_the_following_towns_will_be_removed_from_the_merged_nation: 'Z uwagi na zbytnie oddalenie od stolicy nacji, nastД™pujД…ce miasta zostanД… usuniД™te, jeЕ›li scalanie zostanie dokoЕ„czone: %s.'
+#Added in 0.123
+msg_err_invalid_townyworld: "\"%s\" nie jest prawidЕ‚owД… nazwД… Е›wiata."
+msg_err_enter_world_name_first: 'Wpierw podaj nazwД™ Е›wiata.'
+msg_wilderness_use_set_to: '&bNaruszalnoЕ›Д‡ dziczy zostaЕ‚a ustawiona na %s w Е›wiecie %s.'
+#Added in 0.124
+msg_err_invalid_response: 'NieprawidЕ‚owa odpowiedЕє! Napisz "q", aby zakoЕ„czyД‡ lub wrГіД‡ do poprzedniego pytania.'
+msg_setup_full_guide_link: '&bKliknij tutaj po link do peЕ‚nego poradnika instalacji.'
+msg_setup_wildernessuse: 'Czy chcesz wЕ‚Д…czyД‡ naruszalnoЕ›Д‡ Dziczy? Pozwoli to graczom niszczyД‡/budowaД‡ w Dziczy.'
+msg_setup_revertunclaim: 'Czy chciaЕ‚byЕ›, aby porzucane tereny ulegaЕ‚y erozji do stanu naturalnego? Zmiany dokonane przez byЕ‚ych posiadaczy ziem zostanД… cofniД™te.'
+msg_setup_town_block_ratio: 'Jaki mnoЕјnik iloЕ›ci BlokГіw Miasta chcesz ustawiД‡? WartoЕ›ciД… domyЕ›lnД… jest 8 BlokГіw Miasta na 1 mieszkaЕ„ca. ZwiД™kszenie tej liczby pozwoli miastom zajД…Д‡ wiД™cej terenГіw za kaЕјdego mieszkaЕ„ca. Ustawienie tego parametru na 0 sprawi, Ејe zostanД… uЕјyte wartoЕ›ci ze zmiennej town_levels.'
+msg_setup_town_cost: 'Ile ma kosztowaД‡ utworzenie nowego miasta? WartoЕ›ciД… domyЕ›lnД… jest 250.'
+msg_setup_nation_cost: 'Ile powinno kosztowaД‡ utworzenie nacji? WartoЕ›ciД… domyЕ›lnД… jest 1000.'
+msg_setup_townblock_cost: 'Ile powinno kosztowaД‡ pozyskanie nowego Bloku Miasta? WartoЕ›ciД… domyЕ›lnД… jest 25. Blok jest rozmiaru chunka (przy domyЕ›lnych ustawieniach)'
+msg_setup_success: 'Zmieniono wartoЕ›ci konfiguracyjne na podane przez ciebie.'
+#Added in 0.125
+#Player has recently died and respawned and is invulnerable.
+msg_err_player_cannot_be_harmed: '%s niedawno pojawiЕ‚ siД™ na spawnie i nie moЕјe zostaД‡ zaatakowany.'
+#Player was invulnerable after respawning and has lost their invulnerability.
+msg_you_have_lost_your_respawn_protection: 'StraciЕ‚eЕ› ochronД™ po odrodzeniu.'
+#Message shown to a player when they are denied the ability to pick up items because they are under respawn protection.
+msg_err_cannot_pickup_respawn_protection: 'Nie moЕјesz podnosiД‡ przedmiotГіw, gdy jesteЕ› pod ochronД… po odrodzeniu.'
+#Added in 0.126
+#Used in the nation screen:
+status_capital: 'Stolica:'
+#Used in the resident screen's town hover, to denote when a player joined a town.
+status_joined_town: 'DoЕ‚Д…czono do miasta:'
+#Used in the town screen's nation hover, to denote when a town joined a nation.
+status_joined_nation: 'DoЕ‚Д…czono do nacji:'
+#Shown in status screen elements where a value is not known.
+status_unknown: 'nieznane'
+#Feedback given for the /ta set nationzoneoverride [townname] [size] command.
+msg_nationzone_override_set_to: 'Zmieniono miastu %s nadpisany rozmiar Strefy Nacji na %s.'
+#Feedback given for the /ta set nationzoneoverride [townname] 0 command.
+msg_nationzone_override_removed: 'Miasto %s utraciЕ‚o nadpisany rozmiar Strefy Nacji.'
+#Added in 0.127
+#Used in status screen:
+status_nation_zone_size: 'WielkoЕ›Д‡ Strefy Nacji:'
+#Shown when a player adds people to their friends list.
+msg_res_friend_added_to_list: 'Dodano %s do listy znajomych.'
+#Shown when a player removes people from their friends list.
+msg_res_friend_removed_from_list: 'UsuniД™to %s z listy znajomych.'
+#Generic resident freed from jail message.
+msg_resident_unjailed: '%s zostaЕ‚ wypuszczony.'
+#Shown when an admin uses /ta toggle devmode.
+msg_admin_toggle_devmode: 'Tryb Developerski: %s'
+#Shown when an admin uses /ta toggle debug.
+msg_admin_toggle_debugmode: 'Tryb Debugowania: %s'
+#Shown when an admin uses /ta toggle townwithdraw
+msg_admin_toggle_townwithdraw: 'WypЕ‚aty z Banku Miasta: %s'
+#Shown when an admin uses /ta toggle nationwithdraw
+msg_admin_toggle_nationwithdraw: 'WypЕ‚aty Nacji: %s'
+#Shown when claiming a town block for the town.
+msg_process_town_claim: 'Pozyskiwanie Bloku Miasta...'
+#Shown when unclaiming a town block for the town.
+msg_process_town_unclaim: 'Porzucenie Bloku Miasta...'
+#Shown when there is nothing to unclaim.
+msg_err_nothing_to_unclaim: 'Brak ziemi do porzucenia!'
+#Given as feedback when /ta checkperm is used.
+msg_perm_true: 'Uprawnienia przyznane.'
+#Given as feedback when /ta checkperm is used.
+msg_err_perm_false: 'Brak UprawnieЕ„.'
+#Shown at the bottom of the /towny map
+#First variable is townname or None, 2nd variable is plot owner's name or None.
+status_towny_map_town_line: '&2Miasto: &a%s &7| &2WЕ‚aЕ›ciciel: &a%s'
+#Shown on /towny version
+msg_towny_version: '&2Wersja Towny: &a%s'
+#Shown to admins and ops when a player has been blocked from logging into the server.
+msg_admin_blocked_login: '&2Gracz korzystajД…cy z adresu IP &c%s &2prГіbowaЕ‚ zalogowaД‡ siД™ przy uЕјyciu konta %s, co mogЕ‚oby zaszkodziД‡ gospodarce Twojego serwera, ale zostaЕ‚ zatrzymany przez Towny. RozwaЕј zbanowanie tego adresu IP!'
+#Shown during resident purge
+msg_scanning_for_old_residents: 'Poszukiwanie starych mieszkaЕ„cГіw...'
+#Shown during resident purge
+msg_deleting_resident: 'Usuwanie mieszkaЕ„ca: %s.'
+#Shown during resident purge
+msg_purge_complete: 'Czystka mieszkaЕ„cГіw ukoЕ„czona: usuniД™to %s mieszkaЕ„cГіw.'
+#Message to the Town, shown when a town is given bonus blocks.
+msg_you_have_been_given_bonus_blocks: 'Twoje miasto otrzymaЕ‚o %s bonusowych BlokГіw Miasta.'
+#Message shown when a town cannot purchase any more bonus blocks.
+msg_err_you_cannot_purchase_any_more_bonus_blocks: 'Twoje miasto nie moЕјe dokupiД‡ wiД™cej bonusowych BlokГіw Miasta. OsiД…gniД™to limit.'
+#Added in 0.128
+#Message shown to a capital city which is being denied the ability to toggle peaceful on.
+msg_err_capital_cannot_be_peaceful: 'Stolice nie mogД… wЕ‚Д…czaД‡ statusu pokojowego.'
+#Message shown as feedback for /t toggle nationzone command.
+msg_changed_nationzone: 'Strefa Nacji otaczajД…ca miasto jest teraz %s'
+#Error message shown when a town tries to toggle their nationzone which doesn't exist.
+msg_err_your_town_has_no_nationzone_to_toggle: 'Twoje miasto nie ma Strefy Nacji, ktГіrД… moЕјna by przeЕ‚Д…czyД‡!'
+#Added in 0.129
+#Shown in /towny prices, describing what controls nation upkeep.
+towny_prices_nation_upkeep_based_on: '&7Czynsz Nacji zaleЕјny jest od czynnika &a%s'
+#Shown in /towny prices, describing what controls nation upkeep when it is per town.
+towny_prices_upkeep_num_towns: 'liczba miast.'
+#Shown in /towny prices, describing that controls nation upkeep when it is per resident.
+towny_prices_upkeep_nation_level: 'poziom nacji (liczba mieszkaЕ„cГіw)'
+#Added in 0.130
+#Jail causes
+msg_jailed_mayor: 'UwiД™ziony przez Burmistrza.'
+#Jail causes
+msg_jailed_outlaw: 'Zabity bД™dД…c wygnaЕ„cem.'
+#Jail causes
+msg_jailed_war: 'Jeniec wojenny.'
+#Jail handbook messages
+msg_jailed_handbook_1: 'WyglД…da na to Ејe zostaЕ‚eЕ› uwiД™ziony za %s'
+#Jail handbook messages
+msg_jailed_handbook_2: 'Nie dobrze... CГіЕј, co moЕјesz z tym zrobiД‡? Oto kilka pomocnych wskazГіwek na czas twojej odsiadki.'
+#Jail handbook messages
+msg_jailed_handbook_3: 'ZostaЕ‚eЕ› zamkniД™ty na %s godz. Po odbyciu kary zostaniesz wypuszczony na wolnoЕ›Д‡.'
+#Jail handbook messages
+msg_jailed_handbook_4_can: 'MoЕјesz uciec z wiД™zienia opuszczajД…c swoje miasto poleceniem "/town leave".'
+#Jail handbook messages
+msg_jailed_handbook_4_cant: 'Gdy jesteЕ› uwiД™ziony, nie moЕјesz opuЕ›ciД‡ swojego miasta, aby uciec z wiД™zienia.'
+#Jail handbook messages
+msg_jailed_handbook_bail_1: 'MoЕјesz wyjЕ›Д‡ z wiД™zienia pЕ‚acД…c kaucjД™ poleceniem "/res jail paybail".'
+#Jail handbook messages
+msg_jailed_handbook_bail_2: 'Kaucja bД™dzie kosztowaД‡ %s.'
+#Jail handbook messages
+msg_jailed_handbook_5: 'JeЕ›li chcesz siД™ podjД…Д‡ ucieczki, dostaЕ„ siД™ do dziczy. Sprawi to, Ејe zostaniesz uwolniony.'
+#Jail handbook messages
+msg_jailed_handbook_6: 'Ale nie zgiЕ„ zanim dostaniesz siД™ do dziczy, bo wrГіcisz za kratki.'
+#Jail handbook messages
+msg_jailed_teleport: 'Na szczД™Е›cie perЕ‚y kresowe i owoce chorusa mogД… byД‡ uЕјywane do ucieczki, teraz musisz tylko je mieД‡.'
+#Jail handbook messages
+msg_jailed_war_prisoner: 'Jako jeniec wojenny zostaniesz uwolniony, jeЕ›li mieszkaЕ„com twojej nacji uda siД™ sprowadziД‡ HP dziaЕ‚ki wiД™ziennej do 0, lub jeЕ›li miasto, w ktГіrym jesteЕ› wiД™ziony, zostanie usuniД™ty z wojny.'
+#Jail handbook title
+msg_jailed_title: 'No i zostaЕ‚eЕ› zamkniД™ty :('
+#Jail handbook author
+msg_jailed_author: 'LitoЕ›ciwy StraЕјnik'
+#Added in 0.130
+#Message shown when there are no allies to list in /town allylist.
+msg_error_town_has_no_allies: 'Miasto nie ma sojusznikГіw.'
+#Message shown when there are no enemies to list in /town enemylist.
+msg_error_town_has_no_enemies: 'Miasto nie ma wrogГіw.'
+#Added in 0.132
+#Message shown in the lines of the baltop books
+msg_baltop_book_format: '%s. %s | %s'
+#Added in 0.133
+#Message shown when a confirmation times out.
+msg_confirmation_timed_out: 'UpЕ‚ynД…Е‚ limit czasu na potwierdzanie.'
+#Added in 0.134
+tc_player_channel_sound_muted: 'DЕєwiД™ki wiadomoЕ›ci z tego kanaЕ‚u zostaЕ‚y wyciszone'
+tc_player_channel_sound_unmuted: 'DЕєwiД™ki wiadomoЕ›ci z tego kanaЕ‚u zostaЕ‚y odciszone'
+#Added in 0.135
+msg_cant_toggle_pvp_outsider_in_plot: 'Na terenie twojej dziaЕ‚ki jest obcy, nie moЕјesz zmieniД‡ PVP!'
+#Added in 0.136
+msg_view_on_web: '&7Kliknij, aby wyЕ›wietliД‡ na stronie.'
+#Added in 0.137
+#Shown globally when a town merges with another town.
+town1_has_merged_with_town2: '&6Miasto %s wyraziЕ‚o zgodД™ na scalenie siД™ w miasto %s.'
+#Shown in the town and nation status screens to inform about neutrality costs.
+status_neutrality_cost: 'Koszt neutralnoЕ›ci:'
+#Added in 0.138
+#Line 1 of the givebonus warning.
+msg_ptw_warning_1: 'JeЕ›li zapЕ‚aciЕ‚eЕ› realnymi pieniД…dzmi za te Bloki Miasta, wiedz, Ејe serwer na ktГіrym grasz narusza licencjД™ Minecraft EULA i licencjД™ pluginu Towny.'
+#Line 2 of the givebonus warning.
+msg_ptw_warning_2: 'ZespГіЕ‚ Towny nigdy nie zamierzaЕ‚, aby powiД™kszanie miasta kosztowaЕ‚o realne pieniД™dze.'
+#Line 3 of the givebonus warning.
+msg_ptw_warning_3: 'JeЕјeli zapЕ‚aciЕ‚eЕ› prawdziwymi pieniД™dzmi, powinieneЕ› rozwaЕјyД‡ zmianД™ serwera na taki, ktГіry szanuje wolД™ zespoЕ‚u Towny.'
+#Message shown when a town invites a player to join, and that town has a nation.
+you_have_been_invited_to_join3: 'ZostaЕ‚eЕ› zaproszony do doЕ‚Д…czenia do %s&9 (Nacja: %s&9)'
+#Added in 0.139
+#Message shown when a town cannot afford to unclaim their land because the refund price is negative and charges them money.
+msg_err_your_town_cannot_afford_unclaim: 'Twojego miasta nie staД‡ na porzucenie tej ziemi. Potrzeba %s.'
+#Message shown when a town pays to unclaim their land because the refund is a negative amount.
+msg_your_town_paid_x_to_unclaim: 'Miasto zapЕ‚aciЕ‚o %s za porzucenie tej ziemi.'
+#Confirmation message shown when a player will unclaim land that costs money.
+confirmation_unclaiming_costs: 'Porzucenie tej ziemi bД™dzie kosztowaД‡ %s, czy chcesz kontynuowaД‡?'
+#Added in 0.140
+#Message shown on first join, making players aware they can change how Towny messages appear using their Client's language setting.
+msg_your_locale: 'Towny uЕјywa jД™zyka twojej gry (%s) do tЕ‚umaczenia wiadomoЕ›ci. BД…dЕє Е›wiadomy, Ејe tЕ‚umaczenie moЕјe nie byД‡ kompletne.'
+#Message shown when a player tries to rename their town too quickly.
+msg_you_must_wait_x_seconds_before_renaming_your_town: 'Musisz poczekaД‡ %s sekund przed ponownД… zmianД… nazwy miasta.'
+#Added in 1.141
+msg_newday_already_scheduled_soon: 'Wydarzenie Nowy DzieЕ„ jest juЕј zaplanowane.'
+#Added in 0.142
+#Message shown when a player is toggling neutrality too fast.
+msg_err_cannot_toggle_neutral_x_seconds_remaining: 'Nie moЕјesz zmieniД‡ statusu neutralnoЕ›ci, odczekaj %s sekund.'
+#Added in 0.143
+#Message shown when a console sender uses a command meant for in game.
+msg_err_command_not_for_console_use: 'To polecenie nie moЕјe zostaД‡В wykonane z konsoli.'
+#Added in 0.144
+#Message shown when an admin uses /ta town NAME toggle unlimitedclaims.
+msg_town_unlimitedclaims_setting_set_to: 'Miastu %s ustawiono Zniesienie Limitu Pozyskanych Ziem na %s'
+#Message shown when an admin uses up their claims and is asked if they want to turn on unlimited claiming.
+did_you_want_to_toggle_unlimited_claims: 'Nie masz wystarczajД…cej iloЕ›ci wolnych BlokГіw Miasta, aby mГіc pozyskiwaД‡. Czy chciaЕ‚eЕ› wЕ‚Д…czyД‡ pozyskiwanie bez ograniczeЕ„ dla miasta %s?'
+#Added in 0.145
+#Message shown when a conquered town tries to leave their nation.
+msg_err_your_conquered_town_cannot_leave_the_nation_yet: 'Nie moЕјesz opuЕ›ciД‡ swojej nacji, twoje miasto jest podbite.'
+msg_err_console_only: 'To polecenie moЕјe byД‡ wykonywane jedynie przez konsolД™.'
+msg_err_player_only: 'To polecenie moЕјe byД‡ wykonywane tylko przez gracza.'
+#Added in 0.146
+#Message shown when a resident toggles bordertitles with /res toggle bordertitles
+msg_border_titles_toggled: 'WiadomoЕ›ci tytuЕ‚owe wyЕ›wietlane podczas przekraczania granic sД… %s.'
+#Added in 0.147
+#Message shown confirming that an admin wants to reset their Towny config
+this_will_reset_your_config: 'Wykonanie tego polecenia spowoduje zresetowanie pliku config.yml do pliku domyЕ›lnego. Czy chcesz kontynuowaД‡?'
+#Message shown when an admin is setting a new king or capital and would override the config by doing so
+msg_warn_overriding_server_config: 'W ten sposГіb omijasz limity liczby mieszkaЕ„cГіw ustawione w konfiguracji serwera. Czy nadal chcesz kontynuowaД‡?'
+#Added in 0.148
+#Message shown when invalid outpost spawns are removed using the /ta commands.
+msg_removed_x_invalid_outpost_spawns: 'UsuniД™to nieprawidЕ‚owe punkty spawnu dla placГіwek w iloЕ›ci %d.'
+#Added in 0.149
+#Message shown when a player logs in and their town is bankrupt.
+msg_your_town_is_bankrupt: 'Twoje miasto ogЕ‚osiЕ‚o bankructwo. Przelej pieniД…dze do banku miasta poleceniem /town deposit {kwota}.'
+#Added in 0.150
+#Message shown when a player cannot do something because they have a town.
+msg_err_you_cannot_use_this_command_because_you_are_already_a_member_of_a_town: 'Nie moЕјesz uЕјyД‡ tego polecenia, bo juЕј jesteЕ› czЕ‚onkiem miasta. JeЕ›li chcesz kontynuowaД‡, musisz uЕјyД‡ ''/t leave''.'
+#Message shown when a player tries to spawn while in an town they are outlawed in, when outlaw TPing is a disallowed zone.
+msg_a_town_you_are_outlawed_in: 'miasto, ktГіre uwaЕјa ciД™ za wygnaЕ„ca.'
+#Message shown when TownyRTP could not find any towns to teleport to.
+msg_err_could_not_find_any_towns_to_rtp: 'Nie moЕјna znaleЕєД‡ otwartych, publicznych miast z dziaЕ‚kami na sprzedaЕј (na ktГіre ciД™ staД‡), do ktГіrych moЕјesz siД™В teleportowaД‡.'
+#Message showing payment for RTP.
+msg_cost_spawn_rtp: '&bObciД…Ејono ciД™ kwotД… %s za teleportacjД™В do losowej dziaЕ‚ki wystawionej na sprzedaЕј.'
+#Message shown to a player when they use the town rtp command.
+msg_you_are_about_to_be_teleported_to_a_plot: 'Za chwilД™ zostaniesz przeteleportowany na dziaЕ‚kД™ otwartego miasta %s. UЕјyj "/plot claim", aby kupiД‡ dziaЕ‚kД™ kiedy bД™dziesz na niej staЕ‚.'
+#Shown in TownyRTP when a player joins a town and is prompted to be TPd to some land to buy.
+townyrtp.the_town_has_plots_to_buy_would_you_like_to_tp: "Miasto %s ma dziaЕ‚ki, ktГіre moЕјesz kupiД‡. Czy przeteleportowaД‡ ciД™ do takiej dziaЕ‚ki?"
+#Shown when you arrive at your destination after opting in to be teleported to a plot to buy.
+townyrtp.you_have_arrived: "ZostaЕ‚eЕ› przeteleportowany na dziaЕ‚kД™, ktГіrД… moЕјesz kupiД‡. UЕјyj polecenia \"/plot claim\" jeЕјeli chcesz kupiД‡ tД™ dziaЕ‚kД™."
+#Used in the town's status screen to display plots
+status_plot_string: 'DziaЕ‚ki'
+#Displays a plot type and the amount of townblocks of that type in the town
+status_plot_hover: '%s:'
+#Usage:
+msg_usage: 'SkЕ‚adnia polecenia: %s'
+#Shown in teh bank history books when there are no pages to display
+msg_err_no_pages_to_display: 'Brak wpisГіw w historii!'
+#Added in 0.151
+#Message shown to players trying to spawn to a non-allied/non-member nation when public spawning is not allowed at all.
+msg_err_nation_unaffiliated: 'Ta nacja nie jest z tobД… wВ Ејaden sposГіb powiД…zana.'
+#Message shown to players trying to spawn to a non-nation/non-member town when public spawning is not allowed at all.
+msg_err_town_unaffiliated: 'To miasto nie jest z tobД… w Ејaden sposГіb powiД…zane.'
+#Added in 0.152
+#Message shown when a player tries to add a jail cell location where one already exists.
+msg_err_this_location_already_has_a_jailcell: 'To miejsce jest juЕј celД… wiД™ziennД….'
+#Title line of the /plot perm hud.
+msg_perm_hud_title: 'Uprawnienia DziaЕ‚ki'
+#Seen in /plot perm hud:
+msg_perm_hud_build: 'Budowanie: '
+#Seen in /plot perm hud:
+msg_perm_hud_destroy: 'Niszczenie: '
+#Seen in /plot perm hud:
+msg_perm_hud_switch: 'PrzeЕ‚Д…czanie: '
+#Seen in /plot perm hud:
+msg_perm_hud_item_use: 'UЕјyciePrzedmiotГіw: '
+#Seen in /plot perm hud:
+msg_perm_hud_plot_type: 'Rodzaj: '
+#Seen in /plot perm hud:
+msg_perm_hud_pvp: 'PVP: '
+#Seen in /plot perm hud:
+msg_perm_hud_explosions: 'Wybuchy: '
+#Seen in /plot perm hud:
+msg_perm_hud_firespread: 'Podpalanie: '
+#Seen in /plot perm hud:
+msg_perm_hud_mobspawns: 'Spawn MobГіw: '
+#Seen in /plot perm hud:
+msg_perm_hud_key: 'Klucz'
+#Seen in /plot perm hud:
+msg_perm_hud_friend: 'znajomy'
+#Seen in /plot perm hud:
+msg_perm_hud_town: 'miasto'
+#Seen in /plot perm hud:
+msg_perm_hud_ally: 'sojusznik'
+#Seen in /plot perm hud:
+msg_perm_hud_resident: 'mieszkaniec'
+#Seen in /plot perm hud:
+msg_perm_hud_nation: 'nacja'
+#Seen in /plot perm hud:
+msg_perm_hud_outsider: 'obcy'
+#Seen in /plot perm hud:
+msg_perm_hud_plot_name: 'DziaЕ‚ka: '
+#Added in 0.153
+#Message shown confirming /ta town NAME settownlevel # command.
+msg_town_level_overridden_with: 'Poziom miasta %s zostaЕ‚ ustawiony na %s.'
+#Message shown when unsetting a manual town level.
+msg_town_level_unset: 'Miasto %s utraciЕ‚o swГіj nadpisany poziom miasta. Aktualny poziom miasta to %s.'
+#Message show when a town is unable to have purchased townblocks, when /ta town NAME giveboughtblocks is used.
+msg_err_town_not_allowed_purchased_blocks: 'Miasto %s nie moЕјe kupiД‡ BlokГіw Miasta ze wzglД™du na konfiguracjД™.'
+#Message shown when unsetting all purchased townblocks from a town.
+msg_purchased_blocks_unset: 'Bloki Miasta kupione przez miasto %s zostaЕ‚y usuniД™te.'
+#Message shown when /ta town name giveboughtblocks # is used.
+msg_purchased_blocks_changed: 'Miasto %s otrzymaЕ‚o %s bonusowych BlokГіw Miasta. Aktualnie posiadajД… %s bonusowych BlokГіw Miasta.'
+#Added in 0.154
+msg_comptype_upkeep: 'Czynsz'
+#Added in 0.155
+#Message shown when toggling town upkeep admin setting
+msg_town_upkeep_setting_set_to: 'Czynsz miasta %s zostaЕ‚ ustawiony na %s.'
+#Shown when a player tries to set a plot type but their town has reached the limit, first number is the limit and the string is the type name.
+msg_town_plot_type_limit_reached: 'Twoje miasto osiД…gnД™Е‚o limit %d %s dziaЕ‚ek.'
+#Added in 0.156
+msg_spawn_cost_free: 'BezpЕ‚atny'
+#Message shown when someone tries to set a plot's type to one already set.
+msg_plot_already_of_type: 'Ta dziaЕ‚ka jest juЕј rodzaju %s.'
+msg_town_board_reset: '&bUsuniД™to OgЕ‚oszenie Miasta.'
+msg_town_has_no_jailslots: 'WiД™zienie w mieЕ›cie jest peЕ‚ne.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x_for_x_bail: '%1$s zostaЕ‚ wysЕ‚any przez %6$s do %2$s, celi numer %3$s na %4$s godz. z moЕјliwoЕ›ciД… kaucji wynoszД…cej %5$s.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x: '%1$s zostaЕ‚ wysЕ‚any przez %5$s do %2$s. W celi %3$s odbywa swГіj wyrok %4$s godz. wiД™zienia.'
+msg_you_have_been_jailed_your_bail_is_x: 'UwiД™ziono ciД™, kaucja wynosi %s.'
+msg_err_higher_than_max_allowed_bail_x: 'Ustawiona przez ciebie kaucja przewyЕјsza gГіrny limit wynoszД…cy %s.'
+msg_err_higher_than_max_allowed_hours_x: 'Liczba godzin przez ciebie zaproponowana jest wiД™ksza od maksymalnej wynoszД…cej %s.'
+msg_not_enough_money_in_bank_to_jail_x_fee_is_x: 'Za maЕ‚o pieniД™dzy w banku miasta, aby uwiД™ziД‡ %s, opЕ‚ata wynosi %s.'
+msg_you_were_released_as_town_ran_out_of_slots: 'StraЕјnicy uwolnili ciД™, Ејeby zwolniД‡ miejsce.'
+msg_x_has_been_released_as_jail_slots_ran_out: 'Wypuszczono %s, aby zwolniД‡ miejsce dla innego wiД™Еєnia.'
+msg_you_were_released_as_town_ran_out_of_upkeep_funds: 'ZostaЕ‚eЕ› uwolniony, poniewaЕј miasto, ktГіre ciД™ uwiД™ziЕ‚o nie staД‡ na trzymanie ciД™ w wiД™zieniu.'
+msg_x_has_been_released_ran_out_of_upkeep_funds: 'Uwolniono %s z powodu braku pieniД™dzy w banku miasta.'
+msg_x_has_been_withdrawn_for_upkeep_of_prisoner_x: 'WypЕ‚acono %s z banku miasta, aby opЕ‚aciД‡ koszty utrzymania wiД™Еєnia %s.'
+msg_x_has_been_withdrawn_for_jailing_of_prisoner_x: 'WypЕ‚acono %s z banku miasta, by opЕ‚aciД‡ koszty wiД™zienia %s.'
+#Message shown in the confirmation for /ta resetbanks {amount}.
+confirmation_are_you_sure_you_want_to_reset_all_banks: 'JesteЕ› pewien, Ејe chcesz zresetowaД‡ banki wszystkich miast i nacji do kwoty %s?'
+#Message shown when a nation cannot add a town because of the max-residents-limit.
+msg_err_cannot_add_nation_over_resident_limit: '&cTwoja nacja osiД…gnД™Е‚a maksymalnД… liczbД™ mieszkaЕ„cГіw w nacji, %s, zatem nie moЕјna dodaД‡ mieszkaЕ„ca %s.'
+#Message shown to a town when they cannot join a nation because of the max-residents-limit.
+msg_err_cannot_join_nation_over_resident_limit: '&cNie moЕјesz doЕ‚Д…czyД‡ do tej nacji, bo nacja przekroczyЕ‚aby limit mieszkaЕ„cГіw na nacjД™ wynoszД…cy %s.'
+#Message shown to a town because the nation has hit their max-towns-limit.
+msg_err_cannot_join_nation_over_town_limit: '&cNie moЕјecie doЕ‚Д…czyД‡ do tej nacji, bo osiД…gnД™Е‚a ona maksymalnД… liczbД™ miast na nacjД™ wynoszД…cД… %s.'
+#Message shown confirming /tw set usedefaults
+confirmation_are_you_sure_you_want_to_reset_this_worlds_settings: 'Czy na pewno chcesz zresetowaД‡ wszystkie ustawienia tego Е›wiata do tych, ktГіre zostaЕ‚y ustawione w konfiguracji?'
+#Part of the /town plots output.
+msg_town_plots_title: ' DziaЕ‚ki Miasta'
+#Part of the /town plots output.
+msg_town_plots_town_size: '<dark_green>Rozmiar Miasta: <green>%s/%s'
+#Part of the /town plots output.
+msg_town_plots_town_bought: ' <aqua>[Kupiono: %s/%s]'
+#Part of the /town plots output.
+msg_town_plots_town_bonus: ' <aqua>[Bonus: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_nationbonus: ' <aqua>[BonusNacji: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_owned_land: '<dark_green>Ziemia Miasta: <green>%s'
+#Part of the /town plots output.
+msg_town_plots_type_header: '<dark_green>Rodzaj: <green>DziaЕ‚ki Graczy<gray>/ <aqua>Na SprzedaЕј<gray>/ <yellow>ЕЃД…cznie'
+#Part of the /town plots output.
+msg_town_plots_type_header_revenue: ' <gray>/ <dark_green>Dzienny PrzychГіd'
+#Part of the /town plots output.
+msg_town_plots_type_line: '<dark_green>%s: <green>%s <gray>/ <aqua>%s <gray>/ <yellow>%s'
+#Part of the /town plots output.
+msg_town_plots_type_line_revenue: ' <gray>/ <dark_green>%s'
+#Message giving confirmation warning for trusttown
+confirmation_msg_trusttown_consequences: 'Za chwilД™ przyznasz peЕ‚ne uprawnienia na dziaЕ‚ce caЕ‚emu miastu. To oznacza, Ејe Burmistrz tego miasta bД™dzie miaЕ‚ wpЕ‚yw na to kto ma pozwolenie do budowania i niszczenia w twoim mieЕ›cie, poniewaЕј moЕјe on przyjmowaД‡ nowych mieszkaЕ„cГіw. JeЕјeli to miasto jest otwarte, kaЕјdy bД™dzie mГіgЕ‚ doЕ‚aczyД‡ i otrzymaД‡ caЕ‚kowity dostД™p do twojego miasta. Czy jesteЕ› pewien, Ејe chcesz zaufaД‡ wszystkim mieszkaЕ„com (wЕ‚Д…czajac przyszЕ‚ych) tego miasta?'
+#Message shown when a player uses a command that is blocked because their location has an active war.
+msg_command_war_blocked: 'Nie moЕјesz uruchomiД‡ tego polecenia, poniewaЕј twoje miasto jest na wojnie.'
+#Message shown when a player tries to unclaim land but cannot because an outsider is there (and the config doesn't allow this.)
+msg_cant_unclaim_outsider_in_town: 'Obcy stoi na tej dziaЕ‚ce, nie moЕјesz porzuciД‡ tego Bloku Miasta!'
+#Message shown when a player is making a town too soon after deleting one.
+msg_err_cannot_create_new_town_x_seconds_remaining: 'Nie moЕјesz utworzyД‡ nowego miasta, pozostaЕ‚o %s sekund cooldown''a.'
+#Message shown when a player is claiming land too soon after unclaiming it.
+msg_err_cannot_claim_townblock_x_seconds_remaining: 'Nie moЕјesz pozyskaД‡ tego Bloku Miasta: %s, %s sekund cooldown''a.'
+#Messages shown when an admin uses /ta set founder {townname} {foundername}
+msg_founder_set: 'ZaЕ‚oЕјyciel miasta %s zostaЕ‚ zmieniony na %s.'
+#Message shown when toggling town allowed to war admin setting
+msg_town_allowedtowar_setting_set_to: 'ZdolnoЕ›Д‡ brania udziaЕ‚u w wojnie miasta %s zostaЕ‚a ustawiona na %s.'
+#Message shown to confirm that a player wants to unclaim all of their land, besides the homeblock, seen with /t unclaim all.
+confirmation_did_you_want_to_unclaim_all: 'Czy jesteЕ› pewien, Ејe chcesz porzuciД‡ caЕ‚Д… swojД… ziemiД™? (Blok Macierzysty nie zostanie porzucony.)'
+#Message shown after a player unclaims all their land.
+msg_you_have_unclaimed_everything_but_your_homeblock: "PorzuciЕ‚eЕ› wszystko poza Blokiem Macierzystym. Aby porzuciД‡ Blok Macierzysty musisz najpierw przenieЕ›Д‡ Blok Macierzysty w inne miejsce uЕјywajД…c \"/t set homeblock\"."
+msg_warn_are_you_sure_you_want_to_transfer_nation_ownership: "<red>JesteЕ› pewien, Ејe chcesz przekazaД‡ nacjД™ graczowi %s? Ta czynnoЕ›Д‡ nie jest odwracalna!"
+msg_warn_town_already_capital: "<red>Miasto %s juЕј jest stolicД… nacji."
+msg_min_adjacent_blocks: 'Nowy Blok Miasta musi przylegaД‡ do przynajniej %s istniejД…cych juЕј BlokГіw Miasta. Aktualnie sД…siaduje jedynie z %s.'
+#Shown when a player with /plot evict permissions uses /plot claim on an owned but not for sale plot, please preserve comma space at the start when translating.
+msg_plot_claim_consider_evict_instead: ', czy nie chodzi ci o /plot evict?'
+#Shown to a player when Towny does not know of them.
+msg_you_are_unknown: "Nie jesteЕ› rozpoznawany przez Towny."
+#Generic Resident/Town/Nation/Thing is not known to Towny.
+msg_townyobject_unknown: "%s nie jest rozpoznawany przez Towny."
+#Shown when a resident is unknown to Towny.
+msg_err_resident_unknown: "Mieszkaniec %s nie jest rozpoznawany."
+#Shown when a town is unknown to Towny.
+msg_err_town_unknown: "Miasto %s nie jest rozpoznawane."
+#Shown when a nation is unknown to Towny.
+msg_err_nation_unknown: "Nacja %s nie jest rozpoznawana przez Towny."
+#Shown when a resident doesn't belong to a town.
+msg_err_townyobject_x_has_no_town: "%s nie naleЕјy do Ејadnego miasta."
+#Shown when a town doesn't belong to a nation.
+msg_err_townyobject_x_has_no_nation: "Miasto %s nie naleЕјy do Ејadnej nacji."
+#Shown to admins when they use /plot claimedat on a plot which has no registration date.
+msg_err_townblock_has_no_claimedat_data: "Ten Blok Miasta nie posiada danych o dacie pozyskania."
+#Shown when someone cannot afford something, to tell them what it costs.
+msg_err_you_need_x_to_pay: "Potrzebujesz %s, aby mГіc zapЕ‚aciД‡."
+#Shown when someone tries to deposit/withdraw 0 amounts.
+msg_err_amount_must_be_greater_than_zero: "Kwota musi byД‡ wiД™ksza niЕј zero."
+#Message shown when taking over claims is disabled on a server.
+msg_err_taking_over_claims_is_not_enabled: "Podbieranie BlokГіw Miasta nie jest wЕ‚Д…czone na tym serwerze."
+#Messages shown when taking over a claim is not allowed because the town is not overclaimed.
+msg_err_this_townblock_cannot_be_taken_over: "Ten Blok Miasta nie moЕјe zostaД‡ podebrany. Miasto, do ktГіrego naleЕјy, nie przekroczyЕ‚o limitu ziemi."
+#Message shown when taking over a claim would also set the homeblock because the town has no claims.
+msg_err_you_cannot_make_this_your_homeblock: "Nie moЕјesz podebraД‡ tej dziaЕ‚ki, bo ten Blok Miasta staЕ‚by siД™ twoim Blokiem Macierzystym, co jest niedozwolone."
+#Message shown when taking over a claim is stopped by another plugin.
+msg_err_another_plugin_cancelled_takeover: "Inny plugin nie pozwoliЕ‚ ci podebraД‡ tej ziemi."
+#Confirmation shown when taking over a claim.
+confirmation_you_are_about_to_take_over_a_claim: "Podbierzesz dziaЕ‚kД™ naleЕјД…cД… do miasta %s za kwotД™ %s. Czy chcesz kontynuowaД‡?"
+#Warning message shown when a town is beginning to claim close to their limit, and the takeoverclaim feature is active.
+msg_warning_you_are_almost_out_of_townblocks: "OstrzeЕјenie: WykorzystaЕ‚eЕ› niemalЕјe wszystkie wolne Bloki Miasta. JeЕ›li stracisz mieszkaЕ„ca, bД™dziesz naraЕјony na podebranie twoich BlokГіw Miasta przez inne miasta."
+#Warning message shown on login when a town is overclaimed and at risk of falling victim to the takeoverclaim feature.
+msg_warning_your_town_is_overclaimed: "OstrzeЕјenie: Twoje miasto przekroczyЕ‚o limit ziemi. Gdy posiadasz zbyt wiele BlokГіw Miasta, inne miasta mogД… podbieraД‡ dziaЕ‚ki z Twojego miasta. RozwaЕј porzucenie jakiejЕ› ziemi."
+#Chunk Notification slug, shown when entering a plot that can be stolen.
+chunk_notification_takeover_available: " <red>[MoЕјliwe Podebranie]"
+#Message shown when a takeover claim would cut a town into two sections.
+msg_err_you_cannot_over_claim_would_cut_into_two: "Nie moЕјesz podebraД‡ tej dziaЕ‚ki, bo miasto zostaЕ‚oby rozdzielone na dwie niepoЕ‚Д…czone czД™Е›ci. BД™dziesz musiaЕ‚ podebraД‡ innД… dziaЕ‚kД™."
+#Message shown when an admin tries to toggle conquered off of a town that is not conquered.
+msg_err_that_town_is_not_conquered: "Miasto %s juЕј jest niepodbite."
+#Message shown when a town has its conquered status removed by an admin.
+msg_conquered_status_removed: "UsuniД™to status podbicia miastu %s."
+msg_setup_command_folia: "Polecenie /ta install aktualnie nie dziaЕ‚a na serwerze Folia przez niedziaЕ‚ajД…ce conversaion API. Zamiast niego, zapoznaj siД™ z przewodnikiem instalacji poniЕјej."
+msg_perm_gui_folia: "Ten przycisk aktualnie nie dziaЕ‚a na serwerze Folia ze wzglД™du niedziaЕ‚ajД…ce conversation API, uЕјyj polecenia /plot perm add <nazwa>."
+msg_folia_scoreboard: "Zmienianie scoreboard'Гіw nie jest wspierane na serwerze Folia."
+#Message shown when a player cannot unclaim land because at least one plot wouldn't have enough adjacent claims.
+msg_err_cannot_unclaim_not_enough_adjacent_claims: "Nie moЕјesz porzuciД‡ tego Bloku Miasta, bo do dziaЕ‚ki na koordynatach %s,%s przylegaЕ‚aby niewystarczajД…ca iloЕ›Д‡ BlokГіw Miasta. (wymagane jest %s.)"
+#Message shown when a nation collects taxes from its towns.
+msg_tax_collected_from_towns: "<aqua>Twoja nacja zebraЕ‚a %s w podatkach od swoich miast."
+#Message shown when a nation pays taxes to its towns.
+msg_tax_paid_to_towns: "<aqua>Twoja nacja zapЕ‚aciЕ‚a swoim miastom %s w podatkach."
+#Message shown when a town collects taxes from its residents.
+msg_tax_collected_from_residents: "<aqua>Twoje miasto zebraЕ‚o %s w podatkach od mieszkaЕ„cГіw."
+#Message shown when a town pays taxes to its residents.
+msg_tax_paid_to_residents: "<aqua>Twoje miasto zapЕ‚aciЕ‚o swoim mieszkaЕ„com %s w podatkach."
+#Message shown when a town collects taxes from its plottaxes.
+msg_tax_collected_from_plots: "<aqua>Twoje miasto zebraЕ‚o %s w podatkach za swoje dziaЕ‚ki."
+#Message shown when a town pays taxes to its plottaxes.
+msg_tax_paid_to_residents_for_plots: "<aqua>Twoje miasto zapЕ‚aciЕ‚o wЕ‚aЕ›cicielom dziaЕ‚ek %s w ramach podatku dziaЕ‚kowego."
+#Message shown when a nation collects taxes from its towns that are conquered.
+msg_tax_collected_from_conquered_towns: "<aqua>Twoja nacja zebraЕ‚a %s w bonusowych podatkach od podbitych miast."
+msg_your_town_was_exempt_from_the_nation_conquered_tax: "<aqua>Twoje miasto zostaЕ‚o zwolnione z trybutu na rzecz nacji."
+msg_nation_set_conquered_tax__amount_set: "%s ustawiЕ‚ trybut na kwotД™ %s."
+msg_err_cannot_set_nation_conquere_tax_amount_higher_than: "Nie moЕјesz ustawiД‡ trybutu powyЕјej %s."
+msg_err_your_town_is_not_old_enough_to_overclaim: "Twoje miasto nie jest wystarczajД…co stare, by mГіc podbieraД‡ ziemiД™. Musisz poczekaД‡ %s."
+msg_err_your_cannot_overclaim_for_another: "Nie moЕјesz podebraД‡ dziaЕ‚ki przez kolejne %s."
+#Generic error message for when a world isn't loaded
+msg_err_world_not_loaded: "<red>Ељwiat nie jest zaЕ‚adowany."
+#Message shown when a mayor toggles a plots taxed status.
+msg_changed_plot_taxed: '&cStan opodatkowania tej dziaЕ‚ki zostaЕ‚ ustawiony na %s.'
+status_forsale: "&a(Na sprzedaЕј: %s)"
+msg_town_forsale: "Miasto %s zostaЕ‚o wystawione na sprzedaЕј za %s."
+msg_town_notforsale: "Miasto %s nie jest juЕј na sprzedaЕј."
+msg_town_sell_confirmation: "Wystawisz swoje miasto na sprzedaЕј za %s. JesteЕ› pewien, Ејe chcesz kontynuowaД‡?"
+msg_town_buytown_already_mayor: "JuЕј jesteЕ› Burmistrzem miasta %s."
+msg_town_buytown_confirmation: "Zakup miasta %s bД™dzie kosztowaД‡ %s i usunie ciД™ miasta, do ktГіrego aktualnie naleЕјysz. Czy na pewno chcesz kontynuowaД‡?"
+msg_town_buytown_not_forsale: "To miasto nie jest na sprzedaЕј."
+msg_town_buytown_ruined: "Ruined towns cannot be bought."
+msg_resident_about_reset: "&bResetowanie bio mieszkaЕ„ca."
+msg_err_invalid_string_about_not_set: "Niepoprawna treЕ›Д‡, bio nie zostaЕ‚o ustawione."
+msg_set_about: "Bio mieszkaЕ„ca %s zostaЕ‚o ustawione na %s."
+msg_clear_about: "Bio %s zostaЕ‚o usuniД™te."
+#Message shown when toggling town visibleontoplists setting
+msg_town_visibleontoplist_setting_set_to: 'The town %s has had their visible-on-top-lists setting set to %s.'
+#Message shown when an admin overrides a town founding date via townyadmin.
+townyadmin_town_set_help_0: "Sets the founding date of a town."
+townyadmin_nation_set_help_0: "Sets the founding date of a nation."
+msg_town_registered_set: "Founding date of town: '%s' set to: '%s'."
+msg_nation_registered_set: "Founding date of nation: '%s' set to: '%s'."
+msg_err_time_cannot_be_in_the_future: "Specified time cannot be in the future."
+#The format used for the /t say and /n say commands.
+town_say_format: "%s says: %s"
+msg_err_floodfill_not_in_wild: "You cannot use floodfill while standing in a claimed area."
+msg_err_floodfill_out_of_bounds: "Claim shape must be fully closed off in order to floodfill."
+msg_err_floodfill_cannot_contain_towns: "Flood fill selection must not contain other towns."
+#Message shown when a resident is an NPC and is not allowed to do something.
+msg_err_resident_is_npc: "You cannot do this to an NPC resident."
+#Message shown when a resident doesn't own any land and the /res plotlist command is used.
+msg_err_resident_doesnt_own_any_land: "The resident does not own any land personally."
+msg_unnamed: "Unnamed"

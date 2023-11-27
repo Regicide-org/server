@@ -1,0 +1,2063 @@
+---
+name: Towny
+language: english
+author: ElgarL
+website: 'https://townyadvanced.github.io/'
+description: >
+  Language file for all game messages for this Locale.
+#A note on editing this file.
+#----------------------------
+#Do not alter this file if it is in the reference folder.
+#Before you edit this file, read about how Towny handles
+#language files:
+#https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#multi-language.
+#A note on text formatting (how Towny status_title_pvpinserts words.)
+#----------------------------------------------------
+#You MUST retain spacing in the texts.
+#If a text begins or ends with a space, it must remain that
+#way.
+#%s = data to be supplied by the plugin.
+#If you find that a line has multiple %s variables which would
+#be in a different order in your language, you can change them
+#to %1$s, %2$s, %4$s, %3$s to change their order. ie: %4$s
+#will always use the 4th variable, no matter where it is
+#placed on the line.
+#A note on text colouring and formatting.
+#----------------------------------------
+#Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+#Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+#DarkPurple = &9, LightGreen = &a, LightBlue = &b
+#Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+#This language file also supports using MiniMessage for colours
+#and formatting. Learn about MiniMessage formatting here:
+#https://docs.adventure.kyori.net/minimessage/format.html
+default_towny_prefix: '&6[Towny] &b'
+default_town_prefix: '&6[%s] &b'
+default_nation_prefix: '&6[%s] &6'
+unclaimed_plot_name: 'Slobodan plot'
+unclaimed_zone_name: 'Divljina'
+############################################################
+#+------------------------------------------------------+ #
+#|help messages                                         | #
+#+------------------------------------------------------+ #
+############################################################
+help_0: 'OpЕЎta Towny PomoД‡'
+help_1: 'Probajte sa sledeД‡im komandama kako biste nauДЌili viЕЎe o towny-u.'
+help_2: 'Gradsko Д†askanje'
+help_3: 'Nacionalno Д†askanje'
+help_4: 'Resident command help.'
+help_5: 'Town command help.'
+help_6: 'Nation command help.'
+help_7: 'Plot command help.'
+help_8: 'Towny command help.'
+help_9: 'Townyadmin command help.'
+towny_help_0: "General help for Towny"
+towny_help_1: "Displays a map of the nearby townblocks"
+towny_help_2: "Display the prices used with Economy"
+towny_help_3: "Display highscores"
+towny_help_4: "Display time until a new day"
+towny_help_5: "Displays stats"
+towny_help_6: "Displays the version of Towny"
+towny_top_help_0: "List top residents based on subcommand."
+towny_top_help_1: "List top land-owners based on subcommand."
+towny_top_help_2: "List wealthiest based on subcommand."
+town_help_1: 'Status VaЕЎeg grada'
+town_help_2: '[gradonaДЌelnik]'
+town_help_3: 'Status odabranog grada'
+town_help_4: 'PreДЌica do statusa grada na VaЕЎoj lokaciji.'
+town_help_5: 'Teleportujte se do spawn-a grada.'
+town_help_6: 'Novi grad sa Vama kao gradonaДЌelnikom.'
+town_help_7: 'Novi grad sa navedenim gradonaДЌelnikom.'
+town_help_8: 'Navedite komande za gradonaДЌelnike.'
+town_help_9: 'Danas je taj dan!'
+town_help_10: 'Navedite sve online stanovnike u gradu'
+town_help_13: "See a list of residents in the town."
+town_help_14: "See a list of ranks in the town."
+town_help_15: "See a list of outlaws in the town."
+town_help_16: "See a list of plotgroups in the town."
+town_help_17: "See a list of plot types in the town."
+town_help_18: "Say a message to the town members."
+town_help_19: "Set your town for sale, able to be bought by other players."
+town_help_20: "Set your town not for sale."
+town_help_21: "Buy the given town, as long as it is for sale."
+town_help_22: "Deposit money into your town's bank."
+town_help_23: "Used to modify your resident's town ranks."
+town_help_24: "Used to delete your town."
+town_help_25: "Used to modify your town's outlaws."
+town_help_26: "List all towns, see /t list ? for help."
+town_help_27: "Leave the town you're a member of."
+town_help_28: "Withdraw money from your town's bank."
+town_help_29: "Use /t claim ? for help."
+town_help_30: "Used to unclaim land from your town."
+town_help_31: "Add or remove residents."
+town_help_32: "Use /t set ? for help."
+town_help_33: "Use /t buy ? for help."
+town_help_34: "Use /t toggle ? for help."
+town_help_35: "Use /t rank ? for help."
+town_list_help_0: "View the specified page."
+town_list_help_1: "List towns by resident-count, with the specified page."
+town_list_help_2: "List towns which are open, with the specified page."
+town_list_help_3: "List towns using bank balance, with the specified page."
+town_list_help_4: "List towns in alphabetical order, with the specified page."
+town_list_help_5: "List towns by claimed land, with the specified page."
+town_list_help_6: "List towns by number online, with the specified page."
+town_set_help_0: "Set your town's board."
+town_set_help_1: "Set your town's homeblock to where you're standing."
+town_set_help_2: "Sets the spawn point in your homeblock or an outpost spawnpoint when stood in an outpost."
+town_set_help_3: "See /town set perm ? for help."
+town_set_help_4: "Set your town's tax amount."
+town_set_help_5: "Set the special amounts for per-plot taxes."
+town_set_help_6: "Set the default prices for buying plots."
+town_set_help_7: "Set the cost to use /t spawn."
+town_set_help_8: "Set your town's name."
+town_set_help_9: "Set your town's tag."
+town_set_help_10: "Set the title or surname of your resident."
+town_set_help_11: "Set the max amount of money a percentage tax can take from a resident."
+town_jail_help_0: "List the town's jails."
+town_jail_help_1: "Jail a resident in the primary jail."
+town_jail_help_2: "Jail a resident in the primary jail, for the specified hours."
+town_jail_help_3: "Jail a resident in the primary jail, for the specified hours, in the specified jail."
+town_jail_help_4: "Jail a resident in the primary jail, for the specified hours, in the specified jail and cell."
+town_jail_help_5: "Jail a resident in the primary jail, for the specified hours, with the given bail amount."
+town_jail_help_6: "Jail a resident in the primary jail, for the specified hours, with the given bail amount, in the specified jail."
+town_jail_help_7: "Jail a resident in the primary jail, for the specified hours, with the given bail amount, in the specified jail and cell."
+town_jail_help_8: "Unjails the resident."
+town_purge_help: "Purges residents that have not logged in for the given amount of days."
+town_trust_help_0: "Adds a resident as Trusted in the town."
+town_trust_help_1: "Removes a resident as Trusted in the town."
+town_trust_help_2: "Lists the Trusted residents of a town."
+town_towntrust_help_0: "Adds a town as Trusted in the town."
+town_towntrust_help_1: "Removes a town as Trusted in the town."
+town_towntrust_help_2: "Lists the Trusted towns of a town."
+mayor_help_3: 'Claim-ujte oblast koja nije vezana za grad'
+mayor_help_4: 'Claim-ujte oko Vas do polupreДЌnika X'
+mayor_help_5: 'Claim-ujte do maksimalnog polupreДЌnika'
+mayor_help_6: 'Unclaim-ujte ovaj gradski blok'
+mayor_help_7: 'PokuЕЎajte unclaim-ovati oko sebe.'
+mayor_help_8: 'PokuЕЎajte da unclaim-ujete sve gradske blokove.'
+nation_help_1: 'Status VaЕЎe nacije'
+nation_help_2: '[nacija]'
+nation_help_3: 'Status odabrane nacije'
+nation_help_4: 'Navedite sve nacije'
+nation_help_5: 'Napustite VaЕЎu naciju'
+nation_help_6: 'Osnujte novu naciju'
+nation_help_7: 'Lista komandi vodje nacije'
+nation_help_8: 'Osnujte novu naciju'
+nation_help_9: 'Navedite sve online stanovnike nacije'
+nation_help_11: "Lists the towns in the nation."
+nation_help_12: "Lists the allied nations of the nation."
+nation_help_13: "Lists the enemied nations of the nation."
+nation_help_14: "Used to join open nations."
+nation_help_15: "Deposits money into the nation bank."
+nation_help_16: "Used to delete your nation."
+nation_help_17: "Used to add or remove ranks from residents."
+nation_help_18: "See /n rank ? for help."
+nation_list_help_0: "View the specified page."
+nation_list_help_1: "List nations by resident-count, with the specified page."
+nation_list_help_2: "List nations by town-count, with the specified page."
+nation_list_help_3: "List nations which are open, with the specified page."
+nation_list_help_4: "List nations using bank balance, with the specified page."
+nation_list_help_5: "List nations in alphabetical order, with the specified page."
+nation_list_help_6: "List nations by claimed land, with the specified page."
+nation_list_help_7: "List nations by number online, with the specified page."
+nation_set_help_0: "Change the leader of the nation."
+nation_set_help_1: "Change the capital city of the nation."
+nation_set_help_2: "Set the amount of tax that towns will pay."
+nation_set_help_3: "Set the amount of tax that conquered towns will pay."
+nation_set_help_4: "Set the name of the nation."
+nation_set_help_5: "Set the title or surname of one of your residents."
+nation_set_help_6: "Set the nation tag."
+nation_set_help_7: "Set the nation board message."
+nation_set_help_8: "Set the nation spawn point."
+nation_set_help_9: "Set the cost to use /n spawn."
+nation_set_help_10: "Set the mapcolor used in Mapping plugins."
+nation_toggle_help_0: "Toggles peaceful status of the nation."
+nation_toggle_help_1: "Toggles public status, allowing non-residents to use /n spawn."
+nation_toggle_help_2: "Toggles open status, allowing towns to join without an invite."
+nation_toggle_help_3: "Toggles taxpercent, making towns pay a percentage instead of fixed rate."
+king_help_1: 'Pomoc vodji nacije'
+king_help_2: 'Postavite svoj savez.'
+king_help_3: 'Postavite svoje protivnike.'
+king_help_4: "Withdraw money from your nation bank."
+king_help_5: "Add or remove towns from your nation."
+king_help_6: "Use /n set ? for help."
+king_help_7: "Use /n toggle ? for help."
+king_help_8: "Used to absorb another nation into your nation."
+king_help_9: "Used to message everyone in your nation."
+res_1: 'VaЕЎ status'
+res_2: '[stanovnik]'
+res_3: 'Status odabranog igraДЌa'
+res_4: 'Izlistajte sve aktivne ДЌlanove'
+res_5: 'za pomoД‡'
+res_6: 'Online'
+res_7: 'TaДЌno ime'
+res_8: 'Just a humble farmer'
+res_9: "How much tax you will pay per day."
+res_10: "See /res jail ? for help."
+res_11: "See /res toggle ? for help."
+res_12: "See /res set ? for help."
+res_13: "Spawn to your town or bed."
+res_toggle_help_0: "Toggle your plots' pvp status."
+res_toggle_help_1: "Toggle your plots' fire status."
+res_toggle_help_2: "Toggle your plots' mobs status."
+res_toggle_help_3: "Toggle your plots' explosion status."
+res_toggle_help_4: "Toggle the ability to see plot borders."
+res_toggle_help_5: "Toggle the ability to see constant plot borders."
+res_toggle_help_6: "Toggle the ability to see town borders."
+res_toggle_help_7: "Toggle the ability to see plot notifications."
+res_toggle_help_8: "Toggle the ability to claim where you walk."
+res_toggle_help_9: "Toggle the ability to see the map when you change plots."
+res_toggle_help_10: "Remove all modes."
+res_toggle_help_11: "Spy on chat channels."
+res_toggle_help_12: "Toggle the ability to add plots to a plotgroup you have started."
+res_toggle_help_13: "Toggle the ability to see title messages when you change plots."
+res_toggle_help_14: "Toggle the ability to unclaim where you walk."
+res_toggle_help_15: "Toggle the ability to use the infotool to learn proper block/entity names."
+res_toggle_help_16: "Toggle the ability to deactivate your admin priviledges."
+res_jail_help_0: "Pays the bail cost to get out of jail."
+res_set_help_0: "Set your resident's About/Bio"
+res_set_help_1: "Set your resident's default plot permissions."
+res_set_help_2: "Set your resident's modes."
+mode_1: 'Prikaz mape izmeД‘u svakog gradskog bloka'
+mode_2: 'PokuЕЎajte da claim-ujete hodajuД‡i'
+mode_3: 'PokuЕЎajte da unclaim-ujete hodajuД‡i'
+mode_4: 'Podrazumevano Д‡askanje do gradskog kanala'
+mode_5: 'Chat sa kanalom nacije po difoltu'
+mode_6: 'MoЕѕete postaviti %s u okviru protivniДЌkih granica zarad pravljenja ratnih zona.'
+plot_perms: 'Koristite %s umesto %s za permisije koje se tiДЌu plotova.'
+plot_perms_1: 'Dozvole nestanovnika se ne vaЕѕe u stanovniДЌkim plotovima.'
+res_list: 'Stanovnici'
+res_sing: 'Stanovnik'
+mayor_sing: 'GradonaДЌelnik'
+admin_sing: 'Admin'
+town_sing: 'Grad'
+nation_sing: 'Nacija'
+nation_plu: 'Nacije'
+king_sing: 'Vodja'
+town_plu: 'Gradovi'
+world_plu: 'Svetovi'
+world_sing: 'Svet'
+world_help_1: 'Status trenutnog sveta'
+world_help_2: '[svet]'
+world_help_3: 'Status odabranog sveta'
+world_help_4: 'Nabrojte sve svetove'
+world_help_5: 'Ponovno generiЕЎite ovaj chunk'
+world_help_6: 'See /tw toggle ? for help'
+world_help_7: 'See /tw set ? for help'
+world_set_help_0: "Set the world's wilderness name."
+world_toggle_help_0: "Toggle on/off if towns can claim land in this world."
+world_toggle_help_1: "Toggle on/off if Towny is enabled in this world."
+world_toggle_help_2: "Toggle on/off if wars can happen in this world."
+world_toggle_help_3: "Toggle on/off if pvp or forcepvp is enabled in this world."
+world_toggle_help_4: "Toggle on/off if friendlyfire is enabled in this world."
+world_toggle_help_5: "Toggle on/off if explosions are enabled or forced in this world."
+world_toggle_help_6: "Toggle on/off if fires are enabled or forced in this world."
+world_toggle_help_7: "Toggle on/off the various mobs spawning settings in this world."
+world_toggle_help_8: "Toggle on/off the revert-on-unclaim feature in this world."
+world_toggle_help_9: "Toggle on/off the explosions-are-reverted features in this world."
+world_toggle_help_10: "Toggle on/off the plot-clear-deletes-blocks command in this world."
+world_toggle_help_11: "Toggle on/off the plot-unclaiming-deletes-blocks feature in this world."
+townyadmin_help_1: 'Unclaim-ujte ovaj gradski blok'
+townyadmin_help_2: 'PokuЕЎajte unclaim-ovati oko sebe.'
+admin_panel_1: "See /ta set ? for help"
+admin_panel_2: 'ponovno pokrenite Towny'
+admin_panel_3: 'Pokrenite "new day" kod'
+admin_panel_4: "Unclaim an space surrounding you"
+admin_panel_5: "See /ta plot ? for help"
+admin_panel_6: "Give a positive or negative amount of townblocks to a player or town"
+admin_panel_7: "See /ta toggle ? for help"
+admin_panel_8: "Commands for controlling these objects"
+admin_panel_9: "Teleport to the specified plot"
+admin_panel_10: "Check if the player has a permission node"
+admin_panel_11: "Reset your config"
+admin_panel_12: "Make a backup of your Towny data"
+admin_panel_13: "Dump your mysql db to flatfile"
+admin_panel_14: "Force save or load your database"
+admin_panel_15: "Run the newhour code"
+admin_panel_16: "Purge old residents"
+townyadmin_town_help_0: "Create a town with the given name and mayor."
+townyadmin_town_help_1: "Show the town status screen."
+townyadmin_town_help_2: "Add or remove residents from a town."
+townyadmin_town_help_3: "Rename a town."
+townyadmin_town_help_4: "Delete a town."
+townyadmin_town_help_5: "Spawn at a town."
+townyadmin_town_help_6: "Spawn at a town's outpost."
+townyadmin_town_help_7: "Use a town's rank command."
+townyadmin_town_help_8: "Use a town's set command."
+townyadmin_town_help_9: "Use a town's toggle command."
+townyadmin_town_help_10: "Alter a town's metadata."
+townyadmin_town_help_11: "Merge the 2nd town into the first town."
+townyadmin_town_help_12: "Merge the 2nd town into the first town, ignoring any rules."
+townyadmin_town_help_13: "Put money into the town bank."
+townyadmin_town_help_14: "Take money from the town bank."
+townyadmin_town_help_15: "Open the town's bankhistory book."
+townyadmin_town_help_16: "Alter a town's outlaws."
+townyadmin_town_help_17: "Make the town leave their nation."
+townyadmin_town_help_18: "Remove a town's conquered status."
+townyadmin_town_toggle_help_0: "Toggle the Town's PVP."
+townyadmin_town_toggle_help_1: "Toggle the Town's ForcePVP, preventing mayors from turning off pvp."
+townyadmin_town_toggle_help_2: "Toggle the Town's Public status, allowing non-residents to teleport there."
+townyadmin_town_toggle_help_3: "Toggle the Town's Explosion setting."
+townyadmin_town_toggle_help_4: "Toggle the Town's Fire setting."
+townyadmin_town_toggle_help_5: "Toggle the Town's Mob setting."
+townyadmin_town_toggle_help_6: "Toggle the Town's Taxpercent setting."
+townyadmin_town_toggle_help_7: "Toggle the Town's Open setting, allowing people to join the town without an invite."
+townyadmin_nation_help_0: "Create a nation with the given name and capital city."
+townyadmin_nation_help_1: "Show the nation status screen."
+townyadmin_nation_help_2: "Add towns from the nation."
+townyadmin_nation_help_3: "Remove towns from the nation."
+townyadmin_nation_help_4: "Rename a nation."
+townyadmin_nation_help_5: "Delete a town."
+townyadmin_nation_help_6: "Recheck the nation's towns to make sure they're close enough to the capital."
+townyadmin_nation_help_7: "Merge the 2nd nation into the first nation."
+townyadmin_nation_help_8: "Merge the 2nd nation into the first nation, ignoring any rules."
+townyadmin_nation_help_9: "Use a nation's toggle command."
+townyadmin_nation_help_10: "Use a nation's set command."
+townyadmin_nation_help_11: "Put money into the nation bank."
+townyadmin_nation_help_12: "Take money from the nation bank."
+townyadmin_nation_help_13: "Open the nation's bankhistory book."
+townyadmin_nation_help_14: "Place the town into the nation."
+townyadmin_nation_help_15: "Use the nation's rank command."
+townyadmin_nationrank_help_0: "Adds a nation rank to the resident."
+townyadmin_nationrank_help_1: "Removes a nation rank from the resident."
+townyadmin_database_help_0: "Force saves the database."
+townyadmin_database_help_1: "Force loads the database."
+townyadmin_database_help_2: "Removes all titles and surnames from every resident."
+ta_plot_help_0: "Claim a plot for a player."
+ta_plot_help_1: "View the metadata stored in the plot you are stood in."
+ta_plot_help_2: "Set plot metadata key and value."
+ta_plot_help_3: "Add or remove a metadata by key."
+ta_resident_help_0: "Rename a resident."
+ta_resident_help_1: "Add or remove a friend."
+ta_resident_help_2: "List or clear the friend list."
+ta_resident_help_3: "Delete a resident from the database."
+ta_toggle_help_0: "Turn on/off the ability to use the Wilderness in all worlds."
+ta_toggle_help_1: "Turn on/off the regeneration features in all worlds."
+ta_toggle_help_2: "Turn on/off devmode, shows extra logging messages to the player specified in the config."
+ta_toggle_help_3: "Turn on/off debug mode, showing extra messages in the log."
+ta_toggle_help_4: "Turn on/off the ability for towns or nations to remove money from their banks."
+ta_toggle_help_5: "Make a player an NPC or not."
+ta_set_help_0: "Set a towns mayor to the given player."
+ta_set_help_1: "Set a town with a new NPC mayor, they pay no upkeep."
+ta_set_help_2: "Set the capital of a nation."
+ta_set_help_3: "Set a nation's nationzone size."
+ta_set_help_4: "Set a resident's title."
+ta_set_help_5: "Set a resident's surname."
+ta_set_help_6: "Set a plot to a different town."
+ta_set_help_7: "Set a town's founder name."
+ta_set_help_8: "Use size 0 to remove nationzone override."
+ta_purge_help_0: "Purges residents who haven't logged in for longer than the given days, optionally set townless to remove only townless players, or specify a townname to only purge one town's residents."
+ta_townmeta_help_1: "View the metadata stored on the town you specify."
+ta_townmeta_help_2: "Set town metadata key and value."
+ta_townmeta_help_3: "Add or remove a metadata by key from the town."
+ta_residentmeta_help_1: "View the metadata stored on the resident you specify."
+ta_residentmeta_help_2: "Set resident metadata key and value."
+ta_residentmeta_help_3: "Add or remove a metadata by key from the resident."
+ta_nationmeta_help_1: "View the metadata stored on the nation you specify."
+ta_nationmeta_help_2: "Set nation metadata key and value."
+ta_nationmeta_help_3: "Add or remove a metadata by key from the nation."
+ta_reload_help_0: "Reloads database."
+ta_reload_help_1: "Reloads config."
+ta_reload_help_2: "Reloads language files."
+ta_reload_help_3: "Reloads Towny permissions."
+ta_reload_help_4: "Reloads all components of Towny."
+ta_depositall_help_0: "Deposit the given amount into all town and nation banks."
+plot_help_0: "Turns on the plot info HUD."
+plot_help_1: "Removes the owner of the plot."
+plot_help_2: "Deletes a list of blocks from the plot."
+plot_help_3: "See /plot set ? for help."
+plot_help_4: "See /plot toggle ? for help."
+plot_help_5: "See /plot group ? for help."
+plot_help_6: "Removes permission overrides for a player."
+plot_help_7: "Adds default permission overrides for a player."
+plot_help_8: "Opens the permission editor gui."
+plot_help_9: "Adds a resident as Trusted in the plot."
+plot_help_10: "Removes a resident as Trusted in the plot."
+plot_group_help_0: "Ex: /plot group new ExpensivePlots"
+plot_group_help_1: "Removes a plot from the specified group."
+plot_group_help_2: "Deletes a plotgroup completely."
+plot_group_help_3: "Renames the group you are standing in."
+plot_group_help_4: "Ex: /plot group set perm resident on."
+plot_group_help_5: "Ex: /plot group toggle [pvp|fire|mobs]"
+plot_group_help_6: "Ex: /plot group forsale 50"
+plot_group_help_7: "Ex: /plot group notforsale"
+plot_group_help_8: "Adds or removes a resident as trusted."
+plot_group_help_9: "Adds a resident as Trusted in the plotgroup."
+plot_group_help_10: "Removes a resident as Trusted in the plotgroup."
+plot_group_help_11: "Opens the plot perm GUI."
+plot_group_help_12: "Adds a player to the plot perm GUI."
+plot_group_help_13: "Removes a player to the plot perm GUI."
+plot_toggle_help_0: "Toggles pvp in the plot."
+plot_toggle_help_1: "Toggles explosions in the plot."
+plot_toggle_help_2: "Toggles fire in the plot."
+plot_toggle_help_3: "Toggles mobs in the plot."
+plot_group_toggle_help_0: "Toggles pvp in the plot group."
+plot_group_toggle_help_1: "Toggles explosions in the plot group."
+plot_group_toggle_help_2: "Toggles fire in the plot group."
+plot_group_toggle_help_3: "Toggles mobs in the plot group."
+plot_set_help_0: "Ex: Inn, Wilds, Farm, Embassy, etc."
+plot_set_help_1: "Sets a plot to an Outpost."
+plot_set_help_2: "Removes a plot type."
+plot_set_help_3: "Names a plot."
+plot_set_help_4: "Toggle all permissions."
+plot_set_help_5: "Sets the permissions of a level or type to on or off."
+plot_set_help_6: "Sets the permission of a level and type to on or off."
+plot_set_help_7: "Sets the permissions to the resident or town that owns the plots."
+plot_jailcell_help_0: "Adds a JailCell where you stand."
+plot_jailcell_help_1: "Removes a JailCell where you stand."
+msg_block_claim: 'Claim-ujte ovaj gradski blok'
+msg_block_claim_radius: 'Claim a radius of plots surrounding you.'
+msg_plot_nfs: 'Izbacite ovaj plot iz prodaje'
+msg_plot_nfs_radius: 'Take down a radius of plots for sale'
+msg_nfs_abr: '&e"fs" i "nfs" su prihvaД‡ene skraД‡enice za "forsale" - "na prodaju" i "notforsale" - "nije na prodaju".'
+msg_plot_fs: 'Stavite ovu oblast na aukciju.'
+msg_plot_fs_radius: 'Put up a radius of plots for sale.'
+############################################################
+#+------------------------------------------------------+ #
+#|   Messages                                           | #
+#+------------------------------------------------------+ #
+############################################################
+msg_buy: '&bKupili ste %d %s za %s.'
+msg_buy_resident_plot: '&b%s je kupio/la plot igraДЌa %s za %s!'
+msg_couldnt_pay_taxes: '&b%s je izbaДЌen/a iz %s zbog nemoguД‡nosti da plati poreze.'
+msg_couldnt_pay_plot_taxes: '&b%s je izgubio/la vlasniЕЎtvo nad plotom zbog nemoguД‡nosti da plati poreze.'
+msg_payed_town_tax: '&bIsplaД‡en gradski porez od '
+msg_payed_plot_cost: '&bPlaД‡eno %s za %s plot-ova u %s'
+msg_payed_resident_tax: '&bIsplaД‡en porez na stanovanje od '
+msg_bankrupt_town: ' nije mogao priuЕЎtiti da ostane grad.'
+msg_bankrupt_nation: ' nije mogla priuЕЎtiti da ostane nacija.'
+msg_nation_not_peaceful: '&bNacija nije mogla da priuЕЎti svoje stanje mira.'
+msg_nation_cant_peaceful: '&bNation couldn''t afford to become a peaceful nation. You must be able to pay % daily.'
+msg_peaceful_disabled: '&bNacijski mir je onemoguД‡en na globalnom nivou.'
+msg_you_paid: '&bPlatili ste %s za postavljanje statusa mira.'
+msg_nation_set_peace: '&bStanje nacije uspeЕЎno promenjeno.'
+msg_nation_allow_peaceful: '&bDozvole nacije da ostane mirna su sada: %s'
+msg_mobremoval_world: '&bBlokiranje stvaranja mobova u svetu: %s'
+msg_mobremoval_town: '&bDozvolite blokiranje stvaranja mobova u gradu: %s'
+msg_nation_peaceful: '&bVaЕЎa nacija je sada'
+msg_tax_exempt: '&bGradsko osoblje je poЕЎteД‘eno poreza.'
+msg_del_nation: '&bNacija %s je raspuЕЎtena!'
+msg_del_resident: '&b%s je izgubio/la sve svoje Towny podatke!'
+msg_join_nation: '&bGrad %s se pridruЕѕio naciji!'
+msg_join_town: '&b%s se pridruЕѕio/la gradu!'
+msg_friend_add: '&b%s Vas je dodao/la za prijatelja.'
+msg_friend_remove: '&b%s Vas je uklonio/la sa spiska prijatelja.'
+msg_left_town: '&b%s je napustio/la grad'
+msg_you_left: '&bNapustili ste %s.'
+msg_not_mayor: '&bNiste gradonaДЌelnik.'
+msg_not_king: '&bNiste vodja nacije.'
+msg_not_mayor_ass: '&bNiste gradonaДЌelnik niti asistent.'
+msg_not_king_ass: '&bNiste vodja nacije ili asistent.'
+msg_own_nation_disallow: '&bNe moЕѕete to uraditi sopstvenoj naciji.'
+msg_no_perms_claim: '&bNemate dozvolu da ЕЎirite svoj grad.'
+msg_outpost_disable: '&bKampovi nedostupni.'
+msg_kicked_by: '&bIzbaДЌeni ste iz grada od strane %s.'
+msg_kicked: '&b%s je izbacio/la %s iz grada.'
+msg_nation_kicked_by: '&bVaЕЎ grad je izbaДЌen iz nacije od strane %s.'
+msg_town_left_nation: '&bVaЕЎ grad je napustio naciju %s.'
+msg_nation_town_left: '&bGrad %s je napustio VaЕЎu naciju.'
+msg_nation_kicked: '&b%s je izbacio/la igraДЌa %s iz nacije.'
+msg_raised_ass: '&b%s je uzdigao/la igraДЌa %s u %s saradnike.'
+msg_lowered_to_res_by: '&bДЊin Vam je smanjen u obiДЌnog stanovnika od strane %s.'
+msg_lowered_to_res: '&b%s je smanjio/la ДЌin igraДЌa %s u obiДЌnog stanovnika.'
+msg_invalid_name: '&bNijedno od navedenih imena nije vaЕѕeД‡e.'
+msg_invited_join_town: '&b%s je pozvao/la %s u grad.'
+msg_invited_join_nation: '&b%s je pozvao/la %s u naciju.'
+msg_deny_invite: '&b%s je odbio/la VaЕЎ poziv.'
+msg_invited: '&bPozvani ste da se pridruЕѕite %s.'
+msg_town_online: 'Online u gradu'
+msg_nation_online: 'Online u naciji'
+msg_allied_nations: '&b%s je u savezu sa nacijama %s.'
+msg_enemy_nations: '&b%s je razvio/la mrЕѕnju prema nacijama %s.'
+msg_enemy_to_neutral: '&b%s je promenio/la status u miroljubiv prema %s.'
+msg_added_ally: '&b%s je u savezu sa VaЕЎom nacijom.'
+msg_removed_ally: '&b%s je obustavio/la udruЕѕenje sa VaЕЎom nacijom.'
+msg_added_enemy: '&b%s je razvio/la mrЕѕnju prema VaЕЎoj naciji.'
+msg_removed_enemy: '&b%s je postao/la miroljubiv/a prema VaЕЎoj naciji.'
+msg_unable_ally_enemy: '&cNije moguД‡e sklopiti savez sa %s jer smo im protivnici.'
+msg_deny_ally: '&b%s je odbio/la VaЕЎ zahtev za savezniЕЎtvo.'
+msg_accept_ally: '&bNacija %s je prihvatila VaЕЎ zahtev za savetniЕЎtvo.'
+msg_ally_req_sent: '&bZahtev za savezniЕЎtvo je poslat naciji %s.'
+msg_ally_request: '&bNacija %s bi da sklopi savez.'
+msg_unable_ally_offline: "&cNije moguД‡e zatraЕѕiti savezniЕЎtvo jer je gradonaДЌelnik odabrane nacije offline."
+msg_unable_ally_npc: "&cNije moguД‡e zatraЕѕiti savezniЕЎtvo jer je gradonaДЌelnik odabrane nacije NPC."
+msg_claimed: '&2UspeЕЎno claim-ovano'
+msg_unclaimed: '&2UspeЕЎno unclaim-ovano'
+msg_not_claimable: '&cOvaj svet se ne moЕѕe claim-ovati.'
+msg_abandoned_area: '&bOblast %s napuЕЎtena'
+msg_admin_unclaim_area: '&cOblast %s prisilno unclaim-ovana'
+msg_abandoned_area_1: '&bVaЕЎ grad je napustio oblast'
+msg_no_money_purchase_plot: '&cNemate dovoljno novca da kupite ovaj plot.'
+msg_town_no_money_purchase_plot: '&cGrad nema dovoljno novca da otkupi ovaj plot.'
+msg_no_funds_new_town: '&c%s can''t afford to settle a new town here.'
+msg_no_funds_claim: '&cGrad ne moЕѕe priuЕЎtiti da claim-uje %s gradskih blokova ЕЎto koЕЎta %s. Dodajte joЕЎ novca u gradsku banku.'
+msg_no_funds_to_buy: '&cGrad ne moЕѕe priuЕЎtiti da kupi %s %s ЕЎto koЕЎta %s. Dodajte joЕЎ novca u gradsku banku.'
+msg_annexed_area: '&2Pripojena oblast %s'
+msg_max_plot_own: '&cNe moЕѕete posedovati viЕЎe od %s plotova.'
+msg_max_outposts_own: '&cNe moЕѕete posedovati viЕЎe od %s periferija.'
+msg_no_funds_new_nation: '&cThe town can''t afford to start a new nation.'
+msg_already_claimed: '&cOva oblast je veД‡ claim-ovana od strane: %s'
+msg_already_claimed_1: '&cOva oblast (%s) veД‡ nekom pripada.'
+msg_already_claimed_2: '&cOva oblast je veД‡ claim-ovana.'
+msg_too_close: '&cOva oblast je preblizu drugom gradu.'
+msg_too_far: '&cOva oblast je predalako od drugih gradova.'
+msg_not_claimed: '&bOva oblast (%s) nije claim-ovana.'
+msg_not_claimed_1: '&bOva oblast nije claim-ovana.'
+msg_not_own_area: '&cNe posedujete odabranu oblast.'
+msg_not_own_place: '&bNiko ne poseduje ovo mesto.'
+msg_area_not_own: '&cOva oblast ne pripada Vama.'
+msg_area_not_recog: '&cTowny ne prepoznaje ovu oblast.'
+msg_specify_name: '&bNavedite ime grada'
+msg_specify_nation_name: '&bNavedite ime nacije'
+msg_peasant_right: '&bSeljanin nema pravo da natera svoje voД‘e na presto.'
+msg_cost_spawn: '&bNaplaД‡eno Vam je %s za teleportaciju do spawn-a grada.'
+msg_cost_spawn_refund: '&bDobili ste povraД‡aj novca za koriЕЎД‡enje spawn-a grada.'
+msg_town_spawn_warmup: '&bДЊekanje na teleportaciju...'
+msg_town_rename_disabled: '&bTown Renaming Disabled'
+msg_town_set_name: '&b%s je preimenovao/la grad u %s.'
+msg_nation_set_name: '&b%s je preimenovao/la naciju u %s.'
+msg_changed_pvp: '&c%s PvP je %s.'
+msg_changed_public: '&cJavni status grada je sada %s.'
+msg_changed_expl: '&cEksplozije u %s su sada %s.'
+msg_changed_fire: '&cЕ irenje vatre u %s je sada %s.'
+msg_changed_mobs: '&cStvaranje mobova u %s je sada %s.'
+msg_the_plot_group: 'grupa plotova'
+msg_changed_taxpercent: '&cProcentualni porezi su sada %s.'
+msg_changed_open: '&cPridruЕѕenje bez poziva je sada %s.'
+msg_toggle_open_on_warning: 'Upozorenje: Gradozvole treba da budu iskljuДЌene ako je grad postavljen na otvoren. Ukucajte ''/town set perm off'' praД‡eno sa ''/town set perm reset''.'
+msg_changed_world_setting: '&c%s za %s je: %s.'
+msg_world_pvp: '&cOvaj svet je iskljuДЌivo PvP.'
+msg_world_mobs: '&cNa ovom svetu je stvaranje mobova prisilno ukljuДЌeno.'
+msg_world_expl: '&cNa ovom svetu su Eksplozije prisilno ukljuДЌene.'
+msg_world_fire: '&cNa ovom svetu je ЕЎirenje Vatre prisilno ukljuДЌeno.'
+msg_town_mobs: '&cThis town has Monster spawns forced on.'
+msg_plot_pvp: '&cPvP se ne moЕѕe ukljuДЌiti/iskljuДЌiti u Plotu Arene.'
+msg_plot_regen_wrong_size: '&cRegen can only be performed when the default plot size (16) is used.'
+msg_reloaded: '&2Towny podeЕЎavanja ponovo uДЌitana.'
+msg_undo_complete: '&2PoniЕЎtavanje gotovo.'
+msg_give_total: '&bDali ste %s bonus. (Ukupno: %s)'
+mag_backup_success: '&2Pravljenje rezervne kopije uspeЕЎno.'
+msg_xx_withdrew_xx: '&b%s podigao/la %s iz %s banke.'
+msg_xx_deposited_xx: '&b%s uplatio/la %s u %s banku.'
+msg_insuf_funds: '&cNemate toliko.'
+msg_err_withdraw_disabled: 'Podizanje iz ove banke je onemoguД‡eno!'
+msg_err_deposit_capped: 'Nije moguД‡e uplatiti novac. Ova banka je ograniДЌena na %s.'
+msg_set_town_home: '&bGradski blok doma uspeЕЎno promenjen na %s'
+msg_set_town_spawn: '&bUspeЕЎno promenjen spawn grada.'
+msg_set_outpost_spawn: '&bUspeЕЎno promenjen spawn periferije.'
+msg_set_title: '&b%s je dobio/la titulu ''%s&b''.'
+msg_set_surname: '&b%s je dobio/la prezime ''%s&b''.'
+msg_clear_title_surname: '&b%s je oДЌiЕЎД‡eno za ''%s''.'
+msg_clear_plot_material: '&bPlot oДЌiЕЎД‡en od sledeД‡ih tipova blokova: %s.'
+msg_set_perms: '&bDozvole uspeЕЎno promenjene na:'
+msg_set_claim: '&bUspeЕЎno promenjena moguД‡nost claim-ovanja %s na %s'
+msg_set_perms_reset: '&bUspeЕЎno resetovane dozvole na svim %s plotovima.'
+msg_usedefault: '&bOvaj svet (%s) sada koristi globalne podrazumevane postavke.'
+msg_set_wild_perms: '&bUspeЕЎno promenjene %s wild dozvole %s'
+msg_set_wild_ignore: '&bUspeЕЎno promenjeni %s-ove divlji blokovi zanemarivanja na %s'
+msg_set_wild_name: '&bUspeЕЎno promenjeno %s-ovo divlje ime na %s'
+msg_set_wild_regen: '&bUspeЕЎno promenjena %s-ova divlja regeneracija na ''%s'''
+msg_set_use_towny_on: '&bOvaj svet sada koristi towny pravila.'
+msg_set_use_towny_off: '&cOvaj svet je uskraД‡en svih towny interakcija.'
+msg_error_must_be_int: '&bKoliДЌina mora biti ceo broj.'
+msg_error_input_must_be_int: '&c%s must be an integer'
+msg_error_must_be_num: '&bKoliДЌina mora biti broj.'
+msg_error_input_must_be_num: '&c%s must be a number'
+msg_must_specify_amnt: '&bMorate navesti koliДЌinu. Pr: %s 54'
+msg_town_set_tax: '&b%s je postavio/la dnevni stanovniДЌki porez na %s'
+msg_town_set_plottax: '&b%s je postavio/la dnevni porez plotova na %s'
+msg_town_set_plotprice: '&b%s je postavio/la cenu plotova na %s'
+msg_town_set_alttax: '&b%s je postavio/la dnevni porez %s plotova na %s'
+msg_town_set_altprice: '&b%s je postavio/la cenu %s plotova na %s'
+msg_town_set_nation_tax: '&b%s je postavio/la nacionalni porez na %s'
+msg_set_nation_tag: '&b%s je postavio/la [%s] za oznaku nacije'
+msg_set_town_tag: '&b%s je postavio/la [%s] za oznaku grada'
+msg_reset_nation_tag: '&b%s je oДЌistio/la oznaku nacije.'
+msg_reset_town_tag: '&b%s je oДЌistio/la oznaku grada.'
+msg_mayor_abandon: '&bNapustili biste svoje ljude? Izaberite drugog gradonaДЌelnika sa ''/town set mayor'' ako ste sigurni.'
+msg_new_day_tax: '&bNovi dan je stigao! Porezi i kirija su sakupljeni'
+msg_new_day: '&bSvanuo je novi dan!'
+msg_new_king: '&b%s je sada vodja nacije %s!'
+msg_err_new_king_notmayor: '&cNovi vodja nacije nije major.'
+msg_err_king_not_in_nation: '&cNovi vodja nacije ne pripada ovoj naciji.'
+msg_err_fight_like_king: '&cMir nije opcija! Bori se kao vodja!'
+msg_no_access_nation_bank: '&cNemate pristup banci nacije.'
+msg_err_no_money: '&cNema dovoljno novca u banci.'
+msg_new_mayor: '&b%s je sada gradonaДЌelnik!'
+msg_new_nation: '&b%s je osnovao novu naciju zvanu %s'
+msg_new_town: '&b%s je osnovao novi grad zvani %s'
+msg_plot_for_sale: '&b%s je stavio plot (%s) na prodaju!'
+msg_plot_for_sale_amount: '&b%s je stavio plac (%s) na prodaju za %s!'
+msg_plot_set_type: '&bTip plota postavljen na %s'
+msg_cache_block_error: '&cNiste se registrovali Towny-jem. Probajte ponovno prijavljivanje.'
+msg_cache_block_error_wild: '&cNemate dozvolu za %s u divljini.'
+msg_cache_block_error_plot: '&cVlasnik ne dopuЕЎta da %s %s ovde.'
+msg_cache_block_error_town_resident: '&cStanovnici ne smeju da %s ovde.'
+msg_cache_block_error_town_allies: '&cSaveznici ne smeju da %s.'
+msg_cache_block_error_town_outsider: '&cNestanovnici ne smeju da %s.'
+msg_err_cant_afford_tp_town: '&cNe moЕѕete priuЕЎtiti da se teleportujete na %s.'
+msg_err_not_public: '&cTaj grad nije javan.'
+msg_err_not_open: '&cVrata grada %s nisu za svakoga otvorena. Zamolite gradonaДЌelnika ili saradnika da biste se prikljuДЌili.'
+msg_err_town_spawn_forbidden: '&cPutovanje do gradskog spawn-a je zabranjeno.'
+msg_err_town_spawn_nation_forbidden: '&cPutovanje do spawn-ova drugih gradova vaЕЎe nacije je zabranjeno.'
+msg_err_town_spawn_ally_forbidden: '&cPutovanje do spawn-ova gradova saveznika vaЕЎe nacije je zabranjeno.'
+msg_err_public_spawn_forbidden: '&cPutovanje do javnih spawn-ova drugih gradova je zabranjeno.'
+msg_err_public_spawn_enemy: '&cPutovanje do javnih spawn-ova je zabranjeno za neprijatelje.'
+msg_err_town_spawn_disallowed_from: '&cSpawn grada nije dozvoljen iz %s.'
+msg_err_outpost_spawn: '&cNema spawn-ova kampova postavljenih za ovaj grad.'
+msg_err_cant_afford_tp: '&bNe moЕѕete priuЕЎtiti da se teleportujete do spawn-a vaЕЎega grada.'
+msg_err_plot_nfs: '&cOvaj plot nije na prodaju.'
+msg_err_not_part_town: '&cOdabrana oblast nije deo VaЕЎeg grada.'
+msg_err_not_attached_edge: '&cOdabrana oblast nije priljubljena uz ivicu.'
+msg_err_empty_area_selection: '&cOdabrana oblast ne sadrЕѕi vaЕѕeД‡e plotove.'
+msg_err_not_enough_blocks: '&cNema dovoljno gradskih blokova dostupnih da claim-ujete ovu selekciju.'
+msg_err_cant_afford_blocks: '&cGrad ne moЕѕe priuЕЎtiti da claim-uje %s gradskih blokova ЕЎto koЕЎta %s'
+msg_err_not_in_town_claim: '&cMorate pripadati nekom gradu kako biste claim-ovali plotove.'
+msg_err_must_belong_town: '&cMorate pripadati nekom gradu.'
+msg_err_dont_belong_town: '&cNe pripadate nijednom gradu.'
+msg_err_dont_belong_nation: '&bNe pripadate nijednoj naciji.'
+msg_err_not_same_nation: '&b%s ne pripada VaЕЎoj naciji.'
+msg_err_rect_auto: '&cSamo gradovi i stanovnici mogu da koriste ''auto''.'
+msg_err_invalid_radius: '&cNevaЕѕeД‡i polupreДЌnik. Koristite celi broj ili ''auto''.'
+msg_err_not_configured: '&cOvaj svet Towny nije konfigurisao.'
+msg_err_updating_item_perms: '&cGreЕЎka pri aЕѕuriranju keЕЎa dozvola koriЕЎД‡enja predmeta.'
+msg_err_updating_switch_perms: '&cGreЕЎka pri aЕѕuriranju keЕЎa dozvola prekidaДЌa.'
+msg_err_updating_destroy_perms: '&cGreЕЎka pri aЕѕuriranju keЕЎa dozvola za uniЕЎtavanje.'
+msg_err_updating_build_perms: '&cGreЕЎka pri aЕѕuriranju keЕЎa dozvola za gradnju.'
+msg_err_admin_only: '&cSamo admin moЕѕe koristiti ovu komandu.'
+msg_err_admin_only_delete: '&cSamo admin moЕѕe brisati ostale podatke o stanovnicima.'
+msg_err_admin_only_delete_town: '&cSamo admin moЕѕe da briЕЎe ostale podatke o gradu.'
+msg_err_admin_only_delete_nation: '&cSamo admin moЕѕe brisati druge podatke nacija.'
+msg_err_online_or_npc: '&c%s je Online ili je NPC.'
+msg_err_not_registered: '&cNiste registrovani'
+msg_err_not_registered_1: '&c%s nije registrovan/a'
+msg_err_invalid_name: '&c%s je nevaЕѕeД‡e ime.'
+msg_err_already_res: '&c%s veД‡ pripada jednom gradu.'
+msg_err_already_in_town: '&c%s je veД‡ deo %s.'
+msg_err_already_nation: '&cCiljani grad veД‡ pripada jednoj naciji.'
+msg_err_invalid_property: '&cPogreЕЎna ''%s'' osobina.'
+msg_err_not_supported: '&cJoЕЎ nije podrЕѕano.'
+msg_err_invalid_input: '&cNevaЕѕeД‡i unos. Koristite %s'
+msg_err_negative: '&cUnos ne moЕѕe biti negativan.'
+msg_err_input_too_long: '&cUnos je predugaДЌak.'
+msg_err_invalid_choice: '&cNevaЕѕeД‡i izbor'
+msg_err_invalid_sub: '&cNevaЕѕeД‡a potkomanda.'
+msg_err_command_disable: '&cNemate dozvole potrebne za tu komandu.'
+msg_err_universe_limit: '&cNema uopЕЎte mesta za joЕЎ gradova.'
+msg_err_too_many_npc: '&cPreviЕЎe registrovanih npc-eva.'
+msg_err_negative_money: '&cNe moЕѕete biti u minusu.'
+msg_err_not_percentage: '&cProcenti moraju biti ispod 100.'
+msg_err_no_economy: '&cEkonomija nije ukljuДЌena.'
+msg_err_not_block_type: '&cTo nije vaЕѕeД‡i tip plota!'
+msg_not_allowed_join: '&cIgraДЌu %s nije dozvoljeno da se pridruЕѕi gradu.'
+msg_offline_no_join: '&c%s je oflajn no koristi dozvole dakle se ne moЕѕe prikljuДЌiti gradu.'
+msg_err_cannot_perform_action: '&cNije moguД‡e izvrЕЎiti ovu komandu u %s.'
+msg_npc_flag: '&bNPC flag je sada %s za %s.'
+msg_warning_delete: '&4***UPOZORENJE, %s Д†E BITI OBRISAN SLEDEД†EG DANA ZBOG NEDOSTATKA NOVCA***'
+#these messages are only used if town/nation creation is set to admins only
+msg_admin_only_create_nation: '&cSamo admini mogu napraviti nacije.'
+msg_admin_only_create_town: '&cSamo admini mogu napraviti gradove.'
+#Required residents to be part of a nation
+msg_err_not_enough_residents_new_nation: '&cVaЕЎ grad nema dovoljno stanovnika za pravljenje nacije.'
+msg_err_not_enough_residents_join_nation: '&cVaЕЎ grad %s nema dovoljno stanovnika da uД‘e u naciju.'
+msg_not_enough_residents_no_longer_capital: '&bStari glavni grad nacije viЕЎe nema dovoljno stanovnika da bude glavni grad nacije. Novi glavni grad nacije je %s.'
+msg_town_not_enough_residents_left_nation: '&bGrad %s viЕЎe nema dovoljno stanovnika da bude ДЌlan nacije i uklonjen je iz nje.'
+msg_nation_disbanded_town_not_enough_residents: '&bGrad %s viЕЎe nema dovoljno stanovnika da upravlja nacijom i zato se nacija raspala.'
+msg_not_enough_residents_refunded: '&bPovraД‡eno Vam je $%s zbog raspada VaЕЎe nacije jer nema dovoljno stanovnika.'
+msg_not_enough_residents_capital: '&bGrad %s nema dovoljno stanovnika da bude glavni grad nacije.'
+list_page: '&bStrana %s od %s'
+list_err_not_enough_pages: '&cSamo %s strana je dostupno'
+#Added in 0.30
+#Added in 0.31
+msg_err_tax_minimum_not_met: 'Ne moЕѕete staviti gradski porez ispod %s.'
+msg_unknown_rank_available_ranks: 'Nepoznat ДЌin %s. Dozvoljeni ДЌinovi su %s.'
+msg_no_permission_to_give_rank: 'Nemate dozvolu da date ovaj ДЌin.'
+msg_you_have_been_given_rank: 'Dat Vam je ДЌin %s od %s.'
+msg_you_have_given_rank: 'Dali ste %s ДЌin %s %s.'
+msg_resident_not_your_town: 'Taj stanovnik nije ДЌlan grada!'
+msg_resident_already_has_rank: '%s veД‡ ima ovaj %s ДЌin.'
+msg_you_have_had_rank_taken: 'VaЕЎ ДЌin je sniЕѕen sa %s od %s.'
+msg_you_have_taken_rank_from: 'Oduzeli ste %s ДЌin %s %s.'
+msg_resident_doesnt_have_rank: '%s nema ДЌin %s.'
+msg_town_has_no_jails: 'Grad nema postavljene zatvore.'
+msg_no_permission_to_jail_your_residents: 'Nemate dozvolu da hapsite sopstvene stanovnike.'
+msg_resident_not_part_of_any_town: 'Taj igraДЌ nije stanovnik ni jednog grada.'
+msg_player_not_jailed_in_your_town: 'Taj igraДЌ nije pritvoren u VaЕЎem gradu.'
+msg_cannot_spawn_while_jailed: 'Nije moguД‡e spawn-ovati se dok ste u zatvoru.'
+msg_cannot_abandon_town_while_jailed: 'NapuЕЎtanje grada nije dozvoljeno kada ste u zatvoru.'
+msg_player_escaped_jail_by_leaving_town: '%s je pobegao/la iz zatvora postavЕЎi nomad.'
+msg_set_jail_spawn: 'UspeЕЎno postavljen spawn zatvorskog plota.'
+msg_killed_attempting_to_escape_jail: '&4%s je ubijen u pokuЕЎaju da umakne robiji.'
+msg_err_jailed_players_no_teleport: '&4RobijaЕЎi se ne mogu teleportovati!'
+msg_player_escaped_jail_into_wilderness: '&4%s je umakao robiji utrДЌavЕЎi u %s'
+msg_err_invalid_string_board_not_set: 'NevaЕѕeД‡a niska, Tabla Grada nije postavljena.'
+msg_plot_name_removed: 'Ime plota uklonjeno.'
+msg_plot_name_set_to: 'Ime plota postavljeno na [%s].'
+msg_plot_price_too_expensive: 'Cena plota je preskupa.'
+msg_you_robbed_player: 'Ukrali ste %s od %s.'
+msg_player_robbed_you: '%s Vas je opljaДЌkao za %s.'
+msg_you_lost_money: 'Izgubili ste %s jer ste umrli.'
+msg_player_couldnt_pay_player_town_bank_paying_instead: '%s nije imao dovoljno novca kod sebe za %s. %s uzeto iz gradske banke.'
+msg_err_could_not_take_deathfunds: 'Sredstva od Еѕivotnog osiguranja se nisu mogla uzeti.'
+msg_you_lost_money_dying: 'Izgubili ste %s.'
+msg_your_town_lost_money_dying: 'VaЕЎ grad je izgubio %s.'
+msg_your_nation_lost_money_dying: 'VaЕЎa nacija je izgubila %s.'
+msg_err_couldnt_take_deathfunds: 'Sredstva od Еѕivotnog osiguranja se nisu mogla uzeti.'
+msg_err_couldnt_take_town_deathfunds: 'Sredstva od gradskog Еѕivotnog osiguranja se nisu mogla uzeti.'
+msg_err_couldnt_take_nation_deathfunds: 'Sredstva od nacionalnog Еѕivotnog osiguranja se nisu mogla uzeti.'
+msg_you_gained_money_for_killing: 'Dobili ste %s za ubijanje %s.'
+msg_err_ender_pearls_disabled: '&4Biseri BespuД‡a su onemoguД‡eni!'
+msg_err_no_sleep_in_enemy_inn: '&4Ne moЕѕete spavati u gostionici neprijatelja.'
+msg_err_cant_use_bed: '&4Ne posedujete zemljiЕЎte koje ovaj krevet zauzima i ono nije gostioniДЌki plot.'
+msg_town_plots_revenue_disclaimer: '&aPrikazana zarada je procenjena i zavisi od toga da li vlasnik plota moЕѕe da plati.'
+msg_town_set_perm_syntax_error: 'NevaЕѕeД‡a kombinacija reДЌi za ovu komandu. Vidite ''/town set perm ?'' za ispravnu sintaksu komande.'
+msg_plot_set_perm_syntax_error: 'NevaЕѕeД‡a kombinacija reДЌi za ovu komandu. Pogledajte ''/plot set perm ?'' za taДЌnu sintaksu komandi.'
+#Added in 0.32
+msg_err_townadmintownrank_wrong_town: 'Taj stanovnik ne pripada tom gradu.'
+msg_err_resident_already_an_outlaw: 'Taj igraДЌ se veД‡ smatra za razbojnika od strane VaЕЎeg grada.'
+msg_err_not_outlaw_in_your_town: 'Ne moЕѕete staviti ДЌlana grada za razbojnika.'
+msg_you_have_been_declared_outlaw: 'OznaДЌeni ste kao razbojnik u %s. Nemojte umreti u tom gradu.'
+msg_you_have_declared_an_outlaw: '%s je proglaЕЎen razbojnikom u %s.'
+msg_you_have_been_undeclared_outlaw: 'ViЕЎe niste razbojnik u %s.'
+msg_you_have_undeclared_an_outlaw: '%s viЕЎe nije razbojnik u %s.'
+msg_err_player_not_an_outlaw: 'Taj igraДЌ nije naveden kao razbojnik.'
+msg_err_outlaw_in_open_town: 'Ne moЕѕete uД‡i u otvoren grad koji Vas je proglasio za razbojnika.'
+msg_you_are_an_outlaw_in_this_town: '&4Budite oprezni, %s smatra da ste razbojnik, umiranje ovde bi moglo da znaДЌi robija.'
+msg_err_town_not_close_enough_to_nation: '%s nema blok doma dovoljno blizu VaЕЎeg bloka doma glavnog grada da se pridruЕѕi VaЕЎoj naciji.'
+msg_nation_town_moved_their_homeblock_too_far: '%s ima blok doma pomeren predaleko od bloka doma glavnog grada VaЕЎe nacije i uklonjen je iz VaЕЎe nacije.'
+#Added in 0.33
+msg_err_invalid_radius_number: '&cNevaЕѕeД‡a koliДЌina za polupreДЌnik. Koristite %s ili manje.'
+#Added in 0.34
+msg_err_max_residents_per_town_reached: '&cMaksimalan broj stanovnika (%s) veД‡ dostignut.'
+#Added in 0.35
+msg_err_resident_doesnt_meet_invite_cooldown: '&cIgraДЌ %s nije bio na serveru dovoljno dugo da biste ga pozvali u grad, molimo saДЌekajte.'
+msg_cant_toggle_pvp_outsider_in_town: 'Stranac je u VaЕЎem gradu, ne moЕѕete promeniti PvP status!'
+msg_err_unclaim_not_outpost: 'Unclaim nije moguД‡, ovaj plot nije periferija!'
+outpost_plu: 'Periferije'
+#Added in 0.36
+msg_err_not_enough_residents: 'Nema dovoljno stanovnika u gradu da biste to uradili.'
+#Added in 0.37
+msg_err_friendly_fire_disable: 'Prijateljska borba je onemoguД‡ena!'
+#Added in 0.38
+msg_claim_error: '&cDrugi prikljuДЌak je zaustavio claim od (%s)/(%s) gradskih blokova, operacija nije mogla biti obavljena.'
+#Added in 0.39
+msg_err_town_spawn_forbidden_war: '&cPutovanje do gradskog spawn-a je dozvoljeno samo za vreme rata.'
+msg_err_town_spawn_forbidden_peace: '&cPutovanje do gradskog spawn-a je zabranjeno za vreme rata.'
+msg_err_town_spawn_nation_forbidden_war: '&cPutovanje do spawn-ova drugih gradova vaЕЎe nacije je dozvoljeno samo tokom rata.'
+msg_err_town_spawn_nation_forbidden_peace: '&cPutovanje do spawn-ova drugih gradova vaЕЎe nacije je zabranjeno tokom rata.'
+msg_err_town_spawn_ally_forbidden_war: '&cPutovanje do spawn-ova drugih gradova saveznika vaЕЎe nacije je dozvoljeno samo tokom rata.'
+msg_err_town_spawn_ally_forbidden_false: '&cPutovanje do spawn-ova gradova saveznika vaЕЎe nacije je zabranjeno tokom rata.'
+msg_err_public_spawn_forbidden_war: '&cPutovanje do javnoih spawn-ova drugih gradova je dozvoljeno samo tokom rata.'
+msg_err_public_spawn_forbidden_peace: '&cPutovanje do javnih spawn-ova drugih gradova je zabranjeno tokom rata.'
+#Added in 0.40
+mayor_help_9: 'PokuЕЎajte da unclaim-ujete kamp'
+#Added in 0.41 (Invite-Update)
+invite_plu: 'Pozivi'
+invite_sent_by: 'Poziv Poslat Od'
+invite_help_1: 'Prihvatite poziv za ulazak u grad'
+invite_help_2: 'Odbijte poziv za ulazak u grad'
+invite_help_4: 'Decline all invites to join a town'
+invite_help_3: 'Lista svih VaЕЎih poziva'
+town_invite_help_1: 'Pozovite igraДЌa u VaЕЎ grad'
+town_invite_help_2: 'Povucite poziv koji je poslat igraДЌu'
+town_invite_help_3: 'Navodi sve poslate pozive'
+town_invite_help_4: 'Navodi sve primljene zahteve'
+town_invite_help_5: 'Prihvatite zahtev za ulazak u naciju'
+town_invite_help_6: 'Odbijte zahtev za ulazak u naciju'
+nation_invite_help_1: 'Pozovite grad u VaЕЎu naciju'
+nation_invite_help_2: 'Povucite poziv koji je poslat gradu'
+nation_invite_help_3: 'Spisak svih poziva poslatih gradovima'
+nation_ally_help_1: 'Probajte da prikljuДЌite nekog saveznika VaЕЎoj naciji'
+nation_ally_help_2: 'Probajte ukloniti nekog saveznika vaЕЎe nacije'
+nation_ally_help_3: 'Navodi sve zahteve za savezniЕЎtvo koje ste poslali'
+nation_ally_help_4: 'Navodi sve zahteve za savezniЕЎtvo koje ste primili'
+nation_ally_help_5: 'Prihvatite jedan zahtev za savezniЕЎtvo sa jednom nacijom'
+nation_ally_help_6: 'Odbijte neki zahtev za savezniЕЎtvo sa nekom nacijom'
+nation_ally_help_7: 'Povucite jedan zahtev za savezniЕЎtvo'
+msg_player_denied_all_invites: "All of your received invites have been denied."
+msg_err_player_no_invites: '&cNemate poziva!'
+msg_err_player_has_multiple_invites: '&cImate viЕЎe poziva, molimo budite specifiДЌni!'
+msg_err_player_has_too_many_invites: '%s ima previЕЎe poziva, pitajte ih da odbiju neke pre nego ЕЎto ponovo pozovete.'
+msg_err_player_already_invited: '&bVeД‡ ste pozvali %s da se pridruЕѕi VaЕЎem gradu!'
+msg_err_town_no_invites: '&bGrad nema poziva!'
+msg_err_town_specify_invite: '&cMolimo navedite poziv!'
+msg_err_town_has_too_many_invites: '&bGrad %s ima previЕЎe poziva, pitajte ih da odbiju neke pre nego ЕЎto ponovo pozovete.'
+msg_err_town_sent_too_many_invites: '&bGrad je poslao previЕЎe poziva, povucite neke pre nego ЕЎto probate opet!'
+msg_err_town_already_invited: '&bVeД‡ ste pozvali %s da uД‘e u VaЕЎu naciju!'
+msg_err_nation_specify_invite: '&cMolimo navedite zahtev!'
+msg_err_nation_no_requests: '&bNacija nema zahteva za savezniЕЎtvo!'
+msg_err_nation_sent_too_many_invites: '&bNacija je poslala previЕЎe poziva, povucite neke pre nego ЕЎto probate opet!'
+msg_err_nation_sent_too_many_requests: '&bNacija je poslala previЕЎe zahteva, povucite neke pre nego ЕЎto probate opet!'
+msg_err_nation_has_too_many_requests: '&bNacija %s ima previЕЎe zahteva, pitajte ih da odbiju neke pre nego ЕЎto ponovo zatraЕѕite.'
+player_received_invites: '&bPrimili ste %a/%m poziva.'
+town_revoke_invite: '&bGrad %s je povukao poziv da mu se pridruЕѕite.'
+town_revoke_invite_successful: '&bUspeЕЎno ste povukli poziv za ulazak u VaЕЎ grad.'
+town_received_invites: '&bGrad je primio %a/%m poziva.'
+town_sent_invites: '&bGrad je poslao %a/%m poziva.'
+nation_revoke_invite: '&bNacija %s je povukla poziv da im se pridruЕѕite.'
+nation_revoke_invite_successful: '&bUspeЕЎno ste povukli poziv za pridruЕѕenje VaЕЎoj naciji.'
+nation_revoke_ally: '&bNacija %s je povukla zahtev za savezniЕЎtvo.'
+nation_revoke_ally_successful: '&bUspeЕЎno ste povukli zahtev za savezniЕЎtvo.'
+nation_received_requests: '&bNacija je primila %a/%m zahteva za savezniЕЎtvo.'
+nation_sent_invites: '&bNacija je poslala %a/%m poziva.'
+nation_sent_ally_requests: '&bNacija je poslala %a/%m zahteva za savezniЕЎtvo.'
+no_confirmations_open: '&cNemate ЕЎta da potvrdite!'
+successful_cancel: '&cAkcija otkazana!'
+successful_deny: '&bPoziv uspeЕЎno odbijen.'
+successful_deny_request: '&bSavezniДЌki zahtev jeuspeЕЎno odbijen.'
+msg_ally_removed_successfully: '&bSaveznik je uspeЕЎno uklonjen.'
+town_deleted_by_admin: '&bGrad %s uspeЕЎno obrisan'
+nation_deleted_by_admin: '&bNacija %s uspeЕЎno obrisana'
+are_you_sure_you_want_to_continue: 'Da li ste sigurni da Еѕelite da nastavite?'
+you_have_been_invited_to_join: 'Pozvani ste da se pridruЕѕite '
+you_have_been_requested_to_ally: 'ZatraЕѕeno Vam je savezniЕЎtvo '
+this_message_will_expire: 'Ovo Д‡e samostalno isteД‡i za 20 sekundi'
+player_sing: 'IgraДЌ'
+nation_zone_this_area_under_protection_of: 'Ovaj deo %s je pod zaЕЎtitom %s'
+#Added in 0.42
+you_have_been_invited_to_join2: 'Pozvani ste da se pridruЕѕite %s'
+you_have_been_requested_to_ally2: 'ZatraЕѕeno Vam je savezniЕЎtvo sa %s'
+#Added in 0.43
+town_help_11: 'Osnujte novi grad. Koristite ''_'', a ne razmake.'
+changed_plot_town: '&bUspeЕЎno ste promenili grad plota u %s!'
+not_standing_in_plot: 'Ne nalazite se u vaЕѕeД‡em plotu!'
+msg_err_homeblock_has_not_been_set: 'Blok Doma joЕЎ nije postavljen, prvo iskoristite ''/town set homeblock''.'
+msg_err_spawn_not_within_homeblock: 'Spawn nije obuhvaД‡en Blokom Doma, prvo iskoristite ''/town set homeblock''.'
+#Added in 0.44
+#TownyChat language strings
+tc_err_invalid_command: 'GreЕЎka: NevaЕѕeД‡a komanda!'
+tc_settings_reloaded: '[TownyChat] Postavke ponovo uДЌitane!'
+tc_err_unrecognized_command_format: 'GreЕЎka: Format komande nije prepoznat!'
+tc_channel_list_status: '(Status)'
+tc_channel_list_in: 'U'
+tc_channel_list_out: 'Van'
+tc_err_you_dont_have_perm_mute_list: 'Nemate dozvole da vidite mute spisak'
+tc_err_you_dont_have_unmute_perm: 'Nemate dozvole za unmute'
+tc_err_no_channel_called_channel: 'Nema kanala koji se zove &f%s'
+tc_err_no_muted_players_in_channel_players: 'Nema mute-ovanih igraДЌa u &f%s'
+tc_players_muted_in_channel: '[TownyChat] &f%n &2mute-ovanih igraДЌa u &f%s&2: &f%s'
+tc_err_no_online_players_with_name: 'Nema online igraДЌa sa imenom &f%s'
+tc_err_you_dont_have_mute_perms: 'Nemate dozvolu za mute'
+tc_err_you_cant_mute_admin: 'Ne moЕѕete mute-ovati Towny administratora.'
+tc_err_you_cant_mute_chat_mod: 'Ne moЕѕete mute-ovati chat moderatora.'
+tc_player_already_muted_in_channel: '[TownyChat] IgraДЌ je veД‡ uД‡utkan u &f%s'
+tc_player_is_now_muted_in_channel: '[TownyChat] &f%s &2je sada mute-ovan/a u &f%s'
+tc_player_is_not_muted_in_channel: '[TownyChat] IgraДЌ nije mute-ovan u &f%s'
+tc_player_is_now_unmuted_in_channel: '[TownyChat] &f%s &2je unmute-ovan/a u &f%s'
+tc_err_you_are_currently_muted_in_channel: 'Trenutno ste mute-ovani u &f%s&c!'
+tc_err_you_cannot_leave_channel: 'Ne moЕѕete napustiti &f%s'
+tc_you_already_left_channel: '[TownyChat] VeД‡ ste napustili &f%s'
+tc_you_left_channel: '[TownyChat] Napustili ste &f%s'
+tc_you_are_now_talking_in_channel: '[TownyChat] Sada priДЌate u &f%s'
+tc_err_you_cannot_join_channel: 'Ne moЕѕete uД‡i u &f%s'
+tc_you_are_already_in_channel: '[TownyChat] VeД‡ ste u &f%s'
+tc_you_joined_channel: '[TownyChat] UЕЎli ste u &f%s'
+tc_err_you_are_already_talking_in_default_channel_help: 'VeД‡ razgovarate u default kanalu. Da preД‘ete na drugi kanal koristite komandu tog kanala.'
+tc_err_unable_to_talk_essentials_mute: 'Ne moЕѕete priДЌati... Mute-ovani ste!'
+tc_err_unable_to_talk_you_are_spamming: 'Ne moЕѕete priДЌati... Spamujete!'
+msg_admin_set_plot_help_1: 'Dok ste u gradu.'
+msg_admin_set_plot_help_2: 'Dok ste u divljini.'
+msg_err_not_enough_outposts_free_to_claim: 'Nema dovoljno dostupnih kampova da se claim-uje %s/%s'
+msg_err_over_outposts_limit: 'Ne moЕѕete se teleportovati do svog kampa, nalazite se preko svog ograniДЌenja %s/%s'
+#Status Screen elements (/res, /town, /nation, /tw, /plot perm)
+#These are translated because we may (or may not) be handling longer words in a smart way.
+#If you are a translator feel free to skip over this section, as it may or may not appear very nice
+#in game. It would be best to see what the changes look like in game before you PR it to github.
+outlaws: 'Razbojnici:' #Used on /t outlawlist
+online: '&a(Online)'
+registered_last_online: '&2Registrovan: &a%s &8| &2Poslednji Put Online: &a%s' #Used in mayor hover text in /town status screen.
+status_perm: 'Dozv:' #Used on /plot perm, /res
+status_on: '&4UKLJUДЊENO'
+status_off: '&aISKLJUДЊENO'
+status_on_good: '&aUKLJUДЊENO'
+status_off_bad: '&4ISKLJUДЊENO'
+status_forced: '&cForsirano'
+status_adjustable: '&aPromenljivo'
+status_pvp: 'PvP:'
+explosions: 'Eksplozije:'
+firespread: 'Е irenje vatre:'
+mobspawns: 'Stvaranje Mobova:'
+owner_of_x_plots: 'Vlasnik %s plotova.'
+status_bank: 'Banka:'
+status_town: 'Grad:'
+status_no_town: 'NiЕЎta'
+status_town_ranks: 'Gradski ДЊinovi:'
+status_nation_ranks: 'Nacionalni ДЊinovi:'
+jailed_in_town: ' u Gradu: %s'
+status_friends: 'Prijatelji'
+rank_list_title: '%s Lista ДЊinova'
+rank_list_mayor: 'GradonaДЌelnik:'
+status_title_capital: '&b(Capital)'
+status_title_pvp: '&4(PvP)'
+status_title_open: '&b(Otvoren)'
+status_town_board: 'Tabla:'
+status_founded: 'Nastao:'
+status_founded_by: 'Founded by:'
+status_town_size: 'VeliДЌina Grada:'
+status_town_size_bought: 'Kupljen:'
+status_town_size_bonus: 'Bonus:'
+status_town_size_nationbonus: 'Bonus Nacije:'
+status_town_outposts: 'Periferije:'
+status_bank_town2: 'Dnevni porez odrЕѕavanja:'
+status_bank_town3: 'Porez:'
+status_town_nation: 'Nacija:'
+status_town_reslist_overlength: 'i viЕЎe...'
+status_nation_king: 'Vodja:'
+status_nation_tax: 'Nacionalni Porez:'
+status_nation_conquered_tax: 'ConqueredTax:'
+status_nation_towns: 'Gradovi'
+status_nation_allies: 'Saveznici'
+status_nation_enemies: 'Neprijatelji'
+status_nation_enemied_by: 'Nations that consider your nation an enemy'
+status_world_claimable: '&aClaim-ljiv'
+status_world_noclaims: '&cBez Claim-ova'
+status_world_forcepvp: 'Forsiranje PvP-a:'
+status_world_fire: 'Vatra:'
+status_world_forcefire: 'Forsiranje Vatre:'
+status_world_forceexplosion: 'Forsiranje Eksplozije:'
+status_world_worldmobs: 'Mobovi Sveta:'
+status_world_forcetownmobs: 'Forsiranje Gradskih Mobova:'
+status_world_unclaimrevert: 'Unclaim VraД‡anje:'
+status_world_explrevert: 'VraД‡anje Eksplozija:'
+status_world_ignoredblocks: 'Ignorisani Blokovi:'
+status_res_taxexempt: 'Staff se izuzima od plaД‡anja gradskih poreza.'
+status_res_tax: 'Gradski Porez:'
+status_res_plottax: 'Ukupni Porezi Plota:'
+status_res_totaltax: 'Ukupni Porezi za platiti:'
+status_townblock_plottax: 'Plot Tax: '
+status_townblock_untaxed: 'Untaxed'
+#Added in 0.45
+msg_err_unable_to_use_bank_outside_nation_capital: 'Ne moЕѕete koristiti banku nacije van prestonice nacije.'
+msg_err_unable_to_use_bank_outside_your_town: 'Ne moЕѕete koristiti banku grada van VaЕЎeg grada.'
+msg_time_until_a_new_day: 'Vreme do Novog Dana: '
+msg_hours: ' sati'
+msg_minutes: ' minuta'
+msg_seconds: ' sekundi'
+msg_err_invalid_string_nationboard_not_set: 'NevaЕѕeД‡i unos, Tabla Nacije nije postavljena.'
+msg_plot_evict: 'Plot uspeЕЎno iseljen.'
+msg_no_one_to_evict: 'Nikog za iseliti sa ovog plota.'
+#Added in 0.46
+nation_help_10: 'Teleportujte se do spawn-a nacije.'
+msg_nation_spawn_warmup: '&bДЊekanje na teleportaciju...'
+msg_set_nation_spawn: '&bSpawn nacije uspeЕЎno promenjen.'
+msg_err_cant_afford_tp_nation: '&cNe moЕѕete priuЕЎtiti teleportaciju do %s.'
+msg_err_nationspawn_has_not_been_set: '&cSpawn nacije nije postavljen.'
+msg_err_spawn_not_within_nationtowns: '&cSpawn nacije mora biti u gradu koji je deo nacije.'
+msg_err_spawn_not_within_capital: '&cSpawn nacije mora biti u glavnom gradu.'
+msg_err_nation_spawn_war: '&cSpawn-ovi nacije nisu dozvoljeni za vreme rata.'
+msg_err_nation_not_public: '&cTa nacija nije javna.'
+msg_nation_toggle_public: '&aUspeЕЎno promenjeno podeЕЎavanje za javnost nacije.'
+status_yes: '&aDA'
+status_no: '&cNE'
+msg_err_unable_to_use_bank_outside_bank_plot: 'Ne moЕѕete koristiti tu komandu van banke ili kuД‡nog plota.'
+msg_err_nation_spawn_forbidden: '&cPutovanje do spawn-a nacije je zabranjeno.'
+msg_err_nation_spawn_forbidden_war: '&cPutovanje do spawn-a nacije je dozvoljeno samo za vreme rata.'
+msg_err_nation_spawn_forbidden_peace: '&cPutovanje do spawn-a nacije je zabranjeno za vreme rata.'
+msg_err_nation_spawn_ally_forbidden: '&cPutovanje do spawn-a savezniДЌkih nacija je zabranjeno.'
+msg_err_nation_spawn_nation_forbidden_war: '&cPutovanje do spawn-a savezniДЌkih nacija je dozvoljeno samo za vreme rata.'
+msg_err_nation_spawn_nation_forbidden_peace: '&cPutovanje do spawn-a savezniДЌkih nacija je zabranjeno za vreme rata.'
+msg_err_public_nation_spawn_forbidden: '&cPutovanje do javnih spawn-ova drugih nacija je zabranjeno.'
+msg_err_public_nation_spawn_forbidden_war: '&cPutovanje do javnih spawn-ova drugih nacija je dozvoljeno samo tokom rata.'
+msg_err_public_nation_spawn_forbidden_peace: '&cPutovanje do javnih spawn-ova drugih nacija je zabranjeno tokom rata.'
+msg_spawn_cost_set_to: '&b%s je postavio cenu koriЕЎД‡enja /%s spawn na %s'
+msg_err_cannot_set_spawn_cost_more_than: '&cNe moЕѕete postaviti cenu spawn-a veД‡om od %s'
+msg_err_ally_isnt_public: '&cVaЕЎ saveznik, %s, nema javno stvaranje omoguД‡eno. Teleport odbijen.'
+msg_nation_changed_public: '&cJavni status nacije je sada %s.'
+#Added in 0.47:
+status_plot_type: 'Tip plota:'
+msg_no_self_jailing: 'Ne moЕѕete sami sebe staviti na robiju.'
+online2: ' &a(Online)'
+build: 'Gradi'
+destroy: 'UniЕЎtavaju'
+switch: 'PrekidaДЌ'
+item_use: 'Predmeta_KoriЕЎД‡enje'
+owner_status: 'Vlasnik'
+towny_map_header: 'Towny Mapa '
+towny_map_unclaimed: 'Nije claim-ovano'
+towny_map_claimed: 'Claim-ovano'
+towny_map_forsale: 'Na Prodaju'
+towny_map_yourtown: 'VaЕЎ Grad'
+towny_map_yourplot: 'VaЕЎ Plot'
+towny_map_ally: 'Saveznik'
+towny_map_enemy: 'Neprijatelj'
+enabled: 'OmoguД‡eno'
+disabled: 'OnemoguД‡eno'
+forced: 'Forsirano'
+adjustable: 'Podesljivo'
+#Added in 0.48:
+msg_no_funds_new_town2: '&c%s ne moЕѕe priuЕЎtiti da ustoliДЌi novi grad ovde, ЕЎto koЕЎta %s.'
+msg_no_funds_new_nation2: '&cGrad ne moЕѕe priuЕЎtiti da osnuje novu naciju, ЕЎto koЕЎta %s.'
+msg_no_funds_claim2: '&cGrad ne moЕѕe priuЕЎtit da claim-uje %s gradskih blokova ЕЎto koЕЎta %s. Dodajte %s banci grada koristeД‡i /g uplati %s'
+msg_err_cant_afford_blocks2: '&cGrad ne moЕѕe priuЕЎtit da claim-uje %s gradskih blokova ЕЎto koЕЎta %s. Dodajte %s banci grada koristeД‡i /g uplati %s'
+msg_err_not_enough_variables: '&cNema dovoljno promenjivih: '
+nation_rechecked_by_admin: '&bRazdaljine gradova nacije %s su ponovo uspeЕЎno proverene.'
+msg_err_nation_over_town_limit: '&cVaЕЎa nacija je dostigla maksimalni dozvoljeni broj za broj gradovi-po-naciji: %s.'
+#Added in 0.49
+msg_process_claim: 'ObraД‘ivanje Plot Claim-a...'
+msg_process_unclaim: 'ObraД‘ivanje Plot Unclaim-a...'
+msg_total_townblocks: 'Ukupno gradskih blokova: '
+#Added in 0.50
+friend_list: 'Spisak Prijatelja'
+#The following formatting lists apply to friends lists on the /res screen; townranks lists on the /town screen;
+#nationranks lists on the /nation screen; and probably more lists of residents.
+res_format_list_1: '&2' #First colour applied to Resident lists, ex: on /res, the friend list's Friends section.
+res_format_list_2: '&a' #Second colour applied to Resident lists, ex: on /res, the friend list's [1] section.
+res_format_list_3: '&f' #Third colour applied to Resident lists, ex: on /res, the friend list's list of friends' names section.
+townboard_message_colour_1: '&6'
+townboard_message_colour_2: '&e'
+nationboard_message_colour_1: '&6'
+nationboard_message_colour_2: '&e'
+not_registered: 'Niste registrovani.'
+msg_error_missing_comparator: '&bMorate navesti po ДЌemu sortirati.'
+msg_error_invalid_comparator: '&bNevaЕѕeД‡i uporeД‘ivaДЌ.'
+msg_error_multiple_comparators: '&bPreviЕЎe uporeД‘ivaДЌa. Navedite samo jedan.'
+msg_error_comparator_failed: '&bUporeД‘ivaДЌ nije uspeo. Probajte neki drugi.'
+number_of_residents: '(Broj Stanovnika)'
+number_of_towns: '(Broj Gradova)'
+town_name: 'Ime Grada'
+nation_name: 'Ime Nacije'
+refund_message: '&aPovraД‡eno %s za unclaim-ovanje %s gradskih blokova.'
+msg_bankrupt_town_multiple: '&bSledeД‡i gradovi nisu mogli priuЕЎtiti da se odrЕѕe i raspuЕЎteni su: '
+msg_bankrupt_nation_multiple: '&bSledeД‡e nacije nisu mogle priuЕЎtiti da se odrЕѕe i raspuЕЎtene su: '
+msg_couldnt_pay_tax: '&b%s je izbaДЌen/a iz %s zbog nemoguД‡nosti da isplati porez.'
+msg_couldnt_pay_nation_tax_multiple: '&bSledeД‡i gradovi nisu mogli priuЕЎtiti nacionalni porez i napustili su naciju: '
+msg_couldnt_pay_town_tax_multiple: '&bSledeД‡i stanovnici nisu mogli priuЕЎtiti gradski porez i prognani su: '
+msg_couldnt_pay_plot_taxes_multiple: '&bSledeД‡i stanovnici nisu mogli priuЕЎtiti porez na nekim ili svim svojim plotovima: '
+msg_bankrupt_town2: '&b%s nije mogao priuЕЎtiti da ostane grad.'
+msg_bankrupt_nation2: '&b%s nije mogao priuЕЎtiti da ostane nacija.'
+status_embassy_town: 'PredstavniЕЎtva u'
+#Added in 0.51:
+msg_error_invalid_comparator_nation: '&bInvalid comparator. Try %s.'
+msg_error_invalid_comparator_town: '&bInvalid comparator. Try %s.'
+msg_err_merging_for_kings_only: '&bMerging can only be done by a Nation Leader.'
+msg_err_king_of_that_nation_is_not_online: '&bThe Nation Leader of %s, %s, is not online. Merge failed.'
+nation1_has_merged_with_nation2: '&6Nacija %s je pristala da bude pripojena preovladavajuД‡oj naciji %s.'
+msg_would_you_merge_your_nation_into_other_nation: '&6Da li biste pristali da vaЕЎa nacija %s izgubi autonomiju u korist pripadnosti naciji %s? Ovo Д‡e prebaciti sve gradove i novac nacionalne banke u naciju %s.'
+no_open_towns: 'Nema otvorenih gradova za navoД‘enje.'
+#Added in 0.52:
+msg_error_nation_has_no_allies: 'Nacija nema saveznika za navoД‘enje.'
+msg_error_nation_has_no_enemies: 'Nacija nema neprijatelja za navoД‘enje.'
+msg_error_ta_plot_claim: 'Ime igraДЌa nedostaje, pr: /ta plot claim ImeIgraДЌaOvde'
+msg_error_no_player_with_that_name: 'Nije naД‘en igraДЌ po imenu %s'
+msg_admin_has_given_you_a_plot: 'Admin je claim-ovao plot za Vas na: %s'
+msg_town_forcemobs_setting_set_to: 'The town %s has had their mobs setting forced to %s'
+msg_town_forcepvp_setting_set_to: 'Grad %s je forsirao PvP podeЕЎavanje na %s'
+msg_town_forcedisabledpvp_setting_set_to: 'The town %s has had their admindisabledpvp setting forced to %s'
+msg_nation_changed_open: '&cOtvoreni status nacije je sada %s.'
+msg_err_already_in_a_nation: 'VaЕЎ grad je veД‡ u naciji.'
+msg_err_nation_not_open: '&cThe nation %s does not have it''s doors open to everyone. Ask the nation leader or an assistant to join.'
+msg_err_nation_homeblock_in_another_world: '%cBlok doma VaЕЎeg grada nije u istom svetu kao blok doma glavnog grada nacije.'
+status_bank_town_penalty_upkeep: 'Porez odrЕѕavanja pre-claim-a:'
+#Added in 0.53:
+msg_error_cannot_town_spawn_youre_an_outlaw_in_town: 'Ne moЕѕete se spawn-ovati u %s, tamo ste oznaДЌeni kao razbojnik.'
+#Added in 0.55:
+msg_you_cannot_use_that_command_while_jailed: '&4Ne moЕѕete koristiti tu komandu dok ste na robiji.'
+#Added in 0.56:
+msg_cache_block_error_town_nation: '&cДЊlanovi nacije ne smeju da %s.'
+#Added in 0.57:
+msg_err_already_res2: '&c%s veД‡ pripada nekom gradu.'
+msg_err_cannot_afford_plot_set_type_cost: '&cNe moЕѕete priuЕЎtiti da postavite plot na %s tip ЕЎto koЕЎta %s'
+msg_plot_set_cost: '&bNaplaД‡eno Vam je %s za postavljanje plota na tip: %s'
+msg_err_townspawn_has_not_been_set: '&cSpawn grada nije postavljen.'
+msg_err_player_too_far_from_town_spawn: '&c%s je predaleko od spawn-a VaЕЎega grada da primi poziv u grad. Maksimalna razdaljina: %s blokova.'
+#Added in 0.58:
+msg_resident_bail_amount: 'Kaucija stanovnika koЕЎta: '
+msg_mayor_bail_amount: 'Kaucija gradonaДЌelnika koЕЎta: '
+msg_king_bail_amount: 'Nation Leader Bail costs: '
+msg_has_paid_bail: '%s je platio/la kauciju i sada je slobodan/a.'
+msg_err_unable_to_pay_bail: 'Ne moЕѕete priuЕЎtiti kauciju.'
+msg_err_bail_not_enabled: 'Kaucija nije omoguД‡ena.'
+msg_you_have_been_freed_from_jail: 'OsloboД‘eni ste iz zatvora.'
+msg_player_has_been_freed_from_jail_number: '%s je osloboД‘en/a iz zatvora broj %s.'
+msg_player_has_been_sent_to_jail_number: '%s je poslat/a u zatvor broj %s.'
+msg_player_is_not_online: '%s nije online.'
+msg_mysql_dump_success: 'Dump MySQL baze podataka gotov.'
+msg_err_mysql_not_being_used: 'VaЕЎa konfiguracija nije podeЕЎena da ДЌuva i uДЌitava mysql.'
+msg_save_success: 'Baza podataka saДЌuvana.'
+msg_load_success: 'Baza podataka uДЌitana.'
+msg_err_cannot_afford_to_set_outpost: 'VaЕЎ grad nema dovoljno sredstava da postavi ovaj blok grada na kamp.'
+msg_too_close2: 'Ova oblast je preblizu %s drugoga grada.'
+homeblock: 'blok doma'
+townblock: 'gradski blok'
+outpost: 'kamp'
+msg_err_not_same_town: '&b%s ne pripada VaЕЎem gradu.'
+#Added in 0.59:
+msg_modes_set: 'ReЕѕimi postavljeni: '
+msg_err_this_plot_doesnt_have_any_associated_metadata: 'Sa ovim plotom nisu povezani nikakvi metapodaci.'
+msg_err_the_metadata_for_key_is_not_registered: 'Metapodaci za %s nisu registrovani!'
+msg_key_x_was_successfully_updated_to_x: 'KljuДЌ %s je uspeЕЎno aЕѕuriran na %s.'
+msg_err_key_x_is_not_part_of_this_plot: 'KljuДЌ %s nije deo ovog plota, molimo dodajte ga ako je moguД‡e.'
+msg_err_key_x_already_exists: 'KljuДЌ %s veД‡ postoji!'
+msg_custom_data_was_successfully_added_to_townblock: 'Podaci prilagoД‘eni od klijentele su uspeЕЎno dodati gradskom bloku!'
+msg_data_successfully_deleted: 'Podaci uspeЕЎno obrisani!'
+msg_err_key_cannot_be_deleted: 'KljuДЌ ne moД‡e biti obrisan jer ne postoji!'
+msg_err_this_town_doesnt_have_any_associated_metadata: 'Sa ovim gradom nisu povezani nikakvi metapodaci.'
+msg_err_key_x_is_not_part_of_this_town: 'KljuДЌ %s nije deo ovog grada, ako je moguД‡e, molimo dodajte ga.'
+msg_custom_data_was_successfully_added_to_town: 'Podaci dodati od klijentele su uspeЕЎno dodati gradu!'
+msg_err_this_resident_doesnt_have_any_associated_metadata: 'This resident doesn''t have any associated metadata.'
+msg_err_key_x_is_not_part_of_this_resident: 'Key %s is not part of this resident, if possible please add it.'
+msg_custom_data_was_successfully_added_to_resident: 'Custom data was successfully added to resident!'
+msg_err_this_nation_doesnt_have_any_associated_metadata: 'This nation doesn''t have any associated metadata.'
+msg_err_key_x_is_not_part_of_this_nation: 'Key %s is not part of this nation, if possible please add it.'
+msg_custom_data_was_successfully_added_to_nation: 'Custom data was successfully added to nation!'
+msg_error_too_many_pages: 'PreviЕЎe strana.'
+msg_err_location_is_not_within_a_town: 'Lokacija nije deo grada.'
+msg_err_location_is_not_within_a_jail_plot: 'Lokacija nije deo zatvorskog plota.'
+msg_err_town_has_no_jail_spawns_set: 'Grad nema postavljene spawn-ove za zatvor.'
+msg_err_town_has_no_outpost_spawns_set: 'Grad nema postavljene spawn-ove za periferije.'
+msg_err_location_is_not_within_an_outpost_plot: 'Lokacija nije deo plota kampa.'
+msg_err_town_has_not_set_a_spawn_location: 'Grad nije postavio spawn lokaciju.'
+msg_err_town_has_no_claim_over_this_town_block: 'Grad nema claim nad ovim gradskim blokom.'
+msg_err_town_doesnt_belong_to_any_nation: 'Grad ne pripada ni jednoj naciji.'
+msg_err_mayor_doesnt_belong_to_town: 'GradonaДЌelnik ne pripada gradu.'
+msg_err_tag_too_long: 'Oznaka predugaДЌka.'
+msg_err_nation_has_not_set_a_spawn_location: 'Nacija nije postavila spawn lokaciju.'
+msg_err_resident_doesnt_belong_to_any_town: 'Stanovnik ne pripada ni jednom gradu'
+msg_err_could_not_set_default_modes_for: 'Nije moguД‡e staviti podrazumevane modove za '
+#Added in 0.60
+msg_set_war_allowed_on: 'Rat Д‡e biti dozvoljen u ovom svetu.'
+msg_set_war_allowed_off: 'Rat neД‡e obuzeti ovaj svet.'
+#Added in 0.61
+#Added in 0.62
+msg_err_cannot_toggle_pvp_x_seconds_remaining: 'Ne moЕѕete iskljuДЌiti/ukljuДЌiti PvP, %s sekundi preostalo.'
+msg_err_cannot_spawn_x_seconds_remaining: 'Ne moЕѕete se spawn-ovati joЕЎ %s sekundi.'
+#Added in 0.63
+msg_plot_set_to_nfs: 'Plot viЕЎe nije na prodaju.'
+msg_err_x_spawn_disallowed_from_x: '&c%s spawn nije dozvoljen iz %s.'
+msg_the_wilderness: 'Divljina'
+msg_enemy_areas: 'ProtivniДЌke oblasti'
+msg_neutral_towns: 'Neutralni gradovi'
+#Added in 0.64
+msg_err_no_nation_with_that_name: 'Nacija sa imenom %s nije naД‘ena'
+msg_err_cannot_unclaim_homeblock: 'Ne moЕѕete unclaim-ovati VaЕЎ blok doma, iskoristite ''/towny set homeblock'' da premestite blok doma.'
+#Added in 0.65
+msg_err_rename_cancelled: 'Promena imena je otkazana drugim prikljuДЌkom.'
+#Added in 0.66
+#Added in 0.67
+msg_conquered: '&4(Okupirano)'
+#Added in 0.68
+msg_plot_group_claim_confirmation: 'Ovaj plot je deo grupe od %s plot(ov)a. Potvrdom claim-a kupiД‡ete ih sve.'
+msg_plot_group_unclaim_confirmation: 'Ovaj plot je deo grupe od %s plot(ov)a. Potvrdom Д‡ete ih sve unclaim-ovati.'
+msg_plot_group_toggle_confirmation: 'Ovaj plot je deo grupe od %s plot(ov)a. Potvrdom Д‡ete podesiti imanje na svakom od njih.'
+msg_plot_group_set_perm_confirmation: 'Ovaj plot je deo grupe od %s plot(ov)a. Potvrdom Д‡ete postaviti liniju dozvole na svakom od njih.'
+msg_plot_evict_group: 'UspeЕЎno ste iselili igraДЌa sa ovog grupisanog plota, %s.'
+msg_err_plot_belongs_to_group_plot_fs: 'Plot %s pripada grupi, iskoristite /plot group [ime grupe] fs [koliДЌina]'
+msg_err_plot_belongs_to_group_set: 'Plot pripada jednoj grupi, iskoristite /plot grupa postavi'
+msg_plot_group_set_for_sale: 'Grupa %s je stavljena na prodaju!'
+msg_err_plot_already_belongs_to_a_group: 'Ovaj plot veД‡ pripada jednoj grupi: %s, molimo ukolonite blok grada iz te grupe pre dodavanja drugoj.'
+msg_err_you_must_specify_a_group_name: 'Morate navesti ime za grupu plotova.'
+msg_plot_was_put_into_group_x: 'Plot &9(%s,%s) &2je stavljen u grupu %s'
+msg_err_plot_not_associated_with_a_group: 'Ovaj plot nije povezan ni sa jednom grupom.'
+msg_plot_was_removed_from_group_x: 'Plot &9(%s,%s) &2je uklonjen iz grupe %s'
+msg_plot_renamed_from_x_to_y: 'Plot %s je preimenovan %s.'
+msg_err_plot_group_specify_price: 'Molimo navedite cenu, pr: /plot grupa fs [cena]'
+msg_player_put_group_up_for_sale_amount: '%s put group %s up for sale for %s!'
+msg_player_put_group_up_for_sale: '%s put group %s up for sale!'
+msg_err_could_not_set_group_type: 'Tip grupe se nije mogao postaviti - '
+msg_set_group_type_to_x: 'Tip grupe plota promenjen na %s'
+msg_player_successfully_bought_group_x: '%s je uspeЕЎno kupio/la grupu plotova %s'
+status_plot_group_name_and_size: 'Gradski blok je deo grupe: %s. Grupa ima ukupno %s Gradskih blokova.'
+msg_player_made_group_not_for_sale: '%s je sklonio grupu %s od prodaje.'
+#Added in 0.69
+msg_err_cannot_set_group_to_jail: 'Grupe plotova se ne mogu postaviti na tipove zatvora.'
+#Added in 0.70
+msg_err_plot_group_name_required: 'Morate navesti ime grupe plotova, tj /plot grupa dodaj {name}'
+msg_confirmation_spigot_click_accept: 'Kliknite %s ili ukucajte %s'
+msg_confirmation_spigot_click_cancel: 'KlikД‡ite %s ili kucajte %s'
+msg_you_cannot_kick_yourself: 'Ne moЕѕete izbaciti sami sebe.'
+msg_you_cannot_kick_this_resident: 'Ne moЕѕete izbaciti %s, imaju ДЌin gradonaДЌelnika ili saradnika.'
+#Added in 0.71
+msg_err_plot_belongs_to_group_plot_fs2: 'Plot: %s pripada jednoj grupi, iskoristite /plot group fs [koliДЌina]'
+msg_err_plot_belongs_to_group_plot_nfs: 'Plot: %s pripada jednoj grupi, iskoristite /plot grupa nfs'
+#Added in 0.72
+msg_err_admin_controlled_pvp_prevents_you_from_changing_pvp: 'Postavka %s koju kontroliЕЎu Admini Vas spreДЌava da ukljuДЌite/iskljuДЌite PvP na %s.'
+#Added in 0.73
+msg_err_you_aren't currently jailed: 'Trenutno niste na robiji.'
+#Added in 0.74
+msg_err_you_are_not_allowed_to_create_the_other_side_of_this_portal: 'Nije Vam dozvoljeno pravljenje druge strane ovog portala na ovoj lokaciji.'
+#Added in 0.75
+msg_already_ally: 'VaЕЎa nacija je veД‡ u savezniЕЎtvu sa %s.'
+#Added in 0.76
+msg_you: 'Vi'
+#Added in 0.77
+msg_click_spawn: '&aKliknite da se stvorite do: &e%s'
+msg_spawn_cost: '&aCena Stvaranja = &e%s'
+#Added in 0.78
+msg_reload_error: 'Bilo je greЕЎke pri ponovnom uДЌitavanju Towny-a.'
+msg_reloaded_config: '&2Konfiguracija ponovo uspeЕЎno uДЌitana.'
+msg_reloaded_perms: '&2Dozvole ponovo uspeЕЎno uДЌitane.'
+msg_reloaded_db: '&2Baza podataka ponovo uspeЕЎno uДЌitana'
+msg_reloaded_lang: '&2Datoteka jezika ponovo uspeЕЎno uДЌitana'
+msg_reset_config: '&2Konfiguracija je resetovana'
+msg_err_teleport_cancelled: 'Mrdanje je otkazalo VaЕЎu teleportaciju.'
+#Added in 0.79
+msg_cache_block_error_plot_friends: 'prijatelji'
+msg_cache_block_error_plot_allies: 'saveznici'
+msg_cache_block_error_plot_outsiders: 'nestanovnici'
+msg_cache_block_error_plot_town_members: 'ДЌlanovi grada'
+msg_err_invalid_nation_map_color: '&cNepoznata boja mape. Dozvoljene boje su %s.'
+msg_nation_map_color_changed: '&bBoja mape nacije je promenjena u %s.'
+msg_err_unable_to_add_more_residents_without_nation: 'VaЕЎ grad ne moЕѕe pozvati viЕЎe od %s stanovnika bez prethodnog pridruЕѕenja ili osnivanja nacije.'
+msg_the_following_towns_were_deleted_for_having_0_claims: 'SledeД‡i gradovi su izbrisani za nemanje claim-ova: %s'
+msg_spawn_warn: 'Stvaranje koЕЎta %s. Nastavite? Predlog: dodajte -ignoriЕЎi da preskoДЌite ove potvrde.'
+msg_confirm_purchase: 'ДЊinjenje ovoga Д‡e koЕЎtati %s. Nastavite?'
+msg_warn_the_following_towns_will_be_removed_from_your_nation: 'Jer neД‡e biti dovoljno blizu novog glavnog grada, sledeД‡i gradovi Д‡e biti uklonjeni iz VaЕЎe nacije: %s. Da li Еѕelite da nastavite?'
+msg_ta_deposit_all_success: 'UspeЕЎno uplaД‡eno %s bankama svih nacija i gradova.'
+bonus_townblocks: 'bonus gradskih blokova'
+#Added in 0.80
+nomad_sing: 'Nomad'
+msg_new_town_advice: 'ДЊestitamo na pravljenju grada! VaЕЎ grad Д‡e svaki dan plaД‡ati porez odrЕѕavanja koji trenutno iznosi %s. MoЕѕete uplatiti novac u banku VaЕЎeg grada koristeД‡i ''/t deposit #''. Bez novca za plaД‡anje poreza odrЕѕavanja grad Д‡e biti obrisan. MoЕѕete proveriti VaЕЎe troЕЎkove koristeД‡i /towny prices. SledeД‡i porez odrЕѕavanja biД‡e uzet za %s.'
+#Added in 0.81
+msg_err_teleport_cancelled_damage: 'Е teta je otkazala VaЕЎu teleportaciju.'
+#Added in 0.82
+invitation_prefix: "&8[&7Poziv&8] &9"
+confirmation_prefix: "&8[&7Potvrda&8] &9"
+this_message_will_expire2: '&9Ovo Д‡e automatski isteД‡i za %s sekundi'
+msg_hover_next_page: 'SledeД‡a Strana'
+msg_hover_previous_page: 'Prethodna Strana'
+#Added in 0.83
+msg_max_tax_amount_only_for_percent: "Maksimalna koliДЌina poreza moЕѕe biti postavljena samo za gradove sa porezom u procentima."
+msg_town_set_tax_max_percent_amount: "%s je stavio/la maksimalan procenat poreza na %s."
+#Added in 0.84
+msg_err_plot_belongs_to_group_toggle: 'Plot pripada grupi, koristite /plot group toggle'
+#Added in 0.85
+msg_set_perms_reset_single: '&bUspeЕЎno resetovane dozvole na ovom plotu.'
+#Added in 0.86
+status_bank_bankrupt: '(BANKROT)'
+msg_warning_bankrupt: '&4***UPOZORENJE, %s Д†E BANKROTIRATI SLEDEД†EG DANA ZBOG NEDOSTATKA NOVCA***'
+msg_town_bankrupt_by_upkeep: '&b%s nije mogao da priuЕЎti porez odrЕѕavanja i bankrotirao je.'
+msg_town_bankrupt_by_upkeep_multiple: '&bSledeД‡i gradovi nisu mogli da priuЕЎte porez odrЕѕavanja i bankrotirali su: '
+msg_town_bankrupt_by_nation_tax: '&b%s nije mogao da plaД‡a %s porez i bankrotirao je.'
+msg_town_bankrupt_by_nation_tax_multiple: '&bSledeД‡i gradovi nisu mogli da priuЕЎte nacionakni porez i bankrotirali su: '
+msg_town_debts_cleared: '%s je oДЌistio sve dugove i viЕЎe nije u bankrotu.'
+msg_err_bankrupt_town_cannot_claim: 'Bankrotirani grad ne moЕѕe claim-ovati plotove.'
+msg_err_bankrupt_town_cannot_build: 'Nije dozvoljeno graditi u bankrotiranom gradu.'
+msg_err_bankrupt_town_cannot_toggle_open: 'Ne moЕѕete ukljuДЌiti otvaranje u bankrotiranom gradu.'
+msg_err_bankrupt_town_cannot_invite: 'Nije dozvoljeno zvati igraДЌe u bankrotiran grad.'
+msg_payed_nation_tax: '&bVaЕЎ grad je platio nacionalni porez od %s.'
+msg_your_town_couldnt_pay_the_nation_tax_of: '&bVaЕЎ grad nije mogao da priuЕЎti nacionalni porez od %s i izbaДЌen je iz nacije.'
+msg_your_town_payed_upkeep: '&bVaЕЎ grad je platio dnevni porez odrЕѕavanja od %s.'
+msg_your_nation_payed_upkeep: '&bVaЕЎa nacija je platila dnevni porez odrЕѕavanja od %s.'
+msg_your_town_couldnt_pay_upkeep: '&bVaЕЎ grad nije mogao da plati dnevni porez odrЕѕavanja od %s i raspuЕЎten je.'
+msg_your_nation_couldnt_pay_upkeep: '&bVaЕЎa nacija nije mogla da plati dnevni porez odrЕѕavanja od %s i raspuЕЎtena je.'
+#Added in 0.87
+msg_town_reached_debtcap_and_is_disbanded: '&b%s nije mogao/la da plati porez odrЕѕavanja, dostigao/la ograniДЌenje duga i raspuЕЎten/a je.'
+msg_town_reached_debtcap_and_is_disbanded_multiple: '&bSledeД‡i gradovi nisu mogli da plate porez odrЕѕavanja, dostigli ograniДЌenje duga i raspuЕЎteni su: '
+msg_unable_to_deposit_x: 'Nije moguД‡e uplatiti %s u banku tog grada.'
+msg_unable_to_withdraw_x: 'Nije moguД‡e podiД‡i %s iz banke tog grada.'
+status_debtcap: 'OgraniДЌenje Duga:'
+status_world_explrevert_entity: 'PovraД‡aj Eksplozije Entiteta:'
+status_world_explrevert_block: 'PovraД‡aj Eksplozije Bloka:'
+#Added in 0.88
+msg_nation_already_peaceful: '&cNacija je veД‡ mirna.'
+msg_nation_already_not_peaceful: '&bNacija veД‡ nije mirna.'
+#Added in 0.89
+status_world_friendlyfire: 'Prijateljska Borba:'
+status_world_wildernessmobs: 'Mobovi iz Divljine:'
+msg_outlaw_kick_cooldown: '&cSmatrani ste za razbojnika u %s. Imate %s da napustite grad, u suprotnom Д‡ete biti teleportovani na svoj spawnpoint.'
+msg_outlaw_kicked: '&4Niste dobrodoЕЎli u %s. Teleportovani ste van.'
+msg_outlaw_town_notify: '&cRazbojnik, %s, je uЕЎao na teritoriju VaЕЎeg grada.'
+msg_your_town_payed_upkeep_with_debt: '&cVaЕЎ grad je platio dnevni porez odrЕѕavanja od %s sa dugom.'
+msg_payed_nation_tax_with_debt: '&cVaЕЎ grad je platio nacionalni porez od %s sa dugom.'
+#Added in 0.90
+status_plot_clear_deletion: 'PlotOДЌistiBlokObriЕЎi:'
+msg_err_plot_clear_disabled_in_this_world: 'Na ovom svetu je onemoguД‡ena komanda /plot clear.'
+#Added in 0.91
+msg_universe_attribution: 'Autori: '
+msg_universe_contributors: ' I oni koji doprinose poput Vas. '
+msg_universe_heart: '<3'
+townblock_plu: 'Gradski Blokovi'
+#Added in 0.92
+#Town Ruins
+msg_newhour_success: 'newhour komanda izvrЕЎena uspeЕЎno'
+town_help_12: 'Reclaim-ujte svoj grad iz uruЕЎenog stanja.'
+msg_warning_town_ruined_if_deleted: "UPOZORENJE!!!: Ako obriЕЎete svoj grad uД‡i Д‡e u uruЕЎeno stanje za %d sati. Nakon ovog vremena Д‡e nastupiti potpuno brisanje. U uruЕЎenom stanju, sve dozvove su omoguД‡ene i grad moЕѕe biti grief-ovan."
+msg_warning_town_ruined_if_deleted2: "Ovaj grad moЕѕe biti reclaim-ovan od strane bilo kog stanovnika grada koristeД‡i /t reclaim nakon %d sati."
+msg_err_cannot_reclaim_town_unless_ruined: '&cNe moЕѕete reclaim-ovati svoj grad jer nije uruЕЎen.'
+msg_err_cannot_reclaim_town_yet: '&cNe moЕѕete reclaim-ovat svoj grad narednih %d sati.'
+msg_town_reclaimed: '&b%s je reclaim-ovao grad %s.'
+msg_err_cannot_use_command_because_town_ruined: "&cNe moЕѕete koristiti ovu komandu jer je VaЕЎ grad uruЕЎen. Da nastavite sa normalnim koriЕЎД‡enjem komandi, ili reclaim-ujte grad koristeД‡i /town reclaim, ili napustite grad koristeД‡i /town leave."
+msg_warning_your_town_is_ruined_for_x_more_hours: '&cVaЕЎ grad leЕѕi u uruЕЎenom stanju joЕЎ %d sati. Iskoristite ''/town reclaim'' da spasete grad i postanete gradonaДЌelnik.'
+msg_time_remaining_before_full_removal: 'Vreme preostalo do potpunog uklanjanja: %d sati.'
+msg_time_until_reclaim_available: 'Vreme do dostupnosti reclaim-a: %d sati.'
+msg_reclaim_available: 'Reclaim dostupan.'
+#Added in 0.93
+msg_changed_peaceful: '&cNeutralnost/mirnoД‡a grada je sada %s.'
+msg_err_town_unclaim_canceled: '&cUnclaim otkazan. Ne moЕѕete unclaim-ovati ovu oblast u ovo vreme.'
+#Added in 0.94
+msg_comptype_residents: 'Broj Stanovnika'
+msg_comptype_townblocks: 'Broj Claim-ovanih Gradskih blokova'
+msg_comptype_balance: 'Stanje u banci'
+msg_comptype_online: 'Online igraДЌi'
+msg_comptype_towns: 'Broj Gradova'
+msg_comptype_name: 'Abecedni red'
+msg_comptype_open: 'Otvoreni Status'
+msg_status_npc: '&c%s nije stvarni igraДЌ, i ograniДЌen je samo na Towny.'
+npc_created: 'Kreirano:'
+msg_no_funds_claim_plot: '&cNe moЕѕete priuЕЎtiti da claim-ujete plot cene %s.'
+msg_no_funds_claim_plot_group: '&cNe moЕѕete priuЕЎtiti da claim-ujete %s plotova ЕЎto koЕЎta %s.'
+status_town_title_peaceful: '&b(Mirno)'
+#Added in 0.95
+status_public: '&b(Javno)'
+msg_days: ' dana'
+msg_comptype_public: 'Javni Status'
+towny_prices_title: 'Cene'
+towny_prices_town_nation: '&e[Nov] &2Grad: &a%s &8| &2Nacija: &a%s'
+towny_prices_reclaim: '&e[Reclaim] &2Grad: &a%s'
+towny_prices_upkeep: '&e[OdrЕѕavanje] &2Grad: &a%s &8| &2Nacija: &a%s'
+towny_prices_overclaimed_upkeep: '&e[Pre-claim-ovano OdrЕѕanje] &2Grad: &a%s'
+towny_prices_claiming_townblock: '&e[Claim-ovanje] &2Gradski Blok: &a%s'
+towny_prices_claiming_townblock_increase: ' &8| &2PoveД‡aj po gradskom bloku: &a+%s'
+towny_prices_claiming_outposts: '&e[Claim-ovanje] &2Kampovi: &a%s'
+towny_prices_upkeep_based_on: '&7OdrЕѕanje grada je bazirano na &athe %s'
+towny_prices_upkeep_num_plots: 'broj plotova.'
+towny_prices_upkeep_town_level: 'nivo grada (br. stanovnici.)'
+towny_prices_overclaimed_based_on: '&8Pre-claim-ovani porez na odrЕѕavanje je baziran na &a %s %s'
+towny_prices_overclaimed_num_plots: 'broj pre-claim-ovanih plotova *'
+towny_prices_overclaimed_flat_cost: 'cena parcele od'
+towny_prices_townname: '&cGrad: &b%s'
+towny_prices_price_plot: '&c    [Cena] &2Plot: &a%s &8| &2Kamp: &a%s'
+towny_prices_price_shop: '&c            &2Prodavnica: &a%s &8| &2PredstavniЕЎtvo: &a%s'
+towny_prices_taxes_plot: '&c    [Porezi]    &2Stanovnik: &a%s &8| &2Plot: &a%s'
+towny_prices_taxes_shop: '&c            &2Prodavnica: &a%s &8| &2PredstavniЕЎtvo: &a%s'
+towny_prices_town_neutral_tax: '&c            &2Mir: &a%s'
+towny_prices_plots: '&c    [Postavljanje plotova]'
+towny_prices_type_single: '            &2%s: &a%s'
+towny_prices_type_double: '            &2%s: &a%s &8| &2%s: &a%s'
+towny_prices_nationname: '&cNacija: &6%s'
+towny_prices_nation_tax: '&c    [Porezi] &2Grad: &a%s &8| &2Mir: &a%s'
+#Added in 0.96
+msg_town_destroyed_by_nation_tax: '&bOsvojeni grad %s nije mogao da plati nacionalni porez i pao je.'
+msg_town_destroyed_by_nation_tax_multiple: '&bSledeД‡i osvojeni gradovi nisu mogli da plate nacionalni porez i pali su: '
+msg_your_town_was_exempt_from_the_nation_tax: '&bVaЕЎ grad je poЕЎteД‘en nacionalnog poreza.'
+#Added in 0.97
+status_perm_line_format: '&a%s=&7' #The Build = ---- Destroy = ---- seen in the status screen.
+msg_comptype_ruined: 'Status UruЕЎenosti'
+msg_comptype_bankrupt: 'Status Bankrotstva'
+msg_ruined: '&c(UruЕЎen)'
+msg_bankrupt: '&c(Bankrotirao)'
+#Added in 0.98
+msg_del_town2: '&Grad %s je obrisan!'
+msg_ruin_town: '&bGrad %s je postao gomila ruЕЎevina!'
+gui_title_select_plot_type: 'Odaberite tip plota'
+gui_title_no_restrictions: 'Nema ograniДЌenja za ovaj tip plota.'
+gui_title_towny_allowedblocks: '%s DozvoljeniBlokovi Spisak'
+gui_title_towny_wildsblocks: 'Towny DivljeBlokovi Spisak'
+gui_title_towny_itemuse: 'Towny PredmetaKoriЕЎД‡enje Spisak'
+gui_title_towny_switch: 'Towny Spisak PrekidaДЌa'
+gui_title_towny_plotclear: 'Towny Plot OДЌisti ObriЕЎi Spisak'
+#Added in 0.99 - FlatFile L10N
+#NOTICE
+#While these strings can be translated, we caution you to keep them in English.
+flatfile_dbg_cannot_set_capital_try_next: 'Nation %s could not set capital to %s, selecting a new capital...'
+flatfile_dbg_deleting_duplicate: 'Deleting: %s which is a duplicate of %s'
+flatfile_dbg_folders_found: 'Folders found %s'
+flatfile_dbg_group_file_missing_town_delete: 'Group file missing Town, deleting %s'
+flatfile_dbg_loading_group_list: 'Loading Group list...'
+flatfile_dbg_loading_nation: 'Loading Nation: %s'
+flatfile_dbg_loading_nation_list: 'Loading Nation list...'
+flatfile_dbg_loading_resident: 'Loading Resident: %s'
+flatfile_dbg_loading_resident_list: 'Loading Resident list...'
+flatfile_dbg_loading_server_world_list: 'Loading Server World List...'
+flatfile_dbg_loading_town: 'Loading Town: %s'
+flatfile_dbg_loading_town_list: 'Loading Town list...'
+flatfile_dbg_loading_townblock_list: 'Loading TownBlock list...'
+flatfile_dbg_loading_world: 'Loading World: %s'
+flatfile_dbg_loading_world_list: 'Loading World List...'
+flatfile_dbg_mismatched_townblock_size: '%s townblocks were found with a town_block_size that does not match your config, they were not loaded into memory.'
+flatfile_dbg_missing_file_delete_group_entry: 'Missing file: %s deleting entry in group.txt'
+flatfile_dbg_missing_file_delete_groups_entry: 'Missing file: %s deleting entry in groups.txt'
+flatfile_dbg_removing_nation_not_found: 'Removing %s because they are not found in the nations.txt'
+flatfile_dbg_removing_resident_not_found: 'Removing %s because they are not found in the residents.txt'
+flatfile_dbg_removing_town_not_found: 'Removing %s because they are not found in the towns.txt.'
+flatfile_dbg_town_fetch_outlaw: 'Town Fetching Outlaw: %s'
+flatfile_dbg_undefined_capital_select_new: 'Nation %s did not have a capital defined, selecting a new capital...'
+flatfile_dbg_world_loaded_townblocks: 'World: %s loaded %s TownBlocks.'
+flatfile_err_cannot_create_defaults: 'Could not create flatfile default files and folders.'
+flatfile_err_could_not_add_to_town: 'Could not add to town!'
+flatfile_err_exception_reading_file: 'Loading Error: Exception while reading file %s'
+flatfile_err_exception_reading_group_file_at_line: 'Loading Error: Exception while reading Group file %s at line: %s'
+flatfile_err_exception_reading_townblock_file_at_line: 'Loading Error: Exception while reading TownBlock file %s at line: %s.'
+flatfile_err_exception_reading_world_file_at_line: 'Loading Error: Exception while reading world file %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_file_error_reading_world_file_at_line: 'Loading Error: File error while reading %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_homeblock_load_invalid_location: '[Warning] %s - HomeBlock tried to load invalid Location.'
+flatfile_err_homeblock_load_invalid_townblock: '[Warning] %s - HomeBlock tried to load invalid TownBlock.'
+flatfile_err_homeblock_load_invalid_world: '[Warning] %s - HomeBlock tried to load invalid World.'
+flatfile_err_invalid_townblock_resident: 'Invalid resident for TownBlock %s. Skipped setting resident for TownBlock...'
+flatfile_err_loading_group_list_at_line: 'Error loading Group List at %s, in towny/data/groups.txt'
+flatfile_err_loading_world_list_at_line: 'Error loading World list at %s, in towny/data/worlds.txt'
+flatfile_err_nation_could_not_load_capital_disband: 'The nation %s could not load a capital city and is being disbanded.'
+flatfile_err_reading_nation_file_at_line: 'Loading Error: Exception while reading nation file %s at line %s, in towny/data/nations/%s.txt'
+flatfile_err_reading_outlaw_of_town_duplicate: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s is duplicated! Skipping adding duplicate...'
+flatfile_err_reading_outlaw_of_town_not_exist: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s does not exist! Removing from list...'
+flatfile_err_reading_resident_at_line: 'Loading Error: Exception while reading resident file %s at line: %s, in towny/data/residents/%s.txt'
+flatfile_err_reading_town_file_at_line: 'Loading Error: Exception while reading town file %s at line: %s, in towny/data/towns/%s.txt'
+flatfile_err_resident_tried_load_invalid_town: 'Loading Error: %s tried to load the town %s which is invalid. Removing town from the resident.'
+flatfile_err_town_homeblock_not_exist: '[Warning] %s does not have a HomeBlock.'
+flatfile_err_townblock_file_contains_unregistered_town_delete: 'TownBlock file contains unregistered Town: %s, deleting %s'
+flatfile_err_townblock_file_missing_town_delete: 'TownBlock file missing Town, deleting %s'
+flatfile_err_townblock_file_unknown_err: 'TownBlock file contains unknown error, deleting %s.'
+msg_ta_removed_all_titles_and_surnames_removed: 'Svim stanovnicima behu uklonjeni titule i prezimena.'
+msg_err_homeblock_already_set_here: 'Ovo mesto je veД‡ blok doma VaЕЎega grada.'
+#Added in 0.100
+msg_town_merge_err_mayor_only: '&bSpajanje moЕѕe da bude izvrЕЎeno samo od strane gradonaДЌelnika.'
+msg_town_merge_err_not_close: '&cGrad %s je predaleko od VaЕЎega grada. Njihov blok doma treba da bude %d gradskih blokova od VaЕЎeg bloka doma.'
+msg_town_merge_request_sent: '&bZahtev za spajanje poslat gradonaДЌelniku %s.'
+msg_town_merge_request_received: '&bGradonaДЌelnik %s, %s, je zatraЕѕio spajanje sa VaЕЎim gradom. Ovo Д‡e prebaciti sve gradske blokove, stanovnike i novac gradske banke u %s.'
+msg_town_merge_request_denied: '&cZahtev za spajanje odbijen.'
+msg_town_merge_other_offline: '&bGradonaДЌelnik %s, %s, je trenutno offline. Spajanje nije uspelo.'
+msg_town_merge_err_too_many_residents: '&cSpajanje nije uspelo: Nova koliДЌina stanovnika premaЕЎuje ograniДЌenje (%d)'
+msg_town_merge_err_too_many_townblocks: '&cSpajanje nije uspelo: Nova veliДЌina grada premaЕЎuje ograniДЌenje (%d)'
+msg_town_merge_err_too_many_outposts: '&cSpajanje nije uspelo: Nova koliДЌina kampova premaЕЎuje ograniДЌenje (%d)'
+msg_town_merge_err_not_enough_money: '&cSpajanje nije uspelo: Nema dovoljno novca. (%s/%s)'
+msg_town_merge_err_too_many_purchased_townblocks: '&cSpajanje nije uspelo: PreviЕЎe kupljnih gradskih blokova (%d)'
+msg_town_merge_warning: '&cUpozorenje: Ako bude prihvaД‡eno, spajanje sa %s Д‡e koЕЎtati %s.'
+msg_town_merge_debt_warning: '&cUpozorenje: %s trenutno duguje, moraД‡ete da platite njihov dug u sluДЌaju prihvatanja.'
+msg_town_merge_cost_breakdown: '&bCost breakdown: Base cost: %s, Townblock cost: %s, Bankruptcy cost: %s, BonusBlock cost: %s'
+msg_town_merge_failed: '&cSpajanje neuspeЕЎno.'
+msg_town_merge_cancelled: '&cSpajanje otkazano.'
+msg_town_merge_success: '&bGrad %s, vlasniЕЎtvo od %s, uspeЕЎno spojen sa gradom %s.'
+#Reasons for withdrawing/depositing for the bankhistory book.
+msg_town_merge_cost_withdraw: 'Cene Spajanja Grada'
+msg_town_merge_transaction_reason: 'Spajanje Grada'
+towny_prices_town_merge: '&e[Merging] &2Osnovna Cena: &a%s &8| &2Po Plotu: &a%s'
+#Added in 0.101
+msg_err_nation_not_allied_with: '&cVaЕЎa nacija nije u savezu sa %s.'
+msg_err_nation_not_enemies_with: '&cVaЕЎa nacija nije neprijatelj sa %s.'
+msg_err_nation_already_enemies_with: '&cVaЕЎa nacija je veД‡ protivnik sa %s.'
+msg_err_ally_already_requested: '&cVeД‡ ste poslali zahtev za savezniЕЎtvo %s.'
+msg_err_nation_not_allied_with_2: '&c%s nije u savezu sa %s.'
+msg_err_nation_not_enemies_with_2: '&c%s nije neprijatelj sa %s.'
+msg_err_nation_already_allied_with_2: '&c%s je veД‡ u savezu sa %s.'
+msg_err_nation_already_enemies_with_2: '&c%s je veД‡ neprijatelj sa %s.'
+msg_ta_allies_enemies_updated: '&bSaveznici/Neprijatelji aЕѕurirani za %s.'
+#Added in 0.102
+towny_map_detailed_information: '&2Kliknite za detaljne informacije o plotu.'
+msg_err_nation_capital_too_many_residents: '&cTrenutna prestonica ima previЕЎe stanovnika da bi bila zamenjena sa %s.'
+msg_deleting_nation_will_result_in_losing_residents: '&cUpozorenje: Brisanje VaЕЎe nacije bi znaДЌilo da Д‡e grad preД‡i ograniДЌenje stanovniЕЎtva od %d, ЕЎto bi dovelo do ukljanjanja %d stanovnika.'
+#Added in 0.103
+msg_command_blocked_inside_towns: '&cNe moЕѕete koristiti tu komandu unutar gradova.'
+msg_command_limited: 'Tu komandu moЕѕete koristiti samo unutar sopstvenih plotova.'
+#Added in 0.104
+#Don't add a space to the end please
+msg_plot_perm_claimed_at: 'Claim-ovano na:'
+#Added in 0.105
+msg_wilderness_use_x_in_all_worlds: 'KoriЕЎД‡enje divljine je postalo %s u svim svetovima.'
+msg_regenerations_use_x_in_all_worlds: 'Regeneracije stavljene %s u svim svetovima.'
+#Added in 0.106
+msg_command_outsider_blocked: 'Ne moЕѕete izvrЕЎiti tu komandu jer ne Еѕivite u %s.'
+#Added in 0.107
+msg_jailed_for_x_hours: ' za %s sati.'
+msg_err_this_jail_has_no_cells: 'Ovaj zatvor nema Д‡elije.'
+msg_err_no_cell_found_at_this_location: 'Ni jedna Д‡elija nije naД‘ena na ovoj lokaciji.'
+msg_jail_cell_set: 'Zatvorska Д‡elija postavljena.'
+msg_jail_cell_removed: 'Zatvorska Д‡elija uklonjena.'
+msg_err_resident_is_already_jailed: '%s je veД‡ na robiji'
+msg_err_the_town_does_not_have_that_many_jails: 'Ovaj grad nema toliko zatvora.'
+msg_err_that_jail_plot_does_not_have_that_many_cells: 'Taj plot zatvora nema toliko Д‡elija.'
+msg_primary_jail_set_for_town: 'Primarni zatvor VaЕЎeg grada je postavljen.'
+msg_x_has_been_freed_from_x: '%s je puЕЎten iz zatvora %s'
+msg_you_have_been_jailed: 'Stavljeni ste na robiju.'
+msg_run_to_the_wilderness_or_wait_for_a_jailbreak: 'BeЕѕite u divljinu ili ДЌekajte na beg iz zatvora.'
+msg_err_player_is_not_jailed: 'Taj igraДЌ nije na robiji.'
+msg_you_have_paid_bail: 'Platili ste kauciju.'
+msg_you_have_been_freed_via_jailbreak: 'Desio se beg iz zatvora, slobodni ste!'
+msg_you_have_served_your_sentence_and_are_free: 'OdsluЕѕili ste svoju kaznu zatvora i slobodni ste.'
+msg_x_has_served_their_sentence_and_is_free: '%s je odsluЕѕio/la svoju kaznu zatvora i slobodan/na je.'
+msg_you've_been_jailed_for_x_hours: 'Stavljeni ste na robiju na %s sati.'
+msg_you_are_being_sent_to_jail: 'Е alju Vas na robiju.'
+msg_err_you_cannot_remove_the_last_cell: 'Ne moЕѕete ukloniti poslednju Д‡eliju u ovom zatvoru, sve dok se ne doda joЕЎ jedna Д‡elija'
+msg_do_not_log_out_while_waiting_to_be_teleported: 'Ne odjavljujte se pre bivanja telepotovan/na u zatvor, to bi bilo pogubno.'
+jail_plu: 'Zatvori'
+jail_sing: 'Zatvor'
+msg_resident_has_not_played_long_enough_to_be_jailed: '%s nije igrao dovoljno dugo da bude stavljen na robiju, saДЌekajte joЕЎ %s'
+#Added in 0.108
+msg_town_not_peaceful: '&bGrad nije mogao da priuЕЎti svoje stanje mira.'
+msg_town_already_peaceful: '&bGrad je veД‡ miran.'
+msg_town_already_not_peaceful: '&bGrad veД‡ nije miran.'
+msg_town_cant_peaceful: '&bTown couldn''t afford to become a peaceful town. You need to be able to pay %s per day.'
+msg_town_paid_for_neutral_status: '&bVaЕЎ grad je platio %s da Vam zadrЕѕi status mira.'
+msg_nation_paid_for_neutral_status: '&bVaЕЎa nacija je platila %s da zadrЕѕi status mira.'
+your_town_has_been_invited_to_join_nation: 'VaЕЎ grad je pozvan da se prikljuДЌi naciji: %s'
+#Added in 0.109
+msg_err_no_one_to_purge: '&bNema neaktivnih ДЌlanova za iЕЎДЌistiti.'
+msg_purging_will_remove_the_following_residents: '&bMolimo potvrdite da Еѕelite da iЕЎДЌistite sledeД‡e stanovnike: %s'
+msg_purge_complete_x_removed: '&bIЕЎДЌiЕЎД‡avanje gotovo, %s stanovnika uklonjeno.'
+msg_err_days_must_be_greater_than_0: 'Dani moraju biti veД‡i od nule.'
+msg_err_outlawed_players_no_teleport: '&4Razbojnik ste u gradu u kome se trenutno nalazite i ne moЕѕete se teleportovati!'
+msg_err_you_cannot_use_command_while_in_outlaw_town: '&4Ne moЕѕete koristiti tu komandu dok ste u gradu u kome ste razbojnik.'
+#Added in 0.110
+msg_safe_mode: "[GreЕЎka] ZakljuДЌano u sigurnom modu!"
+msg_safe_mode_base: '[GreЕЎka] Towny je zakljuДЌan u Sigurnom Modu zbog greЕЎke! '
+msg_safe_mode_player: 'Recite nekom adminu da proveri konzolu servera.'
+msg_safe_mode_admin: 'Proverite konzolu servera za joЕЎ informacija.'
+msg_err_you_can_only_claim_outposts_in_your_homeblocks_world: 'MoЕѕete da claim-ujete samo kampove u svetu VaЕЎeg bloka doma.'
+msg_err_not_close_enough_to_your_town_nearest_plot: 'NemoguД‡e claim-ovati kamp, Vi ste %s gradskih blokova od svog najbliЕѕeg claim-a. Maksimalna dozvoljena razdaljina: %s gradskih blokova.'
+msg_err_you_have_moved_your_homeblock_too_recently_wait_x: 'Pomerili ste blok doma baЕЎ nedavno! SaДЌekajte joЕЎ %s.'
+msg_err_you_cannot_move_your_homeblock_this_far_limit_is_x_you_are_x: 'Ne moЕѕete pomeriti VaЕЎ blok doma za toliko gradskih blokova, ograniДЌenje je %s, ovaj prostor je udaljen %s gradskih blokova.'
+msg_err_usingtowny_disabled: 'Ovaj svet je liЕЎen svih Towny interakcija. Prvo iskoristite /townysvet toggle koristeД‡itowny.'
+#Added in 0.111
+msg_plot_group_already_exists_did_you_want_to_transfer: 'Ovaj gradski blok je veД‡ deo %s grupe plotova. Da li ste sigurni da ga Еѕelite prebaciti u %s grupu plotova.'
+msg_townblock_transferred_from_x_to_x_group: 'Gradski blok prebaДЌen iz %s u %s grupu plotova.'
+msg_plotgroup_deleted: 'Grupa plotova %s je obrisana.'
+msg_plotgroup_empty_deleted: 'Grupa plotova %s nije imala gradskih blokova i obrisana je.'
+plotgroup_plu: 'Grupe plotova'
+msg_err_this_town_has_no_plot_groups: 'Navedeni grad nema grupe plotova.'
+msg_err_this_plot_is_already_part_of_the_plot_group_x: 'Ovaj gradski blok je veД‡ deo grupe plotova: %s'
+map_hover_plot_group: 'Grupa plotova: '
+map_hover_plot_group_size: ' VeliДЌina: '
+map_hover_plots: '%s plotovi'
+#Added in 0.112
+msg_checking_for_updates: 'Proveravanje ima li aЕѕuriranja...'
+msg_no_new_updates: 'Nema novih aЕѕuriranja.'
+msg_new_update_available: '&bNova aЕѕuriranja dostupna: %s | Trenutna verzija: %s'
+msg_download_here: 'Preuzmite je ovde: %s'
+msg_click_to_download: '&bKliknite ovde da je preuzmete.'
+msg_latest_version: '&2Towny verzija: &a%s &2| Najnovija verzija: &a%s'
+msg_up_to_date: '&aKoristite najnoviju verziju.'
+msg_click_purchase: 'Kliknite da kupite'
+msg_you_must_join_this_town_to_claim_this_plot: 'Morate uД‡i u ovaj grad: %s, kako biste claim-ovali ovaj plot. Da li Еѕelite da se pridruД‡ite gradu i nastavite sa claim-ovanjem?'
+#Added in 0.113
+status_trustedlist: 'Pouzdano'
+msg_click_to_edit: '&6Kliknite da menjate.'
+permission_gui_header: 'Towny GUI Dozvola'
+msg_last_edited: '&7&oPoslednji put promenjeno na %s od %s.'
+msg_trusted_added: '&bDodat %s kao pouzdan u ovom %s.' #Last %s is either town or townblock
+msg_already_trusted: '&b%s je veД‡ trust-ovan/a u ovom %s.'
+msg_trusted_added_2: '&b%s Vas je trust-ovao u %s:%s.' #Last %s is the town name or worldcoord.
+msg_not_trusted: '&b%s nije trust-ovan u ovom %s.'
+msg_trusted_removed: '&bUklonjen/a %s kao trust-ovan u ovom %s.'
+msg_trusted_removed_2: '&b%s Vas je uklonio/la kao trust-ovanog u %s: %s.'
+msg_overrides_removed: '&bUklonjene preklapane dozvole za %s.'
+msg_overrides_added: '&bDodate podrazumevane preklapane dozvole za %s.'
+msg_no_overrides_set: '&b%s nema ni jedne preklope postavljene za ovaj %s.'
+msg_overrides_already_set: '&b%s veД‡ ima preklope postavljene za ovaj %s.'
+msg_cache_block_err: '&cNe smete %s ovde.'
+msg_err_plot_belongs_to_group: '&cPlot pripada grupi, koristite %s.'
+plotgroup_sing: 'Grupa plotova'
+msg_err_ally_limit_reached: 'VaЕЎa nacija je dostigla ograniДЌenje saveznika, nije moguД‡e prihvatiti.'
+#Added in 0.114
+msg_err_group_not_found: 'Grupa %s nije naД‘ena.'
+msg_err_expected_command_format: 'NetaДЌna sintaksa, oДЌekuje se: %s'
+msg_err_group_already_has_node: 'Grupa %s veД‡ ima node %s.'
+msg_err_group_doesnt_have_node: 'Grupa %s nema node %s.'
+msg_successfully_added_node_to_group: 'UspeЕЎno dodat %s u %s.'
+msg_successfully_removed_node_from_group: 'UspeЕЎno uklonjen %s iz %s.'
+msg_err_there_is_already_a_town_or_nationrank_called_x: 'VeД‡ postoji %s koji se zove %s.'
+msg_err_there_is_no_town_or_nationrank_called_x: 'Ne postoji %s sa imenom %s.'
+msg_successfully_add_rank_to_the_town_or_nation_rank: 'UspeЕЎno dodat %s u %s.'
+msg_successfully_removed_rank_from_the_town_or_nation_rank: 'UspeЕЎno uklonjen %s iz %s.'
+msg_err_group_has_no_nodes: 'Grupa %s nema prikaДЌenih node-ova za dozvolu.'
+msg_title_group_permissions: '%s Dozvole'
+help_ta_perms_listgroups: 'Spisak grupa.'
+help_ta_perms_group: 'Prikazuje node-ove dozvola u grupi'
+help_ta_perms_groupaddpermnode: 'Dajte node grupi.'
+help_ta_perms_groupremovepermnode: 'Uklonite node iz grupe.'
+help_ta_perms_townrankadd: 'Dodaje gradski ДЌin u townyperms datoteku.'
+help_ta_perms_townrankremove: 'Uklanja gradski ДЌin iz townyperms datoteke.'
+help_ta_perms_nationrankadd: 'Dodaje ДЌin nacije u townyperms datoteku.'
+help_ta_perms_nationrankremove: 'Uklanja ДЌin nacije iz townyperms datoteke.'
+msg_err_that_resident_doesnt_belong_to_that_nation: 'Taj stanovnik ne pripada toj naciji.'
+#Added in 0.115
+msg_comptype_founded: 'Datum Osnivanja'
+msg_err_must_be_greater_than_or_equal_to: 'KoliДЌina mora biti veД‡a od %s ili jednaka %s'
+err_invalid_yaml: 'GreЕЎka pri uДЌitavanju: Nije moguД‡e uДЌitati datoteku %s (da li prolazi yaml parser?).'
+#Added in 0.116
+msg_town_map_color_changed: '&bBoja mape grada je promenjena u %s.'
+#Added in 0.117
+msg_err_this_townblock_doesnt_match_the_groups_type: 'Ovaj gradski blok se ne moЕѕe dodati grupi jer nije tipa: %s'
+#Added in 0.118
+status_title_nopvp: '&a(Nema PVP-a)'
+#Added in 0.119
+msg_err_resident_cannot_be_jailed_because_they_are_outlawed_there: 'Ne moЕѕete staviti stanovnika u zatvor, jer se trenutno nalaze na teritoriji u kojoj su razbojnik.'
+msg_err_resident_cannot_be_jailed_because_they_are_enemied_there: 'Ne moЕѕete staviti stanovnika na robiju, jer se trenutno nalaze na mestu na kome su smatrani neprijateljem.'
+#Added in 0.120
+msg_resident_prompt: 'Unesite ime igraДЌa u Д‡askanju, ili q da izaД‘ete. Ovo Д‡e automatski isteД‡i za 30 sekundi.'
+msg_prompt_cancel: 'Prompt otkazan ili istekao.'
+#Added in 0.121
+status_title_primary_colour: '&6' #Used to colour the majority of the title bar.
+status_title_secondary_colour: '&e' #Used to colour the words in the title bar.
+status_format_list_1: '&2' #First colour applied to status screen lists, ex: on /res, the friend list's Friends section.
+status_format_list_2: '&a' #Second colour applied to status screen lists, ex: on /res, the friend list's [1] section.
+status_format_list_3: '&f' #Third colour applied to status screen lists, ex: on /res, the friend list's list of friends' names section.
+status_format_key_value_key: '&2' #Colour applied to a status screen element which is just a line of text, or the key in a key/value element.
+status_format_key_value_value: '&a' #Colour applied to the value in a status screen element which has two parts, ex: Registered: SomeDate. (SomeDate is the value.)
+status_format_bracket_element: '&b' #Colour applied to a status element within a bracket, ex: [Bonus: #].
+status_format_hover_key: '&a' #Colour applied to a status screen element which is a hover-able key, ex: [Rank List]
+status_format_hover_bracket_colour: '&7' #Colour applied to the brackets of a hover-able status screen element.
+status_format_key_important: '&c' #Colour applied to an important status screen value, ex: (BANKRUPT), Ruined town reclaim lines, taxes/upkeep costs.
+status_splitter: ' &7| ' #Used in status screens where a splitter is used between values.
+status_home_element: ' &7[Dom: %s]'
+status_about: "About:"
+status_registered: 'Registrovan:'
+status_lastonline: 'Poslednji put Online:'
+status_fractions: '%s/%s'
+status_rank_list: 'Spisak ДЊinova'
+status_hover_click_for_more: 'Kliknite za viЕЎe informacija.'
+status_jailed: 'Na robiji:'
+status_bad_yes: '&cDA'
+status_good_no: '&aNE'
+status_resident_tax_title: 'Porez %s'
+help_menu_command: '<blue>'
+help_menu_subcommand: '<aqua>'
+help_menu_explanation: '<gray>'
+help_menu_requirement: '<red>'
+#Added in 0.122
+msg_warn_the_following_towns_will_be_removed_from_the_merged_nation: 'Zbog toga ЕЎto nisu dovoljno blizu glavnog grada VaЕЎe nacije, sledeД‡i gradovi Д‡e biti uklonjeni ako je spajanje izvrЕЎeno: %s.'
+#Added in 0.123
+msg_err_invalid_townyworld: "%s nije vaЕѕeД‡i towny svet."
+msg_err_enter_world_name_first: 'Molimo prvo unesite ime sveta.'
+msg_wilderness_use_set_to: '&bKoriЕЎД‡enje divljine je postavljeno na %s u %s.'
+#Added in 0.124
+msg_err_invalid_response: 'NevaЕѕeД‡i odgovor! Unesite q za izlazak ili nazad za povratak na prethodno pitanje.'
+msg_setup_full_guide_link: '&bZa link do potpunog vodiДЌa za istaliranje, kliknite ovde.'
+msg_setup_wildernessuse: 'Da li biste voleli da omogiД‡ite koriЕЎД‡enje divljine? To Д‡e dozvoliti igraДЌima da lome/grade u divljini.'
+msg_setup_revertunclaim: 'Da li biste voleli da iskoristite vraД‡anje na unclaim-u? Ovo Д‡e uДЌiniti da se gradski blokovi polako regeneriЕЎu kada se unclaim-uju.'
+msg_setup_town_block_ratio: 'Na ЕЎta biste voleli da postavite odnos gradskih blokova u svom gradu? Podrazumevana vrednost je 8 gradskih blokova po stanovniku. VeД‡e svote Д‡e dozvoliti gradovima da claim-uju viЕЎe za svakog stanovnika koga imaju. Postavljanje ovoga na 0 Д‡e uДЌiniti da se koriste vrednosti iz town_levels.'
+msg_setup_town_cost: 'Koliko treba da koЕЎta da se napravi novi grad? Podrazumevana vrednost je 250.'
+msg_setup_nation_cost: 'Koliko treba da koЕЎta da se napravi nova nacija? Podrazumevana vrednost je 1000.'
+msg_setup_townblock_cost: 'Koliko treba da koЕЎta da se claim-uje gradski blok? Podrazumevana vrednost je 25. Jedan blok grada je iste veliДЌine kao komad (podrazumevana podeЕЎavanja)'
+msg_setup_success: 'UspeЕЎno promenjen vrednosti konfiguracije na VaЕЎe nove vrednosti.'
+#Added in 0.125
+#Player has recently died and respawned and is invulnerable.
+msg_err_player_cannot_be_harmed: '%s se nedavno stvorio i ne moД‡e biti povreД‘en.'
+#Player was invulnerable after respawning and has lost their invulnerability.
+msg_you_have_lost_your_respawn_protection: 'You have lost your respawn protection.'
+#Message shown to a player when they are denied the ability to pick up items because they are under respawn protection.
+msg_err_cannot_pickup_respawn_protection: 'You cannot pick up items while under respawn protection.'
+#Added in 0.126
+#Used in the nation screen:
+status_capital: 'Glavni grad:'
+#Used in the resident screen's town hover, to denote when a player joined a town.
+status_joined_town: 'PrikljuДЌili ste se gradu:'
+#Used in the town screen's nation hover, to denote when a town joined a nation.
+status_joined_nation: 'PrikljuДЌili ste se naciji:'
+#Shown in status screen elements where a value is not known.
+status_unknown: 'nepoznato'
+#Feedback given for the /ta set nationzoneoverride [townname] [size] command.
+msg_nationzone_override_set_to: '%s beЕЎe imao/la svoj preklop zone nacije podeЕЎen na %s.'
+#Feedback given for the /ta set nationzoneoverride [townname] 0 command.
+msg_nationzone_override_removed: '%s beЕЎe imao/la svoj preklop zone nacije uklonjen.'
+#Added in 0.127
+#Used in status screen:
+status_nation_zone_size: 'VeliДЌina Zone Nacije:'
+#Shown when a player adds people to their friends list.
+msg_res_friend_added_to_list: '%s dodat/a na VaЕЎ spisak prijatelja.'
+#Shown when a player removes people from their friends list.
+msg_res_friend_removed_from_list: '%s je uklonjen/a s VaЕЎe liste prijatelja.'
+#Generic resident freed from jail message.
+msg_resident_unjailed: '%s je osloboД‘en iz zatvora.'
+#Shown when an admin uses /ta toggle devmode.
+msg_admin_toggle_devmode: 'RazvijaДЌki ReЕѕim: %s'
+#Shown when an admin uses /ta toggle debug.
+msg_admin_toggle_debugmode: 'Debug ReЕѕim: %s'
+#Shown when an admin uses /ta toggle townwithdraw
+msg_admin_toggle_townwithdraw: 'Podizanja sredstava grada: %s'
+#Shown when an admin uses /ta toggle nationwithdraw
+msg_admin_toggle_nationwithdraw: 'Podizanja sredstava nacije: %s'
+#Shown when claiming a town block for the town.
+msg_process_town_claim: 'ObraД‘ivanje Claim-a Grada...'
+#Shown when unclaiming a town block for the town.
+msg_process_town_unclaim: 'ObraД‘ivanje Unclaim-a Grada...'
+#Shown when there is nothing to unclaim.
+msg_err_nothing_to_unclaim: 'NiЕЎta za unclaim-ovati!'
+#Given as feedback when /ta checkperm is used.
+msg_perm_true: 'Dozvola TaДЌno.'
+#Given as feedback when /ta checkperm is used.
+msg_err_perm_false: 'Dozvola NetaДЌno.'
+#Shown at the bottom of the /towny map
+#First variable is townname or None, 2nd variable is plot owner's name or None.
+status_towny_map_town_line: '&2Grad: &a%s &7| &2Vlasnik: &a%s'
+#Shown on /towny version
+msg_towny_version: '&2Towny Verzija: &a%s'
+#Shown to admins and ops when a player has been blocked from logging into the server.
+msg_admin_blocked_login: '&2IgraДЌ sa IP adresom &c%s &2je pokuЕЎao da se prijavi sa imenom naloga %s ЕЎto bi moglo oЕЎtetiti ekonomiju VaЕЎeg servera, ali je spreДЌen od strane Towny-ja. Razmislite o ban-ovanju ove IP adrese!'
+#Shown during resident purge
+msg_scanning_for_old_residents: 'Skeniranje za stare stanovnike...'
+#Shown during resident purge
+msg_deleting_resident: 'Brisanje stanovnika: %s.'
+#Shown during resident purge
+msg_purge_complete: 'IЕЎДЌiЕЎД‡avanje stanovnika gotovo: %s obrisano.'
+#Message to the Town, shown when a town is given bonus blocks.
+msg_you_have_been_given_bonus_blocks: 'Dato Vam je %s bonus gradskih blokova.'
+#Message shown when a town cannot purchase any more bonus blocks.
+msg_err_you_cannot_purchase_any_more_bonus_blocks: 'VaЕЎ grad ne moЕѕe kupiti viЕЎe bonus blokova. Maksimalna koliДЌina dostignuta.'
+#Added in 0.128
+#Message shown to a capital city which is being denied the ability to toggle peaceful on.
+msg_err_capital_cannot_be_peaceful: 'Glavni gradovi ne mogu promeniti status mirnoД‡e.'
+#Message shown as feedback for /t toggle nationzone command.
+msg_changed_nationzone: 'Zona Nacije koja okruЕѕuje grad je sad %s'
+#Error message shown when a town tries to toggle their nationzone which doesn't exist.
+msg_err_your_town_has_no_nationzone_to_toggle: 'VaЕЎ grad nema Zonu Nacije za upaliti!'
+#Added in 0.129
+#Shown in /towny prices, describing what controls nation upkeep.
+towny_prices_nation_upkeep_based_on: '&7Porez odrЕѕavanja nacije je baziran na &a%s'
+#Shown in /towny prices, describing what controls nation upkeep when it is per town.
+towny_prices_upkeep_num_towns: 'broju gradova.'
+#Shown in /towny prices, describing that controls nation upkeep when it is per resident.
+towny_prices_upkeep_nation_level: 'nivou nacije (br. stanovnika)'
+#Added in 0.130
+#Jail causes
+msg_jailed_mayor: 'UhapЕЎen od gradonaДЌelnika.'
+#Jail causes
+msg_jailed_outlaw: 'Ubijen kao razbojnik.'
+#Jail causes
+msg_jailed_war: 'Ratni zarobljenik.'
+#Jail handbook messages
+msg_jailed_handbook_1: 'Izgleda da ste zatvoreni, iz razloga ЕЎto %s'
+#Jail handbook messages
+msg_jailed_handbook_2: 'Е teta, a? Pa ЕЎta se moЕѕe... Evo nekih saveta koji Д‡e Vam biti od koristi dok sluЕѕite kaznu.'
+#Jail handbook messages
+msg_jailed_handbook_3: 'Stavljeni ste u zatvor na %s sati. SluЕѕenjem kazne Д‡ete biti osloboД‘eni.'
+#Jail handbook messages
+msg_jailed_handbook_4_can: 'MoЕѕete pobeД‡i iz zatvora napuЕЎtanjem grada koristeД‡i ''/town leave''.'
+#Jail handbook messages
+msg_jailed_handbook_4_cant: 'Dok ste u zatvoru neД‡ete moД‡i da napustite grad kako biste pobegli iz zatvora.'
+#Jail handbook messages
+msg_jailed_handbook_bail_1: 'MoЕѕete biti osloboД‘eni iz zatvora ako platite kauciju koristeД‡i ''/res jail paybail''.'
+#Jail handbook messages
+msg_jailed_handbook_bail_2: 'Kaucija Д‡e koЕЎtati %s.'
+#Jail handbook messages
+msg_jailed_handbook_5: 'Ako istrajete i potrudite se i dospete do divljine, takoД‘e Д‡ete steД‡i slobodu.'
+#Jail handbook messages
+msg_jailed_handbook_6: 'Ali nemojte umreti pre nego ЕЎto stignete u divljinu, jer Д‡ete ponovo zavrЕЎiti u zatvoru.'
+#Jail handbook messages
+msg_jailed_teleport: 'SreД‡om, biseri bespuД‡a i korus voД‡e su dozvoljeni u pokuЕЎaju beЕѕanja iz zatvora, samo morate da ih nabavite.'
+#Jail handbook messages
+msg_jailed_war_prisoner: 'Kao ratni zatvorenik, biД‡ete osloboД‘eni ako VaЕЎi ljudi smanje HP zatvorskog plota na 0, ili ako je grad u kome robijate uklonjen iz rata.'
+#Jail handbook title
+msg_jailed_title: 'Zatvoreni ste :('
+#Jail handbook author
+msg_jailed_author: 'Stefi Vilorp.'
+#Added in 0.130
+#Message shown when there are no allies to list in /town allylist.
+msg_error_town_has_no_allies: 'Grad nema saveznike za navesti.'
+#Message shown when there are no enemies to list in /town enemylist.
+msg_error_town_has_no_enemies: 'Grad nema neprijatelje za navesti.'
+#Added in 0.132
+#Message shown in the lines of the baltop books
+msg_baltop_book_format: '%s. %s. | %s'
+#Added in 0.133
+#Message shown when a confirmation times out.
+msg_confirmation_timed_out: 'Vreme potvrde isteklo.'
+#Added in 0.134
+tc_player_channel_sound_muted: 'Zvuk kanala je uД‡utkan'
+tc_player_channel_sound_unmuted: 'Zvuk kanala viЕЎe nije uД‡utkan'
+#Added in 0.135
+msg_cant_toggle_pvp_outsider_in_plot: 'Nestanovnik je u VaЕЎem plotu, ne moЕѕete promeniti VaЕЎ PvP status!'
+#Added in 0.136
+msg_view_on_web: '&7Click to view on the web.'
+#Added in 0.137
+#Shown globally when a town merges with another town.
+town1_has_merged_with_town2: '&6Grad %s je prihvatio spajanje sa preovlaД‘ujuД‡im gradom %s.'
+#Shown in the town and nation status screens to inform about neutrality costs.
+status_neutrality_cost: 'Cena Neutralnosti:'
+#Added in 0.138
+#Line 1 of the givebonus warning.
+msg_ptw_warning_1: 'Ako ste platili pravi novac za ove gradske blokove, molimo razumejte: server na kome igrate krЕЎi Minecraft EULA-u i Towny licencu.'
+#Line 2 of the givebonus warning.
+msg_ptw_warning_2: 'Towny tim nikad nije nameravao da se gradski blokovi mogu kupiti za pravi novac.'
+#Line 3 of the givebonus warning.
+msg_ptw_warning_3: 'Ako ste platili pravi novac, uzmite u obzir igranje na Towny serveru koji poЕЎtuje Еѕelje Towny Team-a.'
+#Message shown when a town invites a player to join, and that town has a nation.
+you_have_been_invited_to_join3: 'Pozvani ste da se pridruЕѕite %s&9 (Nacija: %s&9)'
+#Added in 0.139
+#Message shown when a town cannot afford to unclaim their land because the refund price is negative and charges them money.
+msg_err_your_town_cannot_afford_unclaim: 'VaЕЎ grad ne moЕѕe priuЕЎtiti novac za unclaim-ovanje ove zemlje. %s potrebno.'
+#Message shown when a town pays to unclaim their land because the refund is a negative amount.
+msg_your_town_paid_x_to_unclaim: 'VaЕЎ grad je platio %s za unclaim-ovanje zemljiЕЎta.'
+#Confirmation message shown when a player will unclaim land that costs money.
+confirmation_unclaiming_costs: 'Unclaim-ovanje ovog zemljiЕЎta Д‡e koЕЎtati %s, da li Еѕelite da nastavite?'
+#Added in 0.140
+#Message shown on first join, making players aware they can change how Towny messages appear using their Client's language setting.
+msg_your_locale: 'Towny koristi VaЕЎ lokalni klijent (%s) za prevoД‘enje poruka.'
+#Message shown when a player tries to rename their town too quickly.
+msg_you_must_wait_x_seconds_before_renaming_your_town: 'Morate saДЌekati %s sekundi pre nego ЕЎto ponovo budete mogli da promenite ime grada.'
+#Added in 1.141
+msg_newday_already_scheduled_soon: 'Novi dnevni zadatak je zakazan da se uskoro dogodi.'
+#Added in 0.142
+#Message shown when a player is toggling neutrality too fast.
+msg_err_cannot_toggle_neutral_x_seconds_remaining: 'Ne moЕѕete paliti/gasiti neutralnost, %s sekundi preostalo.'
+#Added in 0.143
+#Message shown when a console sender uses a command meant for in game.
+msg_err_command_not_for_console_use: 'Ova komanda ne moЕѕe biti koriЕЎД‡ena iz konzole.'
+#Added in 0.144
+#Message shown when an admin uses /ta town NAME toggle unlimitedclaims.
+msg_town_unlimitedclaims_setting_set_to: 'Grad %s ima unlimitedclaims postavku podeЕЎenu na %s'
+#Message shown when an admin uses up their claims and is asked if they want to turn on unlimited claiming.
+did_you_want_to_toggle_unlimited_claims: 'Nemate dovoljno gradskih blokova da claim-ujete, da li Еѕelite da ukljuДЌite beskonaДЌno claim-ovanje za grad %s'
+#Added in 0.145
+#Message shown when a conquered town tries to leave their nation.
+msg_err_your_conquered_town_cannot_leave_the_nation_yet: 'Ne moЕѕete napustiti naciju, VaЕЎ grad je osvojen.'
+msg_err_console_only: 'Ovu komandu moЕѕe koristiti samo konzola.'
+msg_err_player_only: 'Ovu komandu moЕѕe koristiti samo igraДЌ.'
+#Added in 0.146
+#Message shown when a resident toggles bordertitles with /res toggle bordertitles
+msg_border_titles_toggled: 'Title messages shown when crossing borders is %s.'
+#Added in 0.147
+#Message shown confirming that an admin wants to reset their Towny config
+this_will_reset_your_config: 'Running this command resets your config.yml to the default file. Do you want to continue?'
+#Message shown when an admin is setting a new king or capital and would override the config by doing so
+msg_warn_overriding_server_config: 'By doing this you are overriding the resident limits set in the server configuration. Do you want to continue anyway?'
+#Added in 0.148
+#Message shown when invalid outpost spawns are removed using the /ta commands.
+msg_removed_x_invalid_outpost_spawns: 'Removed %d invalid outpost spawns.'
+#Added in 0.149
+#Message shown when a player logs in and their town is bankrupt.
+msg_your_town_is_bankrupt: 'Your town is bankrupt, add money to your bank using /town deposit {amount}.'
+#Added in 0.150
+#Message shown when a player cannot do something because they have a town.
+msg_err_you_cannot_use_this_command_because_you_are_already_a_member_of_a_town: 'You are unable to use this command, because you are already a member of a town. If you want to continue you will have to use ''/t leave''.'
+#Message shown when a player tries to spawn while in an town they are outlawed in, when outlaw TPing is a disallowed zone.
+msg_a_town_you_are_outlawed_in: 'a town you are an outlaw in.'
+#Message shown when TownyRTP could not find any towns to teleport to.
+msg_err_could_not_find_any_towns_to_rtp: 'Could not find any open, public towns with plots for sale (which you can afford,) to rtp to.'
+#Message showing payment for RTP.
+msg_cost_spawn_rtp: '&bYou were charged %s to teleport to a random town plot that is for sale.'
+#Message shown to a player when they use the town rtp command.
+msg_you_are_about_to_be_teleported_to_a_plot: 'You are about to be teleported to a plot which is forsale in %s which will let you join. Use ''/plot claim'' to claim your plot when you arrive.'
+#Shown in TownyRTP when a player joins a town and is prompted to be TPd to some land to buy.
+townyrtp.the_town_has_plots_to_buy_would_you_like_to_tp: "The town of %s has plots which you can purchase, did you want to be teleported to a plot you can purchase right now?"
+#Shown when you arrive at your destination after opting in to be teleported to a plot to buy.
+townyrtp.you_have_arrived: "You have been teleported to a plot you can purchase. Use '/plot claim' if you would like to claim the plot."
+#Used in the town's status screen to display plots
+status_plot_string: 'Plots'
+#Displays a plot type and the amount of townblocks of that type in the town
+status_plot_hover: '%s:'
+#Usage:
+msg_usage: 'Usage: %s'
+#Shown in teh bank history books when there are no pages to display
+msg_err_no_pages_to_display: 'No pages to display!'
+#Added in 0.151
+#Message shown to players trying to spawn to a non-allied/non-member nation when public spawning is not allowed at all.
+msg_err_nation_unaffiliated: 'That nation is not affiliated with you.'
+#Message shown to players trying to spawn to a non-nation/non-member town when public spawning is not allowed at all.
+msg_err_town_unaffiliated: 'That town is not affiliated with you.'
+#Added in 0.152
+#Message shown when a player tries to add a jail cell location where one already exists.
+msg_err_this_location_already_has_a_jailcell: 'This location already has a jail cell.'
+#Title line of the /plot perm hud.
+msg_perm_hud_title: 'Plot Perms'
+#Seen in /plot perm hud:
+msg_perm_hud_build: 'Build: '
+#Seen in /plot perm hud:
+msg_perm_hud_destroy: 'Destroy: '
+#Seen in /plot perm hud:
+msg_perm_hud_switch: 'Switch: '
+#Seen in /plot perm hud:
+msg_perm_hud_item_use: 'Item: '
+#Seen in /plot perm hud:
+msg_perm_hud_plot_type: 'Type: '
+#Seen in /plot perm hud:
+msg_perm_hud_pvp: 'PVP: '
+#Seen in /plot perm hud:
+msg_perm_hud_explosions: 'Explosions: '
+#Seen in /plot perm hud:
+msg_perm_hud_firespread: 'Firespread: '
+#Seen in /plot perm hud:
+msg_perm_hud_mobspawns: 'Mob Spawns: '
+#Seen in /plot perm hud:
+msg_perm_hud_key: 'Key'
+#Seen in /plot perm hud:
+msg_perm_hud_friend: 'friend'
+#Seen in /plot perm hud:
+msg_perm_hud_town: 'town'
+#Seen in /plot perm hud:
+msg_perm_hud_ally: 'ally'
+#Seen in /plot perm hud:
+msg_perm_hud_resident: 'resident'
+#Seen in /plot perm hud:
+msg_perm_hud_nation: 'nation'
+#Seen in /plot perm hud:
+msg_perm_hud_outsider: 'outsider'
+#Seen in /plot perm hud:
+msg_perm_hud_plot_name: 'Plot: '
+#Added in 0.153
+#Message shown confirming /ta town NAME settownlevel # command.
+msg_town_level_overridden_with: 'The town %s has had their townlevel set to %s.'
+#Message shown when unsetting a manual town level.
+msg_town_level_unset: 'The town %s has had their manually-set townlevel unset. Current townlevel is %s.'
+#Message show when a town is unable to have purchased townblocks, when /ta town NAME giveboughtblocks is used.
+msg_err_town_not_allowed_purchased_blocks: 'The town %s is unable to purchase townblocks based on the config rules.'
+#Message shown when unsetting all purchased townblocks from a town.
+msg_purchased_blocks_unset: 'The town %s has had their purchased townblocks removed.'
+#Message shown when /ta town name giveboughtblocks # is used.
+msg_purchased_blocks_changed: 'The town %s has been given %s bought townblocks, they currently have %s bought townblocks.'
+#Added in 0.154
+msg_comptype_upkeep: 'Upkeep'
+#Added in 0.155
+#Message shown when toggling town upkeep admin setting
+msg_town_upkeep_setting_set_to: 'The town %s has had their upkeep setting set to %s.'
+#Shown when a player tries to set a plot type but their town has reached the limit, first number is the limit and the string is the type name.
+msg_town_plot_type_limit_reached: 'Your town has reached the limit of %d %s plots.'
+#Added in 0.156
+msg_spawn_cost_free: 'Free'
+#Message shown when someone tries to set a plot's type to one already set.
+msg_plot_already_of_type: 'This plot is already a %s type.'
+msg_town_board_reset: '&bTown board reset.'
+msg_town_has_no_jailslots: 'The town jail is full.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x_for_x_bail: '%s has been sent to %s into cell number %s for %s hours with a bail of %s by %s.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x: '%s je poslat u %s u Д‡eliju broj%s na %s sati od strane %s.'
+msg_you_have_been_jailed_your_bail_is_x: 'You have been jailed, your bail is %s.'
+msg_err_higher_than_max_allowed_bail_x: 'Your set bail was higher then the maximum which is %s.'
+msg_err_higher_than_max_allowed_hours_x: 'Your set hours were higher then the maximum which is %s.'
+msg_not_enough_money_in_bank_to_jail_x_fee_is_x: 'Not enough in town bank to jail %s, fee is %s.'
+msg_you_were_released_as_town_ran_out_of_slots: 'Your jailers let you free to make space.'
+msg_x_has_been_released_as_jail_slots_ran_out: '%s has been released to make space for another prisoner.'
+msg_you_were_released_as_town_ran_out_of_upkeep_funds: 'You have been released as your jailers can no longer afford to keep you imprisoned.'
+msg_x_has_been_released_ran_out_of_upkeep_funds: '%s has been released due to a lack of funds in the Town bank.'
+msg_x_has_been_withdrawn_for_upkeep_of_prisoner_x: '%s withdrawn from Town bank to pay for upkeep for prisoner %s.'
+msg_x_has_been_withdrawn_for_jailing_of_prisoner_x: '%s withdrawn from Town bank to pay for jailing of %s.'
+#Message shown in the confirmation for /ta resetbanks {amount}.
+confirmation_are_you_sure_you_want_to_reset_all_banks: 'Are you sure you want to reset all town and nation banks to %s?'
+#Message shown when a nation cannot add a town because of the max-residents-limit.
+msg_err_cannot_add_nation_over_resident_limit: '&cYour nation has reached the maximum number of allowed residents-per-nation, %s, and cannot add %s.'
+#Message shown to a town when they cannot join a nation because of the max-residents-limit.
+msg_err_cannot_join_nation_over_resident_limit: '&cYou cannot join this nation as it would be over the residents-per-nation limit of %s.'
+#Message shown to a town because the nation has hit their max-towns-limit.
+msg_err_cannot_join_nation_over_town_limit: '&cYou cannot join this nation, it has reached the maximum number of allowed towns-per-nation: %s.'
+#Message shown confirming /tw set usedefaults
+confirmation_are_you_sure_you_want_to_reset_this_worlds_settings: 'Are you sure you want to reset all of this world''s settings to the ones which are set in the config?'
+#Part of the /town plots output.
+msg_town_plots_title: ' Town Plots'
+#Part of the /town plots output.
+msg_town_plots_town_size: '<dark_green>Town Size: <green>%s/%s'
+#Part of the /town plots output.
+msg_town_plots_town_bought: ' <aqua>[Bought: %s/%s]'
+#Part of the /town plots output.
+msg_town_plots_town_bonus: ' <aqua>[Bonus: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_nationbonus: ' <aqua>[NationBonus: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_owned_land: '<dark_green>Town Owned Land: <green>%s'
+#Part of the /town plots output.
+msg_town_plots_type_header: '<dark_green>Type: <green>Player-Owned <gray>/ <aqua>ForSale <gray>/ <yellow>Total'
+#Part of the /town plots output.
+msg_town_plots_type_header_revenue: ' <gray>/ <dark_green>Daily Revenue'
+#Part of the /town plots output.
+msg_town_plots_type_line: '<dark_green>%s: <green>%s <gray>/ <aqua>%s <gray>/ <yellow>%s'
+#Part of the /town plots output.
+msg_town_plots_type_line_revenue: ' <gray>/ <dark_green>%s'
+#Message giving confirmation warning for trusttown
+confirmation_msg_trusttown_consequences: 'You are about to give full plot permissions to an entire town. This means that the mayor of the town will be able to decide who gets permission to build and break in your town, by adding residents. If this town is open, then anyone can join and gain full access to your town. Are you sure you wish to trust all residents (including future residents,) from this town?'
+#Message shown when a player uses a command that is blocked because their location has an active war.
+msg_command_war_blocked: 'You cannot run that command because your town is at war.'
+#Message shown when a player tries to unclaim land but cannot because an outsider is there (and the config doesn't allow this.)
+msg_cant_unclaim_outsider_in_town: 'There is an outsider in this townblock, you can''t unclaim this townblock!'
+#Message shown when a player is making a town too soon after deleting one.
+msg_err_cannot_create_new_town_x_seconds_remaining: 'You cannot create a new town, %s seconds remaining on cooldown.'
+#Message shown when a player is claiming land too soon after unclaiming it.
+msg_err_cannot_claim_townblock_x_seconds_remaining: 'You cannot claim this townblock: %s, %s seconds remaining on cooldown.'
+#Messages shown when an admin uses /ta set founder {townname} {foundername}
+msg_founder_set: 'The town of %s has had the founder set to %s.'
+#Message shown when toggling town allowed to war admin setting
+msg_town_allowedtowar_setting_set_to: 'The town %s has had their allowed-to-war setting set to %s.'
+#Message shown to confirm that a player wants to unclaim all of their land, besides the homeblock, seen with /t unclaim all.
+confirmation_did_you_want_to_unclaim_all: 'Are you sure you want to unclaim all of your land? (Your homeblock will not be unclaimed.)'
+#Message shown after a player unclaims all their land.
+msg_you_have_unclaimed_everything_but_your_homeblock: "You have unclaimed everything but your homeblock. To unclaim your homeblock you must set a new homeblock using '/t set homeblock' first."
+msg_warn_are_you_sure_you_want_to_transfer_nation_ownership: "<red>Are you sure you want to transfer nation ownership to %s? This action is irreversible!"
+msg_warn_town_already_capital: "<red>The town of %s is already the nation capital."
+msg_min_adjacent_blocks: 'You are required to have at least %s adjacent town blocks. There is only %s.'
+#Shown when a player with /plot evict permissions uses /plot claim on an owned but not for sale plot, please preserve comma space at the start when translating.
+msg_plot_claim_consider_evict_instead: ', perhaps you are looking for /plot evict instead?'
+#Shown to a player when Towny does not know of them.
+msg_you_are_unknown: "You are not known to Towny."
+#Generic Resident/Town/Nation/Thing is not known to Towny.
+msg_townyobject_unknown: "%s is not known to Towny."
+#Shown when a resident is unknown to Towny.
+msg_err_resident_unknown: "%s is not a resident that is recognized."
+#Shown when a town is unknown to Towny.
+msg_err_town_unknown: "%s is not a town that is recognized."
+#Shown when a nation is unknown to Towny.
+msg_err_nation_unknown: "%s is not a nation that is recognized."
+#Shown when a resident doesn't belong to a town.
+msg_err_townyobject_x_has_no_town: "%s does not belong to any town."
+#Shown when a town doesn't belong to a nation.
+msg_err_townyobject_x_has_no_nation: "%s does not belong to any nation."
+#Shown to admins when they use /plot claimedat on a plot which has no registration date.
+msg_err_townblock_has_no_claimedat_data: "This townblock has no data on when it was claimed."
+#Shown when someone cannot afford something, to tell them what it costs.
+msg_err_you_need_x_to_pay: "You need %s to pay."
+#Shown when someone tries to deposit/withdraw 0 amounts.
+msg_err_amount_must_be_greater_than_zero: "Amount must be greater than zero."
+#Message shown when taking over claims is disabled on a server.
+msg_err_taking_over_claims_is_not_enabled: "Taking over claims is not enabled on this server."
+#Messages shown when taking over a claim is not allowed because the town is not overclaimed.
+msg_err_this_townblock_cannot_be_taken_over: "This TownBlock cannot be taken over, the town that it belongs to is not overclaimed."
+#Message shown when taking over a claim would also set the homeblock because the town has no claims.
+msg_err_you_cannot_make_this_your_homeblock: "You cannot make this claim because it would make this TownBlock your homeblock, which is not allowed."
+#Message shown when taking over a claim is stopped by another plugin.
+msg_err_another_plugin_cancelled_takeover: "Another plugin has stopped your takeover of this land."
+#Confirmation shown when taking over a claim.
+confirmation_you_are_about_to_take_over_a_claim: "You are about to take over a claim belonging to %s for the cost: %s. Did you want to continue?"
+#Warning message shown when a town is beginning to claim close to their limit, and the takeoverclaim feature is active.
+msg_warning_you_are_almost_out_of_townblocks: "Warning: You have nearly used up your available townblocks for claiming. If you lose a resident you will be at risk of your town being able to have townblocks stolen by other towns."
+#Warning message shown on login when a town is overclaimed and at risk of falling victim to the takeoverclaim feature.
+msg_warning_your_town_is_overclaimed: "Warning: Your town is overclaimed. While you have too many townblocks claimed, it will be possible for other towns to takeover plots of your town, consider unclaiming some land."
+#Chunk Notification slug, shown when entering a plot that can be stolen.
+chunk_notification_takeover_available: " <red>[TakeoverClaim Available]"
+#Message shown when a takeover claim would cut a town into two sections.
+msg_err_you_cannot_over_claim_would_cut_into_two: "You cannot take over this plot, because doing so would split the town into two segments. You will have to overclaim from a different direction."
+#Message shown when an admin tries to toggle conquered off of a town that is not conquered.
+msg_err_that_town_is_not_conquered: "%s is already not conquered."
+#Message shown when a town has its conquered status removed by an admin.
+msg_conquered_status_removed: "%s has had their conquered status removed."
+msg_setup_command_folia: "The /ta install command currently does not work on Folia due to the conversation API not working, refer to the install guide below instead."
+msg_perm_gui_folia: "This button currently does not work on Folia due to the conversation API not working, use the /plot perm add <name> command instead."
+msg_folia_scoreboard: "Changing scoreboards is currently not supported on Folia."
+#Message shown when a player cannot unclaim land because at least one plot wouldn't have enough adjacent claims.
+msg_err_cannot_unclaim_not_enough_adjacent_claims: "You cannot unclaim this townblock because the townblock at %s,%s would not have enough adjacent claims (%s are required.)"
+#Message shown when a nation collects taxes from its towns.
+msg_tax_collected_from_towns: "<aqua>Your nation collected %s in tax from its towns."
+#Message shown when a nation pays taxes to its towns.
+msg_tax_paid_to_towns: "<aqua>Your nation paid %s in tax to its towns."
+#Message shown when a town collects taxes from its residents.
+msg_tax_collected_from_residents: "<aqua>Your town collected %s in tax from its residents."
+#Message shown when a town pays taxes to its residents.
+msg_tax_paid_to_residents: "<aqua>Your town paid %s in tax to its residents."
+#Message shown when a town collects taxes from its plottaxes.
+msg_tax_collected_from_plots: "<aqua>Your town collected %s in tax from its plots' taxes."
+#Message shown when a town pays taxes to its plottaxes.
+msg_tax_paid_to_residents_for_plots: "<aqua>Your town paid %s in tax to the land owners via plot taxes."
+#Message shown when a nation collects taxes from its towns that are conquered.
+msg_tax_collected_from_conquered_towns: "<aqua>Your nation collected %s in extra tax from its conquered towns."
+msg_your_town_was_exempt_from_the_nation_conquered_tax: "<aqua>Your town was exempt from the nation's conquered tax."
+msg_nation_set_conquered_tax__amount_set: "%s has set the conquered tax amount to %s."
+msg_err_cannot_set_nation_conquere_tax_amount_higher_than: "You cannot set the conquered tax above %s."
+msg_err_your_town_is_not_old_enough_to_overclaim: "Your town is not old enough to overclaim, you must wait another %s."
+msg_err_your_cannot_overclaim_for_another: "You cannot overclaim again for another %s."
+#Generic error message for when a world isn't loaded
+msg_err_world_not_loaded: "<red>World is not loaded."
+#Message shown when a mayor toggles a plots taxed status.
+msg_changed_plot_taxed: '&cThis plot has had its taxed status set to %s.'
+status_forsale: "&a(For Sale: %s)"
+msg_town_forsale: "%s has been set for sale at %s."
+msg_town_notforsale: "%s is no longer for sale."
+msg_town_sell_confirmation: "This will put your town up for sale for %s. Are you sure you want to continue?"
+msg_town_buytown_already_mayor: "You are already mayor of %s."
+msg_town_buytown_confirmation: "Buying %s will cost %s and remove you from any town you may currently be a part of. Are you sure you want to continue?"
+msg_town_buytown_not_forsale: "Specified town is not for sale."
+msg_town_buytown_ruined: "Ruined towns cannot be bought."
+msg_resident_about_reset: "&bResident about reset."
+msg_err_invalid_string_about_not_set: "Invalid string, resident about not set."
+msg_set_about: "%s's about was set to %s."
+msg_clear_about: "%s's about was cleared."
+#Message shown when toggling town visibleontoplists setting
+msg_town_visibleontoplist_setting_set_to: 'The town %s has had their visible-on-top-lists setting set to %s.'
+#Message shown when an admin overrides a town founding date via townyadmin.
+townyadmin_town_set_help_0: "Sets the founding date of a town."
+townyadmin_nation_set_help_0: "Sets the founding date of a nation."
+msg_town_registered_set: "Founding date of town: '%s' set to: '%s'."
+msg_nation_registered_set: "Founding date of nation: '%s' set to: '%s'."
+msg_err_time_cannot_be_in_the_future: "Specified time cannot be in the future."
+#The format used for the /t say and /n say commands.
+town_say_format: "%s says: %s"
+msg_err_floodfill_not_in_wild: "You cannot use floodfill while standing in a claimed area."
+msg_err_floodfill_out_of_bounds: "Claim shape must be fully closed off in order to floodfill."
+msg_err_floodfill_cannot_contain_towns: "Flood fill selection must not contain other towns."
+#Message shown when a resident is an NPC and is not allowed to do something.
+msg_err_resident_is_npc: "You cannot do this to an NPC resident."
+#Message shown when a resident doesn't own any land and the /res plotlist command is used.
+msg_err_resident_doesnt_own_any_land: "The resident does not own any land personally."
+msg_unnamed: "Unnamed"
