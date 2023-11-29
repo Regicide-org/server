@@ -1,15 +1,9 @@
   
 version:
   # This is the current version of Towny. Please do not edit.
-<<<<<<< HEAD
-  version: 0.99.6.2
-  # This is for showing the changelog on updates. Please do not edit.
-  last_run_version: 0.99.6.2
-=======
   version: 0.100.0.6
   # This is for showing the changelog on updates. Please do not edit.
   last_run_version: 0.100.0.6
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
 language:
   # The language file you wish to use for your default locale. Your default locale is what
@@ -30,13 +24,13 @@ language:
   #
   # Your players will select what locale that Towny shows them 
   # by changing their Minecraft client's locale.
-  language: en-US.yml
+  language: ru-RU.yml
   
   # The languages you wish to have enabled. Set to '*' to use all available languages.
   # If you would like to only allow 4 languages use: en-US,ru-RU,es-ES,fr-FR
   # If a player's locale isn't enabled or isn't available it will use the language above instead.
   # For compatibility reasons, en-US will always be considered enabled.
-  enabled_languages: '*'
+  enabled_languages: ru-RU
   
   
 ############################################################
@@ -69,9 +63,9 @@ levels:
     townOutpostLimit: 0
     numResidents: 0
     debtCapModifier: 1.0
-    namePostfix: ' Ruins'
+    namePostfix: ' Руины'
     bankCapModifier: 1.0
-    mayorPrefix: 'Spirit '
+    mayorPrefix: 'Дух '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -83,9 +77,9 @@ levels:
     townOutpostLimit: 0
     numResidents: 1
     debtCapModifier: 1.0
-    namePostfix: ' (Settlement)'
+    namePostfix: ' (Посёлок)'
     bankCapModifier: 1.0
-    mayorPrefix: 'Hermit '
+    mayorPrefix: 'Отшельник '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -97,9 +91,9 @@ levels:
     townOutpostLimit: 1
     numResidents: 2
     debtCapModifier: 1.0
-    namePostfix: ' (Hamlet)'
+    namePostfix: ' (Поселение)'
     bankCapModifier: 1.0
-    mayorPrefix: 'Chief '
+    mayorPrefix: 'Староста '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -111,9 +105,9 @@ levels:
     townOutpostLimit: 1
     numResidents: 6
     debtCapModifier: 1.0
-    namePostfix: ' (Village)'
+    namePostfix: ' (Деревня)'
     bankCapModifier: 1.0
-    mayorPrefix: 'Baron Von '
+    mayorPrefix: 'Барон '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -125,9 +119,9 @@ levels:
     townOutpostLimit: 2
     numResidents: 10
     debtCapModifier: 1.0
-    namePostfix: ' (Town)'
+    namePostfix: ' (Город)'
     bankCapModifier: 1.0
-    mayorPrefix: 'Viscount '
+    mayorPrefix: 'Виконт '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -139,9 +133,9 @@ levels:
     townOutpostLimit: 2
     numResidents: 14
     debtCapModifier: 1.0
-    namePostfix: ' (Large Town)'
+    namePostfix: ' (Большой Город)'
     bankCapModifier: 1.0
-    mayorPrefix: 'Count Von '
+    mayorPrefix: 'Граф '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -153,9 +147,9 @@ levels:
     townOutpostLimit: 3
     numResidents: 20
     debtCapModifier: 1.0
-    namePostfix: ' (City)'
+    namePostfix: ' (Город)'
     bankCapModifier: 1.0
-    mayorPrefix: 'Earl '
+    mayorPrefix: 'Князь '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -167,9 +161,9 @@ levels:
     townOutpostLimit: 3
     numResidents: 24
     debtCapModifier: 1.0
-    namePostfix: ' (Large City)'
+    namePostfix: ' (Большой Город)'
     bankCapModifier: 1.0
-    mayorPrefix: 'Duke '
+    mayorPrefix: 'Герцог '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -181,9 +175,9 @@ levels:
     townOutpostLimit: 4
     numResidents: 28
     debtCapModifier: 1.0
-    namePostfix: ' (Metropolis)'
+    namePostfix: ' (Метрополис)'
     bankCapModifier: 1.0
-    mayorPrefix: 'Lord '
+    mayorPrefix: 'Вел.Князь '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -196,28 +190,28 @@ levels:
   - kingPostfix: ''
     capitalPostfix: ''
     upkeepModifier: 1.0
-    kingPrefix: 'Leader '
+    kingPrefix: 'Вождь '
     capitalPrefix: ''
     numResidents: 0
     nationBonusOutpostLimit: 0
-    namePostfix: ' (Nation)'
+    namePostfix: ' (Племя)'
     bankCapModifier: 1.0
     townBlockLimitBonus: 10
-    namePrefix: 'Land of '
+    namePrefix: 'Земля '
     peacefulCostMultiplier: 1.0
     nationZonesSize: 1
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
     upkeepModifier: 1.0
-    kingPrefix: 'Count '
+    kingPrefix: 'Графство '
     capitalPrefix: ''
     numResidents: 10
     nationBonusOutpostLimit: 1
-    namePostfix: ' (Nation)'
+    namePostfix: ' (Держава)'
     bankCapModifier: 1.0
     townBlockLimitBonus: 20
-    namePrefix: 'Federation of '
+    namePrefix: 'Федерация '
     peacefulCostMultiplier: 1.0
     nationZonesSize: 1
     nationTownUpkeepModifier: 1.0
@@ -228,52 +222,52 @@ levels:
     capitalPrefix: ''
     numResidents: 20
     nationBonusOutpostLimit: 2
-    namePostfix: ' (Nation)'
+    namePostfix: ' (Держава)'
     bankCapModifier: 1.0
     townBlockLimitBonus: 40
-    namePrefix: 'Dominion of '
+    namePrefix: 'Доминион '
     peacefulCostMultiplier: 1.0
     nationZonesSize: 1
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
     upkeepModifier: 1.0
-    kingPrefix: 'King '
+    kingPrefix: 'Король '
     capitalPrefix: ''
     numResidents: 30
     nationBonusOutpostLimit: 3
-    namePostfix: ' (Nation)'
+    namePostfix: ' (Держава)'
     bankCapModifier: 1.0
     townBlockLimitBonus: 60
-    namePrefix: 'Kingdom of '
+    namePrefix: 'Королевство '
     peacefulCostMultiplier: 1.0
     nationZonesSize: 2
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
     upkeepModifier: 1.0
-    kingPrefix: 'Emperor '
+    kingPrefix: 'Царь '
     capitalPrefix: ''
     numResidents: 40
     nationBonusOutpostLimit: 4
-    namePostfix: ' Empire'
+    namePostfix: ' Царство'
     bankCapModifier: 1.0
     townBlockLimitBonus: 100
-    namePrefix: 'The '
+    namePrefix: ''
     peacefulCostMultiplier: 1.0
     nationZonesSize: 2
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
     upkeepModifier: 1.0
-    kingPrefix: 'God Emperor '
+    kingPrefix: 'Император '
     capitalPrefix: ''
     numResidents: 60
     nationBonusOutpostLimit: 5
-    namePostfix: ' Realm'
+    namePostfix: ' Империя'
     bankCapModifier: 1.0
     townBlockLimitBonus: 140
-    namePrefix: 'The '
+    namePrefix: ''
     peacefulCostMultiplier: 1.0
     nationZonesSize: 3
     nationTownUpkeepModifier: 1.0
@@ -288,7 +282,7 @@ levels:
 town:
   
   # Default public status of the town (used for /town spawn)
-  default_public: 'true'
+  default_public: 'false'
   
   # Default Open status of the town (are new towns open and joinable by anyone at creation?)
   default_open: 'false'
@@ -320,11 +314,7 @@ town:
     embassy_tax: '0.0'
   
     # Default amount for town's plottax costs.
-<<<<<<< HEAD
     plot_tax: '0.25'
-=======
-    plot_tax: '0.0'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
     # Does a player's plot get put up for sale if they are unable to pay the plot tax?
     # When false the plot becomes town land and must be set up for-sale by town mayor or staff.
@@ -699,41 +689,25 @@ global_town_settings:
   # Valid values are: true, false, war, peace
   # When war or peace is set, it is only possible to teleport to the town,
   # when there is a war or peace.
-<<<<<<< HEAD
   allow_town_spawn: 'false'
-=======
-  allow_town_spawn: 'true'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   # Allow regular residents to use /town spawn [town] (TP to other towns if they are public).
   # Valid values are: true, false, war, peace
   # When war or peace is set, it is only possible to teleport to the town,
   # when there is a war or peace.
-<<<<<<< HEAD
   allow_town_spawn_travel: 'false'
-=======
-  allow_town_spawn_travel: 'true'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   # Allow regular residents to use /town spawn [town] to other towns in your nation.
   # Valid values are: true, false, war, peace
   # When war or peace is set, it is only possible to teleport to the town,
   # when there is a war or peace.
-<<<<<<< HEAD
   allow_town_spawn_travel_nation: 'false'
-=======
-  allow_town_spawn_travel_nation: 'true'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   # Allow regular residents to use /town spawn [town] to other towns in a nation allied with your nation.
   # Valid values are: true, false, war, peace
   # When war or peace is set, it is only possible to teleport to the town,
   # when there is a war or peace.
-<<<<<<< HEAD
   allow_town_spawn_travel_ally: 'false'
-=======
-  allow_town_spawn_travel_ally: 'true'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   # When set to true both nation and ally spawn travel will also require the target town to have their status set to public.
   is_nation_ally_spawning_requiring_public_status: 'false'
@@ -840,11 +814,7 @@ global_town_settings:
   
   # If false, outlawed players in towns cannot use items that teleport the player, ie: Ender Pearls & Chorus Fruit.
   # Setting this to false requires allow_outlaws_to_teleport_out_of_town to also be false.
-<<<<<<< HEAD
   allow_outlaws_use_teleport_items: 'false'
-=======
-  allow_outlaws_use_teleport_items: 'true'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   # Should towns be warned in case an outlaw roams the town?
   # Warning: Outlaws can use this feature to spam residents with warnings!
@@ -1066,32 +1036,19 @@ global_nation_settings:
   # Valid values are: true, false, war, peace
   # When war or peace is set, it is only possible to teleport to the nation,
   # when there is a war or peace.
-<<<<<<< HEAD
   allow_nation_spawn: 'false'
-=======
-  allow_nation_spawn: 'true'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   # Allow regular residents to use /nation spawn [nation] (TP to other nations if they are public).
   # Valid values are: true, false, war, peace
   # When war or peace is set, it is only possible to teleport to the nation,
   # when there is a war or peace.
-<<<<<<< HEAD
   allow_nation_spawn_travel: 'false'
-
-=======
-  allow_nation_spawn_travel: 'true'
   
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   # Allow regular residents to use /nation spawn [nation] to other nations allied with your nation.
   # Valid values are: true, false, war, peace
   # When war or peace is set, it is only possible to teleport to the nations,
   # when there is a war or peace.
-<<<<<<< HEAD
   allow_nation_spawn_travel_ally: 'false'
-=======
-  allow_nation_spawn_travel_ally: 'true'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   spawning_cooldowns:
   
@@ -1255,24 +1212,14 @@ filters_colour_chat:
   # Regex fields used in validating inputs.
   regex:
     name_filter_regex: '[\\\/]'
-<<<<<<< HEAD
-    name_check_regex: '^[\p{L}\*а-яА-Я0-9._\[\]-]*$'
-    string_check_regex: '^[а-яА-Я0-9 \s._\[\]\#\?\!\@\$\%\^\&\*\-\,\*\(\)\{\}]*$'
+    name_check_regex: ^[\p{L}\*а-яА-Я0-9._\[\]-]*$
+    string_check_regex: ^[а-яА-Я0-9 \s._\[\]\#\?\!\@\$\%\^\&\*\-\,\*\(\)\{\}]*$
     name_remove_regex: '[^\P{M}а-яА-Я0-9\&._\[\]-]'
-  
-  modify_chat:
-  
-    # Maximum length of Town and Nation names.
-=======
-    name_check_regex: ^[\p{L}\*a-zA-Z0-9._\[\]-]*$
-    string_check_regex: ^[a-zA-Z0-9 \s._\[\]\#\?\!\@\$\%\^\&\*\-\,\*\(\)\{\}]*$
-    name_remove_regex: '[^\P{M}a-zA-Z0-9\&._\[\]-]'
   
   modify_chat:
   
     # Maximum length of Town and Nation names. Setting this to a number below your current max_name_length could result in
     # safe mode if the new value is below of your existing town and nation name lengths.
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
     max_name_length: '20'
   
     # Maximum length for Town and Nation tags.
@@ -1351,11 +1298,7 @@ protection:
   #       to protect HORSES, DONKEYS, MULES, PIGS, STRIDERS (This is not recommended, unless you want players to not be able to
   #       re-mount their animals in towns they cannot switch in.)
   # A full list of proper names can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html 
-<<<<<<< HEAD
-  switch_ids: CHEST,SHULKER_BOXES,TRAPPED_CHEST,FURNACE,BLAST_FURNACE,DISPENSER,HOPPER,DROPPER,JUKEBOX,SMOKER,COMPOSTER,BELL,BARREL,BREWING_STAND,LEVER,NON_WOODEN_PRESSURE_PLATES,BUTTONS,WOOD_DOORS,FENCE_GATES,TRAPDOORS,MINECARTS,LODESTONE,RESPAWN_ANCHOR,TARGET,OAK_CHEST_BOAT
-=======
   switch_ids: CHEST,SHULKER_BOXES,TRAPPED_CHEST,FURNACE,BLAST_FURNACE,DISPENSER,HOPPER,DROPPER,JUKEBOX,SMOKER,COMPOSTER,BELL,BARREL,BREWING_STAND,LEVER,NON_WOODEN_PRESSURE_PLATES,BUTTONS,WOOD_DOORS,FENCE_GATES,TRAPDOORS,MINECARTS,LODESTONE,RESPAWN_ANCHOR,TARGET,OAK_CHEST_BOAT,DECORATED_POT,CRAFTER
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   # Materials which can be lit on fire even when firespread is disabled.
   # Still requires the use of the flint and steel.
@@ -1539,10 +1482,10 @@ notification:
     wilderness_title: ''
   
     # Entering Wilderness Lower Subtitle line.
-    wilderness_subtitle: '&2{wilderness}'
+    wilderness_subtitle: '&2{пустоши}'
   
     # The format used to format the {nationame} option. The name of the nation will replace %s.
-    nationname_format: '&6Nation of %s'
+    nationname_format: '&6Держава %s'
   
     # The format used to format the {nationcapital} option. The name of the capital city and nation will replace the %s and %s.
     # Alternatively, you can use %t for townname and %n for nationname and show either one or both.
@@ -2323,11 +2266,7 @@ jail:
   
   # Most types of unjailing result in a player being teleported when they are freed.
   # Setting this to false will prevent that teleporting, resulting in the player not being teleported when they are freed.
-<<<<<<< HEAD
-  unjailed_players_get_teleported: 'false'
-=======
   unjailed_players_get_teleported: 'true'
->>>>>>> 2b86801305aa3866d69a89b4fc9cf5b6a800b610
   
   
 ############################################################

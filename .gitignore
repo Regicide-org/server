@@ -1,4 +1,5 @@
 logs/
+crash-reports/
 
 # Worlds
 NovaConcordia/
@@ -40,3 +41,7 @@ banned-ips.json
 banned-players.json
 
 .console_history
+
+
+plugins/dynmap/ids-by-ip.txt
+server.properties
