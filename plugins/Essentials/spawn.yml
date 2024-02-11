@@ -1,0 +1,9 @@
+spawns:
+  default:
+    world: 4582fb54-6e62-4d24-8f09-d7955c70dc49
+    world-name: NovaConcordia
+    x: 0.5
+    y: 90.0
+    z: 0.5
+    yaw: -90.838134765625
+    pitch: -3.299994468688965

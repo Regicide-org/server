@@ -35,12 +35,14 @@ settings:
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
+  unknown-command: ΀ &x&d&8&2&6&2&5Неизвестная команда. Введите "/help" для большей
+    информации.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
 world-settings:
   default:
+    seed-trialchambers: 94251327
     below-zero-generation-in-existing-chunks: true
     thunder-chance: 100000
     growth:
