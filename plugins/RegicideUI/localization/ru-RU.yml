@@ -104,7 +104,7 @@ hrefs-button-info-lore: [
 
 get-map-message: "<#64FBFB>→ [Нажмите сюда, чтобы открыть карту]"
 get-map-hover: "<#FFFFFF>Ԁ<#555555> > <#E9D282>Клик <#FCFC00>– отркыть WEB-карту"
-get-vk-message: "<#64FBFB>→ [Нажмите сюда, чтобы открыть ВК-группу]"
+get-vk-message: "<#64FBFB>\n→ [Нажмите сюда, чтобы открыть ВК-группу]\n"
 get-vk-hover: "<#FFFFFF>Ԁ<#555555> > <#E9D282>Клик <#FCFC00>– отркыть ВК-группу"
-get-discord-message: "<#64FBFB>→ [Нажмите сюда, чтобы открыть Discord-группу]"
+get-discord-message: "<#64FBFB>\n→ [Нажмите сюда, чтобы открыть Discord-группу]\n"
 get-discord-hover: "<#FFFFFF>Ԁ<#555555> > <#E9D282>Клик <#FCFC00>– отркыть Discord-группу"
