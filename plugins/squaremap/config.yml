@@ -18,7 +18,7 @@ settings:
             enabled: true
         sidebar:
             pinned: unpinned
-    language-file: lang-en.yml
+    language-file: lang-ru.yml
     debug-mode: false
     update-checker: true
     web-address: http://localhost:8080
@@ -64,8 +64,70 @@ world-settings:
             water:
                 clear-depth: true
                 checkerboard: false
-            enabled: true
+            enabled: false
             display-name: '{world}'
+            order: 0
+            icon: ''
+            max-render-threads: -1
+            iterate-up: false
+            max-height: -1
+            zoom:
+                maximum: 3
+                default: 3
+                extra: 2
+        player-tracker:
+            enabled: true
+            update-interval-seconds: 1
+            show-controls: true
+            default-hidden: false
+            layer-priority: 2
+            z-index: 2
+            nameplate:
+                enabled: true
+                show-head: true
+                heads-url: https://mc-heads.net/avatar/{uuid}/16
+                show-armor: true
+                show-health: true
+            hide:
+                invisible: true
+                spectators: true
+            use-display-names: false
+    minecraft:overworld:
+        map:
+            background-render:
+                enabled: true
+                max-chunks-per-interval: 1024
+                interval-seconds: 15
+                max-render-threads: -1
+            markers:
+                spawn-icon:
+                    enabled: true
+                    show-controls: true
+                    default-hidden: false
+                    layer-priority: 0
+                    z-index: 0
+                world-border:
+                    enabled: true
+                    show-controls: true
+                    default-hidden: false
+                    layer-priority: 1
+                    z-index: 1
+                update-interval-seconds: 5
+            visibility-limits:
+            -   type: world-border
+                enabled: 'false'
+            glass:
+                clear: true
+            lava:
+                checkerboard: true
+            biomes:
+                enabled: true
+                blend-biomes: 3
+            water:
+                clear-depth: true
+                checkerboard: false
+            enabled: true
+            display-name: NovaConcordia
             order: 0
             icon: ''
             max-render-threads: -1

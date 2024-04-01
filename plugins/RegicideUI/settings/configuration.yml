@@ -27,7 +27,7 @@ language:
 GUI:
   links:
     # URL of the web-map, that will be shown in menu GUI.
-    map: "http://localhost:8123/"
+    map: "http://localhost:8080/"
 
     # URL of the VK group, that will be shown in hrefs GUI.
     vk-group: "https://vk.com/concordiacraft"
