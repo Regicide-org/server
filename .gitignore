@@ -12,8 +12,7 @@ NovaConcordia_the_end/
 plugins/dynmap/colorschemes/
 plugins/dynmap/renderdata/
 plugins/dynmap/web/tiles/
-
-plugins/squaremap/tiles/
+plugins/squaremap/web/tiles/
 
 plugins/Essentials/userdata/
 plugins/Essentials/usermap.bin

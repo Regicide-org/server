@@ -1,30 +1,30 @@
 config-version: 3
 settings:
     event-listeners:
+        BlockBreakEvent: true
+        LeavesDecayEvent: true
+        StructureGrowEvent: true
+        BlockFormEvent: true
+        EntityChangeBlockEvent: true
+        BlockPlaceEvent: true
+        BlockFadeEvent: true
+        BlockExplodeEvent: true
+        ChunkPopulateEvent: true
+        BlockGrowEvent: true
+        EntityBlockFormEvent: true
         EntityExplodeEvent: true
         BlockBurnEvent: true
-        EntityChangeBlockEvent: true
-        BlockSpreadEvent: true
         FluidLevelChangeEvent: true
-        BlockPlaceEvent: true
-        BlockBreakEvent: true
-        BlockExplodeEvent: true
-        BlockGrowEvent: true
-        BlockFadeEvent: true
-        BlockFormEvent: true
-        LeavesDecayEvent: true
-        ChunkPopulateEvent: true
-        EntityBlockFormEvent: true
-        StructureGrowEvent: true
+        BlockSpreadEvent: true
         BlockPistonExtendEvent: false
-        PlayerQuitEvent: false
         ChunkLoadEvent: false
-        PlayerMoveEvent: false
         BlockFromToEvent: false
         PlayerChunkLoadEvent: false
-        PlayerJoinEvent: false
+        PlayerMoveEvent: false
         BlockPhysicsEvent: false
         BlockPistonRetractEvent: false
+        PlayerQuitEvent: false
+        PlayerJoinEvent: false
 world-settings:
     default:
         iterate-up-base-blocks:
@@ -47,15 +47,20 @@ world-settings:
         - minecraft:large_fern
         color-overrides:
             biomes:
+                grass: {}
                 foliage:
+                    minecraft:mangrove_swamp: '#6f9623'
+                    minecraft:sparse_jungle: '#1f8907'
                     minecraft:bamboo_jungle: '#1f8907'
                     minecraft:dark_forest: '#1c7b07'
                     minecraft:jungle: '#1f8907'
-                    minecraft:mangrove_swamp: '#6f9623'
-                    minecraft:sparse_jungle: '#1f8907'
-                grass: {}
                 water: {}
             blocks:
+                minecraft:birch_leaves: '#80A755'
+                minecraft:lava: '#EA5C0F'
+                minecraft:lily_of_the_valley: '#FFFFFF'
+                minecraft:poppy: '#ED302C'
+                minecraft:attached_melon_stem: '#E0C71C'
                 minecraft:red_tulip: '#9B221A'
                 minecraft:dandelion: '#FFEC4F'
                 minecraft:pink_petals: '#FFB4DB'
@@ -78,8 +83,3 @@ world-settings:
                 minecraft:sunflower: '#FFEC4F'
                 minecraft:allium: '#B878ED'
                 minecraft:wither_rose: '#211A16'
-                minecraft:birch_leaves: '#80A755'
-                minecraft:lava: '#EA5C0F'
-                minecraft:lily_of_the_valley: '#FFFFFF'
-                minecraft:poppy: '#ED302C'
-                minecraft:attached_melon_stem: '#E0C71C'

@@ -1,0 +1,1332 @@
+# Enable this tradeset config
+enabled: true
+
+# the chance that a wandering trader will get the trades
+# from this config [0.01 - 1] ie 75% = 0.75
+chance: 0.5
+
+# true: randomly select from these trades
+# false: add all off these trades
+randomized: true
+
+# if the above is true, how many random
+# trades to add
+# may be a number, or a range for random selection
+#   range example: " randomAmount: '0:5' " -> will pick a random number 0 to 5
+randomAmount: 10
+
+# if true, a trader spawned with this config by command
+# will not take damage, except from players with the
+# wanderingtrades.damage permission
+# and will also not despawn
+invincible: false
+
+# if set, a trader spawned with this config by command
+# will display this custom name tag above their head
+#
+# set to 'NONE' to disable
+customName: 'NONE'
+
+# Enabling this option will disable villagers with this config from
+# giving gifts to players with Hero of the Village.
+disableHeroOfTheVillageGifts: true
+
+# you may define as many trades as you want
+# in this section. this example shows all of
+# the configuration features
+trades:
+  soup-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Суп'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4MTM2ZTQ4MThlMjgyMWRiOThmYmRhYWRmMGMyOGVmZjgxZTNjZmQ1ZWIxYWViZWFhNjM4MjdhNDE3YTlmMyJ9fX0=
+      amount: 2
+
+  soup-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Суп'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYxMzZlMjY2ODc5OGUwOTNkOTBjOGFlOTFmOGNlYWM4YTdiZDg4OGRmZDRiMmJmYTE0NThhMDRhOTA1OTEzMiJ9fX0=
+      amount: 2
+      
+  soup-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Суп'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzViNzY5NjI1YmZkMjA3ZDVkNzJiNjVjNWY1NTQxN2NlNjUzMWMzYzg5ODdiOGI4YzU1MGQ0NDRhYzNkOWJkMyJ9fX0=
+      amount: 2
+      
+  soup-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Суп'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMzMjc5OGFmZTU5ZDNhODdjMThlZjBlMDgzYTJlMTUyMWFhMjc0MzBiZjE1NWJlZmE2MTRmZGQ5ODUxODQzMCJ9fX0=
+      amount: 2
+
+  soup-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Суп'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTA2ZmM2YTQwZGEyNTZiNDUzNTkzZmEzMmU1MmI5ZTExMGM1MGRmMDRhNzBmNDg0ZDIwMDA5YzdiYTExNDI2YiJ9fX0=
+      amount: 2
+
+  soup-6:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Суп'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiM2Q1Y2Y3OTExNDZkOTQyYjIwOTYzZmVkY2JjM2U0ZjBkNzJlOGVkYWUwMzYyMTI2NjMyYzBjNGRjOTFjNyJ9fX0=
+      amount: 2
+      
+  salad-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Салат'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q1NjI1MzBmZTFlZmZmNWQ5YmZkZWUyNjhiNmM1NDc0YjJjY2VmYWQwYTFkM2Y4NGE5ZTJjNjFkODdmZjZlZCJ9fX0=
+      amount: 2
+      
+  salad-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Салат'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlZjI1Y2RiYTU2NmFiN2I2MzJhNWQ1NTQ0ZmFkZTllMGQxZWNiMmRkMzA4MWZmNzg2ZjkyMjQ2ZGNmYTBjZSJ9fX0=
+      amount: 2
+      
+  salad-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Салат'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhmZTQ5YjQzODY2NThhZTNmN2M2YTZiNmY4MGVhZGE0ZjEyYjFhYjg0ZGEzYjIwNTMxOTcwMWQyMjg5NjZhZCJ9fX0=
+      amount: 2
+
+  salad-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Салат'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY4MWIwNDA2ZTY2NmQ0YjAwZmZlNThiYTI4NmE2YTBhNGJlNjYzNTIwYmE3NThmYTNjNzI1YjQyMzU1YmZmOSJ9fX0=
+      amount: 2
+      
+  salad-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Салат'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM1MzYxM2VjZWZiMzVhMzU0NzhiMzE0NGU2ODg2MjljNGM5M2U5MGYxZjA3MTdiMWI2NjA5NTdkMzlhMzM4NSJ9fX0=
+      amount: 2
+      
+  kiwi-mango:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Тарелка с киви и манго'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRiMjFiY2RkNmRlNzg3MWRlODY5NzMzOTgxYTIyZTVlNDViMGJkOTA0NTM1MzE2ZDE3YTZjMWQzNDg4ZTUwOSJ9fX0=
+      amount: 2
+      
+  tropical-fruits:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Тарелка тропических фруктов'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc0Y2Q3MTkyOTZkOGQ3YjI1MWM3ZDFkYTMwMjEzZDBjMDRhMGY1MmQ3MDBmMjQ0MmQ5N2VlMzg5M2VkMDA0OSJ9fX0=
+      amount: 2
+      
+  picnic:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Тарелка пикника'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRiNWY1MzQ5ZTMzNWVmYmQ2OWFjMWQ5YzAyMDMzYmVjNzg2NzVjNzM0NDM0MDk5MWNjYmJmZjkxMGYwNmJlYSJ9fX0=
+      amount: 2
+
+  ham-and-cheese:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Тарелка с ветчиной и сыром'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWViNzRjYzVkM2QxNzRkNjdkMGIyYTdhNDJkODg2OWEzNTYxNzlmMmJjMjIwZGQ0MmQxZWQ2MWEzMDA1YmQ0NiJ9fX0=
+      amount: 2
+      
+  con-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Консервы'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlZTBjNzk0MzcxNjUwYjljOWRjZWRiYjM0MGIwNjcwYWQ1M2QyYTE2ZTg4ZWEyYzlhZjRjYTZhYjMyMDJkMyJ9fX0=
+      amount: 2
+      
+  con-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Консервы'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVlMTkyNTllNWYyN2M5NDlhZWE1MjdlOWFlZGZlMzY4NmVlNWNiZDg4ZGIwYTJlNzExY2QyZjI5NTM1MmYzMyJ9fX0=
+      amount: 2
+
+  burger-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZkMDE0MTEzYzQ1Yjk3OTE5MTdjMjRkYzBjMGEzMDRlODBmMWE1Njc0MTMwYmI1MTcyNGRjMTMwMzBlNDBiNSJ9fX0=
+      amount: 2
+      
+  burger-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIwMjU5OGQ0NjIzOTcxYjcxOWNkNzIzYzBiZGNlZGM0OWQzNGU5NmQ2MzZmMzZlOGJlNjVkZmFlNDFhN2UzOCJ9fX0=
+      amount: 2
+      
+  burger-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUxYjU4NWFiZGQ2NDc3ZjU5NGJjZmNlZjg0NzcxYWEyZDQyYWI4NWRkNGMyMmE0Y2M0MGMyNzM2MDUwOGM4In19fQ==
+      amount: 2
+      
+  burger-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY1ODc0YjU5ODdkNDJmMjA1Yjg3MGE3OTNiZjNhMTRhNjhiMmNmZmVkOWMwMjEwZGNlYWVmZWMwN2EifX19
+      amount: 2
+      
+  burger-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNlM2M2ODc3NjY2NTliYmQxODIyNTcwYjhhYjhiNDE3NTg2ZTdiMTBkMWIwZDk4YWRlNmNiYjgzYjdkNTEwZCJ9fX0=
+      amount: 2
+      
+  burger-6:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVkY2VlZTZjYmE4ZWZmODExZmY1N2U2ZDlmNTk5NGViN2RhOTE3YTA1N2NiMzRiZjQ0Nzc0MDg1NDM1ZTkzIn19fQ==
+      amount: 2
+      
+  burger-7:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdjNTg0OTdkMDZiODY2MGU2YzMxNjA5ODk0Y2M1MGM1N2I4MDc2MGE1MzNiODA1NzEwYTVlNmQyNjJmNjMzMiJ9fX0=
+      amount: 2
+
+  burger-8:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I4OWQyNmJjODIwYTdiZjBiM2Q1MWMyYWZmNzNjNWMzZDljYjg0Nzk0MGYwNjVhMzMxMGFiZmE3MmQwMTk4ZCJ9fX0=
+      amount: 2
+      
+  burger-9:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бургер'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc3MjRkNTJkY2ExMmQxYTRkZTBjZDU1MzVhMzA3MjczMmU0MzBhOTcwM2RmZTJiMjFkMTQ3YWE0ZGI1MWM5ZSJ9fX0=
+      amount: 2
+      
+  taco-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Тако'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFkN2MwYTA0ZjE0ODVjN2EzZWYyNjFhNDhlZTgzYjJmMWFhNzAxYWIxMWYzZmM5MTFlMDM2NmE5Yjk3ZSJ9fX0=
+      amount: 2
+      
+  taco-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Тако'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjNTE3OGFkYzRmZmNmNjRkNGM2OGY3NTQ5YTc1MWFjMDJhMzE3NTQwYmMyZmU2NWQxN2YwMWY5NjgyZGRmMSJ9fX0=
+      amount: 2
+      
+  taco-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Тако'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjIxM2QzMjlkNDdhNWYyMWVlMzhhMzYxODc5NDYwOGI1YjUwZTI2YjMxMTE2OTQ0YTZjNDAxODYyMWZiMWZlNSJ9fX0=
+      amount: 2
+
+  taco-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Тако'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ5ZDNkODg5Y2ZmNjU1YzYyMjgzNDE4NDU1MjA1YjAzYWU3N2ZmYjdlZTE4ZGQwM2FjMGE0ZmZiODk1NjE1YiJ9fX0=
+      amount: 2
+      
+  sushi-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUzNDdkYWRmNjgxOTlmYTdhMWI2NmYwNDgxYWQ4ZTlkYWVlMTUxMDg2NWFkZDZmMzNkMTVmYjM3OGQxM2U5MSJ9fX0=
+      amount: 2
+      
+  sushi-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTEyNjI2ODA2NDBmNTM4NjIyNWZiOGRhMTMzYWNkNjBhNjk2ZmQzN2FiMmI0ZGMzNmI5Nzc4NGQ0ZTVjZGU3OSJ9fX0=
+      amount: 2
+      
+  sushi-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTIwODRiZWZjOGE3YmY3M2Y3NjIxOTVmYjkzMGRjMTA4YWJmMjBkNjdiYTgwYzQ5YTM0MDZlMGRjOGEzN2I5ZCJ9fX0=
+      amount: 2
+      
+  sushi-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjkzNzYyZjFmYjA3MWFjZDhmZjQ2NDUzM2E2M2MyYTkyMjRhMGE1NWQ4ZDNjODg2ODk1Y2Y3MzAxYjM2MGQxNSJ9fX0=
+      amount: 2
+      
+  sushi-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNjYTNmOTI2ZTdhOWFiOTU1NWZlY2I2OWE4MDI3NDNjMTIyZDllZmM1NjVhMmZlNTU0NTExOGZhOTFkMSJ9fX0=
+      amount: 2
+      
+  sushi-6:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkzNmE2YjQ5NDQ1OTViNGI1YjQ0YTc0ZWFlZjZkYjgxYTc1NmEyNWE2YTFjYzc2ZTY5ZGI4OWJhOTE3ODkifX19
+      amount: 2
+      
+  sushi-7:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBhN2ExYzU5MTJjNGM4MzQ0NDI4Zjk5NTE3ZjlmNDNlNTM1ZDBjYTY1Zjc5MTY4M2MwZjllMmJmOWFjOWUifX19
+      amount: 2
+      
+  sushi-8:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ5OTZkNDg4MmY0N2M4NzMyMDFmZDBjNzM2MmE1MzJiOWQ3OWE0YzU2YzhjZDkxMTdmMzE3MWVmNGU5In19fQ==
+      amount: 2
+      
+  sushi-9:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBlYzU4NWZhMzA0NGNjYmM5NDQ0MWM4YTc5YjRiOGMyM2VhYTZkZGI0ZDUxOTk0OTgyNmM1MWVmMzM1MDU5In19fQ==
+      amount: 2
+      
+  sushi-10:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk1NmNmM2E5ZWFkZGVjZmUzYTg0MmJlYzE3ZjkxNDM1YTc2ZDVhNzFlOGJmZjBlZDllYTNiM2I5OGFmYzhjIn19fQ==
+      amount: 2
+      
+  sushi-11:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVhZjVhNDM2YTg2NjYzYmVkYmQxNzk2NmNhNTU0NmJjYWI4ZTFhZTMwYWUyNGE0OGY5MzFiNjkxZTc5NWMyIn19fQ==
+      amount: 2
+      
+  sushi-12:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFiZmQyZGY5YTE0YTFiZjk3ZmYzNmNhOGY2NjNhMmQ2NzJhOGIyZGQxOWVhNmI4NTNiY2Q5YjFjZjhmZDYyIn19fQ==
+      amount: 2
+      
+  sushi-13:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ3YzI3N2I2OGM5YjI5Zjk3MWQ0NjVlMmM5NjI4NGM4ZjNkZWMzYTdkOWFhZjczZmM2N2QzYmQwZWNiOGE2In19fQ==
+      amount: 2
+      
+  sushi-14:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNiZjhmY2EyYWYzNTkyYzU1NzRiMTNlM2JjZjYxZTJmYWU4Mjk3ODg1MzVmMGRkZWFhN2EyZTQ1YjZiYTQifX19
+      amount: 2
+      
+  sushi-15:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU5ZDIyZDlhZGE2M2UyODE0MjBhZTMzNjkxODgwODY5ZmExYTE0YmZkZjg3ZDhlNTM4ZTk5OGE4ZjI5NTk1YiJ9fX0=
+      amount: 2
+      
+  sushi-16:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: DRIED_KELP
+        amount: 1
+    result:
+      customname: 'Суши'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4MmQzYzllZWRjNzE4YzA3NTE5MjU0Zjc5MjFhNTlmZjNhNmYyNDU5Mzk2NjVjOWNiMDE3MTEyY2U2NzAifX19
+      amount: 2
+      
+  bread-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Хлеб'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUyN2Q4Yjg0NjJiNzlkYjdmODE2OTY4YjliY2MzMDlhNTRjMzBlZDFiZTY5MjMwNTUzN2JjZmY4MjgzZDNkMCJ9fX0=
+      amount: 2
+      
+  bread-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Хлеб'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyNGRjOWYxNzMzZjAwZTY3NjUwOWEyMjFiOGE2NmE2ZTA1OWU1NTA0NWQwOGE3ZTRmYzA4ZDdkMzEwODc1OCJ9fX0=
+      amount: 2
+      
+  bread-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Хлеб'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTMzZmE3ZDNlNjNiMjgwYTVkN2UyYmIwOTMzMmRmZjg2YjE3ZGVjZDJiMDllY2NkZDYyZGE1MjY1NTk3Zjc0ZCJ9fX0=
+      amount: 2
+      
+  bread-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Хлеб'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTllZDk1MzY3MTBmZDY0N2VjMzU4OTgxMWUzMDg2YjJkNjY3MzU0YTgxNGEyZTQzODM2MTAyOTQyYzk2Mzc3YyJ9fX0=
+      amount: 2
+
+  bread-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Хлеб'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBhYzQwYzBkY2M2YWYzMDc2MjI2MGQwNjhkNzczYjc5YjFiY2NhN2IyMTAyMTZmNzg1M2U5Mzc0ODRhMmJkNCJ9fX0=
+      amount: 2
+      
+  raw-chicken:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: CHICKEN
+        amount: 1
+    result:
+      customname: 'Сырая курица'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEyYzE5YjliODRiNGY1OTQ1NjA1ODA4NmM3NTIzYThkYWQ0YWM5MDcxOWZhMjQyYjIwN2RiMzJiYmFlOGY1ZCJ9fX0=
+      amount: 2
+      
+  cooked-chicken:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: COOKED_CHICKEN
+        amount: 1
+    result:
+      customname: 'Запечённая курица'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNlMjBhMjZjYmI1NzQwYTE1OGRhOTkxZWY5NGRjZDMyZDQ0N2U5YWMwM2FhMGU4ZjgyOWE0OTgzMDYxOWExMCJ9fX0=
+      amount: 2
+      
+  potato-free:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: POTATO
+        amount: 1
+    result:
+      customname: 'Картофель фри'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4MmUxMWQ1YTY0YzZkNjUzZjNhMWM1M2M5NDIwYTE1MzgxOGU2N2RiZDhlOTM0NDJjMzVjNjI3ZTBjNjMxIn19fQ==
+      amount: 2
+      
+  pumpkin-pie-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: PUMPKIN_PIE
+        amount: 1
+    result:
+      customname: 'Тыквенный пирог'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk1NGM2ZjQ5YWJlNTFkZTdiN2Q2OWRjNTNlMmQ5ODI0NjhjNzVjNmYwMWU4MjFlODNjNzllZTMwNTg5MjJlOSJ9fX0=
+      amount: 2
+
+  pumpkin-pie-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: PUMPKIN_PIE
+        amount: 1
+    result:
+      customname: 'Тыквенный пирог'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzhhOTcxZGY1MWU5Y2E5YTViOTJlNDVkM2ZhNTQ3ZGQzMTkxODc3OTI5YTQzN2Q1MDE1Mzg5MmU1ODVhIn19fQ==
+      amount: 2
+      
+  cake:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: CAKE
+        amount: 1
+    result:
+      customname: 'Тыквенный пирог'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhmYWE0Y2U3OTA1NGNjOWI4ZTFjOWRlNDgyM2MyMmNjMDY5ODRhOGE0ZjZkZTYyYmRhOTBiNTJjNWZlY2RkNiJ9fX0=
+      amount: 2
+      
+  pecan-pie:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Ореховый пирог'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQzYjc2ZGYzYWE3Njg5M2ExNjE4OTVkOTgxZjIyNDhmY2RlOTZkYmM0MDQyMTI5MDQ1Zjk1ZGUxMGUxODQ4NSJ9fX0=
+      amount: 2
+      
+  berry-pie:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Ягодный пирог'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA0NzcxMzRkMmFjNTI1NjlmMDYyNzA3YjA0ZTRhMzdhNzBhOWZlZDYxMTBjN2QyZjE0NWY3NmJlMWNkODI2ZSJ9fX0=
+      amount: 2
+      
+  pancakes-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Блины'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRiMDgyMzhiMjdiZjZjMGM2MmE3NTAyYWFkZWQ4ZDlkNmZkNjAzNDViYzVmNzk5M2IyNjYxYjcxODBlMjIwYiJ9fX0=
+      amount: 2
+      
+  pancakes-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Блины'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTU4YzA5ZGEzMmZkM2Y0MTg3ZGY3MzU3ZGFkODdkNjkzMjdlNzIzZGU0ODcxNmM4MDRjYTVkNzM3MTY4YmI2YSJ9fX0=
+      amount: 2
+      
+  pancakes-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Блины'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzOWU2MjQ4NTBiYjNlMTFkYTM3ZWI1NDk0MjNkZTExZTYwZjdmNTc2MmE1ZGVhZTk1OTQ1M2U2YWVlNDA3OSJ9fX0=
+      amount: 2
+
+  pancakes-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Блины'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FiNDY3ZWM3Y2JmNjgyM2E0OGQ0NTQ2OGQxOWQxODhhMDMyYTQxNDQ1ODU4YWVlNTJmMzViZTA3MmNmOTZkNiJ9fX0=
+      amount: 2
+      
+  waffles-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Вафли'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVjNmEzN2FhNjIwNzdmNmU2ZTg1YjQyYTA2MjI5OTM2MzZjM2IzNjEzMmRiYzM0MWYxZjEzMDZmNjFjMmYyNiJ9fX0=
+      amount: 2
+      
+  waffles-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Вафли'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjUyYzNmZDBmYWM2NGI5MzRjMTM0YTA2ZTY4NGZiMDQ3MmExNThhYWY2Nzk5NTMyMjdlNDc4YWYyZjgwMDQ1OCJ9fX0=
+      amount: 2
+      
+  waffles-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Вафли'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdmMDFiNWY4YzZiNjJhOWE5YWM2ODYxOWZiMzIyOTdhNWE3ZDI4ODFhZmY4ZTJlZjY5OTdhMzdhYjZlMTkxYyJ9fX0=
+      amount: 2
+
+  tortillas:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Тортильи'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ1NjZiYzczZGE4ZjA0YTc0YTE4MGJjM2VhMTk3ZThlNGI2YTEzZmI4ZDZhMTU2MGMwZjlhMmFjMThmNTQ4ZSJ9fX0=
+      amount: 2
+      
+  bento:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Бенто'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNmODg5MGMxNGRhYTQ4YTNkMjJmMmJhZGUxMTJiNDE0YWQ3MzgwMzdjOThlYTg5OGIzYzM0MjkzYjE1N2NmMCJ9fX0=
+      amount: 2
+      
+  nutella:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Шоколад Нутелла'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzViOWYxYzViMmEyODQ0ZTcxOWE1M2RkMjQ1OTUwZTU2NjhlOWUzODE3ZDYzODhjZGJiZjE1MTYzZTQ0NzkifX19
+      amount: 2
+      
+  popcorn:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Попкорн'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFhNjk0MDg0MmFmZDJhMmU1ZjQyMTc5MjM3ODU5OTU5ZTY2NmJiZmU3MmRhZWE4MTYxMmQ0NDFkOGUwNDM0OCJ9fX0=
+      amount: 2
+      
+  butter-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Масло'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTliM2NiNjFmODJiMGFlZTRjNDNjZDdlOTE1NDY0YzA0M2VkMWQxNWE3ZGQ4ODI1ZGU1ZWRmYWRkMWU2NzBkYSJ9fX0=
+      amount: 2
+      
+  butter-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Масло'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjE5ZjdkNjM1ZDAzNDczODkxZGYzMzAxN2M1NDkzNjMyMDlhOGY2MzI4YTg1NDJjMjEzZDA4NTI1ZSJ9fX0=
+      amount: 2
+      
+  bowl-of-noodles:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BOWL
+        amount: 1
+    result:
+      customname: 'Лапша'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjEyNjUyZmVmNTA5ODQxOTE2ZTA4OTQ1NDlmZGM3OTg3Yjc4ZWYyMzg0ZWZhYjc3ZTJlZGE0MGVjZjE3M2QwZCJ9fX0=
+      amount: 2
+
+  cookie-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: COOKIE
+        amount: 1
+    result:
+      customname: 'Печенье'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjEyMmQ0N2E2OTQ4MDI1NWJkMmMzNTllN2MyZThjNzhjYmNkNDRlMDQ0ZTRjZWFmYzA2ZjNlNzc2MmQwZWZjZSJ9fX0=
+      amount: 2
+      
+  cookie-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: COOKIE
+        amount: 1
+    result:
+      customname: 'Печенье'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYzMjkxYjkyYzBjZjE3YWU3OTYyYjUzYTVmNTZkMjQ4ZTA5Y2M5ZjQwZDI4MDkyNjEyY2RkYmQzOTljZDQwIn19fQ==
+      amount: 2
+      
+  cookie-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: COOKIE
+        amount: 1
+    result:
+      customname: 'Печенье'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjEwMmE0ZDU4ZTY5MTMyNDcxOWJhNGQwNWQzY2EwNTI2YmE3MTZkYTIyNTVhMDk4Y2ZmNmU3YmU2ZWVhN2MyZiJ9fX0=
+      amount: 2
+      
+  cookie-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: COOKIE
+        amount: 1
+    result:
+      customname: 'Печенье'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEzOWJiMjIxZWRmMTM3NjdhODBkNTU2MTJlOGI0NTk3ZjI2Y2NhYjdjOWQ0NWM4MDQwMGQ2Yjg1MDgzYTZkZSJ9fX0=
+      amount: 2
+      
+  sandwich-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Сэндвич'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVmYWZkODk3MmI2Yjc2OTBmYjEzMWRjM2Y5MTdjNTU5OTkzOGY4N2I1ODRjMmY1ZTdkNDBhMGRlNDFlNTJmIn19fQ==
+      amount: 2
+      
+  sandwich-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Сэндвич'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEyMTJmNzBmYjY2NTQ4ZmRmMmFiY2RiY2U4ZjMxNzA0MzRiODk5NWUyMWQxNGY5YjFmZjE0OTdjNjQ4ZCJ9fX0=
+      amount: 2
+      
+  sandwich-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Сэндвич'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YTkzOTA5M2FiMWNkZTY2NzdmYWY3NDgxZjMxMWU1ZjE3ZjYzZDU4ODI1ZjBlMGMxNzQ2MzFmYjA0MzkifX19
+      amount: 2
+      
+  sandwich-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Сэндвич'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFlZTg0ZDE5Yzg1YWZmNzk2Yzg4YWJkYTIxZWM0YzkyYzY1NWUyZDY3YjcyZTVlNzdiNWFhNWU5OWVkIn19fQ==
+      amount: 2
+
+  sandwich-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Сэндвич'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ5NjU4OWZiNWMxZjY5Mzg3YjdmYjE3ZDkyMzEyMDU4ZmY2ZThlYmViM2ViODllNGY3M2U3ODE5NjExM2IifX19
+      amount: 2
+      
+  salo:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: PORKCHOP
+        amount: 1
+    result:
+      customname: 'Сало'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdiYTIyZDVkZjIxZTgyMWE2ZGU0YjhjOWQzNzNhM2FhMTg3ZDhhZTc0ZjI4OGE4MmQyYjYxZjI3MmU1In19fQ==
+      amount: 2
+      
+  ham:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BEEF
+        amount: 1
+    result:
+      customname: 'Ветчина'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjYzMzZmNWJiOTk3NWJmNTdlMTRkYjY2MTVjMTg5NmM1YzRiOWMzOWFhZDE3YjE3ZTRlZTIwYjIzMWNmNiJ9fX0=
+      amount: 2
+      
+  beef:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: HONEY_BOTTLE
+        amount: 1
+    result:
+      customname: 'Горшочек мёда'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI5OTYwZWFkZTJkY2I2ZTc0NGM3ZDA4NGRlZjAwNTk5ZmU3MzI3ZTM5NzNjZDJjYTBhZjRhMmExZTZlYWMwOCJ9fX0=
+      amount: 2
+      
+  honey:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: COOKED_BEEF
+        amount: 1
+    result:
+      customname: 'Жаренные стейки'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFiZDkzNTk2YTM0NjRhNWU3NWYyODI5ZTFiYmM3MmY3Njk4MzhmOWQ5MWJjOWM4NDk0ZGFiYzJjMzk3NjYifX19
+      amount: 2
+      
+  muffin:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Кекс'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFmNDFiYzVmMmQyMTZlOWRiZjA4MzA1OGQyNTNjOTdmMGU4ZTEyNTJiOGJkZTFmMDA2YTZjNzY2NzY0ZTRhZSJ9fX0=
+      amount: 2
+      
+  cheese-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Сыр'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU1ZDYxMWE4NzhlODIxMjMxNzQ5YjI5NjU3MDhjYWQ5NDI2NTA2NzJkYjA5ZTI2ODQ3YTg4ZTJmYWMyOTQ2In19fQ==
+      amount: 2
+      
+  cheese-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Сыр'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVkZjEwNmE5NTMzNDVhNDU2MmYzZWI3NDllNDdmMzhjYWViMTc2YTc5MWJjYzhlYmU1YWNkYjNiN2Y1MjJhIn19fQ==
+      amount: 2
+      
+  cheese-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Сыр'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRmMjViYWI4YjQzMGM5OGMxNzg1M2VhMWJmYzJiZmM3MWE2M2VkZTIyZmQ0ZTg3YmRhZWFiNjU3NmY3MjZhIn19fQ==
+      amount: 2
+      
+  cheese-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Сыр'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE1MzlkYmNkMzZmODc3MjYzMmU1NzM5ZTJlNTE0ODRlZGYzNzNjNTU4ZDZmYjJjNmI2MWI3MmI3Y2FhIn19fQ==
+      amount: 2
+      
+  lasagna:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Лазанья'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThkNTgzZDNmNmExMjQ3NjM1OWVmODI4OGI2MGJhMzU1ZTMyYTNhNGQ5N2JjODUyMzIzY2U3NGM4OWU0NTE0MyJ9fX0=
+      amount: 2
+      
+  mushroom-stew:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: MUSHROOM_STEW
+        amount: 1
+    result:
+      customname: 'Грибная запеканка'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAzZDY1OTdjYTQ0Y2JiYmRlZTdhMTM1NzRhNGNiNzkyYTc1YmU2ZWQ1OWE4OGY5OTUyMTYyZmQ5M2EyNTY3ZSJ9fX0=
+      amount: 2
+      
+  jam-jar:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: MUSHROOM_STEW
+        amount: 1
+    result:
+      customname: 'Джем'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmYzNjM2MjgxMjNhZjExYWE2ZjRhODk5Y2ViZDA5NGYwNzQ1NTVhNDFlNmQzMzUyMTJlZTcyNjNhZDM5ZjYifX19
+      amount: 2
+
+  hot-dog-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Хот-дог'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNhNDVmZDc1NWYyYjMyMGY2OWYxMjYwZmEzM2JkYTkzNGM5ZDJkMzE1ZTkxZmFkYWU3ZGM1ZjlmM2FmNTAifX19
+      amount: 2
+
+  hot-dog-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 4
+      2:
+        customname: NONE
+        material: BREAD
+        amount: 1
+    result:
+      customname: 'Хот-дог'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE4NTk2ZmZkOTNhN2Q5MjU1Yzc3OGM3ZTljYWIwODNlMGQ0NzI3ZGIyNTAzM2Q3YTEzZDQ3MmExZDcyIn19fQ==
+      amount: 2
