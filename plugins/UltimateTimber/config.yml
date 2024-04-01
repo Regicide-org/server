@@ -514,26 +514,12 @@ global-plantable-soil:
 # The default examples here are to show what you can do with custom loot
 # Valid command placeholders: %player%, %type%, %xPos%, %yPos%, %zPos%
 global-log-loot:
-  0:
-    material: DIAMOND
-    chance: 0
-  1:
-    command: 'eco give %player% 5'
-    chance: 0
-  2:
-    material: GOLDEN_APPLE
-    command: 'broadcast %player% found a golden apple in a %type% tree at %xPos% %yPos% %zPos%!'
-    chance: 0
-
 # Custom loot that is available for all tree types
 # The loot applies to each leaf broken in the tree
 # To add more, increment the number by 1
 # The chance is out of 100 and can contain decimals
 # Valid command placeholders: %player%, %type%, %xPos%, %yPos%, %zPos%
 global-leaf-loot:
-  0:
-    material: GOLDEN_APPLE
-    chance: 0.1
 
 # Custom entire tree loot that is available for all tree types
 # The loot will be dropped only one time for the entire tree
@@ -541,9 +527,6 @@ global-leaf-loot:
 # The chance is out of 100 and can contain decimals
 # Valid command placeholders: %player%, %type%, %xPos%, %yPos%, %zPos%
 global-entire-tree-loot:
-  0:
-    material: DIAMOND
-    chance: 0
 
 # Tools that must be used to topple over a tree
 # Applies to all tree types

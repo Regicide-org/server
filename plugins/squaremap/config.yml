@@ -8,6 +8,9 @@ settings:
         enabled: true
         bind: 0.0.0.0
         port: 8080
+    web-directory:
+        path: web
+        auto-update: false
     ui:
         coordinates:
             enabled: true
@@ -15,6 +18,10 @@ settings:
             enabled: true
         sidebar:
             pinned: unpinned
+    language-file: lang-en.yml
+    debug-mode: false
+    update-checker: true
+    web-address: http://localhost:8080
     commands:
         main-command-label: squaremap
         main-command-aliases:
@@ -22,37 +29,15 @@ settings:
     render-progress-logging:
         enabled: true
         interval-seconds: 1
-    language-file: lang-ru.yml
-    debug-mode: false
-    update-checker: true
-    web-address: http://localhost:8080
-    web-directory:
-        path: web
-        auto-update: true
 world-settings:
     default:
         map:
-            glass:
-                clear: true
-            biomes:
+            background-render:
                 enabled: true
-                blend-biomes: 3
-            enabled: true
-            display-name: '{world}'
-            order: 0
-            icon: ''
-            max-render-threads: -1
-            iterate-up: false
-            max-height: -1
-            water:
-                clear-depth: true
-                checkerboard: false
-            zoom:
-                maximum: 3
-                default: 3
-                extra: 2
+                max-chunks-per-interval: 1024
+                interval-seconds: 15
+                max-render-threads: -1
             markers:
-                update-interval-seconds: 5
                 spawn-icon:
                     enabled: true
                     show-controls: true
@@ -65,16 +50,31 @@ world-settings:
                     default-hidden: false
                     layer-priority: 1
                     z-index: 1
-            lava:
-                checkerboard: true
-            background-render:
-                enabled: true
-                max-chunks-per-interval: 1024
-                interval-seconds: 15
-                max-render-threads: -1
+                update-interval-seconds: 5
             visibility-limits:
             -   type: world-border
                 enabled: 'false'
+            glass:
+                clear: true
+            lava:
+                checkerboard: true
+            biomes:
+                enabled: true
+                blend-biomes: 3
+            water:
+                clear-depth: true
+                checkerboard: false
+            enabled: true
+            display-name: '{world}'
+            order: 0
+            icon: ''
+            max-render-threads: -1
+            iterate-up: false
+            max-height: -1
+            zoom:
+                maximum: 3
+                default: 3
+                extra: 2
         player-tracker:
             enabled: true
             update-interval-seconds: 1
@@ -86,8 +86,8 @@ world-settings:
                 enabled: true
                 show-head: true
                 heads-url: https://mc-heads.net/avatar/{uuid}/16
-                show-armor: false
-                show-health: false
+                show-armor: true
+                show-health: true
             hide:
                 invisible: true
                 spectators: true

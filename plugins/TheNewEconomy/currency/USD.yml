@@ -29,7 +29,7 @@ Info:
   #The character to use as the symbol for this currency.
   Symbol: $
   # Used for data saving. Do NOT modify.
-  UUID: 9253f1d2-32ff-4671-898a-8a8bc6f517ec
+  UUID: 01331d5f-fde9-47b2-b17e-12296cbc5dae
 
 #Various options for currencies.
 Options:
@@ -67,7 +67,7 @@ Options:
   #Will be used if no world-specific configurations are found if multiworld is enabled
   Balance: 200.0
 
-  #The character to use as the decimal place holder.
+  #The character to use as the decimal placeholder.
   Decimal: .
 
   #The amount of digits to display after the decimal character.
@@ -88,7 +88,7 @@ Item:
   #Would you like your item currency balances to also check the player's ender chest?
   EnderChest: true
 
-  #Would you like your item currency to be consolidated into least amount of items after each transaction?
+  #Would you like your item currency to be consolidated into the least amount of items after each transaction?
   Consolidate: false
 
 #All configurations related to formatting.
@@ -114,7 +114,7 @@ Formatting:
   Format: <symbol><major.amount><decimal><minor.amount>
 
   #The SI Prefixes used when <shorten> is used for the currency's format.
-  #TNE's default prefixes are based off of the Internation Bureau of Weights and Measures official list.
+  #TNE's default prefixes are based off of the International Bureau of Weights and Measures official list.
   #http://www.unitarium.com/si-prefixes along with a few addition shorts for above Nonillion.
   #The order in which the characters are:
   #Thousand - k
@@ -176,8 +176,9 @@ Note:
     Flags:
       - ''
 
+Converting:
+
   #Example currency conversion.
   #Format is currency name and decimal based rate
   #In this USD converts to double Example currency so 1 USD is 2 Examples
-  #
-  #Example: 2.0
+  Example: 2.0
