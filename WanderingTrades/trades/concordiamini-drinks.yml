@@ -1,0 +1,377 @@
+# Enable this tradeset config
+enabled: true
+
+# the chance that a wandering trader will get the trades
+# from this config [0.01 - 1] ie 75% = 0.75
+chance: 0.5
+
+# true: randomly select from these trades
+# false: add all off these trades
+randomized: true
+
+# if the above is true, how many random
+# trades to add
+# may be a number, or a range for random selection
+#   range example: " randomAmount: '0:5' " -> will pick a random number 0 to 5
+randomAmount: 10
+
+# if true, a trader spawned with this config by command
+# will not take damage, except from players with the
+# wanderingtrades.damage permission
+# and will also not despawn
+invincible: false
+
+# if set, a trader spawned with this config by command
+# will display this custom name tag above their head
+#
+# set to 'NONE' to disable
+customName: 'NONE'
+
+# Enabling this option will disable villagers with this config from
+# giving gifts to players with Hero of the Village.
+disableHeroOfTheVillageGifts: true
+
+# you may define as many trades as you want
+# in this section. this example shows all of
+# the configuration features
+trades:
+  beer-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Кружка пива'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJiMGExY2EzOTlmMzVkYzU0NTE5YzRjOTk2Zjk2MjlhNTEwYzQ5OTM4MTUxZjc1OWVjOGYwNzA0MWU3ODU2NiJ9fX0=
+      amount: 2
+      
+  beer-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Кружка пива'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU5OWE0MDYxNTAwNDhmYTI2NzMxNjA0MDljYTY4NjY2MmNlMGYxYzdhNGVlNTRjMjBlY2M5MDFjOWQwYmQ2ZiJ9fX0=
+      amount: 2
+      
+  beer-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Кружка пива'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMxNDQ0YjdmMTYwYjA3Zjg5ZTFhOThlNzljYTFjMTc5ZTAzNzE2ZTY3ODUwMmVkNzU5NzU0NWNhZjE5MzgyOCJ9fX0=
+      amount: 2
+      
+  cocount-drink-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Кокосовый напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThkMGY3MDgxMDBkNTNhZjgxMjZlZmQyZTcwY2QwYjlhNDk2OGFmZjQ5YjRkZmNiYjY5YmJhYjU0YzZlYmMwMCJ9fX0=
+      amount: 2
+      
+  cocount-drink-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Красный кокосовый напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM0Zjk4NWM2NDFhNjY2NjBmYzVjYTU5NDRkOGEyMThmMDEwMTI1YzAwZjcwODU3ODNlMmU4MDA1N2I4M2VlNyJ9fX0=
+      amount: 2
+      
+  cocount-drink-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Зелёный кокосовый напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE1OGFmM2Q1MTVkNjIyYWNjMzIyNDdjZmE5YTJkNTRjYWQ5ZmY5MDZmODNkOGFkYTQyMWRiNTBkMmFkZmFiZCJ9fX0=
+      amount: 2
+      
+  coffee:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: Латте'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc0ZjExOWU5NGZmOGI3NGQwYmUxNWNkMmFhNjg5NWIxM2FlODVhYjRlYWQwZWUzNDI5MTQ5MTY0NWY2ZDI4ZSJ9fX0=
+      amount: 2
+      
+  tea-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Латте'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk2OTk0NDliZTMxYjAyMGJhZmEwZDJkOWIzNjYyMmE5ZDMyMzI2ZDU3OGQ0YTIzNmZiMDg3NTRjODY3NzI5In19fQ==
+      amount: 2
+      
+  tea-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Латте'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNlMzkzOTY0MjYwNWFlYmRkN2I5ZjIyMzc3M2I5YjhhZjEyMDlkOWU2YmNhNTU0ZDY1YzUzNzJmMjgzNzg1YyJ9fX0=
+      amount: 2
+      
+  latte:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Латте'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ4NTc3NzM5NWMyMGM1NzNmMjRjNjUyZjliZWM3ZWI1OGU5ZDdlNWY5OWM1NzI1YTRkZmZlY2FhZDNlNzhiIn19fQ==
+      amount: 2
+      
+  juice-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Кокосовый сок'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk3N2Q3MmM5NGFkN2YwNDM2MDlmZDFlNzQ4MWE0YjFiOWY0YzRlYmY0ZDQ5ZDM1NTNiY2VhYTkwMDljZTU2NCJ9fX0=
+      amount: 2
+      
+  juice-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Лаймовый сок'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNmMmJiY2U3NWMwMjFmZTUwODBjMWFjODJiYmJkYjlmN2M5YTZmNDU5MzE2MzIxMTMyZjRlYTYyZDk3ZmVhMiJ9fX0=
+      amount: 2
+      
+  juice-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Лимонад'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA5ZWYyZjNlNWQ1N2EyY2NiYjg1MGQzMDFhOTg3NGFmNzY2NWRiYjk4NGViODUyMGNiZjBmMjZkY2IwZTlmMiJ9fX0=
+      amount: 2
+      
+  juice-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Розовый лимонад'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk0Mjc2MThlOTJhMWI0ODlkMDUwZDAwNTBlYjI0MjA0MDQ2YTBiM2QxZWIxNzY1ODBhY2RjOTc1ZjdkNjU5MCJ9fX0=
+      amount: 2
+      
+  juice-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Украшенный розовый лимонад'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk1NDQ5YzM3OWQwOWJlNmQ2ZjMwMzVhNzBkODhjMTMxZjYxZmE0OTI0NWY5Njk4Yjc5NGI0MWM2YTMzNDdkMiJ9fX0=
+      amount: 2
+      
+  juice-6:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Яблочный сок'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlmODRjNGVmYWQ1MTI3YzBiY2RmYzlhMjE0ZDA5MjRiZDY0MzQwOWUyNDg0MWYyMzlkZTFhYTk4MDdlYjJkMSJ9fX0=
+      amount: 2
+      
+  juice-7:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Арбузный сок'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU5MjhjMjc4NTAyN2U3YmM0OWZiOTZmZjQ4MDFhNjczZDJhNTllZjMwYjU2MWY5ZjI0NTIxNDZiNDVkZTg5OSJ9fX0=
+      amount: 2
+      
+  juice-8:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Клюквенный сок'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRkYzY5NTA3YmRjMmQ1Yjc2OGFjYTU5MGI0MDQ2YmY3ZWQ1NDRkNDkyN2JmNzBmMjgxNjE1N2QzYmM2NGVlNyJ9fX0=
+      amount: 2
+      
+  juice-9:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Малиновый сок'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBmODdjYzJhNDI5YWVmZDU5ODA0ZWRmODJlNDI1YTEyMTY5MTQ5ZTdmYTQ3N2FlOTA4MDU5ZDIxODNjNDQ5NCJ9fX0=
+      amount: 2
+      
+  energetic-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Энергетический напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVlNDUyMDNlNTQzYWZlYzI2YWE3Yzg2NjQyYzBmMTgyYzZhN2EwODBlMmYxNGIxNjQyZDZmYmY0ZDNhODBkIn19fQ==
+      amount: 2
+      
+  energetic-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Энергетический напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODEwYWZhYTFmMGVmZDdmYTUwNWM5MTM5NTcxYTAxYjliMWE4Y2ZkNmIxZTAwNmQxZTc5MmIwY2VmZmRmOTNlNyJ9fX0=
+      amount: 2
+      
+  energetic-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Энергетический напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFmYjc0YjhlZTY3YWY5NzFmZjY5N2Q1ZWY1Y2E2OTk1ZWQ0NGMyM2IxZWZhM2MwOGZjNWEzMDM0ZWQxNWMyYyJ9fX0=
+      amount: 2
+
+  energetic-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Энергетический напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE2ZTE4OWQyNWFiOTJlMjczMTYzNjU2OWYzNWEyYmFkM2M4OTJmZmE2NWUwOTU0OWMyNThkNjdiODEwODVhOSJ9fX0=
+      amount: 2
+      
+  energetic-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Энергетический напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QwOTVkYjZmMGE5OWIyMDI4NmIzOGE0MmE5MzQwNTkwM2IzODEwMjFlMGZkYjA2NzM5OWVjMTg1NTBlN2M3ZSJ9fX0=
+      amount: 2
+      
+  energetic-6:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Энергетический напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJlMGM2NWY5ZDcyMzlmYmZhN2RlY2I0NTM4ODMyZjUyOTkyNzM5OGIyMWZhOTgwNGM4Y2EwZjBiMDk1MmExYyJ9fX0=
+      amount: 2
+      
+  energetic-7:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Энергетический напиток'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMzOWNlMzhmYWE5YTA2ODUzYjFhNWE2OGUwNDFlZGZmYWFjZWEwMDFiZTc4OTAxZTUwZjk5YzkwMDVlNTg5NSJ9fX0=
+      amount: 2
+      
+  potion-1:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Дорогое красное зелье'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEwMGM1M2NmNTdjYWNjN2Y1ZThlM2ZlODRiMmY1ZGIxMjJjZDc2ZmNlZDc4MGE5NTNiOTk2MzlmYjMxOTg4MiJ9fX0=
+      amount: 2
+      
+  potion-2:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Дорогое зелёное зелье'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJhYzk5MjZkY2ZiNzY0MWExNjIxMjY5MTEyNmUwM2Q5NWQ2NDZhZDM0NWI3NWExOTIwNjFhMWE5MzlkODkwMiJ9fX0=
+      amount: 2
+      
+  potion-3:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Дорогое жёлтое зелье'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmOTA5Y2MxYzMyZGEzYjExNjAzOTQ0ZDRmNzMxZDYzYmFhOWFkZTFlMTIxMWRkZjlmMDE1NTA5MWM1Yzk0YiJ9fX0=
+      amount: 2
+      
+  potion-4:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Зелье здоровья'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ3NGVmMTQ4NTU1ZmYxODUzNWMzN2Y5OWVlYjg4MzA3YmU5MTlkMDNkYzdjYjIzZDE4YThmZTI0MWM3YiJ9fX0=
+      amount: 2
+      
+  potion-5:
+    ingredients:
+      1:
+        customname: NONE
+        material: EMERALD
+        amount: 6
+    result:
+      customname: 'Зелье маны'
+      material: head-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI1ZGI4NDhkZWQ5YzM0ZmZiYzg1MzIzNmE0MTA5Y2UxNjY1ZGE1ZGZlMjk5OTFhM2NkNmVkYTU0ZDNlYzc3In19fQ==
+      amount: 2
