@@ -38,7 +38,7 @@ world-settings:
                 enabled: true
                 blend-biomes: 3
             enabled: true
-            display-name: '{world}'
+            display-name: NovaConcordia
             order: 0
             icon: ''
             max-render-threads: -1
