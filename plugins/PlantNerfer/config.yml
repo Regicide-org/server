@@ -1,0 +1,201 @@
+#Turn PlantNerfer off.
+disable-plugin: false
+
+
+##############
+#Biome Groups#
+##############
+
+#Guide: https://github.com/lichenaut/PlantNerfer/blob/master/README.md
+#Request custom biome support: https://github.com/lichenaut/PlantNerfer/issues/3
+
+biome-group-list:
+#  offland-warm:
+#    - "WARM_OCEAN"
+#  offland-lukewarm:
+#    - "OCEAN"
+#    - "DEEP_OCEAN"
+#    - "LUKEWARM_OCEAN"
+#    - "DEEP_LUKEWARM_OCEAN"
+#    - "MUSHROOM_FIELDS"
+#  offland-cold:
+#    - "COLD_OCEAN"
+#    - "DEEP_COLD_OCEAN"
+#    - "FROZEN_OCEAN"
+#    - "DEEP_FROZEN_OCEAN"
+#  highland-temperate:
+#    - "MEADOW"
+#    - "CHERRY_GROVE"
+#    - "GROVE"
+#    - "WINDSWEPT_HILLS"
+#    - "WINDSWEPT_GRAVELLY_HILLS"
+#    - "WINDSWEPT_FOREST"
+#  highland-cold:
+#    - "JAGGED_PEAKS"
+#    - "FROZEN_PEAKS"
+#    - "STONY_PEAKS"
+#    - "SNOWY_SLOPES"
+#  woodland-hot:
+#    - "JUNGLE"
+#    - "SPARSE_JUNGLE"
+#    - "BAMBOO_JUNGLE"
+#  woodland-temperate:
+#    - "FOREST"
+#    - "FLOWER_FOREST"
+#    - "TAIGA"
+#    - "OLD_GROWTH_PINE_TAIGA"
+#    - "OLD_GROWTH_SPRUCE_TAIGA"
+#    - "BIRCH_FOREST"
+#    - "OLD_GROWTH_BIRCH_FOREST"
+#    - "DARK_FOREST"
+#  woodland-cold:
+#    - "SNOWY_TAIGA"
+#  wetland-hot:
+#    - "SWAMP"
+#    - "MANGROVE_SWAMP"
+#    - "BEACH"
+#  wetland-temperate:
+#    - "RIVER"
+#  wetland-cold:
+#    - "FROZEN_RIVER"
+#    - "SNOWY_BEACH"
+#    - "STONY_SHORE"
+#  flatland-temperate:
+#    - "PLAINS"
+#    - "SUNFLOWER_PLAINS"
+#  flatland-cold:
+#    - "SNOWY_PLAINS"
+#    - "ICE_SPIKES"
+#  arid-land:
+#    - "DESERT"
+#    - "SAVANNA"
+#    - "SAVANNA_PLATEAU"
+#    - "WINDSWEPT_SAVANNA"
+#    - "BADLANDS"
+#    - "WOODED_BADLANDS"
+#    - "ERODED_BADLANDS"
+#  cave:
+#    - "DEEP_DARK"
+#    - "LUSH_CAVES"
+#    - "DRIPSTONE_CAVES"
+#  void:
+#    - "THE_VOID"
+#  nether:
+#    - "CRIMSON_FOREST"
+#    - "WARPED_FOREST"
+#    - "SOUL_SAND_VALLEY"
+#    - "BASALT_DELTAS"
+#    - "NETHER_WASTES"
+#  end:
+#    - "THE_END"
+#    - "SMALL_END_ISLANDS"
+#    - "END_MIDLANDS"
+#    - "END_HIGHLANDS"
+#    - "END_BARRENS"
+#  CreateYourOwn:
+#    - "PLAINS"
+
+
+#############
+#Nerf Plants#
+#############
+
+#Guide: https://github.com/lichenaut/PlantNerfer/blob/master/README.md
+
+oak-sapling:
+dark-oak-sapling:
+spruce-sapling:
+birch-sapling:
+jungle-sapling:
+acacia-sapling:
+bamboo-sapling:
+bamboo:
+cherry-sapling:
+mangrove-propagule:
+mangrove-leaves:
+sugar-cane:
+sea-pickle:
+kelp:
+seagrass:
+grass:
+tall-grass:
+grass-block:
+fern:
+large-fern:
+vine:
+cave-vines:
+twisting-vines:
+weeping-vines:
+lily-pad:
+moss-carpet:
+moss-block:
+sweet-berry-bush:
+melon-stem:
+pumpkin-stem:
+carrots:
+potatoes:
+beetroots:
+wheat:
+cactus:
+cocoa:
+brown-mushroom:
+red-mushroom:
+torchflower-crop:
+pitcher-crop:
+nether-wart:
+crimson-fungus:
+warped-fungus:
+big-dripleaf:
+small-dripleaf:
+rooted-dirt:
+chorus-plant:
+azalea:
+flowering-azalea:
+sunflower:
+lilac:
+rose-bush:
+peony:
+dandelion:
+poppy:
+blue-orchid:
+allium:
+azure-bluet:
+red-tulip:
+orange-tulip:
+white-tulip:
+pink-tulip:
+oxeye-daisy:
+cornflower:
+lily-of-the-valley:
+pink-petals:
+
+
+##############
+#Nerf Farming#
+##############
+
+#In ticks (20 ticks per second), time a dehydrated farmland with a crop on it will take to turn into dirt. Affects all plants that can be placed on farmland.
+  #-1 to disable.
+ticks-dehydrated-crop-dirt: -1
+
+
+###############
+#Miscellaneous#
+###############
+
+#If empty, PlantNerfer will affect all worlds.
+  #To disable the plugin completely, scroll to the top of this file and set 'disable-plugin' to true.
+restrict-plugin-to-worlds:
+#  - "world"
+#  - "world_nether"
+#  - "world_the_end"
+
+#Toggle whether everyone can right-click a plant and see its bone meal success rate. Disabled for operators.
+  #Individual permission: plantnerfer.bonemealrate
+global-bone-meal-rate-reporting: false
+  #Permission to disable individual bone meal rate reporting when the global setting is true: plantnerfer.bonemealrate.disabled
+
+#Toggle whether the player will be messaged as to why plugin mechanics are happening.
+  #Individual permission: plantnerfer.verbose
+verbose-denial: false
+  #Permission to disable individual verbose denial messages when the global setting is true: plantnerfer.verbose.disabled

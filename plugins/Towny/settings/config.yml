@@ -408,11 +408,11 @@ new_world_settings:
     # Does not affect Arena Plots which have FF enabled all the time.
     # When true players on the same town or nation will harm each other.
     # You can adjust this setting for an existing world using /townyworld toggle friendlyfire
-    friendly_fire_enabled: 'false'
+    friendly_fire_enabled: 'true'
   
     # Do new worlds have their war_allowed enabled by default?
     # You can adjust this setting for an existing world using /townyworld toggle warallowed
-    war_allowed: 'true'
+    war_allowed: 'false'
   
   mobs:
     # Do new worlds have world_monsters_on enabled by default?
@@ -1210,10 +1210,10 @@ notification:
   plot:
     splitter: ' '
     format: '%s'
-    homeblock: '&b[Home]'
-    outpostblock: '&b[Outpost]'
-    forsale: '&e[For Sale: %s]'
-    notforsale: '&e[Not For Sale]'
+    homeblock: '&b[HomeBlcok]'
+    outpostblock: '&b[Аванпост]'
+    forsale: '&e[Продаётся: %s]'
+    notforsale: '&e[Не продаётся]'
     type: '&6[%s]'
   group: '&f[%s]'
   
@@ -1551,7 +1551,7 @@ economy:
     price_new_nation: '1000.0'
   
     # How much it costs to start a town.
-    price_new_town: '250.0'
+    price_new_town: '8.0'
   
     # The base cost a town has to pay to merge with another town. The town that initiates the merge pays the cost.
     price_town_merge: '0'

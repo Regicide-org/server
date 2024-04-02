@@ -4,8 +4,9 @@ message-don't-have-permission-to-perform-command: "΀ <#D82625>У Вас нед�
 message-player-never-logged-error: "΀ <#D82625>Данный игрок никогда не заходил на сервер ConcordiaCraft!"
 
 menu-title: "§fށ"
-profile-title: "§fރ"
+profile-title: "Профиль игрока"
 hrefs-title: "§fނ"
+help-title: "§fބ"
 button-info-name: "<bold>Инфо</bold>"
 button-exit-name: "<bold>Выйти</bold>"
 button-exit-lore: [

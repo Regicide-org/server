@@ -2,10 +2,33 @@ custom-items:
 
   wooden-spear:
     type: TRIDENT
-    name: 'Wooden'
-    lore:
-      - 'Да'
-      - 'Это я!'
+    meta:
+      name: 'Wooden'
+      lore:
+        - 'Да'
+        - 'Это я!'
+      persistent-data:
+        1:
+          data-key: 'WW'
+          data-type: 'BYTE-ARRAY'
+          data-value: !!binary | 
+            AAU=
   wooden-col:
     type: STICK
-    name: 'Wooden1'
+    meta:
+      name: 'Wooden'
+      lore: 'Мама с папой в шоке,ведь я уроки,делала всегда исправно - на пятёрки! '
+      persistent-data:
+        1:
+            data-key: 'Qw'
+            data-type: 'INTEGER'
+            data-value: 1
+        2:
+            data-key: 'Q'
+            data-type: 'STRING'
+            data-value: 'Аааа'
+  ATM:
+    type: STICK
+    meta:
+      name: 'Банкомат'
+      lore: 'Устройство для управления валютой.'

@@ -24,7 +24,7 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Users with essentials.nick.hideprefix will not be prefixed with the character(s)
@@ -261,8 +261,6 @@ player-commands:
   - delhome
   - getpos
   - geoip.show
-  - help
-  - helpop
   - home
   - home.others
   - ignore
@@ -330,7 +328,7 @@ use-bukkit-permissions: true
 
 # When this option is enabled, one-time use kits (ie. delay < 0) will be
 # removed from the /kit list when a player can no longer use it
-skip-used-one-time-kits-from-kit-list: false
+skip-used-one-time-kits-from-kit-list: true
 
 # When enabled, armor from kits will automatically be equipped as long as the player's armor slots are empty.
 kit-auto-equip: false
@@ -859,7 +857,7 @@ show-zero-baltop: true
 ############################################################
 
 # Show other plugins commands in help.
-non-ess-in-help: true
+non-ess-in-help: false
 
 # Hide plugins which do not give a permission.
 # You can override a true value here for a single plugin by adding a permission to a user/group.
@@ -1142,7 +1140,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&d{DISPLAYNAME}&d впервые зашёл на сервер!'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
@@ -1151,7 +1149,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: tools
+  kit: start
 
 # What priority should we use for handling respawns?
 # Set this to none, if you want vanilla respawning behaviour.
