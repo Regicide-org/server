@@ -1,1 +1,31 @@
 version: 2 # DO NOT CHANGE
+holograms:
+  spawn:
+    type: TEXT
+    location:
+      world: NovaConcordia
+      x: 8.909461975097656
+      y: 92.0
+      z: 0.3349235951900482
+      yaw: 90.0
+      pitch: 0.0
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    visibility_distance: -1
+    visible_by_default: true
+    billboard: fixed
+    text:
+    - Если Вы видите эту надпись, значит я ещё
+    - не успел сделать локацию с демонстрацией
+    - того, что наша команда успела реализовать
+    - за отведённый срок.
+    - _
+    - Постараюсь сделать в ближайшее время.
+    - Прошу прощения.
+    text_shadow: false
+    text_alignment: center
+    update_text_interval: -1
+    background: black
