@@ -25,7 +25,7 @@ layer:
 fill-style:
   # Whether to fill the claim with color
   fill: true
-  fill-color: '#3388ff'
+  fill-color: '#9E1116'
   fill-opacity: 0.2
   # Use specified nation color as the fill color instead?
   use-nation-color-fill: true
@@ -34,16 +34,16 @@ fill-style:
   stroke: true
   # Stroke width in pixels
   stroke-weight: 3
-  stroke-color: '#3388ff'
+  stroke-color: '#63090C'
   stroke-opacity: 1.0
   # Use specified nation color as the stroke color instead?
-  use-nation-color-stroke: false
+  use-nation-color-stroke: true
   # Use specified town color as the fill color instead?
   # This option will take priority over the 'use-nation-color-fill' option if it is enabled.
-  use-town-color-fill: false
+  use-town-color-fill: true
   # Use specified town color as the stroke color instead?
   # This option will take priority over the 'use-nation-color-stroke' option if it is enabled.
-  use-town-color-stroke: false
+  use-town-color-stroke: true
 
 # Icon Properties:
 # Icons are placed at the center of a town's homeblock.
@@ -51,7 +51,7 @@ icon-info:
   # Icon for the town's homeblock. Icon must be a valid image URL.
   # Default Icon created by icon king1 licensed under Creative Commons 3.0
   # https://creativecommons.org/licenses/by/3.0/
-  town-icon: https://pics.freeicons.io/uploads/icons/png/20952957581537355851-512.png
+  town-icon: https://i.imgur.com/SHC9c0o.png
   # Icon for a town if they are the capital of the nation. Icon must be a valid image URL.
   # Put 'default' to use the town icon image.
   capital-icon: default

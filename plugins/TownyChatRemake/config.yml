@@ -14,7 +14,7 @@ channels:
     global:
         name: "Глобальный чат"
         aliases: ["g", "general"]
-        format: "<town><nation><rank> <username> > <message>"
+        format: "<papi:luckperms_prefix> <papi:luckperms_meta_main-color><username> > <papi:luckperms_meta_chat-color><message>"
         command: "gc"
 
     town:
@@ -49,11 +49,11 @@ tags:
 
     rank: "<papi:townyadvanced_towny_colour><papi:townyadvanced_player_status>"
 
-    username: "<papi:townyadvanced_towny_colour><papi:player_name>"
+    username: "<papi:luckperms_meta_main-color><papi:player_name>"
 
     town: "<hover:show_text:'<papi:townyadvanced_town_formatted>\n<papi:townyadvanced_town_residents_amount> жителей'><papi:townyadvanced_town_tag></hover>"
 
-    nation: "<hover:show_text:'<townyadvanced_nation_formatted>\n<townyadvanced_nation_residents_amount> жительей'><papi:townyadvanced_nation_tag></hover>"
+    nation: "<hover:show_text:'<townyadvanced_nation_formatted>\n<townyadvanced_nation_residents_amount> жителей'><papi:townyadvanced_nation_tag></hover>"
 
 lang:
     channel_switched: "Чат переключен на '<channel>'"
@@ -71,7 +71,7 @@ blacklist:
 
 # MiniMessage, Placeholders and Tags can be used here
 misc:
-    first_join_message: "<gradient:green:yellow>➔ Bienvenue <username>"
+    first_join_message: "<gradient:green:yellow>➔ Добро пожаловать, <username>"
     join_message: "<green>→</green> <rank> <username>"
     quit_message: "<red>←</red> <rank> <username>"
     advancement:

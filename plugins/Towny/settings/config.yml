@@ -1,9 +1,9 @@
   
 version:
   # This is the current version of Towny. Please do not edit.
-  version: 0.100.0.17
+  version: 0.100.2.0
   # This is for showing the changelog on updates. Please do not edit.
-  last_run_version: 0.100.0.17
+  last_run_version: 0.100.2.0
   
 language:
   # The language file you wish to use for your default locale. Your default locale is what
@@ -57,6 +57,7 @@ permissions: ''
 levels:
   
   # Guide On How to Configure: https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#configuring-town_level-and-nation_level
+  # One note: You can add and remove levels from this list, but you should never remove the first numResidents: 0 block.
   town_level:
   - townBlockTypeLimits: {}
     upkeepModifier: 1.0
@@ -186,6 +187,7 @@ levels:
     resourceProductionModifier: 1.0
   
   # Guide On How to Configure: https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#configuring-town_level-and-nation_level
+  # One note: You can add and remove levels from this list, but you should never remove the first numResidents: 0 block.
   nation_level:
   - kingPostfix: ''
     capitalPostfix: ''
@@ -536,8 +538,18 @@ new_world_settings:
   
       # The list of blocks whose explosions should be reverted.
       blocks: BEDS,RESPAWN_ANCHOR
-    # The list of blocks to regenerate. (if empty all blocks will regenerate)
+  
+    # This section is applied to new worlds as default settings when new worlds are detected.
+    # The list of blocks to regenerate for block and entity explosions. (if empty all blocks will regenerate)
     wild_revert_on_explosion_block_whitelist: ''
+  
+    # This section is applied to new worlds as default settings when new worlds are detected.
+    # This is the list of blocks that should not be overwritten by wilderness explosion reverts. (if empty all 
+    # blocks placed into regenerating explosions will be overwritten with the original pre-explosion blocks.)
+    # This list is useful if you have a death chest plugin which could put a player's inventory inside chest
+    # that is inside of a regenerating creeper explosion pit. For Example: By putting CHEST here you can 
+    # prevent the chest from being overwritten by the dirt block that used to be there.
+    wild_revert_explosions_blocks_to_not_replace: ''
   
   
 ############################################################
@@ -558,6 +570,10 @@ global_town_settings:
   health_regen:
     speed: 3s
     enable: 'true'
+  saturation_regen:
+  
+    # When true players cannot become hungrier when in their own or an allied town.
+    also_prevent_saturation_loss: 'true'
   
   # Number of seconds that must pass before pvp can be toggled by a town.
   # Applies to residents of the town using /res toggle pvp, as well as
@@ -770,6 +786,10 @@ global_town_settings:
   # List of ranks (separated by a comma) that will prevent a player from being kicked from a town.
   unkickable_ranks: assistant
   
+  # When true any trusted players will get permissions in town owned land, and the personally-owned land in that town.
+  # When false, trusted players get permissions only in the town owned land, leaving player-owned plots to their normal plot perms.
+  do_trusted_players_get_full_perms_in_personally_owned_land: 'true'
+  
   
 ############################################################
 # +------------------------------------------------------+ #
@@ -878,12 +898,6 @@ plugin:
       # Add any fake players for client/server mods (aka Tekkit) here
       fake_residents: '[IndustrialCraft],[BuildCraft],[Redpower],[Forestry],[Turtle]'
   
-    # This enables/disables all the economy functions of Towny.
-    # This will first attempt to use Vault or Reserve to bridge your economy plugin with Towny.
-    # If Reserve/Vault is not present it will attempt to find a supported economy plugin.
-    # If neither Vault/Reserve or supported economy are present it will not be possible to create towns or do any operations that require money.
-    using_economy: 'true'
-  
     luckperms:
   
       # If enabled, Towny contexts will be available in LuckPerms. https://luckperms.net/wiki/Context
@@ -891,7 +905,7 @@ plugin:
       contexts: 'false'
   
       # Configure what contexts to enable/disable here, contexts must be separated by a comma.
-      # Available contexts: towny:resident, towny:mayor, towny:king, towny:insidetown, towny:insideowntown, towny:insideownplot, towny:townrank
+      # Available contexts: towny:resident, towny:nation_resident, towny:mayor, towny:king, towny:insidetown, towny:insideowntown, towny:insideownplot, towny:townrank
       # towny:nationrank, towny:town, towny:nation
       enabled_contexts: '*'
   
@@ -926,7 +940,7 @@ plugin:
     delete_0_plot_towns: 'false'
   hour_timer:
   
-    # The number of minutes in each "day".
+    # The number of minutes in each "hour".
     # Default is 60m.
     hour_interval: 60m
     # The time each "hour", when the hourly timer ticks.
@@ -997,6 +1011,12 @@ filters_colour_chat:
     # Maximum length of titles and surnames.
     max_title_length: '10'
   
+    # When true, a mayor or king will need the permission node in order to add colour codes to residents' titles and surtitles.
+    # Kings require towny.command.nation.set.title.colours, mayors require towny.command.town.set.title.colours.
+    # These nodes are not given out by the default townyperms.yml and must be added to the mayor and king section
+    # when this setting has been made true.
+    does_adding_colour_codes_require_permission_node: 'false'
+  
   # See the Placeholders wiki page for list of PAPI placeholders.
   # https://github.com/TownyAdvanced/Towny/wiki/Placeholders
   papi_chat_formatting:
@@ -1035,6 +1055,9 @@ filters_colour_chat:
   
     # Used when two players are in the same nation.
     same_nation: '&2'
+  
+    # Used when the player is a member of one of your nation's conquered towns.
+    conquered_town: '&e'
   
     # Used when two players' nations are allied.
     ally: '&b'
@@ -1462,9 +1485,6 @@ resident_settings:
   # If true, players can only use beds in plots they personally own.
   deny_bed_use: 'false'
   
-  # If true, players who join the server for the first time will be informed about their locale, and about Towny translatable system.
-  is_showing_locale_message: 'true'
-  
   # The default resident about text, shown in the resident's status screen.
   default_about: /res set about [msg]
   
@@ -1476,6 +1496,12 @@ resident_settings:
 ############################################################
   
 economy:
+  
+  # This enables/disables all the economy functions of Towny.
+  # This will first attempt to use Vault or Reserve to bridge your economy plugin with Towny.
+  # If Reserve/Vault is not present it will attempt to find a supported economy plugin.
+  # If neither Vault/Reserve or supported economy are present it will not be possible to create towns or do any operations that require money.
+  using_economy: 'true'
   
   # By default it is set to true.
   # Rarely set to false. Set to false if you get concurrent modification errors on timers for daily tax collections.
@@ -2052,6 +2078,10 @@ bank:
   # Home plots will also allow deposit and withdraw commands.
   is_banking_limited_to_bank_plots: 'false'
   
+  # If true, towns which have one or more bank plots will no longer be able to use their homeblock for withdraw/depositing.
+  # Requires the above is_banking_limited_to_bank_plots to be true as well.
+  do_homeblocks_not_work_when_a_town_has_bank_plots: 'false'
+  
   
 ############################################################
 # +------------------------------------------------------+ #
@@ -2092,6 +2122,15 @@ town_ruining:
   
     # If this is true, when a town becomes a ruin, and they are a member of a nation, any money in the town bank will be deposited to the nation bank.
     town_bank_is_sent_to_nation: 'false'
+  
+    # If this is true, when a town becomes a ruin, every hour more and more of their plots will have their permissions turned to allow
+    # build, destroy, switch, itemuse to on. This will affect the newest claims first and progress until the first claims made are opened up
+    # right before the max_duration_hours have passed. When a town has more claims than max_duration_hours, multiple plots will be opened up
+    # each hour, ie: 500 claims and 72 max hours = 7 claims per hour.
+    # If a Town has less claims than max_duration hours, those claims' permissions are opened up much more slowly with hours passing between
+    # plots opening up, ie: 36 claims and 72 max hours = 1 claim every 2 hours.
+    # This system is meant to give players across many time zones the chance to loot a town when it falls into ruin.
+    do_plots_permissions_change_to_allow_all: 'false'
   
   
 ############################################################
@@ -2149,6 +2188,10 @@ claiming:
   # Setting this to -1 will result in every town having unlimited claims.
   town_block_ratio: '8'
   
+  # An amount of additional townblocks that a town will receive when it is first created, in addition to any amount given via the town_block_ratio or town_levels.
+  # As an example: This can be used to add 10 townblocks to a town when it is made so the borders can be grown a bit more before the mayor has to seek out residents.
+  new_town_bonus_claims: '0'
+  
   # The maximimum amount of townblocks a town can have, if town_block_ratio is 0 the max size will be decided by the town_levels.
   # Set to 0 to have no size limit.
   town_block_limit: '0'
@@ -2159,6 +2202,9 @@ claiming:
   # Each cell is (town_block_size * town_block_size * height-of-the-world) in size, with height-of-the-world
   # being from the bottom to the top of the build-able world.
   town_block_size: '16'
+  
+  # When false players will not see the particle flood effect when they claim townblocks.
+  show_claiming_particles: 'true'
   
   # The minimum adjacent town blocks required to expand.
   # This can prevent long lines and snake-like patterns.
@@ -2270,7 +2316,8 @@ claiming:
     over_outpost_limits_stops_teleports: 'false'
   
     # The amount of residents a town needs to claim an outpost,
-    # Setting this value to 0, means a town can claim outposts no matter how many residents
+    # Setting this value to 0, means a town can claim outposts no matter how many residents.
+    # This setting is ignored when limit_outposts_using_town_and_nation_levels is set to true.
     minimum_amount_of_residents_in_town_for_outpost: '0'
   
   
@@ -2297,6 +2344,10 @@ claiming:
   
     # When in use, requires an amount of time to pass before the /t takeoverclaim command can be used again.
     command_cooldown: 0m
+  
+    # When true, when the towns involved in the overclaiming both have nations, the overclaiming town's nation will have to have the overclaimed town's nation declared as an enemy.
+    # Towns with no nation are not affected by this rule.
+    nations_required_to_be_enemies: 'false'
   
   
   purchased_bonus_blocks:
@@ -2333,6 +2384,13 @@ spawning:
   
     # When set to true, if players are damaged in any way while in a spawn warmup, their spawning will be cancelled.
     damage_cancels_spawn_warmup: 'false'
+  
+    # When set to true, players get a large Title message showing how long until their teleport will happen,
+    # as well as a message telling them not to move if movement_cancels_spawn_warmup is true.
+    uses_title_message: 'false'
+  
+    # When set to true, players get a particle effect matching the towny spawn particles, which appears around them for the warmup duration.
+    uses_particle_effect: 'true'
   
   town_spawn:
   

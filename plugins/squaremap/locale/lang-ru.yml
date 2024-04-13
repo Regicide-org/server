@@ -99,7 +99,7 @@ click-to-confirm: Нажмите для подтверждения
 click-to-toggle: Нажмите для переключения
 plugin-reloaded: <green><name> v<version> перезагружен
 ui:
-    page-title: squaremap - {world}
+    page-title: ConcordiaCraft - {world}
     coordinates: Координаты<br/>{x}, {z}
     sidebar:
         player-list: Игроки ({cur}/{max})
