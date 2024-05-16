@@ -46,21 +46,21 @@ help_1: 'Sб»­ dб»Ґng lб»‡nh sau Д‘б»ѓ tГ¬m hiб»ѓu thГЄm v
 help_2: 'Chat thб»‹ trбєҐn'
 help_3: 'Chat lГЈnh thб»•'
 help_4: 'Resident command help.'
-help_5: 'Town command help.'
-help_6: 'Nation command help.'
-help_7: 'Plot command help.'
-help_8: 'Towny command help.'
-help_9: 'Townyadmin command help.'
-towny_help_0: "General help for Towny"
-towny_help_1: "Displays a map of the nearby townblocks"
-towny_help_2: "Display the prices used with Economy"
-towny_help_3: "Display highscores"
-towny_help_4: "Display time until a new day"
-towny_help_5: "Displays stats"
-towny_help_6: "Displays the version of Towny"
-towny_top_help_0: "List top residents based on subcommand."
-towny_top_help_1: "List top land-owners based on subcommand."
-towny_top_help_2: "List wealthiest based on subcommand."
+help_5: 'HЖ°б»›ng Dбє«n Lб»‡nh ThГ nh.'
+help_6: 'Resident command help.'
+help_7: 'HЖ°б»›ng Dбє«n Lб»‡nh MбєЈnh ДђбєҐt.'
+help_8: 'HЖ°б»›ng Dбє«n Lб»‡nh Quб»‘c Gia.'
+help_9: 'Lб»‡nh Admin Towny.'
+towny_help_0: "Trб»Ј GiГєp Cб»§a Quб»‘c Gia"
+towny_help_1: "Hiб»ѓn Thб»‹ Map б»ћ Gбє§n Thб»‹ trбєҐn"
+towny_help_2: "Hiб»‡n Thб»‹ Sб»‘ Tiб»Ѓn"
+towny_help_3: "Hiб»ѓn Thб»‹ Дђiб»ѓm Sб»‘"
+towny_help_4: "Hiб»ѓn Thб»‹ Thб»ќi Gian Trong NgГ y"
+towny_help_5: "Hiб»ѓn Thб»‹ TrбєЎng thГЎi"
+towny_help_6: "Hiб»ѓn Thб»‹ PhiГЄn BбєЈn"
+towny_top_help_0: "Liб»‡t KГЄ Nhб»Їng CЖ° DГўn."
+towny_top_help_1: "Top NhГ  GiГ u Sб»џ Hб»Їu Nhiб»Ѓu Ruб»™ng ДђбєҐt."
+towny_top_help_2: "Nhб»Їng NgЖ°б»ќi GiГ u NhбєҐt."
 town_help_1: 'TrбєЎng thГЎi thб»‹ trбєҐn cб»§a bбєЎn'
 town_help_2: '[Thб»‹ TrЖ°б»џng]'
 town_help_3: 'TrбєЎng thГЎi cб»§a thб»‹ trбєҐn Д‘ГЈ chб»Ќn'
@@ -71,64 +71,66 @@ town_help_7: 'Thб»‹ trбєҐn mб»›i vб»›i thб»‹ trЖ°б»џng �
 town_help_8: 'Danh sГЎch lб»‡nh cho thб»‹ trЖ°б»џng.'
 town_help_9: 'HГґm nay lГ  ngГ y Д‘бє·c biб»‡t!'
 town_help_10: 'Danh sГЎch cГЎc cЖ° dГўn Д‘ang online trong thб»‹ trбєҐn'
-town_help_13: "See a list of residents in the town."
-town_help_14: "See a list of ranks in the town."
-town_help_15: "See a list of outlaws in the town."
-town_help_16: "See a list of plotgroups in the town."
-town_help_17: "See a list of plot types in the town."
-town_help_18: "Say a message to the town members."
-town_help_19: "Set your town for sale, able to be bought by other players."
-town_help_20: "Set your town not for sale."
-town_help_21: "Buy the given town, as long as it is for sale."
-town_help_22: "Deposit money into your town's bank."
-town_help_23: "Used to modify your resident's town ranks."
-town_help_24: "Used to delete your town."
-town_help_25: "Used to modify your town's outlaws."
-town_help_26: "List all towns, see /t list ? for help."
-town_help_27: "Leave the town you're a member of."
-town_help_28: "Withdraw money from your town's bank."
-town_help_29: "Use /t claim ? for help."
-town_help_30: "Used to unclaim land from your town."
-town_help_31: "Add or remove residents."
-town_help_32: "Use /t set ? for help."
-town_help_33: "Use /t buy ? for help."
-town_help_34: "Use /t toggle ? for help."
-town_help_35: "Use /t rank ? for help."
-town_list_help_0: "View the specified page."
-town_list_help_1: "List towns by resident-count, with the specified page."
-town_list_help_2: "List towns which are open, with the specified page."
-town_list_help_3: "List towns using bank balance, with the specified page."
-town_list_help_4: "List towns in alphabetical order, with the specified page."
-town_list_help_5: "List towns by claimed land, with the specified page."
-town_list_help_6: "List towns by number online, with the specified page."
-town_set_help_0: "Set your town's board."
-town_set_help_1: "Set your town's homeblock to where you're standing."
-town_set_help_2: "Sets the spawn point in your homeblock or an outpost spawnpoint when stood in an outpost."
-town_set_help_3: "See /town set perm ? for help."
-town_set_help_4: "Set your town's tax amount."
-town_set_help_5: "Set the special amounts for per-plot taxes."
-town_set_help_6: "Set the default prices for buying plots."
-town_set_help_7: "Set the cost to use /t spawn."
-town_set_help_8: "Set your town's name."
-town_set_help_9: "Set your town's tag."
-town_set_help_10: "Set the title or surname of your resident."
-town_set_help_11: "Set the max amount of money a percentage tax can take from a resident."
-town_jail_help_0: "List the town's jails."
-town_jail_help_1: "Jail a resident in the primary jail."
-town_jail_help_2: "Jail a resident in the primary jail, for the specified hours."
-town_jail_help_3: "Jail a resident in the primary jail, for the specified hours, in the specified jail."
-town_jail_help_4: "Jail a resident in the primary jail, for the specified hours, in the specified jail and cell."
-town_jail_help_5: "Jail a resident in the primary jail, for the specified hours, with the given bail amount."
-town_jail_help_6: "Jail a resident in the primary jail, for the specified hours, with the given bail amount, in the specified jail."
-town_jail_help_7: "Jail a resident in the primary jail, for the specified hours, with the given bail amount, in the specified jail and cell."
-town_jail_help_8: "Unjails the resident."
-town_purge_help: "Purges residents that have not logged in for the given amount of days."
-town_trust_help_0: "Adds a resident as Trusted in the town."
+town_help_13: "Xem Danh SГЎch CЖ° DГўn Trong Thб»‹ TrбєҐn."
+town_help_14: "Xem CбєҐp Bбє­c Trong Thб»‹ trбєҐn."
+town_help_15: "Xem TrбєЎng ThГЎi Nhб»Їng NgЖ°б»ќi NgoГ i Thб»‹ TrбєҐn."
+town_help_16: "Xem CГЎc NhГіm Trong Thб»‹ TrбєҐn."
+town_help_17: "Xem Danh SГЎch ДђбєҐt Trong Thб»‹ TrбєҐn."
+town_help_18: "Gб»­i Tin NhбєЇn Tб»›i ToГ n CЖ° DГўn."
+town_help_19: "BГЎn Thб»‹ TrбєҐn, NgЖ°б»ќi KhГЎc CГі Thб»ѓ Mua."
+town_help_20: "Дђбє·t Thб»‹ TrбєҐn KhГґng BГЎn."
+town_help_21: "Mua Mб»™t Thб»‹ TrбєҐn NГ o ДђГі."
+town_help_22: "Bб»Џ Tiб»Ѓn VГ o Quб»№ Thб»‹ TrбєҐn."
+town_help_23: "Sб»­a Дђб»•i CбєҐp Bбє­c Cб»§a CЖ° DГўn (Thб»‹ TrЖ°б»џng)."
+town_help_24: "Sб»­ Dб»Ґng Thбєї XГіa Thб»‹ TrбєҐn."
+town_help_25: "Sб»­a Дђб»•i Nhб»Їng Kбє» NgoГ i VГІng PhГЎp Luбє­t."
+town_help_26: "Sб»­ Dб»Ґng Lб»‡nh /t list Д‘б»ѓ Д‘Ж°б»Јc hЖ°б»›ng dбє«n."
+town_help_27: "CЖ° DГўn Rб»ќi Thб»‹ TrбєҐn."
+town_help_28: "RГєt Tiб»Ѓn Khб»Џi Quб»№ Thб»‹ TrбєҐn."
+town_help_29: "Sб»­ Dб»Ґng /t claim ? Д‘б»ѓ Д‘Ж°б»Јc tГ¬m hiб»ѓu."
+town_help_30: "Sб»­ Dб»Ґng Дђб»ѓ Bб»Џ Khu ДђбєҐt Vб»›i Thб»‹ TrбєҐn."
+town_help_31: "ThГЄm Hoбє·c Дђuб»•i CЖ° DГўn."
+town_help_32: "Sб»­ dб»Ґng /t set ? Д‘б»ѓ Д‘Ж°б»Јc hЖ°б»›ng dбє«n."
+town_help_33: "Sб»­ dб»Ґng /t buy ? Д‘б»ѓ Д‘Ж°б»Јc hЖ°б»›ng dбє«n."
+town_help_34: "Sб»­ dб»Ґng /t toggle ? Д‘б»ѓ Д‘Ж°б»Јc hЖ°б»›ng dбє«n."
+town_help_35: "Sб»­ dб»Ґng /t rank ? Д‘б»ѓ Д‘Ж°б»Јc hЖ°б»›ng dбє«n."
+town_list_help_0: "Xem Trang."
+town_list_help_1: "Liб»‡t KГЄ Nhб»Їng Thб»‹ TrбєҐn Vб»›i CЖ° DГўn ДђЖ°б»Јc Chб»Ќn."
+town_list_help_2: "Liб»‡t KГЄ CГЎc Thб»‹ TrбєҐn Дђang Mб»џ."
+town_list_help_3: "Liб»‡t kГЄ cГЎc thб»‹ trбєҐn sб»­ dб»Ґng sб»‘ dЖ° ngГўn hГ ng, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+town_list_help_4: "Liб»‡t kГЄ cГЎc thб»‹ trбєҐn theo thб»© tб»± bбєЈng chб»Ї cГЎi, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+town_list_help_5: "Liб»‡t kГЄ cГЎc thб»‹ trбєҐn theo vГ№ng Д‘бєҐt Д‘Ж°б»Јc tuyГЄn bб»‘ chб»§ quyб»Ѓn, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+town_list_help_6: "Liб»‡t kГЄ cГЎc thб»‹ trбєҐn theo sб»‘ trб»±c tuyбєїn, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+town_set_help_0: "Дђбє·t bбєЈng thб»‹ trбєҐn cб»§a bбєЎn."
+town_set_help_1: "Дђбє·t homeblock cб»§a thб»‹ trбєҐn cб»§a bбєЎn б»џ nЖЎi bбєЎn Д‘ang Д‘б»©ng."
+town_set_help_2: "Дђбє·t Д‘iб»ѓm sinh sбєЈn trong khб»‘i nhГ  cб»§a bбєЎn hoбє·c Д‘iб»ѓm sinh sбєЈn tiб»Ѓn Д‘б»“n khi Д‘б»©ng б»џ tiб»Ѓn Д‘б»“n."
+town_set_help_3: "Xem /town set perm ? Д‘б»ѓ Д‘Ж°б»Јc giГєp Д‘б»Ў."
+town_set_help_4: "Дђбє·t sб»‘ tiб»Ѓn thuбєї cб»§a thб»‹ trбєҐn cб»§a bбєЎn."
+town_set_help_5: "Дђбє·t sб»‘ tiб»Ѓn Д‘бє·c biб»‡t cho thuбєї trГЄn mб»—i lГґ Д‘бєҐt."
+town_set_help_6: "Дђбє·t giГЎ mбє·c Д‘б»‹nh Д‘б»ѓ mua lГґ."
+town_set_help_7: "Дђбє·t chi phГ­ Д‘б»ѓ sб»­ dб»Ґng /t spawn."
+town_set_help_8: "Дђбє·t tГЄn thб»‹ trбєҐn cб»§a bбєЎn."
+town_set_help_9: "Дђбє·t thбє» thб»‹ trбєҐn cб»§a bбєЎn."
+town_set_help_10: "Дђбє·t chб»©c danh hoбє·c hб»Ќ cб»§a cЖ° dГўn cб»§a bбєЎn."
+town_set_help_11: "Дђбє·t sб»‘ tiб»Ѓn tб»‘i Д‘a mГ  thuбєї phбє§n trДѓm cГі thб»ѓ lбєҐy tб»« mб»™t cЖ° dГўn."
+town_jail_help_0: "Liб»‡t kГЄ cГЎc nhГ  tГ№ cб»§a thб»‹ trбєҐn."
+town_jail_help_1: "Bб»Џ tГ№ mб»™t cЖ° dГўn trong nhГ  tГ№ chГ­nh."
+town_jail_help_2: "Bб»Џ tГ№ mб»™t cЖ° dГўn trong nhГ  tГ№ chГ­nh trong sб»‘ giб»ќ quy Д‘б»‹nh."
+town_jail_help_3: "Bб»Џ tГ№ mб»™t cЖ° dГўn trong nhГ  tГ№ chГ­nh, trong sб»‘ giб»ќ quy Д‘б»‹nh, trong nhГ  tГ№ quy Д‘б»‹nh."
+town_jail_help_4: "Bб»Џ tГ№ mб»™t cЖ° dГўn trong nhГ  tГ№ chГ­nh, trong sб»‘ giб»ќ quy Д‘б»‹nh, trong nhГ  tГ№ vГ  phГІng giam Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+town_jail_help_5: "Bб»Џ tГ№ mб»™t cЖ° dГўn trong nhГ  tГ№ chГ­nh, trong sб»‘ giб»ќ quy Д‘б»‹nh, vб»›i sб»‘ tiб»Ѓn bбєЈo lГЈnh nhбєҐt Д‘б»‹nh."
+town_jail_help_6: "Bб»Џ tГ№ mб»™t cЖ° dГўn trong nhГ  tГ№ chГ­nh, trong sб»‘ giб»ќ quy Д‘б»‹nh, vб»›i sб»‘ tiб»Ѓn bбєЈo lГЈnh nhбєҐt Д‘б»‹nh, trong nhГ  tГ№ quy Д‘б»‹nh."
+town_jail_help_7: "Bб»Џ tГ№ mб»™t cЖ° dГўn trong nhГ  tГ№ chГ­nh, trong sб»‘ giб»ќ quy Д‘б»‹nh, vб»›i sб»‘ tiб»Ѓn bбєЈo lГЈnh nhбєҐt Д‘б»‹nh, trong nhГ  tГ№ vГ  phГІng giam Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+town_jail_help_8: "ThбєЈ TГ№ cЖ° dГўn."
+town_purge_help: "XГіa nhб»Їng cЖ° dГўn chЖ°a Д‘Дѓng nhбє­p trong sб»‘ ngГ y nhбєҐt Д‘б»‹nh."
+town_trust_help_0: "ThГЄm mб»™t cЖ° dГўn lГ  NgЖ°б»ќi Д‘ГЎng tin cбє­y trong thб»‹ trбєҐn."
 town_trust_help_1: "Removes a resident as Trusted in the town."
-town_trust_help_2: "Lists the Trusted residents of a town."
-town_towntrust_help_0: "Adds a town as Trusted in the town."
-town_towntrust_help_1: "Removes a town as Trusted in the town."
-town_towntrust_help_2: "Lists the Trusted towns of a town."
+town_trust_help_2: "Liб»‡t kГЄ cГЎc cЖ° dГўn Д‘ГЎng tin cбє­y cб»§a mб»™t thб»‹ trбєҐn."
+town_towntrust_help_0: "ThГЄm mб»™t thб»‹ trбєҐn lГ  Д‘ГЎng tin cбє­y trong thб»‹ trбєҐn."
+town_towntrust_help_1: "LoбєЎi bб»Џ mб»™t thб»‹ trбєҐn lГ  Д‘ГЎng tin cбє­y trong thб»‹ trбєҐn."
+town_towntrust_help_2: "Liб»‡t kГЄ cГЎc thб»‹ trбєҐn Д‘ГЎng tin cбє­y cб»§a mб»™t thб»‹ trбєҐn."
+town_buy_help: "Mua thГЄm cГЎc khб»‘i thб»‹ trбєҐn Д‘б»ѓ tДѓng giб»›i hбєЎn yГЄu cбє§u cб»§a thб»‹ trбєҐn."
+town_cede_help: "Offers the plot you are stood in to be taken over by the given Town."
 mayor_help_3: 'Chiбєїm khu vб»±c khГґng thuб»™c thб»‹ trбєҐn'
 mayor_help_4: 'Chiбєїm khu vб»±c xung quanh bбєЎn trong bГЎn kГ­nh X'
 mayor_help_5: 'Chiбєїm theo bГЎn kГ­nh lб»›n nhбєҐt'
@@ -144,23 +146,23 @@ nation_help_6: 'TбєЎo mб»™t quб»‘c gia mб»›i'
 nation_help_7: 'Liб»‡t kГЄ cГЎc lб»‡nh cб»§a lГЈnh Д‘бєЎo quб»‘c gia'
 nation_help_8: 'TбєЎo mб»™t quб»‘c gia mб»›i'
 nation_help_9: 'Liб»‡t kГЄ tбєҐt cбєЈ cЖ° dГўn online trong quб»‘c gia'
-nation_help_11: "Lists the towns in the nation."
-nation_help_12: "Lists the allied nations of the nation."
-nation_help_13: "Lists the enemied nations of the nation."
-nation_help_14: "Used to join open nations."
-nation_help_15: "Deposits money into the nation bank."
-nation_help_16: "Used to delete your nation."
-nation_help_17: "Used to add or remove ranks from residents."
-nation_help_18: "See /n rank ? for help."
-nation_list_help_0: "View the specified page."
-nation_list_help_1: "List nations by resident-count, with the specified page."
-nation_list_help_2: "List nations by town-count, with the specified page."
-nation_list_help_3: "List nations which are open, with the specified page."
-nation_list_help_4: "List nations using bank balance, with the specified page."
-nation_list_help_5: "List nations in alphabetical order, with the specified page."
-nation_list_help_6: "List nations by claimed land, with the specified page."
-nation_list_help_7: "List nations by number online, with the specified page."
-nation_set_help_0: "Change the leader of the nation."
+nation_help_11: "Liб»‡t kГЄ cГЎc thб»‹ trбєҐn trong cбєЈ nЖ°б»›c."
+nation_help_12: "Liб»‡t kГЄ cГЎc quб»‘c gia Д‘б»“ng minh cб»§a quб»‘c gia."
+nation_help_13: "Liб»‡t kГЄ cГЎc quб»‘c gia kбє» thГ№ cб»§a dГўn tб»™c."
+nation_help_14: "ДђЖ°б»Јc sб»­ dб»Ґng Д‘б»ѓ tham gia cГЎc quб»‘c gia mб»џ."
+nation_help_15: "Gб»­i tiб»Ѓn vГ o ngГўn hГ ng quб»‘c gia."
+nation_help_16: "ДђЖ°б»Јc sб»­ dб»Ґng Д‘б»ѓ xГіa quб»‘c gia cб»§a bбєЎn."
+nation_help_17: "ДђЖ°б»Јc sб»­ dб»Ґng Д‘б»ѓ thГЄm hoбє·c xГіa cбєҐp bбє­c cб»§a cЖ° dГўn."
+nation_help_18: "Xem thб»© hбєЎng /n ? Д‘б»ѓ Д‘Ж°б»Јc giГєp Д‘б»Ў."
+nation_list_help_0: "Xem trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+nation_list_help_1: "Liб»‡t kГЄ cГЎc quб»‘c gia theo sб»‘ lЖ°б»Јng cЖ° dГўn, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+nation_list_help_2: "Liб»‡t kГЄ cГЎc quб»‘c gia theo sб»‘ thб»‹ trбєҐn, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+nation_list_help_3: "Liб»‡t kГЄ cГЎc quб»‘c gia Д‘ang mб»џ, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+nation_list_help_4: "Liб»‡t kГЄ cГЎc quб»‘c gia sб»­ dб»Ґng sб»‘ dЖ° ngГўn hГ ng, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+nation_list_help_5: "Liб»‡t kГЄ cГЎc quб»‘c gia theo thб»© tб»± bбєЈng chб»Ї cГЎi, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+nation_list_help_6: "Liб»‡t kГЄ cГЎc quб»‘c gia theo vГ№ng Д‘бєҐt Д‘Ж°б»Јc tuyГЄn bб»‘ chб»§ quyб»Ѓn, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+nation_list_help_7: "Liб»‡t kГЄ cГЎc quб»‘c gia theo sб»‘ lЖ°б»Јng trб»±c tuyбєїn, vб»›i trang Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+nation_set_help_0: "Thay Д‘б»•i ngЖ°б»ќi lГЈnh Д‘бєЎo Д‘бєҐt nЖ°б»›c."
 nation_set_help_1: "Change the capital city of the nation."
 nation_set_help_2: "Set the amount of tax that towns will pay."
 nation_set_help_3: "Set the amount of tax that conquered towns will pay."
@@ -175,6 +177,10 @@ nation_toggle_help_0: "Toggles peaceful status of the nation."
 nation_toggle_help_1: "Toggles public status, allowing non-residents to use /n spawn."
 nation_toggle_help_2: "Toggles open status, allowing towns to join without an invite."
 nation_toggle_help_3: "Toggles taxpercent, making towns pay a percentage instead of fixed rate."
+nation_sanction_help_1: "Adds a town to the SanctionedTown list."
+nation_sanction_help_2: "Removes a town from the SanctionedTown list."
+nation_sanction_help_3: "Lists your nation's Sanctioned Towns."
+nation_sanction_help_4: "Lists the given nation's Sanctioned Towns."
 king_help_1: 'Trб»Ј giГєp dГ nh cho lГЈnh Д‘бєЎo quб»‘c gia'
 king_help_2: 'Дђбє·t liГЄn minh cб»§a bбєЎn.'
 king_help_3: 'Дђбє·t kбє» thГ№ cб»§a bбєЎn.'
@@ -217,7 +223,7 @@ res_toggle_help_16: "Toggle the ability to deactivate your admin priviledges."
 res_jail_help_0: "Pays the bail cost to get out of jail."
 res_set_help_0: "Set your resident's About/Bio"
 res_set_help_1: "Set your resident's default plot permissions."
-res_set_help_2: "Set your resident's modes."
+res_set_help_2: "Дђбє·t chбєї Д‘б»™ cб»§a cЖ° dГўn cб»§a bбєЎn."
 mode_1: 'Hiб»ѓn thб»‹ bбєЈn Д‘б»“ giб»Їa cГЎc mбєЈnh Д‘бєҐt'
 mode_2: 'Chiбєїm Д‘бєҐt khi bбєЎn Д‘i bб»™ tб»›i'
 mode_3: 'Hб»§y sб»џ hб»Їu mбєЈnh Д‘бєҐt khi bбєЎn Д‘i bб»™ tб»›i'
@@ -242,40 +248,40 @@ world_help_2: '[Thбєї giб»›i]'
 world_help_3: 'TrбєЎng thГЎi cб»§a thбєї giб»›i mб»Ґc tiГЄu'
 world_help_4: 'Liб»‡t kГЄ tбєҐt cбєЈ cГЎc thбєї giб»›i'
 world_help_5: 'TГЎi tбєЎo chunk nГ y'
-world_help_6: 'See /tw toggle ? for help'
-world_help_7: 'See /tw set ? for help'
-world_set_help_0: "Set the world's wilderness name."
-world_toggle_help_0: "Toggle on/off if towns can claim land in this world."
-world_toggle_help_1: "Toggle on/off if Towny is enabled in this world."
-world_toggle_help_2: "Toggle on/off if wars can happen in this world."
-world_toggle_help_3: "Toggle on/off if pvp or forcepvp is enabled in this world."
-world_toggle_help_4: "Toggle on/off if friendlyfire is enabled in this world."
-world_toggle_help_5: "Toggle on/off if explosions are enabled or forced in this world."
-world_toggle_help_6: "Toggle on/off if fires are enabled or forced in this world."
-world_toggle_help_7: "Toggle on/off the various mobs spawning settings in this world."
-world_toggle_help_8: "Toggle on/off the revert-on-unclaim feature in this world."
-world_toggle_help_9: "Toggle on/off the explosions-are-reverted features in this world."
-world_toggle_help_10: "Toggle on/off the plot-clear-deletes-blocks command in this world."
-world_toggle_help_11: "Toggle on/off the plot-unclaiming-deletes-blocks feature in this world."
+world_help_6: 'Xem chuyб»ѓn Д‘б»•i /tw ? Д‘б»ѓ Д‘Ж°б»Јc giГєp Д‘б»Ў'
+world_help_7: ''
+world_set_help_0: "Дђбє·t tГЄn hoang dГЈ cб»§a thбєї giб»›i."
+world_toggle_help_0: "Bбє­t/tбєЇt nбєїu cГЎc thб»‹ trбєҐn cГі thб»ѓ yГЄu cбє§u Д‘бєҐt б»џ thбєї giб»›i nГ y."
+world_toggle_help_1: "Bбє­t/tбєЇt nбєїu Towny Д‘Ж°б»Јc kГ­ch hoбєЎt б»џ thбєї giб»›i nГ y."
+world_toggle_help_2: "Bбє­t/tбєЇt nбєїu chiбєїn tranh cГі thб»ѓ xбєЈy ra trГЄn thбєї giб»›i nГ y."
+world_toggle_help_3: "Bбє­t/tбєЇt nбєїu pvp hoбє·c Forcepvp Д‘Ж°б»Јc bбє­t trong thбєї giб»›i nГ y."
+world_toggle_help_4: "Bбє­t/tбєЇt nбєїu tГ­nh nДѓng bбєЇn thГўn thiб»‡n Д‘Ж°б»Јc bбє­t trong thбєї giб»›i nГ y."
+world_toggle_help_5: "Bбє­t/tбєЇt nбєїu vб»Ґ nб»• Д‘Ж°б»Јc kГ­ch hoбєЎt hoбє·c buб»™c phбєЈi xбєЈy ra trong thбєї giб»›i nГ y."
+world_toggle_help_6: "Bбє­t/tбєЇt nбєїu hб»Џa hoбєЎn Д‘Ж°б»Јc kГ­ch hoбєЎt hoбє·c buб»™c phбєЈi xбєЈy ra trong thбєї giб»›i nГ y."
+world_toggle_help_7: "Bбє­t/tбєЇt cГЎc cГ i Д‘бє·t sinh sбєЈn cб»§a mob khГЎc nhau trong thбєї giб»›i nГ y."
+world_toggle_help_8: "Bбє­t/tбєЇt tГ­nh nДѓng hoГ n nguyГЄn khi khГґng xГЎc nhбє­n trong thбєї giб»›i nГ y."
+world_toggle_help_9: "Bбє­t/tбєЇt cГЎc tГ­nh nДѓng hoГ n nguyГЄn vб»Ѓ vб»Ґ nб»• trong thбєї giб»›i nГ y."
+world_toggle_help_10: "Bбє­t/tбєЇt lб»‡nh cб»‘t truyб»‡n rГµ rГ ng-xГіa-khб»‘i trong thбєї giб»›i nГ y."
+world_toggle_help_11: "Bбє­t/tбєЇt tГ­nh nДѓng khГґng xГЎc nhбє­n cб»‘t truyб»‡n-xГіa-khб»‘i trong thбєї giб»›i nГ y."
 townyadmin_help_1: 'Hб»§y xГЎc nhбє­n quyб»Ѓn sб»џ hб»Їu mбєЈnh Д‘бєҐt nГ y'
 townyadmin_help_2: 'Huб»· sб»џ hб»Їu Д‘бєҐt xung quanh bбєЎn.'
-admin_panel_1: "See /ta set ? for help"
+admin_panel_1: ""
 admin_panel_2: 'tбєЈi lбєЎi Towny'
 admin_panel_3: 'ChбєЎy mГЈ ngГ y mб»›i'
-admin_panel_4: "Unclaim an space surrounding you"
+admin_panel_4: "Hб»§y yГЄu cбє§u mб»™t khГґng gian xung quanh bбєЎn"
 admin_panel_5: "See /ta plot ? for help"
-admin_panel_6: "Give a positive or negative amount of townblocks to a player or town"
+admin_panel_6: "Cung cбєҐp sб»‘ lЖ°б»Јng thб»‹ trбєҐn tГ­ch cб»±c hoбє·c tiГЄu cб»±c cho ngЖ°б»ќi chЖЎi hoбє·c thб»‹ trбєҐn"
 admin_panel_7: "See /ta toggle ? for help"
-admin_panel_8: "Commands for controlling these objects"
-admin_panel_9: "Teleport to the specified plot"
-admin_panel_10: "Check if the player has a permission node"
+admin_panel_8: "CГЎc lб»‡nh Д‘iб»Ѓu khiб»ѓn cГЎc Д‘б»‘i tЖ°б»Јng nГ y"
+admin_panel_9: "Dб»‹ch chuyб»ѓn Д‘бєїn cб»‘t truyб»‡n Д‘Ж°б»Јc chб»‰ Д‘б»‹nh"
+admin_panel_10: "Kiб»ѓm tra xem ngЖ°б»ќi chЖЎi cГі nГєt cбєҐp phГ©p khГґng"
 admin_panel_11: "Reset your config"
-admin_panel_12: "Make a backup of your Towny data"
+admin_panel_12: "TбєЎo bбєЈn sao lЖ°u dб»Ї liб»‡u Towny cб»§a bбєЎn"
 admin_panel_13: "Dump your mysql db to flatfile"
 admin_panel_14: "Force save or load your database"
 admin_panel_15: "Run the newhour code"
-admin_panel_16: "Purge old residents"
-townyadmin_town_help_0: "Create a town with the given name and mayor."
+admin_panel_16: "Thanh lб»Ќc cЖ° dГўn cЕ©"
+townyadmin_town_help_0: "TбєЎo mб»™t thб»‹ trбєҐn vб»›i tГЄn vГ  thб»‹ trЖ°б»џng Д‘ГЈ cho."
 townyadmin_town_help_1: "Show the town status screen."
 townyadmin_town_help_2: "Add or remove residents from a town."
 townyadmin_town_help_3: "Rename a town."
@@ -345,13 +351,13 @@ ta_set_help_4: "Set a resident's title."
 ta_set_help_5: "Set a resident's surname."
 ta_set_help_6: "Set a plot to a different town."
 ta_set_help_7: "Set a town's founder name."
-ta_set_help_8: "Use size 0 to remove nationzone override."
-ta_purge_help_0: "Purges residents who haven't logged in for longer than the given days, optionally set townless to remove only townless players, or specify a townname to only purge one town's residents."
-ta_townmeta_help_1: "View the metadata stored on the town you specify."
-ta_townmeta_help_2: "Set town metadata key and value."
-ta_townmeta_help_3: "Add or remove a metadata by key from the town."
-ta_residentmeta_help_1: "View the metadata stored on the resident you specify."
-ta_residentmeta_help_2: "Set resident metadata key and value."
+ta_set_help_8: "Sб»­ dб»Ґng kГ­ch thЖ°б»›c 0 Д‘б»ѓ xГіa ghi Д‘ГЁ khu vб»±c quб»‘c gia."
+ta_purge_help_0: "Thanh lб»Ќc nhб»Їng cЖ° dГўn khГґng Д‘Дѓng nhбє­p lГўu hЖЎn sб»‘ ngГ y nhбєҐt Д‘б»‹nh, tГ№y chб»Ќn Д‘бє·t khГґng cГі thб»‹ trбєҐn Д‘б»ѓ chб»‰ loбєЎi bб»Џ nhб»Їng ngЖ°б»ќi chЖЎi khГґng cГі thб»‹ trбєҐn hoбє·c chб»‰ Д‘б»‹nh tГЄn thб»‹ trбєҐn Д‘б»ѓ chб»‰ thanh lб»Ќc cЖ° dГўn cб»§a mб»™t thб»‹ trбєҐn."
+ta_townmeta_help_1: "Xem siГЄu dб»Ї liб»‡u Д‘Ж°б»Јc lЖ°u trб»Ї trГЄn thб»‹ trбєҐn bбєЎn chб»‰ Д‘б»‹nh."
+ta_townmeta_help_2: "Дђбє·t khГіa vГ  giГЎ trб»‹ siГЄu dб»Ї liб»‡u cб»§a thб»‹ trбєҐn."
+ta_townmeta_help_3: "ThГЄm hoбє·c xГіa siГЄu dб»Ї liб»‡u theo khГіa khб»Џi thб»‹ trбєҐn."
+ta_residentmeta_help_1: "Xem siГЄu dб»Ї liб»‡u Д‘Ж°б»Јc lЖ°u trб»Ї trГЄn cГґng dГўn mГ  bбєЎn chб»‰ Д‘б»‹nh."
+ta_residentmeta_help_2: "Дђбє·t khГіa vГ  giГЎ trб»‹ siГЄu dб»Ї liб»‡u thЖ°б»ќng trГє."
 ta_residentmeta_help_3: "Add or remove a metadata by key from the resident."
 ta_nationmeta_help_1: "View the metadata stored on the nation you specify."
 ta_nationmeta_help_2: "Set nation metadata key and value."
@@ -363,27 +369,27 @@ ta_reload_help_3: "Reloads Towny permissions."
 ta_reload_help_4: "Reloads all components of Towny."
 ta_depositall_help_0: "Deposit the given amount into all town and nation banks."
 plot_help_0: "Turns on the plot info HUD."
-plot_help_1: "Removes the owner of the plot."
-plot_help_2: "Deletes a list of blocks from the plot."
+plot_help_1: "LoбєЎi bб»Џ chб»§ sб»џ hб»Їu cб»§a lГґ Д‘бєҐt."
+plot_help_2: "XГіa danh sГЎch cГЎc khб»‘i khб»Џi biб»ѓu Д‘б»“."
 plot_help_3: "See /plot set ? for help."
 plot_help_4: "See /plot toggle ? for help."
 plot_help_5: "See /plot group ? for help."
-plot_help_6: "Removes permission overrides for a player."
+plot_help_6: "LoбєЎi bб»Џ ghi Д‘ГЁ quyб»Ѓn cho ngЖ°б»ќi chЖЎi."
 plot_help_7: "Adds default permission overrides for a player."
 plot_help_8: "Opens the permission editor gui."
-plot_help_9: "Adds a resident as Trusted in the plot."
-plot_help_10: "Removes a resident as Trusted in the plot."
+plot_help_9: "ThГЄm mб»™t cЖ° dГўn lГ  Д‘ГЎng tin cбє­y trong cб»‘t truyб»‡n."
+plot_help_10: "XГіa mб»™t cЖ° dГўn lГ  Д‘ГЎng tin cбє­y trong lГґ Д‘бєҐt."
 plot_group_help_0: "Ex: /plot group new ExpensivePlots"
-plot_group_help_1: "Removes a plot from the specified group."
-plot_group_help_2: "Deletes a plotgroup completely."
-plot_group_help_3: "Renames the group you are standing in."
+plot_group_help_1: "XГіa mб»™t sЖЎ Д‘б»“ khб»Џi nhГіm Д‘Ж°б»Јc chб»‰ Д‘б»‹nh."
+plot_group_help_2: "XГіa hoГ n toГ n mб»™t nhГіm cб»‘t truyб»‡n."
+plot_group_help_3: "Дђб»•i tГЄn nhГіm bбєЎn Д‘ang tham gia."
 plot_group_help_4: "Ex: /plot group set perm resident on."
 plot_group_help_5: "Ex: /plot group toggle [pvp|fire|mobs]"
 plot_group_help_6: "Ex: /plot group forsale 50"
 plot_group_help_7: "Ex: /plot group notforsale"
-plot_group_help_8: "Adds or removes a resident as trusted."
-plot_group_help_9: "Adds a resident as Trusted in the plotgroup."
-plot_group_help_10: "Removes a resident as Trusted in the plotgroup."
+plot_group_help_8: "ThГЄm hoбє·c xГіa mб»™t cЖ° dГўn Д‘Ж°б»Јc coi lГ  Д‘ГЎng tin cбє­y."
+plot_group_help_9: "ThГЄm mб»™t cЖ° dГўn lГ  Д‘ГЎng tin cбє­y trong nhГіm cб»‘t truyб»‡n."
+plot_group_help_10: "XГіa mб»™t cЖ° dГўn lГ  Д‘ГЎng tin cбє­y trong nhГіm cб»‘t truyб»‡n."
 plot_group_help_11: "Opens the plot perm GUI."
 plot_group_help_12: "Adds a player to the plot perm GUI."
 plot_group_help_13: "Removes a player to the plot perm GUI."
@@ -395,8 +401,11 @@ plot_group_toggle_help_0: "Toggles pvp in the plot group."
 plot_group_toggle_help_1: "Toggles explosions in the plot group."
 plot_group_toggle_help_2: "Toggles fire in the plot group."
 plot_group_toggle_help_3: "Toggles mobs in the plot group."
+plot_group_toggle_help_4: "Toggles the taxed status of the plot group."
 plot_set_help_0: "Ex: Inn, Wilds, Farm, Embassy, etc."
 plot_set_help_1: "Sets a plot to an Outpost."
+plot_set_help_1.5: "Sets the minimum number of days a player must be a town member to purchase the plot."
+plot_set_help_1.6: "Sets the maximum number of days a player must be a town member to purchase the plot."
 plot_set_help_2: "Removes a plot type."
 plot_set_help_3: "Names a plot."
 plot_set_help_4: "Toggle all permissions."
@@ -419,8 +428,11 @@ msg_plot_fs_radius: 'Put up a radius of plots for sale.'
 ############################################################
 msg_buy: '&bДђГЈ mua %d %s vб»›i giГЎ %s.'
 msg_buy_resident_plot: '&b%s Д‘ГЈ mua mбєЈnh Д‘бєҐt cб»§a %s vб»›i giГЎ %s!'
+msg_buy_resident_plot_group: '&b%s bought %s''s plotgroup for %s!'
 msg_couldnt_pay_taxes: '&b%s khГґng thб»ѓ nб»™p thuбєї vГ  bб»‹ Д‘uб»•i khб»Џi %s.'
 msg_couldnt_pay_plot_taxes: '&b%s khГґng thб»ѓ nб»™p thuбєї vГ  mбєҐt quyб»Ѓn sб»џ hб»Їu mбєЈnh Д‘бєҐt.'
+msg_you_couldnt_pay_plot_tax: '&bYou couldn''t pay the plot tax of %s and lost ownership of the plot at %s.'
+msg_you_couldnt_pay_town_tax: '&bYou couldn''t pay the town tax of %s and have been removed from %s.'
 msg_payed_town_tax: '&bДђГЈ nб»™p thuбєї thб»‹ trбєҐn cб»§a '
 msg_payed_plot_cost: '&bДђГЈ thanh toГЎn %s cho %s lГґ Д‘бєҐt trong %s'
 msg_payed_resident_tax: '&bДђГЈ nб»™p thuбєї cЖ° trГє cб»§a '
@@ -616,6 +628,8 @@ msg_err_not_in_town_claim: '&cYou must belong to a town in order to claim plots.
 msg_err_must_belong_town: '&cYou must belong to a town.'
 msg_err_dont_belong_town: '&cYou don''t belong to a town.'
 msg_err_dont_belong_nation: '&bYou don''t belong to a nation.'
+msg_err_already_belong_nation: '&bYou already belong to a nation.'
+msg_err_town_already_belong_nation: '&b%s already belongs to a nation: %s.'
 msg_err_not_same_nation: '&b%s doesn''t belong to your nation.'
 msg_err_rect_auto: '&cOnly towns and residents can use auto.'
 msg_err_invalid_radius: '&cInvalid radius. Use an integer or ''auto''.'
@@ -643,6 +657,7 @@ msg_err_input_too_long: '&cInput is too long.'
 msg_err_invalid_choice: '&cInvalid choice'
 msg_err_invalid_sub: '&cInvalid sub command.'
 msg_err_command_disable: '&cYou don''t have enough permissions for that command.'
+msg_err_you_dont_have_permission_to_use_colours: "You do not have permission to use colour codes in titles and surnames."
 msg_err_universe_limit: '&cThe universe cannot hold any more towns.'
 msg_err_too_many_npc: '&cToo many npc''s registered.'
 msg_err_negative_money: '&cYou cannot have negative money.'
@@ -764,6 +779,7 @@ town_invite_help_3: 'Lists all of your sent invites'
 town_invite_help_4: 'Lists all of the invites you''ve received'
 town_invite_help_5: 'Accept a request to join a nation'
 town_invite_help_6: 'Deny a request to join a nation'
+town_invite_help_7: 'Remove all of the invites your town has sent out'
 nation_invite_help_1: 'Invite a town to your nation'
 nation_invite_help_2: 'Revoke an invite, that was sent to a town'
 nation_invite_help_3: 'List all of the invites sent to towns'
@@ -791,7 +807,7 @@ msg_err_nation_sent_too_many_requests: '&bNation has sent too many requests, rev
 msg_err_nation_has_too_many_requests: '&bNation %s has too many requests, ask them to decline some, before requesting again.'
 player_received_invites: '&bYou have received %a/%m invites.'
 town_revoke_invite: '&bTown %s, revoked your invite to join them.'
-town_revoke_invite_successful: '&bYou have successfully revoked an invite to join your town.'
+town_revoke_invite_successful: '&bYou have successfully revoked an invite to join your town sent to %s.'
 town_received_invites: '&bTown has received %a/%m invites.'
 town_sent_invites: '&bTown has sent %a/%m invites.'
 nation_revoke_invite: '&bNation %s, revoked your invite to join them.'
@@ -926,6 +942,9 @@ status_res_plottax: 'Total Plot Taxes:'
 status_res_totaltax: 'Total Tax to pay:'
 status_townblock_plottax: 'Plot Tax: '
 status_townblock_untaxed: 'Untaxed'
+status_townblock_max_and_minjoindays: 'Town membership of between %s and %s days required for plot purchase.'
+status_townblock_minjoindays: 'Town membership more than %s days required for plot purchase.'
+status_townblock_maxjoindays: 'Town membership less than %s days required for plot purchase.'
 #Added in 0.45
 msg_err_unable_to_use_bank_outside_nation_capital: 'You cannot make use of your nation bank outside of the nation capital.'
 msg_err_unable_to_use_bank_outside_your_town: 'You cannot make use of your town bank outside of your town.'
@@ -949,7 +968,7 @@ msg_err_nation_not_public: '&cThat nation is not public.'
 msg_nation_toggle_public: '&aSuccessfully toggled the nation setting public.'
 status_yes: '&aYES'
 status_no: '&cNO'
-msg_err_unable_to_use_bank_outside_bank_plot: 'You cannot use that command outside of a bank or home plot.'
+msg_err_unable_to_use_bank_outside_bank_plot: 'You cannot use that command outside of a bank or home plot. Bank plots are created using /plot set bank.'
 msg_err_nation_spawn_forbidden: '&cNation spawn travel is forbidden.'
 msg_err_nation_spawn_forbidden_war: '&cNation spawn travel is only allowed during war.'
 msg_err_nation_spawn_forbidden_peace: '&cNation spawn travel is forbidden during war.'
@@ -1281,6 +1300,7 @@ msg_warning_your_town_is_ruined_for_x_more_hours: '&cYour town lies in a ruined 
 msg_time_remaining_before_full_removal: 'Time remaining before full removal: %d hours.'
 msg_time_until_reclaim_available: 'Time until reclaim available: %d hours.'
 msg_reclaim_available: 'Reclaim available.'
+msg_ruined_town_being_deleted: "%s was ruined for %s hours and is being deleted."
 #Added in 0.93
 msg_changed_peaceful: '&cTown neutrality/peacefullness is now %s.'
 msg_err_town_unclaim_canceled: '&cUnclaim canceled. You cannot unclaim this area at this time.'
@@ -1769,8 +1789,6 @@ msg_your_town_paid_x_to_unclaim: 'Your town paid %s to unclaim the land.'
 #Confirmation message shown when a player will unclaim land that costs money.
 confirmation_unclaiming_costs: 'Unclaiming this land will cost %s, do you want to continue?'
 #Added in 0.140
-#Message shown on first join, making players aware they can change how Towny messages appear using their Client's language setting.
-msg_your_locale: 'Towny uses your client''s locale (%s) to translate its messages. Be aware translations may be missing strings.'
 #Message shown when a player tries to rename their town too quickly.
 msg_you_must_wait_x_seconds_before_renaming_your_town: 'You must wait %s seconds before you can rename your town again.'
 #Added in 1.141
@@ -1872,6 +1890,14 @@ msg_perm_hud_nation: 'nation'
 msg_perm_hud_outsider: 'outsider'
 #Seen in /plot perm hud:
 msg_perm_hud_plot_name: 'Plot: '
+#Seen in /plot perm hud:
+msg_perm_hud_plotgroup_name: 'Plot Group: '
+#Seen in /plot perm hud:
+msg_perm_hud_plot_for_sale: 'For Sale: '
+#Seen in /plot perm hud:
+msg_perm_hud_no: 'No'
+#Seen in /plot perm hud:
+msg_perm_hud_yes: 'Yes'
 #Added in 0.153
 #Message shown confirming /ta town NAME settownlevel # command.
 msg_town_level_overridden_with: 'The town %s has had their townlevel set to %s.'
@@ -2031,6 +2057,7 @@ msg_err_your_cannot_overclaim_for_another: "You cannot overclaim again for anoth
 msg_err_world_not_loaded: "<red>World is not loaded."
 #Message shown when a mayor toggles a plots taxed status.
 msg_changed_plot_taxed: '&cThis plot has had its taxed status set to %s.'
+msg_changed_plotgroup_taxed: '&cThis plotgroup has had its taxed status set to %s.'
 status_forsale: "&a(For Sale: %s)"
 msg_town_forsale: "%s has been set for sale at %s."
 msg_town_notforsale: "%s is no longer for sale."
@@ -2061,3 +2088,60 @@ msg_err_resident_is_npc: "You cannot do this to an NPC resident."
 #Message shown when a resident doesn't own any land and the /res plotlist command is used.
 msg_err_resident_doesnt_own_any_land: "The resident does not own any land personally."
 msg_unnamed: "Unnamed"
+msg_err_nation_cannot_sanction_own_town: "You cannot sanction a town that is a part of your nation."
+msg_err_nation_town_isnt_sanctioned: "Your nation is not sanctioning that town."
+msg_err_nation_town_already_sanctioned: "Your nation already sanctions that town."
+msg_err_nation_town_sanctioned: "Your nation has now sanctioned %s, they will not be allowed to join your nation."
+msg_err_nation_town_unsanctioned: "Your nation is no longer sanctioning %s."
+msg_err_nation_has_no_sanctioned_towns: "The nation has no sanctioned towns."
+title_nation_sanctioned_towns: 'Sanctioned Towns'
+msg_err_cannot_add_sanctioned_town: "Your nation cannot add %s, your nation has sanctioned them."
+msg_err_cannot_join_nation_sanctioned_town: "Your town cannot join %s, this nation has sanctioned your town."
+msg_err_no_nation_cannot_do: "You cannot perform this action because no nation was able to be determined."
+msg_err_cannot_nation_spawn_your_town_is_sanctioned: "Your town is sanctioned by %s, you cannot spawn there."
+msg_err_cannot_claim_the_following_worldcoords_because_of_unwanted_biome: "The following coordinate(s) cannot be claimed because they contain too much of an unwanted biome: %s."
+msg_err_cannot_claim_the_following_worldcoords_because_of_ocean_biome: "The following coordinate(s) cannot be claimed because they contain too much ocean biome: %s."
+msg_err_cannot_begin_town_in_this_biome: "You cannot start a town in this biome."
+msg_err_cannot_overclaim_this_town_because_they_arent_your_enemy: "You are not able to overclaim this town because your nation does not consider their nation an enemy."
+msg_err_unable_to_command_outside_of_town: 'You cannot use that command outside of your town.'
+msg_err_unable_to_use_bank_outside_bank_plot_no_homeblock: 'You cannot use that command outside of a bank plot.'
+msg_err_you_cannot_outlaw_your_mayor: "You cannot outlaw your town's mayor."
+msg_err_you_cannot_outlaw_because_of_rank: "You cannot outlaw %s because of a town rank they hold."
+status_nation_sanctioned_towns: "Sanctioned Towns"
+msg_all_of_your_towns_sent_invites_have_been_cancelled: "All of your town's sent invites have been cancelled."
+msg_err_name_validation_invalid_characters: "%s contains characters which aren't allowed in the Towny regex settings."
+msg_err_name_validation_begins_with_eco_prefix: "%s begins with letters used in the economy features, you cannot use this name."
+msg_err_name_validation_name_already_in_use: "%s is a name that is already in use."
+msg_err_name_validation_title_too_long: "%s is too long to use as a title or surname."
+msg_err_name_validation_name_too_long: "%s is too long to use as a name."
+msg_err_name_validation_is_empty: "You cannot supply an empty name."
+msg_err_name_validation_is_not_permitted: "%s is not permitted."
+msg_err_name_validation_is_all_underscores: "%s is entirely underscores."
+msg_err_name_validation_contains_harmful_characters: "%s contains symbols that could be harmful."
+msg_err_name_validation_contains_numbers: "%s contains numbers which aren't allowed in names."
+msg_err_name_validation_used_in_command_structure: "%s is used in the command structure, you cannot use this name."
+msg_town_being_deleted_because_no_residents: "%s is being deleted because it lost its last resident."
+outlawed_in: "Outlawed in"
+msg_warning_town_deposit_hint: "To put money in your town bank use /town deposit [amount]."
+msg_warning_nation_deposit_hint: "To put money in your nation bank use /nation deposit [amount]."
+teleport_warmup_title_dont_move: "&6Don't move!"
+teleport_warmup_subtitle_seconds_remaining: "&c%s &7seconds remaining until teleport."
+msg_ruined_town_plot_permissions_allowed_on_x_plots: "Because your town has a ruined status, %s plot(s) permission lines have had changed to provide no protections."
+console_msg_ruined_town_plot_permissions_allowed_on_x_plots: "Because of their ruined status, %s has had %s plot(s) permission lines changed to provide no protections: %s."
+msg_err_town_cede_you_cannot_cede_a_plot_to_your_own_town: "You cannot cede a plot to your own town."
+msg_err_town_cede_you_cannot_cede_your_homeblock: "You cannot cede your town's homeblock."
+msg_err_town_cede_the_mayor_is_not_online: "The mayor of %s, %s is not online to accept your plot."
+msg_err_town_no_longer_owns_this_plot: "%s no longer owns this plot."
+msg_err_town_cede_town_cannot_cede_their_homeblock: "%s cannot cede their if homeblock."
+msg_town_cede_plot_confirmation_give_plot: "Are you sure you want to give %s this plot?"
+msg_town_cede_plot_confirmation_accept_plot: "%s would like to cede the townblock at %s to your town, will you accept?"
+msg_town_cede_plot_accepted: "%s has accepted ceding of your plot."
+msg_town_cede_plot_denied: "%s has declined your offer."
+msg_town_cede_plot_unable_to_accept: "%s was unable to accept your offer."
+msg_town_cede_plot_you_have_accepted: "You have gained control of the plot at %s."
+msg_err_cannot_claim_plot_join_date_too_low: "You cannot claim this plot until you have been a town resident for %s days."
+msg_err_cannot_claim_plot_join_date_too_high: "You cannot claim this plot, it is for residents who have been town members for less than %s days."
+msg_townblock_min_join_days_removed: "This TownBlock has had its min-join-days requirement removed."
+msg_townblock_max_join_days_removed: "This TownBlock has had its max-join-days requirement removed."
+msg_townblock_min_join_days_set_to: "This TownBlock has had its min-join-days requirement set to %s. Only players joined for more than that number of days will be able to use /plot claim."
+msg_townblock_max_join_days_set_to: "This TownBlock has had its max-join-days requirement set to %s. Only players joined for less than that number of days will be able to use /plot claim."

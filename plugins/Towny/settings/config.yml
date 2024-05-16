@@ -78,11 +78,11 @@ levels:
     townOutpostLimit: 0
     numResidents: 1
     debtCapModifier: 1.0
-    namePostfix: ' (Посёлок)'
+    namePostfix: ''
     bankCapModifier: 1.0
     mayorPrefix: 'Отшельник '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Стоянка '
     mayorPostfix: ''
     peacefulCostMultiplier: 1.0
     townBlockLimit: 16
@@ -92,11 +92,11 @@ levels:
     townOutpostLimit: 1
     numResidents: 2
     debtCapModifier: 1.0
-    namePostfix: ' (Поселение)'
+    namePostfix: ''
     bankCapModifier: 1.0
     mayorPrefix: 'Староста '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Посёлок '
     mayorPostfix: ''
     peacefulCostMultiplier: 1.0
     townBlockLimit: 32
@@ -106,11 +106,11 @@ levels:
     townOutpostLimit: 1
     numResidents: 6
     debtCapModifier: 1.0
-    namePostfix: ' (Деревня)'
+    namePostfix: ''
     bankCapModifier: 1.0
-    mayorPrefix: 'Барон '
+    mayorPrefix: 'Староста '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Хутор '
     mayorPostfix: ''
     peacefulCostMultiplier: 1.0
     townBlockLimit: 96
@@ -120,11 +120,11 @@ levels:
     townOutpostLimit: 2
     numResidents: 10
     debtCapModifier: 1.0
-    namePostfix: ' (Город)'
+    namePostfix: ''
     bankCapModifier: 1.0
-    mayorPrefix: 'Виконт '
+    mayorPrefix: 'Староста '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Деревня '
     mayorPostfix: ''
     peacefulCostMultiplier: 1.0
     townBlockLimit: 160
@@ -134,9 +134,9 @@ levels:
     townOutpostLimit: 2
     numResidents: 14
     debtCapModifier: 1.0
-    namePostfix: ' (Большой Город)'
+    namePostfix: 'Городок '
     bankCapModifier: 1.0
-    mayorPrefix: 'Граф '
+    mayorPrefix: 'Барон '
     townBlockBuyBonusLimit: 0
     namePrefix: ''
     mayorPostfix: ''
@@ -148,11 +148,11 @@ levels:
     townOutpostLimit: 3
     numResidents: 20
     debtCapModifier: 1.0
-    namePostfix: ' (Город)'
+    namePostfix: ''
     bankCapModifier: 1.0
-    mayorPrefix: 'Князь '
+    mayorPrefix: 'Барон '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Город '
     mayorPostfix: ''
     peacefulCostMultiplier: 1.0
     townBlockLimit: 320
@@ -162,11 +162,11 @@ levels:
     townOutpostLimit: 3
     numResidents: 24
     debtCapModifier: 1.0
-    namePostfix: ' (Большой Город)'
+    namePostfix: ''
     bankCapModifier: 1.0
-    mayorPrefix: 'Герцог '
+    mayorPrefix: 'Барон '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Крупный город '
     mayorPostfix: ''
     peacefulCostMultiplier: 1.0
     townBlockLimit: 384
@@ -176,11 +176,11 @@ levels:
     townOutpostLimit: 4
     numResidents: 28
     debtCapModifier: 1.0
-    namePostfix: ' (Метрополис)'
+    namePostfix: ''
     bankCapModifier: 1.0
-    mayorPrefix: 'Вел.Князь '
+    mayorPrefix: 'Вел.Барон '
     townBlockBuyBonusLimit: 0
-    namePrefix: ''
+    namePrefix: 'Метрополис '
     mayorPostfix: ''
     peacefulCostMultiplier: 1.0
     townBlockLimit: 448
@@ -1025,10 +1025,10 @@ filters_colour_chat:
     both: '&f[&6%n&f|&b%t&f] '
   
     # When using PlaceholderAPI, and a tag would showing a town, this will determine how it is formatted.
-    town: '&f[&b%s&f] '
+    town: '&f%s '
   
     # When using PlaceholderAPI, and a tag would show a nation, this will determine how it is formatted.
-    nation: '&f[&6%s&f] '
+    nation: '&f%s '
   
     # Colour code applied to player names using the %townyadvanced_towny_colour% placeholder.
     ranks:
@@ -1574,10 +1574,10 @@ economy:
   new_expand:
   
     # How much it costs to start a nation.
-    price_new_nation: '1000.0'
+    price_new_nation: '0.0'
   
     # How much it costs to start a town.
-    price_new_town: '8.0'
+    price_new_town: '0.0'
   
     # The base cost a town has to pay to merge with another town. The town that initiates the merge pays the cost.
     price_town_merge: '0'

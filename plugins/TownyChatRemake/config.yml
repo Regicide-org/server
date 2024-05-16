@@ -14,7 +14,7 @@ channels:
     global:
         name: "Глобальный чат"
         aliases: ["g", "general"]
-        format: "<papi:luckperms_prefix> <papi:luckperms_meta_main-color><username> > <papi:luckperms_meta_chat-color><message>"
+        format: "<hover:show_text:'<papi:luckperms_prefix> <papi:luckperms_meta_main-color><papi:townyadvanced_player_status> <username>\n\n<color:#FCFC00>Город: <reset><bold><papi:townyadvanced_town_formatted></bold>\n<color:#FCFC00>Держава: <reset><bold><papi:townyadvanced_nation_formatted></bold>'><papi:luckperms_prefix> <papi:luckperms_meta_main-color><username> ></hover> <papi:luckperms_meta_chat-color><message>"
         command: "gc"
 
     town:

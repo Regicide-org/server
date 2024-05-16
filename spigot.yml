@@ -35,7 +35,7 @@ settings:
 messages:
   restart: Сервер перезапускается!
   whitelist: You are not whitelisted on this server!
-  unknown-command: ΀ &x&d&8&2&6&2&5Неизвестная команда. Введите "/wiki" для большей
+  unknown-command: ΀ &x&d&8&2&6&2&5Неизвестная команда. Введите "/help" для большей
     информации.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
